@@ -1,0 +1,266 @@
+{
+ "article_id": 49806,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "vann med mer enn to prosent salt",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 52335,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 60372,
+          "lemma": "sjøvann",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 60374,
+          "lemma": "sjøvatn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 14438,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 16729,
+          "lemma": "ferskvann",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 16734,
+          "lemma": "ferskvatn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vann",
+   "hgno": 0,
+   "id": 57144,
+   "inflection_class": "n1",
+   "initial_lexeme": "salt",
+   "lemma": "saltvann",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "saltvann"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "saltvannet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "saltvann"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "saltvanna"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "saltvann"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "saltvannet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "saltvann"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "saltvannene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "vatn",
+   "hgno": 0,
+   "id": 57145,
+   "inflection_class": "n1",
+   "initial_lexeme": "salt",
+   "lemma": "saltvatn",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "saltvatn"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "saltvatnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "saltvatn"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "saltvatna"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "saltvatn"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "saltvatnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "saltvatn"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "saltvatnene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-03-16 07:21:32",
+ "suggest": [
+  "saltvann",
+  "saltvatn"
+ ]
+}

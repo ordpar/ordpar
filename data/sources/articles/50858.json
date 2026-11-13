@@ -1,0 +1,279 @@
+{
+ "article_id": 50858,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "person, institusjon $ som sender noe fra seg, $ en gjenstand",
+        "items": [
+         {
+          "id": "e_l",
+          "type_": "entity"
+         },
+         {
+          "id": "f_eks",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 3751,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 4464,
+            "lemma": "avsender",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "mots",
+          "type_": "entity"
+         },
+         {
+          "article_id": 39348,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 46107,
+            "lemma": "mottaker",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 83793,
+            "lemma": "mottager",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "person eller institusjon som ytrer noe rettet mot en $",
+        "items": [
+         {
+          "article_id": 39348,
+          "definition_id": 1,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 46107,
+            "lemma": "mottaker",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 83793,
+            "lemma": "mottager",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "senderen vet ikke alltid om budskapet når fram til mottakeren",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "apparat $ anlegg som sender ut (elektriske eller digitale) signaler",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "mots",
+          "type_": "entity"
+         },
+         {
+          "article_id": 39348,
+          "definition_id": 5,
+          "definition_order": 3,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 46107,
+            "lemma": "mottaker",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 83793,
+            "lemma": "mottager",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 99398,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 157631,
+            "lemma": "GPS-sender",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 47267,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 54321,
+            "lemma": "radiosender",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 58130,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 66601,
+            "lemma": "støysender",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "sender",
+   "hgno": 0,
+   "id": 58532,
+   "inflection_class": "m2",
+   "lemma": "sender",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sender"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "senderen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sendere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "senderne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-05-15 14:47:50",
+ "suggest": [
+  "sender"
+ ]
+}

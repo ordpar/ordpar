@@ -1,0 +1,126 @@
+{
+ "article_id": 23050,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ fra lege om en persons $",
+      "items": [
+       {
+        "article_id": 3145,
+        "definition_id": 4,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3716,
+          "lemma": "attest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 109870,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 105907,
+          "lemma": "helsetilstand",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 23048,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 27159,
+        "lemma": "helse",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "attest",
+   "hgno": 0,
+   "id": 27161,
+   "inflection_class": "m1",
+   "initial_lexeme": "helse",
+   "lemma": "helseattest",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "helseattest"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "helseattesten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "helseattester"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "helseattestene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-08-23 15:53:07",
+ "suggest": [
+  "helseattest"
+ ]
+}

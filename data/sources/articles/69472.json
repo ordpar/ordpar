@@ -1,0 +1,244 @@
+{
+ "article_id": 69472,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "kornbrennevin som er lagret mer enn tre år på eikefat, hovedsakelig framstilt i Irland, Skottland og Nord-Amerika",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "drikke $ og soda",
+         "items": [
+          {
+           "text": "whisky",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en flaske whisky",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "servere whisky",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "drink, glass eller flaske med $",
+        "items": [
+         {
+          "article_id": 69472,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 80154,
+            "lemma": "whisky",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ta seg en whisky",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "kjøpe med en whisky fra polet",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, av irsk $, av $ ‘vann’ og $ ‘liv’",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "text": "uiscebeathadh",
+      "type_": "usage"
+     },
+     {
+      "text": "uisce",
+      "type_": "usage"
+     },
+     {
+      "text": "bethad",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "etter $ $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "aqua vitae",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 441,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 1225,
+        "lemma": "akevitt",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "visˊki",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "whisky",
+   "hgno": 0,
+   "id": 80154,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "whisky",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "whisky"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "whiskyen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "whiskyer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "whiskyene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-06-24 09:12:55"
+}

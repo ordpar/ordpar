@@ -1,0 +1,130 @@
+{
+ "article_id": 2440,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "spøk som går ut på å $",
+      "items": [
+       {
+        "article_id": 108926,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1146293,
+          "lemma": "narre april",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 2439,
+        "definition_id": 4,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2973,
+          "lemma": "aprilsnarr",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gå på $ i avisen",
+       "items": [
+        {
+         "text": "aprilspøken",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "spøk",
+   "hgno": 0,
+   "id": 2974,
+   "inflection_class": "m1",
+   "initial_lexeme": "april",
+   "is_standard": true,
+   "lemma": "aprilspøk",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aprilspøk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aprilspøken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aprilspøker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aprilspøkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-04-01 06:35:17"
+}

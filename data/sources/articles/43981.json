@@ -1,0 +1,159 @@
+{
+ "article_id": 43981,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "rask utbredelse av smittsom sykdom som rammer mange mennesker i et stort geografisk område, $ i flere verdensdeler",
+      "items": [
+       {
+        "id": "f_eks",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 12604,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 14703,
+          "lemma": "endemi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 12905,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15032,
+          "lemma": "epidemi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $ og $ ‘folk’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "pan-",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "demos",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 43972,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 50927,
+        "lemma": "pan-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "pandemi",
+   "hgno": 0,
+   "id": 50936,
+   "inflection_class": "m1",
+   "lemma": "pandemi",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pandemi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pandemien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pandemier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pandemiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-12 13:24:09",
+ "suggest": [
+  "pandemi"
+ ]
+}

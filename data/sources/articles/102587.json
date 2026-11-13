@@ -1,0 +1,128 @@
+{
+ "article_id": 102587,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "få ny $",
+        "items": [
+         {
+          "article_id": 22119,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 25833,
+            "lemma": "ham",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "helt forandre utseende $ vesen",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bevegelsen ha skiftet ham de siste årene",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 22119,
+        "lemmas": [
+         {
+          "lemma": "ham"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 52713,
+        "lemmas": [
+         {
+          "lemma": "skifte"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "skifte ham",
+   "hgno": 0,
+   "id": 1146585,
+   "is_standard": true,
+   "lemma": "skifte ham",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "skifte ham"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-12-12 13:05:53"
+}

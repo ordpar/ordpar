@@ -1,0 +1,111 @@
+{
+ "article_id": 56763,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ i en stat",
+      "items": [
+       {
+        "article_id": 7043,
+        "definition_id": 6,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 8256,
+          "lemma": "borger",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "være norsk $",
+       "items": [
+        {
+         "items": [],
+         "text": "statsborger",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "borger",
+   "hgno": 0,
+   "id": 65275,
+   "inflection_class": "m2",
+   "initial_lexeme": "stat",
+   "junction": "s",
+   "lemma": "statsborger",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "statsborger"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "statsborgeren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "statsborgere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "statsborgerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-11-24 12:26:03",
+ "suggest": [
+  "statsborger"
+ ]
+}

@@ -1,0 +1,639 @@
+{
+ "article_id": 66098,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "gå i noe som når oppover føtter $ bein",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 66874,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 76971,
+            "lemma": "vasse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ over en elv",
+         "items": [
+          {
+           "text": "vade",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ i den tunge snøen",
+         "items": [
+          {
+           "text": "vade",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ i søle til knes",
+         "items": [
+          {
+           "text": "vade",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "i overført betydning: ha rikelig av",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han $ i penger",
+         "items": [
+          {
+           "text": "vader",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "vaða",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vade",
+   "hgno": 0,
+   "id": 75888,
+   "inflection_class": "verb, v3",
+   "is_standard": true,
+   "lemma": "vade",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "vade"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "vader"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "vades"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "vades"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "vadde"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "vadd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vadd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vadd"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "vadde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "vadde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "vadende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "vad"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 21,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "vade"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "vader"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "vades"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "vades"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "vadet"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "vadet"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vadet"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vadet"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "vadede"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "vadede"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "vadende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "vad"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 7,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "vade"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "vader"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "vades"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "vades"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "vadet"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "vadet"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vadet"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vadet"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "vadete"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "vadete"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "vadende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "vad"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 6,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "va",
+   "hgno": 0,
+   "id": 75877,
+   "inflection_class": "v4",
+   "is_standard": true,
+   "lemma": "va",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "va"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "var"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "vas"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "vas"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "vadde"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "vadd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vadd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vadd"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "vadde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "vadde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "vaende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "va"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 24,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-06-25 08:15:29"
+}

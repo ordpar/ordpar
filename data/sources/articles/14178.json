@@ -1,0 +1,269 @@
+{
+ "article_id": 14178,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ brukt i folkemusikk",
+      "items": [
+       {
+        "article_id": 14808,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 17134,
+          "lemma": "fiolin",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 22402,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 26263,
+          "lemma": "hardingfele",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "spille på $",
+       "items": [
+        {
+         "text": "fele",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "stemme fela",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 101772,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "hoppende glad",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1145521,
+         "lemma": "glad som ei fele",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 101772,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "glad som ei fele"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "fiðla",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 14808,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 17134,
+        "lemma": "fiolin",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "fele",
+   "hgno": 0,
+   "id": 16427,
+   "inflection_class": "m1, f1",
+   "lemma": "fele",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "fele"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "fela"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "feler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "felene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 762,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "fele"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "felen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "feler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "felene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-04-12 10:18:13",
+ "suggest": [
+  "fele"
+ ]
+}

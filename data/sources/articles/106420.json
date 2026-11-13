@@ -1,0 +1,120 @@
+{
+ "article_id": 106420,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "noe som er særlig sårbart hos en person",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "noe som lett vekker irritasjon $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "kommentaren traff et ømt punkt",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "du etterlater deg et sårt punkt",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "content": "Se: $, $, $",
+      "items": [
+       {
+        "article_id": 42730,
+        "lemmas": [
+         {
+          "lemma": "øm"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 46897,
+        "lemmas": [
+         {
+          "lemma": "punkt"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 59481,
+        "lemmas": [
+         {
+          "lemma": "sår"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "[ømt|sårt] punkt",
+   "hgno": 0,
+   "id": 2979886,
+   "is_standard": true,
+   "lemma": "[ømt|sårt] punkt",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2024-03-05",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "[ømt|sårt] punkt"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-10-14 12:44:49"
+}

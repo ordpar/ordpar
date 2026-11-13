@@ -1,0 +1,182 @@
+{
+ "article_id": 37076,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$ i $ entall: krigsflåte med materiell, personer og institusjoner",
+        "items": [
+         {
+          "id": "saerl",
+          "type_": "entity"
+         },
+         {
+          "id": "bf",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 52087,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 59906,
+            "lemma": "sjøforsvar",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "tjenestegjøre i marinen",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ og Kystvakten utgjør til sammen Sjøforsvaret",
+         "items": [
+          {
+           "items": [],
+           "text": "Marinen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "maleri med motiv fra havet",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 37071,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 43488,
+        "lemma": "marin",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "marine",
+   "hgno": 0,
+   "id": 43493,
+   "inflection_class": "m1",
+   "lemma": "marine",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "marine"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "marinen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mariner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "marinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-06-05 11:14:46",
+ "suggest": [
+  "marine"
+ ]
+}

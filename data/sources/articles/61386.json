@@ -1,0 +1,266 @@
+{
+ "article_id": 61386,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "avgift på varer som blir ført over landegrenser",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "betale $",
+         "items": [
+          {
+           "text": "toll",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det er høy $ på tobakk",
+         "items": [
+          {
+           "text": "toll",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 14907,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 17305,
+            "lemma": "fiskaltoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 26445,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 31479,
+            "lemma": "innførselstoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 65326,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 74906,
+            "lemma": "utførselstoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 67901,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 78390,
+            "lemma": "vernetoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 132560,
+          "definition_id": 3,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 147162,
+            "lemma": "tollkontroll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bli stoppet i $",
+         "items": [
+          {
+           "text": "tollen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gå rett gjennom tollen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "tollr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "oppr",
+      "type_": "entity"
+     },
+     {
+      "id": "gr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "toll",
+   "hgno": 1,
+   "id": 2102027,
+   "inflection_class": "m.",
+   "is_standard": true,
+   "lemma": "toll",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "toll"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tollen"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 574,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 1
+  }
+ ],
+ "submitted": "2025-04-03 10:18:01"
+}

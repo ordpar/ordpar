@@ -1,0 +1,115 @@
+{
+ "article_id": 31994,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "side eller kolonne i et regnskap der en fører opp innbetalte summer eller tilgodehavende",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "relation"
+       },
+       {
+        "article_id": 9423,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 11128,
+          "lemma": "debet",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $ ‘betro’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "credere",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kredit",
+   "hgno": 0,
+   "id": 37592,
+   "inflection_class": "m1",
+   "lemma": "kredit",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kredit"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "krediten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "krediter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kreditene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-14 13:36:18",
+ "suggest": [
+  "kredit"
+ ]
+}

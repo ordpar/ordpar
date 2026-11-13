@@ -1,0 +1,204 @@
+{
+ "article_id": 47599,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "svart kråkefugl",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "items": [],
+        "text": "Corvus corax",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 125925,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "helt svart",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "$ $",
+            "items": [
+             {
+              "id": "jf",
+              "type_": "entity"
+             },
+             {
+              "article_id": 47603,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 54694,
+                "lemma": "ravnsvart",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2859447,
+         "lemma": "svart som en ravn",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 125925,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "svart som en ravn"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 125926,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "være fæl til å stjele",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2859449,
+         "lemma": "stjele som en ravn",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 125926,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "stjele som en ravn"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "hrafn",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ravn",
+   "hgno": 0,
+   "id": 54689,
+   "inflection_class": "m1",
+   "lemma": "ravn",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ravn"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ravnen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ravner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ravnene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-01-10 07:55:16",
+ "suggest": [
+  "ravn"
+ ]
+}

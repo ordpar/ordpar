@@ -1,0 +1,900 @@
+{
+ "article_id": 5563,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "si seg uenig i, gå imot",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 3744,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 4456,
+            "lemma": "avsanne",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 5251,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 6176,
+            "lemma": "benekte",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ riktigheten av noe",
+         "items": [
+          {
+           "text": "bestride",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det kan ikke bestrides at …",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 5611,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 6592,
+            "lemma": "betale",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 65638,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 75285,
+            "lemma": "utrede",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ utgiftene til noe",
+         "items": [
+          {
+           "text": "bestride",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘bekjempe’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "i $ 2 fra $",
+    "items": [
+     {
+      "id": "bet",
+      "type_": "relation"
+     },
+     {
+      "id": "ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "bestriˊ",
+    "items": [],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "bestriˊde",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bestri",
+   "hgno": 0,
+   "id": 6539,
+   "inflection_class": "v4, verb",
+   "lemma": "bestri",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "bestri"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "bestrir"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "bestris"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "bestris"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "bestriende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "bestri"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 24,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "bestri"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "bestrir"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "bestris"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "bestris"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "bestred"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "bestriende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "bestri"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 82,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "bestri"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "bestrir"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "bestris"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "bestris"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "bestrei"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "bestridt"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridt"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "bestridte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "bestridte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "bestriende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "bestri"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 83,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "bestride",
+   "hgno": 0,
+   "id": 6540,
+   "inflection_class": "v3, verb",
+   "lemma": "bestride",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "bestride"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "bestrider"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "bestrides"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "bestrides"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "bestridende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "bestrid"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 21,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "bestride"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "bestrider"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "bestrides"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "bestrides"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "bestred"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridd"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "bestridde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "bestridende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "bestrid"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 84,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "bestride"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "bestrider"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "bestrides"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "bestrides"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "bestrei"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "bestridt"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridt"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "bestridt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "bestridte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "bestridte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "bestridende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "bestrid"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 85,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-03-08 09:08:16",
+ "suggest": [
+  "bestri",
+  "bestride"
+ ]
+}

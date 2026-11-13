@@ -1,0 +1,251 @@
+{
+ "article_id": 55803,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "to $ flere trekkdyr spent for vogn, slede $ redskap",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 105330,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "elements": [
+             {
+              "content": "trekke sammen",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           },
+           {
+            "elements": [
+             {
+              "content": "arbeide i lag",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "samarbeide",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 3,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144230,
+         "lemma": "gå i spann",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105330,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "gå i spann"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 14891,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 17284,
+          "lemma": "firspann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 24544,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28950,
+          "lemma": "hundespann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 124483,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 147548,
+          "lemma": "tospann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, av $ ‘spenne’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "spannen",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "spann",
+   "hgno": 2,
+   "id": 81919,
+   "inflection_class": "n1",
+   "lemma": "spann",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "spann"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "spannet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "spann"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "spanna"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "spann"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "spannet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "spann"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "spannene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2016-12-05 01:58:06",
+ "suggest": [
+  "spann"
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "article_id": 42699,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "arbeidstid eller tid satt av til en virksomhet mellom to punkter på dagsplanen",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de tar siste økt og slutter ikke arbeidsdagen før midnatt",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han er klar for en økt med kompisene sine i idrettsparken",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 33136,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 38862,
+            "lemma": "kveldsøkt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 70646,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 148195,
+            "lemma": "treningsøkt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 57903,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 66303,
+            "lemma": "stund",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en hyggelig økt med kaffe og kaker",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "eykt",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "økt",
+   "hgno": 0,
+   "id": 80950,
+   "inflection_class": "m1, f1",
+   "lemma": "økt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "økt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "økta"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "økter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "øktene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "økt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "økten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "økter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "øktene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-12-11 08:53:42",
+ "suggest": [
+  "økt"
+ ]
+}

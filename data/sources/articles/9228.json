@@ -1,0 +1,127 @@
+{
+ "article_id": 9228,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som blir drevet av $",
+      "items": [
+       {
+        "article_id": 37235,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 43659,
+          "lemma": "maskin",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 66456,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76298,
+          "lemma": "vanndamp",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 76961,
+          "lemma": "vassdamp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ ble forbedret av James Watt i 1769",
+       "items": [
+        {
+         "text": "dampmaskinen",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "maskin",
+   "hgno": 0,
+   "id": 10898,
+   "inflection_class": "m1",
+   "initial_lexeme": "damp",
+   "lemma": "dampmaskin",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "dampmaskin"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "dampmaskinen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "dampmaskiner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "dampmaskinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-26 14:58:30",
+ "suggest": [
+  "dampmaskin"
+ ]
+}

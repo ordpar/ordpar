@@ -1,0 +1,265 @@
+{
+ "article_id": 45298,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "nagle, pinne, kile $, brukt som propp eller til å forbinde eller feste noe med",
+        "items": [
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 4329,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 5120,
+            "lemma": "bananplugg",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 12052,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 14085,
+            "lemma": "ekspansjonsplugg",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 60256,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 68919,
+            "lemma": "teltplugg",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "tettvokst person (særlig gutt eller mann)",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gutten var en kraftig $",
+         "items": [
+          {
+           "items": [],
+           "text": "plugg",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 60322,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 68989,
+            "lemma": "tennplugg",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 104410,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "bli eitrende sint",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1142282,
+           "lemma": "tenne på alle pluggene",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 104410,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "tenne på alle pluggene"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 58062,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 66512,
+            "lemma": "støpsel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 6,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘tapp’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "plugg",
+   "hgno": 0,
+   "id": 52278,
+   "inflection_class": "m1",
+   "lemma": "plugg",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "plugg"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pluggen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "plugger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pluggene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-11-08 13:03:58",
+ "suggest": [
+  "plugg"
+ ]
+}

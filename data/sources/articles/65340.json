@@ -1,0 +1,200 @@
+{
+ "article_id": 65340,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$ som inntas som innledning til en bevegelse, $ i dans $ gymnastikk",
+        "items": [
+         {
+          "article_id": 116537,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 117425,
+            "lemma": "kroppsstilling",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "f_eks",
+          "type_": "entity"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$ som grunnlag for konkurranse, virksomhet, videre utvikling $",
+        "items": [
+         {
+          "article_id": 57201,
+          "definition_id": 6,
+          "definition_order": 4,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 84111,
+            "lemma": "stilling",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 65337,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 74918,
+            "lemma": "utgangsposisjon",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "stilling",
+   "hgno": 0,
+   "id": 74921,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "utgang",
+   "is_standard": true,
+   "junction": "s",
+   "lemma": "utgangsstilling",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "utgangsstilling"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "utgangsstillinga"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "utgangsstillinger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "utgangsstillingene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "utgangsstilling"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "utgangsstillingen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "utgangsstillinger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "utgangsstillingene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-09-29 08:20:55"
+}

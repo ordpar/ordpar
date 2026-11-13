@@ -1,0 +1,187 @@
+{
+ "article_id": 5034,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "fisk med $ av $",
+      "items": [
+       {
+        "article_id": 52988,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 61093,
+          "lemma": "skjelett",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 5026,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 5886,
+          "lemma": "bein",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 1,
+          "id": 6147,
+          "lemma": "ben",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "relation"
+       },
+       {
+        "article_id": 7785,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9261,
+          "lemma": "bruskfisk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "fisk",
+   "hgno": 0,
+   "id": 5902,
+   "inflection_class": "m1",
+   "initial_lexeme": "bein",
+   "lemma": "beinfisk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "beinfisk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "beinfisken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "beinfisker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "beinfiskene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "fisk",
+   "hgno": 0,
+   "id": 6186,
+   "inflection_class": "m1",
+   "initial_lexeme": "ben",
+   "lemma": "benfisk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "benfisk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "benfisken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "benfisker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "benfiskene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-09-05 11:58:50",
+ "suggest": [
+  "beinfisk",
+  "benfisk"
+ ]
+}

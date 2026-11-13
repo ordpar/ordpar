@@ -1,0 +1,106 @@
+{
+ "article_id": 44581,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "spiss (eller kløyvd) øvre del på hammer, slegge $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 44982,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 51949,
+        "lemma": "pinne",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "penn",
+   "hgno": 2,
+   "id": 51545,
+   "inflection_class": "m1",
+   "lemma": "penn",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "penn"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pennen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "penner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pennene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-17 07:19:14",
+ "suggest": [
+  "penn"
+ ]
+}

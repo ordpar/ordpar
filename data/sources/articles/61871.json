@@ -1,0 +1,210 @@
+{
+ "article_id": 61871,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "det å $",
+        "items": [
+         {
+          "article_id": 61874,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 70760,
+            "lemma": "transpirere",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 130907,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 144364,
+            "lemma": "svetting",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "være plaget av $",
+         "items": [
+          {
+           "text": "transpirasjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 58692,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 67176,
+            "lemma": "svette",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "flekker av $",
+         "items": [
+          {
+           "text": "transpirasjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 61874,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 70760,
+        "lemma": "transpirere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "transpirasjon",
+   "hgno": 0,
+   "id": 70757,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "transpirasjon",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "transpirasjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "transpirasjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "transpirasjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "transpirasjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-03-27 11:56:22"
+}

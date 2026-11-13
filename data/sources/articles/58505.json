@@ -1,0 +1,843 @@
+{
+ "article_id": 58505,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "ynke seg",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 30319,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 35742,
+            "lemma": "klynke",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "barnet $",
+         "items": [
+          {
+           "text": "sutret",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 59175,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 67745,
+            "lemma": "syte",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han går og $ bestandig",
+         "items": [
+          {
+           "text": "sutrer",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 58502,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 66972,
+        "lemma": "sut",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sutre",
+   "hgno": 0,
+   "id": 66975,
+   "inflection_class": "verb",
+   "lemma": "sutre",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "sutre"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "sutrer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "sutrende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "sutr"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 1,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "sutre"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "sutrer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "sutrete"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "sutrete"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "sutrende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "sutr"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 6,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "sutre"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "sutrer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "sutra"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "sutrende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "sutre"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 5,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "sutre"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "sutrer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "sutrete"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "sutrete"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "sutrende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "sutre"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 13,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "sutre"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "sutrer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "sutrede"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "sutrede"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "sutrende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "sutr"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 7,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "sutre"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "sutrer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "sutres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sutret"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "sutrede"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "sutrede"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "sutrende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "sutre"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 15,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-06-18 05:54:27",
+ "suggest": [
+  "sutre"
+ ]
+}

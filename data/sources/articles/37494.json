@@ -1,0 +1,229 @@
+{
+ "article_id": 37494,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "myntlignende metallstykke preget til minne om en stor begivenhet $ $ brukt som premie $ hederstegn",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "Norge fikk bare én $ i VM",
+       "items": [
+        {
+         "items": [],
+         "text": "medalje",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 103908,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "ulempen eller skyggesiden ved noe",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144010,
+         "lemma": "medaljens bakside",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 103908,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "medaljens bakside"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 17135,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19886,
+          "lemma": "fortjenstmedalje",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 19884,
+          "lemma": "fortjenestemedalje",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 21550,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 25180,
+          "lemma": "gullmedalje",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ og $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     },
+     {
+      "id": "it.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ ‘metallmynt’",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ‘metall’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "metallum",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "medalje",
+   "hgno": 0,
+   "id": 43953,
+   "inflection_class": "m1",
+   "lemma": "medalje",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "medalje"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "medaljen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "medaljer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "medaljene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-03-08 06:53:44",
+ "suggest": [
+  "medalje"
+ ]
+}

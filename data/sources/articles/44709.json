@@ -1,0 +1,171 @@
+{
+ "article_id": 44709,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "hver av de to sideplatene på en innbundet bok",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "jeg har lest boka fra $ til $",
+         "items": [
+          {
+           "items": [],
+           "text": "perm",
+           "type_": "usage"
+          },
+          {
+           "items": [],
+           "text": "perm",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "omslag til løse papirer",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 48632,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 55854,
+            "lemma": "ringperm",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 108873,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 161961,
+            "lemma": "samleperm",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "kortform av $",
+    "items": [
+     {
+      "article_id": 44653,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 51620,
+        "lemma": "pergament",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "perm",
+   "hgno": 1,
+   "id": 81766,
+   "inflection_class": "m1",
+   "lemma": "perm",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "perm"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "permen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "permer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "permene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-13 12:39:30",
+ "suggest": [
+  "perm"
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "article_id": 132741,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "utendørs $",
+      "items": [
+       {
+        "article_id": 33503,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 39310,
+          "lemma": "lager",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 61457,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 70299,
+          "lemma": "tomt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "tomt",
+   "hgno": 0,
+   "id": 118927,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "lager",
+   "is_standard": true,
+   "lemma": "lagertomt",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lagertomt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lagertomta"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lagertomter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lagertomtene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lagertomt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lagertomten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lagertomter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lagertomtene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2025-09-04 12:50:57"
+}

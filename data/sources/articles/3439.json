@@ -1,0 +1,223 @@
+{
+ "article_id": 3439,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "(verdiløse) rester fra industri, husholdning $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 47521,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 54591,
+          "lemma": "rask",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 59328,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 67970,
+          "lemma": "søppel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ fra slakting",
+       "items": [
+        {
+         "text": "avfall",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "kaste $ i en søppeldunk",
+       "items": [
+        {
+         "text": "avfallet",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ ‘verditap, avslag’, opprinnelig ‘noe som falt av’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "affall",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "id": "ty.",
+      "type_": "entity"
+     },
+     {
+      "text": "Abfall",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "fall",
+   "hgno": 0,
+   "id": 4085,
+   "inflection_class": "n1",
+   "initial_lexeme": "av",
+   "lemma": "avfall",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "avfall"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "avfallet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "avfall"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "avfalla"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "avfall"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "avfallet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "avfall"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "avfallene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-02-28 07:52:26",
+ "suggest": [
+  "avfall"
+ ]
+}

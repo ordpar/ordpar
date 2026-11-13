@@ -1,0 +1,153 @@
+{
+ "article_id": 66303,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ der korn og lignende males mellom $",
+      "items": [
+       {
+        "article_id": 39829,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 46796,
+          "lemma": "mølle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 66298,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 76103,
+          "lemma": "valse",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 2,
+          "id": 76099,
+          "lemma": "vals",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "valser"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "mølle",
+   "hgno": 0,
+   "id": 76106,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "valse",
+   "is_standard": true,
+   "lemma": "valsemølle",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "valsemølle"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "valsemølla"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "valsemøller"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "valsemøllene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 762,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "valsemølle"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "valsemøllen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "valsemøller"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "valsemøllene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-04-23 08:13:51"
+}

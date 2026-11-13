@@ -1,0 +1,159 @@
+{
+ "article_id": 38074,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "etterledd i sammensetninger: som er i samsvar med, ligner på $ er særegent for det som førsteleddet nevner",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 4053,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 4826,
+          "lemma": "bagatellmessig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 48386,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 55574,
+          "lemma": "rettmessig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 56679,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 65183,
+          "lemma": "standsmessig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $ ‘mål, måte’",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "Mass",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "-messig",
+   "hgno": 0,
+   "id": 243,
+   "inflection_class": "a2",
+   "lemma": "-messig",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "-messig"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "-messige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "-messige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "-messig"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-24 12:52:58",
+ "suggest": [
+  "-messig"
+ ]
+}

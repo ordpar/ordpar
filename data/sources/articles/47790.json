@@ -1,0 +1,283 @@
+{
+ "article_id": 47790,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "om $ $: høyere administrativ hærenhet",
+        "items": [
+         {
+          "id": "no_e",
+          "type_": "entity"
+         },
+         {
+          "id": "forh",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "om $ $: høyere taktisk enhet innenfor de stridende våpengrenene",
+        "items": [
+         {
+          "id": "utenl",
+          "type_": "entity"
+         },
+         {
+          "id": "forh",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 26119,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 31099,
+            "lemma": "infanteriregiment",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 120421,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 112809,
+            "lemma": "kavaleriregiment",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘styre’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "regiment",
+   "hgno": 0,
+   "id": 54883,
+   "inflection_class": "n3",
+   "lemma": "regiment",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "regiment"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "regimentet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "regiment"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "regimenta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "regiment"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "regimentet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "regimenter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "regimenta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 670,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "regiment"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "regimentet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "regiment"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "regimentene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "regiment"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "regimentet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "regimenter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "regimentene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 680,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-15 13:22:11",
+ "suggest": [
+  "regiment"
+ ]
+}

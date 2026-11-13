@@ -1,0 +1,132 @@
+{
+ "article_id": 46114,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "det å være prest",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "geistlig stand",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "prester til forskjell fra lekfolk $ andre samfunnsklasser",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 56654,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 82128,
+        "lemma": "stand",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "stand",
+   "hgno": 0,
+   "id": 53123,
+   "inflection_class": "m1",
+   "initial_lexeme": "prest",
+   "junction": "e",
+   "lemma": "prestestand",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "prestestand"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "prestestanden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "prestestander"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "prestestandene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-11-30 12:38:41",
+ "suggest": [
+  "prestestand"
+ ]
+}

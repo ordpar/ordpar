@@ -1,0 +1,246 @@
+{
+ "article_id": 43001,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "det å rykke opp til høyere lønnstrinn $ stilling",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "få første $ etter to år",
+         "items": [
+          {
+           "items": [],
+           "text": "opprykk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "stillingen ble besatt ved internt $",
+         "items": [
+          {
+           "items": [],
+           "text": "opprykk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: $ til høyere divisjon",
+        "items": [
+         {
+          "id": "i_idr",
+          "type_": "entity"
+         },
+         {
+          "article_id": 3346,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 3982,
+            "lemma": "avansement",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 43002,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 49831,
+            "lemma": "opprykking",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 49832,
+            "lemma": "opprykning",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "laget satser på $ til førstedivisjon",
+         "items": [
+          {
+           "items": [],
+           "text": "opprykk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "annotated_lemma": null,
+   "final_lexeme": "rykk",
+   "hgno": 0,
+   "id": 49830,
+   "inflection_class": "n.",
+   "initial_lexeme": "opp",
+   "lemma": "opprykk",
+   "markdown_lemma": "opprykk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "markdown_word_form": "opprykk",
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "opprykk"
+      },
+      {
+       "markdown_word_form": "opprykket",
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "opprykket"
+      },
+      {
+       "markdown_word_form": "opprykk",
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "opprykk"
+      },
+      {
+       "markdown_word_form": "opprykka",
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "opprykka"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "markdown_word_form": "opprykk",
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "opprykk"
+      },
+      {
+       "markdown_word_form": "opprykket",
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "opprykket"
+      },
+      {
+       "markdown_word_form": "opprykk",
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "opprykk"
+      },
+      {
+       "markdown_word_form": "opprykkene",
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "opprykkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-07 12:19:51",
+ "suggest": [
+  "opprykk"
+ ]
+}

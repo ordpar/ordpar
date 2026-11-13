@@ -1,0 +1,9 @@
+{
+  "name": "ordpar-audio",
+  "private": true,
+  "type": "module",
+  "description": "The Ordpar audio Worker: serves the pronunciation clips from the private R2 bucket (audio decisions 12, 15; site 159).",
+  "devDependencies": {
+    "wrangler": "4.152.0"
+  }
+}

@@ -1,0 +1,144 @@
+{
+ "article_id": 1721,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "hannand, $",
+      "items": [
+       {
+        "article_id": 1691,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2163,
+          "lemma": "andestegg",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 1651,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2121,
+          "lemma": "and",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $ $ ‘konge’",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "rex",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "andrik",
+   "hgno": 0,
+   "id": 2216,
+   "inflection_class": "m1",
+   "lemma": "andrik",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "andrik"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "andriken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "andriker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "andrikene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-19 10:13:40",
+ "suggest": [
+  "andrik"
+ ]
+}

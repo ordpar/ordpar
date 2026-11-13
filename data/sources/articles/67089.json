@@ -1,0 +1,160 @@
+{
+ "article_id": 67089,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "uthus til å ha $ i",
+      "items": [
+       {
+        "article_id": 67029,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 77244,
+          "lemma": "ved",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 53107,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 61222,
+          "lemma": "skjul",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "skjul",
+   "hgno": 0,
+   "id": 77315,
+   "inflection_class": "n1",
+   "initial_lexeme": "ved",
+   "lemma": "vedskjul",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vedskjul"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "vedskjulet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vedskjul"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vedskjula"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vedskjul"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "vedskjulet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vedskjul"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vedskjulene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-09-03 13:19:24",
+ "suggest": [
+  "vedskjul"
+ ]
+}

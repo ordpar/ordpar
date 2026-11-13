@@ -1,0 +1,132 @@
+{
+ "article_id": 47932,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "klede $ tøyremse til å svøpe spedbarn i",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 6318,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 7422,
+          "lemma": "bleie",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ligge i reiver",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "id": "fl",
+      "type_": "grammar"
+     },
+     {
+      "items": [],
+      "text": "reifar",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "reiv",
+   "hgno": 2,
+   "id": 55063,
+   "inflection_class": "m1",
+   "lemma": "reiv",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "reiv"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "reiven"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "reiver"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "reivene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-01-30 14:54:48",
+ "suggest": [
+  "reiv"
+ ]
+}

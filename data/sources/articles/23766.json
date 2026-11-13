@@ -1,0 +1,202 @@
+{
+ "article_id": 23766,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "tillatelse til å reise hjem",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "permisjon",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 35831,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 81705,
+          "lemma": "lov",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 102756,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "dø",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "15. april fikk hun hjemlov etter et slitsomt liv",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144795,
+         "lemma": "få hjemlov",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 102756,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "få hjemlov"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "lov",
+   "hgno": 0,
+   "id": 28005,
+   "inflection_class": "m.,n.",
+   "initial_lexeme": "hjem",
+   "is_standard": true,
+   "lemma": "hjemlov",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "hjemlov"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 665,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc",
+      "Uninfl"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "hjemlov"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 758,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  },
+  {
+   "added_norm": false,
+   "final_lexeme": "lov",
+   "hgno": 0,
+   "id": 26924,
+   "inflection_class": "m.,n.",
+   "initial_lexeme": "heim",
+   "is_standard": true,
+   "lemma": "heimlov",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "heimlov"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 665,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc",
+      "Uninfl"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "heimlov"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 758,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2021-03-16 08:37:39"
+}

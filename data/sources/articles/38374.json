@@ -1,0 +1,228 @@
+{
+ "article_id": 38374,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $ $: et lands $ eller $",
+      "items": [
+       {
+        "id": "bf",
+        "type_": "entity"
+       },
+       {
+        "id": "ent",
+        "type_": "entity"
+       },
+       {
+        "article_id": 17007,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19747,
+          "lemma": "forsvar",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 32105,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 37707,
+          "lemma": "krigsmakt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 38390,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 45039,
+          "lemma": "militærtjeneste",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "være i $",
+       "items": [
+        {
+         "items": [],
+         "text": "militæret",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bli innkalt til $",
+       "items": [
+        {
+         "items": [],
+         "text": "militæret",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 38375,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 45024,
+        "lemma": "militær",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "militær",
+   "hgno": 1,
+   "id": 45025,
+   "inflection_class": "n1",
+   "lemma": "militær",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "militær"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "militæret"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "militær"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "militæra"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "militær"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "militæret"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "militær"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "militærene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-05 13:18:39",
+ "suggest": [
+  "militær"
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "article_id": 36298,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "skjønnlitterær sjanger som med rim, rytme, oppdeling i vers eller spesielt grafisk oppsett uttrykker følelser, stemninger, tanker $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 45380,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52363,
+          "lemma": "poesi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 10750,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12572,
+          "lemma": "dramatikk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 12921,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15049,
+          "lemma": "epikk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 36299,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 42126,
+        "lemma": "lyrisk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lyrikk",
+   "hgno": 0,
+   "id": 42125,
+   "inflection_class": "m1",
+   "lemma": "lyrikk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lyrikk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lyrikken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lyrikker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lyrikkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-20 09:40:39",
+ "suggest": [
+  "lyrikk"
+ ]
+}

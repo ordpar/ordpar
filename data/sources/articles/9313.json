@@ -1,0 +1,132 @@
+{
+ "article_id": 9313,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "elektronisk maskin som kan behandle store mengder data automatisk",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $, $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 44483,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 51448,
+          "lemma": "pc",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 633,
+          "lemma": "PC",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 38820,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 45545,
+          "lemma": "mobiltelefon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 100554,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 160137,
+          "lemma": "nettbrett",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "maskin",
+   "hgno": 0,
+   "id": 10992,
+   "inflection_class": "m1",
+   "initial_lexeme": "data",
+   "lemma": "datamaskin",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "datamaskin"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "datamaskinen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "datamaskiner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "datamaskinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-09-21 13:38:20",
+ "suggest": [
+  "datamaskin"
+ ]
+}

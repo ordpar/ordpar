@@ -1,0 +1,140 @@
+{
+ "article_id": 10635,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "kraftig bomullstøy, opprinnelig brukt til arbeidsklær",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "klær av $",
+        "items": [
+         {
+          "article_id": 10635,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12426,
+            "lemma": "dongeri",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "folk i $ får ikke adgang",
+         "items": [
+          {
+           "text": "dongeri",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, fra hindi",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "dungaree",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dongeri",
+   "hgno": 0,
+   "id": 12426,
+   "inflection_class": "m1",
+   "lemma": "dongeri",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "dongeri"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "dongerien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "dongerier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "dongeriene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-22 08:06:51",
+ "suggest": [
+  "dongeri"
+ ]
+}

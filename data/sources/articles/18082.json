@@ -1,0 +1,120 @@
+{
+ "article_id": 18082,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "lokale der en eller flere frisører driver virksomheten sin",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 18119,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 21208,
+          "lemma": "frisørsalong",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 49762,
+        "definition_id": 8,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 57094,
+          "lemma": "salong",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "salong",
+   "hgno": 0,
+   "id": 21168,
+   "inflection_class": "m1",
+   "initial_lexeme": "friser",
+   "lemma": "frisersalong",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "frisersalong"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "frisersalongen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "frisersalonger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "frisersalongene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-12-14 14:44:35",
+ "suggest": [
+  "frisersalong"
+ ]
+}

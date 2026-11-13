@@ -1,0 +1,227 @@
+{
+ "article_id": 37685,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "lære om apparater og maskiner",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 37249,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 43673,
+            "lemma": "maskinlære",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "et grunnkurs i mekanikk",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "måte som apparater og maskiner virker på",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 37242,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 43666,
+            "lemma": "maskineri",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 37688,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 44189,
+            "lemma": "mekanisme",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en sinnrik $",
+         "items": [
+          {
+           "items": [],
+           "text": "mekanikk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "interessere seg for $",
+         "items": [
+          {
+           "items": [],
+           "text": "mekanikk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i fysikk: lære om likevekt og bevegelse hos legemer, og om krefter som virker på dem",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, av $ ‘verktøy, redskap’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "mekhanikos",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "mekhane",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mekanikk",
+   "hgno": 0,
+   "id": 44186,
+   "inflection_class": "m1",
+   "lemma": "mekanikk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mekanikk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "mekanikken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mekanikker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "mekanikkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-03-17 10:30:45",
+ "suggest": [
+  "mekanikk"
+ ]
+}

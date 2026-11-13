@@ -1,0 +1,121 @@
+{
+ "article_id": 120273,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som er valgt inn i et $",
+      "items": [
+       {
+        "article_id": 30991,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 36502,
+          "lemma": "kommunestyre",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 120272,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 115056,
+          "lemma": "kommunestyremedlem",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "han er kommunestyrerepresentant for Rødt",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "representant",
+   "hgno": 0,
+   "id": 115058,
+   "inflection_class": "m1",
+   "initial_lexeme": "kommunestyre",
+   "lemma": "kommunestyrerepresentant",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kommunestyrerepresentant"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kommunestyrerepresentanten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kommunestyrerepresentanter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kommunestyrerepresentantene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-27 13:49:30",
+ "suggest": [
+  "kommunestyrerepresentant"
+ ]
+}

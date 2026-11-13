@@ -1,0 +1,189 @@
+{
+ "article_id": 39498,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 29458,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 34794,
+          "lemma": "kjekle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 31936,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 37528,
+          "lemma": "krangle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "stå og $ med noen",
+       "items": [
+        {
+         "items": [],
+         "text": "munnhogges",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hogges",
+   "hgno": 0,
+   "id": 46272,
+   "inflection_class": "verb",
+   "initial_lexeme": "munn",
+   "lemma": "munnhogges",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "munnhogges"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "munnhogges"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "munnhogdes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "munnhogdes"
+      },
+      {
+       "tags": [
+        "Imp",
+        "<SPass>"
+       ],
+       "word_form": "munnhogges"
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 319,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "hugges",
+   "hgno": 0,
+   "id": 46275,
+   "inflection_class": "verb",
+   "initial_lexeme": "munn",
+   "lemma": "munnhugges",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "munnhugges"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "munnhugges"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "munnhugdes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "munnhugdes"
+      },
+      {
+       "tags": [
+        "Imp",
+        "<SPass>"
+       ],
+       "word_form": "munnhugges"
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 319,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-04-26 11:39:54",
+ "suggest": [
+  "munnhogges",
+  "munnhugges",
+  "munnhogges__munnhogges",
+  "munnhugges__munnhugges"
+ ]
+}

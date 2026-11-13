@@ -1,0 +1,101 @@
+{
+ "article_id": 113110,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "langstrakt fjellparti",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 49244,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 56533,
+          "lemma": "rygg",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "rygg",
+   "hgno": 0,
+   "id": 98413,
+   "inflection_class": "m1",
+   "initial_lexeme": "fjell",
+   "lemma": "fjellrygg",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "fjellrygg"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "fjellryggen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "fjellrygger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "fjellryggene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-10-28 21:58:17",
+ "suggest": [
+  "fjellrygg"
+ ]
+}

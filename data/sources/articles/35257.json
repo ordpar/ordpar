@@ -1,0 +1,186 @@
+{
+ "article_id": 35257,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "klebrig stoff som klistrer $ binder sammen stykker av papir, tre, metall $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "id": "o_a",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 31374,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 36903,
+          "lemma": "kontaktlim",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 70509,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 158543,
+          "lemma": "tapetlim",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ ‘bindemiddel, kalk’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "lím",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ ‘slam’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lim",
+   "hgno": 0,
+   "id": 41025,
+   "inflection_class": "n1",
+   "lemma": "lim",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lim"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "limet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lim"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lima"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lim"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "limet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lim"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "limene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-12-09 11:16:38",
+ "suggest": [
+  "lim"
+ ]
+}

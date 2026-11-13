@@ -1,0 +1,180 @@
+{
+ "article_id": 1223,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "som er moralsk lytefri",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 2116,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2646,
+          "lemma": "anstendig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 59302,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 67936,
+          "lemma": "sømmelig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "leve et ærbart liv",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en ærbar kvinne",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 1227,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 80801,
+        "lemma": "ære",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ærbar",
+   "hgno": 0,
+   "id": 80796,
+   "inflection_class": "a1",
+   "is_standard": true,
+   "lemma": "ærbar",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "ærbar"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "ærbare"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "ærbare"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "ærbart"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-11-15 13:19:14"
+}

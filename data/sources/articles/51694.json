@@ -1,0 +1,175 @@
+{
+ "article_id": 51694,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "engelsk tittel for medlemmer av $ brukt foran fornavnet",
+        "items": [
+         {
+          "article_id": 34079,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 39990,
+            "lemma": "lavadel",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 42292,
+            "lemma": "lågadel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "lavadelen"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "vørdsamt tiltaleord til en herre når navnet ikke nevnes",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 23364,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 27550,
+            "lemma": "herr",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $, komparativ av $ ‘gammel’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "senior",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "senex",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "søˊr",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "sir",
+   "hgno": 2,
+   "id": 59428,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "sir",
+   "mo_link": 2,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sir"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "siren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sirer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sirene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 2
+  }
+ ],
+ "submitted": "2023-10-16 13:07:02"
+}

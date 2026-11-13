@@ -1,0 +1,111 @@
+{
+ "article_id": 109169,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som gir tilgang til informasjon og tjenester på $",
+      "items": [
+       {
+        "article_id": 9321,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 11000,
+          "lemma": "dataprogram",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 100514,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 156621,
+          "lemma": "internett",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 156832,
+          "lemma": "Internett",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "leser",
+   "hgno": 0,
+   "id": 162124,
+   "inflection_class": "m2",
+   "initial_lexeme": "nett",
+   "lemma": "nettleser",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "nettleser"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "nettleseren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "nettlesere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "nettleserne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-03 14:24:16",
+ "suggest": [
+  "nettleser"
+ ]
+}

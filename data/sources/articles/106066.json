@@ -1,0 +1,114 @@
+{
+ "article_id": 106066,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "(aksje)selskap der medlemmene ved en konkurs bare er ansvarlig for sitt eget aksjeinnskudd, ikke selskapets øvrige gjeld $",
+      "items": [
+       {
+        "id": "o_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 100705,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1143323,
+          "lemma": "ansvarlig selskap",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "aksjeselskap er uansvarlige selskap",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 50605,
+        "lemmas": [
+         {
+          "lemma": "selskap"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 63589,
+        "lemmas": [
+         {
+          "lemma": "uansvarlig"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "uansvarlig selskap",
+   "hgno": 0,
+   "id": 1142850,
+   "is_standard": true,
+   "lemma": "uansvarlig selskap",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "uansvarlig selskap"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-07-22 12:08:34"
+}

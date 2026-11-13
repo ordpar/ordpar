@@ -1,0 +1,146 @@
+{
+ "article_id": 36090,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "blåseinstrument av tre $ metall, oftest et langt, kjegleformet rør",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "blåse i en $",
+       "items": [
+        {
+         "text": "lur",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 40757,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 47698,
+          "lemma": "neverlur",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 63506,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 72502,
+          "lemma": "tåkelur",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, opprinnelig ‘uthulet trestokk’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "lúðr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lur",
+   "hgno": 1,
+   "id": 41898,
+   "inflection_class": "m1",
+   "lemma": "lur",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lur"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "luren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lurer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lurene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-15 15:43:33",
+ "suggest": [
+  "lur"
+ ]
+}

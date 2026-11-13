@@ -1,0 +1,145 @@
+{
+ "article_id": 67105,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "i veving: tråder som går på tvers av $",
+      "items": [
+       {
+        "article_id": 48120,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 55275,
+          "lemma": "renning",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "renningen"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 27269,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 32376,
+          "lemma": "islett",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "veftr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 68122,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 78650,
+        "lemma": "veve",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "veft",
+   "hgno": 0,
+   "id": 77332,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "veft",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "veft"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "veften"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vefter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "veftene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-09-12 09:21:16"
+}

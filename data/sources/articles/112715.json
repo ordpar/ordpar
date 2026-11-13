@@ -1,0 +1,132 @@
+{
+ "article_id": 112715,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "samling av $",
+      "items": [
+       {
+        "article_id": 112704,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 97562,
+          "lemma": "festdeltaker",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 163946,
+          "lemma": "festdeltager",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "festdeltakere"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 36172,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 41987,
+          "lemma": "lyd",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "toastmasteren loset festlyden gjennom kvelden",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lyd",
+   "hgno": 0,
+   "id": 163948,
+   "inflection_class": "m1",
+   "initial_lexeme": "fest",
+   "lemma": "festlyd",
+   "paradigm_info": [
+    {
+     "from": "2020-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "festlyd"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "festlyden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "festlyder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "festlydene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-12-21 11:25:48",
+ "suggest": [
+  "festlyd"
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "article_id": 67,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "et punkts x-verdi i et $",
+      "items": [
+       {
+        "article_id": 31532,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 37070,
+          "lemma": "koordinatsystem",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 43252,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50111,
+          "lemma": "ordinat",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ($) ‘avskåret (linje)'",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "abscissa",
+      "type_": "usage"
+     },
+     {
+      "text": "linea",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "absisˋse",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "abscisse",
+   "hgno": 0,
+   "id": 862,
+   "inflection_class": "m1",
+   "lemma": "abscisse",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "abscisse"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "abscissen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "abscisser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "abscissene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-19 07:43:42",
+ "suggest": [
+  "abscisse"
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "article_id": 64350,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "underliggende $",
+      "items": [
+       {
+        "article_id": 43990,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50945,
+          "lemma": "panel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 64340,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 73683,
+          "lemma": "underlag",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 18391,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 21510,
+          "lemma": "fundament",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 43675,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50588,
+          "lemma": "overligger",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ligger",
+   "hgno": 0,
+   "id": 73693,
+   "inflection_class": "m2",
+   "initial_lexeme": "under",
+   "lemma": "underligger",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "underligger"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "underliggeren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "underliggere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "underliggerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-23 12:50:36",
+ "suggest": [
+  "underligger"
+ ]
+}

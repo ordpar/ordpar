@@ -1,0 +1,260 @@
+{
+ "article_id": 52732,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "ønskelig tilstand",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 43220,
+          "definition_id": 5,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 50076,
+            "lemma": "orden",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "få skikk på noe",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 50343,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 57755,
+            "lemma": "sedvane",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en gammel $",
+         "items": [
+          {
+           "text": "skikk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 132815,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "vanlig og tradisjonsbundet væremåte",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "han har ikke lært skikk og bruk hjemme",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2980825,
+           "lemma": "skikk og bruk",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 132815,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "skikk og bruk"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 128264,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "tilpasse seg",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2871964,
+           "lemma": "ta skikken der en kommer",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 128264,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "ta skikken der en kommer"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘form, riktig tilstand’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "skikk",
+   "hgno": 0,
+   "id": 60821,
+   "inflection_class": "m1",
+   "lemma": "skikk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "skikk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "skikken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "skikker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "skikkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-12-11 10:11:12",
+ "suggest": [
+  "skikk"
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "article_id": 43018,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "som er planlagt eller fastsatt",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 27401,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 32490,
+            "lemma": "ivrig",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 36401,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 42249,
+            "lemma": "lysten",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "være $ på noe",
+         "items": [
+          {
+           "items": [],
+           "text": "oppsatt",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘bestemme (seg til) noe’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "upsetten",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "satt",
+   "hgno": 0,
+   "id": 49849,
+   "inflection_class": "a2",
+   "initial_lexeme": "opp",
+   "lemma": "oppsatt",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "oppsatt"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "oppsatte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "oppsatte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "oppsatt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-20 10:28:02",
+ "suggest": [
+  "oppsatt"
+ ]
+}

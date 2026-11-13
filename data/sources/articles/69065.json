@@ -1,0 +1,385 @@
+{
+ "article_id": 69065,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "holde avstemning",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 56969,
+        "definition_id": 5,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 65517,
+          "lemma": "stemme",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ for noe",
+       "items": [
+        {
+         "text": "votere",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ mot noe",
+       "items": [
+        {
+         "text": "votere",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de $ over forslaget",
+       "items": [
+        {
+         "text": "voterte",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 106372,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "stemme inn (i et parti, styre $)",
+            "items": [
+             {
+              "id": "e_l",
+              "type_": "entity"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "hun ble votert inn på tredje plass",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1141002,
+         "lemma": "votere inn",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 106372,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "votere inn"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 106373,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "stemme over og forkaste",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1143794,
+         "lemma": "votere ned",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 106373,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "votere ned"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ eller $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ‘løfte, ønske’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "votum",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 69074,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 79718,
+        "lemma": "votum",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "votere",
+   "hgno": 0,
+   "id": 79708,
+   "inflection_class": "v2",
+   "lemma": "votere",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "votere"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "voterer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "voteres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "voteres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "voterte"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "votert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "votert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "votert"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "voterte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "voterte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "voterende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "voter"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 16,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-25 13:56:15",
+ "suggest": [
+  "votere"
+ ]
+}

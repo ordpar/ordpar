@@ -1,0 +1,212 @@
+{
+ "article_id": 8020,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "underside eller nederste del av kropp på dyr",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hestene stod i vann til $",
+         "items": [
+          {
+           "text": "buken",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$ på menneske",
+        "items": [
+         {
+          "article_id": 36512,
+          "definition_id": 5,
+          "definition_order": 4,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 42861,
+            "lemma": "mage",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 43898,
+            "lemma": "mave",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "mannen fikk alvorlige skader i buken",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 6,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "rundet del på beholder eller lignende",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 7,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "understell på flykropp",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 8036,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 9553,
+            "lemma": "buklande",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 9,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "búkr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "buk",
+   "hgno": 0,
+   "id": 9535,
+   "inflection_class": "m1",
+   "lemma": "buk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "buk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "buken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "buker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bukene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-07-31 11:05:10",
+ "suggest": [
+  "buk"
+ ]
+}

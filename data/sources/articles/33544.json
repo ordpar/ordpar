@@ -1,0 +1,249 @@
+{
+ "article_id": 33544,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "i perioden mellom 1814 og 2009: den minste av to avdelinger i Stortinget, med en firedel av dets medlemmer",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "til forskjell fra $",
+        "items": [
+         {
+          "article_id": 41803,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 48893,
+            "lemma": "odelsting",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 7,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i $ $: nasjonalforsamlingen på Færøyene",
+        "items": [
+         {
+          "id": "bf",
+          "type_": "entity"
+         },
+         {
+          "id": "ent",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "om $ $: øverste $ som avsa dommer, gav lover og fungerte som politiske forsamlinger i et større distrikt",
+        "items": [
+         {
+          "id": "e",
+          "type_": "entity"
+         },
+         {
+          "id": "forh",
+          "type_": "entity"
+         },
+         {
+          "article_id": 61048,
+          "definition_id": 6,
+          "definition_order": 4,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 69825,
+            "lemma": "ting",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 6,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "lǫgþing",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 33493,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 39298,
+        "lemma": "lag-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 61048,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 69825,
+        "lemma": "ting",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "ting",
+   "hgno": 0,
+   "id": 39359,
+   "inflection_class": "n1",
+   "initial_lexeme": "lag",
+   "lemma": "lagting",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lagting"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lagtinget"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lagting"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lagtinga"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lagting"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lagtinget"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lagting"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lagtingene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-05-16 08:49:15",
+ "suggest": [
+  "lagting"
+ ]
+}

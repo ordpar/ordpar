@@ -1,0 +1,181 @@
+{
+ "article_id": 8581,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "article": {
+       "article_id": 111492,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "brukt for å uttrykke at utsagnet gjelder begge (eller alle) leddene uttrykket binder sammen i like stor grad",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "så vel … som …",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "ikke bare …, men også …",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "$ $",
+            "items": [
+             {
+              "id": "jf",
+              "type_": "entity"
+             },
+             {
+              "article_id": 111482,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 163373,
+                "lemma": "både-og",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "både barn og voksne",
+             "items": []
+            },
+            "type_": "example"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "jeg både lo og gråt",
+             "items": []
+            },
+            "type_": "example"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "både lokalt, regionalt og nasjonalt",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1146740,
+         "lemma": "både … og …",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 111492,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "både … og …"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ ‘begge ting, deler’, $ av $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "bæði",
+      "type_": "usage"
+     },
+     {
+      "id": "n",
+      "type_": "grammar"
+     },
+     {
+      "text": "báðir",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "både",
+   "hgno": 0,
+   "id": 10030,
+   "lemma": "både",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "både"
+      }
+     ],
+     "inflection_group": "CCONJ",
+     "paradigm_id": 561,
+     "standardisation": "STANDARD",
+     "tags": [
+      "CCONJ",
+      "<ADV>"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-10-04 13:10:17",
+ "suggest": [
+  "både"
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "article_id": 35898,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 15213,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 17659,
+          "lemma": "flamme",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 25791,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 30762,
+          "lemma": "ildtunge",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "byen gikk opp i luer",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 103759,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "i flammer",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "i brann",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "båten stod i lys lue",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144924,
+         "lemma": "i lys lue",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 103759,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "i lys lue"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "da.",
+      "type_": "language"
+     },
+     {
+      "text": "lue",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "logi",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 36300,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 42129,
+        "lemma": "lys",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "lue",
+   "hgno": 2,
+   "id": 41690,
+   "inflection_class": "m1",
+   "lemma": "lue",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lue"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "luen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "luer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "luene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "added_norm": false,
+   "final_lexeme": "loge",
+   "hgno": 1,
+   "id": 41443,
+   "inflection_class": "m1",
+   "lemma": "loge",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "loge"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "logen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "loger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "logene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-21 11:48:32",
+ "suggest": [
+  "lue",
+  "loge"
+ ]
+}

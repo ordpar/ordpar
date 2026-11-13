@@ -1,0 +1,238 @@
+{
+ "article_id": 67097,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ eller $, særlig i selskap, lag eller folkevalgt forsamling",
+      "items": [
+       {
+        "article_id": 5530,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 6507,
+          "lemma": "bestemmelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 47777,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 54870,
+          "lemma": "regel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 16877,
+        "definition_id": 6,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19593,
+          "lemma": "forskrift",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "etter $ skal årsmøtet deres holdes i april",
+       "items": [
+        {
+         "text": "vedtektene",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 36010,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 41815,
+          "lemma": "lukningsvedtekt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 45476,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52462,
+          "lemma": "politivedtekt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ ‘godkjenning’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "viðrtekt",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "tekt",
+   "hgno": 0,
+   "id": 77323,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "ved",
+   "is_standard": true,
+   "lemma": "vedtekt",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vedtekt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "vedtekta"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vedtekter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vedtektene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vedtekt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "vedtekten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vedtekter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vedtektene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-07-13 09:54:52"
+}

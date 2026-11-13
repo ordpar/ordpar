@@ -1,0 +1,205 @@
+{
+ "article_id": 562,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$: $ som markerer om en handling skjer på et bestemt tidspunkt eller vedvarer",
+      "items": [
+       {
+        "id": "i_spraakv",
+        "type_": "domain"
+       },
+       {
+        "article_id": 67703,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 78165,
+          "lemma": "verbalform",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 2929,
+        "definition_id": 6,
+        "definition_order": 4,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3485,
+          "lemma": "aspekt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "durativ $",
+       "items": [
+        {
+         "text": "aksjonsart",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "perfektiv $",
+       "items": [
+        {
+         "text": "aksjonsart",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "art",
+   "hgno": 0,
+   "id": 1356,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "aksjon",
+   "junction": "s",
+   "lemma": "aksjonsart",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aksjonsart"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aksjonsarten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aksjonsarter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aksjonsartene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aksjonsart"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aksjonsarta"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aksjonsarter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aksjonsartene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-17 15:34:25",
+ "suggest": [
+  "aksjonsart"
+ ]
+}

@@ -1,0 +1,4719 @@
+{
+ "source": "bm-articles.jsonl (ordbokene Bokmål mirror), read-only",
+ "extracted": "by ordpar/test/extract_paradigms.py",
+ "articles": [
+  {
+   "id": 27603,
+   "heading": "jente",
+   "capture": "ordbokene-jente-inflection-en-2026-09-20.png",
+   "capture_narrow": null,
+   "narrow_note": "narrow layout read from the live site at 500 px, 2026-09-20",
+   "note": "two-gender noun, one lemma - gender row axis, plural spanned",
+   "lemmas": [
+    {
+     "id": 32741,
+     "hgno": 0,
+     "lemma": "jente",
+     "split_inf": false,
+     "final_lexeme": "jente",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "2005-07-01",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "jente"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "jenten"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "jenter"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "jentene"
+        }
+       ],
+       "paradigm_id": 566,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "jente"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "jenta"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "jenter"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "jentene"
+        }
+       ],
+       "paradigm_id": 762,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      }
+     ],
+     "inflection_class": "m1, f1"
+    }
+   ]
+  },
+  {
+   "id": 24627,
+   "heading": "hus",
+   "capture": "ordbokene-hus-inflection-en-2026-09-20.png",
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "neuter noun, no gender axis - two paradigms comma-joined (husa, husene)",
+   "lemmas": [
+    {
+     "id": 29045,
+     "hgno": 0,
+     "lemma": "hus",
+     "mo_link": 0,
+     "split_inf": false,
+     "added_norm": false,
+     "is_standard": true,
+     "final_lexeme": "hus",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Neuter"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "hus"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "huset"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "hus"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "husa"
+        }
+       ],
+       "paradigm_id": 669,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Neuter"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "hus"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "huset"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "hus"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "husene"
+        }
+       ],
+       "paradigm_id": 679,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      }
+     ],
+     "inflection_class": "n1"
+    }
+   ]
+  },
+  {
+   "id": 7217,
+   "heading": "bra",
+   "capture": "ordbokene-bra-inflection-en-2026-09-20.png",
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "adjective - two tables, degrees of comparison",
+   "lemmas": [
+    {
+     "id": 8493,
+     "hgno": 0,
+     "lemma": "bra",
+     "split_inf": false,
+     "added_norm": false,
+     "final_lexeme": "bra",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "2019-05-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "bra"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "bra"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "bra"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "bra"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "bedre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "best"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "beste"
+        }
+       ],
+       "paradigm_id": 498,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_regular"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 69211,
+   "heading": "være II",
+   "capture": "ordbokene-vaere-inflection-en-2026-09-20.png",
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "defective verb - participle columns dropped, not left empty",
+   "lemmas": [
+    {
+     "id": 80034,
+     "hgno": 2,
+     "lemma": "være",
+     "split_inf": false,
+     "added_norm": false,
+     "final_lexeme": "være",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "være"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "er"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "var"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "vært"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "vært"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PresPart>"
+         ],
+         "word_form": "værende"
+        },
+        {
+         "tags": [
+          "Imp"
+         ],
+         "word_form": "vær"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 251,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      }
+     ],
+     "inflection_class": "verb"
+    }
+   ]
+  },
+  {
+   "id": 12570,
+   "heading": "en II, én",
+   "capture": "ordbokene-en-inflection-en-2026-09-20.png",
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "determiner, two lemma forms - one unlabelled row each",
+   "lemmas": [
+    {
+     "id": 14655,
+     "hgno": 2,
+     "lemma": "en",
+     "mo_link": 2,
+     "split_inf": false,
+     "is_standard": true,
+     "final_lexeme": "en",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "DET",
+        "Quant"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Masc",
+          "Sing"
+         ],
+         "word_form": "en"
+        },
+        {
+         "tags": [
+          "Fem",
+          "Sing"
+         ],
+         "word_form": "ei"
+        },
+        {
+         "tags": [
+          "Neuter",
+          "Sing"
+         ],
+         "word_form": "et"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 413,
+       "standardisation": "STANDARD",
+       "inflection_group": "DET_regular"
+      }
+     ]
+    },
+    {
+     "id": 156257,
+     "hgno": 0,
+     "lemma": "én",
+     "mo_link": 0,
+     "split_inf": false,
+     "is_standard": true,
+     "final_lexeme": "én",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "DET",
+        "Quant"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Masc",
+          "Sing"
+         ],
+         "word_form": "én"
+        },
+        {
+         "tags": [
+          "Fem",
+          "Sing"
+         ],
+         "word_form": "éi"
+        },
+        {
+         "tags": [
+          "Neuter",
+          "Sing"
+         ],
+         "word_form": "ett"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 425,
+       "standardisation": "STANDARD",
+       "inflection_group": "DET_regular"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11072,
+   "heading": "du",
+   "capture": "ordbokene-du-inflection-en-2026-09-20.png",
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "pronoun - subject form / object form",
+   "lemmas": [
+    {
+     "id": 12911,
+     "hgno": 0,
+     "lemma": "du",
+     "split_inf": false,
+     "final_lexeme": "du",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "PRON",
+        "Prs",
+        "2",
+        "Sing",
+        "Hum"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Nom"
+         ],
+         "word_form": "du"
+        },
+        {
+         "tags": [
+          "Acc"
+         ],
+         "word_form": "deg"
+        }
+       ],
+       "paradigm_id": 349,
+       "standardisation": "STANDARD",
+       "inflection_group": "PRON_regular"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 40926,
+   "heading": "noen",
+   "capture": "ordbokene-noen-inflection-en-2026-09-20.png",
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "determiner with a plural column",
+   "lemmas": [
+    {
+     "id": 47883,
+     "hgno": 0,
+     "lemma": "noen",
+     "mo_link": 0,
+     "split_inf": false,
+     "is_standard": true,
+     "final_lexeme": "noen",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "DET",
+        "Quant"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Masc",
+          "Sing"
+         ],
+         "word_form": "noen"
+        },
+        {
+         "tags": [
+          "Fem",
+          "Sing"
+         ],
+         "word_form": "noen"
+        },
+        {
+         "tags": [
+          "Neuter",
+          "Sing"
+         ],
+         "word_form": "noe"
+        },
+        {
+         "tags": [
+          "Plur"
+         ],
+         "word_form": "noen"
+        }
+       ],
+       "paradigm_id": 396,
+       "standardisation": "STANDARD",
+       "inflection_group": "DET_regular"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 61543,
+   "heading": "tore II, tørre II",
+   "capture": "ordbokene-tore-toerre-inflection-en-2026-09-20.png",
+   "capture_narrow": "ordbokene-tore-toerre-inflection-narrow-en-2026-09-20.png",
+   "narrow_note": null,
+   "note": "verb, two lemma forms x two paradigms - rowspans, no imperative column",
+   "lemmas": [
+    {
+     "id": 70391,
+     "hgno": 2,
+     "lemma": "tore",
+     "mo_link": 2,
+     "split_inf": false,
+     "added_norm": true,
+     "is_standard": true,
+     "final_lexeme": "tore",
+     "stress_vowel": 2,
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "tore"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "tør"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "torde"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "tort"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 285,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      },
+      {
+       "to": null,
+       "from": "2005-07-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "tore"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "tør"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "turte"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "turt"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 295,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      }
+     ],
+     "inflection_class": "verb"
+    },
+    {
+     "id": 81989,
+     "hgno": 2,
+     "lemma": "tørre",
+     "mo_link": 2,
+     "split_inf": false,
+     "added_norm": true,
+     "is_standard": true,
+     "final_lexeme": "tørre",
+     "stress_vowel": 2,
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "tørre"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "tør"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "torde"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "tort"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 294,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      },
+      {
+       "to": null,
+       "from": "2005-07-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "tørre"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "tør"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "turte"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "turt"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 296,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      }
+     ],
+     "inflection_class": "verb"
+    }
+   ]
+  },
+  {
+   "id": 7663,
+   "heading": "bru, bro",
+   "capture": "ordbokene-bru-bro-inflection-en-2026-09-20.png",
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "two genders x two lemma forms - plural repeated per row",
+   "lemmas": [
+    {
+     "id": 9055,
+     "hgno": 0,
+     "lemma": "bru",
+     "split_inf": false,
+     "added_norm": false,
+     "final_lexeme": "bru",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "bru"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "brua"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "bruer"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "bruene"
+        }
+       ],
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      },
+      {
+       "to": null,
+       "from": "2005-07-01",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "bru"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "bruen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "bruer"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "bruene"
+        }
+       ],
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      }
+     ],
+     "inflection_class": "m1, f1"
+    },
+    {
+     "id": 8943,
+     "hgno": 0,
+     "lemma": "bro",
+     "split_inf": false,
+     "added_norm": false,
+     "final_lexeme": "bro",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "bro"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "broa"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "broer"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "broene"
+        }
+       ],
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "bro"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "broen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "broer"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "broene"
+        }
+       ],
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      }
+     ],
+     "inflection_class": "m1, f1"
+    }
+   ]
+  },
+  {
+   "id": 56144,
+   "heading": "spise II",
+   "capture": "ordbokene-spise-inflection-en-2026-09-19.png",
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "regular verb, all 16 slots - both verb tables",
+   "lemmas": [
+    {
+     "id": 64622,
+     "hgno": 2,
+     "lemma": "spise",
+     "mo_link": 2,
+     "split_inf": false,
+     "added_norm": true,
+     "is_standard": true,
+     "final_lexeme": "spise",
+     "stress_vowel": 2,
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "spise"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "spiser"
+        },
+        {
+         "tags": [
+          "Inf",
+          "Pass"
+         ],
+         "word_form": "spises"
+        },
+        {
+         "tags": [
+          "Pres",
+          "Pass"
+         ],
+         "word_form": "spises"
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "spiste"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "spist"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "spist"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "spist"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "spiste"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Plur"
+         ],
+         "word_form": "spiste"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PresPart>"
+         ],
+         "word_form": "spisende"
+        },
+        {
+         "tags": [
+          "Imp"
+         ],
+         "word_form": "spis"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 16,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      }
+     ],
+     "inflection_class": "v2"
+    }
+   ]
+  },
+  {
+   "id": 62174,
+   "heading": "trøtte, trette III",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "verb, two lemma forms x three paradigms (trotte/trette)",
+   "lemmas": [
+    {
+     "id": 71783,
+     "hgno": 0,
+     "lemma": "trøtte",
+     "mo_link": 0,
+     "split_inf": false,
+     "added_norm": false,
+     "is_standard": true,
+     "final_lexeme": "trøtte",
+     "stress_vowel": 0,
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "trøtte"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "trøtter"
+        },
+        {
+         "tags": [
+          "Inf",
+          "Pass"
+         ],
+         "word_form": "trøttes"
+        },
+        {
+         "tags": [
+          "Pres",
+          "Pass"
+         ],
+         "word_form": "trøttes"
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "trøttet"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "trøttet"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trøttet"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trøttet"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "trøttete"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Plur"
+         ],
+         "word_form": "trøttete"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PresPart>"
+         ],
+         "word_form": "trøttende"
+        },
+        {
+         "tags": [
+          "Imp"
+         ],
+         "word_form": "trøtt"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 6,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "trøtte"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "trøtter"
+        },
+        {
+         "tags": [
+          "Inf",
+          "Pass"
+         ],
+         "word_form": "trøttes"
+        },
+        {
+         "tags": [
+          "Pres",
+          "Pass"
+         ],
+         "word_form": "trøttes"
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "trøttet"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "trøttet"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trøttet"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trøttet"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "trøttede"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Plur"
+         ],
+         "word_form": "trøttede"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PresPart>"
+         ],
+         "word_form": "trøttende"
+        },
+        {
+         "tags": [
+          "Imp"
+         ],
+         "word_form": "trøtt"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 7,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "trøtte"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "trøtter"
+        },
+        {
+         "tags": [
+          "Inf",
+          "Pass"
+         ],
+         "word_form": "trøttes"
+        },
+        {
+         "tags": [
+          "Pres",
+          "Pass"
+         ],
+         "word_form": "trøttes"
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "trøtta"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "trøtta"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trøtta"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trøtta"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "trøtta"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Plur"
+         ],
+         "word_form": "trøtta"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PresPart>"
+         ],
+         "word_form": "trøttende"
+        },
+        {
+         "tags": [
+          "Imp"
+         ],
+         "word_form": "trøtt"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 1,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      }
+     ],
+     "inflection_class": "v1"
+    },
+    {
+     "id": 71100,
+     "hgno": 3,
+     "lemma": "trette",
+     "mo_link": 3,
+     "split_inf": false,
+     "added_norm": true,
+     "is_standard": true,
+     "final_lexeme": "trette",
+     "stress_vowel": 3,
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "trette"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "tretter"
+        },
+        {
+         "tags": [
+          "Inf",
+          "Pass"
+         ],
+         "word_form": "trettes"
+        },
+        {
+         "tags": [
+          "Pres",
+          "Pass"
+         ],
+         "word_form": "trettes"
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "tretta"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "tretta"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "tretta"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "tretta"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "tretta"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Plur"
+         ],
+         "word_form": "tretta"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PresPart>"
+         ],
+         "word_form": "trettende"
+        },
+        {
+         "tags": [
+          "Imp"
+         ],
+         "word_form": "trett"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 1,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "trette"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "tretter"
+        },
+        {
+         "tags": [
+          "Inf",
+          "Pass"
+         ],
+         "word_form": "trettes"
+        },
+        {
+         "tags": [
+          "Pres",
+          "Pass"
+         ],
+         "word_form": "trettes"
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "trettet"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "trettet"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trettet"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trettet"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "trettete"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Plur"
+         ],
+         "word_form": "trettete"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PresPart>"
+         ],
+         "word_form": "trettende"
+        },
+        {
+         "tags": [
+          "Imp"
+         ],
+         "word_form": "trett"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 6,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "trette"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "tretter"
+        },
+        {
+         "tags": [
+          "Inf",
+          "Pass"
+         ],
+         "word_form": "trettes"
+        },
+        {
+         "tags": [
+          "Pres",
+          "Pass"
+         ],
+         "word_form": "trettes"
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "trettet"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "trettet"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trettet"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "trettet"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "trettede"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Plur"
+         ],
+         "word_form": "trettede"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PresPart>"
+         ],
+         "word_form": "trettende"
+        },
+        {
+         "tags": [
+          "Imp"
+         ],
+         "word_form": "trett"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 7,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      }
+     ],
+     "inflection_class": "v1"
+    }
+   ]
+  },
+  {
+   "id": 55343,
+   "heading": "snørr",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "three-gender noun with two neuter paradigms (snorr)",
+   "lemmas": [
+    {
+     "id": 63726,
+     "hgno": 0,
+     "lemma": "snørr",
+     "mo_link": 0,
+     "split_inf": false,
+     "added_norm": false,
+     "is_standard": true,
+     "final_lexeme": "snørr",
+     "stress_vowel": 0,
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "snørr"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "snørren"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "snørrer"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "snørrene"
+        }
+       ],
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "snørr"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "snørra"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "snørrer"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "snørrene"
+        }
+       ],
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Neuter"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "snørr"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "snørret"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "snørr"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "snørra"
+        }
+       ],
+       "paradigm_id": 669,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Neuter"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "snørr"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "snørret"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "snørr"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "snørrene"
+        }
+       ],
+       "paradigm_id": 679,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      }
+     ],
+     "inflection_class": "m1, n., f1"
+    }
+   ]
+  },
+  {
+   "id": 21740,
+   "heading": "gå",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "the largest article (ga)",
+   "lemmas": [
+    {
+     "id": 25369,
+     "hgno": 0,
+     "lemma": "gå",
+     "mo_link": 0,
+     "split_inf": false,
+     "added_norm": false,
+     "is_standard": true,
+     "final_lexeme": "gå",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf"
+         ],
+         "word_form": "gå"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pres"
+         ],
+         "word_form": "går"
+        },
+        {
+         "tags": [
+          "Inf",
+          "Pass"
+         ],
+         "word_form": "gås"
+        },
+        {
+         "tags": [
+          "Pres",
+          "Pass"
+         ],
+         "word_form": "gås"
+        },
+        {
+         "tags": [
+          "Past"
+         ],
+         "word_form": "gikk"
+        },
+        {
+         "tags": [
+          "<PerfPart>"
+         ],
+         "word_form": "gått"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "gått"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "gått"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "gåtte"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PerfPart>",
+          "Plur"
+         ],
+         "word_form": "gåtte"
+        },
+        {
+         "tags": [
+          "Adj",
+          "<PresPart>"
+         ],
+         "word_form": "gående"
+        },
+        {
+         "tags": [
+          "Imp"
+         ],
+         "word_form": "gå"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 195,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_regular"
+      }
+     ],
+     "inflection_class": "verb"
+    }
+   ]
+  },
+  {
+   "id": 50675,
+   "heading": "selvfordypelse, selvfordyping, selvfordypning, selvfordjuping, selvfordjupning, sjølfordypelse, sjølfordyping, sjølfordypning, sjølfordjuping, sjølfordjupning",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": "narrow layout read from the live site at ~670 px, 2026-09-20",
+   "note": "ten spelling variants in one row (selvfordypelse)",
+   "lemmas": [
+    {
+     "final_lexeme": "fordypelse",
+     "hgno": 0,
+     "id": 58205,
+     "inflection_class": "m1",
+     "initial_lexeme": "selv",
+     "is_standard": true,
+     "lemma": "selvfordypelse",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "selvfordypelse"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "selvfordypelsen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "selvfordypelser"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "selvfordypelsene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 566,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    },
+    {
+     "final_lexeme": "fordyping",
+     "hgno": 0,
+     "id": 58207,
+     "inflection_class": "m1, f1",
+     "initial_lexeme": "selv",
+     "is_standard": true,
+     "lemma": "selvfordyping",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "selvfordyping"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "selvfordypingen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "selvfordypinger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "selvfordypingene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      },
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "selvfordyping"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "selvfordypinga"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "selvfordypinger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "selvfordypingene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    },
+    {
+     "final_lexeme": "fordypning",
+     "hgno": 0,
+     "id": 3097056,
+     "inflection_class": "f1,m1",
+     "initial_lexeme": "selv",
+     "is_standard": true,
+     "lemma": "selvfordypning",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "selvfordypning"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "selvfordypningen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "selvfordypninger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "selvfordypningene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      },
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "selvfordypning"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "selvfordypninga"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "selvfordypninger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "selvfordypningene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    },
+    {
+     "final_lexeme": "fordjuping",
+     "hgno": 0,
+     "id": 3097060,
+     "inflection_class": "f1,m1",
+     "initial_lexeme": "selv",
+     "is_standard": true,
+     "lemma": "selvfordjuping",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "selvfordjuping"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "selvfordjupinga"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "selvfordjupinger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "selvfordjupingene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "to": null
+      },
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "selvfordjuping"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "selvfordjupingen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "selvfordjupinger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "selvfordjupingene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    },
+    {
+     "final_lexeme": "fordjupning",
+     "hgno": 0,
+     "id": 3097061,
+     "inflection_class": "f1,m1",
+     "initial_lexeme": "selv",
+     "is_standard": true,
+     "lemma": "selvfordjupning",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "selvfordjupning"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "selvfordjupninga"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "selvfordjupninger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "selvfordjupningene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "to": null
+      },
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "selvfordjupning"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "selvfordjupningen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "selvfordjupninger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "selvfordjupningene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    },
+    {
+     "final_lexeme": "fordypelse",
+     "hgno": 0,
+     "id": 60039,
+     "inflection_class": "m1",
+     "initial_lexeme": "sjøl",
+     "is_standard": true,
+     "lemma": "sjølfordypelse",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "sjølfordypelse"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "sjølfordypelsen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "sjølfordypelser"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "sjølfordypelsene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 566,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    },
+    {
+     "final_lexeme": "fordyping",
+     "hgno": 0,
+     "id": 60041,
+     "inflection_class": "m1, f1",
+     "initial_lexeme": "sjøl",
+     "is_standard": true,
+     "lemma": "sjølfordyping",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "sjølfordyping"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "sjølfordypingen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "sjølfordypinger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "sjølfordypingene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      },
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "sjølfordyping"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "sjølfordypinga"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "sjølfordypinger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "sjølfordypingene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    },
+    {
+     "final_lexeme": "fordypning",
+     "hgno": 0,
+     "id": 3097057,
+     "inflection_class": "f1,m1",
+     "initial_lexeme": "sjøl",
+     "is_standard": true,
+     "lemma": "sjølfordypning",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "sjølfordypning"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "sjølfordypningen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "sjølfordypninger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "sjølfordypningene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      },
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "sjølfordypning"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "sjølfordypninga"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "sjølfordypninger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "sjølfordypningene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    },
+    {
+     "final_lexeme": "fordjuping",
+     "hgno": 0,
+     "id": 3097059,
+     "inflection_class": "f1,m1",
+     "initial_lexeme": "sjøl",
+     "is_standard": true,
+     "lemma": "sjølfordjuping",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "sjølfordjuping"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "sjølfordjupinga"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "sjølfordjupinger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "sjølfordjupingene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "to": null
+      },
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "sjølfordjuping"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "sjølfordjupingen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "sjølfordjupinger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "sjølfordjupingene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    },
+    {
+     "final_lexeme": "fordjupning",
+     "hgno": 0,
+     "id": 3097058,
+     "inflection_class": "f1,m1",
+     "initial_lexeme": "sjøl",
+     "is_standard": true,
+     "lemma": "sjølfordjupning",
+     "mo_link": 0,
+     "paradigm_info": [
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "sjølfordjupning"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "sjølfordjupninga"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "sjølfordjupninger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "sjølfordjupningene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 760,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Fem"
+       ],
+       "to": null
+      },
+      {
+       "from": "1996-01-01",
+       "inflection": [
+        {
+         "tags": [
+          "Sing",
+          "Ind"
+         ],
+         "word_form": "sjølfordjupning"
+        },
+        {
+         "tags": [
+          "Sing",
+          "Def"
+         ],
+         "word_form": "sjølfordjupningen"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "sjølfordjupninger"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "sjølfordjupningene"
+        }
+       ],
+       "inflection_group": "NOUN_regular",
+       "paradigm_id": 564,
+       "standardisation": "STANDARD",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "to": null
+      }
+     ],
+     "split_inf": false
+    }
+   ]
+  },
+  {
+   "id": 14771,
+   "heading": "finnes",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "s-passive-only verb (VERB_sPass: finnes)",
+   "lemmas": [
+    {
+     "id": 17088,
+     "hgno": 0,
+     "lemma": "finnes",
+     "mo_link": 0,
+     "split_inf": false,
+     "added_norm": false,
+     "is_standard": true,
+     "final_lexeme": "finnes",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "2015-12-11",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf",
+          "<SPass>"
+         ],
+         "word_form": "finnes"
+        },
+        {
+         "tags": [
+          "Pres",
+          "<SPass>"
+         ],
+         "word_form": "fins"
+        },
+        {
+         "tags": [
+          "Past",
+          "<SPass>"
+         ],
+         "word_form": "fantes"
+        },
+        {
+         "tags": [
+          "<PerfPart>",
+          "<SPass>"
+         ],
+         "word_form": "funnes"
+        },
+        {
+         "tags": [
+          "Imp",
+          "<SPass>"
+         ],
+         "word_form": "finnes"
+        }
+       ],
+       "paradigm_id": 303,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_sPass"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "VERB"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Inf",
+          "<SPass>"
+         ],
+         "word_form": "finnes"
+        },
+        {
+         "tags": [
+          "Pres",
+          "<SPass>"
+         ],
+         "word_form": "finnes"
+        },
+        {
+         "tags": [
+          "Past",
+          "<SPass>"
+         ],
+         "word_form": "fantes"
+        },
+        {
+         "tags": [
+          "<PerfPart>",
+          "<SPass>"
+         ],
+         "word_form": "funnes"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 301,
+       "standardisation": "STANDARD",
+       "inflection_group": "VERB_sPass"
+      }
+     ],
+     "inflection_class": "verb"
+    }
+   ]
+  },
+  {
+   "id": 35408,
+   "heading": "liten",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "adjective with its own feminine column, 8 paradigms (liten)",
+   "lemmas": [
+    {
+     "id": 41179,
+     "hgno": 0,
+     "lemma": "liten",
+     "split_inf": false,
+     "added_norm": false,
+     "final_lexeme": "liten",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "lite"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "lille"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "små"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "mindre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "minst"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "minste"
+        }
+       ],
+       "paradigm_id": 530,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_masc/fem_fem"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "smått"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "lille"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "små"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "mindre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "minst"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "minste"
+        }
+       ],
+       "paradigm_id": 532,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_masc/fem_fem"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "lita"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "lite"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "vesle"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "små"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "mindre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "minst"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "minste"
+        }
+       ],
+       "paradigm_id": 537,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_masc/fem_fem"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "lita"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "smått"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "vesle"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "små"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "mindre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "minst"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "minste"
+        }
+       ],
+       "paradigm_id": 538,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_masc/fem_fem"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "lite"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "vesle"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "små"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "mindre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "minst"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "minste"
+        }
+       ],
+       "paradigm_id": 539,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_masc/fem_fem"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "smått"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "vesle"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "små"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "mindre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "minst"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "minste"
+        }
+       ],
+       "paradigm_id": 540,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_masc/fem_fem"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "lita"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "lite"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "lille"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "små"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "mindre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "minst"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "minste"
+        }
+       ],
+       "paradigm_id": 529,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_masc/fem_fem"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "liten"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "lita"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "smått"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "lille"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "små"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "mindre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "minst"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "minste"
+        }
+       ],
+       "paradigm_id": 531,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_masc/fem_fem"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11725,
+   "heading": "egen II, eigen",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "adjectival determiner (DET_adj: egen)",
+   "lemmas": [
+    {
+     "id": 81443,
+     "hgno": 2,
+     "lemma": "egen",
+     "split_inf": false,
+     "added_norm": false,
+     "final_lexeme": "egen",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "DET",
+        "Intens",
+        "<ADJ>"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Masc",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "egen"
+        },
+        {
+         "tags": [
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "egen"
+        },
+        {
+         "tags": [
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "eget"
+        },
+        {
+         "tags": [
+          "Def",
+          "Sing"
+         ],
+         "word_form": "egne"
+        },
+        {
+         "tags": [
+          "Plur"
+         ],
+         "word_form": "egne"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 405,
+       "standardisation": "STANDARD",
+       "inflection_group": "DET_adj"
+      }
+     ]
+    },
+    {
+     "id": 13828,
+     "hgno": 0,
+     "lemma": "eigen",
+     "split_inf": false,
+     "added_norm": false,
+     "final_lexeme": "eigen",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "DET",
+        "Intens",
+        "<ADJ>"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Masc",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "eigen"
+        },
+        {
+         "tags": [
+          "Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "eiga"
+        },
+        {
+         "tags": [
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "eige"
+        },
+        {
+         "tags": [
+          "Def",
+          "Sing"
+         ],
+         "word_form": "eigne"
+        },
+        {
+         "tags": [
+          "Plur"
+         ],
+         "word_form": "eigne"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        }
+       ],
+       "paradigm_id": 406,
+       "standardisation": "STANDARD",
+       "inflection_group": "DET_adj"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 41859,
+   "heading": "ofte",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "comparable adverb (ADV_adj: ofte) - no capture, headers reconstructed",
+   "lemmas": [
+    {
+     "id": 48947,
+     "hgno": 0,
+     "lemma": "ofte",
+     "mo_link": 0,
+     "split_inf": false,
+     "added_norm": false,
+     "is_standard": true,
+     "final_lexeme": "ofte",
+     "stress_vowel": 0,
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "2012-01-01",
+       "tags": [
+        "ADV"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos"
+         ],
+         "word_form": "ofte"
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "oftere"
+        },
+        {
+         "tags": [
+          "Sup"
+         ],
+         "word_form": "oftest"
+        }
+       ],
+       "paradigm_id": 515,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADV_adj"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 42925,
+   "heading": "øvre",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "adjective with no positive forms (ovre) - table (i) dropped",
+   "lemmas": [
+    {
+     "id": 81239,
+     "hgno": 0,
+     "lemma": "øvre",
+     "split_inf": false,
+     "added_norm": false,
+     "final_lexeme": "øvre",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "øvre"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "øverst"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "øverste"
+        }
+       ],
+       "paradigm_id": 522,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_regular"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 36844,
+   "heading": "mange",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "adjective with a plural positive only (mange)",
+   "lemmas": [
+    {
+     "id": 43236,
+     "hgno": 0,
+     "lemma": "mange",
+     "mo_link": 0,
+     "split_inf": false,
+     "added_norm": false,
+     "is_standard": true,
+     "final_lexeme": "mange",
+     "stress_vowel": 0,
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "2005-07-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "mange"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "fler"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "flest"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "fleste"
+        }
+       ],
+       "paradigm_id": 500,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_regular"
+      },
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "mange"
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Cmp"
+         ],
+         "word_form": "flere"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Ind"
+         ],
+         "word_form": "flest"
+        },
+        {
+         "tags": [
+          "Sup",
+          "Def"
+         ],
+         "word_form": "fleste"
+        }
+       ],
+       "paradigm_id": 499,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_regular"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 124935,
+   "heading": "løsningsorientert, løysingsorientert",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "ordbokene mis-tag: lemma tagged NOUN with adjective cells",
+   "lemmas": [
+    {
+     "id": 2009975,
+     "hgno": 0,
+     "lemma": "løsningsorientert",
+     "junction": "s",
+     "split_inf": false,
+     "final_lexeme": "orientert",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "2014-01-01",
+       "tags": [
+        "NOUN"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "løsningsorientert",
+         "markdown_word_form": "løsningsorientert"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "løsningsorienterte",
+         "markdown_word_form": "løsningsorienterte"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "løsningsorienterte",
+         "markdown_word_form": "løsningsorienterte"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "løsningsorientert",
+         "markdown_word_form": "løsningsorientert"
+        },
+        {
+         "tags": [],
+         "word_form": null,
+         "markdown_word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null,
+         "markdown_word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null,
+         "markdown_word_form": null
+        }
+       ],
+       "paradigm_id": 452,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_regular"
+      }
+     ],
+     "initial_lexeme": "løsning",
+     "markdown_lemma": "løsningsorientert",
+     "annotated_lemma": null,
+     "inflection_class": "a2"
+    },
+    {
+     "id": 2872159,
+     "hgno": 0,
+     "lemma": "løysingsorientert",
+     "junction": "s",
+     "split_inf": false,
+     "final_lexeme": "orientert",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "2014-01-01",
+       "tags": [
+        "ADJ"
+       ],
+       "inflection": [
+        {
+         "tags": [
+          "Pos",
+          "Masc/Fem",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "løysingsorientert",
+         "markdown_word_form": "løysingsorientert"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Plur"
+         ],
+         "word_form": "løysingsorienterte",
+         "markdown_word_form": "løysingsorienterte"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Def",
+          "Sing"
+         ],
+         "word_form": "løysingsorienterte",
+         "markdown_word_form": "løysingsorienterte"
+        },
+        {
+         "tags": [
+          "Pos",
+          "Neuter",
+          "Ind",
+          "Sing"
+         ],
+         "word_form": "løysingsorientert",
+         "markdown_word_form": "løysingsorientert"
+        },
+        {
+         "tags": [],
+         "word_form": null,
+         "markdown_word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null,
+         "markdown_word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null,
+         "markdown_word_form": null
+        }
+       ],
+       "paradigm_id": 452,
+       "standardisation": "STANDARD",
+       "inflection_group": "ADJ_regular"
+      }
+     ],
+     "initial_lexeme": "løysing",
+     "markdown_lemma": "løysingsorientert",
+     "annotated_lemma": null,
+     "inflection_class": "a2"
+    }
+   ]
+  },
+  {
+   "id": 66495,
+   "heading": "vannkopper, vasskopper",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "plurale tantum noun (vannkopper) - singular columns dropped",
+   "lemmas": [
+    {
+     "id": 76377,
+     "hgno": 0,
+     "lemma": "vannkopper",
+     "mo_link": 0,
+     "split_inf": false,
+     "added_norm": false,
+     "is_standard": true,
+     "final_lexeme": "kopper",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "inflection": [
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "vannkopper"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "vannkoppene"
+        }
+       ],
+       "paradigm_id": 655,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      }
+     ],
+     "initial_lexeme": "vann",
+     "inflection_class": "m."
+    },
+    {
+     "id": 77072,
+     "hgno": 0,
+     "lemma": "vasskopper",
+     "mo_link": 0,
+     "split_inf": false,
+     "added_norm": false,
+     "is_standard": true,
+     "final_lexeme": "kopper",
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "1996-01-01",
+       "tags": [
+        "NOUN",
+        "Masc"
+       ],
+       "inflection": [
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [],
+         "word_form": null
+        },
+        {
+         "tags": [
+          "Plur",
+          "Ind"
+         ],
+         "word_form": "vasskopper"
+        },
+        {
+         "tags": [
+          "Plur",
+          "Def"
+         ],
+         "word_form": "vasskoppene"
+        }
+       ],
+       "paradigm_id": 655,
+       "standardisation": "STANDARD",
+       "inflection_group": "NOUN_regular"
+      }
+     ],
+     "initial_lexeme": "vass",
+     "inflection_class": "m."
+    }
+   ]
+  },
+  {
+   "id": 130705,
+   "heading": "spørre nytt",
+   "capture": null,
+   "capture_narrow": null,
+   "narrow_note": null,
+   "note": "uninflected fixed expression - renders no table at all",
+   "lemmas": [
+    {
+     "id": 2874524,
+     "hgno": 0,
+     "lemma": "spørre nytt",
+     "mo_link": 0,
+     "split_inf": false,
+     "is_standard": true,
+     "final_lexeme": "spørre nytt",
+     "stress_vowel": 0,
+     "paradigm_info": [
+      {
+       "to": null,
+       "from": "2024-01-03",
+       "tags": [
+        "EXPR"
+       ],
+       "inflection": [
+        {
+         "tags": [],
+         "word_form": "spørre nytt"
+        }
+       ],
+       "paradigm_id": 2470,
+       "standardisation": "REGISTERED",
+       "inflection_group": "EXPR"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,329 @@
+{
+ "article_id": 56747,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$: som gjelder $",
+        "items": [
+         {
+          "id": "i_fys",
+          "type_": "entity"
+         },
+         {
+          "article_id": 35181,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 40939,
+            "lemma": "likevekt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "mots",
+          "type_": "entity"
+         },
+         {
+          "article_id": 11323,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 13188,
+            "lemma": "dynamisk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 105441,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "elektrisitet som skyldes friksjon",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1142457,
+           "lemma": "statisk elektrisitet",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 105441,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "statisk elektrisitet"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 105442,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "$",
+              "items": [
+               {
+                "article_id": 109193,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 162135,
+                  "lemma": "likevektssans",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1141485,
+           "lemma": "statisk sans",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 105442,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "statisk sans"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 63800,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 73045,
+            "lemma": "uforanderlig",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 57195,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 84106,
+            "lemma": "stillestående",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "mots",
+          "type_": "entity"
+         },
+         {
+          "article_id": 11323,
+          "definition_id": 5,
+          "definition_order": 3,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 13188,
+            "lemma": "dynamisk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "statisk muskelarbeid",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en statisk tilstand",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "et statisk samfunn",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "statisk",
+   "hgno": 0,
+   "id": 65259,
+   "inflection_class": "a2",
+   "lemma": "statisk",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "statisk"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "statiske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "statiske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "statisk"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-11-24 08:38:00",
+ "suggest": [
+  "statisk"
+ ]
+}

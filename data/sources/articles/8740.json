@@ -1,0 +1,189 @@
+{
+ "article_id": 8740,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ av celler i et $",
+      "items": [
+       {
+        "article_id": 32682,
+        "definition_id": 13,
+        "definition_order": 5,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 38352,
+          "lemma": "kultur",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 37570,
+        "definition_id": 2,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 44034,
+          "lemma": "medium",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 8734,
+        "definition_id": 9,
+        "definition_order": 4,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 10389,
+          "lemma": "celle",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 2,
+          "id": 159302,
+          "lemma": "selle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kultur",
+   "hgno": 0,
+   "id": 10396,
+   "inflection_class": "m1",
+   "initial_lexeme": "celle",
+   "lemma": "cellekultur",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "cellekultur"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "cellekulturen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "cellekulturer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "cellekulturene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "kultur",
+   "hgno": 0,
+   "id": 158300,
+   "inflection_class": "m1",
+   "initial_lexeme": "selle",
+   "lemma": "sellekultur",
+   "paradigm_info": [
+    {
+     "from": "2005-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sellekultur"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sellekulturen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sellekulturer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sellekulturene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-06-30 10:28:53",
+ "suggest": [
+  "cellekultur",
+  "sellekultur"
+ ]
+}

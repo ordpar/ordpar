@@ -1,0 +1,218 @@
+{
+ "article_id": 66152,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 69309,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 79896,
+            "lemma": "våken",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 75950,
+            "lemma": "vaken",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ligge $",
+         "items": [
+          {
+           "text": "vak",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 1146,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 80711,
+            "lemma": "årvåken",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 42567,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 49745,
+            "lemma": "oppmerksom",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ og var",
+         "items": [
+          {
+           "text": "vak",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ ‘våken, kvikk’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "vakr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vak",
+   "hgno": 2,
+   "id": 75941,
+   "inflection_class": "a1",
+   "is_standard": true,
+   "lemma": "vak",
+   "mo_link": 2,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vak"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "vake"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "vake"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vakt"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "vakere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "vakest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "vakeste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 433,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-12-12 08:32:26"
+}

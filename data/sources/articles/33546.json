@@ -1,0 +1,143 @@
+{
+ "article_id": 33546,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "grunn sjø $ bukt som er nesten skilt fra havet ved en landtunge $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ og $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "ty.",
+      "type_": "entity"
+     },
+     {
+      "id": "it.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "lacuna",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "article_id": 33605,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 39429,
+        "lemma": "lakune",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lagune",
+   "hgno": 0,
+   "id": 39361,
+   "inflection_class": "m1",
+   "lemma": "lagune",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lagune"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lagunen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "laguner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lagunene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-21 10:27:18",
+ "suggest": [
+  "lagune"
+ ]
+}

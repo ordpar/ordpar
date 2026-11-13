@@ -1,0 +1,272 @@
+{
+ "article_id": 19605,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "som inneholder $",
+        "items": [
+         {
+          "article_id": 19586,
+          "definition_id": 6,
+          "definition_order": 0,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 22866,
+            "lemma": "gift",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ gasser",
+         "items": [
+          {
+           "items": [],
+           "text": "giftige",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ sopp",
+         "items": [
+          {
+           "items": [],
+           "text": "giftig",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "som skader med $",
+        "items": [
+         {
+          "article_id": 19586,
+          "definition_id": 6,
+          "definition_order": 0,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 22866,
+            "lemma": "gift",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "giftige slanger",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: $, $",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 42280,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 49396,
+            "lemma": "ondskapsfull",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 56484,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 64990,
+            "lemma": "spydig",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ bemerkninger",
+         "items": [
+          {
+           "items": [],
+           "text": "giftige",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ha en $ tunge",
+         "items": [
+          {
+           "items": [],
+           "text": "giftig",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 6,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "giftig",
+   "hgno": 0,
+   "id": 22885,
+   "inflection_class": "a2",
+   "is_standard": true,
+   "lemma": "giftig",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "giftig"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "giftige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "giftige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "giftig"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "giftigere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "giftigst"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "giftigste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 442,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2021-04-19 10:34:00"
+}

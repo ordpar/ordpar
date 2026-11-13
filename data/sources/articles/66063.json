@@ -1,0 +1,257 @@
+{
+ "article_id": 66063,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "som tviler eller nøler",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "tvilende, $, $",
+        "items": [
+         {
+          "article_id": 63139,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 72248,
+            "lemma": "tvilrådig",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 64932,
+          "definition_id": 6,
+          "definition_order": 4,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 74346,
+            "lemma": "usikker",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hun ble stående $ foran døra",
+         "items": [
+          {
+           "text": "uviss",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "være uviss på seg selv",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bli litt uviss",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "som en ikke kan vite noe om",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 63607,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 72800,
+            "lemma": "uavklart",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 64932,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 74346,
+            "lemma": "usikker",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "framtiden er uviss",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de gikk sin vei, $ av hvilken grunn",
+         "items": [
+          {
+           "text": "uvisst",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "viss",
+   "hgno": 0,
+   "id": 75833,
+   "inflection_class": "a1",
+   "initial_lexeme": "u",
+   "is_standard": true,
+   "lemma": "uviss",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "uviss"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "uvisse"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "uvisse"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "uvisst"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "uvissere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "uvissest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "uvisseste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 433,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-12-12 08:23:23"
+}

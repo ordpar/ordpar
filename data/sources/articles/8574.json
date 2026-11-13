@@ -1,0 +1,150 @@
+{
+ "article_id": 8574,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "turnapparat med to $",
+      "items": [
+       {
+        "article_id": 8573,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 10278,
+          "lemma": "bøyle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "bøyler"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 23430,
+        "definition_id": 7,
+        "definition_order": 4,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 27620,
+          "lemma": "hest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "turne i $",
+       "items": [
+        {
+         "text": "bøylehest",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 8573,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 10278,
+        "lemma": "bøyle",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hest",
+   "hgno": 0,
+   "id": 10279,
+   "inflection_class": "m1",
+   "initial_lexeme": "bøyle",
+   "lemma": "bøylehest",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bøylehest"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bøylehesten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bøylehester"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bøylehestene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-07 15:51:35",
+ "suggest": [
+  "bøylehest"
+ ]
+}

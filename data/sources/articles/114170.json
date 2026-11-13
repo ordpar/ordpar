@@ -1,0 +1,118 @@
+{
+ "article_id": 114170,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "bolig som består av to rom i tillegg til bad og eventuelt kjøkken",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 114169,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 147480,
+          "lemma": "toromsleilighet",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 61562,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 70414,
+          "lemma": "torommer",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en toroms på 50 kvadratmeter",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "toroms",
+   "hgno": 1,
+   "id": 164776,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "toroms",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "2020-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "toroms"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "toromsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "toromser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "toromsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 1
+  }
+ ],
+ "submitted": "2024-04-15 10:59:32"
+}

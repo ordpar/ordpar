@@ -1,0 +1,264 @@
+{
+ "article_id": 59948,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "billig, simpel, fattigslig",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en $ kjole",
+         "items": [
+          {
+           "text": "tarvelig",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "dette er tarvelige greier",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "content": "brukt $:",
+          "items": [
+           {
+            "id": "s_adv",
+            "type_": "entity"
+           }
+          ],
+          "type_": "explanation"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "leve $",
+           "items": [
+            {
+             "text": "tarvelig",
+             "type_": "usage"
+            }
+           ]
+          },
+          "type_": "example"
+         }
+        ],
+        "id": 3,
+        "sub_definition": true,
+        "type_": "definition"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "sjofel, ussel",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "tarvelig oppførsel",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "et $ menneske",
+         "items": [
+          {
+           "text": "tarvelig",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "content": "brukt som adverb:",
+          "items": [],
+          "type_": "explanation"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "det var tarvelig gjort",
+           "items": []
+          },
+          "type_": "example"
+         }
+        ],
+        "id": 1,
+        "sub_definition": true,
+        "type_": "definition"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ ‘nødvendig’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "þarfligr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 59947,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 68615,
+        "lemma": "tarv",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "tarvelig",
+   "hgno": 0,
+   "id": 68616,
+   "inflection_class": "a2",
+   "lemma": "tarvelig",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tarvelig"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "tarvelige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "tarvelige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tarvelig"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "tarveligere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "tarveligst"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "tarveligste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 442,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-02-12 12:28:19",
+ "suggest": [
+  "tarvelig"
+ ]
+}

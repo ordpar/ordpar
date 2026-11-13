@@ -1,0 +1,115 @@
+{
+ "article_id": 109043,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som har tjent seg rik på salg av $",
+      "items": [
+       {
+        "article_id": 40153,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 47011,
+          "lemma": "narkotika",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 4634,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 5460,
+          "lemma": "baron",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "baron",
+   "hgno": 0,
+   "id": 125236,
+   "inflection_class": "m1",
+   "initial_lexeme": "narkotika",
+   "lemma": "narkotikabaron",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "narkotikabaron"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "narkotikabaronen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "narkotikabaroner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "narkotikabaronene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-29 07:11:58",
+ "suggest": [
+  "narkotikabaron"
+ ]
+}

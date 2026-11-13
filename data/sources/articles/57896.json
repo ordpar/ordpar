@@ -1,0 +1,244 @@
+{
+ "article_id": 57896,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "som ikke har spiss form",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 8254,
+        "lemmas": [
+         {
+          "hgno": 3,
+          "id": 9834,
+          "lemma": "butt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en $ gjenstand",
+       "items": [
+        {
+         "text": "stump",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 105562,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "vold utført ved slag, spark $ eller ved bruk av $ gjenstand",
+            "items": [
+             {
+              "id": "e_l",
+              "type_": "entity"
+             },
+             {
+              "article_id": 8254,
+              "lemmas": [
+               {
+                "hgno": 3,
+                "id": 9834,
+                "lemma": "butt",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1146372,
+         "lemma": "stump vold",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105562,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "stump vold"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 105561,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "vinkel mellom 90° og 180°",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1145477,
+         "lemma": "stump vinkel",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105561,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "stump vinkel"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "stump",
+   "hgno": 2,
+   "id": 66293,
+   "inflection_class": "a1",
+   "is_standard": true,
+   "lemma": "stump",
+   "mo_link": 2,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "stump"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "stumpe"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "stumpe"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "stumpt"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "stumpere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "stumpest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "stumpeste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 433,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 2
+  }
+ ],
+ "submitted": "2025-11-03 10:11:29"
+}

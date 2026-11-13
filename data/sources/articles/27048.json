@@ -1,0 +1,224 @@
+{
+ "article_id": 27048,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "i $: fastsetting av en tone (med et instrument eller med stemmen)",
+        "items": [
+         {
+          "id": "mus",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sangerens $ lå litt for høyt",
+         "items": [
+          {
+           "text": "intonasjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ha presis $",
+         "items": [
+          {
+           "text": "intonasjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i orgel- og pianobygging: siste justering av et instruments tonehøyde, klangfarge $",
+        "items": [
+         {
+          "id": "o_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "arbeide lenge med $ av orgelet",
+         "items": [
+          {
+           "text": "intonasjonen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: $, $",
+        "items": [
+         {
+          "id": "i_spraakv",
+          "type_": "entity"
+         },
+         {
+          "article_id": 51161,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 58855,
+            "lemma": "setningsmelodi",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 61475,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 70317,
+            "lemma": "tonegang",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 27049,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 32153,
+        "lemma": "intonere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "intonasjon",
+   "hgno": 0,
+   "id": 32152,
+   "inflection_class": "m1",
+   "lemma": "intonasjon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "intonasjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "intonasjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "intonasjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "intonasjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-04-10 12:14:32",
+ "suggest": [
+  "intonasjon"
+ ]
+}

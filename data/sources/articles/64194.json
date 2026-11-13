@@ -1,0 +1,311 @@
+{
+ "article_id": 64194,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 57639,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 65994,
+          "lemma": "strev",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 5592,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 6572,
+          "lemma": "besvær",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 39930,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 46914,
+          "lemma": "møye",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det er ikke umaken verdt",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "han ville ikke gjøre seg den $ å lage middag",
+       "items": [
+        {
+         "text": "umake",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 106092,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "bortkastet arbeid",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1145594,
+         "lemma": "spilt umake",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 106092,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "spilt umake"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 133684,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "anstrenge seg",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2981603,
+         "lemma": "gjøre seg umake med",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 133684,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "gjøre seg umake med"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "úmak",
+      "type_": "usage"
+     },
+     {
+      "text": "úmaki",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "make",
+   "hgno": 1,
+   "id": 73532,
+   "inflection_class": "m1",
+   "initial_lexeme": "u",
+   "is_standard": true,
+   "lemma": "umake",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "umake"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "umaken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "umaker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "umakene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 1
+  },
+  {
+   "added_norm": false,
+   "final_lexeme": "mak",
+   "hgno": 0,
+   "id": 73529,
+   "inflection_class": "m1",
+   "initial_lexeme": "u",
+   "is_standard": true,
+   "lemma": "umak",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "umak"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "umaken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "umaker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "umakene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-09-03 07:01:23"
+}

@@ -1,0 +1,266 @@
+{
+ "article_id": 45721,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "ledd, $, $",
+        "items": [
+         {
+          "article_id": 46897,
+          "definition_id": 7,
+          "definition_order": 5,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 53937,
+            "lemma": "punkt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 26683,
+          "definition_id": 6,
+          "definition_order": 4,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 31764,
+            "lemma": "innslag",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "neste $ på programmet",
+         "items": [
+          {
+           "items": [],
+           "text": "post",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "fast post på programmet",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 46437,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 53458,
+            "lemma": "programpost",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "sum $ beløp i regnskap",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 45744,
+          "definition_id": 4,
+          "definition_order": 3,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 52749,
+            "lemma": "postering",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gjennomgå et regnskap $ for $",
+         "items": [
+          {
+           "items": [],
+           "text": "post",
+           "type_": "usage"
+          },
+          {
+           "items": [],
+           "text": "post",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $",
+    "items": [
+     {
+      "id": "it.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "posta",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ‘sette, stille’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "ponere",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "post",
+   "hgno": 3,
+   "id": 81782,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "post",
+   "mo_link": 3,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "post"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "posten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "poster"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "postene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-06-27 10:48:00"
+}

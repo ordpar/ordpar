@@ -1,0 +1,223 @@
+{
+ "article_id": 62147,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "sko skåret ut av ett stykke $",
+        "items": [
+         {
+          "article_id": 61959,
+          "definition_id": 5,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 70861,
+            "lemma": "tre",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "sko med tresåle og lær, plast, tøy $ over foten",
+        "items": [
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 61974,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 158601,
+            "lemma": "trebånner",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 105936,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "brukt for å illustrere forskjell i størrelse mellom tre personer $ ting",
+              "items": [
+               {
+                "id": "el",
+                "type_": "relation"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1141883,
+           "lemma": "tripp trapp tresko",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 105936,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "tripp trapp tresko"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sko",
+   "hgno": 0,
+   "id": 83398,
+   "inflection_class": "m.",
+   "initial_lexeme": "tre",
+   "lemma": "tresko",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tresko"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "treskoen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tresko"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "treskoene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 579,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tresko"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "treskoen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tresko"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "treskoa"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 568,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-04-24 11:21:42",
+ "suggest": [
+  "tresko"
+ ]
+}

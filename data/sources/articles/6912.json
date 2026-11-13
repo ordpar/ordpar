@@ -1,0 +1,123 @@
+{
+ "article_id": 6912,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$: helt, fullstendig",
+      "items": [
+       {
+        "id": "forst",
+        "type_": "grammar"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 6930,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 8139,
+          "lemma": "bomfast",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 6945,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 8155,
+          "lemma": "bomstille",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "stå $ fast",
+       "items": [
+        {
+         "text": "bom",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "tie $ stille",
+       "items": [
+        {
+         "text": "bom",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bom",
+   "hgno": 4,
+   "id": 8120,
+   "lemma": "bom",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "bom"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-09-14 09:59:14",
+ "suggest": [
+  "bom"
+ ]
+}

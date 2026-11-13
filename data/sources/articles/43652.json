@@ -1,0 +1,209 @@
+{
+ "article_id": 43652,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som er gjort med $",
+      "items": [
+       {
+        "article_id": 43665,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50578,
+          "lemma": "overlegg",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "tilsiktet, planlagt",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 104291,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "drap som er planlagt på forhånd",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "$ $ og $",
+            "items": [
+             {
+              "id": "t_forsk_f",
+              "type_": "entity"
+             },
+             {
+              "article_id": 124513,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 2009233,
+                "lemma": "uaktsomt drap",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             },
+             {
+              "article_id": 102033,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 1143716,
+                "lemma": "forsettlig drap",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1145014,
+         "lemma": "overlagt drap",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 104291,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "overlagt drap"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "etterleddet av $",
+    "items": [
+     {
+      "article_id": 34290,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 40313,
+        "lemma": "legge",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "lagt",
+   "hgno": 0,
+   "id": 50566,
+   "inflection_class": "a2",
+   "initial_lexeme": "over",
+   "lemma": "overlagt",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "overlagt"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "overlagte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "overlagte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "overlagt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-27 07:10:03",
+ "suggest": [
+  "overlagt"
+ ]
+}

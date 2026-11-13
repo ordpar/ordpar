@@ -1,0 +1,281 @@
+{
+ "article_id": 46546,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "språkbruk som ikke er bundet av rim- og rytmeregler",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "ubunden stil",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "motsatt $ og $",
+        "items": [
+         {
+          "article_id": 67918,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 78407,
+            "lemma": "vers",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 45380,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 52363,
+            "lemma": "poesi",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "skrive god $",
+         "items": [
+          {
+           "items": [],
+           "text": "prosa",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "fortellingen er skrevet på lett og ledig $",
+         "items": [
+          {
+           "items": [],
+           "text": "prosa",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 25314,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 30291,
+            "lemma": "høyprosa",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 29940,
+            "lemma": "høgprosa",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 31748,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 37328,
+            "lemma": "kortprosa",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 49678,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 57005,
+            "lemma": "sakprosa",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "hverdagens ensformige slit og strev",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "grå hverdag",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 29436,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 34771,
+            "lemma": "kjedsomhet",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "livets $",
+         "items": [
+          {
+           "items": [],
+           "text": "prosa",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ($) ‘likefram (tale)'",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "prosa",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "oratio",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "prosa",
+   "hgno": 0,
+   "id": 53572,
+   "inflection_class": "m1",
+   "lemma": "prosa",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "prosa"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "prosaen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "prosaer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "prosaene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-23 11:54:04",
+ "suggest": [
+  "prosa"
+ ]
+}

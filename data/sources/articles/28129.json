@@ -1,0 +1,250 @@
+{
+ "article_id": 28129,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "kraftig $ av tau $ ståltråd",
+        "items": [
+         {
+          "article_id": 62498,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 71475,
+            "lemma": "trosse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 66149,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 75938,
+            "lemma": "vaier",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 80178,
+            "lemma": "wire",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "ledning for elektriske eller optiske signaler som er innkapslet i et isolerende hylster",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: (lang) klatt av avføring",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "bæsj, lort",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 122832,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "ha avføring",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "bæsje",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2006422,
+           "lemma": "legge en kabel",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 122832,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "legge en kabel"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $ $ og $ $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "kabel",
+      "type_": "usage"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "câble",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $ ‘reip, fangline’, av $ ‘ta’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "capulum",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "capere",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "kabel",
+   "hgno": 0,
+   "id": 33327,
+   "inflection_class": "m.",
+   "lemma": "kabel",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kabel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kabelen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kabler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kablene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 584,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-04-07 07:11:58",
+ "suggest": [
+  "kabel"
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "article_id": 14035,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 35181,
+        "definition_id": 6,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 40939,
+          "lemma": "likevekt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 48727,
+        "definition_id": 7,
+        "definition_order": 5,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 81809,
+          "lemma": "ro",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 51655,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 59373,
+          "lemma": "sinnsro",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bringe noen ut av $",
+       "items": [
+        {
+         "text": "fatning",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ta noe med $",
+       "items": [
+        {
+         "text": "fatning",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 101753,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "få panikk",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1140844,
+         "lemma": "miste fatningen",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 101753,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "miste fatningen"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 14040,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 16276,
+        "lemma": "fatte",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "fatning",
+   "hgno": 0,
+   "id": 16270,
+   "inflection_class": "m1, f1",
+   "lemma": "fatning",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "fatning"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "fatninga"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "fatninger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "fatningene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "fatning"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "fatningen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "fatninger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "fatningene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-04-12 10:18:14",
+ "suggest": [
+  "fatning"
+ ]
+}

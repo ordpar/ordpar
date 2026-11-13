@@ -1,0 +1,126 @@
+{
+ "article_id": 12191,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "den ene av to som er gift med hverandre",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "den en er gift med",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 12193,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 14230,
+          "lemma": "ektemake",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 14190,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 16442,
+        "lemma": "felle",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "felle",
+   "hgno": 0,
+   "id": 14228,
+   "inflection_class": "m1",
+   "initial_lexeme": "ekte",
+   "lemma": "ektefelle",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ektefelle"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ektefellen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ektefeller"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ektefellene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-28 19:35:22",
+ "suggest": [
+  "ektefelle"
+ ]
+}

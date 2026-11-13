@@ -1,0 +1,280 @@
+{
+ "article_id": 28994,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "hovedkirke som har en biskop tilknyttet seg",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 10606,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12396,
+            "lemma": "domkirke",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "Nidarosdomen er en katedral",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "den praktfulle katedralen i Wien",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 111147,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "økonomiske og åndelige verdier",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144425,
+           "lemma": "børs og katedral",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 111147,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "børs og katedral"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "naturformasjon $ som ligner en $",
+        "items": [
+         {
+          "id": "e_l",
+          "type_": "entity"
+         },
+         {
+          "article_id": 28994,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 34261,
+            "lemma": "katedral",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "trekronene skapte en katedral",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "tunnelen førte ut i en underjordisk katedral",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: viktigste sted",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "kjøpesenteret er kommersialismens katedral",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $ ‘bispestol’",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "cathedra",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 29011,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 34278,
+        "lemma": "kateter",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "katedral",
+   "hgno": 0,
+   "id": 34261,
+   "inflection_class": "m1",
+   "lemma": "katedral",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "katedral"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "katedralen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "katedraler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "katedralene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-08 15:02:32",
+ "suggest": [
+  "katedral"
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "article_id": 98508,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som representerer eller taler på vegne av noen",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 59747,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 68395,
+          "lemma": "talskvinne",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 59748,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 68396,
+          "lemma": "talsmann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "person",
+   "hgno": 0,
+   "id": 145028,
+   "inflection_class": "m1",
+   "initial_lexeme": "tal",
+   "is_standard": true,
+   "junction": "s",
+   "lemma": "talsperson",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "talsperson"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "talspersonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "talspersoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "talspersonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-02-12 09:52:34"
+}

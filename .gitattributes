@@ -1,0 +1,6 @@
+# Text files are checked out with LF line endings on every system, so a build from a clone
+# hashes the same bytes as ordpar.no's (the `?v=` tokens of the scripts and stylesheets).
+* text=auto eol=lf
+# The data is kept byte for byte as exported: the build, the parts' join and the gate's marker
+# read these exact bytes, so git must never convert their line endings (core.autocrlf on Windows).
+data/** -text

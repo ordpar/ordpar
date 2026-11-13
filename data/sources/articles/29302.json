@@ -1,0 +1,234 @@
+{
+ "article_id": 29302,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$ (med åpning på én side) eller lokale i større bygg der det blant annet selges lesestoff og enkelte matvarer",
+        "items": [
+         {
+          "article_id": 6754,
+          "definition_id": 5,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 7943,
+            "lemma": "bod",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 2,
+            "id": 9453,
+            "lemma": "bu",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gå i kiosken og kjøpe en iskrem",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 60152,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 68811,
+            "lemma": "telefonkiosk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ringe fra en kiosk",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "liten $",
+        "items": [
+         {
+          "article_id": 61828,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 70708,
+            "lemma": "transformatorstasjon",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "relation"
+         },
+         {
+          "article_id": 61827,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 70707,
+            "lemma": "transformatorkiosk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $ og $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "id": "fr.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $ ‘lysthus’",
+    "items": [
+     {
+      "id": "tyrkisk",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "opprinnelig fra $",
+    "items": [
+     {
+      "id": "persisk",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kiosk",
+   "hgno": 0,
+   "id": 34626,
+   "inflection_class": "m1",
+   "lemma": "kiosk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kiosk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kiosken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kiosker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kioskene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-12 07:42:55",
+ "suggest": [
+  "kiosk"
+ ]
+}

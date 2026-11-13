@@ -1,0 +1,103 @@
+{
+ "article_id": 106349,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "fanden",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 123910,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2008263,
+          "lemma": "hinmann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de kjører som om de har en viss mann i hælene",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 68793,
+        "lemmas": [
+         {
+          "lemma": "viss"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "en viss mann",
+   "hgno": 0,
+   "id": 1144729,
+   "lemma": "en viss mann",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "en viss mann"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-10-21 05:10:58",
+ "suggest": [
+  "en viss mann"
+ ]
+}

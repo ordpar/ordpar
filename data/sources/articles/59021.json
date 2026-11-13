@@ -1,0 +1,218 @@
+{
+ "article_id": 59021,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "det at to halvdeler kan oppfattes som et speilbilde av hverandre",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$ $",
+        "items": [
+         {
+          "id": "t_forsk_f",
+          "type_": "entity"
+         },
+         {
+          "article_id": 3014,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 3574,
+            "lemma": "asymmetri",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$: ytre samsvar eller gode proporsjoner mellom de enkelte delene av et hele",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 4245,
+          "definition_id": 10,
+          "definition_order": 3,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 5034,
+            "lemma": "balanse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hagen har fin symmetri",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de arbeider med den manglende symmetrien i forholdet",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, $ ‘sammål’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "id": "oppr",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 136919,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 67575,
+        "lemma": "sym-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 38171,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 246,
+        "lemma": "-metri",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "symmetri",
+   "hgno": 0,
+   "id": 67591,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "symmetri",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "symmetri"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "symmetrien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "symmetrier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "symmetriene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-04-24 13:20:08"
+}

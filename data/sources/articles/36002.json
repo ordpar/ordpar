@@ -1,0 +1,295 @@
+{
+ "article_id": 36002,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "noe til å lukke $ stenge med",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 9594,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 11306,
+          "lemma": "deksel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 57023,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 83929,
+          "lemma": "stengsel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 122078,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "gjemme noe på et sted som er låst",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144306,
+         "lemma": "gjemme noe bak lås og lukke",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 122078,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "gjemme noe bak lås og lukke"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 122077,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "sitte i fengsel",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "sitte $",
+            "items": [
+             {
+              "article_id": 103843,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 1144003,
+                "lemma": "bak lås og slå",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "hun måtte sitte under lås og lukke i femten år",
+             "items": []
+            },
+            "type_": "example"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "etter avsløringen ble en rekke personer satt bak lås og lukke",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1140609,
+         "lemma": "sitte [bak|under] lås og lukke",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 122077,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "sitte [bak|under] lås og lukke"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 36003,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 41807,
+        "lemma": "lukke",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "lukke",
+   "hgno": 1,
+   "id": 41808,
+   "inflection_class": "n2",
+   "lemma": "lukke",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lukke"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lukket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lukker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lukka"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 671,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lukke"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lukket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lukker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lukkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 681,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-07 13:43:54",
+ "suggest": [
+  "lukke"
+ ]
+}

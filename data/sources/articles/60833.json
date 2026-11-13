@@ -1,0 +1,587 @@
+{
+ "article_id": 60833,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "lage i stand",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 60719,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 69459,
+          "lemma": "tilberede",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 121383,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1145416,
+          "lemma": "lage til",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "maten bør tillages lokalt ved det enkelte sykehjemmet",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "måltidet var perfekt tillaget",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt som $:",
+        "items": [
+         {
+          "id": "adj",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "tillagede fiskeprodukter",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 1,
+      "sub_definition": true,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "lage",
+   "hgno": 0,
+   "id": 69585,
+   "inflection_class": "verb, v3",
+   "initial_lexeme": "til",
+   "lemma": "tillage",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "tillage"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "tillager"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "tillages"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "tillages"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "tillaga"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "tillaga"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tillaga"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tillaga"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "tillaga"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "tillaga"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "tillagende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "tillag"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 1,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "tillage"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "tillager"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "tillages"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "tillages"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "tillaget"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "tillaget"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tillaget"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tillaget"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "tillagete"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "tillagete"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "tillagende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "tillag"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 6,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "tillage"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "tillager"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "tillages"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "tillages"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "tillagde"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "tillagd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tillagd"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tillagd"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "tillagde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "tillagde"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "tillagende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "tillag"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 21,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "tillage"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "tillager"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "tillages"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "tillages"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "tillaget"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "tillaget"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tillaget"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tillaget"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "tillagede"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "tillagede"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "tillagende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "tillag"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 7,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-03-22 09:39:05",
+ "suggest": [
+  "tillage"
+ ]
+}

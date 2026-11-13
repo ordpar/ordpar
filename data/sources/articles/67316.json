@@ -1,0 +1,128 @@
+{
+ "article_id": 67316,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ som prøver å $ folk til religiøs bevissthet",
+      "items": [
+       {
+        "article_id": 45926,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52932,
+          "lemma": "predikant",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 67310,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 77695,
+          "lemma": "vekke",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 67313,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 77699,
+          "lemma": "vekkelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "predikant",
+   "hgno": 0,
+   "id": 77702,
+   "inflection_class": "m1",
+   "initial_lexeme": "vekkelse",
+   "is_standard": true,
+   "junction": "s",
+   "lemma": "vekkelsespredikant",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vekkelsespredikant"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "vekkelsespredikanten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vekkelsespredikanter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vekkelsespredikantene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-11-04 14:35:11"
+}

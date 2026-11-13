@@ -1,0 +1,144 @@
+{
+ "article_id": 11940,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som har ansvar for å lage og vurdere $",
+      "items": [
+       {
+        "article_id": 30971,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 36481,
+          "lemma": "kommisjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 11942,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 13975,
+          "lemma": "eksamensoppgave",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "eksamensoppgaver"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 50952,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 58639,
+          "lemma": "sensor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 11949,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 13983,
+          "lemma": "eksaminator",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kommisjon",
+   "hgno": 0,
+   "id": 13972,
+   "inflection_class": "m1",
+   "initial_lexeme": "eksamen",
+   "junction": "s",
+   "lemma": "eksamenskommisjon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "eksamenskommisjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "eksamenskommisjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "eksamenskommisjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "eksamenskommisjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-12-21 11:27:09",
+ "suggest": [
+  "eksamenskommisjon"
+ ]
+}

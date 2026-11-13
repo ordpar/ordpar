@@ -1,0 +1,205 @@
+{
+ "article_id": 38660,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "nedslått stemning",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 39272,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 46027,
+          "lemma": "motløshet",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ grep henne",
+       "items": [
+        {
+         "items": [],
+         "text": "mismotet",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bli fylt av $",
+       "items": [
+        {
+         "items": [],
+         "text": "mismot",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 38595,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 45256,
+        "lemma": "mis-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 39214,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 81736,
+        "lemma": "mot",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mot",
+   "hgno": 0,
+   "id": 45330,
+   "inflection_class": "n1",
+   "initial_lexeme": "mis",
+   "lemma": "mismot",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mismot"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "mismotet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mismot"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "mismota"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mismot"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "mismotet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mismot"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "mismotene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-05 07:32:30",
+ "suggest": [
+  "mismot"
+ ]
+}

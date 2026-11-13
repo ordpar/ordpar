@@ -1,0 +1,180 @@
+{
+ "article_id": 38885,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 66712,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76691,
+          "lemma": "varmedis",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 42729,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 80982,
+          "lemma": "ølrøyk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en blå $",
+       "items": [
+        {
+         "items": [],
+         "text": "moe",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ $ ‘støv’ og $ $ ‘damp’",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "moða",
+      "type_": "usage"
+     },
+     {
+      "id": "isl.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "móða",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 38800,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 82106,
+        "lemma": "mo",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 45546,
+        "lemma": "mod",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "moe",
+   "hgno": 0,
+   "id": 45612,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "moe",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "moe"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "moen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "moer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "moene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-04-19 15:08:49"
+}

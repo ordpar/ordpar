@@ -1,0 +1,214 @@
+{
+ "article_id": 23408,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "(tittel for) $ med høyeste rang",
+        "items": [
+         {
+          "article_id": 160,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 953,
+            "lemma": "adelsmann",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hertugen og hertuginnen av Cambridge",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 7,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "om $ $: $",
+        "items": [
+         {
+          "id": "e",
+          "type_": "entity"
+         },
+         {
+          "id": "forh",
+          "type_": "entity"
+         },
+         {
+          "article_id": 25049,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 29830,
+            "lemma": "hærfører",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "høy $",
+        "items": [
+         {
+          "article_id": 66800,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 76803,
+            "lemma": "vasall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "hertogi",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     },
+     {
+      "text": "hertoch",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ opprinnelig ‘hærfører’",
+    "items": [
+     {
+      "article_id": 25047,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 29828,
+        "lemma": "hær",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hertug",
+   "hgno": 0,
+   "id": 27597,
+   "inflection_class": "m1",
+   "lemma": "hertug",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hertug"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hertugen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hertuger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hertugene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-03-04 12:46:36",
+ "suggest": [
+  "hertug"
+ ]
+}

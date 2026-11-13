@@ -1,0 +1,229 @@
+{
+ "article_id": 48954,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "ord som kan stå alene $ være del av en $, og som ikke har $ $ $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "article_id": 56628,
+        "definition_id": 7,
+        "definition_order": 5,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 65137,
+          "lemma": "stamme",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 3619,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 4286,
+          "lemma": "avledning",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 4307,
+          "lemma": "avleiing",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "avledninger"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "article_id": 8576,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 10283,
+          "lemma": "bøyningsendelse",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 10267,
+          "lemma": "bøyingsendelse",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 10285,
+          "lemma": "bøyningsending",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 10269,
+          "lemma": "bøyingsending",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 48919,
+        "definition_id": 8,
+        "definition_order": 7,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 56180,
+          "lemma": "rot",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "‘dans’ er rotord til ‘danse’ og ‘dansing’",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ord",
+   "hgno": 0,
+   "id": 56221,
+   "inflection_class": "n1",
+   "initial_lexeme": "rot",
+   "is_standard": true,
+   "lemma": "rotord",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rotord"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "rotordet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "rotord"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rotorda"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rotord"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "rotordet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "rotord"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rotordene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-10-05 11:38:29"
+}

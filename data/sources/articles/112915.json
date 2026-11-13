@@ -1,0 +1,118 @@
+{
+ "article_id": 112915,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som viser hvilken rang en $ har",
+      "items": [
+       {
+        "article_id": 20580,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 24034,
+          "lemma": "grad",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 41835,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 48923,
+          "lemma": "offiser",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en lav offisersgrad",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "grad",
+   "hgno": 0,
+   "id": 164033,
+   "inflection_class": "m1",
+   "initial_lexeme": "offiser",
+   "junction": "s",
+   "lemma": "offisersgrad",
+   "paradigm_info": [
+    {
+     "from": "2020-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "offisersgrad"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "offisersgraden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "offisersgrader"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "offisersgradene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-23 15:33:12",
+ "suggest": [
+  "offisersgrad"
+ ]
+}

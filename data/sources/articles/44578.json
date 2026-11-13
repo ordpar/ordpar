@@ -1,0 +1,105 @@
+{
+ "article_id": 44578,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ med $",
+      "items": [
+       {
+        "article_id": 32829,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 38508,
+          "lemma": "kur",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 44577,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 51542,
+          "lemma": "penicillin",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kur",
+   "hgno": 0,
+   "id": 51543,
+   "inflection_class": "m1",
+   "initial_lexeme": "penicillin",
+   "lemma": "penicillinkur",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "penicillinkur"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "penicillinkuren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "penicillinkurer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "penicillinkurene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-14 13:58:56",
+ "suggest": [
+  "penicillinkur"
+ ]
+}

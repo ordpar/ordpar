@@ -1,0 +1,157 @@
+{
+ "article_id": 60924,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som er til stede (ved idrettsarrangement, forestilling $) for å se på noe",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "mange $ så kampen",
+       "items": [
+        {
+         "text": "tilskuere",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en flokk nysgjerrige $ samlet seg på ulykkesstedet",
+       "items": [
+        {
+         "text": "tilskuere",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ etter $ $",
+    "items": [
+     {
+      "id": "trol",
+      "type_": "entity"
+     },
+     {
+      "id": "ty.",
+      "type_": "entity"
+     },
+     {
+      "text": "Zuschauer",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 53773,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 61991,
+        "lemma": "skue",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "skuer",
+   "hgno": 0,
+   "id": 69684,
+   "inflection_class": "m2",
+   "initial_lexeme": "til",
+   "lemma": "tilskuer",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tilskuer"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tilskueren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tilskuere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tilskuerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-04-04 13:10:51",
+ "suggest": [
+  "tilskuer"
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "article_id": 18161,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "måltid tidlig på dagen",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "dagens første måltid",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "spise en lett $",
+         "items": [
+          {
+           "text": "frokost",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "få havregryn til frokost",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 114136,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "lett morgenmåltid, vanligvis med ristet brød, søtt bakverk, syltetøy, kaffe $ te og jus",
+              "items": [
+               {
+                "id": "el",
+                "type_": "relation"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1145362,
+           "lemma": "kontinental frokost",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 114136,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "kontinental frokost"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "tid på dagen da en spiser $",
+        "items": [
+         {
+          "article_id": 18161,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 21257,
+            "lemma": "frokost",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "på morgenen",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de banket på døra rundt frokost",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘tidlig måltid’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "frokost",
+   "hgno": 0,
+   "id": 21257,
+   "inflection_class": "m1",
+   "lemma": "frokost",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "frokost"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "frokosten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "frokoster"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "frokostene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-03 13:39:12",
+ "suggest": [
+  "frokost"
+ ]
+}

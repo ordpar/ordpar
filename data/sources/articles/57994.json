@@ -1,0 +1,150 @@
+{
+ "article_id": 57994,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "person som styrer $ administrerer noe",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "styreren leder møtet",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 7141,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 8385,
+          "lemma": "bostyrer",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 9815,
+          "lemma": "bustyrer",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 43291,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50154,
+          "lemma": "ordstyrer",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 53313,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 61523,
+          "lemma": "skolestyrer",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 83265,
+          "lemma": "skolebestyrer",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "styrer",
+   "hgno": 0,
+   "id": 66406,
+   "inflection_class": "m2",
+   "is_standard": true,
+   "lemma": "styrer",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "styrer"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "styreren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "styrere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "styrerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-04-15 12:31:58"
+}

@@ -1,0 +1,157 @@
+{
+ "article_id": 45719,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "stolpe, støtte, stokk",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "dobbel låvedør med post i midten",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 68478,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79042,
+          "lemma": "vinduspost",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 66528,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76441,
+          "lemma": "vannpost",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 77157,
+          "lemma": "vasspost",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $ ‘dørstolpe’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "postis",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "post",
+   "hgno": 1,
+   "id": 81782,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "post",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "post"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "posten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "poster"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "postene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-01-13 11:13:31"
+}

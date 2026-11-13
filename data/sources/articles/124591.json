@@ -1,0 +1,204 @@
+{
+ "article_id": 124591,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "sete for føreren av et kjøretøy",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "til forskjell fra $",
+      "items": [
+       {
+        "article_id": 124392,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 129580,
+          "lemma": "passasjersete",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 124592,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "bestemme utviklingen",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "ha ledelsen",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "hvem sitter i førersetet i Stavanger kommune?",
+             "items": []
+            },
+            "type_": "example"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "kommersielle interesser er ikke i førersetet",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2009355,
+         "lemma": "[sitte|være] i førersetet",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 124592,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "[sitte|være] i førersetet"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sete",
+   "hgno": 0,
+   "id": 96390,
+   "inflection_class": "n2",
+   "initial_lexeme": "fører",
+   "lemma": "førersete",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "førersete"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "førersetet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "førerseter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "førersetene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 681,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "førersete"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "førersetet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "førerseter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "førerseta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 671,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-09-08 13:54:20",
+ "suggest": [
+  "førersete"
+ ]
+}

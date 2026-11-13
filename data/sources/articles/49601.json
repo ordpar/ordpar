@@ -1,0 +1,147 @@
+{
+ "article_id": 49601,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "ekspedisjon (opprinnelig i Afrika) for å se på $ drive jakt på ville dyr",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 116509,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 100775,
+          "lemma": "fotosafari",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 117399,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 108059,
+          "lemma": "hvalsafari",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 166455,
+          "lemma": "kvalsafari",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘reise’",
+    "items": [
+     {
+      "id": "arab.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "safara",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra swahili, $ ‘karavanereise’",
+    "items": [
+     {
+      "id": "oppr",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "safari",
+   "hgno": 0,
+   "id": 56921,
+   "inflection_class": "m1",
+   "lemma": "safari",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "safari"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "safarien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "safarier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "safariene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-10-04 11:46:05",
+ "suggest": [
+  "safari"
+ ]
+}

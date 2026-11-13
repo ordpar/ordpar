@@ -1,0 +1,256 @@
+{
+ "article_id": 35738,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "liten (lær)mappe i lommeformat med innvendige rom til pengesedler, papirer $",
+        "items": [
+         {
+          "id": "o_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 44567,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 51530,
+            "lemma": "pengebok",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$: penger, økonomiske midler",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "prisoppgangen påvirker folks lommebok",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "betale av egen lommebok",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 132321,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "den økonomiske situasjonen",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "få helsehjelp uavhengig av størrelsen på lommeboka",
+               "items": []
+              },
+              "type_": "example"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "prisene er for enhver tykkelse på lommeboka",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2980269,
+           "lemma": "[størrelsen|tykkelsen] på lommeboka",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 132321,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "[størrelsen|tykkelsen] på lommeboka"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "bok",
+   "hgno": 0,
+   "id": 82915,
+   "inflection_class": "m., f.",
+   "initial_lexeme": "lomme",
+   "lemma": "lommebok",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lommebok"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lommeboka"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lommebøker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lommebøkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 784,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lommebok"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lommeboken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lommebøker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lommebøkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 628,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-08 12:10:03",
+ "suggest": [
+  "lommebok"
+ ]
+}

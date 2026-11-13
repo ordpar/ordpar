@@ -1,0 +1,139 @@
+{
+ "article_id": 25191,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "i flertall: orden av store og mellomstore fugler med bred kroppsbygning, stutt nebb og stutte, runde vinger fra for eksempel $",
+        "items": [
+         {
+          "article_id": 112122,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 163670,
+            "lemma": "fasanfamilie",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "fasanfamilien"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "items": [],
+          "text": "Galliformes",
+          "type_": "usage"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "fugl av ordenen $",
+        "items": [
+         {
+          "article_id": 25191,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 30107,
+            "lemma": "hønsefugl",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "hønsefugler"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "fugl",
+   "hgno": 0,
+   "id": 30107,
+   "inflection_class": "m1",
+   "initial_lexeme": "høns",
+   "junction": "e",
+   "lemma": "hønsefugl",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hønsefugl"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hønsefuglen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hønsefugler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hønsefuglene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-15 06:54:49",
+ "suggest": [
+  "hønsefugl"
+ ]
+}

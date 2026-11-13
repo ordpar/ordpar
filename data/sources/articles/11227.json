@@ -1,0 +1,152 @@
+{
+ "article_id": 11227,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ med stor $ og $",
+      "items": [
+       {
+        "article_id": 52412,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 60454,
+          "lemma": "skala",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 60451,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 69127,
+          "lemma": "ters",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 50499,
+        "definition_id": 3,
+        "definition_order": 0,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 57960,
+          "lemma": "sekst",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "femte tonen i en durskala",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 11213,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 81441,
+        "lemma": "dur",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "skala",
+   "hgno": 0,
+   "id": 13088,
+   "inflection_class": "m1",
+   "initial_lexeme": "dur",
+   "lemma": "durskala",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "durskala"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "durskalaen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "durskalaer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "durskalaene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-20 09:21:34",
+ "suggest": [
+  "durskala"
+ ]
+}

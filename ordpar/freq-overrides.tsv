@@ -1,0 +1,17 @@
+# The overrides registry for the lookup index's frequency bands (decisions 55): one line per headword
+# string as spelled, its band (0-15, or nb = keep NB's scaled count, for a single character the rule
+# would otherwise sink) and why. Read by ordpar/build_index.py after the counts and ahead of the
+# single-character and abbreviation rules; the file and its entry count are named in the index manifest. Robin rules on every entry; an
+# entry is added only where a visible suggestion or similar-words list goes wrong. Ordpar's own work,
+# CC BY 4.0, like the English. Spec: ordpar/docs/lookup-index.md § 4 (3).
+form	band	why
+å	nb	a word, not a letter: the infinitive marker and conjunction
+i	nb	a word, not a letter: the preposition
+fl	2	abbreviation only (fl. 'flere'); books' apparatus lifts it; 10 of the 646 similar lists
+ff	2	abbreviation only (ff. 'følgende'); page references in books
+ss	2	abbreviation only (ss. 'sider'); page references in books
+kr	8	currency abbreviation; prices lift it over the real two-letter words (kø, ku) in 16 lists
+kg	8	unit symbol; weights lift it over the real two-letter words in 12 lists
+gange	8	the verb (multiply) borrows the noun ganger ('times') through the agent-noun fix; its band without it (Robin, 2026-10-20)
+helle	8	the verb (pour, tilt) borrows heller, the adverb's spelling, through the agent-noun fix; its band without it (Robin, 2026-10-20)
+midle	7	a rare verb (formidle is the common one) borrowing the noun midler ('means, funds') through the agent-noun fix; its band without it (Robin, 2026-10-20)

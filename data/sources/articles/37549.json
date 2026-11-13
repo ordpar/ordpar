@@ -1,0 +1,179 @@
+{
+ "article_id": 37549,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "i mellomste tredelen av en måned eller et år",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $ og $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 46187,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 3,
+            "id": 53194,
+            "lemma": "primo",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 64135,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 73461,
+            "lemma": "ultimo",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ juni",
+         "items": [
+          {
+           "items": [],
+           "text": "medio",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "om forfallsdag for verdipapirer: 15. dag i måneden eller nærmeste hverdag",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $ og $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 46187,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 3,
+            "id": 53194,
+            "lemma": "primo",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 64135,
+          "definition_id": 4,
+          "definition_order": 0,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 73461,
+            "lemma": "ultimo",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘i midten’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "medius",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "medio",
+   "hgno": 0,
+   "id": 44011,
+   "lemma": "medio",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "medio"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-11-23 12:51:23",
+ "suggest": [
+  "medio"
+ ]
+}

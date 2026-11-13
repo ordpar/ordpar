@@ -1,0 +1,250 @@
+{
+ "article_id": 19824,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "det å gå gjennom noe",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ forbudt",
+         "items": [
+          {
+           "text": "gjennomgang",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$ $ $ til å gå eller kjøre gjennom",
+        "items": [
+         {
+          "article_id": 19034,
+          "definition_id": 11,
+          "definition_order": 4,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 22260,
+            "lemma": "gang",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "el",
+          "type_": "relation"
+         },
+         {
+          "article_id": 44346,
+          "definition_id": 5,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 51314,
+            "lemma": "passasje",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "finne en $",
+         "items": [
+          {
+           "text": "gjennomgang",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de bygde en gjennomgang under sykehuset",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "framstilling av et emne muntlig eller skriftlig",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "artikkelen gir en grundig gjennomgang av årsakene til krisen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "undersøkelse for å kontrollere $",
+        "items": [
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 31478,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 37013,
+            "lemma": "kontroll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en grundig gjennomgang av sikkerhetsrutiner",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "tone eller toner som danner overgang mellom to akkorder",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 7,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gang",
+   "hgno": 0,
+   "id": 23108,
+   "inflection_class": "m1",
+   "initial_lexeme": "gjennom",
+   "lemma": "gjennomgang",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gjennomgang"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gjennomgangen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gjennomganger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gjennomgangene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-03-24 11:49:25",
+ "suggest": [
+  "gjennomgang"
+ ]
+}

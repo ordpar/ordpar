@@ -1,0 +1,206 @@
+{
+ "article_id": 17864,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som er lenger $ lengst framme",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "i den $ delen",
+       "items": [
+        {
+         "text": "fremre",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ vogn i toget",
+       "items": [
+        {
+         "text": "fremre",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "fremri, framari",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ av $ og $",
+    "items": [
+     {
+      "id": "komp",
+      "type_": "grammar"
+     },
+     {
+      "article_id": 17476,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 20250,
+        "lemma": "fram",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 20660,
+        "lemma": "frem",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 17532,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 20354,
+        "lemma": "framme",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 1,
+        "id": 20761,
+        "lemma": "fremme",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 17885,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 20930,
+        "lemma": "fremst",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "fremre",
+   "hgno": 0,
+   "id": 20885,
+   "lemma": "fremre",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "fremre"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "fremst"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "fremste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 523,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-12-14 14:44:37",
+ "suggest": [
+  "fremre"
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "article_id": 104861,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "avskjedige en arbeidstaker",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bedriften måtte si opp flere ansatte",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "gi beskjed om at en avslutter et arbeidsforhold",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "jeg har sagt opp jobben min",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "avslutte eller avbestille et $, en kontrakt $",
+        "items": [
+         {
+          "article_id": 45,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 839,
+            "lemma": "abonnement",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han sa opp avisen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 51264,
+        "lemmas": [
+         {
+          "lemma": "si"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "si opp",
+   "hgno": 0,
+   "id": 1147818,
+   "is_standard": true,
+   "lemma": "si opp",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "si opp"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-07-07 13:06:27"
+}

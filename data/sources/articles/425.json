@@ -1,0 +1,287 @@
+{
+ "article_id": 425,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "som gjelder universitet $ akademikere",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ utdanning",
+         "items": [
+          {
+           "text": "akademisk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "akademisk frihet, miljø",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 100609,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "kvarter over en hel time da en forelesning begynner (opprinnelig et kvarter for sent); tid som går fra et arrangement var bestemt til å begynne, til det virkelig begynner",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1147869,
+           "lemma": "akademisk kvarter",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 100609,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "akademisk kvarter"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 31503,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 37041,
+            "lemma": "konvensjonell",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 47778,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 54871,
+            "lemma": "regelbundet",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ stil, kunst",
+         "items": [
+          {
+           "text": "akademisk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "uten praktisk betydning",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "teoretisk",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "livsfjern",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "dette har bare $ interesse",
+         "items": [
+          {
+           "text": "akademisk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 423,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 1208,
+        "lemma": "akademi",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "akadeˊmisk",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "akademisk",
+   "hgno": 0,
+   "id": 1210,
+   "inflection_class": "a2",
+   "lemma": "akademisk",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "akademisk"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "akademiske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "akademiske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "akademisk"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-17 15:34:26",
+ "suggest": [
+  "akademisk"
+ ]
+}

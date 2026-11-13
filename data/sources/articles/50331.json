@@ -1,0 +1,202 @@
+{
+ "article_id": 50331,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som er i samsvar med moralen $ med allmenne etiske regler",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "som har gode $",
+      "items": [
+       {
+        "article_id": 50323,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 57735,
+          "lemma": "sed",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "seder"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 39046,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 45795,
+          "lemma": "moralsk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 59302,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 67936,
+          "lemma": "sømmelig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "leve et $ liv",
+       "items": [
+        {
+         "items": [],
+         "text": "sedelig",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "attest for $ vandel",
+       "items": [
+        {
+         "items": [],
+         "text": "sedelig",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "siðligr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sedelig",
+   "hgno": 0,
+   "id": 57743,
+   "inflection_class": "a2",
+   "is_standard": true,
+   "lemma": "sedelig",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sedelig"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "sedelige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "sedelige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sedelig"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-06-16 10:59:46"
+}

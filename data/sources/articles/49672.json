@@ -1,0 +1,138 @@
+{
+ "article_id": 49672,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som har sakkunnskap om noe",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en sakkyndig vurdering",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt som $:",
+        "items": [
+         {
+          "id": "subst",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en $ skal uttale seg om saken",
+         "items": [
+          {
+           "items": [],
+           "text": "sakkyndig",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": true,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kyndig",
+   "hgno": 0,
+   "id": 56996,
+   "inflection_class": "a2",
+   "initial_lexeme": "sak",
+   "lemma": "sakkyndig",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sakkyndig"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "sakkyndige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "sakkyndige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sakkyndig"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-03-14 08:22:34",
+ "suggest": [
+  "sakkyndig"
+ ]
+}

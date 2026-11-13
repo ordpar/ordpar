@@ -1,0 +1,137 @@
+{
+ "article_id": 128322,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "større bolighus $ forretningsbygg (i en by)",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det ligger ni gårder i denne gata",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 8364,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9961,
+          "lemma": "bygård",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 21375,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 24867,
+          "lemma": "gråbeingård",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 34332,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 40365,
+          "lemma": "leiegård",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gård",
+   "hgno": 2,
+   "id": 25384,
+   "inflection_class": "m1",
+   "lemma": "gård",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gård"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gården"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gårder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gårdene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-02 11:57:28",
+ "suggest": [
+  "gård"
+ ]
+}

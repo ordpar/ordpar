@@ -1,0 +1,131 @@
+{
+ "article_id": 43880,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "bakverk av terte- $ mørdeig med bær, frukt, grønnsaker, kjøtt eller annet inni",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 6682,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 7815,
+          "lemma": "blåbærpai",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 12953,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15081,
+          "lemma": "eplepai",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "pie",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "pai",
+   "hgno": 0,
+   "id": 50828,
+   "inflection_class": "m1",
+   "lemma": "pai",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pai"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "paien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "paier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "paiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-27 10:35:22",
+ "suggest": [
+  "pai"
+ ]
+}

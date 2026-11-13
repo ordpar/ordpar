@@ -1,0 +1,250 @@
+{
+ "article_id": 52992,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 20861,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 24371,
+          "lemma": "grense",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 20875,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 24386,
+          "lemma": "grenselinje",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 52747,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 60838,
+          "lemma": "skille",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ mellom to eiendommer",
+       "items": [
+        {
+         "text": "skjellet",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 128630,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "markere overgang",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "hendelsen satt skjell i livet hans",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2872323,
+         "lemma": "sette skjell",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 128630,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "sette skjell"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "article_id": 52993,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 81885,
+        "lemma": "skjell",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "skjell",
+   "hgno": 2,
+   "id": 81884,
+   "inflection_class": "n1",
+   "is_standard": true,
+   "lemma": "skjell",
+   "mo_link": 2,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "skjell"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "skjellet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "skjell"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "skjella"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "skjell"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "skjellet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "skjell"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "skjellene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 2
+  }
+ ],
+ "submitted": "2025-08-21 12:29:13"
+}

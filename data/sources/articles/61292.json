@@ -1,0 +1,398 @@
+{
+ "article_id": 61292,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "skål med avløp til menneskeekskrement og -urin",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 10461,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 12226,
+            "lemma": "do",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 69446,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 761,
+            "lemma": "WC",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 80130,
+            "lemma": "wc",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gå på toalettet",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "rom med $ der en kan stelle seg",
+        "items": [
+         {
+          "article_id": 61292,
+          "definition_id": 4,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 70113,
+            "lemma": "toalett",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 105855,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "vaske, stelle og kle seg",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144601,
+           "lemma": "gjøre toalett",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 105855,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "gjøre toalett"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 47086,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 54109,
+            "lemma": "påkledning",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 10742,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12564,
+            "lemma": "drakt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "stort toalett",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, $ av $ ‘lerret, duk (på toalettbord)'",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     },
+     {
+      "text": "toilette",
+      "type_": "usage"
+     },
+     {
+      "id": "dim",
+      "type_": "entity"
+     },
+     {
+      "text": "toile",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "toalett",
+   "hgno": 0,
+   "id": 70113,
+   "inflection_class": "n3",
+   "is_standard": true,
+   "lemma": "toalett",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "toalett"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "toalettet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "toalett"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "toaletta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "toalett"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "toalettet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "toalett"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "toalettene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "toalett"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "toalettet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "toaletter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "toaletta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 670,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "toalett"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "toalettet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "toaletter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "toalettene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 680,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-09-30 12:55:08"
+}

@@ -1,0 +1,171 @@
+{
+ "article_id": 26148,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "prisstigning som oppstår fordi pengemengden øker i forhold til den varemengden som skal omsettes",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "mots",
+          "type_": "relation"
+         },
+         {
+          "article_id": 9474,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 11177,
+            "lemma": "deflasjon",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: det at noe svekkes, går ned i verdi på grunn av overdreven bruk",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "rhetoric"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det har gått $ i bruken av fremmedord",
+         "items": [
+          {
+           "text": "inflasjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "relation"
+     },
+     {
+      "id": "eng.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $ $, av $ ‘blåse opp’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "inflatio",
+      "type_": "usage"
+     },
+     {
+      "text": "inflare",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "inflasjon",
+   "hgno": 0,
+   "id": 31129,
+   "inflection_class": "m1",
+   "lemma": "inflasjon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "inflasjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "inflasjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "inflasjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "inflasjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-17 10:45:20",
+ "suggest": [
+  "inflasjon"
+ ]
+}

@@ -1,0 +1,249 @@
+{
+ "article_id": 60942,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "omstendighet som noe eller noen befinner seg i",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 16347,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 18963,
+            "lemma": "forhold",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 51767,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 59500,
+            "lemma": "situasjon",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "pasientens $ har forverret seg",
+         "items": [
+          {
+           "text": "tilstand",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gi en rapport om tingenes $",
+         "items": [
+          {
+           "text": "tilstand",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "uholdbare $",
+         "items": [
+          {
+           "text": "tilstander",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "form som et stoff fins i",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 362,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1147,
+            "lemma": "aggregattilstand",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gass i flytende $",
+         "items": [
+          {
+           "text": "tilstand",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘forholde seg’",
+    "items": [
+     {
+      "id": "foreld",
+      "type_": "entity"
+     },
+     {
+      "text": "tilstå",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ etter $ $",
+    "items": [
+     {
+      "id": "trol",
+      "type_": "entity"
+     },
+     {
+      "id": "ty",
+      "type_": "entity"
+     },
+     {
+      "text": "Zustand",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "stand",
+   "hgno": 0,
+   "id": 69703,
+   "inflection_class": "m1",
+   "initial_lexeme": "til",
+   "lemma": "tilstand",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tilstand"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tilstanden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tilstander"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tilstandene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-04-05 12:05:29",
+ "suggest": [
+  "tilstand"
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "article_id": 41592,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i jus: $",
+      "items": [
+       {
+        "article_id": 50684,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58232,
+          "lemma": "selvforsvar",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 60065,
+          "lemma": "sjølforsvar",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "påberope seg $",
+       "items": [
+        {
+         "items": [],
+         "text": "nødverge",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "handle i $",
+       "items": [
+        {
+         "items": [],
+         "text": "nødverge",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "jamfør $ med $ $ ‘forsvar’",
+    "items": [
+     {
+      "article_id": 67816,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 82034,
+        "lemma": "verge",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "id": "foreld",
+      "type_": "entity"
+     },
+     {
+      "id": "bet",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "verge",
+   "hgno": 0,
+   "id": 48701,
+   "inflection_class": "n.",
+   "initial_lexeme": "nød",
+   "lemma": "nødverge",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "nødverge"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 758,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-06-02 10:59:57",
+ "suggest": [
+  "nødverge"
+ ]
+}

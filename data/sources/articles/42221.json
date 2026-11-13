@@ -1,0 +1,127 @@
+{
+ "article_id": 42221,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "rett for en arbeidstaker til å få fri fra arbeidet i forbindelse med fødsel eller adopsjon",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "til forskjell fra $ og $",
+      "items": [
+       {
+        "article_id": 123437,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 99451,
+          "lemma": "foreldrepermisjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 114420,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 96345,
+          "lemma": "fødselspermisjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ved fødsel har faren rett til to ukers $",
+       "items": [
+        {
+         "items": [],
+         "text": "omsorgspermisjon",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "permisjon",
+   "hgno": 0,
+   "id": 49325,
+   "inflection_class": "m1",
+   "initial_lexeme": "omsorg",
+   "junction": "s",
+   "lemma": "omsorgspermisjon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "omsorgspermisjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "omsorgspermisjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "omsorgspermisjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "omsorgspermisjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-01-08 07:59:47",
+ "suggest": [
+  "omsorgspermisjon"
+ ]
+}

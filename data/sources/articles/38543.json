@@ -1,0 +1,256 @@
+{
+ "article_id": 38543,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 24687,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 3,
+            "id": 29102,
+            "lemma": "huske",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han mintes godt barndommen",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det var i april, om jeg minnes rett",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "så vidt jeg minnes, kostet jakka 990 kr",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "ha en tilstelning $ til minne om noe eller noen",
+        "items": [
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ de omkomne",
+         "items": [
+          {
+           "items": [],
+           "text": "minnes",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "minnast",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "se $",
+    "items": [
+     {
+      "article_id": 38532,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 45189,
+        "lemma": "minne",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "minnes",
+   "hgno": 0,
+   "id": 45202,
+   "inflection_class": "verb",
+   "lemma": "minnes",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "minnes"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "minnes"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "mintes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "mintes"
+      },
+      {
+       "tags": [
+        "Imp",
+        "<SPass>"
+       ],
+       "word_form": "minnes"
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 313,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "minnes"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "mins"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "mintes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "mintes"
+      },
+      {
+       "tags": [
+        "Imp",
+        "<SPass>"
+       ],
+       "word_form": "minnes"
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 314,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-06-20 05:41:34",
+ "suggest": [
+  "minnes",
+  "mins__minnes",
+  "minnes__minnes"
+ ]
+}

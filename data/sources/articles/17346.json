@@ -1,0 +1,250 @@
+{
+ "article_id": 17346,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "ball brukt til $",
+        "items": [
+         {
+          "article_id": 116499,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 100718,
+            "lemma": "fotballspill",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sparke til fotballen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 116499,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 100718,
+            "lemma": "fotballspill",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "spille $",
+         "items": [
+          {
+           "text": "fotball",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "mange følger med på norsk fotball",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det ble vist mye god $ under VM",
+         "items": [
+          {
+           "text": "fotball",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 100659,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "idrett som spilles av to lag med en oval ball",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "$ $",
+              "items": [
+               {
+                "id": "jf",
+                "type_": "relation"
+               },
+               {
+                "article_id": 49025,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 56295,
+                  "lemma": "rugby",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144198,
+           "lemma": "amerikansk fotball",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 100659,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "amerikansk fotball"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ball",
+   "hgno": 0,
+   "id": 20111,
+   "inflection_class": "m1",
+   "initial_lexeme": "fot",
+   "lemma": "fotball",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "fotball"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "fotballen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "fotballer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "fotballene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-19 07:13:05",
+ "suggest": [
+  "fotball"
+ ]
+}

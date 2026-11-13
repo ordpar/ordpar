@@ -1,0 +1,185 @@
+{
+ "article_id": 9412,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ av $ $ $",
+      "items": [
+       {
+        "id": "fl",
+        "type_": "grammar"
+       },
+       {
+        "article_id": 9728,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 11449,
+          "lemma": "den",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "article_id": 9917,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 11644,
+          "lemma": "det",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de merkeligste påfunn",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "begge de to andre guttene",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "content": "foran $ $:",
+        "items": [
+         {
+          "id": "subst_t",
+          "type_": "grammar"
+         },
+         {
+          "id": "adj",
+          "type_": "grammar"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "nærme seg de førti",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de konservative",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": true,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ av $ i $ 2 etter $",
+    "items": [
+     {
+      "id": "opphl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 9411,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 11112,
+        "lemma": "de",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "id": "bet",
+      "type_": "relation"
+     },
+     {
+      "id": "ty",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "de",
+   "hgno": 3,
+   "id": 83603,
+   "lemma": "de",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "de"
+      }
+     ],
+     "inflection_group": "DET_simple",
+     "paradigm_id": 400,
+     "standardisation": "STANDARD",
+     "tags": [
+      "DET",
+      "Dem",
+      "Plur"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2016-12-05 01:43:36",
+ "suggest": [
+  "de"
+ ]
+}

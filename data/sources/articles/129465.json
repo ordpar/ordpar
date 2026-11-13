@@ -1,0 +1,116 @@
+{
+ "article_id": 129465,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "område med $",
+      "items": [
+       {
+        "article_id": 129463,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2060109,
+          "lemma": "solkraftanlegg",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 44220,
+        "definition_id": 6,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 51187,
+          "lemma": "park",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "park",
+   "hgno": 0,
+   "id": 2850985,
+   "inflection_class": "m1",
+   "initial_lexeme": "sol",
+   "lemma": "solpark",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "solpark"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "solparken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "solparker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "solparkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-11-07 08:15:34",
+ "suggest": [
+  "solpark"
+ ]
+}

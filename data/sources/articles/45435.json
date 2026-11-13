@@ -1,0 +1,271 @@
+{
+ "article_id": 45435,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "pusse eller gni en overflate ($ med kjemisk middel) slik at den blir glatt og blank",
+        "items": [
+         {
+          "id": "f_eks",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bilen bør $ vår og høst",
+         "items": [
+          {
+           "items": [],
+           "text": "poleres",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: $, $",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 14788,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 17113,
+            "lemma": "finpusse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 32679,
+          "definition_id": 8,
+          "definition_order": 4,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 38349,
+            "lemma": "kultivere",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "content": "brukt som adjektiv:",
+          "items": [],
+          "type_": "explanation"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "et polert språk",
+           "items": []
+          },
+          "type_": "example"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "polerte manerer",
+           "items": []
+          },
+          "type_": "example"
+         }
+        ],
+        "id": 1,
+        "sub_definition": true,
+        "type_": "definition"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "polere",
+   "hgno": 0,
+   "id": 52421,
+   "inflection_class": "v2",
+   "lemma": "polere",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "polere"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "polerer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "poleres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "poleres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "polerte"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "polert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "polert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "polert"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "polerte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "polerte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "polerende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "poler"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 16,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-03-10 13:37:05",
+ "suggest": [
+  "polere"
+ ]
+}

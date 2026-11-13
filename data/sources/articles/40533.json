@@ -1,0 +1,261 @@
+{
+ "article_id": 40533,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$ brukt i $: sette ned, redusere",
+        "items": [
+         {
+          "id": "saerl",
+          "type_": "entity"
+         },
+         {
+          "id": "pf_pt",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "boten ble nedsatt til det halve",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "content": "brukt $:",
+          "items": [
+           {
+            "id": "s_adj",
+            "type_": "entity"
+           }
+          ],
+          "type_": "explanation"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "sterkt nedsatte priser",
+           "items": []
+          },
+          "type_": "example"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "ha nedsatt syn",
+           "items": []
+          },
+          "type_": "example"
+         }
+        ],
+        "id": 3,
+        "sub_definition": true,
+        "type_": "definition"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 42578,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 49764,
+            "lemma": "oppnevne",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ en komité",
+         "items": [
+          {
+           "items": [],
+           "text": "nedsette",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "sette",
+   "hgno": 0,
+   "id": 47449,
+   "inflection_class": "verb",
+   "initial_lexeme": "ned",
+   "lemma": "nedsette",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "nedsette"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "nedsetter"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "nedsettes"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "nedsettes"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "nedsatte"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "nedsatt"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "nedsatt"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "nedsatt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "nedsatte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "nedsatte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "nedsettende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "nedsett"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 48,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-09-04 06:54:39",
+ "suggest": [
+  "nedsette"
+ ]
+}

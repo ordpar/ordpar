@@ -1,0 +1,243 @@
+{
+ "article_id": 31874,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "naturkraft, stoff eller prosess som en kan utvinne $ av",
+      "items": [
+       {
+        "article_id": 12658,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 14758,
+          "lemma": "energi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 12665,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 14765,
+          "lemma": "energikilde",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 14766,
+          "lemma": "energikjelde",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "utnytte solvarmen som $",
+       "items": [
+        {
+         "text": "kraftkilde",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de store $ på Vestlandet",
+       "items": [
+        {
+         "text": "kraftkildene",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kilde",
+   "hgno": 0,
+   "id": 37457,
+   "inflection_class": "m1",
+   "initial_lexeme": "kraft",
+   "lemma": "kraftkilde",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kraftkilde"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kraftkilden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kraftkilder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kraftkildene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "kjelde",
+   "hgno": 0,
+   "id": 37458,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "kraft",
+   "lemma": "kraftkjelde",
+   "paradigm_info": [
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kraftkjelde"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kraftkjelden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kraftkjelder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kraftkjeldene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kraftkjelde"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kraftkjelda"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kraftkjelder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kraftkjeldene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 762,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-15 15:45:46",
+ "suggest": [
+  "kraftkilde",
+  "kraftkjelde"
+ ]
+}

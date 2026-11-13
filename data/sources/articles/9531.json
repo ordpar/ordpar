@@ -1,0 +1,211 @@
+{
+ "article_id": 9531,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "leder for et fakultet på universitet eller høyskole",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 9534,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 11242,
+            "lemma": "dekanus",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 7,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i katolsk $ anglikansk tradisjon: leder for et område, $, $ $",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         },
+         {
+          "article_id": 10605,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12395,
+            "lemma": "domkapittel",
+            "markdown_lemma": "domkapittel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 28749,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 33987,
+            "lemma": "kardinalkollegium",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 9534,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 11242,
+            "lemma": "dekanus",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "dekan for kardinalkollegiet",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 9534,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 11242,
+        "lemma": "dekanus",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dekan",
+   "hgno": 0,
+   "id": 11239,
+   "inflection_class": "m1",
+   "lemma": "dekan",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "dekan"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "dekanen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "dekaner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "dekanene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-21 13:35:18",
+ "suggest": [
+  "dekan"
+ ]
+}

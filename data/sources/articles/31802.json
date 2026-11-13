@@ -1,0 +1,207 @@
+{
+ "article_id": 31802,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "kostnad, utgift (på et visst trinn i produksjonsprosessen av en vare)",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 50710,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58279,
+          "lemma": "selvkost",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 60109,
+          "lemma": "sjølkost",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 26738,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 31838,
+          "lemma": "inntakskost",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "kostr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "gjennom $ $($)",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "kost",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "e",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "costa",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kost",
+   "hgno": 4,
+   "id": 37384,
+   "inflection_class": "n1",
+   "lemma": "kost",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kost"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kostet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kost"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kosta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kost"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kostet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kost"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kostene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-05-10 09:26:30",
+ "suggest": [
+  "kost"
+ ]
+}

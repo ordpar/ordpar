@@ -1,0 +1,101 @@
+{
+ "article_id": 101563,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "eldre betegnelse for behandling av data med elektroniske hjelpemidler, $ datamaskiner",
+      "items": [
+       {
+        "id": "saerl",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 11644,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2006825,
+          "lemma": "EDB",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 2006826,
+          "lemma": "edb",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 12352,
+        "lemmas": [
+         {
+          "lemma": "elektronisk"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "elektronisk databehandling",
+   "hgno": 0,
+   "id": 1146364,
+   "lemma": "elektronisk databehandling",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "elektronisk databehandling"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-12-12 16:51:17",
+ "suggest": [
+  "elektronisk databehandling"
+ ]
+}

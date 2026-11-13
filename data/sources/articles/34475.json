@@ -1,0 +1,165 @@
+{
+ "article_id": 34475,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 2586,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3120,
+          "lemma": "arbeidstaker",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 83552,
+          "lemma": "arbeidstager",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 34456,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 42593,
+          "lemma": "lønnsarbeider",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "taker",
+   "hgno": 0,
+   "id": 42611,
+   "inflection_class": "m2",
+   "initial_lexeme": "lønn",
+   "junction": "s",
+   "lemma": "lønnstaker",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lønnstaker"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lønnstakeren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lønnstakere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lønnstakerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "tager",
+   "hgno": 0,
+   "id": 83752,
+   "inflection_class": "m2",
+   "initial_lexeme": "lønn",
+   "junction": "s",
+   "lemma": "lønnstager",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lønnstager"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lønnstageren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lønnstagere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lønnstagerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-20 09:40:38",
+ "suggest": [
+  "lønnstaker",
+  "lønnstager"
+ ]
+}

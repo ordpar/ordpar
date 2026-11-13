@@ -1,0 +1,125 @@
+{
+ "article_id": 412,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "sykdom som forårsakes av $ og som ødelegger kroppens $",
+      "items": [
+       {
+        "article_id": 23703,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 27915,
+          "lemma": "hivvirus",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 108635,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 108766,
+          "lemma": "immunforsvar",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "forkorting for $ $ ‘ervervet immunsviktsyndrom’",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "acquired immune deficiency syndrome",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "eids",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "aids",
+   "hgno": 0,
+   "id": 1198,
+   "inflection_class": "m1",
+   "lemma": "aids",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aids"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aidsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aidser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aidsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-17 15:34:26",
+ "suggest": [
+  "aids"
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "article_id": 44223,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "bot for ulovlig parkering",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 44224,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 51191,
+          "lemma": "parkeringsgebyr",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bot",
+   "hgno": 0,
+   "id": 51190,
+   "inflection_class": "m., f.",
+   "initial_lexeme": "parkering",
+   "junction": "s",
+   "lemma": "parkeringsbot",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "parkeringsbot"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "parkeringsboten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "parkeringsbøter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "parkeringsbøtene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 628,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "parkeringsbot"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "parkeringsbota"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "parkeringsbøter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "parkeringsbøtene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 784,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-20 07:55:14",
+ "suggest": [
+  "parkeringsbot"
+ ]
+}

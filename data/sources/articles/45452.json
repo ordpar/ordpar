@@ -1,0 +1,458 @@
+{
+ "article_id": 45452,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "article": {
+       "article_id": 125173,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "elements": [
+             {
+              "content": "barnelek der den eller de som er politi, skal fange røverne",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "barna lekte politi og røver",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           },
+           {
+            "elements": [
+             {
+              "content": "ordensmakt og lovbryter",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "etterforskningen var et kappløp mellom politi og røver",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 3,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2010343,
+         "lemma": "politi og røver",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 125173,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "politi og røver"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 126879,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "politi som utfører patruljering ridende på hest",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2860440,
+         "lemma": "ridende politi",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 126879,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "ridende politi"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "elements": [
+       {
+        "content": "offentlig myndighet som skal påse at lover og vedtekter overholdes, og etterforske og påtale lovbrudd",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 8273,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 82311,
+            "lemma": "bydelspoliti",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 32146,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 37752,
+            "lemma": "kriminalpoliti",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 43227,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 50084,
+            "lemma": "ordenspoliti",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "avdeling $ enkeltperson som representerer $",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         },
+         {
+          "article_id": 45452,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 52438,
+            "lemma": "politi",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "politiet"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ kom på stedet like etter ulykken",
+         "items": [
+          {
+           "items": [],
+           "text": "politiet",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘by’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "polis",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 45464,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 52450,
+        "lemma": "politikk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "politi",
+   "hgno": 2,
+   "id": 52438,
+   "inflection_class": "n3",
+   "lemma": "politi",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "politi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "politiet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "politi"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "politia"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "politi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "politiet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "politi"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "politiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "politi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "politiet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "politier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "politia"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 670,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "politi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "politiet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "politier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "politiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 680,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-03-10 12:24:19",
+ "suggest": [
+  "politi"
+ ]
+}

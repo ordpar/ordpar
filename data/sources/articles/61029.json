@@ -1,0 +1,159 @@
+{
+ "article_id": 61029,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 23171,
+        "lemmas": [
+         {
+          "hgno": 3,
+          "id": 27328,
+          "lemma": "hende",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 67043,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 77261,
+          "lemma": "vederfares",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det timtes dem å falle i dyp gjeld",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "tímask",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 61018,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 69793,
+        "lemma": "time",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "times",
+   "hgno": 0,
+   "id": 69806,
+   "inflection_class": "verb",
+   "is_standard": true,
+   "lemma": "times",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2015-12-10",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "times"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "times"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "timtes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "timtes"
+      },
+      {
+       "tags": [
+        "Imp",
+        "<SPass>"
+       ],
+       "word_form": "times"
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 333,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-08-25 06:50:52"
+}

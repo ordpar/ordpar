@@ -1,0 +1,473 @@
+{
+ "article_id": 8157,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "kasse $ rom med gitterverk til å stenge dyr $ fugler inne i",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         },
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sette dyr i $",
+         "items": [
+          {
+           "text": "bur",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "holde verpehøner i bur",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 8,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "fengsel",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "havne i buret for vold mot naboen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "hus (eller rom) til lagring av korn eller andre matvarer på en gård",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "relation"
+         },
+         {
+          "article_id": 56546,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 65050,
+            "lemma": "stabbur",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 7,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "om $ $: husvære med soverom (for gjester), særlig annen etasje i stabbur",
+        "items": [
+         {
+          "id": "e",
+          "type_": "temporal"
+         },
+         {
+          "id": "forh",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 9,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: $",
+        "items": [
+         {
+          "id": "i_idr",
+          "type_": "domain"
+         },
+         {
+          "article_id": 39943,
+          "definition_id": 9,
+          "definition_order": 9,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 46615,
+            "lemma": "mål",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "pucken skled inn i buret",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 110879,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "skåre mål",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144875,
+           "lemma": "sette ballen i buret",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 110879,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "sette ballen i buret"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 101242,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "om målvakt: ikke slippe inn mål",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1142707,
+           "lemma": "holde buret rent",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 101242,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "holde buret rent"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 110877,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "om målvakt: ikke slippe inn mål",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1142686,
+           "lemma": "stenge buret",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 110877,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "stenge buret"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 110878,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "stå i mål",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "være målvakt",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1141727,
+           "lemma": "vokte buret",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 110878,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "vokte buret"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 11,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "búr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 7954,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 9453,
+        "lemma": "bu",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "bur",
+   "hgno": 0,
+   "id": 9709,
+   "inflection_class": "n1",
+   "lemma": "bur",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bur"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "buret"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bur"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bura"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bur"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "buret"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bur"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "burene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-18 09:40:28",
+ "suggest": [
+  "bur"
+ ]
+}

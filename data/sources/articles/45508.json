@@ -1,0 +1,203 @@
+{
+ "article_id": 45508,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "fellesbetegnelse for flere kunststoffer framstilt ved bindinger av $, brukt $ til produksjon av lakk og plast",
+        "items": [
+         {
+          "article_id": 13172,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 15305,
+            "lemma": "ester",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "estere"
+         },
+         {
+          "id": "bl_a",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "tekstil av $",
+        "items": [
+         {
+          "article_id": 45508,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 52494,
+            "lemma": "polyester",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 45509,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 52495,
+            "lemma": "polyesterfiber",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en jakke i $",
+         "items": [
+          {
+           "items": [],
+           "text": "polyester",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 45504,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 52490,
+        "lemma": "poly-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 13172,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 15305,
+        "lemma": "ester",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "polyester",
+   "hgno": 0,
+   "id": 52494,
+   "inflection_class": "m2",
+   "lemma": "polyester",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "polyester"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "polyesteren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "polyestere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "polyesterne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-05-03 05:58:56",
+ "suggest": [
+  "polyester"
+ ]
+}

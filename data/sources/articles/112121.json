@@ -1,0 +1,116 @@
+{
+ "article_id": 112121,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 132682,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 148224,
+          "lemma": "treningsmengde",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 10670,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12463,
+          "lemma": "dose",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "dose",
+   "hgno": 0,
+   "id": 148205,
+   "inflection_class": "m1",
+   "initial_lexeme": "trening",
+   "junction": "s",
+   "lemma": "treningsdose",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "treningsdose"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "treningsdosen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "treningsdoser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "treningsdosene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-04-15 08:08:51",
+ "suggest": [
+  "treningsdose"
+ ]
+}

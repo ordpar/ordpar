@@ -1,0 +1,135 @@
+{
+ "article_id": 52505,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som $",
+      "items": [
+       {
+        "article_id": 54851,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 63195,
+          "lemma": "smugdrikke",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "smugdrikker"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 52506,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 60561,
+          "lemma": "skapdrikker",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 52502,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 60557,
+          "lemma": "skap",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dranker",
+   "hgno": 0,
+   "id": 60560,
+   "inflection_class": "m2",
+   "initial_lexeme": "skap",
+   "lemma": "skapdranker",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "skapdranker"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "skapdrankeren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "skapdrankere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "skapdrankerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-10-15 12:12:01",
+ "suggest": [
+  "skapdranker"
+ ]
+}

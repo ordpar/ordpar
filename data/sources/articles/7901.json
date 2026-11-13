@@ -1,0 +1,418 @@
+{
+ "article_id": 7901,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "tall som betegner et antall like store deler av en enhet, der en $ uttrykker antallet deler og en $ hvor mange deler enheten er delt i",
+      "items": [
+       {
+        "article_id": 60240,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 68904,
+          "lemma": "teller",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 40766,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 47707,
+          "lemma": "nevner",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ er en $",
+       "items": [
+        {
+         "denominator": 5,
+         "numerator": 2,
+         "type_": "fraction"
+        },
+        {
+         "text": "brøk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "forkorte en $",
+       "items": [
+        {
+         "text": "brøk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 101177,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "$ der $ og $ også er brøker",
+            "items": [
+             {
+              "article_id": 7901,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 9421,
+                "lemma": "brøk",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             },
+             {
+              "article_id": 60240,
+              "definition_id": 2,
+              "definition_order": 1,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 68904,
+                "lemma": "teller",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref",
+              "word_form": "telleren"
+             },
+             {
+              "article_id": 40766,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 47707,
+                "lemma": "nevner",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref",
+              "word_form": "nevneren"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1140751,
+         "lemma": "brudden brøk",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 101177,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "brudden brøk"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 101212,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "$ der $ er mindre enn $",
+            "items": [
+             {
+              "article_id": 7901,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 9421,
+                "lemma": "brøk",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             },
+             {
+              "article_id": 60240,
+              "definition_id": 2,
+              "definition_order": 1,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 68904,
+                "lemma": "teller",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref",
+              "word_form": "telleren"
+             },
+             {
+              "article_id": 40766,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 47707,
+                "lemma": "nevner",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref",
+              "word_form": "nevneren"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1143578,
+         "lemma": "ekte brøk",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 101212,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "ekte brøk"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 101213,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "$ der $ er større enn $",
+            "items": [
+             {
+              "article_id": 7901,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 9421,
+                "lemma": "brøk",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             },
+             {
+              "article_id": 60240,
+              "definition_id": 2,
+              "definition_order": 1,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 68904,
+                "lemma": "teller",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref",
+              "word_form": "telleren"
+             },
+             {
+              "article_id": 40766,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 47707,
+                "lemma": "nevner",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref",
+              "word_form": "nevneren"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144486,
+         "lemma": "uekte brøk",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 101213,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "uekte brøk"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     },
+     {
+      "text": "brok, brök",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 7605,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 8978,
+        "lemma": "brokk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "brøk",
+   "hgno": 0,
+   "id": 9421,
+   "inflection_class": "m1",
+   "lemma": "brøk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "brøk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "brøken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "brøker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "brøkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-19 10:12:55",
+ "suggest": [
+  "brøk"
+ ]
+}

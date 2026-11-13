@@ -1,0 +1,145 @@
+{
+ "article_id": 37969,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "(eldre og) erfaren person som underviser, rettleder og gir råd",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 49481,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 56609,
+          "lemma": "rådgiver",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 67243,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 77570,
+          "lemma": "veileder",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "etter $ $, navnet på Odyssevs’ venn, som var rådgiver for hans sønn",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "text": "Mentor",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "menˊtor,  $ menˊtorer $ mentoˊrer",
+    "items": [
+     {
+      "content": "i $",
+      "items": [
+       {
+        "id": "fl",
+        "type_": "grammar"
+       }
+      ],
+      "type_": "pronunciation_guide"
+     },
+     {
+      "content": "eller",
+      "items": [],
+      "type_": "pronunciation_guide"
+     }
+    ],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mentor",
+   "hgno": 0,
+   "id": 44568,
+   "inflection_class": "m1",
+   "lemma": "mentor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mentor"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "mentoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mentorer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "mentorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-03-13 14:30:36",
+ "suggest": [
+  "mentor"
+ ]
+}

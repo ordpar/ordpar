@@ -1,0 +1,264 @@
+{
+ "article_id": 56501,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "muntert påfunn",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "skjemt, moro, spas",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 1439,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1911,
+          "lemma": "alvor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en uskyldig $",
+       "items": [
+        {
+         "text": "spøk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gjøre noe for $",
+       "items": [
+        {
+         "text": "spøk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "slå noe bort i $",
+       "items": [
+        {
+         "text": "spøk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ta noe for $",
+       "items": [
+        {
+         "text": "spøk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ og alvor",
+       "items": [
+        {
+         "text": "spøk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 129950,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "ikke en lett sak",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "storm på sjøen er ingen spøk",
+             "items": []
+            },
+            "type_": "example"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "det er ikke spøk å drive fiskeoppdrett",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2873640,
+         "lemma": "[ingen|ikke] spøk",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 129950,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "[ingen|ikke] spøk"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "spøk",
+   "hgno": 0,
+   "id": 65013,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "spøk",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "spøk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "spøken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "spøker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "spøkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-09-28 13:51:20"
+}

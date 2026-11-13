@@ -1,0 +1,115 @@
+{
+ "article_id": 49678,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "litteratur som handler om et faglig emne",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 13583,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15775,
+          "lemma": "faglitteratur",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "til forskjell fra $",
+      "items": [
+       {
+        "article_id": 53156,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 61280,
+          "lemma": "skjønnlitteratur",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "prosa",
+   "hgno": 0,
+   "id": 57005,
+   "inflection_class": "m1",
+   "initial_lexeme": "sak",
+   "lemma": "sakprosa",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sakprosa"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sakprosaen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sakprosaer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sakprosaene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-03-14 06:41:04",
+ "suggest": [
+  "sakprosa"
+ ]
+}

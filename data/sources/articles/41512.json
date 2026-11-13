@@ -1,0 +1,150 @@
+{
+ "article_id": 41512,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som inneholder mye $",
+      "items": [
+       {
+        "article_id": 41495,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 48581,
+          "lemma": "næring",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "motsatt $",
+      "items": [
+       {
+        "article_id": 123608,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 124940,
+          "lemma": "næringsfattig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "næringsrik jord",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "sunn og næringsrik mat",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "rik",
+   "hgno": 0,
+   "id": 48601,
+   "inflection_class": "a1",
+   "initial_lexeme": "næring",
+   "junction": "s",
+   "lemma": "næringsrik",
+   "paradigm_info": [
+    {
+     "from": "2020-07-13",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "næringsrik"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "næringsrike"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "næringsrike"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "næringsrikt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-22 09:43:55",
+ "suggest": [
+  "næringsrik"
+ ]
+}

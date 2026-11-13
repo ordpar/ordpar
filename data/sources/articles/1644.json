@@ -1,0 +1,346 @@
+{
+ "article_id": 1644,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "skriftlig tilbud om å utføre et arbeid $ levere en tjeneste for en viss betaling",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "prisantydning",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "innkomne $",
+       "items": [
+        {
+         "text": "anbud",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ utbes",
+       "items": [
+        {
+         "text": "anbud",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ var på 10 millioner",
+       "items": [
+        {
+         "text": "anbudet",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gi $ på noe",
+       "items": [
+        {
+         "text": "anbud",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 132444,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "åpne for konkurranse om et oppdrag",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "avtalen ble lagt ut på anbud",
+             "items": []
+            },
+            "type_": "example"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "de lyser prosjektet ut på anbud",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2980437,
+         "lemma": "[legge|lyse] noe ut på anbud",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 132444,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "[legge|lyse] noe ut på anbud"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 132445,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "bli tildelt et oppdrag som var lagt ut på anbud",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2980438,
+         "lemma": "vinne et anbud",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 132445,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "vinne et anbud"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘by, tilby’, av $  og $ ‘by, tilby’",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     },
+     {
+      "text": "anbieten",
+      "type_": "usage"
+     },
+     {
+      "text": "an-",
+      "type_": "usage"
+     },
+     {
+      "text": "bieten",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 1581,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 2052,
+        "lemma": "an-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "bud",
+   "hgno": 0,
+   "id": 2114,
+   "inflection_class": "n1",
+   "initial_lexeme": "an",
+   "lemma": "anbud",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "anbud"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "anbudet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "anbud"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "anbuda"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "anbud"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "anbudet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "anbud"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "anbudene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-07 13:14:56",
+ "suggest": [
+  "anbud"
+ ]
+}

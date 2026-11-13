@@ -1,0 +1,123 @@
+{
+ "article_id": 106592,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ som en styrer med å ta på $ og tegn",
+      "items": [
+       {
+        "article_id": 9324,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 11003,
+          "lemma": "dataskjerm",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 25729,
+        "definition_id": 5,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 30675,
+          "lemma": "ikon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 106593,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 160237,
+          "lemma": "berøringsskjerm",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "skjerm",
+   "hgno": 0,
+   "id": 160236,
+   "inflection_class": "m1",
+   "initial_lexeme": "trykk",
+   "is_standard": true,
+   "lemma": "trykkskjerm",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "trykkskjerm"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "trykkskjermen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "trykkskjermer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "trykkskjermene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-05-05 08:54:17"
+}

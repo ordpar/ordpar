@@ -1,0 +1,240 @@
+{
+ "article_id": 1148,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$, særlig horisontal takbjelke",
+        "items": [
+         {
+          "article_id": 8441,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 10099,
+            "lemma": "bærebjelke",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "åsene bærer taket",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 115515,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 104178,
+            "lemma": "gulvås",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 103301,
+            "lemma": "golvås",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 39859,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 46828,
+            "lemma": "mønsås",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 59662,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 68284,
+            "lemma": "takås",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$, for eksempel i hjul $ slipestein",
+        "items": [
+         {
+          "article_id": 506,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 3,
+            "id": 1289,
+            "lemma": "aksel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "bom, stang eller tverrtre i ulike redskaper som for eksempel slede, kjelke, plog, drag",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, kanskje $ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "áss",
+      "type_": "usage"
+     },
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "article_id": 1147,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 81362,
+        "lemma": "ås",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ås",
+   "hgno": 1,
+   "id": 81362,
+   "inflection_class": "m1",
+   "lemma": "ås",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ås"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "åsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "åser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "åsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-11-22 12:36:17",
+ "suggest": [
+  "ås"
+ ]
+}

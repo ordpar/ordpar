@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ordpar — inflection-table test page</title>
+<link rel="stylesheet" href="../site/inflection.css">
+<style>
+  /* test-page furniture only — nothing here belongs to the renderer */
+  :root { color-scheme: light; }
+  html { background: #fff; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #222; margin: 0; padding: 1.5rem 1.5rem 6rem; max-width: 60rem;
+  }
+  h1 { color: #560027; font-size: 1.35rem; margin: 0 0 .3rem; }
+  .intro { color: #757070; font-size: .9rem; margin: 0 0 1.5rem; max-width: 46rem; }
+  .case { border-top: 1px solid #e0d8d9; padding: 1.1rem 0 .4rem; }
+  .case h2 {
+    font-family: Georgia, "Times New Roman", serif; color: #560027;
+    font-size: 1.5rem; font-weight: 400; margin: 0 0 .15rem;
+  }
+  .meta { color: #757070; font-size: .82rem; margin: 0 0 .1rem; }
+  .capture { color: #757070; font-size: .82rem; font-style: italic; margin: .2rem 0 0; }
+  .capture code { font-style: normal; }
+  .none { color: #b3261e; font-size: .85rem; }
+  .controls { position: fixed; right: 1rem; bottom: 1rem; z-index: 10; display: flex; gap: .5rem; }
+  .controls button {
+    font: inherit; font-size: .9rem; padding: .5rem .9rem; cursor: pointer;
+    border: 1px solid #560027; border-radius: 999px; background: #fff; color: #560027;
+  }
+  .nightMode { background: #2f2f31; color-scheme: dark; }
+  .nightMode body { color: #d9d6d6; }
+  .nightMode h1, .nightMode .case h2 { color: #fdf4f5; }
+  .nightMode .intro, .nightMode .meta, .nightMode .capture { color: #b9b6b6; }
+  .nightMode .case { border-top-color: #656161; }
+  .nightMode .controls button { background: #3a3a3c; color: #e3b7c9; border-color: #e3b7c9; }
+  .nightMode .none { color: #e3b7c9; }
+</style>
+</head>
+<body>
+
+<h1>Inflection tables — hard cases</h1>
+<p class="intro">
+  Every table on this page is rendered by <code>../site/inflection.js</code> from
+  <code>paradigms.json</code> (ordbokene paradigm data, extracted verbatim from the Bokmål
+  mirror by <code>extract_paradigms.py</code>). The first ten cases are Robin's captures, in
+  the order of the captures note; the capture's file name is printed under each table, for
+  comparison against
+  <code>docs/sessions/2026-09-19-ordpar-site-review/evidence/</code>. The rest have no
+  capture. Serve <code>ordpar/</code> as a static root and open
+  <code>/test/inflection.html</code>; the button toggles <code>.nightMode</code> on
+  <code>&lt;html&gt;</code>.
+</p>
+
+<div id="cases"></div>
+
+<div class="controls">
+  <button id="layout" type="button">Layout: auto (by width)</button>
+  <button id="toggle" type="button">Toggle night mode</button>
+</div>
+
+<script src="../site/inflection.js"></script>
+<script>
+(function () {
+  'use strict';
+  var host = document.getElementById('cases');
+
+  document.getElementById('toggle').addEventListener('click', function () {
+    document.documentElement.classList.toggle('nightMode');
+  });
+
+  /* auto (the 48rem media query) -> forced wide -> forced narrow -> auto */
+  var LAYOUTS = [
+    { cls: null, label: 'Layout: auto (by width)' },
+    { cls: 'ordpar-force-wide', label: 'Layout: wide (forced)' },
+    { cls: 'ordpar-force-narrow', label: 'Layout: narrow (forced)' }
+  ];
+  var layoutAt = 0;
+  var layoutBtn = document.getElementById('layout');
+  layoutBtn.addEventListener('click', function () {
+    var root = document.documentElement;
+    if (LAYOUTS[layoutAt].cls) root.classList.remove(LAYOUTS[layoutAt].cls);
+    layoutAt = (layoutAt + 1) % LAYOUTS.length;
+    if (LAYOUTS[layoutAt].cls) root.classList.add(LAYOUTS[layoutAt].cls);
+    layoutBtn.textContent = LAYOUTS[layoutAt].label;
+  });
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text) n.appendChild(document.createTextNode(text));
+    return n;
+  }
+
+  function draw(data) {
+    data.articles.forEach(function (art, i) {
+      var box = el('div', 'case');
+      box.appendChild(el('h2', null, art.heading));
+      box.appendChild(el('p', 'meta', (i + 1) + '. id ' + art.id + ' — ' + art.note));
+      var tables = window.ordparInflection.render(art.lemmas);
+      if (!tables.childNodes.length) {
+        box.appendChild(el('p', 'none', 'no table (correct for this article)'));
+      }
+      box.appendChild(tables);
+      var cap = el('p', 'capture');
+      if (art.capture) {
+        cap.appendChild(document.createTextNode('wide capture: '));
+        cap.appendChild(el('code', null, art.capture));
+      } else {
+        cap.appendChild(document.createTextNode('no capture'));
+      }
+      box.appendChild(cap);
+      if (art.capture_narrow || art.narrow_note) {
+        var nar = el('p', 'capture');
+        if (art.capture_narrow) {
+          nar.appendChild(document.createTextNode('narrow capture: '));
+          nar.appendChild(el('code', null, art.capture_narrow));
+        } else {
+          nar.appendChild(document.createTextNode('narrow: ' + art.narrow_note));
+        }
+        box.appendChild(nar);
+      }
+      host.appendChild(box);
+    });
+  }
+
+  fetch('paradigms.json')
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(draw)
+    .catch(function (err) {
+      host.appendChild(el('p', 'none',
+        'Could not load paradigms.json (' + err.message + '). This page must be served over ' +
+        'HTTP with ordpar/ as the static root — fetch() does not work from file://.'));
+    });
+})();
+</script>
+</body>
+</html>

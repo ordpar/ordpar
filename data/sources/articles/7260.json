@@ -1,0 +1,145 @@
+{
+ "article_id": 7260,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som lagres på $",
+      "items": [
+       {
+        "article_id": 10990,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12817,
+          "lemma": "druebrennevin",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 14024,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 16257,
+          "lemma": "fat",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bland kaffe, kakao og brandy og hell over isen",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , $ for foreldet $, $ ‘brennevin’",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "id": "fork_ing",
+      "type_": "entity"
+     },
+     {
+      "text": "brandwine",
+      "type_": "usage"
+     },
+     {
+      "text": "brandewine",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "brænˊdi",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "brandy",
+   "hgno": 0,
+   "id": 8541,
+   "inflection_class": "m1",
+   "lemma": "brandy",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "brandy"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "brandyen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "brandyer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "brandyene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-05-02 11:47:13",
+ "suggest": [
+  "brandy"
+ ]
+}

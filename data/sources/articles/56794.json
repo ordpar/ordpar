@@ -1,0 +1,116 @@
+{
+ "article_id": 56794,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "stilling som $",
+      "items": [
+       {
+        "article_id": 56792,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 65307,
+          "lemma": "statsråd",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 45720,
+        "definition_id": 5,
+        "definition_order": 4,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 81782,
+          "lemma": "post",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "post",
+   "hgno": 0,
+   "id": 2835663,
+   "inflection_class": "m1",
+   "initial_lexeme": "statsråd",
+   "is_standard": true,
+   "junction": "s",
+   "lemma": "statsrådspost",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "statsrådspost"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "statsrådsposten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "statsrådsposter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "statsrådspostene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-06-02 08:08:25"
+}

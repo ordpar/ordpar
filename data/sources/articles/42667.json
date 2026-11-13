@@ -1,0 +1,114 @@
+{
+ "article_id": 42667,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ i ord som gjelder husholdning, pengeforhold og lignende",
+      "items": [
+       {
+        "article_id": 45949,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52955,
+          "lemma": "prefiks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "i ord som $ og $",
+      "items": [
+       {
+        "article_id": 42673,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 80922,
+          "lemma": "økologi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 42678,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 80927,
+          "lemma": "økonomi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘hus, hjem’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "text": "oikos",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "øko-",
+   "hgno": 1,
+   "id": 80916,
+   "lemma": "øko-",
+   "paradigm_info": [
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "øko-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2018-12-05 10:24:11",
+ "suggest": [
+  "øko-"
+ ]
+}

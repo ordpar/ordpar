@@ -1,0 +1,85 @@
+{
+ "article_id": 14363,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $ $",
+      "items": [
+       {
+        "id": "uttr_t",
+        "type_": "entity"
+       },
+       {
+        "text": "på ferde",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 14360,
+        "definition_id": 5,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 16628,
+          "lemma": "ferd",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ferde",
+   "hgno": 1,
+   "id": 16634,
+   "lemma": "ferde",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "ferde"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 801,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2018-03-07 16:33:44",
+ "suggest": [
+  "ferde"
+ ]
+}

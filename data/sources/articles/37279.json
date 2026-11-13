@@ -1,0 +1,159 @@
+{
+ "article_id": 37279,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "behandling for muskelsmerter $ ved å $",
+      "items": [
+       {
+        "id": "o_l",
+        "type_": "entity"
+       },
+       {
+        "article_id": 37304,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 43730,
+          "lemma": "massere",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "få $ hos fysioterapeut",
+       "items": [
+        {
+         "items": [],
+         "text": "massasje",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "fotballspilleren fikk $ i pausen",
+       "items": [
+        {
+         "items": [],
+         "text": "massasje",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 37304,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 43730,
+        "lemma": "massere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "massasje",
+   "hgno": 0,
+   "id": 43704,
+   "inflection_class": "m1",
+   "lemma": "massasje",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "massasje"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "massasjen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "massasjer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "massasjene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-13 18:03:59",
+ "suggest": [
+  "massasje"
+ ]
+}

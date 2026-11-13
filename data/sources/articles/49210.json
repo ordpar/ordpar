@@ -1,0 +1,380 @@
+{
+ "article_id": 49210,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "fastsatt vei som person $ transportmiddel skal følge (til bestemte tider)",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "SAS flyr $ Oslo–New York",
+         "items": [
+          {
+           "text": "ruten",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "legge opp en $ for ferieturen",
+         "items": [
+          {
+           "text": "rute",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 104672,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "elements": [
+               {
+                "content": "fram og tilbake mellom to steder til bestemte tider",
+                "items": [],
+                "type_": "explanation"
+               },
+               {
+                "explanation": {
+                 "content": "",
+                 "items": []
+                },
+                "quote": {
+                 "content": "båten gikk i rute mellom Bergen og Stavanger",
+                 "items": []
+                },
+                "type_": "example"
+               }
+              ],
+              "id": 4,
+              "sub_definition": false,
+              "type_": "definition"
+             },
+             {
+              "elements": [
+               {
+                "content": "som kommer (eller går) til fastsatt tid",
+                "items": [],
+                "type_": "explanation"
+               },
+               {
+                "explanation": {
+                 "content": "",
+                 "items": []
+                },
+                "quote": {
+                 "content": "toget er i rute",
+                 "items": []
+                },
+                "type_": "example"
+               }
+              ],
+              "id": 2,
+              "sub_definition": false,
+              "type_": "definition"
+             },
+             {
+              "elements": [
+               {
+                "content": "på et bestemt trinn i en prosess i rett tid",
+                "items": [],
+                "type_": "explanation"
+               },
+               {
+                "explanation": {
+                 "content": "",
+                 "items": []
+                },
+                "quote": {
+                 "content": "arbeidet er i rute",
+                 "items": []
+                },
+                "type_": "example"
+               }
+              ],
+              "id": 3,
+              "sub_definition": false,
+              "type_": "definition"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146894,
+           "lemma": "i rute",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 104672,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "i rute"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 127050,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "være $",
+              "items": [
+               {
+                "article_id": 104672,
+                "definition_id": 2,
+                "definition_order": 2,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 1146894,
+                  "lemma": "i rute",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2860596,
+           "lemma": "holde ruten",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 127050,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "holde ruten"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 119687,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 134929,
+            "lemma": "rutetabell",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $ ($) ‘ryddet, banet (vei)'",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "rupta",
+      "type_": "usage"
+     },
+     {
+      "text": "via",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "rute",
+   "hgno": 2,
+   "id": 56498,
+   "inflection_class": "m1, f1",
+   "lemma": "rute",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rute"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ruta"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ruter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rutene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 762,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rute"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ruten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ruter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rutene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-06-27 12:01:16",
+ "suggest": [
+  "rute"
+ ]
+}

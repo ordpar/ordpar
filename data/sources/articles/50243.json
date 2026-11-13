@@ -1,0 +1,263 @@
+{
+ "article_id": 50243,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "drøvtygger med langt, krøllete hår av slekta $",
+        "items": [
+         {
+          "items": [],
+          "text": "Ovis",
+          "type_": "usage"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $, $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 59437,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 68119,
+            "lemma": "søye",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 69201,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 80026,
+            "lemma": "vær",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "klippe sauer",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "slippe sauene på beite",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ha sau og lam på utmarksbeite",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 130573,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "svært dum",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2874366,
+           "lemma": "dum som en sau",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 130573,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "dum som en sau"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "dum, enfoldig person",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 20441,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 23877,
+            "lemma": "godfjott",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "du er en ordentlig $",
+         "items": [
+          {
+           "items": [],
+           "text": "sau",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "sauðr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sau",
+   "hgno": 0,
+   "id": 57633,
+   "inflection_class": "m1",
+   "lemma": "sau",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sau"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sauen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sauer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sauene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-12-18 08:34:24",
+ "suggest": [
+  "sau"
+ ]
+}

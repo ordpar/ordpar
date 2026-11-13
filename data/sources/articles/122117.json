@@ -1,0 +1,113 @@
+{
+ "article_id": 122117,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "noe eller noen som tiltrekker seg et stort publikum",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 36552,
+        "definition_id": 6,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 42922,
+          "lemma": "magnet",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "artisten er den store publikumsmagneten på festivalen",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "magnet",
+   "hgno": 0,
+   "id": 169201,
+   "inflection_class": "m1",
+   "initial_lexeme": "publikum",
+   "junction": "s",
+   "lemma": "publikumsmagnet",
+   "paradigm_info": [
+    {
+     "from": "2022-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "publikumsmagnet"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "publikumsmagneten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "publikumsmagneter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "publikumsmagnetene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-28 16:23:41",
+ "suggest": [
+  "publikumsmagnet"
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "article_id": 27578,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 38448,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 45100,
+          "lemma": "min",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "1. $ $",
+      "items": [
+       {
+        "id": "pers",
+        "type_": "entity"
+       },
+       {
+        "id": "ent",
+        "type_": "grammar"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "arme meg!",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "trøste og bære meg!",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "du er meg en luring",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "du er større enn $$meg)",
+       "items": [
+        {
+         "text": "jeg",
+         "type_": "usage"
+        },
+        {
+         "content": " ($ ",
+         "items": [
+          {
+           "id": "el",
+           "type_": "relation"
+          }
+         ],
+         "type_": "quote_inset"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det er bare $$meg)",
+       "items": [
+        {
+         "text": "jeg",
+         "type_": "usage"
+        },
+        {
+         "content": " ($ ",
+         "items": [
+          {
+           "id": "el",
+           "type_": "relation"
+          }
+         ],
+         "type_": "quote_inset"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ tar med meg boka mi",
+       "items": [
+        {
+         "text": "jeg",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "sideform til $ $, av eldre urnordisk $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "ek",
+      "type_": "usage"
+     },
+     {
+      "text": "eka",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "jeg",
+   "hgno": 2,
+   "id": 32714,
+   "lemma": "jeg",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Nom"
+       ],
+       "word_form": "jeg"
+      },
+      {
+       "tags": [
+        "Acc"
+       ],
+       "word_form": "meg"
+      }
+     ],
+     "inflection_group": "PRON_regular",
+     "paradigm_id": 348,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PRON",
+      "Prs",
+      "1",
+      "Sing",
+      "Hum"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2016-12-05 01:49:18",
+ "suggest": [
+  "jeg"
+ ]
+}

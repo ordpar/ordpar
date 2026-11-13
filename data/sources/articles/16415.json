@@ -1,0 +1,257 @@
+{
+ "article_id": 16415,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "kjøp på forhånd, før salget egentlig starter",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 102005,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "gjøre noe før en annen rekker å gjøre det",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "tiltakene skal komme et mulig angrep i forkjøpet",
+               "items": []
+              },
+              "type_": "example"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "komme konkurrentene i forkjøpet med å fange opp de siste nyhetene",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146468,
+           "lemma": "komme en i forkjøpet",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 102005,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "komme en i forkjøpet"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "kjøp etter $",
+        "items": [
+         {
+          "article_id": 16417,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 19045,
+            "lemma": "forkjøpsrett",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "kommunalt $ av eiendommer",
+         "items": [
+          {
+           "text": "forkjøp",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 15911,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 18466,
+        "lemma": "for-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "kjøp",
+   "hgno": 0,
+   "id": 19043,
+   "inflection_class": "n1",
+   "initial_lexeme": "for",
+   "lemma": "forkjøp",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "forkjøp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "forkjøpet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "forkjøp"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "forkjøpa"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "forkjøp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "forkjøpet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "forkjøp"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "forkjøpene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-17 10:15:22",
+ "suggest": [
+  "forkjøp"
+ ]
+}

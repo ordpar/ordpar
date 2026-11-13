@@ -1,0 +1,247 @@
+{
+ "article_id": 13303,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "siste del av fullt navn på en person (felles for flere i familien)",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 13748,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15952,
+          "lemma": "familienavn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 54370,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 62658,
+          "lemma": "slektsnavn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $, $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 16639,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19289,
+          "lemma": "fornavn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 44783,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 51747,
+          "lemma": "personnavn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 37806,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 44369,
+          "lemma": "mellomnavn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "skifte $",
+       "items": [
+        {
+         "text": "etternavn",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "hun har tatt morens $ som mellomnavn",
+       "items": [
+        {
+         "text": "etternavn",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "kan du stave $ ditt?",
+       "items": [
+        {
+         "text": "etternavnet",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "navn",
+   "hgno": 0,
+   "id": 15455,
+   "inflection_class": "n1",
+   "initial_lexeme": "etter",
+   "lemma": "etternavn",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "etternavn"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "etternavnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "etternavn"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "etternavna"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "etternavn"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "etternavnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "etternavn"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "etternavnene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-01-25 10:52:09",
+ "suggest": [
+  "etternavn"
+ ]
+}

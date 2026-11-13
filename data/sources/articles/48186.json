@@ -1,0 +1,229 @@
+{
+ "article_id": 48186,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "valgt medlem",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 98508,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 145028,
+            "lemma": "talsperson",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 65709,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 75388,
+            "lemma": "utsending",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "firmaets $ på utstillingen",
+         "items": [
+          {
+           "items": [],
+           "text": "representant",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 120273,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 115058,
+            "lemma": "kommunestyrerepresentant",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 57472,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 65807,
+            "lemma": "stortingsrepresentant",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "typisk eller karakteristisk eksempel",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en fin $ for norsk ungdom",
+         "items": [
+          {
+           "items": [],
+           "text": "representant",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 48190,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 55350,
+        "lemma": "representere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "representant",
+   "hgno": 0,
+   "id": 55346,
+   "inflection_class": "m1",
+   "lemma": "representant",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "representant"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "representanten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "representanter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "representantene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-01-24 12:51:11",
+ "suggest": [
+  "representant"
+ ]
+}

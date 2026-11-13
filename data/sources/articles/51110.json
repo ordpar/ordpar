@@ -1,0 +1,162 @@
+{
+ "article_id": 51110,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som har servering som yrke",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 29129,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 34407,
+          "lemma": "kelner",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 43143,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 49997,
+          "lemma": "oppvarter",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "faglærte servitører",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, fra $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     },
+     {
+      "id": "lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 51092,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 58784,
+        "lemma": "servere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "servitør",
+   "hgno": 0,
+   "id": 58802,
+   "inflection_class": "m1",
+   "lemma": "servitør",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "servitør"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "servitøren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "servitører"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "servitørene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-16 08:37:00",
+ "suggest": [
+  "servitør"
+ ]
+}

@@ -1,0 +1,467 @@
+{
+ "article_id": 50558,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "tidsenhet som tilsvarer $ av et minutt",
+        "items": [
+         {
+          "denominator": "60",
+          "numerator": "1",
+          "type_": "fraction"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "symbol $",
+        "items": [
+         {
+          "text": "s",
+          "type_": "usage"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "forkortet $",
+        "items": [
+         {
+          "text": "sek",
+          "type_": "usage"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "1 minutt = 60 sekunder",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "svært kort stund",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 42944,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 81269,
+            "lemma": "øyeblikk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "jeg er der om to sekunder",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 127539,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "så vidt tidsnok",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "$",
+              "items": [
+               {
+                "article_id": 106755,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 1144413,
+                  "lemma": "i siste liten",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "hun trakk seg som kandidat i siste sekund",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2861029,
+           "lemma": "i siste sekund",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 127539,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "i siste sekund"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 104806,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "med det samme",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "presis",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "hun takket ja på sekundet",
+               "items": []
+              },
+              "type_": "example"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "han møter alltid på jobb på sekundet",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1145999,
+           "lemma": "på sekundet",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 104806,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "på sekundet"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "vinkelenhet som svarer til $ av en grad",
+        "items": [
+         {
+          "denominator": "3600",
+          "numerator": "1",
+          "type_": "fraction"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, $ av $ ‘annen forminskelsesgrad’",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     },
+     {
+      "id": "fork_ing",
+      "type_": "entity"
+     },
+     {
+      "text": "pars minuta secunda",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "sekund",
+   "hgno": 2,
+   "id": 58020,
+   "inflection_class": "n3",
+   "lemma": "sekund",
+   "mo_link": 2,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sekund"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sekundet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sekund"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sekunda"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sekund"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sekundet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sekund"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sekundene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sekund"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sekundet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sekunder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sekunda"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 670,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sekund"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sekundet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sekunder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sekundene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 680,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 2
+  }
+ ],
+ "submitted": "2025-02-10 11:49:03",
+ "suggest": [
+  "sekund"
+ ]
+}

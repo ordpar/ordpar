@@ -1,0 +1,227 @@
+{
+ "article_id": 55658,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 58570,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 67042,
+          "lemma": "svart",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 102228,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "medlem av gruppe som gjør valg som bringer skam over gruppa",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "han var familiens sorte får som aldri slo seg til ro",
+             "items": []
+            },
+            "type_": "example"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "nå stemples hun som et sort får",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2008942,
+         "lemma": "sort får",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 102228,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "sort får"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $ $",
+    "items": [
+     {
+      "id": "da",
+      "type_": "entity"
+     },
+     {
+      "text": "sort",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra norrønt $",
+    "items": [
+     {
+      "text": "svartr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 58570,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 67042,
+        "lemma": "svart",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "sort",
+   "hgno": 2,
+   "id": 64063,
+   "inflection_class": "a2",
+   "is_standard": true,
+   "lemma": "sort",
+   "mo_link": 2,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sort"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "sorte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "sorte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "sort"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "sortere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "sortest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "sorteste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 437,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-03-11 14:27:01"
+}

@@ -1,0 +1,148 @@
+{
+ "article_id": 29096,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "rett av grillet kjøtt i små biter, steikt på spidd, ofte servert i $",
+      "items": [
+       {
+        "article_id": 45066,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52038,
+          "lemma": "pitabrød",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 51868,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 59613,
+          "lemma": "sjaslik",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 70473,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 158421,
+          "lemma": "souvlaki",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ ($) $, ‘(grillet) lammekjøtt’",
+    "items": [
+     {
+      "id": "tyrkisk",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "shish",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "kebab",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kebab",
+   "hgno": 0,
+   "id": 34367,
+   "inflection_class": "m1",
+   "lemma": "kebab",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kebab"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kebaben"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kebaber"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kebabene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-22 12:31:36",
+ "suggest": [
+  "kebab"
+ ]
+}

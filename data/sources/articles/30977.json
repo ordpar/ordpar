@@ -1,0 +1,146 @@
+{
+ "article_id": 30977,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som gir en annen et oppdrag $ en fullmakt",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "person som overlater til en annen å drive handel for seg",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 30973,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 36483,
+          "lemma": "kommisjonær",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 30937,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 36441,
+        "lemma": "komité",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 114906,
+        "lemma": "komite",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kommittent",
+   "hgno": 0,
+   "id": 36487,
+   "inflection_class": "m1",
+   "lemma": "kommittent",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kommittent"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kommittenten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kommittenter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kommittentene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-27 13:49:30",
+ "suggest": [
+  "kommittent"
+ ]
+}

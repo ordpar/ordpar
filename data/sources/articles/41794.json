@@ -1,0 +1,239 @@
+{
+ "article_id": 41794,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "article": {
+       "article_id": 111900,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "få som eiendom",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "sikre seg vandrepokalen til odel og eie",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1145380,
+         "lemma": "få til odel og eie",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 111900,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "få til odel og eie"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 41802,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 48892,
+            "lemma": "odelsrett",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ta igjen en gård på $",
+         "items": [
+          {
+           "items": [],
+           "text": "odel",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "eiendom som det er odelsrett til",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 11830,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 13815,
+            "lemma": "eiendomsrett",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "óðal",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "beslektet med $",
+    "items": [
+     {
+      "article_id": 154,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 947,
+        "lemma": "adel",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "odel",
+   "hgno": 0,
+   "id": 48882,
+   "inflection_class": "m.",
+   "lemma": "odel",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "odel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "odelen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "odler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "odlene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 584,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-15 11:44:14",
+ "suggest": [
+  "odel"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "article_id": 2584,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 2581,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3115,
+          "lemma": "arbeidsstokk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 58007,
+        "definition_id": 4,
+        "definition_order": 6,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 66422,
+          "lemma": "styrke",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "styrke",
+   "hgno": 0,
+   "id": 3118,
+   "inflection_class": "m1",
+   "initial_lexeme": "arbeid",
+   "junction": "s",
+   "lemma": "arbeidsstyrke",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "arbeidsstyrke"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "arbeidsstyrken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "arbeidsstyrker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "arbeidsstyrkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-06 10:21:43",
+ "suggest": [
+  "arbeidsstyrke"
+ ]
+}

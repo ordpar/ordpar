@@ -1,0 +1,290 @@
+{
+ "article_id": 48843,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "som rommer mye",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "romslig",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "huset var $",
+         "items": [
+          {
+           "items": [],
+           "text": "rommelig",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ forhold",
+         "items": [
+          {
+           "items": [],
+           "text": "rommelige",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: som kan gi rom for mye",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 63472,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 72737,
+            "lemma": "tøyelig",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 15319,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 17780,
+            "lemma": "fleksibel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ha $ samvittighet",
+         "items": [
+          {
+           "items": [],
+           "text": "rommelig",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "som inneholder mye",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "mye, $",
+        "items": [
+         {
+          "article_id": 48542,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 55761,
+            "lemma": "rikelig",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ha $ tid",
+         "items": [
+          {
+           "items": [],
+           "text": "rommelig",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "content": "brukt som adverb:",
+          "items": [],
+          "type_": "explanation"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "leve $",
+           "items": [
+            {
+             "items": [],
+             "text": "rommelig",
+             "type_": "usage"
+            }
+           ]
+          },
+          "type_": "example"
+         }
+        ],
+        "id": 6,
+        "sub_definition": true,
+        "type_": "definition"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "rommelig",
+   "hgno": 0,
+   "id": 56082,
+   "inflection_class": "a2",
+   "is_standard": true,
+   "lemma": "rommelig",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "rommelig"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "rommelige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "rommelige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "rommelig"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "rommeligere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "rommeligst"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "rommeligste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 442,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-09-29 14:38:38"
+}

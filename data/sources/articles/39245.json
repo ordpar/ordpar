@@ -1,0 +1,116 @@
+{
+ "article_id": 39245,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som alltid følger $",
+      "items": [
+       {
+        "article_id": 39230,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 45980,
+          "lemma": "mote",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "moten"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 54301,
+        "definition_id": 5,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 62588,
+          "lemma": "slave",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "slave",
+   "hgno": 0,
+   "id": 45997,
+   "inflection_class": "m1",
+   "initial_lexeme": "mote",
+   "lemma": "moteslave",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "moteslave"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "moteslaven"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "moteslaver"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "moteslavene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-04-28 09:05:52",
+ "suggest": [
+  "moteslave"
+ ]
+}

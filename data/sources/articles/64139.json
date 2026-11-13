@@ -1,0 +1,202 @@
+{
+ "article_id": 64139,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "lydbølger med så høyt svingetall at mennesker ikke kan oppfatte dem",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "medisinsk undersøkelse av for eksempel organ eller foster med apparat som utnytter $",
+        "items": [
+         {
+          "article_id": 64139,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 73465,
+            "lemma": "ultralyd",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 133589,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 150039,
+            "lemma": "ultralydundersøkelse",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 3076635,
+            "lemma": "ultralydundersøking",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ha time til ultralyd",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "rutinemessig ultralyd",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 133590,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "ultralydundersøkelse av foster rundt tolvte svangerskapsuke",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2981513,
+           "lemma": "tidlig ultralyd",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 133590,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "tidlig ultralyd"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "lyd",
+   "hgno": 0,
+   "id": 73465,
+   "inflection_class": "m1",
+   "initial_lexeme": "ultra",
+   "is_standard": true,
+   "lemma": "ultralyd",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ultralyd"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ultralyden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ultralyder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ultralydene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-06-11 12:53:48"
+}

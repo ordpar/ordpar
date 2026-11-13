@@ -1,0 +1,127 @@
+{
+ "article_id": 106875,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som sender ut lys når det går elektrisk strøm gjennom den",
+      "items": [
+       {
+        "article_id": 10183,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 11920,
+          "lemma": "diode",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 106874,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 160501,
+          "lemma": "LED",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 2,
+          "id": 160507,
+          "lemma": "led",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "lysdioden har ensfarget lys og avgir lite varme",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "diode",
+   "hgno": 0,
+   "id": 160505,
+   "inflection_class": "m1",
+   "initial_lexeme": "lys",
+   "lemma": "lysdiode",
+   "paradigm_info": [
+    {
+     "from": "2018-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lysdiode"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lysdioden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lysdioder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lysdiodene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-20 09:40:39",
+ "suggest": [
+  "lysdiode"
+ ]
+}

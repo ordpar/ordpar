@@ -1,0 +1,123 @@
+{
+ "article_id": 30096,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som ved utslipp øker $ i atmosfæren",
+      "items": [
+       {
+        "article_id": 19202,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 22463,
+          "lemma": "gass",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 10932,
+        "definition_id": 4,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12765,
+          "lemma": "drivhuseffekt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "drivhuseffekten"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det er tvingende nødvendig å redusere utslippene av $",
+       "items": [
+        {
+         "text": "klimagasser",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gass",
+   "hgno": 0,
+   "id": 35498,
+   "inflection_class": "m1",
+   "initial_lexeme": "klima",
+   "lemma": "klimagass",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "klimagass"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "klimagassen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "klimagasser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "klimagassene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-12 14:39:30",
+ "suggest": [
+  "klimagass"
+ ]
+}

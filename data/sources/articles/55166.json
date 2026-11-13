@@ -1,0 +1,181 @@
+{
+ "article_id": 55166,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "om $ $: eske til å oppbevare $ i",
+      "items": [
+       {
+        "id": "e",
+        "type_": "entity"
+       },
+       {
+        "id": "forh",
+        "type_": "entity"
+       },
+       {
+        "article_id": 55163,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 63520,
+          "lemma": "snipp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "snipper"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 105278,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "gi opp og dra sin kos",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1147895,
+         "lemma": "pakke snippesken",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105278,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "pakke snippesken"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "eske",
+   "hgno": 0,
+   "id": 63522,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "snipp",
+   "lemma": "snippeske",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "snippeske"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "snippeska"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "snippesker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "snippeskene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 762,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "snippeske"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "snippesken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "snippesker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "snippeskene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-10-10 05:45:26",
+ "suggest": [
+  "snippeske"
+ ]
+}

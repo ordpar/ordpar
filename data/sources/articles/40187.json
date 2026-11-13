@@ -1,0 +1,120 @@
+{
+ "article_id": 40187,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "et lands $ $ $",
+      "items": [
+       {
+        "article_id": 123426,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2007397,
+          "lemma": "seddelbank",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "article_id": 50979,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58666,
+          "lemma": "sentralbank",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "Norges Bank er nasjonalbanken vår",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "bank",
+   "hgno": 0,
+   "id": 47048,
+   "inflection_class": "m1",
+   "initial_lexeme": "nasjonal",
+   "is_standard": true,
+   "lemma": "nasjonalbank",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "nasjonalbank"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "nasjonalbanken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "nasjonalbanker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "nasjonalbankene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-08-05 11:37:30"
+}

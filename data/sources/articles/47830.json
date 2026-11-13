@@ -1,0 +1,134 @@
+{
+ "article_id": 47830,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "med mye regn",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forskj_fra",
+        "type_": "entity"
+       },
+       {
+        "article_id": 126480,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 132968,
+          "lemma": "regnfattig",
+          "markdown_lemma": "regnfattig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en $ dag",
+       "items": [
+        {
+         "items": [],
+         "text": "regnfull",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "full",
+   "hgno": 0,
+   "id": 54941,
+   "inflection_class": "a1",
+   "initial_lexeme": "regn",
+   "lemma": "regnfull",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "regnfull"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "regnfulle"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "regnfulle"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "regnfullt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-14 13:09:15",
+ "suggest": [
+  "regnfull"
+ ]
+}

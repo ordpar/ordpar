@@ -1,0 +1,293 @@
+{
+ "article_id": 18891,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "om $ $: krigsskip rodd av slaver $ fanger",
+        "items": [
+         {
+          "id": "e",
+          "type_": "entity"
+         },
+         {
+          "id": "forh",
+          "type_": "entity"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "uheldig spor $ $",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         },
+         {
+          "article_id": 61780,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 70658,
+            "lemma": "tralt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 47415,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 54481,
+            "lemma": "rangel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 65726,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 75409,
+            "lemma": "utskeielse",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 75410,
+            "lemma": "utskeiing",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "her har man begitt seg ut på en galei som bærer forferdelig galt av sted",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 102232,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "på fest, på rangel",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "de havnet på galeien igjen",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144708,
+           "lemma": "på galeien",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 102232,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "på galeien"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "galeið",
+      "type_": "usage"
+     },
+     {
+      "id": "f",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "g.fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ ‘skip’",
+    "items": [
+     {
+      "id": "sp.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 18889,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 22060,
+        "lemma": "galeas",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "galei",
+   "hgno": 0,
+   "id": 22062,
+   "inflection_class": "m1",
+   "lemma": "galei",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "galei"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "galeien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "galeier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "galeiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-04-07 11:44:19",
+ "suggest": [
+  "galei"
+ ]
+}

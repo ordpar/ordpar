@@ -1,0 +1,246 @@
+{
+ "article_id": 27579,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "person som driver jakt",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han er ivrig $ og fisker",
+         "items": [
+          {
+           "text": "jeger",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 57484,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 65821,
+            "lemma": "storviltjeger",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "dyr som jager andre dyr",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "rovdyr",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "jerven er en slu og var $",
+         "items": [
+          {
+           "text": "jeger",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 7,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt som etterledd i sammensetninger: person som vil oppnå eller få tak i noe",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 3302,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 3926,
+            "lemma": "autografjeger",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 53184,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 61310,
+            "lemma": "skjørtejeger",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 8,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "infanterist $ kavalerist med spesiell opplæring i skyting, rekognosering $",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         },
+         {
+          "id": "o_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 9,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 27423,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 32514,
+        "lemma": "jage",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "jeger",
+   "hgno": 0,
+   "id": 32716,
+   "inflection_class": "m2",
+   "lemma": "jeger",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "jeger"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "jegeren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "jegere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "jegerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-18 08:31:50",
+ "suggest": [
+  "jeger"
+ ]
+}

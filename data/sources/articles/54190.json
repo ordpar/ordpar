@@ -1,0 +1,293 @@
+{
+ "article_id": 54190,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "område der det står $ har stått et $",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         },
+         {
+          "article_id": 54170,
+          "definition_id": 9,
+          "definition_order": 6,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 62452,
+            "lemma": "slag",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "område som (ufrivillig) er eller har vært åsted for krigshandlinger",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det lå mange sårede igjen på slagmarken",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "byen har blitt en slagmark",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: (tenkt) sted der det er eller har vært kamp, krangling $",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         },
+         {
+          "id": "o_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "skolen har blitt en politisk slagmark",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "mediene er en slagmark",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 129331,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "være svært rotete, herjet $",
+              "items": [
+               {
+                "id": "e_l",
+                "type_": "entity"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "rommet ditt ser ut som en slagmark",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2873085,
+           "lemma": "se ut som en slagmark",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 129331,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "se ut som en slagmark"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$  $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 37094,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 81727,
+        "lemma": "mark",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "mark",
+   "hgno": 0,
+   "id": 62471,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "slag",
+   "lemma": "slagmark",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "slagmark"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "slagmarka"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "slagmarker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "slagmarkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "slagmark"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "slagmarken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "slagmarker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "slagmarkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-01-11 12:51:02",
+ "suggest": [
+  "slagmark"
+ ]
+}

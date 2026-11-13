@@ -1,0 +1,938 @@
+{
+ "article_id": 59709,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "matematisk enhet brukt ved regning eller telling, brukt som uttrykk for $",
+        "items": [
+         {
+          "article_id": 67784,
+          "definition_id": 8,
+          "definition_order": 3,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 78248,
+            "lemma": "verdi",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hele tall",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "regne med flersifrete $",
+         "items": [
+          {
+           "text": "tall",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 103679,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "tall som er delelig med to",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "$",
+              "items": [
+               {
+                "article_id": 100480,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 129407,
+                  "lemma": "partall",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146745,
+           "lemma": "like tall",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103679,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "like tall"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 106084,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "tall som ikke er delelig med to",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "$",
+              "items": [
+               {
+                "article_id": 41789,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 48878,
+                  "lemma": "oddetall",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146482,
+           "lemma": "ulike tall",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 106084,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "ulike tall"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 104542,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "fellesbetegnelse for alle rasjonale og irrasjonale tall",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "$ $",
+              "items": [
+               {
+                "id": "mots",
+                "type_": "entity"
+               },
+               {
+                "article_id": 103079,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 1141099,
+                  "lemma": "imaginære tall",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1145053,
+           "lemma": "reelle tall",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 104542,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "reelle tall"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 103079,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "tall som multiplisert med seg selv gir et negativt produkt",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "$ $",
+              "items": [
+               {
+                "id": "mots",
+                "type_": "entity"
+               },
+               {
+                "article_id": 104542,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 1145053,
+                  "lemma": "reelle tall",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1141099,
+           "lemma": "imaginære tall",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103079,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "imaginære tall"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 106561,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "tall som viser underskudd i regnskapet for en driftsperiode",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1147799,
+           "lemma": "røde tall",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 106561,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "røde tall"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 105737,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "tall som viser overskudd i regnskapet for en driftsperiode",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1140823,
+           "lemma": "svarte tall",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 105737,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "svarte tall"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 41789,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 48878,
+            "lemma": "oddetall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 100480,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 129407,
+            "lemma": "partall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 46190,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 53199,
+            "lemma": "primtall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "symbol eller tegn for $",
+        "items": [
+         {
+          "article_id": 59709,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 68333,
+            "lemma": "tall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 59728,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 68364,
+            "lemma": "talltegn",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "arabiske $",
+         "items": [
+          {
+           "text": "tall",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "tallene 5 og 7",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 13380,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 15394,
+            "lemma": "ettall",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 15391,
+            "lemma": "ett-tall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 48826,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 56064,
+            "lemma": "romertall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 62165,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 71091,
+            "lemma": "tretall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 6,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "mengde av noe",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 2167,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 2693,
+            "lemma": "antall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ på nye trafikanter øker",
+         "items": [
+          {
+           "text": "tallet",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han har ikke tall på hvor mange ganger det hadde skjedd",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 112069,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 95458,
+            "lemma": "elevtall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 15845,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 18394,
+            "lemma": "folketall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 39888,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 46866,
+            "lemma": "mørketall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 126934,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 135653,
+            "lemma": "salgstall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "grammatisk kategori som markerer om et begrep omfatter én eller flere enheter",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 41252,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 48227,
+            "lemma": "numerus",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bøye ordet i kjønn og $",
+         "items": [
+          {
+           "text": "tall",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 12861,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 14982,
+            "lemma": "entall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 61637,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 70497,
+            "lemma": "totall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 15359,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 17828,
+            "lemma": "flertall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 9,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "brukt som etterledd i sammensetninger som betegner en viss tidsperiode",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 112650,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 163933,
+            "lemma": "ellevehundretall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 14285,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 16550,
+            "lemma": "femtenhundretall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 40889,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 47848,
+            "lemma": "nittenhundretall",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 8,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 5,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "tal",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "tall",
+   "hgno": 2,
+   "id": 68333,
+   "inflection_class": "n1",
+   "lemma": "tall",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tall"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tallet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tall"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "talla"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tall"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tallet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tall"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tallene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-06-24 12:28:20",
+ "suggest": [
+  "tall"
+ ]
+}

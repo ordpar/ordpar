@@ -1,0 +1,279 @@
+{
+ "article_id": 42991,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som har iakttatt en hendelse",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 68843,
+        "definition_id": 2,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 79460,
+          "lemma": "vitne",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "politiet søker $ til trafikkulykken",
+       "items": [
+        {
+         "text": "øyevitner",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 108773,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 161876,
+        "lemma": "øye-",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 85080,
+        "lemma": "øyen-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vitne",
+   "hgno": 0,
+   "id": 81349,
+   "inflection_class": "n2",
+   "initial_lexeme": "øye",
+   "lemma": "øyevitne",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "øyevitne"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "øyevitnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "øyevitner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "øyevitna"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 671,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "øyevitne"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "øyevitnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "øyevitner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "øyevitnene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 681,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "vitne",
+   "hgno": 0,
+   "id": 81322,
+   "inflection_class": "n2",
+   "initial_lexeme": "øyen",
+   "lemma": "øyenvitne",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "øyenvitne"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "øyenvitnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "øyenvitner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "øyenvitna"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 671,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "øyenvitne"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "øyenvitnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "øyenvitner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "øyenvitnene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 681,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-17 16:03:01",
+ "suggest": [
+  "øyevitne",
+  "øyenvitne"
+ ]
+}

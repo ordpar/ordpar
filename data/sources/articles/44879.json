@@ -1,0 +1,282 @@
+{
+ "article_id": 44879,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "tynn, spiss gjenstand $ utvekst",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ på en skistav",
+         "items": [
+          {
+           "items": [],
+           "text": "piggen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "piggsvinet har $",
+         "items": [
+          {
+           "items": [],
+           "text": "pigger",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 104373,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "en aggressiv eller avvisende tilnærming",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "content": "i forsvarsstilling",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "han har alltid piggene ut",
+               "items": []
+              },
+              "type_": "example"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "hun møtte dem med piggene ute",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2010210,
+           "lemma": "piggene [ut|ute]",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 104373,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "piggene [ut|ute]"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "spiss fjelltopp",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "fremste og bakerste rom i et fartøy",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 107707,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 161021,
+            "lemma": "akterpigg",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 113670,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 99960,
+            "lemma": "forpigg",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "frisyre med kort hår som står rett opp",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ $ ‘pigg(stav)'",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "pík",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "pigg",
+   "hgno": 1,
+   "id": 51842,
+   "inflection_class": "m1",
+   "lemma": "pigg",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pigg"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "piggen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pigger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "piggene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-31 15:08:00",
+ "suggest": [
+  "pigg"
+ ]
+}

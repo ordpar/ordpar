@@ -1,0 +1,224 @@
+{
+ "article_id": 66412,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "plante av slekta $ i $ med lange kapsler som inneholder små, svarte frø",
+        "items": [
+         {
+          "text": "Vanilla",
+          "type_": "usage"
+         },
+         {
+          "article_id": 113238,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 164203,
+            "lemma": "orkidéfamilie",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 164204,
+            "lemma": "orkidefamilie",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "orkidéfamilien"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "frukt av $",
+        "items": [
+         {
+          "article_id": 66412,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 76225,
+            "lemma": "vanilje",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "tørket $, brukt som smakstilsetning $ i sauser, is og puddinger",
+        "items": [
+         {
+          "article_id": 66412,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 76225,
+            "lemma": "vanilje",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "f_eks",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $ av $ ‘belg, skjede’",
+    "items": [
+     {
+      "id": "sp.",
+      "type_": "entity"
+     },
+     {
+      "id": "dim",
+      "type_": "entity"
+     },
+     {
+      "text": "vaina",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "article_id": 66140,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 75928,
+        "lemma": "vagina",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "vanilje",
+   "hgno": 0,
+   "id": 76225,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "vanilje",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vanilje"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "vaniljen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vaniljer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vaniljene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-11-06 11:51:35"
+}

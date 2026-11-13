@@ -1,0 +1,194 @@
+{
+ "article_id": 400,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "person med avgangseksamen fra jordbruksskole",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "relation"
+         },
+         {
+          "article_id": 51779,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 59515,
+            "lemma": "sivilagronom",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "(person med) stilling med ansvar for rådgiving, opplysning og kontrolltjenester i jordbruket",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 18495,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 21620,
+            "lemma": "fylkesagronom",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 23371,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 27557,
+            "lemma": "herredsagronom",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "også i $ som",
+         "items": [
+          {
+           "id": "sms_er",
+           "type_": "relation"
+          }
+         ]
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 399,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 1185,
+        "lemma": "agro-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 40939,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 263,
+        "lemma": "-nom",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "agronoˊm",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "agronom",
+   "hgno": 0,
+   "id": 1186,
+   "inflection_class": "m1",
+   "lemma": "agronom",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "agronom"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "agronomen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "agronomer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "agronomene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-17 15:34:26",
+ "suggest": [
+  "agronom"
+ ]
+}

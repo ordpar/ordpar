@@ -1,0 +1,143 @@
+{
+ "article_id": 56110,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som driver $",
+      "items": [
+       {
+        "article_id": 56111,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 64591,
+          "lemma": "spionasje",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "person som i hemmelighet undersøker og iakttar noe eller noen",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "avsløre spioner",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $, av $ ‘overvåke’",
+    "items": [
+     {
+      "id": "it.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "spione",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "spiare",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "spion",
+   "hgno": 0,
+   "id": 64590,
+   "inflection_class": "m1",
+   "lemma": "spion",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "spion"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "spionen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "spioner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "spionene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-11-06 09:57:29",
+ "suggest": [
+  "spion"
+ ]
+}

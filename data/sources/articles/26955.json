@@ -1,0 +1,310 @@
+{
+ "article_id": 26955,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "vekke interesse",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "fengsle, oppta",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 118255,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 167144,
+          "lemma": "interessert",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "samtalen interesserte meg ikke",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "han er en forfatter som $ meg sterkt",
+       "items": [
+        {
+         "text": "interesserer",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 103141,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "ha interesse for",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "være opptatt av",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "hun begynte å interessere seg for politikk",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1147581,
+         "lemma": "interessere seg for",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 103141,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "interessere seg for"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $ $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "language"
+     },
+     {
+      "text": "intéresser",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $ $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "interesse",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 26943,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 32046,
+        "lemma": "interesse",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "interessere",
+   "hgno": 0,
+   "id": 32059,
+   "inflection_class": "v2",
+   "lemma": "interessere",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "interessere"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "interesserer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "interesseres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "interesseres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "interesserte"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "interessert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "interessert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "interessert"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "interesserte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "interesserte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "interesserende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "interesser"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 16,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-12-28 09:43:41",
+ "suggest": [
+  "interessere"
+ ]
+}

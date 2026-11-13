@@ -1,0 +1,262 @@
+{
+ "article_id": 42311,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "teaterstykke der replikkene synges (til orkestermusikk)",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $ og $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 42329,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 49449,
+            "lemma": "operette",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 59071,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 67643,
+            "lemma": "syngespill",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 67642,
+            "lemma": "syngespell",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "operaen Orfeo av Monteverdi",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "institusjon som setter opp og framfører $",
+        "items": [
+         {
+          "article_id": 42311,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 49429,
+            "lemma": "opera",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "operaer"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "være ansatt ved $",
+         "items": [
+          {
+           "items": [],
+           "text": "operaen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "teaterbygning der det oppføres $",
+        "items": [
+         {
+          "article_id": 42311,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 49429,
+            "lemma": "opera",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "operaer"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gå i $",
+         "items": [
+          {
+           "items": [],
+           "text": "operaen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $ ‘musikkverk’",
+    "items": [
+     {
+      "id": "it.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "opera per musica",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 43194,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 50049,
+        "lemma": "opus",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "opera",
+   "hgno": 0,
+   "id": 49429,
+   "inflection_class": "m1",
+   "lemma": "opera",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "opera"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "operaen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "operaer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "operaene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-22 10:43:40",
+ "suggest": [
+  "opera"
+ ]
+}

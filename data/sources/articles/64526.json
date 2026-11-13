@@ -1,0 +1,138 @@
+{
+ "article_id": 64526,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ i ord som betegner noe som er eller skal bli $",
+      "items": [
+       {
+        "article_id": 45949,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52955,
+          "lemma": "prefiks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 12820,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 14929,
+          "lemma": "ens",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 64529,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 73894,
+          "lemma": "uniformere",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 64549,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 73916,
+          "lemma": "unisex",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 64555,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 73923,
+          "lemma": "univers",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘en’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "unus",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "uni-",
+   "hgno": 0,
+   "id": 73891,
+   "is_standard": true,
+   "lemma": "uni-",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "uni-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2018-11-26 10:16:05"
+}

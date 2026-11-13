@@ -1,0 +1,158 @@
+{
+ "article_id": 50973,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "sted $ anlegg som er midtpunktet i en virksomhet",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en sentral for utveksling av informasjon",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 10977,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12808,
+          "lemma": "drosjesentral",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 117190,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 166366,
+          "lemma": "hittegodssentral",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 47702,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 54794,
+          "lemma": "redningssentral",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 50974,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 58660,
+        "lemma": "sentral",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "sentral",
+   "hgno": 1,
+   "id": 58661,
+   "inflection_class": "m1",
+   "lemma": "sentral",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sentral"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sentralen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sentraler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sentralene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-05-02 10:41:44",
+ "suggest": [
+  "sentral"
+ ]
+}

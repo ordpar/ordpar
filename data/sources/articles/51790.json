@@ -1,0 +1,130 @@
+{
+ "article_id": 51790,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som ikke er tilknyttet militæret",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "sivilperson",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "entity"
+       },
+       {
+        "article_id": 38374,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 45025,
+          "lemma": "militær",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 51778,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 59513,
+        "lemma": "sivil",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sivilist",
+   "hgno": 0,
+   "id": 59526,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "sivilist",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sivilist"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sivilisten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sivilister"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sivilistene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-10-17 07:15:13"
+}

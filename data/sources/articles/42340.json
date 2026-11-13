@@ -1,0 +1,180 @@
+{
+ "article_id": 42340,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ med melkesaft som i tørket tilstand kan brukes til å utvinne medisiner og rusmidler",
+      "items": [
+       {
+        "article_id": 66285,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76084,
+          "lemma": "valmue",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 42338,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 49459,
+          "lemma": "opium",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "items": [],
+        "text": "Papaver somniferum",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "valmue",
+   "hgno": 0,
+   "id": 49463,
+   "inflection_class": "m1",
+   "initial_lexeme": "opium",
+   "lemma": "opiumvalmue",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "opiumvalmue"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "opiumvalmuen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "opiumvalmuer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "opiumvalmuene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "valmue",
+   "hgno": 0,
+   "id": 49462,
+   "inflection_class": "m1",
+   "initial_lexeme": "opium",
+   "junction": "s",
+   "lemma": "opiumsvalmue",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "opiumsvalmue"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "opiumsvalmuen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "opiumsvalmuer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "opiumsvalmuene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-17 13:09:27",
+ "suggest": [
+  "opiumvalmue",
+  "opiumsvalmue"
+ ]
+}

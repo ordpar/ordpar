@@ -1,0 +1,192 @@
+{
+ "article_id": 36273,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "fellesbetegnelse for lave, buskformede planter som for det meste tilhører $, for eksempel $, $ og $",
+        "items": [
+         {
+          "article_id": 36274,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 42103,
+            "lemma": "lyngfamilie",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "lyngfamilien"
+         },
+         {
+          "article_id": 109960,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 90873,
+            "lemma": "blåbærlyng",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 39190,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 45944,
+            "lemma": "moselyng",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 49407,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 56828,
+            "lemma": "røsslyng",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "sammenhengende dekke av $",
+        "items": [
+         {
+          "article_id": 36273,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 42102,
+            "lemma": "lyng",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de satte seg ned i lyngen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "lyng",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lyng",
+   "hgno": 0,
+   "id": 42102,
+   "inflection_class": "m1",
+   "lemma": "lyng",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lyng"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lyngen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lynger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lyngene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-20 09:40:39",
+ "suggest": [
+  "lyng"
+ ]
+}

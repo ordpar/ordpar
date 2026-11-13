@@ -1,0 +1,235 @@
+{
+ "article_id": 10238,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "brukt til å markere atskillelse, utskilling",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "i ord som $ og $",
+        "items": [
+         {
+          "article_id": 10308,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12052,
+            "lemma": "disponere",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 10351,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12094,
+            "lemma": "distrahere",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt til å markere nekting $ motsetning",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 63574,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 72755,
+            "lemma": "u-",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 38595,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 45256,
+            "lemma": "mis-",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "i ord som $, $ og $",
+        "items": [
+         {
+          "article_id": 10242,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 11984,
+            "lemma": "disfavør",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 10243,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 11985,
+            "lemma": "disharmoni",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 10296,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12040,
+            "lemma": "diskvalifisere",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘fra hverandre, til forskjellige sider’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "dis-",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $ og $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 9968,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 11693,
+        "lemma": "di-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 9415,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 11120,
+        "lemma": "de-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dis-",
+   "hgno": 0,
+   "id": 11978,
+   "lemma": "dis-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "dis-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-05-05 08:57:53",
+ "suggest": [
+  "dis-"
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "article_id": 23623,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "ukastrert hest",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 20621,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 24078,
+          "lemma": "grahest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     },
+     {
+      "text": "hingest",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 23430,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 27620,
+        "lemma": "hest",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hingst",
+   "hgno": 0,
+   "id": 27829,
+   "inflection_class": "m1",
+   "lemma": "hingst",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hingst"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hingsten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hingster"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hingstene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-04-23 08:26:03",
+ "suggest": [
+  "hingst"
+ ]
+}

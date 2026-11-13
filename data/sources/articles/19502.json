@@ -1,0 +1,282 @@
+{
+ "article_id": 19502,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "vitenskap $ undervisningsfag om jordas overflate, fysiske egenskaper, klima, produksjon og befolkning",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "studere $",
+         "items": [
+          {
+           "text": "geografi",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 102194,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "lære om form på og utvikling av landjorda $ om naturforhold på jorda",
+              "items": [
+               {
+                "id": "el",
+                "type_": "relation"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1142890,
+           "lemma": "fysisk geografi",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 102194,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "fysisk geografi"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 106585,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "lære om stater, maktforhold og politiske enheter",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146023,
+           "lemma": "politisk geografi",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 106585,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "politisk geografi"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 106584,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "lære om utviklingen av næringsvirksomhet og sysselsetting i ulike samfunn",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1143268,
+           "lemma": "økonomisk geografi",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 106584,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "økonomisk geografi"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "karakteristiske fysiske trekk ved et land, område eller lignende",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "Norges geografi",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "byens geografi",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 20609,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 139,
+        "lemma": "-grafi",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "geografi",
+   "hgno": 0,
+   "id": 22778,
+   "inflection_class": "m1",
+   "lemma": "geografi",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "geografi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "geografien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "geografier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "geografiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-03-14 11:54:24",
+ "suggest": [
+  "geografi"
+ ]
+}

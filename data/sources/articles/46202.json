@@ -1,0 +1,171 @@
+{
+ "article_id": 46202,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "fellesbetegnelse for næringer som særlig framstiller råstoffer",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "entity"
+       },
+       {
+        "article_id": 50569,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58031,
+          "lemma": "sekundærnæring",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 60471,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 69150,
+          "lemma": "tertiærnæring",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "jordbruk og fiske er $",
+       "items": [
+        {
+         "items": [],
+         "text": "primærnæringer",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "næring",
+   "hgno": 0,
+   "id": 53213,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "primær",
+   "lemma": "primærnæring",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "primærnæring"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "primærnæringen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "primærnæringer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "primærnæringene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "primærnæring"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "primærnæringa"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "primærnæringer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "primærnæringene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-11-23 15:09:18",
+ "suggest": [
+  "primærnæring"
+ ]
+}

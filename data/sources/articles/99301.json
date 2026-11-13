@@ -1,0 +1,135 @@
+{
+ "article_id": 99301,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ med $ for passasjerer og $ på jernbane",
+      "items": [
+       {
+        "article_id": 8346,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9943,
+          "lemma": "bygning",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 57367,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 65716,
+          "lemma": "stoppested",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 20468,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 23904,
+          "lemma": "godsekspedisjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 27627,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 32765,
+          "lemma": "jernbanestasjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "stasjon",
+   "hgno": 0,
+   "id": 147061,
+   "inflection_class": "m1",
+   "initial_lexeme": "tog",
+   "is_standard": true,
+   "lemma": "togstasjon",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "togstasjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "togstasjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "togstasjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "togstasjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-03-25 13:09:39"
+}

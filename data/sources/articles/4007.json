@@ -1,0 +1,168 @@
+{
+ "article_id": 4007,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i idrett: $, skudd eller kast (med racket $ kølle) utført med håndbaken i samme retning som en sikter",
+      "items": [
+       {
+        "article_id": 54170,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 62452,
+          "lemma": "slag",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 4126,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 4903,
+          "lemma": "bakhåndsslag",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 4891,
+          "lemma": "bakhandsslag",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "motsatt $",
+      "items": [
+       {
+        "article_id": 16130,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 18703,
+          "lemma": "forehand",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "spilleren var kjent for sin knallharde og presise backhand",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "bækˊkhænd",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "backhand",
+   "hgno": 0,
+   "id": 4775,
+   "inflection_class": "m1",
+   "lemma": "backhand",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "backhand"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "backhanden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "backhander"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "backhandene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-23 12:26:22",
+ "suggest": [
+  "backhand"
+ ]
+}

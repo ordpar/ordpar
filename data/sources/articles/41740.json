@@ -1,0 +1,195 @@
+{
+ "article_id": 41740,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 899,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1747,
+          "lemma": "allmenngyldig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "saklig, upartisk",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "entity"
+       },
+       {
+        "article_id": 58184,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 66636,
+          "lemma": "subjektiv",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en $ framstilling",
+       "items": [
+        {
+         "items": [],
+         "text": "objektiv",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt som adverb:",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hva som objektivt sett er rimelig å forvente",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 1,
+      "sub_definition": true,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 41738,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 48826,
+        "lemma": "objekt",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "objektiv",
+   "hgno": 2,
+   "id": 48827,
+   "inflection_class": "a1",
+   "lemma": "objektiv",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "objektiv"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "objektive"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "objektive"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "objektivt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-26 05:30:46",
+ "suggest": [
+  "objektiv"
+ ]
+}

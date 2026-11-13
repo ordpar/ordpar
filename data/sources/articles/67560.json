@@ -1,0 +1,136 @@
+{
+ "article_id": 67560,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "føle avsky",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ ved tanken på blod",
+       "items": [
+        {
+         "text": "vemmes",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "jeg vemmes over egen framferd",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 66331,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 76137,
+        "lemma": "vammel",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "vemmes",
+   "hgno": 0,
+   "id": 77985,
+   "inflection_class": "verb",
+   "is_standard": true,
+   "lemma": "vemmes",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "vemmes"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "vemmes"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "vemtes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "vemmes"
+      },
+      {
+       "tags": [
+        "Imp",
+        "<SPass>"
+       ],
+       "word_form": "vemmes"
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 311,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-09-24 08:55:11"
+}

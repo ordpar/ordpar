@@ -1,0 +1,149 @@
+{
+ "article_id": 60329,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "stor $ som påvirker $ i et skolefag",
+      "items": [
+       {
+        "article_id": 46712,
+        "definition_id": 1,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 53746,
+          "lemma": "prøve",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 56674,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 65176,
+          "lemma": "standpunktkarakter",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "standpunktkarakteren"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "til forskjell fra $",
+      "items": [
+       {
+        "article_id": 11934,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 13965,
+          "lemma": "eksamen",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "skriftlig tentamen",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘prøve, forsøk’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "temptamen",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "tentamen",
+   "hgno": 0,
+   "id": 68996,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "tentamen",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tentamen"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tentamenen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tentamener"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tentamenene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-03-04 08:21:48"
+}

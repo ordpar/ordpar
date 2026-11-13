@@ -1,0 +1,127 @@
+{
+ "article_id": 45800,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "undersiden av $ på et dyr med klør",
+      "items": [
+       {
+        "article_id": 33448,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 39252,
+          "lemma": "labb",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "hunden hadde fått et sår i den ene poten",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ av $ opprinnelse",
+    "items": [
+     {
+      "id": "trol",
+      "type_": "entity"
+     },
+     {
+      "id": "kelt.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "pote",
+   "hgno": 0,
+   "id": 52804,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "pote",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pote"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "poten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "poter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "potene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-01-30 12:19:08"
+}

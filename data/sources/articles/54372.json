@@ -1,0 +1,145 @@
+{
+ "article_id": 54372,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "det å ta alle $ (eller alle med ett unntak) i kortspill",
+      "items": [
+       {
+        "article_id": 57127,
+        "definition_id": 7,
+        "definition_order": 6,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 84032,
+          "lemma": "stikk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "stikkene"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 35252,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 41020,
+          "lemma": "lilleslem",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 57380,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 65730,
+          "lemma": "storeslem",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "text": "slam",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "slem",
+   "hgno": 1,
+   "id": 62661,
+   "inflection_class": "m.",
+   "is_standard": true,
+   "lemma": "slem",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "slem"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "slemmen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "slemmer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "slemmene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 589,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 1
+  }
+ ],
+ "submitted": "2025-10-17 13:00:10"
+}

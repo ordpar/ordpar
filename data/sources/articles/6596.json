@@ -1,0 +1,194 @@
+{
+ "article_id": 6596,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "musikksjanger med melankolske tekster og bruk av $",
+        "items": [
+         {
+          "article_id": 109906,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1146024,
+            "lemma": "blå tone",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "blå toner"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "akustisk blues",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "elektrisk blues",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ oppstod på landsbygda i de amerikanske sørstatene",
+         "items": [
+          {
+           "text": "bluesen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "melodi i sjangeren $",
+        "items": [
+         {
+          "article_id": 6596,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 7768,
+            "lemma": "blues",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "spille en blues",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘melankolsk, nedtrykt’",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "blue",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "blus",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "blues",
+   "hgno": 0,
+   "id": 7768,
+   "inflection_class": "m.",
+   "lemma": "blues",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "blues"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bluesen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "blues"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bluesene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 579,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-09-05 12:06:37",
+ "suggest": [
+  "blues"
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "article_id": 23703,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som bryter ned $ og fører til $",
+      "items": [
+       {
+        "article_id": 68701,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79304,
+          "lemma": "virus",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 108635,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 108766,
+          "lemma": "immunforsvar",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "immunforsvaret"
+       },
+       {
+        "article_id": 412,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1198,
+          "lemma": "aids",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 23698,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 27911,
+          "lemma": "hiv",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "virus",
+   "hgno": 0,
+   "id": 27915,
+   "inflection_class": "n1",
+   "initial_lexeme": "hiv",
+   "lemma": "hivvirus",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hivvirus"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hivviruset"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hivvirus"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hivvirusa"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hivvirus"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hivviruset"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hivvirus"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hivvirusene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-10 09:25:32",
+ "suggest": [
+  "hivvirus"
+ ]
+}

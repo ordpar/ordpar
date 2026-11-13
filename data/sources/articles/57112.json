@@ -1,0 +1,159 @@
+{
+ "article_id": 57112,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "metallbøyle på ridetøy til å sette foten i for rytter",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "det innerste av de tre små beina i mellomøret",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $ og $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 22136,
+          "definition_id": 10,
+          "definition_order": 5,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 25856,
+            "lemma": "hammer",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 25853,
+            "lemma": "hammar",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 1477,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1949,
+            "lemma": "ambolt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "etter $ $",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "Steigbügel",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "bøyle",
+   "hgno": 0,
+   "id": 84016,
+   "inflection_class": "m1",
+   "initial_lexeme": "stige",
+   "lemma": "stigbøyle",
+   "neg_junction": "e",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "stigbøyle"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "stigbøylen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "stigbøyler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "stigbøylene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-11-30 12:46:12",
+ "suggest": [
+  "stigbøyle"
+ ]
+}

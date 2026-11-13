@@ -1,0 +1,171 @@
+{
+ "article_id": 41836,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ bare for $",
+      "items": [
+       {
+        "article_id": 38064,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 3,
+          "id": 44674,
+          "lemma": "messe",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 41835,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 48923,
+          "lemma": "offiser",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "offiserer"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 122742,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2006232,
+          "lemma": "mannskapsmesse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "messe",
+   "hgno": 0,
+   "id": 48924,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "offiser",
+   "junction": "s",
+   "lemma": "offisersmesse",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "offisersmesse"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "offisersmessen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "offisersmesser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "offisersmessene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "offisersmesse"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "offisersmessa"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "offisersmesser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "offisersmessene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 762,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-25 10:38:17",
+ "suggest": [
+  "offisersmesse"
+ ]
+}

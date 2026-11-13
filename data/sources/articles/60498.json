@@ -1,0 +1,124 @@
+{
+ "article_id": 60498,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "mannlig $",
+      "items": [
+       {
+        "article_id": 29767,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 35152,
+          "lemma": "kjønnskjertel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $, $ av $ ‘testikkel’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "testiculus",
+      "type_": "usage"
+     },
+     {
+      "id": "dim",
+      "type_": "entity"
+     },
+     {
+      "text": "testis",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "testikkel",
+   "hgno": 0,
+   "id": 69181,
+   "inflection_class": "m.",
+   "lemma": "testikkel",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "testikkel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "testikkelen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "testikler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "testiklene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 585,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-02-26 12:06:17",
+ "suggest": [
+  "testikkel"
+ ]
+}

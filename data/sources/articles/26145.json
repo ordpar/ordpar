@@ -1,0 +1,129 @@
+{
+ "article_id": 26145,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$: $",
+      "items": [
+       {
+        "id": "i_med",
+        "type_": "domain"
+       },
+       {
+        "article_id": 5639,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 6620,
+          "lemma": "betennelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "inflammare",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 26147,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 31128,
+        "lemma": "inflammere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "inflammasjon",
+   "hgno": 0,
+   "id": 31126,
+   "inflection_class": "m1",
+   "lemma": "inflammasjon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "inflammasjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "inflammasjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "inflammasjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "inflammasjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-17 10:45:20",
+ "suggest": [
+  "inflammasjon"
+ ]
+}

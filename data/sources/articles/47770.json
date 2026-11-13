@@ -1,0 +1,267 @@
+{
+ "article_id": 47770,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "ikke godta",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "si nei til",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 69082,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79726,
+          "lemma": "vrake",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 3971,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 4734,
+          "lemma": "avvise",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 3837,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 4572,
+          "lemma": "avslå",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "forlaget $ manuskriptet",
+       "items": [
+        {
+         "items": [],
+         "text": "refuserte",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "han ble refusert til høstutstillingen",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $, $ av $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "refusus",
+      "type_": "usage"
+     },
+     {
+      "id": "pf_pt",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "refundere",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "refusere",
+   "hgno": 0,
+   "id": 54863,
+   "inflection_class": "v2",
+   "lemma": "refusere",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "refusere"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "refuserer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "refuseres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "refuseres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "refuserte"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "refusert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "refusert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "refusert"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "refuserte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "refuserte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "refuserende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "refuser"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 16,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-09-29 14:56:21",
+ "suggest": [
+  "refusere"
+ ]
+}

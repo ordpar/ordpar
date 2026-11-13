@@ -1,0 +1,251 @@
+{
+ "article_id": 12903,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "musikkutgivelse med lengre spilletid enn en $, men kortere enn en $",
+      "items": [
+       {
+        "article_id": 51612,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 159285,
+          "lemma": "singel",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 1,
+          "id": 59331,
+          "lemma": "single",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 35879,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 41671,
+          "lemma": "lp",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 573,
+          "lemma": "LP",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 12968,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15030,
+          "lemma": "ep-plate",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 493,
+          "lemma": "EP-plate",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "spille inn en ep",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gi ut en ep",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bandet har nettopp sluppet den nye ep-en sin",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ for $ $ ‘utvidet spilling’",
+    "items": [
+     {
+      "id": "fork_ing",
+      "type_": "entity"
+     },
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "extended playing",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "ep",
+   "hgno": 0,
+   "id": 15029,
+   "inflection_class": "m.",
+   "lemma": "ep",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ep"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ep-en"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ep-er"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ep-ene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 565,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "EP",
+   "hgno": 0,
+   "id": 492,
+   "inflection_class": "m.",
+   "lemma": "EP",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "EP"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "EP-en"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "EP-er"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "EP-ene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 565,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-08 15:02:41",
+ "suggest": [
+  "ep",
+  "EP"
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "article_id": 58134,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "slurk alkohol",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "dram, $",
+      "items": [
+       {
+        "article_id": 30500,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 35942,
+          "lemma": "knert",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ta seg en god $",
+       "items": [
+        {
+         "text": "støyt",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 105595,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "påta seg $ utsette seg for noe ubehagelig $ vanskelig",
+            "items": [
+             {
+              "id": "el",
+              "type_": "entity"
+             },
+             {
+              "id": "el",
+              "type_": "entity"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1146377,
+         "lemma": "ta støyten",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105595,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "ta støyten"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 105596,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "tåle harde tak $ slag",
+            "items": [
+             {
+              "id": "el",
+              "type_": "relation"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144536,
+         "lemma": "stå for en støyt",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105596,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "stå for en støyt"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 4,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "steytr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "støyt",
+   "hgno": 2,
+   "id": 66605,
+   "inflection_class": "m1",
+   "lemma": "støyt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "støyt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "støyten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "støyter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "støytene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2025-01-22 09:17:04",
+ "suggest": [
+  "støyt"
+ ]
+}

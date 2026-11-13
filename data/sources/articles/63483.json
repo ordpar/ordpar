@@ -1,0 +1,144 @@
+{
+ "article_id": 63483,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ person",
+      "items": [
+       {
+        "article_id": 63485,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 72752,
+          "lemma": "tøysete",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 72751,
+          "lemma": "tøyset",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 62807,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 71872,
+          "lemma": "tullekopp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 31553,
+        "definition_id": 6,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 37095,
+          "lemma": "kopp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "kopp",
+   "hgno": 0,
+   "id": 72749,
+   "inflection_class": "m1",
+   "initial_lexeme": "tøyse",
+   "lemma": "tøysekopp",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tøysekopp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tøysekoppen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tøysekopper"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tøysekoppene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-06-19 09:34:00",
+ "suggest": [
+  "tøysekopp"
+ ]
+}

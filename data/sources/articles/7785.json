@@ -1,0 +1,181 @@
+{
+ "article_id": 7785,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "fisk der skjelettet hovedsakelig består av $",
+        "items": [
+         {
+          "article_id": 7784,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 9260,
+            "lemma": "brusk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "t_forsk_f",
+          "type_": "entity"
+         },
+         {
+          "article_id": 5034,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 5902,
+            "lemma": "beinfisk",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 6186,
+            "lemma": "benfisk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "brugda er en $",
+         "items": [
+          {
+           "items": [],
+           "text": "bruskfisk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i $: $ av virveldyr der skjelettet er av brusk",
+        "items": [
+         {
+          "id": "fl",
+          "type_": "grammar"
+         },
+         {
+          "article_id": 29943,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 35338,
+            "lemma": "klasse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "Chondrichthyes",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "fisk",
+   "hgno": 0,
+   "id": 9261,
+   "inflection_class": "m1",
+   "initial_lexeme": "brusk",
+   "lemma": "bruskfisk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bruskfisk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bruskfisken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bruskfisker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bruskfiskene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-06-18 14:03:17",
+ "suggest": [
+  "bruskfisk"
+ ]
+}

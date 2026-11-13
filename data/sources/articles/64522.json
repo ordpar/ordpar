@@ -1,0 +1,135 @@
+{
+ "article_id": 64522,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "det å være $",
+      "items": [
+       {
+        "article_id": 64520,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 73885,
+          "lemma": "ungkar",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 56653,
+        "definition_id": 4,
+        "definition_order": 5,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 81938,
+          "lemma": "stand",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "leve i $",
+       "items": [
+        {
+         "text": "ungkarsstand",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "stand",
+   "hgno": 0,
+   "id": 73887,
+   "inflection_class": "m1",
+   "initial_lexeme": "ungkar",
+   "junction": "s",
+   "lemma": "ungkarsstand",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ungkarsstand"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ungkarsstanden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ungkarsstander"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ungkarsstandene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-24 12:41:05",
+ "suggest": [
+  "ungkarsstand"
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "article_id": 52441,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 128108,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 106908,
+            "lemma": "hodehud",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "avflådd hodehud med hår, tidligere brukt som trofé i noen kulturer",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 104947,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "vinne over",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "ta knekken på",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "de tok skalpen på seriemesterne",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1147831,
+           "lemma": "ta skalpen på",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 104947,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "ta skalpen på"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, lånt fra $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "id": "nord",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $ $ ‘sverdslire’",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "skalpr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "skalp",
+   "hgno": 0,
+   "id": 60491,
+   "inflection_class": "m1",
+   "lemma": "skalp",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "skalp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "skalpen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "skalper"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "skalpene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-07-03 08:50:39",
+ "suggest": [
+  "skalp"
+ ]
+}

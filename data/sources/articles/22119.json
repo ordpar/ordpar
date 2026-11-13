@@ -1,0 +1,286 @@
+{
+ "article_id": 22119,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "ytre kroppsdekke på enkelte dyr (hud, fjær- $ hårdrakt) som skifter til bestemte årstider",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "kaste $",
+         "items": [
+          {
+           "text": "hammen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 11387,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 13277,
+            "lemma": "dyreham",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 68604,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 79204,
+            "lemma": "vinterham",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$ om mennesker og institusjoner: ytre framtoning, form, vesen $ handlingsmåte",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "rhetoric"
+         },
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "under den profesjonelle hammen er han faktisk omtenksom",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "restauranten åpner nyoppusset og i ny ham",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 102587,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "elements": [
+               {
+                "attest": [],
+                "content": "få ny $",
+                "items": [
+                 {
+                  "article_id": 22119,
+                  "definition_id": 3,
+                  "definition_order": 1,
+                  "lemmas": [
+                   {
+                    "hgno": 1,
+                    "id": 25833,
+                    "lemma": "ham",
+                    "type_": "lemma"
+                   }
+                  ],
+                  "type_": "article_ref"
+                 }
+                ],
+                "type_": "explanation"
+               }
+              ],
+              "id": 2,
+              "sub_definition": false,
+              "type_": "definition"
+             },
+             {
+              "elements": [
+               {
+                "attest": [],
+                "content": "helt forandre utseende $ vesen",
+                "items": [
+                 {
+                  "id": "el",
+                  "type_": "entity"
+                 }
+                ],
+                "type_": "explanation"
+               },
+               {
+                "attest": [],
+                "explanation": {
+                 "content": "",
+                 "items": []
+                },
+                "quote": {
+                 "content": "bevegelsen ha skiftet ham de siste årene",
+                 "items": []
+                },
+                "type_": "example"
+               }
+              ],
+              "id": 4,
+              "sub_definition": false,
+              "type_": "definition"
+             }
+            ],
+            "id": 3,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146585,
+           "lemma": "skifte ham",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 102587,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "skifte ham"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "hamr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ham",
+   "hgno": 1,
+   "id": 25833,
+   "inflection_class": "m.",
+   "lemma": "ham",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ham"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hammen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hammer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hammene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 589,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-17 09:47:28",
+ "suggest": [
+  "ham"
+ ]
+}

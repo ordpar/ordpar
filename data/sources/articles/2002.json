@@ -1,0 +1,173 @@
+{
+ "article_id": 2002,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "brukt ved angivelse av år: i året, fra året",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 46321,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 53333,
+          "lemma": "pro anno",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "Norge anno 2015",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "et hus $ 1850",
+       "items": [
+        {
+         "text": "anno",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 100694,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "i det Herrens år",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "forkortet $ $ $",
+            "items": [
+             {
+              "text": "AD",
+              "type_": "usage"
+             },
+             {
+              "id": "el",
+              "type_": "relation"
+             },
+             {
+              "text": "a.D.",
+              "type_": "usage"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1143322,
+         "lemma": "anno Domini",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 100694,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "anno Domini"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘år’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "annus",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "anno",
+   "hgno": 0,
+   "id": 2529,
+   "lemma": "anno",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "anno"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-18 07:31:05",
+ "suggest": [
+  "anno"
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "article_id": 4264,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "utbygg på yttervegg på hus (over første etasje) som bæres av $ eller $",
+        "items": [
+         {
+          "article_id": 6167,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 7244,
+            "lemma": "bjelke",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 31315,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 36844,
+            "lemma": "konsoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $, $ og $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "relation"
+         },
+         {
+          "article_id": 67694,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 78155,
+            "lemma": "veranda",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 1374,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1839,
+            "lemma": "altan",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 60423,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 69097,
+            "lemma": "terrasse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gå ut på $",
+         "items": [
+          {
+           "text": "balkongen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "galleri i kinosal, teatersal $",
+        "items": [
+         {
+          "id": "o_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sitteplass på første balkong",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "language"
+     },
+     {
+      "text": "balcon",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "opprinnelig $ $ ‘bjelke’",
+    "items": [
+     {
+      "id": "g.h.ty.",
+      "type_": "language"
+     },
+     {
+      "text": "balko",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "balkoˊng",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "balkong",
+   "hgno": 0,
+   "id": 5053,
+   "inflection_class": "m1",
+   "lemma": "balkong",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "balkong"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "balkongen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "balkonger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "balkongene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-27 11:27:04",
+ "suggest": [
+  "balkong"
+ ]
+}

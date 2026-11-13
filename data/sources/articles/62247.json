@@ -1,0 +1,121 @@
+{
+ "article_id": 62247,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "elektrisk transportmiddel som går på skinner i gater",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 56293,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 64783,
+          "lemma": "sporvogn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, av $ i $ ($) ‘elektrisk (sporvogn)'",
+    "items": [
+     {
+      "id": "eng",
+      "type_": "entity"
+     },
+     {
+      "text": "-tric",
+      "type_": "usage"
+     },
+     {
+      "text": "electric",
+      "type_": "usage"
+     },
+     {
+      "text": "tramcar",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "trikk",
+   "hgno": 0,
+   "id": 71179,
+   "inflection_class": "m1",
+   "lemma": "trikk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "trikk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "trikken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "trikker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "trikkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-09-12 07:17:33",
+ "suggest": [
+  "trikk"
+ ]
+}

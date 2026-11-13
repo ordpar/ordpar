@@ -1,0 +1,182 @@
+{
+ "article_id": 21600,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$ brukt som pålegg, mest til $",
+        "items": [
+         {
+          "article_id": 37750,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 44293,
+            "lemma": "melkeprodukt",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 45487,
+            "lemma": "mjølkeprodukt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 34227,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 40229,
+            "lemma": "lefse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 10783,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12607,
+            "lemma": "dravle",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$ av ostemasse og innkokt $",
+        "items": [
+         {
+          "article_id": 49384,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 81826,
+            "lemma": "røre",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 39757,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 46571,
+            "lemma": "myse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "gomme",
+   "hgno": 2,
+   "id": 23982,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "gomme",
+   "mo_link": 2,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gomme"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gommen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gommer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gommene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 2
+  }
+ ],
+ "submitted": "2025-12-11 10:32:37"
+}

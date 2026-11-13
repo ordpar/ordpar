@@ -1,0 +1,162 @@
+{
+ "article_id": 4746,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ med soldater fra samme $",
+      "items": [
+       {
+        "article_id": 109226,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 104657,
+          "lemma": "hæravdeling",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 17015,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19755,
+          "lemma": "forsvarsgren",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 19754,
+          "lemma": "forsvarsgrein",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "relation"
+     },
+     {
+      "id": "fr.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $ $",
+    "items": [
+     {
+      "id": "it.",
+      "type_": "language"
+     },
+     {
+      "text": "battaglione",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 4745,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 5579,
+        "lemma": "batalje",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bataljon",
+   "hgno": 0,
+   "id": 5580,
+   "inflection_class": "m1",
+   "lemma": "bataljon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bataljon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bataljonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bataljoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bataljonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-10-29 07:56:00",
+ "suggest": [
+  "bataljon"
+ ]
+}

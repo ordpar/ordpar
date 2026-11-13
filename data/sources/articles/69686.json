@@ -1,0 +1,150 @@
+{
+ "article_id": 69686,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "i høy grad",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 58845,
+        "definition_id": 9,
+        "definition_order": 6,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 67335,
+          "lemma": "svær",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "svært"
+       },
+       {
+        "article_id": 67420,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 77815,
+          "lemma": "veldig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 69694,
+        "definition_id": 8,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 80384,
+          "lemma": "ytterst",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bli $ forskrekket",
+       "items": [
+        {
+         "text": "ytterlig",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ med $ $ ‘langt ute’, $ påvirket av $ $ ‘ytterst, utetter’",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "útarliga",
+      "type_": "usage"
+     },
+     {
+      "id": "trol",
+      "type_": "entity"
+     },
+     {
+      "id": "lty",
+      "type_": "entity"
+     },
+     {
+      "text": "uterlich",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ytterlig",
+   "hgno": 0,
+   "id": 80376,
+   "is_standard": true,
+   "lemma": "ytterlig",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "ytterlig"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-12-13 09:29:49"
+}

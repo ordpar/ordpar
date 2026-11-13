@@ -1,0 +1,187 @@
+{
+ "article_id": 12928,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 13305,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15457,
+          "lemma": "etterord",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 3831,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 4569,
+          "lemma": "avslutningstale",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "relation"
+       },
+       {
+        "article_id": 46475,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 53496,
+          "lemma": "prolog",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en roman med åtte kapitler og en epilog",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 12904,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 15031,
+        "lemma": "epi-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 35650,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 212,
+        "lemma": "-log",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "epilog",
+   "hgno": 0,
+   "id": 15056,
+   "inflection_class": "m1",
+   "lemma": "epilog",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "epilog"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "epilogen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "epiloger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "epilogene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-11 12:55:21",
+ "suggest": [
+  "epilog"
+ ]
+}

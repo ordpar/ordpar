@@ -1,0 +1,166 @@
+{
+ "article_id": 12921,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "diktning i fortellende stil",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ diktekunst",
+      "items": [
+       {
+        "article_id": 12929,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15057,
+          "lemma": "episk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "til forskjell fra $ og $",
+      "items": [
+       {
+        "article_id": 10750,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12572,
+          "lemma": "dramatikk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 36298,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 42125,
+          "lemma": "lyrikk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     },
+     {
+      "text": "epikos",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 12929,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 15057,
+        "lemma": "episk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "epikk",
+   "hgno": 0,
+   "id": 15049,
+   "inflection_class": "m1",
+   "lemma": "epikk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "epikk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "epikken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "epikker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "epikkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-11 12:55:21",
+ "suggest": [
+  "epikk"
+ ]
+}

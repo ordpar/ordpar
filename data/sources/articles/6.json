@@ -1,0 +1,197 @@
+{
+ "article_id": 6,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "til, opp, på, for",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $, $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 421,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2,
+          "lemma": "à jour",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 160532,
+          "lemma": "a jour",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 673,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 4,
+          "lemma": "à la carte",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 160528,
+          "lemma": "a la carte",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 68718,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79322,
+          "lemma": "vis-à-vis",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 154410,
+          "lemma": "vis-a-vis",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "5 kg à kr 80",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gå 10 runder à 2 km",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 123,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 910,
+        "lemma": "ad",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "a",
+   "hgno": 3,
+   "id": 773,
+   "lemma": "a",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "a"
+      }
+     ],
+     "inflection_group": "ADP",
+     "paradigm_id": 556,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADP"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "à",
+   "hgno": 0,
+   "id": 1,
+   "lemma": "à",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "à"
+      }
+     ],
+     "inflection_group": "ADP",
+     "paradigm_id": 556,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADP"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-05-26 07:51:48",
+ "suggest": [
+  "a",
+  "à",
+  "a__à"
+ ]
+}

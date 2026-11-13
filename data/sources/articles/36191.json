@@ -1,0 +1,193 @@
+{
+ "article_id": 36191,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "forandring i $ av en $",
+      "items": [
+       {
+        "article_id": 2788,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3331,
+          "lemma": "artikulasjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "artikulasjonen"
+       },
+       {
+        "article_id": 56446,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 64935,
+          "lemma": "språklyd",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "det at en språklyd går over til $ blir byttet ut med en annen språklyd",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 36193,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 42017,
+          "lemma": "lydforandring",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "spontane $",
+       "items": [
+        {
+         "text": "lydendringer",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "endring",
+   "hgno": 0,
+   "id": 42015,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "lyd",
+   "is_standard": true,
+   "lemma": "lydendring",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lydendring"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lydendringa"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lydendringer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lydendringene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lydendring"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lydendringen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lydendringer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lydendringene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-01-15 15:43:33"
+}

@@ -1,0 +1,262 @@
+{
+ "article_id": 6958,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "person som driver jordbruk på egen gård og lever av det",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 19097,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 25386,
+            "lemma": "gårdbruker",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 22328,
+            "lemma": "gardbruker",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "person som bor på bygda",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$ om $ $: $",
+        "items": [
+         {
+          "id": "saerl",
+          "type_": "entity"
+         },
+         {
+          "id": "e",
+          "type_": "temporal"
+         },
+         {
+          "id": "forh",
+          "type_": "entity"
+         },
+         {
+          "article_id": 19125,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 166286,
+            "lemma": "gårdmann",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 22356,
+            "lemma": "gardmann",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $ og $",
+        "items": [
+         {
+          "id": "t_forsk_f",
+          "type_": "relation"
+         },
+         {
+          "article_id": 24702,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 29122,
+            "lemma": "husmann",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 110939,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 162598,
+            "lemma": "strandsitter",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "gårdbruker med stor gård",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "t_forsk_f",
+          "type_": "relation"
+         },
+         {
+          "article_id": 54947,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 63252,
+            "lemma": "småbruker",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 8,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "sjakkbrikke med laveste verdi",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 10,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, opprinnelig presens partisipp av $ ‘fastboende’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "búandi, bóndi",
+      "type_": "usage"
+     },
+     {
+      "text": "búa",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bonde",
+   "hgno": 0,
+   "id": 8167,
+   "inflection_class": "m.",
+   "lemma": "bonde",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bonde"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bonden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bønder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bøndene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 619,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-10 14:22:40",
+ "suggest": [
+  "bonde"
+ ]
+}

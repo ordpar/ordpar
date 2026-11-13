@@ -1,0 +1,113 @@
+{
+ "article_id": 120259,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "møte mellom medlemmene i $",
+      "items": [
+       {
+        "article_id": 47807,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 54905,
+          "lemma": "regjering",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "regjeringen"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 115847,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 132890,
+          "lemma": "regjeringsmøte",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "konferanse",
+   "hgno": 0,
+   "id": 132886,
+   "inflection_class": "m1",
+   "initial_lexeme": "regjering",
+   "junction": "s",
+   "lemma": "regjeringskonferanse",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "regjeringskonferanse"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "regjeringskonferansen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "regjeringskonferanser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "regjeringskonferansene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-13 10:19:14",
+ "suggest": [
+  "regjeringskonferanse"
+ ]
+}

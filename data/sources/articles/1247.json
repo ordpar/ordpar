@@ -1,0 +1,130 @@
+{
+ "article_id": 1247,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "følelse av eller bevissthet om egen aktelse og verdighet",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 50689,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58240,
+          "lemma": "selvfølelse",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 60073,
+          "lemma": "sjølfølelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 1227,
+        "definition_id": 5,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 80801,
+          "lemma": "ære",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "krenke noens æresfølelse",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "følelse",
+   "hgno": 0,
+   "id": 80822,
+   "inflection_class": "m1",
+   "initial_lexeme": "ære",
+   "is_standard": true,
+   "junction": "s",
+   "lemma": "æresfølelse",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "æresfølelse"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "æresfølelsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "æresfølelser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "æresfølelsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-11-18 12:27:29"
+}

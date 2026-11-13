@@ -1,0 +1,188 @@
+{
+ "article_id": 57005,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "avtrykk etter et $",
+        "items": [
+         {
+          "article_id": 57002,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 83910,
+            "lemma": "stempel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "merke på vare $ gjenstand som angir opprinnelse, gull- $ sølvinnhold eller lignende",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "om eldre forhold: papirmerke med angitt verdi til å klebe på $ dokumenter eller varer",
+        "items": [
+         {
+          "article_id": 57006,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 83913,
+            "lemma": "stempelpliktig",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "stempelpliktige"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "merke",
+   "hgno": 0,
+   "id": 83912,
+   "inflection_class": "n2",
+   "initial_lexeme": "stempel",
+   "lemma": "stempelmerke",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "stempelmerke"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "stempelmerket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "stempelmerker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "stempelmerka"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 671,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "stempelmerke"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "stempelmerket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "stempelmerker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "stempelmerkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 681,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-03-25 09:56:56",
+ "suggest": [
+  "stempelmerke"
+ ]
+}

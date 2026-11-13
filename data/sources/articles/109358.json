@@ -1,0 +1,106 @@
+{
+ "article_id": 109358,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som ekspederer transaksjoner fra $",
+      "items": [
+       {
+        "article_id": 60376,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 69045,
+          "lemma": "terminal",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 109344,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 89892,
+          "lemma": "betalingskort",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "terminal",
+   "hgno": 0,
+   "id": 162210,
+   "inflection_class": "m1",
+   "initial_lexeme": "betaling",
+   "junction": "s",
+   "lemma": "betalingsterminal",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "betalingsterminal"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "betalingsterminalen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "betalingsterminaler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "betalingsterminalene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-03-08 09:08:15",
+ "suggest": [
+  "betalingsterminal"
+ ]
+}

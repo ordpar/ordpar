@@ -1,0 +1,152 @@
+{
+ "article_id": 52786,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 39402,
+        "lemmas": [
+         {
+          "hgno": 3,
+          "id": 46154,
+          "lemma": "mugg",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 125846,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2028264,
+          "lemma": "blåskimmelost",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ fra $",
+    "items": [
+     {
+      "id": "trol",
+      "type_": "entity"
+     },
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 52811,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 60904,
+        "lemma": "skinne",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "skimmel",
+   "hgno": 1,
+   "id": 81880,
+   "inflection_class": "m.",
+   "lemma": "skimmel",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "skimmel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "skimmelen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "skimler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "skimlene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 585,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-12-12 13:30:10",
+ "suggest": [
+  "skimmel"
+ ]
+}

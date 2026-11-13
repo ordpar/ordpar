@@ -1,0 +1,164 @@
+{
+ "article_id": 60693,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som holder seg i bakgrunnen",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "som ikke gir uttrykk for hva en føler, mener $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 133330,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2072801,
+          "lemma": "tilbakeholdende",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 48227,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 55391,
+          "lemma": "reservert",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "han er $ overfor medstudentene",
+       "items": [
+        {
+         "text": "tilbakeholden",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de er $ når det gjelder å uttale seg",
+       "items": [
+        {
+         "text": "tilbakeholdne",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "holden",
+   "hgno": 0,
+   "id": 69430,
+   "inflection_class": "a5",
+   "initial_lexeme": "tilbake",
+   "is_standard": true,
+   "lemma": "tilbakeholden",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tilbakeholden"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "tilbakeholdne"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "tilbakeholdne"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tilbakeholdent"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 480,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-05-22 12:15:14"
+}

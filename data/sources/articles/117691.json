@@ -1,0 +1,172 @@
+{
+ "article_id": 117691,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "ekstra betaling en gir til $ for god $",
+      "items": [
+       {
+        "article_id": 132089,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2980057,
+          "lemma": "servicemedarbeider",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 2980058,
+          "lemma": "sørvismedarbeider",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 51095,
+        "definition_id": 5,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58787,
+          "lemma": "service",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 158979,
+          "lemma": "sørvis",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 10882,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12718,
+          "lemma": "drikkepenger",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 10890,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12729,
+          "lemma": "driks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gi rikelig med tips",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "eng",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "tips",
+   "hgno": 1,
+   "id": 165798,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "tips",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "2021-02-24",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tips"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tipsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tipser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tipsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 1
+  }
+ ],
+ "submitted": "2024-07-31 06:19:19"
+}

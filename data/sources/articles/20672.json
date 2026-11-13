@@ -1,0 +1,267 @@
+{
+ "article_id": 20672,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$, $, $",
+        "items": [
+         {
+          "article_id": 63231,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 72344,
+            "lemma": "tynn",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 54713,
+          "definition_id": 5,
+          "definition_order": 0,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 63047,
+            "lemma": "smal",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 14683,
+          "definition_id": 22,
+          "definition_order": 7,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 16991,
+            "lemma": "fin",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ tråd",
+         "items": [
+          {
+           "text": "grann",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "være $ i målet",
+         "items": [
+          {
+           "text": "grann",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 41655,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 48787,
+            "lemma": "nøye",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "content": "brukt som adverb: tydelig",
+          "items": [],
+          "type_": "explanation"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "jeg husker så grant den dagen",
+           "items": []
+          },
+          "type_": "example"
+         }
+        ],
+        "id": 4,
+        "sub_definition": true,
+        "type_": "definition"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "grannr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 20637,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 24093,
+        "lemma": "gran",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "grann",
+   "hgno": 2,
+   "id": 24129,
+   "lemma": "grann",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "grann"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "granne"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "granne"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "grant"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "grannere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "grannest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "granneste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 458,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-13 08:57:42",
+ "suggest": [
+  "grann"
+ ]
+}

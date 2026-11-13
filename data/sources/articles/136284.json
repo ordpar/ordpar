@@ -1,0 +1,155 @@
+{
+ "article_id": 136284,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "system for overføring av kopi av dokument, tegning $ over telefonnettet",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 60140,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 68799,
+          "lemma": "telefaks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 13618,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 15811,
+          "lemma": "faks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 60138,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 68797,
+        "lemma": "tele-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 13622,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 15816,
+        "lemma": "faksimile",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "faksimile",
+   "hgno": 0,
+   "id": 2199080,
+   "inflection_class": "m1",
+   "initial_lexeme": "tele-",
+   "is_standard": true,
+   "lemma": "telefaksimile",
+   "mo_link": 0,
+   "neg_junction": "-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "telefaksimile"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "telefaksimilen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "telefaksimiler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "telefaksimilene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-02-12 14:18:01"
+}

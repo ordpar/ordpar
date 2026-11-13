@@ -1,0 +1,268 @@
+{
+ "article_id": 51521,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "råstoff av glinsende tråder som $ spinner rundt seg når den $",
+        "items": [
+         {
+          "article_id": 51533,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 59249,
+            "lemma": "silkeorm",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "silkeormen"
+         },
+         {
+          "article_id": 125602,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 2572635,
+            "lemma": "puppe seg",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "pupper seg"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 127890,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "få (økonomisk) fordel av noe",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "spinne silke på en tv-opptreden",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2871551,
+           "lemma": "spinne silke på noe",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 127890,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "spinne silke på noe"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "stoff som er vevd av $",
+        "items": [
+         {
+          "article_id": 51543,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 59259,
+            "lemma": "silketråd",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "silketråder"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en kjole av rød $",
+         "items": [
+          {
+           "items": [],
+           "text": "silke",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "brodere i $",
+         "items": [
+          {
+           "items": [],
+           "text": "silke",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "silki",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $, fra mongolsk $, av $ kinesisk $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "slav.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "sirgek",
+      "type_": "usage"
+     },
+     {
+      "id": "e",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "sir",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "silke",
+   "hgno": 0,
+   "id": 59235,
+   "inflection_class": "m1",
+   "lemma": "silke",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "silke"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "silken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "silker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "silkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-06-15 08:56:52",
+ "suggest": [
+  "silke"
+ ]
+}

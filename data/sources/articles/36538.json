@@ -1,0 +1,253 @@
+{
+ "article_id": 36538,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "det å bruke overnaturlige krefter til å påvirke omgivelsene",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 62360,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 71309,
+            "lemma": "trolldom",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 103850,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "hekseri og trolldom som ikke skader andre",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1145869,
+           "lemma": "hvit magi",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103850,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "hvit magi"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 103851,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "trolldom som er ment å skade eller drepe",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "$",
+              "items": [
+               {
+                "article_id": 58577,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 67056,
+                  "lemma": "svartekunst",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1143111,
+           "lemma": "svart magi",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103851,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "svart magi"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "opplevelse eller stemning som bergtar",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "filmen har glimt av ren magi",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "status": "",
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 36525,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 42886,
+        "lemma": "mager",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "magi",
+   "hgno": 0,
+   "id": 42908,
+   "inflection_class": "m1",
+   "lemma": "magi",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "magi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "magien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "magier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "magiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-21 13:19:36",
+ "suggest": [
+  "magi"
+ ]
+}

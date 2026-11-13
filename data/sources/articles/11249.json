@@ -1,0 +1,182 @@
+{
+ "article_id": 11249,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 62771,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 71833,
+          "lemma": "tufs",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 61603,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 70456,
+          "lemma": "tosk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 61456,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 70298,
+          "lemma": "tomsing",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "oppføre seg som en dust",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 11248,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 13113,
+        "lemma": "dust",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 11252,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 13116,
+        "lemma": "dustete",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 13115,
+        "lemma": "dustet",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dust",
+   "hgno": 2,
+   "id": 13111,
+   "inflection_class": "m1",
+   "lemma": "dust",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "dust"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "dusten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "duster"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "dustene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-20 09:21:34",
+ "suggest": [
+  "dust"
+ ]
+}

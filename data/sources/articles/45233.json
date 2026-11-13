@@ -1,0 +1,236 @@
+{
+ "article_id": 45233,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "eldre betegnelse for $",
+        "items": [
+         {
+          "article_id": 58937,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 67466,
+            "lemma": "sykehjem",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 59771,
+            "lemma": "sjukehjem",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 67464,
+            "lemma": "sykeheim",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 59770,
+            "lemma": "sjukeheim",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "om eldre forhold: privat hjem som oppfostrer $",
+        "items": [
+         {
+          "article_id": 45232,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 52212,
+            "lemma": "pleiebarn",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hjem",
+   "hgno": 0,
+   "id": 52214,
+   "inflection_class": "n.",
+   "initial_lexeme": "pleie",
+   "lemma": "pleiehjem",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pleiehjem"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pleiehjemmet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pleiehjem"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pleiehjemma"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 699,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pleiehjem"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pleiehjemmet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pleiehjem"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pleiehjemmene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 700,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "heim",
+   "hgno": 0,
+   "id": 52213,
+   "inflection_class": "m1",
+   "initial_lexeme": "pleie",
+   "lemma": "pleieheim",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pleieheim"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pleieheimen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pleieheimer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pleieheimene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-19 06:48:27",
+ "suggest": [
+  "pleiehjem",
+  "pleieheim"
+ ]
+}

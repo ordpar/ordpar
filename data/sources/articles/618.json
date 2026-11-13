@@ -1,0 +1,172 @@
+{
+ "article_id": 618,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ som status i regnskap viser",
+      "items": [
+       {
+        "article_id": 7804,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9284,
+          "lemma": "bruttoformue",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "sum aktiva",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "aktivaene i boet",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 107190,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "oversikt over eiendom og gjeld $ for ett år, med eiendomsposter i en kolonne, gjeldsposter og egenkapital i en annen, med sum ført per kolonne og med differansen mellom dem",
+            "items": [
+             {
+              "id": "f_eks",
+              "type_": "entity"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1146244,
+         "lemma": "aktiva og passiva",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 107190,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "aktiva og passiva"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 5,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "flertallsform av $",
+    "items": [
+     {
+      "article_id": 120644,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 168456,
+        "lemma": "aktivum",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "aktiva",
+   "hgno": 0,
+   "id": 168644,
+   "inflection_class": "n.",
+   "is_standard": true,
+   "lemma": "aktiva",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2021-10-28",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aktiva"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aktivaene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 752,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-08-16 16:45:11"
+}

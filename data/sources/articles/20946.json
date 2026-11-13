@@ -1,0 +1,263 @@
+{
+ "article_id": 20946,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "element i stekeovn som steker mat raskt ved sterk varmestråling",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "komfyr med $",
+         "items": [
+          {
+           "text": "grill",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "frittstående innretning med rist til å steke mat på over sterk varme (av kull, gass $ elektrisitet)",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "relation"
+         },
+         {
+          "article_id": 115744,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 151199,
+            "lemma": "utegrill",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "legge pølser på grillen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "spisested (eller rom i restaurant) der det blir servert matretter fra $",
+        "items": [
+         {
+          "article_id": 20946,
+          "definition_id": 5,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 24483,
+            "lemma": "grill",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sitte i grillen på Bristol",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "gitter framme på bil til luftkjøling",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "relation"
+         },
+         {
+          "article_id": 115482,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 165456,
+            "lemma": "kjølegrill",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 8,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $ $ ‘rist’, $ av $ ‘flettverk’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "craticula",
+      "type_": "usage"
+     },
+     {
+      "id": "dim",
+      "type_": "grammar"
+     },
+     {
+      "text": "cratis",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "grill",
+   "hgno": 0,
+   "id": 24483,
+   "inflection_class": "m1",
+   "lemma": "grill",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "grill"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "grillen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "griller"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "grillene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-16 07:25:32",
+ "suggest": [
+  "grill"
+ ]
+}

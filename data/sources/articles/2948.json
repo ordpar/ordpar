@@ -1,0 +1,228 @@
+{
+ "article_id": 2948,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 23709,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 27921,
+          "lemma": "hjelp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 6124,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 7201,
+          "lemma": "bistand",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 37614,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 44080,
+          "lemma": "medvirkning",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "få $",
+       "items": [
+        {
+         "text": "assistanse",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "med velvillig $ av naboen",
+       "items": [
+        {
+         "text": "assistanse",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de måtte be om $ fra politiet",
+       "items": [
+        {
+         "text": "assistanse",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "language"
+     },
+     {
+      "text": "assistance",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "senlat.",
+      "type_": "language"
+     },
+     {
+      "text": "assistentia",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 2952,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 3510,
+        "lemma": "assistere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "asistanˊse",
+    "items": [],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "asistanˊgse",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "assistanse",
+   "hgno": 0,
+   "id": 3506,
+   "inflection_class": "m1",
+   "lemma": "assistanse",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "assistanse"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "assistansen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "assistanser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "assistansene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-26 10:24:45",
+ "suggest": [
+  "assistanse"
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "article_id": 7430,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "førsteledd i ord for sterk hete $ kulde",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "for eksempel i $ og $",
+        "items": [
+         {
+          "article_id": 7447,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 8794,
+            "lemma": "brennhet",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 82276,
+            "lemma": "brennheit",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 7453,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 8800,
+            "lemma": "brennkulde",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt forsterkende: svært, veldig, i høy grad",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "i ord som $, $, $ og $",
+        "items": [
+         {
+          "article_id": 107085,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 91927,
+            "lemma": "brennkvikk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 7444,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 8788,
+            "lemma": "brennfort",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 7431,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 8771,
+            "lemma": "brennaktuell",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 7459,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 8805,
+            "lemma": "brennsikker",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 7433,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 82084,
+        "lemma": "brenne",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "brenn-",
+   "hgno": 0,
+   "id": 8768,
+   "inflection_class": "i sms.",
+   "lemma": "brenn-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "brenn-"
+      }
+     ],
+     "inflection_group": "COMPPFX",
+     "paradigm_id": 42,
+     "standardisation": "STANDARD",
+     "tags": [
+      "COMPPFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-03-30 11:08:12",
+ "suggest": [
+  "brenn-"
+ ]
+}

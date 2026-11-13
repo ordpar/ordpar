@@ -1,0 +1,173 @@
+{
+ "article_id": 21939,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "rom innenfor en entré eller inngang og med inngang til de andre rommene",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "stor entré",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 16751,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19421,
+          "lemma": "forrom",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 16973,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 159297,
+          "lemma": "forstue",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "leiligheten består av tre rom, kjøkken og $",
+       "items": [
+        {
+         "text": "hall",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 21940,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 25632,
+        "lemma": "hall",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "hål",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hall",
+   "hgno": 2,
+   "id": 25632,
+   "inflection_class": "m1",
+   "lemma": "hall",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hall"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hallen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "haller"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hallene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-07-02 15:37:28",
+ "suggest": [
+  "hall"
+ ]
+}

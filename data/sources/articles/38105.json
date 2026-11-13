@@ -1,0 +1,121 @@
+{
+ "article_id": 38105,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "instrument som reagerer når det kommer i nærheten av metall, $ brukt i malmleting",
+      "items": [
+       {
+        "id": "f_eks",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 38115,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 44723,
+          "lemma": "metallsøker",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "jamfør $",
+      "items": [
+       {
+        "article_id": 9938,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 11664,
+          "lemma": "detektor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "detektor",
+   "hgno": 0,
+   "id": 44713,
+   "inflection_class": "m1",
+   "initial_lexeme": "metall",
+   "lemma": "metalldetektor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "metalldetektor"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "metalldetektoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "metalldetektorer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "metalldetektorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-24 13:07:55",
+ "suggest": [
+  "metalldetektor"
+ ]
+}

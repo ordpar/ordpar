@@ -1,0 +1,135 @@
+{
+ "article_id": 32227,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $ entall: $ etter $ da de store krittavleiringene fant sted",
+      "items": [
+       {
+        "id": "bf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 124771,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1142963,
+          "lemma": "geologisk periode",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 28040,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 81615,
+          "lemma": "jura",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 120719,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 168502,
+          "lemma": "krittid",
+          "markdown_lemma": "krittid",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 168501,
+          "lemma": "kritt-tid",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "krittiden"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "periode",
+   "hgno": 0,
+   "id": 37837,
+   "inflection_class": "m1",
+   "initial_lexeme": "kritt",
+   "lemma": "krittperiode",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "krittperiode"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "krittperioden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "krittperioder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "krittperiodene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-17 06:29:14",
+ "suggest": [
+  "krittperiode"
+ ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ordpar-receiver",
+  "private": true,
+  "type": "module",
+  "description": "The Ordpar event receiver: a Cloudflare Worker (site decisions 26, 62, 104).",
+  "devDependencies": {
+    "wrangler": "4.152.0"
+  }
+}

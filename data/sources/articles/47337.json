@@ -1,0 +1,291 @@
+{
+ "article_id": 47337,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "om $ $: en som utfører skittent og foraktet arbeid",
+        "items": [
+         {
+          "id": "e",
+          "type_": "entity"
+         },
+         {
+          "id": "forh",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "medhjelper for $",
+        "items": [
+         {
+          "article_id": 8462,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 10122,
+            "lemma": "bøddel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 29487,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 34842,
+            "lemma": "kjeltring",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 53874,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 62113,
+            "lemma": "skurk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "din rakker!",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i $ $, brukt som kraftuttrykk: $",
+        "items": [
+         {
+          "id": "bf",
+          "type_": "entity"
+         },
+         {
+          "id": "ent",
+          "type_": "entity"
+         },
+         {
+          "article_id": 112651,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 15981,
+            "lemma": "fanden",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "være tøff som bare rakkeren",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "dette funker som rakkeren",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 114438,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "brukt for å uttrykke beundring, avsky eller annen reaksjon",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "fy til rakkeren for et liv!",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1141352,
+           "lemma": "fy til rakkeren",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 114438,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "fy til rakkeren"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 47335,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 54394,
+        "lemma": "rakke",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "rakker",
+   "hgno": 0,
+   "id": 54397,
+   "inflection_class": "m2",
+   "is_standard": true,
+   "lemma": "rakker",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rakker"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "rakkeren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "rakkere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rakkerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-12-21 12:52:07",
+ "suggest": [
+  "rakker"
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "article_id": 38489,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "(fargelagt) forbokstav $ illustrasjon i gamle håndskrifter",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "(portrett)bilde i svært liten målestokk",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 122721,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "i svært lite format",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "familien er et samfunn i miniatyr",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2006199,
+           "lemma": "i miniatyr",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 122721,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "i miniatyr"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $, av $ ‘skrive, tegne med mønje’",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "miniatura",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "miniare",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "miniatyr",
+   "hgno": 0,
+   "id": 45146,
+   "inflection_class": "m1",
+   "lemma": "miniatyr",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "miniatyr"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "miniatyren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "miniatyrer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "miniatyrene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-07-20 06:09:40",
+ "suggest": [
+  "miniatyr"
+ ]
+}

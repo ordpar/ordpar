@@ -1,0 +1,158 @@
+{
+ "article_id": 15786,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "felles betegnelse for eldre, tradisjonsbundne danser",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $, $, $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 8286,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9875,
+          "lemma": "bygdedans",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 18981,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 22208,
+          "lemma": "gammeldans",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 22164,
+          "lemma": "gammaldans",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 50095,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 57477,
+          "lemma": "sangdans",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 62910,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 71985,
+          "lemma": "turdans",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "norske folkedanser",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dans",
+   "hgno": 0,
+   "id": 18326,
+   "inflection_class": "m1",
+   "initial_lexeme": "folk",
+   "junction": "e",
+   "lemma": "folkedans",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "folkedans"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "folkedansen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "folkedanser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "folkedansene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-19 10:35:15",
+ "suggest": [
+  "folkedans"
+ ]
+}

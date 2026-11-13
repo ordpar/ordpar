@@ -1,0 +1,177 @@
+{
+ "article_id": 2502,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "del av døgnet da en er i (lønnet) $",
+        "items": [
+         {
+          "article_id": 2466,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 2998,
+            "lemma": "arbeid",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "daglig $",
+        "items": [
+         {
+          "article_id": 2592,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 3126,
+            "lemma": "arbeidstid",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "åtte timers arbeidsdag",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "dag som ikke er $ eller $",
+        "items": [
+         {
+          "article_id": 22978,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 27066,
+            "lemma": "helgedag",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 17961,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 21046,
+            "lemma": "fridag",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "i morgen er det arbeidsdag igjen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dag",
+   "hgno": 0,
+   "id": 3033,
+   "inflection_class": "m1",
+   "initial_lexeme": "arbeid",
+   "junction": "s",
+   "lemma": "arbeidsdag",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "arbeidsdag"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "arbeidsdagen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "arbeidsdager"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "arbeidsdagene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-06 12:14:52",
+ "suggest": [
+  "arbeidsdag"
+ ]
+}

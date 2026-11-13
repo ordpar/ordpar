@@ -1,0 +1,483 @@
+{
+ "article_id": 38590,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "tidsenhet som tilsvarer $ time",
+        "items": [
+         {
+          "denominator": "60",
+          "numerator": "1",
+          "type_": "fraction"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "forkortet $",
+        "items": [
+         {
+          "text": "min",
+          "type_": "usage"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "1 $ = 60 sekunder",
+         "items": [
+          {
+           "text": "minutt",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bussen går sju $ over hver hel og halv time",
+         "items": [
+          {
+           "text": "minutter",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det er gjort på noen $",
+         "items": [
+          {
+           "text": "minutter",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 118604,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "ta seg en kort pause",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "han tok seg fem minutter fra arbeidet",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1145815,
+           "lemma": "ta seg fem minutter",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 118604,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "ta seg fem minutter"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 103954,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "med det samme",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "presis",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2006217,
+           "lemma": "på minuttet",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103954,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "på minuttet"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "vinkelenhet som tilsvarer $ $",
+        "items": [
+         {
+          "denominator": "60",
+          "numerator": "1",
+          "type_": "fraction"
+         },
+         {
+          "article_id": 20580,
+          "definition_id": 12,
+          "definition_order": 5,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 24034,
+            "lemma": "grad",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 7995,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 9502,
+            "lemma": "bueminutt",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 7974,
+            "lemma": "bogeminutt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ‘forminske’, $ for $ ‘første forminskelsesgrad’, brukt i oldtidens matematikk om $ av en enhet",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "minuere",
+      "type_": "usage"
+     },
+     {
+      "id": "fork_ing",
+      "type_": "entity"
+     },
+     {
+      "text": "pars minuta prima",
+      "type_": "usage"
+     },
+     {
+      "denominator": "60",
+      "numerator": "1",
+      "type_": "fraction"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 50558,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 58020,
+        "lemma": "sekund",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "minutt",
+   "hgno": 0,
+   "id": 45250,
+   "inflection_class": "n3",
+   "lemma": "minutt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "minutt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "minuttet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "minutt"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "minutta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "minutt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "minuttet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "minutt"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "minuttene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "minutt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "minuttet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "minutter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "minutta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 670,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "minutt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "minuttet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "minutter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "minuttene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 680,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-03-01 05:57:28",
+ "suggest": [
+  "minutt"
+ ]
+}

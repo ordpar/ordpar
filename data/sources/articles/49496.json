@@ -1,0 +1,138 @@
+{
+ "article_id": 49496,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "om $ $: $",
+      "items": [
+       {
+        "id": "e",
+        "type_": "entity"
+       },
+       {
+        "id": "forh",
+        "type_": "entity"
+       },
+       {
+        "article_id": 49493,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 56626,
+          "lemma": "rådmann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "medlem av $",
+      "items": [
+       {
+        "article_id": 50848,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58521,
+          "lemma": "senat",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "keiser Julians $",
+       "items": [
+        {
+         "items": [],
+         "text": "rådsherrer",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "herre",
+   "hgno": 0,
+   "id": 56629,
+   "inflection_class": "m1",
+   "initial_lexeme": "råd",
+   "junction": "s",
+   "lemma": "rådsherre",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rådsherre"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "rådsherren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "rådsherrer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rådsherrene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-03-23 14:04:44",
+ "suggest": [
+  "rådsherre"
+ ]
+}

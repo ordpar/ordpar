@@ -1,0 +1,258 @@
+{
+ "article_id": 14771,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "være til, eksistere",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det fins ikke mat i huset",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "enhjørninger fins ikke",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det fins de som mener at …",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "på den tiden fantes verken datamaskiner eller mobiltelefoner",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det har funnes mennesker på øya i tusener av år",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "i nektingsuttrykk med $: være",
+        "items": [
+         {
+          "id": "adj",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "jeg fins ikke redd",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "finnast",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 14765,
+      "lemmas": [
+       {
+        "hgno": 4,
+        "id": 17075,
+        "lemma": "finne",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "finnes",
+   "hgno": 0,
+   "id": 17088,
+   "inflection_class": "verb",
+   "is_standard": true,
+   "lemma": "finnes",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2015-12-11",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "finnes"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "fins"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "fantes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "funnes"
+      },
+      {
+       "tags": [
+        "Imp",
+        "<SPass>"
+       ],
+       "word_form": "finnes"
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 303,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "finnes"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "finnes"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "fantes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "funnes"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 301,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-04-14 06:44:48"
+}

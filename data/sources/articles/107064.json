@@ -1,0 +1,202 @@
+{
+ "article_id": 107064,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "utdanning som kan brukes i et bestemt yrke",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "relation"
+       },
+       {
+        "article_id": 106913,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1759,
+          "lemma": "allmennutdanning",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 1758,
+          "lemma": "allmennutdannelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "utdanning",
+   "hgno": 0,
+   "id": 80338,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "yrke",
+   "junction": "s",
+   "lemma": "yrkesutdanning",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "yrkesutdanning"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "yrkesutdanningen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "yrkesutdanninger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "yrkesutdanningene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "yrkesutdanning"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "yrkesutdanninga"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "yrkesutdanninger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "yrkesutdanningene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "utdannelse",
+   "hgno": 0,
+   "id": 80337,
+   "inflection_class": "m1",
+   "initial_lexeme": "yrke",
+   "junction": "s",
+   "lemma": "yrkesutdannelse",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "yrkesutdannelse"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "yrkesutdannelsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "yrkesutdannelser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "yrkesutdannelsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-07 00:44:51",
+ "suggest": [
+  "yrkesutdanning",
+  "yrkesutdannelse"
+ ]
+}

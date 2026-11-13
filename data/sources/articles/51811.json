@@ -1,0 +1,217 @@
+{
+ "article_id": 51811,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ for to personer med 32 svarte og 32 hvite felt, der hver spiller har 16 svarte eller hvite brikker med ulike funksjoner og skal ta motstanderens brikker, og vinner er den som tar motstanderens konge",
+      "items": [
+       {
+        "article_id": 7486,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 8843,
+          "lemma": "brettspill",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 8842,
+          "lemma": "brettspell",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "spille sjakk",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "spille et parti $",
+       "items": [
+        {
+         "items": [],
+         "text": "sjakk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 104917,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "holde i age",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "holde under kontroll",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1146010,
+         "lemma": "holde i sjakk",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 104917,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "holde i sjakk"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ $, $ persisk",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "skák",
+      "type_": "usage"
+     },
+     {
+      "id": "f",
+      "type_": "entity"
+     },
+     {
+      "id": "oppr",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $ etter kongen i spillet",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "article_id": 51808,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 59551,
+        "lemma": "sjah",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sjakk",
+   "hgno": 0,
+   "id": 59554,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "sjakk",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sjakk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sjakken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sjakker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sjakkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-10-17 12:10:46"
+}

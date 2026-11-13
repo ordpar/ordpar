@@ -1,0 +1,98 @@
+{
+ "article_id": 101521,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "rente på lån per år, medregnet gebyrer og andre kostnader",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "relation"
+       },
+       {
+        "article_id": 104117,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1146807,
+          "lemma": "nominell rente",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 11703,
+        "lemmas": [
+         {
+          "lemma": "effektiv"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 48149,
+        "lemmas": [
+         {
+          "lemma": "rente"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "effektiv rente",
+   "hgno": 0,
+   "id": 1143607,
+   "is_standard": true,
+   "lemma": "effektiv rente",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "effektiv rente"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2021-05-21 16:09:53"
+}

@@ -1,0 +1,101 @@
+{
+ "article_id": 18141,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "gjøremål i fritiden",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 59158,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 67728,
+          "lemma": "syssel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "syssel",
+   "hgno": 0,
+   "id": 21233,
+   "inflection_class": "m.",
+   "initial_lexeme": "fritid",
+   "junction": "s",
+   "lemma": "fritidssyssel",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "fritidssyssel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "fritidssysselen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "fritidssysler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "fritidssyslene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 585,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-12-14 14:44:34",
+ "suggest": [
+  "fritidssyssel"
+ ]
+}

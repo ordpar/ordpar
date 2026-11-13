@@ -1,0 +1,179 @@
+{
+ "article_id": 45926,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "religiøs taler",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 16450,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19081,
+          "lemma": "forkynner",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 34768,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 40477,
+          "lemma": "lekpredikant",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 40351,
+          "lemma": "legpredikant",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 58828,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 67316,
+          "lemma": "svovelpredikant",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "beslektet med $",
+    "items": [
+     {
+      "article_id": 45966,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 52973,
+        "lemma": "preke",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "predikant",
+   "hgno": 0,
+   "id": 52932,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "predikant",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "predikant"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "predikanten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "predikanter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "predikantene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-14 12:55:17"
+}

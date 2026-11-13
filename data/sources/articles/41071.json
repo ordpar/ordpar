@@ -1,0 +1,123 @@
+{
+ "article_id": 41071,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $ mot $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "article_id": 41070,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 48043,
+          "lemma": "nordøst",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 2,
+          "id": 47966,
+          "lemma": "nordaust",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "byen ligger $ for innsjøen",
+       "items": [
+        {
+         "items": [],
+         "text": "nordøst",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "øst",
+   "hgno": 3,
+   "id": 48039,
+   "initial_lexeme": "nord",
+   "lemma": "nordøst",
+   "mo_link": 3,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "nordøst"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 3
+  },
+  {
+   "final_lexeme": "aust",
+   "hgno": 3,
+   "id": 47962,
+   "initial_lexeme": "nord",
+   "lemma": "nordaust",
+   "mo_link": 3,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "nordaust"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 3
+  }
+ ],
+ "submitted": "2022-08-06 09:14:40",
+ "suggest": [
+  "nordøst",
+  "nordaust"
+ ]
+}

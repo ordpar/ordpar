@@ -1,0 +1,198 @@
+{
+ "article_id": 36986,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "bred linning nederst på et erme",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 103876,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "fornærme noen",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144006,
+           "lemma": "støte noen på mansjettene",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103876,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "støte noen på mansjettene"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "krage på lysestake $ stempel",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 36364,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 42211,
+            "lemma": "lysmansjett",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $ , $ av $ ‘erme’",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     },
+     {
+      "id": "dim",
+      "type_": "entity"
+     },
+     {
+      "text": "manche",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ‘hånd’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "manus",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "mansjett",
+   "hgno": 0,
+   "id": 43390,
+   "inflection_class": "m1",
+   "lemma": "mansjett",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mansjett"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "mansjetten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mansjetter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "mansjettene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-12-18 12:19:39",
+ "suggest": [
+  "mansjett"
+ ]
+}

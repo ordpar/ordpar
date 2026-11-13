@@ -1,0 +1,115 @@
+{
+ "article_id": 3092,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "anlegg der det blir frigjort $ ved spalting av atomkjerner",
+      "items": [
+       {
+        "article_id": 12658,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 14758,
+          "lemma": "energi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 3086,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3653,
+          "lemma": "atomkraftverk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "reaktor",
+   "hgno": 0,
+   "id": 3659,
+   "inflection_class": "m1",
+   "initial_lexeme": "atom",
+   "lemma": "atomreaktor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "atomreaktor"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "atomreaktoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "atomreaktorer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "atomreaktorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-03-05 13:09:30",
+ "suggest": [
+  "atomreaktor"
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "article_id": 66297,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "article": {
+       "article_id": 105171,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "avvik fra det fastlagte",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "rot, uorden, vansker",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "læreren tolererer ingen slinger i valsen",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1142408,
+         "lemma": "slinger i valsen",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105171,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "slinger i valsen"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "pardans i $ takt",
+        "items": [
+         {
+          "denominator": "4",
+          "numerator": "3",
+          "type_": "fraction"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "vi danset sakte $",
+         "items": [
+          {
+           "text": "vals",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "musikk til $",
+        "items": [
+         {
+          "article_id": 66297,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 76099,
+            "lemma": "vals",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $, av $ ‘snu seg rundt’",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     },
+     {
+      "text": "Walzer",
+      "type_": "usage"
+     },
+     {
+      "text": "walzen",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "vals",
+   "hgno": 1,
+   "id": 76099,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "vals",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vals"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "valsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "valser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "valsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-09-23 12:06:43"
+}

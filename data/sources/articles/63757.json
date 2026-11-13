@@ -1,0 +1,262 @@
+{
+ "article_id": 63757,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "kunstig, falsk, imitert",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ perler",
+         "items": [
+          {
+           "text": "uekte",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 60782,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 69520,
+            "lemma": "tilgjort",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 292,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1077,
+            "lemma": "affektert",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en $ latter",
+         "items": [
+          {
+           "text": "uekte",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "article": {
+         "article_id": 101213,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "$ der $ er større enn $",
+              "items": [
+               {
+                "article_id": 7901,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 9421,
+                  "lemma": "brøk",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               },
+               {
+                "article_id": 60240,
+                "definition_id": 2,
+                "definition_order": 1,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 68904,
+                  "lemma": "teller",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref",
+                "word_form": "telleren"
+               },
+               {
+                "article_id": 40766,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 47707,
+                  "lemma": "nevner",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref",
+                "word_form": "nevneren"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144486,
+           "lemma": "uekte brøk",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 101213,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "uekte brøk"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ekte",
+   "hgno": 0,
+   "id": 72998,
+   "inflection_class": "a3",
+   "initial_lexeme": "u",
+   "lemma": "uekte",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "uekte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "uekte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "uekte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "uekte"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 447,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-23 15:03:51",
+ "suggest": [
+  "uekte"
+ ]
+}

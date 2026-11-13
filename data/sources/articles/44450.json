@@ -1,0 +1,241 @@
+{
+ "article_id": 44450,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "vakt- $ rekognoseringsrunde",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "gå $",
+         "items": [
+          {
+           "items": [],
+           "text": "patrulje",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "mannskap som gjør $",
+        "items": [
+         {
+          "article_id": 124635,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 129645,
+            "lemma": "patruljetjeneste",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en militær patrulje",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 117346,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 166428,
+            "lemma": "hjelpepatrulje",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 117265,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 107769,
+            "lemma": "hundepatrulje",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 67259,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 77601,
+            "lemma": "veipatrulje",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 77452,
+            "lemma": "vegpatrulje",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "minste speideravdeling",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "patrouille",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "se $",
+    "items": [
+     {
+      "article_id": 44454,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 51419,
+        "lemma": "patruljere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "patrulje",
+   "hgno": 0,
+   "id": 51415,
+   "inflection_class": "m1",
+   "lemma": "patrulje",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "patrulje"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "patruljen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "patruljer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "patruljene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-10 11:39:41",
+ "suggest": [
+  "patrulje"
+ ]
+}

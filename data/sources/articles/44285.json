@@ -1,0 +1,115 @@
+{
+ "article_id": 44285,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "et politisk partis $",
+      "items": [
+       {
+        "article_id": 43306,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50169,
+          "lemma": "organisasjonsapparat",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 37235,
+        "definition_id": 11,
+        "definition_order": 5,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 43659,
+          "lemma": "maskin",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "maskin",
+   "hgno": 0,
+   "id": 51254,
+   "inflection_class": "m1",
+   "initial_lexeme": "parti",
+   "lemma": "partimaskin",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "partimaskin"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "partimaskinen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "partimaskiner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "partimaskinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-06 07:27:36",
+ "suggest": [
+  "partimaskin"
+ ]
+}

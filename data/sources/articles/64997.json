@@ -1,0 +1,171 @@
+{
+ "article_id": 64997,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "article": {
+       "article_id": 106126,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "i uorden",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "ikke i drift",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "$",
+            "items": [
+             {
+              "article_id": 9457,
+              "lemmas": [
+               {
+                "hgno": 2,
+                "id": 11159,
+                "lemma": "defekt",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "heisen er midlertidig i ustand",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1140934,
+         "lemma": "i ustand",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 106126,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "i ustand"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 56653,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 81938,
+        "lemma": "stand",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "stand",
+   "hgno": 0,
+   "id": 74434,
+   "inflection_class": "m1",
+   "initial_lexeme": "u",
+   "is_standard": true,
+   "lemma": "ustand",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ustand"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ustanden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ustander"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ustandene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-11-12 08:50:06"
+}

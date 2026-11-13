@@ -1,0 +1,176 @@
+{
+ "article_id": 554,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "mellommann ved kjøp og salg av $",
+      "items": [
+       {
+        "article_id": 544,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1337,
+          "lemma": "aksje",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "aksjer"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 37693,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 44196,
+          "lemma": "mekler",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 44108,
+          "lemma": "megler",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "megler",
+   "hgno": 0,
+   "id": 1347,
+   "inflection_class": "m2",
+   "initial_lexeme": "aksje",
+   "lemma": "aksjemegler",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aksjemegler"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aksjemegleren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aksjemeglere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aksjemeglerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "mekler",
+   "hgno": 0,
+   "id": 1348,
+   "inflection_class": "m2",
+   "initial_lexeme": "aksje",
+   "lemma": "aksjemekler",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aksjemekler"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aksjemekleren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aksjemeklere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aksjemeklerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-17 15:34:25",
+ "suggest": [
+  "aksjemekler",
+  "aksjemegler"
+ ]
+}

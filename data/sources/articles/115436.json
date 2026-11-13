@@ -1,0 +1,111 @@
+{
+ "article_id": 115436,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $ $: familie av pattedyr i ordenen $, med kraftig kropp med stri pels, spisst hode med tryne og tynn hale (i spiral)",
+      "items": [
+       {
+        "id": "bf",
+        "type_": "entity"
+       },
+       {
+        "id": "ent",
+        "type_": "entity"
+       },
+       {
+        "article_id": 29997,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 35396,
+          "lemma": "klauvdyr",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 35666,
+          "lemma": "klovdyr",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Suidae",
+      "items": [],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "familie",
+   "hgno": 0,
+   "id": 165433,
+   "inflection_class": "m1",
+   "initial_lexeme": "svin",
+   "junction": "e",
+   "lemma": "svinefamilie",
+   "paradigm_info": [
+    {
+     "from": "2020-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "svinefamilie"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "svinefamilien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "svinefamilier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "svinefamiliene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-05-28 14:02:20",
+ "suggest": [
+  "svinefamilie"
+ ]
+}

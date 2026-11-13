@@ -1,0 +1,287 @@
+{
+ "article_id": 46340,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "det å produsere noe",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 17573,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 20434,
+            "lemma": "framstilling",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 20935,
+            "lemma": "fremstilling",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 61009,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 69780,
+            "lemma": "tilvirking",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 69781,
+            "lemma": "tilvirkning",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sette en ny vare i $",
+         "items": [
+          {
+           "items": [],
+           "text": "produksjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "modellen er gått ut av $",
+         "items": [
+          {
+           "items": [],
+           "text": "produksjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "arbeide i $",
+         "items": [
+          {
+           "items": [],
+           "text": "produksjonen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "det som produseres",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "framstilte varer (i et land, en næringsgren $ en virksomhet)",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en samlet $ på 20 000 tonn",
+         "items": [
+          {
+           "items": [],
+           "text": "produksjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "resultat av skapende virksomhet",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "Picassos samlede $",
+         "items": [
+          {
+           "items": [],
+           "text": "produksjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "tv-serien ble kanalens dyreste produksjon",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, $ $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 46363,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 53379,
+        "lemma": "produsere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "produksjon",
+   "hgno": 0,
+   "id": 53354,
+   "inflection_class": "m1",
+   "lemma": "produksjon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "produksjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "produksjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "produksjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "produksjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-02 11:53:27",
+ "suggest": [
+  "produksjon"
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "article_id": 46832,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som alltid henger over lekser og lærebøker",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "person som bruker mye tid på å $",
+      "items": [
+       {
+        "article_id": 46831,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 53870,
+          "lemma": "pugge",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 34901,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 40621,
+          "lemma": "lesehest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hest",
+   "hgno": 0,
+   "id": 53871,
+   "inflection_class": "m1",
+   "initial_lexeme": "pugg",
+   "lemma": "pugghest",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pugghest"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pugghesten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pugghester"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pugghestene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-30 10:03:53",
+ "suggest": [
+  "pugghest"
+ ]
+}

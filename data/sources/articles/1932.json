@@ -1,0 +1,116 @@
+{
+ "article_id": 1932,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som planlegger og lager hage- og grøntanlegg",
+      "items": [
+       {
+        "article_id": 19179,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 22436,
+          "lemma": "gartner",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 1927,
+        "definition_id": 8,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2428,
+          "lemma": "anlegg",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gartner",
+   "hgno": 0,
+   "id": 2433,
+   "inflection_class": "m2",
+   "initial_lexeme": "anlegg",
+   "junction": "s",
+   "lemma": "anleggsgartner",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "anleggsgartner"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "anleggsgartneren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "anleggsgartnere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "anleggsgartnerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-18 07:31:05",
+ "suggest": [
+  "anleggsgartner"
+ ]
+}

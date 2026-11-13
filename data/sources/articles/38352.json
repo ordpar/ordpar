@@ -1,0 +1,376 @@
+{
+ "article_id": 38352,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "lengdemål lik 10 km",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det er fire $ dit",
+         "items": [
+          {
+           "items": [],
+           "text": "mil",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sykle $ etter $",
+         "items": [
+          {
+           "items": [],
+           "text": "mil",
+           "type_": "usage"
+          },
+          {
+           "items": [],
+           "text": "mil",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bilen bruker 0,7 liter bensin på $",
+         "items": [
+          {
+           "items": [],
+           "text": "mila",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 14270,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 82397,
+            "lemma": "femmil",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 121089,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 104871,
+            "lemma": "halvmil",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt i betegnelse for visse andre lengdemål",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $, $, $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 101606,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1140795,
+            "lemma": "engelsk mil",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 102278,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1147464,
+            "lemma": "geografisk mil",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 104067,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1144036,
+            "lemma": "nautisk mil",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 103944,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "11,3 km",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1141232,
+           "lemma": "gammel norsk mil",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103944,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "gammel norsk mil"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 52290,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 83169,
+            "lemma": "sjømil",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "míla",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ($) ‘tusen (skritt)’, av $ ‘tusen’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "milia",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "passuum",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "mille",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "mil",
+   "hgno": 1,
+   "id": 45000,
+   "inflection_class": "m., f.",
+   "lemma": "mil",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mil"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "mila"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mil"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "milene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 764,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mil"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "milen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mil"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "milene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 579,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-02 13:44:46",
+ "suggest": [
+  "mil"
+ ]
+}

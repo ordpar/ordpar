@@ -1,0 +1,228 @@
+{
+ "article_id": 15294,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "grafisk metode for å trykke bilder fra en plate eller stein som er uten forhøyninger eller fordypninger, brukt blant annet i $ og $",
+      "items": [
+       {
+        "article_id": 35416,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 81695,
+          "lemma": "litografi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 41842,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 48930,
+          "lemma": "offset",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "relation"
+       },
+       {
+        "article_id": 11372,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 13259,
+          "lemma": "dyptrykk",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 12216,
+          "lemma": "djuptrykk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 25367,
+        "definition_id": 7,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 30398,
+          "lemma": "høytrykk",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 30059,
+          "lemma": "høgtrykk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 15263,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 17709,
+        "lemma": "flat",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 62587,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 4,
+        "id": 71617,
+        "lemma": "trykk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "trykk",
+   "hgno": 0,
+   "id": 17754,
+   "inflection_class": "n1",
+   "initial_lexeme": "flat",
+   "lemma": "flattrykk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "flattrykk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "flattrykket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "flattrykk"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "flattrykka"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "flattrykk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "flattrykket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "flattrykk"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "flattrykkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-17 16:14:22",
+ "suggest": [
+  "flattrykk"
+ ]
+}

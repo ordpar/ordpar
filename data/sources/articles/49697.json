@@ -1,0 +1,130 @@
+{
+ "article_id": 49697,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ eller $ ved $",
+      "items": [
+       {
+        "article_id": 19034,
+        "definition_id": 6,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 22260,
+          "lemma": "gang",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 46553,
+        "definition_id": 2,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 53579,
+          "lemma": "prosedyre",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 49689,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 57014,
+          "lemma": "saksbehandling",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "kjenne saksgangen ved ansettelser",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gang",
+   "hgno": 0,
+   "id": 57023,
+   "inflection_class": "m1",
+   "initial_lexeme": "sak",
+   "junction": "s",
+   "lemma": "saksgang",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "saksgang"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "saksgangen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "saksganger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "saksgangene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-05-08 08:20:22",
+ "suggest": [
+  "saksgang"
+ ]
+}

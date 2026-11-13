@@ -1,0 +1,208 @@
+{
+ "article_id": 63021,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ om skumring: dunkel belysning, halvmørke",
+      "items": [
+       {
+        "id": "saerl",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ $ og",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "twilight",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $ ‘halvmørke, skumring’",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "language"
+     },
+     {
+      "text": "Zwielicht",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $ $ $ med $ og $",
+    "items": [
+     {
+      "article_id": 63009,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 72089,
+        "lemma": "tuss",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 1,
+        "id": 81999,
+        "lemma": "tusse",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "id": "el",
+      "type_": "relation"
+     },
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "text": "tve-",
+      "type_": "usage"
+     },
+     {
+      "text": "tvi-",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$",
+    "items": [
+     {
+      "text": "tuss-",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_litt"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mørke",
+   "hgno": 0,
+   "id": 72101,
+   "inflection_class": "n2",
+   "initial_lexeme": "tuss",
+   "lemma": "tussmørke",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tussmørke"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tussmørket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tussmørker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tussmørka"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 671,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tussmørke"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tussmørket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tussmørker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tussmørkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 681,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2016-12-05 02:00:24",
+ "suggest": [
+  "tussmørke"
+ ]
+}

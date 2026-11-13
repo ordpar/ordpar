@@ -1,0 +1,277 @@
+{
+ "article_id": 34145,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "nordtysk språk $ dialekt",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 45217,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 52197,
+          "lemma": "plattysk",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 1,
+          "id": 52186,
+          "lemma": "platt-tysk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 40484,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 47388,
+          "lemma": "nedertysk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "til forskjell fra $",
+      "items": [
+       {
+        "article_id": 25376,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 30417,
+          "lemma": "høytysk",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 1,
+          "id": 30072,
+          "lemma": "høgtysk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "norsk har mange lånord fra $",
+       "items": [
+        {
+         "text": "lavtysk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 34146,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 40122,
+        "lemma": "lavtysk",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 2,
+        "id": 42412,
+        "lemma": "lågtysk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "tysk",
+   "hgno": 1,
+   "id": 40124,
+   "inflection_class": "m1, n.",
+   "initial_lexeme": "lav",
+   "lemma": "lavtysk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lavtysk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lavtysken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lavtysker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lavtyskene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "lavtysk"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 758,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "tysk",
+   "hgno": 1,
+   "id": 42414,
+   "inflection_class": "m1, n.",
+   "initial_lexeme": "låg",
+   "lemma": "lågtysk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lågtysk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lågtysken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lågtysker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lågtyskene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "lågtysk"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 758,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-12 07:42:54",
+ "suggest": [
+  "lavtysk",
+  "lågtysk"
+ ]
+}

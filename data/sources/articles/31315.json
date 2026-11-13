@@ -1,0 +1,218 @@
+{
+ "article_id": 31315,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$ (på vegg) som bærer søyle, balkong $",
+        "items": [
+         {
+          "article_id": 17568,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 20425,
+            "lemma": "framspring",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 20926,
+            "lemma": "fremspring",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, lite bord $ skap til å sette under speil",
+        "items": [
+         {
+          "article_id": 24952,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 29468,
+            "lemma": "hylle",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$ der en kan styre maskiner og lignende fra",
+        "items": [
+         {
+          "article_id": 31485,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 37022,
+            "lemma": "kontrollpanel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 100441,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 158878,
+            "lemma": "spillkonsoll",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 158876,
+            "lemma": "spellkonsoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 6,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "i betydningene ‘kontrollbord’ og ‘spillkonsoll’ fra $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "konsoll",
+   "hgno": 0,
+   "id": 36844,
+   "inflection_class": "m1",
+   "lemma": "konsoll",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "konsoll"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "konsollen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "konsoller"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "konsollene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-16 07:27:56",
+ "suggest": [
+  "konsoll"
+ ]
+}

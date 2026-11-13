@@ -1,0 +1,269 @@
+{
+ "article_id": 11264,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "i folketro og $: underjordisk skapning",
+        "items": [
+         {
+          "id": "myt",
+          "type_": "domain"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "nisser og $",
+         "items": [
+          {
+           "text": "dverger",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "kan oppfattes nedsettende: $ person",
+        "items": [
+         {
+          "article_id": 31765,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 37350,
+            "lemma": "kortvokst",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i biologi: arter som er mindre enn andre i samme slekt",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "i ord som $ og $",
+        "items": [
+         {
+          "article_id": 11265,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 13130,
+            "lemma": "dvergbjørk",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 13129,
+            "lemma": "dvergbjerk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 11269,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 13134,
+            "lemma": "dverghøns",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i overført betydning: noe som er lite",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "selskapet er en dverg i internasjonal sammenheng",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 111696,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "i astronomi: $ med svært varm overflate og liten radius",
+              "items": [
+               {
+                "article_id": 57274,
+                "definition_id": 2,
+                "definition_order": 1,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 65616,
+                  "lemma": "stjerne",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1140719,
+           "lemma": "hvit dverg",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 111696,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "hvit dverg"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "dvergr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "dverg",
+   "hgno": 0,
+   "id": 13128,
+   "inflection_class": "m1",
+   "lemma": "dverg",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "dverg"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "dvergen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "dverger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "dvergene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-04-07 11:24:14",
+ "suggest": [
+  "dverg"
+ ]
+}

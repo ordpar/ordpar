@@ -1,0 +1,181 @@
+{
+ "article_id": 47193,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 46240,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 53254,
+          "lemma": "prisavslag",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "få 10 % $ på varene",
+       "items": [
+        {
+         "items": [],
+         "text": "rabatt",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 21229,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 24792,
+          "lemma": "grupperabatt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 28898,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 34146,
+          "lemma": "kassarabatt",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 34169,
+          "lemma": "kasserabatt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "it.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "article_id": 47192,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 54244,
+        "lemma": "rabatt",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "rabatt",
+   "hgno": 2,
+   "id": 54244,
+   "inflection_class": "m1",
+   "lemma": "rabatt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rabatt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "rabatten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "rabatter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rabattene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-28 11:54:00",
+ "suggest": [
+  "rabatt"
+ ]
+}

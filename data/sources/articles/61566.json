@@ -1,0 +1,179 @@
+{
+ "article_id": 61566,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "selvdrevet, sylinderformet $ som en skyter ut under vann mot skip og ubåter",
+        "items": [
+         {
+          "article_id": 46587,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 53617,
+            "lemma": "prosjektil",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ubåten ble truffet av en torpedo",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$ som bruker $ truer med vold for å få inn pengene sine",
+        "items": [
+         {
+          "article_id": 132667,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 129760,
+            "lemma": "pengeinnkrever",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "eng",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ‘være stiv, lam’ etter navnet på en slekt av elektriske $",
+    "items": [
+     {
+      "id": "lat",
+      "type_": "entity"
+     },
+     {
+      "text": "torpere",
+      "type_": "usage"
+     },
+     {
+      "article_id": 52587,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 60647,
+        "lemma": "skate",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref",
+      "word_form": "skater"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "torpedo",
+   "hgno": 0,
+   "id": 70418,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "torpedo",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "torpedo"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "torpedoen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "torpedoer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "torpedoene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-10-01 12:31:10"
+}

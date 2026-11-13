@@ -1,0 +1,105 @@
+{
+ "article_id": 14259,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "plan figur med fem kanter",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "legeme med femkantet profil",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 44608,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 51574,
+          "lemma": "pentagon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kant",
+   "hgno": 0,
+   "id": 16519,
+   "inflection_class": "m1",
+   "initial_lexeme": "fem",
+   "lemma": "femkant",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "femkant"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "femkanten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "femkanter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "femkantene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2016-12-05 01:45:10",
+ "suggest": [
+  "femkant"
+ ]
+}

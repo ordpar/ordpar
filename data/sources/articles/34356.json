@@ -1,0 +1,367 @@
+{
+ "article_id": 34356,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "bolig som består av ett $ flere rom og kjøkken",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "kjøpe $",
+         "items": [
+          {
+           "text": "leilighet",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "leie $",
+         "items": [
+          {
+           "text": "leilighet",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "innrede en $",
+         "items": [
+          {
+           "text": "leilighet",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en treroms $",
+         "items": [
+          {
+           "text": "leilighet",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 550,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1343,
+            "lemma": "aksjeleilighet",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 6542,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 7709,
+            "lemma": "blokkleilighet",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 50669,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 58194,
+            "lemma": "selveierleilighet",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 60027,
+            "lemma": "sjøleierleilighet",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 1926,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 2427,
+            "lemma": "anledning",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 25241,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 30164,
+            "lemma": "høve",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ha $ til noe",
+         "items": [
+          {
+           "text": "leilighet",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "jeg skal gjøre det ved tid og $",
+         "items": [
+          {
+           "text": "leilighet",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘situasjon, beskaffenhet’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     },
+     {
+      "text": "legelicheit",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "beslektet med $",
+    "items": [
+     {
+      "article_id": 35113,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 40854,
+        "lemma": "ligge",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 23465,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 150,
+        "lemma": "-het",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "leilighet",
+   "hgno": 0,
+   "id": 40396,
+   "inflection_class": "m1, f1",
+   "lemma": "leilighet",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "leilighet"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "leiligheten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "leiligheter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "leilighetene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "leilighet"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "leiligheta"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "leiligheter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "leilighetene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-17 11:11:26",
+ "suggest": [
+  "leilighet"
+ ]
+}

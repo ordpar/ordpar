@@ -1,0 +1,148 @@
+{
+ "article_id": 15910,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i handel: fritt fram til jernbane, uten kostnad for kjøper",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 8867,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 10516,
+          "lemma": "cif",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 15742,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 18285,
+          "lemma": "fob",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "varen leveres $",
+       "items": [
+        {
+         "text": "f.o.r.",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ for $ $",
+    "items": [
+     {
+      "id": "fork_ing",
+      "type_": "entity"
+     },
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "free on rail",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "for",
+   "hgno": 3,
+   "id": 18453,
+   "lemma": "for",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "for"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "f.o.r.",
+   "hgno": 0,
+   "id": 15713,
+   "lemma": "f.o.r.",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "f.o.r."
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-19 10:35:13",
+ "suggest": [
+  "for",
+  "f.o.r."
+ ]
+}

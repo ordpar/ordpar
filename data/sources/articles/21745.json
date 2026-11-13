@@ -1,0 +1,280 @@
+{
+ "article_id": 21745,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "som går",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 41490,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 48576,
+            "lemma": "nærgående",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 42395,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 49535,
+            "lemma": "oppegående",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 47067,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 54090,
+            "lemma": "pågående",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt $: $",
+        "items": [
+         {
+          "id": "s_subst",
+          "type_": "grammar"
+         },
+         {
+          "article_id": 17360,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 20126,
+            "lemma": "fotgjenger",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ og syklende",
+         "items": [
+          {
+           "text": "gående",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "article": {
+         "article_id": 102531,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "holde i drift; drive på med",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "de holdt det gåande i mange år",
+               "items": []
+              },
+              "type_": "example"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "holde driften gående",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146580,
+           "lemma": "holde gående",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 102531,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "holde gående"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ av $",
+    "items": [
+     {
+      "id": "pr_pt",
+      "type_": "grammar"
+     },
+     {
+      "article_id": 21740,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 25369,
+        "lemma": "gå",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "gående",
+   "hgno": 0,
+   "id": 25375,
+   "inflection_class": "a3",
+   "lemma": "gående",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "gående"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "gående"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "gående"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "gående"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 447,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-07-01 14:01:44",
+ "suggest": [
+  "gående"
+ ]
+}

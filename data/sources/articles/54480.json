@@ -1,0 +1,328 @@
+{
+ "article_id": 54480,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "det å slippe",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 105173,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "gi fra seg",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "$",
+            "items": [
+             {
+              "article_id": 115349,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 1146134,
+                "lemma": "gi avkall på",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1146048,
+         "lemma": "gi slipp på",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105173,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "gi slipp på"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 111780,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 163505,
+          "lemma": "dueslipp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 113318,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 164240,
+          "lemma": "flyslipp",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 164241,
+          "lemma": "flyslepp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 117019,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 106217,
+          "lemma": "hesteslipp",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 106216,
+          "lemma": "hesteslepp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "slipp",
+   "hgno": 3,
+   "id": 62773,
+   "inflection_class": "n1",
+   "is_standard": true,
+   "lemma": "slipp",
+   "mo_link": 3,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "slipp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "slippet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "slipp"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "slippa"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "slipp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "slippet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "slipp"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "slippene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 3
+  },
+  {
+   "added_norm": false,
+   "final_lexeme": "slepp",
+   "hgno": 0,
+   "id": 62691,
+   "inflection_class": "n1",
+   "is_standard": true,
+   "lemma": "slepp",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "slepp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sleppet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "slepp"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sleppa"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "slepp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sleppet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "slepp"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sleppene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-11-02 13:22:08"
+}

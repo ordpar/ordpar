@@ -1,0 +1,235 @@
+{
+ "article_id": 20013,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "stoff (ekskrementer $ kjemisk preparat) som blir tilført jorda på grunn av sitt høye næringsinnhold",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 17665,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 20570,
+          "lemma": "frau",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 39815,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 46778,
+          "lemma": "møkk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "spre $",
+       "items": [
+        {
+         "text": "gjødsel",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 32770,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 38444,
+          "lemma": "kunstgjødsel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 40321,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 47193,
+          "lemma": "naturgjødsel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ ‘gjøre god’",
+    "items": [
+     {
+      "article_id": 20011,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 4,
+        "id": 23321,
+        "lemma": "gjø",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 23324,
+        "lemma": "gjøde",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gjødsel",
+   "hgno": 0,
+   "id": 23326,
+   "inflection_class": "m., f.",
+   "lemma": "gjødsel",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gjødsel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gjødselen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gjødsler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gjødslene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 584,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gjødsel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gjødsla"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gjødsler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gjødslene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 766,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-16 08:05:28",
+ "suggest": [
+  "gjødsel"
+ ]
+}

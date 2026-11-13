@@ -1,0 +1,186 @@
+{
+ "article_id": 12655,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "rett som bare én person, ett firma $ har til å drive en bestemt virksomhet",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 38996,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 45743,
+          "lemma": "monopol",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 46315,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 53331,
+          "lemma": "privilegium",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 42444,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 49592,
+          "lemma": "opphavsrett",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "forbeholde seg $ til",
+       "items": [
+        {
+         "text": "enerett",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ha $ på å selge noe",
+       "items": [
+        {
+         "text": "enerett",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 48355,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 55528,
+        "lemma": "rett",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "rett",
+   "hgno": 0,
+   "id": 14755,
+   "inflection_class": "m1",
+   "initial_lexeme": "en",
+   "junction": "e",
+   "lemma": "enerett",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "enerett"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "eneretten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "eneretter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "enerettene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-05-12 08:40:11",
+ "suggest": [
+  "enerett"
+ ]
+}

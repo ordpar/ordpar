@@ -1,0 +1,207 @@
+{
+ "article_id": 7043,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "person med borgerrett i et land",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 56763,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 65275,
+            "lemma": "statsborger",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "om $ $: innbygger i en by",
+        "items": [
+         {
+          "id": "e",
+          "type_": "temporal"
+         },
+         {
+          "id": "forh",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i nyere tid: person som hører til en bestemt sosial klasse ut fra ytre kjennetegn som yrke, posisjon $ idémessig forankring",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 113898,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "person som er immatrikulert",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146783,
+           "lemma": "akademisk borger",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 113898,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "akademisk borger"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 7,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘bymann’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 7040,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 8253,
+        "lemma": "borg",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "borger",
+   "hgno": 0,
+   "id": 8256,
+   "inflection_class": "m2",
+   "lemma": "borger",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "borger"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "borgeren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "borgere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "borgerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-14 16:45:38",
+ "suggest": [
+  "borger"
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "article_id": 135641,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 8256,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9838,
+          "lemma": "butterdeig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 54903,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 63330,
+          "lemma": "smørdeig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 60459,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 69136,
+          "lemma": "tertedeig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av tysk $, etter bynavnet $",
+    "items": [
+     {
+      "text": "wiener",
+      "type_": "usage"
+     },
+     {
+      "text": "Wien",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "deig",
+   "hgno": 0,
+   "id": 2198739,
+   "inflection_class": "m1",
+   "initial_lexeme": "wiener",
+   "is_standard": true,
+   "lemma": "wienerdeig",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "wienerdeig"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "wienerdeigen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "wienerdeiger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "wienerdeigene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-30 14:21:52"
+}

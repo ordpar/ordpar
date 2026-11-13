@@ -1,0 +1,175 @@
+{
+ "article_id": 6045,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "skildring av en persons liv",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 35537,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 41311,
+          "lemma": "livsskildring",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 50656,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58162,
+          "lemma": "selvbiografi",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 59993,
+          "lemma": "sjølbiografi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "lese biografien om Henrik Wergeland",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 6038,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 7115,
+        "lemma": "bio-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 20609,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 139,
+        "lemma": "-grafi",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "biografiˊ",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "biografi",
+   "hgno": 0,
+   "id": 7122,
+   "inflection_class": "m1",
+   "lemma": "biografi",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "biografi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "biografien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "biografier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "biografiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-17 10:26:17",
+ "suggest": [
+  "biografi"
+ ]
+}

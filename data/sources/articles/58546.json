@@ -1,0 +1,199 @@
+{
+ "article_id": 58546,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "i flertall: primitive flercellede dyr uten vev eller organer som lever på havbunnen",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "Porifera",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "porøst materiale (etterligning av skjelett av $) til å vaske med",
+        "items": [
+         {
+          "article_id": 58546,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 67017,
+            "lemma": "svamp",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "svamper"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "tørke av tavla med $",
+         "items": [
+          {
+           "text": "svampen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 130935,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "drikke mye alkohol",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2875314,
+           "lemma": "drikke som en svamp",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 130935,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "drikke som en svamp"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 55634,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 64040,
+        "lemma": "sopp",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "svamp",
+   "hgno": 0,
+   "id": 67017,
+   "inflection_class": "m1",
+   "lemma": "svamp",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "svamp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "svampen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "svamper"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "svampene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-06-18 06:21:02",
+ "suggest": [
+  "svamp"
+ ]
+}

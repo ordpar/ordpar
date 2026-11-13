@@ -1,0 +1,181 @@
+{
+ "article_id": 27173,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som ikke kan vendes",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "som bare går i én retning",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "relation"
+       },
+       {
+        "article_id": 48450,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 55646,
+          "lemma": "reversibel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "skadevirkningene er irreversible",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en $ prosess",
+       "items": [
+        {
+         "text": "irreversibel",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "jamfør $ og $",
+    "items": [
+     {
+      "article_id": 27133,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 32230,
+        "lemma": "ir-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 48450,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 55646,
+        "lemma": "reversibel",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "irreversibel",
+   "hgno": 0,
+   "id": 32279,
+   "inflection_class": "a5",
+   "lemma": "irreversibel",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "irreversibel"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "irreversible"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "irreversible"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "irreversibelt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 480,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-10 14:43:48",
+ "suggest": [
+  "irreversibel"
+ ]
+}

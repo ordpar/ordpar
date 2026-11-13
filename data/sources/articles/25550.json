@@ -1,0 +1,106 @@
+{
+ "article_id": 25550,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i alle tilfeller",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "i det minste",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 13667,
+        "definition_id": 14,
+        "definition_order": 9,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 15861,
+          "lemma": "fall",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "i alle fall",
+   "hgno": 0,
+   "id": 30442,
+   "lemma": "i alle fall",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "i alle fall"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "allfall",
+   "hgno": 0,
+   "id": 30514,
+   "initial_lexeme": "i",
+   "lemma": "iallfall",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "iallfall"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-10-20 15:30:41",
+ "suggest": [
+  "i alle fall",
+  "iallfall"
+ ]
+}

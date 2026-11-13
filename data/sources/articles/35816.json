@@ -1,0 +1,230 @@
+{
+ "article_id": 35816,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $ av fortjeneste $ avkastning, særlig i fiske, etter arbeids- $ kapitalinnsats",
+      "items": [
+       {
+        "article_id": 9599,
+        "definition_id": 8,
+        "definition_order": 4,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 11311,
+          "lemma": "del",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 44265,
+        "definition_id": 5,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 51232,
+          "lemma": "part",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "mannskapet fikk god $",
+       "items": [
+        {
+         "text": "lott",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "fiske på $",
+       "items": [
+        {
+         "text": "lott",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 36961,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 43362,
+          "lemma": "mannslott",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 122019,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 169162,
+          "lemma": "minstelott",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "hlutr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $ og $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "relation"
+     },
+     {
+      "article_id": 35601,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 41376,
+        "lemma": "lodd",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 35602,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 41377,
+        "lemma": "lodd",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lott",
+   "hgno": 0,
+   "id": 41605,
+   "inflection_class": "m1",
+   "lemma": "lott",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lott"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lotten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lotter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lottene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-10 13:13:43",
+ "suggest": [
+  "lott"
+ ]
+}

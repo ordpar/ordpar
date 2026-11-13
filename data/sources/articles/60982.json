@@ -1,0 +1,241 @@
+{
+ "article_id": 60982,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "muntlig henvendelse",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det har blitt vanlig å bruke fornavn i tiltale",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 130945,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "svar som fortjent",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "hun fikk svar på tiltale",
+               "items": []
+              },
+              "type_": "example"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "han gav svar på tiltale",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2875324,
+           "lemma": "svar på tiltale",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 130945,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "svar på tiltale"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i $: det at en straffesak blir brakt inn for retten",
+        "items": [
+         {
+          "id": "jur",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "dokument med anklage om straffbart forhold som $ presenterer for retten",
+        "items": [
+         {
+          "article_id": 47139,
+          "definition_id": 3,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 54169,
+            "lemma": "påtalemyndighet",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "påtalemyndigheten"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 47137,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 54168,
+            "lemma": "påtale",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 59665,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 68290,
+        "lemma": "tale",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "tale",
+   "hgno": 1,
+   "id": 69750,
+   "inflection_class": "m1",
+   "initial_lexeme": "til",
+   "lemma": "tiltale",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tiltale"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tiltalen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tiltaler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tiltalene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-04-09 12:20:42",
+ "suggest": [
+  "tiltale"
+ ]
+}

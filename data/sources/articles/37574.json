@@ -1,0 +1,230 @@
+{
+ "article_id": 37574,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som er med i en forening, en gruppe, et utvalg $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "stå som $ i et parti",
+       "items": [
+        {
+         "items": [],
+         "text": "medlem",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "melde seg inn som $ i et lag",
+       "items": [
+        {
+         "items": [],
+         "text": "medlem",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "nye $",
+       "items": [
+        {
+         "items": [],
+         "text": "medlemmer",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 115632,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 96749,
+          "lemma": "familiemedlem",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 57990,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 66402,
+          "lemma": "styremedlem",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 99271,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 152547,
+          "lemma": "varamedlem",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "medlem",
+   "hgno": 0,
+   "id": 44037,
+   "inflection_class": "n.",
+   "lemma": "medlem",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "medlem"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "medlemmet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "medlemmer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "medlemma"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 701,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "medlem"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "medlemmet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "medlemmer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "medlemmene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 702,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-03-09 12:58:44",
+ "suggest": [
+  "medlem"
+ ]
+}

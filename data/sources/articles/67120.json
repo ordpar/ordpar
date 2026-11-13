@@ -1,0 +1,272 @@
+{
+ "article_id": 67120,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "som hører til eller stammer fra planteriket",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "som en vinner ut av eller lager av planter",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 1860,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2359,
+          "lemma": "animalsk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 38478,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 45133,
+          "lemma": "mineralsk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ råstoffer",
+       "items": [
+        {
+         "text": "vegetabilske",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 106231,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "olje utvunnet av planter, $ olivenolje og soyaolje",
+            "items": [
+             {
+              "id": "f_eks",
+              "type_": "entity"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "$",
+            "items": [
+             {
+              "article_id": 125016,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 130516,
+                "lemma": "planteolje",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144674,
+         "lemma": "vegetabilsk olje",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 106231,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "vegetabilsk olje"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 106232,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "fibrer fra planter",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1145611,
+         "lemma": "vegetabilske fibrer",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 106232,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "vegetabilske fibrer"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, av $ ‘vekke til liv, gro’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "vegetabilis",
+      "type_": "usage"
+     },
+     {
+      "text": "vegetare",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vegetabilsk",
+   "hgno": 0,
+   "id": 77358,
+   "inflection_class": "a2",
+   "is_standard": true,
+   "lemma": "vegetabilsk",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vegetabilsk"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "vegetabilske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "vegetabilske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "vegetabilsk"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-09-27 09:03:34"
+}

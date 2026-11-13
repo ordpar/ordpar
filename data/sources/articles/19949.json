@@ -1,0 +1,307 @@
+{
+ "article_id": 19949,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "person som er på besøk",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "invitere $",
+         "items": [
+          {
+           "text": "gjester",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "uventede $",
+         "items": [
+          {
+           "text": "gjester",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 102313,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "folk som tar seg ulovlig inn et sted, særlig for å stjele",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "ubudne gjester kom seg inn i leiligheten",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1141974,
+           "lemma": "ubudne gjester",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 102313,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "ubudne gjester"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "person som bor på hotell $ $ tar del i ulike felles aktiviteter",
+        "items": [
+         {
+          "id": "e_l",
+          "type_": "entity"
+         },
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hotellet tar 500 $",
+         "items": [
+          {
+           "text": "gjester",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 4020,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 4788,
+            "lemma": "badegjest",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 56625,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 65133,
+            "lemma": "stamgjest",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "person som er invitert til å delta i program, forestilling, konsert $",
+        "items": [
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ i studio er i dag …",
+         "items": [
+          {
+           "text": "gjester",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i norrøn tid: medlem av $ med vakt- og speidertjeneste",
+        "items": [
+         {
+          "article_id": 23646,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 27857,
+            "lemma": "hird",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "hirden"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "gestr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "gjest",
+   "hgno": 0,
+   "id": 23251,
+   "inflection_class": "m1",
+   "lemma": "gjest",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gjest"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gjesten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gjester"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gjestene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-16 08:05:28",
+ "suggest": [
+  "gjest"
+ ]
+}

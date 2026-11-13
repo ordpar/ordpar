@@ -1,0 +1,287 @@
+{
+ "article_id": 9729,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ $, $, $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 9918,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 11645,
+          "lemma": "det",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 9740,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 155827,
+          "lemma": "denne",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 9411,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 11112,
+          "lemma": "de",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "3. $ $ $ og $, trykksterkt",
+      "items": [
+       {
+        "id": "pers",
+        "type_": "entity"
+       },
+       {
+        "id": "ent",
+        "type_": "grammar"
+       },
+       {
+        "id": "f",
+        "type_": "grammar"
+       },
+       {
+        "id": "mask",
+        "type_": "grammar"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ jenta liker jeg",
+       "items": [
+        {
+         "text": "den",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "er det $ bilen?",
+       "items": [
+        {
+         "text": "den",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "content": "foran relativsetning:",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "kvinner blir ofte referert til som datter eller kona til $ og $",
+         "items": [
+          {
+           "text": "den",
+           "type_": "usage"
+          },
+          {
+           "text": "den",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hun er ikke $ som gir opp",
+         "items": [
+          {
+           "text": "den",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": true,
+      "type_": "definition"
+     },
+     {
+      "article": {
+       "article_id": 101358,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "brukt om noen eller noe som ikke er nærmere presisert",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "før ble kvinner ofte referert til som datter eller kona til den og den",
+             "items": []
+            },
+            "type_": "example"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "de tror at alt blir bra bare de får den og den ferieturen",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1141772,
+         "lemma": "den og den",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 101358,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "den og den"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 6,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, $ av $ ‘den’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "þann, þenn",
+      "type_": "usage"
+     },
+     {
+      "id": "akk",
+      "type_": "grammar"
+     },
+     {
+      "text": "sá",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "den",
+   "hgno": 2,
+   "id": 11450,
+   "lemma": "den",
+   "paradigm_info": [
+    {
+     "from": "2017-07-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "den"
+      }
+     ],
+     "inflection_group": "DET_simple",
+     "paradigm_id": 388,
+     "standardisation": "STANDARD",
+     "tags": [
+      "DET",
+      "Dem",
+      "Masc",
+      "Sing"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2017-07-07 00:24:00",
+ "suggest": [
+  "den"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "article_id": 54397,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "båt som blir brukt til å $ med",
+      "items": [
+       {
+        "article_id": 54396,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 62683,
+          "lemma": "slepe",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 59974,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 68645,
+          "lemma": "taubåt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 8051,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9571,
+          "lemma": "bukserbåt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "båt",
+   "hgno": 0,
+   "id": 62685,
+   "inflection_class": "m1",
+   "initial_lexeme": "slepe",
+   "is_standard": true,
+   "lemma": "slepebåt",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "slepebåt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "slepebåten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "slepebåter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "slepebåtene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-10-30 16:01:29"
+}

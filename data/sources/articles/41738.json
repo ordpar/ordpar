@@ -1,0 +1,513 @@
+{
+ "article_id": 41738,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$: ting som ligger til grunn for en forestilling",
+        "items": [
+         {
+          "id": "i_filos",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "t_forsk_f",
+          "type_": "entity"
+         },
+         {
+          "article_id": 58183,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 66635,
+            "lemma": "subjekt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "gjenstand for en handling $ virksomhet",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 113926,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 164674,
+            "lemma": "forsøksobjekt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 27110,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 32212,
+            "lemma": "investeringsobjekt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 52617,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 60682,
+            "lemma": "skatteobjekt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: setningsledd som betegner den $ det som handlingen er rettet mot, for eksempel ‘avisen’ i ‘far leser avisen’",
+        "items": [
+         {
+          "id": "i_gramm",
+          "type_": "entity"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 101380,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "setningsledd som uttrykker den $ det som umiddelbart berøres av den handlingen $ prosessen som verbalet uttrykker",
+              "items": [
+               {
+                "id": "el",
+                "type_": "entity"
+               },
+               {
+                "id": "el",
+                "type_": "entity"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "i setningen ‘han gav katten mat’ er ‘mat’ $ objekt",
+               "items": [
+                {
+                 "items": [],
+                 "text": "direkte",
+                 "type_": "usage"
+                }
+               ]
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1142715,
+           "lemma": "direkte objekt",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 101380,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "direkte objekt"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 124817,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "trykklett ‘det’ som fungerer som objekt i en setning",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "i setningen ‘du må ta det med ro’ er ‘det’ formelt objekt",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2009747,
+           "lemma": "formelt objekt",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 124817,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "formelt objekt"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 103094,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "setningsledd som angir hvem $ hva som har nytte $ skade av verbalhandlingen",
+              "items": [
+               {
+                "id": "el",
+                "type_": "entity"
+               },
+               {
+                "id": "el",
+                "type_": "entity"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "i setningen ‘jeg gav gutten en bok’ er ‘gutten’ $ objekt",
+               "items": [
+                {
+                 "items": [],
+                 "text": "indirekte",
+                 "type_": "usage"
+                }
+               ]
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1145763,
+           "lemma": "indirekte objekt",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103094,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "indirekte objekt"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, av $ ‘kaste, sette noe foran en’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "objicere",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "objekt",
+   "hgno": 0,
+   "id": 48826,
+   "inflection_class": "n3",
+   "lemma": "objekt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "objekt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "objektet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "objekt"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "objekta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "objekt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "objektet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "objekt"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "objektene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "objekt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "objektet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "objekter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "objekta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 670,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "objekt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "objektet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "objekter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "objektene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 680,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-14 05:37:19",
+ "suggest": [
+  "objekt"
+ ]
+}

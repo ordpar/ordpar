@@ -1,0 +1,148 @@
+{
+ "article_id": 208,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "sjøoffiser av høyeste rang",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 31474,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 37009,
+          "lemma": "kontreadmiral",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 68726,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79331,
+          "lemma": "viseadmiral",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "relation"
+     },
+     {
+      "id": "fr.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $ $ ‘høvding på havet’",
+    "items": [
+     {
+      "id": "arab.",
+      "type_": "language"
+     },
+     {
+      "text": "amir al-bahr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "admiraˊl",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "admiral",
+   "hgno": 0,
+   "id": 997,
+   "inflection_class": "m1",
+   "lemma": "admiral",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "admiral"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "admiralen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "admiraler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "admiralene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-19 07:43:41",
+ "suggest": [
+  "admiral"
+ ]
+}

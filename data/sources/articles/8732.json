@@ -1,0 +1,186 @@
+{
+ "article_id": 8732,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som gjelder himmelrommet",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 101305,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "lære om himmellegemenes bevegelse i verdensrommet",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "$",
+            "items": [
+             {
+              "article_id": 117000,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 160672,
+                "lemma": "himmelmekanikk",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144498,
+         "lemma": "celest mekanikk",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 101305,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "celest mekanikk"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "relation"
+     },
+     {
+      "id": "fr.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $ , av $ ‘himmel’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "caelum",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "selesˊt",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "celest",
+   "hgno": 0,
+   "id": 10387,
+   "inflection_class": "a2",
+   "lemma": "celest",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "celest"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "celeste"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "celeste"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "celest"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-02 09:35:53",
+ "suggest": [
+  "celest"
+ ]
+}

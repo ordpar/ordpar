@@ -1,0 +1,114 @@
+{
+ "article_id": 31824,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "pris som en vare har kostet selgeren",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "selge til $",
+       "items": [
+        {
+         "text": "kostpris",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 31802,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 4,
+        "id": 37384,
+        "lemma": "kost",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "pris",
+   "hgno": 0,
+   "id": 37410,
+   "inflection_class": "m1",
+   "initial_lexeme": "kost",
+   "lemma": "kostpris",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kostpris"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kostprisen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kostpriser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kostprisene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-15 15:45:46",
+ "suggest": [
+  "kostpris"
+ ]
+}

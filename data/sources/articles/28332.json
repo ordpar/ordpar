@@ -1,0 +1,196 @@
+{
+ "article_id": 28332,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "opprinnelig amerikansk hønsefugl med stor vifteformet hale",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "text": "Meleagris gallopavo",
+          "type_": "usage"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "kjøtt av $",
+        "items": [
+         {
+          "article_id": 28332,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 33555,
+            "lemma": "kalkun",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "spise kalkun på julaften",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, men totalt mislykket film",
+        "items": [
+         {
+          "article_id": 46135,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 53146,
+            "lemma": "pretensiøs",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, av $ ‘hane fra Calicut’, ut fra den tro at Amerika var en del av India",
+    "items": [
+     {
+      "id": "nederl.",
+      "type_": "language"
+     },
+     {
+      "text": "kalkoen",
+      "type_": "usage"
+     },
+     {
+      "text": "kalkoense haan",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "i betydingen ‘mislykket film’ etter $ $ ‘kalkun’ med $ ‘fiasko, flop’, $ fordi kalkunen ikke kan fly",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "turkey",
+      "type_": "usage"
+     },
+     {
+      "id": "bet",
+      "type_": "relation"
+     },
+     {
+      "id": "trol",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kalkun",
+   "hgno": 0,
+   "id": 33555,
+   "inflection_class": "m1",
+   "lemma": "kalkun",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kalkun"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kalkunen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kalkuner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kalkunene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-08-02 13:06:44",
+ "suggest": [
+  "kalkun"
+ ]
+}

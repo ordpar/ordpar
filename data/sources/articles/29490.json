@@ -1,0 +1,253 @@
+{
+ "article_id": 29490,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "lære om grunnstoffene og deres forbindelse med hverandre",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "undervise i $",
+         "items": [
+          {
+           "text": "kjemi",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 119388,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "kjemi som omfatter $ forbindelser",
+              "items": [
+               {
+                "article_id": 43311,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 50174,
+                  "lemma": "organisk",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref",
+                "word_form": "organiske"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144632,
+           "lemma": "organisk kjemi",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 119388,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "organisk kjemi"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 106110,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "kjemi som omfatter grunnstoffene og deres forbindelser, unntatt $ forbindelser",
+              "items": [
+               {
+                "article_id": 43311,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 50174,
+                  "lemma": "organisk",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref",
+                "word_form": "organiske"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144660,
+           "lemma": "uorganisk kjemi",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 106110,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "uorganisk kjemi"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: (udefinerbare) psykologiske faktorer som avgjør hvor godt visse mennesker går sammen",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "rhetoric"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de var svært ulike, men $ stemte",
+         "items": [
+          {
+           "text": "kjemien",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     },
+     {
+      "text": "khemeia",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "kjemi",
+   "hgno": 0,
+   "id": 34845,
+   "inflection_class": "m1",
+   "lemma": "kjemi",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kjemi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kjemien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kjemier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kjemiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-12-14 11:14:03",
+ "suggest": [
+  "kjemi"
+ ]
+}

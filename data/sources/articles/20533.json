@@ -1,0 +1,137 @@
+{
+ "article_id": 20533,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "enhet for vinkelmål som svarer til $ av en sirkel",
+      "items": [
+       {
+        "denominator": 400,
+        "numerator": 1,
+        "type_": "fraction"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "tidligere $",
+      "items": [
+       {
+        "article_id": 41325,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 48310,
+          "lemma": "nygrad",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 20580,
+        "definition_id": 12,
+        "definition_order": 5,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 24034,
+          "lemma": "grad",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘vinkel’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gon",
+   "hgno": 0,
+   "id": 81502,
+   "inflection_class": "m.",
+   "lemma": "gon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gon"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 579,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-13 08:57:43",
+ "suggest": [
+  "gon"
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "article_id": 38981,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som lever i $ er innstilt på $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "article_id": 12728,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 14831,
+          "lemma": "engifte",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 62347,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 71287,
+          "lemma": "trofast",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 71520,
+          "lemma": "trufast",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "entity"
+       },
+       {
+        "article_id": 45514,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52500,
+          "lemma": "polygam",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 38982,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 45729,
+        "lemma": "monogami",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "monogam",
+   "hgno": 0,
+   "id": 45728,
+   "inflection_class": "a1",
+   "lemma": "monogam",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "monogam"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "monogame"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "monogame"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "monogamt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-05 09:37:16",
+ "suggest": [
+  "monogam"
+ ]
+}

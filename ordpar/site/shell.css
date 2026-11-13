@@ -1,0 +1,1387 @@
+/*! Ordpar — the site chrome (header, footer, search, results, the settings page).
+ *
+ * Our own front door (decisions 12). Since decisions 63 every page links it — the article and
+ * About pages too: ONE header and ONE footer (their markup is `sitegen/chrome.py`'s), and the
+ * article on its own page sits in the same card as a full search result. The accent is the
+ * colour scheme's (`sitegen/colours.py`, decisions 63: `--ordpar-maroon` by day,
+ * `--ordpar-tint` by night, defined in article.css), every other colour with a .nightMode
+ * partner (docs/visual-test-runs.md § Night-mode palette reference).
+ *
+ * Night mode is the class `nightMode` on <html>, set by shell.js from the `theme` setting
+ * (system | light | dark) — the same class the cards use, so a copied card style needs no
+ * translation.
+ */
+
+:root {
+  --ordpar-bg: #fffdfd;
+  --ordpar-surface: #ffffff;
+  --ordpar-text: #222222;
+  --ordpar-muted: #757070;
+  --ordpar-accent: var(--ordpar-maroon);
+  --ordpar-accent-text: #ffffff;
+  --ordpar-border: #e0d8d9;
+  --ordpar-border-strong: #c4bcbd;
+  --ordpar-pill: #f3e9ed;
+  --ordpar-focus: var(--ordpar-maroon);
+  --ordpar-footer-bg: #f6f2f3;
+  --ordpar-radius: 6px;
+  --ordpar-max: 46rem;
+  /* the dropdown's gloss size (decisions 86, Robin 2026-10-22: "if we later change the gloss
+     size, the label follows") — the right-hand side's text and the "Norwegian only" label */
+  --ordpar-gloss-size: 0.85rem;
+}
+
+html.nightMode {
+  /* the page and the surfaces a shade darker (site decisions 157, Robin 2026-11-01, his pick in
+     the mini-shadow lab: #1d1a1b and #262223 until then), so the lifted small article stands out */
+  --ordpar-bg: #1b1819;
+  --ordpar-surface: #242021;
+  --ordpar-text: #d9d6d6;
+  --ordpar-muted: #b9b6b6;
+  --ordpar-accent: var(--ordpar-tint, #e3b7c9);
+  --ordpar-accent-text: #241016;
+  --ordpar-border: #656161;
+  --ordpar-border-strong: #7c7777;
+  --ordpar-pill: #4a2e37;
+  --ordpar-focus: var(--ordpar-tint, #e3b7c9);
+  --ordpar-footer-bg: #221e1f;
+}
+
+* { box-sizing: border-box; }
+
+html { background: var(--ordpar-bg); }
+/* the footer sits at the bottom of a short page (decisions 63) */
+body.ordpar {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--ordpar-bg);
+  color: var(--ordpar-text);
+  font: 16px/1.5 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* what needs script shows only when the head script ran (`head.THEME_JS` puts `ordpar-js` on
+   <html>): the header's Random word, Favourites and Settings, the footer's Settings, Favourites
+   and History (decisions 63: a page without script shows nothing that does not work) */
+html:not(.ordpar-js) .ordpar-needs-js { display: none !important; }
+
+/* Since 2026-10-20 that chrome is not in the page: `shell.js` `addChrome` inserts it (the size
+   report's item 5), and its room is held here from the first paint — the head script has put
+   `ordpar-js` on <html> by then — until `shell.js` puts `ordpar-chrome` there, so nothing moves
+   when it comes. The header's Favourites and Settings sit beside the name, which is taller,
+   and the footer's links between Home and About, on the same line. Random word
+   does: beside the search box (which it narrows) and on a phone on a row of its own. Its
+   stand-in is a box of its size in this browser (Edge, Windows: 119 x 35 px, the button's own
+   font, 0.95rem Arial, line-height normal); another font may differ by a pixel or two. The
+   card's foot keeps the 1rem the controls' row brought with it, script or none (its top margin,
+   which collapses with the article's last margin: without it the card ended 0.8px higher with
+   script off, found in the screenshots), and with script holds the heart's row (2rem,
+   `.ordpar-heart`) until the page script has made it. */
+/* Since decisions 106 a foot may hold the change notice and no controls yet (the page as built,
+   `corrections.notice_html`): it keeps the same margin, and the controls' room is held before
+   the notice, where the page script puts them. */
+.ordpar-card-foot:empty,
+.ordpar-card-foot:not(:has(> .ordpar-result-controls)) { margin-top: 1rem; }
+html.ordpar-js:not(.ordpar-chrome) .ordpar-header-inner::after {
+  content: "";
+  order: 3;
+  flex: 0 0 7.4375rem;
+  height: 2.1875rem;
+}
+@media (max-width: 32rem) {
+  html.ordpar-js:not(.ordpar-chrome) .ordpar-header-inner::after { margin-left: auto; }
+}
+html.ordpar-js .ordpar-card-foot:empty::before,
+html.ordpar-js .ordpar-card-foot:not(:has(> .ordpar-result-controls))::before {
+  content: "";
+  display: block;
+  height: 2rem;
+}
+/* The footer's Settings, Favourites and History go between Home and About and licence (Robin,
+   2026-10-22: About last, in the markup), so their room is held there: a stand-in of their width
+   with the two gaps between them (Edge, Windows, 0.85rem Segoe UI: 48 + 61 + 43 px + 2 x 1.2rem),
+   placed between Home and About by `order`, so that About also wraps where it will with them — a
+   margin on About would carry the room onto its line on a phone. Another font may differ by a
+   few pixels. */
+html.ordpar-js:not(.ordpar-chrome) .ordpar-footer-nav::before {
+  content: "";
+  order: 1;
+  flex: 0 0 11.875rem;
+}
+html.ordpar-js:not(.ordpar-chrome) .ordpar-footer-nav a[href="/about/"] { order: 2; }
+/* Privacy after About (site decisions 104's box, item 5), so after the stand-in too */
+html.ordpar-js:not(.ordpar-chrome) .ordpar-footer-nav a[href="/privacy/"] { order: 2; }
+/* "More ways to use Ordpar" (site decisions 142) is after Help, so after the stand-in too: it does
+   not move when the script's links come in */
+html.ordpar-js:not(.ordpar-chrome) .ordpar-footer-nav a[href="/more/"] { order: 2; }
+
+a { color: var(--ordpar-accent); }
+
+:focus-visible {
+  outline: 2px solid var(--ordpar-focus);
+  outline-offset: 2px;
+}
+
+.ordpar-visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ordpar-skip {
+  position: absolute;
+  left: 0.5rem; top: -3rem;
+  z-index: 20;
+  padding: 0.5rem 0.75rem;
+  background: var(--ordpar-accent);
+  color: var(--ordpar-accent-text);
+  border-radius: var(--ordpar-radius);
+  text-decoration: none;
+  transition: top 0.15s ease;
+}
+.ordpar-skip:focus { top: 0.5rem; }
+
+/* ------------------------------------------------------------------ header */
+
+.ordpar-header {
+  position: relative;
+  border-bottom: 1px solid var(--ordpar-border);
+  background: var(--ordpar-surface);
+}
+
+.ordpar-header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: var(--ordpar-max);
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+}
+
+.ordpar-brand {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--ordpar-accent);
+}
+.ordpar-brand-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.ordpar-brand-tagline {
+  font-size: 0.72rem;
+  color: var(--ordpar-muted);
+}
+
+.ordpar-search {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  gap: 0.4rem;
+  flex: 1 1 18rem;
+}
+
+.ordpar-combobox {
+  position: relative;
+  flex: 1 1 auto;
+}
+
+.ordpar-combobox input {
+  width: 100%;
+  padding: 0.5rem 4.6rem 0.5rem 0.6rem;
+  font-size: 1rem;
+  color: var(--ordpar-text);
+  background: var(--ordpar-bg);
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: var(--ordpar-radius);
+}
+
+.ordpar-clear {
+  position: absolute;
+  right: 2.75rem; top: 50%;
+  transform: translateY(-50%);
+  width: 1.6rem; height: 1.6rem;
+  line-height: 1;
+  border: 0;
+  background: transparent;
+  color: var(--ordpar-muted);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Favourites and Settings side by side (decisions 60); both links since decisions 63 */
+.ordpar-header-nav {
+  display: flex;
+  gap: 0.4rem;
+  align-items: stretch;
+}
+.ordpar-header-nav a { text-decoration: none; display: inline-flex; align-items: center; }
+.ordpar-header-nav a[aria-current="page"] { background: var(--ordpar-pill); }
+/* decisions 63: the header in two rows on every page — the name and the links (Favourites,
+   Settings) above, the search box with Random word beside it below, as ordbokene's header
+   carries its links above the box */
+.ordpar-brand { order: 0; }
+.ordpar-header-nav { order: 1; margin-left: auto; }
+.ordpar-search { order: 2; flex: 1 1 calc(100% - 9rem); }
+.ordpar-random { order: 3; white-space: nowrap; }
+.ordpar-random[hidden] { display: none; }
+/* on a phone the box takes the whole row (its dropdown with it); Random word under it, right */
+@media (max-width: 32rem) {
+  .ordpar-search { flex-basis: 100%; }
+  .ordpar-random { margin-left: auto; padding: 0.3rem 0.7rem; font-size: 0.9rem; }
+}
+/* SITE DECISIONS 148 (Robin, 2026-10-29, picked in the lab): the English switch under the search
+   box, a switch with a label ("Search English words"), drawn by shell.js `addSwitch` before
+   Random word — on a computer a row of its own under the box, on a phone on Random word's row,
+   on the left, where it fits. Until the chrome is in, its room is held on a computer (the
+   ::before stand-in, as Random word's ::after), so the page does not move when it comes. */
+.ordpar-direction {
+  order: 4;
+  flex: 1 1 100%;
+  display: flex;
+  align-items: center;
+  min-height: 1.4rem;
+  margin-top: -0.35rem;
+  font-size: 0.9rem;
+  color: var(--ordpar-text);
+}
+html.ordpar-js:not(.ordpar-chrome) .ordpar-header-inner::before {
+  content: "";
+  order: 4;
+  flex: 1 1 100%;
+  height: 1.4rem;
+  margin-top: -0.35rem;
+}
+@media (max-width: 32rem) {
+  .ordpar-direction { order: 3; flex: 0 1 auto; min-width: 0; margin-top: 0; }
+  html.ordpar-js:not(.ordpar-chrome) .ordpar-header-inner::before { content: none; }
+}
+.ordpar-switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+.ordpar-switch input { position: absolute; opacity: 0; width: 1px; height: 1px; margin: 0; }
+.ordpar-switch-track {
+  position: relative;
+  flex: none;
+  width: 2.1rem;
+  height: 1.2rem;
+  border-radius: 0.6rem;
+  background: var(--ordpar-border-strong);
+  transition: background 0.15s;
+}
+.ordpar-switch-knob {
+  position: absolute;
+  top: 0.15rem;
+  left: 0.15rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: var(--ordpar-surface);
+  transition: left 0.15s;
+}
+.ordpar-switch input:checked + .ordpar-switch-track { background: var(--ordpar-accent); }
+.ordpar-switch input:checked + .ordpar-switch-track .ordpar-switch-knob { left: 1.05rem; }
+.ordpar-switch input:focus-visible + .ordpar-switch-track { outline: 2px solid var(--ordpar-accent); outline-offset: 2px; }
+.ordpar-switch-text { white-space: nowrap; }
+
+/* SITE DECISIONS 152 (Robin, 2026-10-30): Norwegian only's icon in the header (`shell.js` `nbIcon`),
+   drawn as the examples' eye (a round outline in the muted grey, filled with the accent while on).
+   Two copies: beside Favourites and Settings on a computer, at the links' height; on a phone on
+   the switch's row, after the switch, smaller (the top row would need ~413 px of 375, the lab's
+   header report). The setting `nbicon` off hides both (`ordpar-nbicon-off`). */
+.ordpar-nbo-icon { display: inline-flex; align-items: center; flex: none; }
+.ordpar-nbo-row { margin: -0.3rem 0 -0.3rem 0.6rem; }
+.ordpar-nbo-row { display: none; }
+@media (max-width: 32rem) {
+  .ordpar-nbo-nav { display: none; }
+  .ordpar-nbo-row { display: inline-flex; margin-left: 0.5rem; }
+}
+html.ordpar-nbicon-off .ordpar-nbo-icon { display: none !important; }
+.ordpar-nbo-btn {
+  display: inline-flex; align-items: center; justify-content: center; position: relative;
+  font: inherit; font-size: 1rem; line-height: 1.3; color: var(--ordpar-muted);
+  cursor: pointer; user-select: none; padding: 0.4em; margin: 0;
+  border: 1px solid #c4bcbd; border-radius: 999px; background: none;
+}
+.ordpar-nbo-row .ordpar-nbo-btn { font-size: 0.8rem; padding: 0.25em; }
+.nightMode .ordpar-nbo-btn { border-color: #656161; }
+.ordpar-nbo-btn svg { display: block; width: 1.35em; height: 1.35em; }
+.ordpar-nbo-btn[aria-pressed="true"] {
+  background: var(--ordpar-accent); border-color: var(--ordpar-accent); color: var(--ordpar-accent-text, #fff);
+}
+.ordpar-nbo-btn:focus-visible { outline: 2px solid var(--ordpar-accent); outline-offset: 2px; }
+/* an unseen tap area of at least 44 x 44 px, as the eye's */
+.ordpar-nbo-btn::before {
+  content: ""; position: absolute;
+  top: min(0px, calc(50% - 22px)); bottom: min(0px, calc(50% - 22px));
+  left: min(0px, calc(50% - 22px)); right: min(0px, calc(50% - 22px));
+}
+/* the English equivalents hidden (`ordpar-nbo-noeq`): the "Search English words" switch goes (the
+   search is then Norwegian, the stored direction untouched, `shell.js` `direction`); on a computer
+   its row with it, and the room held for it before the chrome comes; on a phone the row stays for
+   the icon, unless the icon is off too */
+html.ordpar-nbo-noeq .ordpar-switch { display: none !important; }
+@media (min-width: 32.0625rem) {
+  html.ordpar-nbo-noeq .ordpar-direction { display: none !important; }
+  html.ordpar-nbo-noeq.ordpar-js:not(.ordpar-chrome) .ordpar-header-inner::before { content: none; }
+}
+html.ordpar-nbo-noeq.ordpar-nbicon-off .ordpar-direction { display: none !important; }
+
+.ordpar-submit, .ordpar-button {
+  padding: 0.5rem 0.9rem;
+  font-size: 0.95rem;
+  color: var(--ordpar-accent-text);
+  background: var(--ordpar-accent);
+  border: 1px solid var(--ordpar-accent);
+  border-radius: var(--ordpar-radius);
+  cursor: pointer;
+}
+/* decisions 74 (Robin, 2026-10-21): the search button is a magnifier at the box's right end,
+   beside the ×, as ordbokene's box shows — the box takes the button's width. CSS only: the
+   button's markup and its text ("Search", its accessible name, relabelled by shell.js) are
+   unchanged; the text is pushed out of sight and the icon drawn here, a ring (::before) and a
+   handle (::after) of our own in the scheme's accent. The input's right padding keeps typed
+   text clear of the × and the icon. */
+.ordpar-search .ordpar-submit {
+  position: absolute;
+  top: 1px; right: 1px; bottom: 1px;
+  width: 2.5rem;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 200%;
+  color: var(--ordpar-accent);
+  background: transparent;
+  border: 0;
+  border-radius: 0 var(--ordpar-radius) var(--ordpar-radius) 0;
+}
+.ordpar-search .ordpar-submit:hover { background: var(--ordpar-pill); }
+.ordpar-search .ordpar-submit:focus-visible { outline-offset: -3px; }
+.ordpar-search .ordpar-submit::before,
+.ordpar-search .ordpar-submit::after {
+  content: "";
+  position: absolute;
+  left: 50%; top: 50%;
+  box-sizing: border-box;
+}
+.ordpar-search .ordpar-submit::before {
+  width: 14px; height: 14px;
+  margin: -9px 0 0 -9px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+}
+.ordpar-search .ordpar-submit::after {
+  width: 2px; height: 7px;
+  margin: 2.5px 0 0 1.5px;
+  background: currentColor;
+  border-radius: 1px;
+  transform: rotate(-45deg);
+  transform-origin: top center;
+}
+.ordpar-button.is-quiet, .ordpar-settings-button {
+  color: var(--ordpar-accent);
+  background: transparent;
+  border: 1px solid var(--ordpar-border-strong);
+  padding: 0.5rem 0.7rem;
+  border-radius: var(--ordpar-radius);
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+/* ---------------------------------------------------------------- listbox */
+
+/* the dropdown: the listbox, with a heading over it only for the recent lookups (decisions 60) */
+.ordpar-popup {
+  position: absolute;
+  z-index: 10;
+  left: 0; right: 0; top: calc(100% + 2px);
+  max-height: 60vh;
+  overflow-y: auto;
+  background: var(--ordpar-surface);
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: var(--ordpar-radius);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+.ordpar-popup[hidden], .ordpar-popup-head[hidden] { display: none; }
+.ordpar-listbox {
+  margin: 0;
+  padding: 0.2rem 0;
+  list-style: none;
+}
+.ordpar-popup-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem 0.2rem;
+  font-size: 0.8rem;
+  color: var(--ordpar-muted);
+}
+.ordpar-popup-title { font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+.ordpar-popup-link { color: var(--ordpar-accent); }
+.ordpar-popup-head + .ordpar-listbox { padding-top: 0; }
+
+.ordpar-option {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.35rem 0.6rem;
+  cursor: pointer;
+}
+.ordpar-option.is-active,
+.ordpar-option:hover { background: var(--ordpar-pill); }
+.ordpar-option-word { font-weight: 600; }
+/* decisions 86 (Robin, 2026-10-22): the setting `suggestrows` = roomy — a row of 44 px (Apple's
+   44 pt touch target) instead of 35.2: 0.625rem above and below a 24 px line, on any device;
+   the Recent rows are dropdown rows too */
+html.ordpar-suggestrows-roomy .ordpar-option { padding-top: 0.625rem; padding-bottom: 0.625rem; }
+/* decisions 86: a translated suggestion's word in the accent, as the history's rows; a Norwegian-only
+   one's (an "N articles" row whose articles are all untranslated too) in the text colour */
+.ordpar-option.is-translated .ordpar-option-word { color: var(--ordpar-accent); }
+/* SITE DECISIONS 148 (Robin, 2026-10-29: "the Norwegian headword should still be red, while the
+   English is semibold"): an English row (shell.js `englishRow`) — the suggestions, Recent,
+   History, the similar English words — its English word semibold in the text colour, its
+   Norwegian headwords on the right semibold in the accent, each first spelling with its numeral
+   and, while they fit, its word class (faded italic, `.ordpar-pos`) */
+.ordpar-option-en .ordpar-option-word,
+.ordpar-history-link.ordpar-option-en .ordpar-option-word { color: var(--ordpar-text); }
+.ordpar-en-nb { font-weight: 600; color: var(--ordpar-accent); }
+.ordpar-option-nblist .ordpar-pos { margin-left: 0; }
+/* decisions 86: the Norwegian-only headwords grouped under a label box "Norwegian only" — the
+   tag's grey look, its text at the gloss's size — a thin rule above it (not where it would open
+   the list) and one after the section where rows follow (shell.js open) */
+.ordpar-option-section, .ordpar-option-sublist { list-style: none; margin: 0; padding: 0; }
+.ordpar-option-label {
+  padding: 0.45rem 0.6rem 0.1rem;
+  font-size: var(--ordpar-gloss-size);
+  cursor: default;
+}
+.ordpar-option-label .ordpar-tag { font-size: inherit; display: inline-block; }
+.ordpar-option-sep { list-style: none; border-top: 1px solid var(--ordpar-border); margin: 0.3rem 0.6rem; }
+/* 59b item 11: the word and, for one article, its word class on the left; on the right the
+   first gloss unit cut to the row, or "Norwegian only", or "N articles" */
+.ordpar-option-main {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  flex: 0 0 auto;
+}
+.ordpar-option-side {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 0.45rem;
+  min-width: 0;
+  overflow: hidden;
+}
+.ordpar-option-side .ordpar-tag { flex: 0 0 auto; }
+.ordpar-option-gloss, .ordpar-option-count, .ordpar-option-glosses {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: var(--ordpar-gloss-size);
+  color: var(--ordpar-text);
+}
+.ordpar-option-count { color: var(--ordpar-muted); }
+.ordpar-option-gloss.is-pending { visibility: hidden; }
+/* decisions 82: a one-article row shows the article's headword line, the forms continuing what
+   was typed bold and the rest regular; an "N articles" row lists its articles' glosses, cut to
+   the row, then "+ N more" (shell.js glossList, fitGlosses) */
+.ordpar-option-word .ordpar-option-alt { font-weight: 400; }
+.ordpar-option-glosses.is-pending { visibility: hidden; }
+.ordpar-option-more { flex: 0 0 auto; }
+/* A13 point 1 (Robin 2026-10-21): a row that still overflows once its other forms and its word
+   class are gone cuts the word with an ellipsis, to the width shell.js fitRow leaves it */
+.ordpar-option-main.is-cut { min-width: 0; }
+.ordpar-option-main.is-cut .ordpar-option-word {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* ------------------------------------------------------------------- tags */
+
+.ordpar-tag {
+  font-size: 0.72rem;
+  color: var(--ordpar-muted);
+  border: 1px solid var(--ordpar-border);
+  border-radius: 999px;
+  padding: 0 0.45rem;
+  white-space: nowrap;
+}
+
+/* ------------------------------------------------------------------- main */
+
+.ordpar-main {
+  width: 100%;
+  max-width: var(--ordpar-max);
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+  flex: 1 0 auto;
+}
+
+/* the pages that draw article cards (the article page, the search page and 404.html, which is
+   the search page for /bm-en/<word>, and the favourites, whose rows open into articles) take
+   ordbokene's card widths (decisions 102, measured 2026-10-23,
+   `evidence/reports/card-width-102-measure-2026-10-23-contractor.md`): the card is the main's
+   content box, so it is fluid at 16 px from each edge below a 48rem window and then capped at
+   736 / 992 / 1,248 / 1,504 px from 48 / 64 / 80 / 96rem — each cap the breakpoint less the
+   main's 2 x 1rem padding, as ordbokene's are. The breakpoints are read against the window
+   (scrollbar included) and the cap against the page's width (scrollbar excluded), so each step
+   opens with a short fluid run, ordbokene's too. In rem, so that at the default 16 px they are
+   ordbokene's pixels and a reader's larger default font scales the steps with the text, as
+   every other width in this sheet does. The header, the footer and the other pages keep
+   --ordpar-max. Pinned against ordbokene's numbers by `test_ordpar_browser_cardwidth.py`. */
+.ordpar-main--cards { max-width: none; }
+@media (min-width: 48rem) { .ordpar-main--cards { max-width: 48rem; } }
+@media (min-width: 64rem) { .ordpar-main--cards { max-width: 64rem; } }
+@media (min-width: 80rem) { .ordpar-main--cards { max-width: 80rem; } }
+@media (min-width: 96rem) { .ordpar-main--cards { max-width: 96rem; } }
+
+.ordpar-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ordpar-accent);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.ordpar-hits-list, .ordpar-similar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* a plain link row: the inflected-form lines, and a hit whose page could not be fetched */
+.ordpar-hit {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5rem;
+  padding: 0.5rem 0.2rem;
+  border-bottom: 1px solid var(--ordpar-border);
+}
+.ordpar-hit-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.ordpar-hit-link:hover { text-decoration: underline; }
+
+/* a homograph numeral in a row (the list view, favourites, inflected-form rows, the suggestions'
+   and history's numbered glosses): the article's own look — the deck's `.ordbok-homograph`, which
+   the page scripts give it beside this class (decisions 93 (1): one look everywhere). That look
+   since decisions 105 (Robin's pick from the lab, 2026-10-23): 0.60 of the headword beside it, in
+   the muted grey (`--ordpar-muted`, through `page.DECK_MUTED`), weight 600, raised 0.14 em. In a
+   row the numeral sits inside the headword's own span, so the deck's .6em is 0.60 of it; the
+   article's headword line scales it to the 1.9 em lemma (`.ordbok-head .ordbok-homograph`).
+   `line-height: 0` keeps the raised numeral from making its line taller, so no row grows */
+.ordpar-hg { line-height: 0; }
+/* in a gloss list (the suggestions, Recent, History: `.ordpar-option-gl`) the numeral leads a
+   gloss, not a headword: its own size, 0.80 em of the gloss text, not coloured (decisions 105) */
+.ordpar-option-gl .ordbok-homograph { font-size: 0.8em; }
+.ordpar-pos {
+  font-size: 0.85rem;
+  color: var(--ordpar-muted);
+  font-style: italic;
+}
+/* site decisions 117 (Robin's shape: *tå* *noun* (plural indefinite)): which form of the word an
+   inflected-form row's search was, after the word class, in brackets — the word class's size and
+   grey, upright (lookup.js `articleItem`, the built word and form pages' `wordpages.form_rows`) */
+.ordpar-form-label {
+  font-size: 0.85rem;
+  color: var(--ordpar-muted);
+}
+/* a word page's headline as built (site decisions 117): what a reader without script, or a
+   crawler, reads above the rows; the page's script replaces it with the search */
+.ordpar-word-title {
+  font-size: 1.6rem;
+  margin: 0.3rem 0 0;
+}
+
+/* ---------------------------------------------- the results (decisions 59) */
+
+/* the default view: every hit's article in full, each on its own card, as ordbokene's — and
+   the article on its own page, in the same card (`.ordpar-card`, decisions 63) */
+.ordpar-result, .ordpar-card {
+  margin: 0 0 1rem;
+  padding: 1rem 1.1rem 1.1rem;
+  background: var(--ordpar-surface);
+  border: 1px solid var(--ordpar-border);
+  border-radius: var(--ordpar-radius);
+}
+.ordpar-result .ordpar-caption, .ordpar-card .ordpar-caption { margin-top: 0; }
+/* the headword links to the article's own page, the canonical URL */
+.ordpar-hw-link { color: inherit; text-decoration: none; }
+.ordpar-hw-link:hover .ordbok-lemma { text-decoration: underline; }
+
+/* the list view: one row per hit, each a disclosure that opens the article below it */
+.ordpar-rows {
+  background: var(--ordpar-surface);
+  border: 1px solid var(--ordpar-border);
+  border-radius: var(--ordpar-radius);
+}
+.ordpar-row + .ordpar-row { border-top: 1px solid var(--ordpar-border); }
+.ordpar-row-head { margin: 0; font: inherit; }
+.ordpar-row-button {
+  display: grid;
+  grid-template-columns: 1.2rem minmax(0, 1fr);
+  column-gap: 0.6rem;
+  align-items: center;
+  width: 100%;
+  padding: 0.55rem 0.8rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.ordpar-row-button:hover { background: var(--ordpar-pill); }
+.ordpar-row.is-open > .ordpar-row-head .ordpar-row-button { background: var(--ordpar-pill); }
+.ordpar-row-chevron {
+  grid-row: 1 / span 2;
+  width: 0.5rem; height: 0.5rem;
+  margin-left: 0.25rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: translateY(-25%) rotate(45deg);
+}
+.ordpar-row.is-open .ordpar-row-chevron { transform: translateY(25%) rotate(-135deg); }
+.ordpar-row-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5rem;
+  min-width: 0;
+}
+.ordpar-row-word { font-weight: 600; font-size: 1.05rem; color: var(--ordpar-accent); }
+.ordpar-row-snippet {
+  grid-column: 2;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--ordpar-text);
+}
+.ordpar-row-panel { padding: 0.9rem 1.1rem 1.1rem 2.6rem; }
+/* an inflected-form row's snippet: its own line under the link, as a list row's (59b item 9) */
+.ordpar-hit-snippet {
+  flex: 1 0 100%;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--ordpar-text);
+}
+/* SITE DECISIONS 148 (Robin, 2026-10-29): an English search's list rows (lookup.js
+   `renderEnglish`) — the snippet line the WHOLE summary gloss, wrapping, in normal text, the
+   searched equivalent bold (700) every place it matches: a deliberate exception to site
+   decisions 116's semibold glosses, Robin's */
+.ordpar-rows-en .ordpar-row-snippet { white-space: normal; overflow: visible; text-overflow: clip; font-weight: 400; }
+.ordpar-en-hit { font-weight: 700; }
+/* a snippet line held empty until its file arrives (lookup.js `fillSnippets`) */
+.ordpar-row-snippet.is-pending, .ordpar-hit-snippet.is-pending { visibility: hidden; }
+/* SITE DECISIONS 116 (Robin, 2026-10-24: "semibold for *English equivalents* only, and the `·`
+   being faded"; "English definition lines also stays regular text"): a SUMMARY GLOSS (42) in a
+   row — the suggestions and their gloss lists, Recent, History, the list view, favourites, the
+   inflected-form rows — semibold at its own size and colour, marked by the script that writes it
+   (`ordpar-sgloss`, lookup.js `writeGloss`; never a whole-row selector, so a definition line,
+   Norwegian or English, stays 400); the " · " between glosses (`ordpar-gsep`) in the muted grey,
+   in the weight of the text around it — here, in the article head and in the mini's header. */
+.ordpar-sgloss { font-weight: 600; }
+.ordpar-gsep { color: var(--ordpar-muted); }
+
+/* the heading over the hits, after ordbokene's "Bokmål dictionary" and its count badge */
+.ordpar-dict-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+}
+.ordpar-count {
+  display: inline-block;
+  min-width: 1.6em;
+  padding: 0.05em 0.45em;
+  border-radius: 999px;
+  background: var(--ordpar-pill);
+  color: var(--ordpar-text);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Copy link, Share, "Suggest a correction" and the heart under each result (decisions 59 (2));
+   no "Article page" (decisions 168, re-ruled 2026-11-06 (everywhere)). The article page's foot
+   uses the same row. */
+.ordpar-result-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem 0.9rem;
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+}
+.ordpar-result-btn {
+  font: inherit;
+  padding: 0.2em 0.75em;
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ordpar-accent);
+  cursor: pointer;
+}
+.ordpar-result-btn:hover { background: var(--ordpar-pill); }
+.ordpar-result-copied { color: var(--ordpar-muted); font-size: 0.85rem; }
+.ordpar-result-copied:empty { display: none; }
+
+/* "Suggest a correction" (site decisions 166): the button in the foot's row and the form it opens
+   under the row, drawn by `report.js`. ROBIN'S PICK in the style lab (2026-11-05: "Suggest a
+   correction" + the lab's defaults, the "Like Copy link" preset, `style-lab/report.html` `DEF`):
+   the button a pill like Copy link (`ordpar-result-btn`), after Share, no icon; the form plain under
+   a rule, the card's width, the text box 4 lines high, the category a drop-down, Send in the accent
+   colour, Cancel the muted pill; the confirmation under the row, in the same panel. The lab's CSS
+   for those settings, its classes mapped to the built ones (the lab's title -> `-intro`, its
+   labels -> `-label`, its note -> `-hint`; the name to credit, `-credit`, came after the lab). */
+.ordpar-report-btn { display: inline-flex; align-items: center; gap: 0.35em; }
+.ordpar-report-btn:focus-visible { outline: 2px solid var(--ordpar-focus); outline-offset: 2px; }
+.ordpar-report,
+.ordpar-report-done {
+  margin: 0.8rem 0 0;
+  padding: 0.8rem 0 0;
+  border-top: 1px solid var(--ordpar-border);
+}
+.ordpar-report[hidden],
+.ordpar-report-done[hidden],
+.ordpar-report-done:empty { display: none; }
+.ordpar-report-intro { margin: 0; font-weight: 600; }
+.ordpar-report-label { display: block; margin: 0.7rem 0 0.25rem; padding: 0; font-size: 0.9rem; }
+.ordpar-report-text,
+.ordpar-report-reply,
+.ordpar-report-credit,
+.ordpar-report-select {
+  box-sizing: border-box;
+  font: inherit;
+  padding: 0.4em 0.55em;
+  color: var(--ordpar-text);
+  background: var(--ordpar-bg);
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: 4px;
+}
+.ordpar-report-text,
+.ordpar-report-reply,
+.ordpar-report-credit { display: block; width: 100%; }
+.ordpar-report-select { max-width: 100%; }
+/* the text box: 4 lines high; the reader can drag it taller */
+.ordpar-report-text { height: calc(4 * 1.5em + 0.8em + 2px); min-height: 3em; resize: vertical; }
+.ordpar-report-text:focus-visible,
+.ordpar-report-reply:focus-visible,
+.ordpar-report-credit:focus-visible,
+.ordpar-report-select:focus-visible { outline: 2px solid var(--ordpar-focus); outline-offset: 1px; }
+.ordpar-report-hint { margin: 0.3rem 0 0; font-size: 0.8rem; color: var(--ordpar-muted); }
+/* the trap field: never shown, never focused; a message that fills it is dropped */
+/* site decisions 166 (2026-11-05): the line linking the privacy page's section on reports, a hint
+   set a little apart from the name's hint above it */
+.ordpar-report-privacy { margin-top: 0.8rem; }
+.ordpar-report-trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.ordpar-report-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.9rem 0 0; font-size: 0.9rem; }
+/* Send in the accent colour; Cancel as the foot's buttons, in the muted grey */
+.ordpar-report-send,
+.ordpar-report-send:hover { background: var(--ordpar-accent); border-color: var(--ordpar-accent); color: var(--ordpar-accent-text); }
+@media (hover: hover) { .ordpar-report-send:hover { filter: brightness(1.12); } }
+.ordpar-report-cancel { color: var(--ordpar-muted); }
+.ordpar-report-status { margin: 0.6rem 0 0; font-size: 0.85rem; }
+.ordpar-report-status:empty { display: none; }
+.ordpar-report-status--failed { color: var(--ordpar-accent); }
+.ordpar-report-done { font-size: 0.95rem; }
+
+/* The phone row (site decisions 166, Robin 2026-11-05: "they drop the 'copy link' button on narrow
+   screens", as ordbokene.no does): at the phone breakpoint Copy link is not shown WHERE SHARE IS —
+   the phone's share sheet has its own copy — so Share, "Suggest a correction" and the heart keep
+   one line. Where the browser has no Share, Copy link stays. Both places the foot row is made: the
+   article page (`page.PAGE_JS` `foot`: `#ordpar-copy`, `#ordpar-share`, hidden until the browser
+   has the API) and `lookup.js` `resultControls` (`.ordpar-result-copy`, `.ordpar-result-share`,
+   made only where it has). */
+@media (max-width: 32rem) {
+  .ordpar-result-controls:has(> #ordpar-share:not([hidden])) > #ordpar-copy,
+  .ordpar-result-controls:has(> #ordpar-share:not([hidden])) > #ordpar-copied,
+  .ordpar-result-controls:has(> .ordpar-result-share) > .ordpar-result-copy,
+  .ordpar-result-controls:has(> .ordpar-result-share) > .ordpar-result-copy + .ordpar-result-copied { display: none; }
+}
+/* The narrowest phones (under 22rem, 352 px; 320 px measured 2026-11-05): even without Copy link the
+   three need 245 px of the row's 262 plus two gaps of 14 px, so the heart wrapped. There only, the
+   row's gap is 0.5rem and the button's sides a little narrower (`test_ordpar_browser_report166`
+   measures 320, 360 and 390 px). */
+@media (max-width: 22rem) {
+  .ordpar-result-controls:has(> .ordpar-report-btn) { column-gap: 0.5rem; }
+  .ordpar-result-controls > .ordpar-report-btn { padding-left: 0.6em; padding-right: 0.6em; }
+}
+
+/* The change notice at the card's foot (decisions 106): one quiet line under the controls, in the
+   muted colour at the size of their status text; its link to ordbokene.no keeps the muted colour,
+   underlined. It wraps as any text does on a phone. On the article page it is in the built foot;
+   a full search result and an opened list row carry it after their controls (`lookup.js`). */
+.ordpar-change {
+  margin: 0.6rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--ordpar-muted);
+}
+.ordpar-change a { color: inherit; text-decoration: underline; text-underline-offset: 0.15em; }
+.ordpar-change a:hover { color: var(--ordpar-accent); }
+
+/* the inflection table keeps to its card everywhere (decisions 102, generalising 59's measured
+   switch): the mount is capped at the card's content box in article.css, and inflection.js
+   `fit` shows the wide table where it fits and the narrow one where it does not */
+
+/* the heart (decisions 60 item 4): outline when not saved, filled when saved */
+.ordpar-heart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem; height: 2rem;
+  padding: 0;
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ordpar-accent);
+  cursor: pointer;
+}
+.ordpar-heart:hover { background: var(--ordpar-pill); }
+.ordpar-heart-icon {
+  width: 1.1rem; height: 1.1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+.ordpar-heart[aria-pressed="true"] .ordpar-heart-icon { fill: currentColor; }
+/* the small filled heart beside a saved article's headword in a closed list row */
+.ordpar-fav-mark { display: inline-flex; align-self: center; color: var(--ordpar-accent); }
+.ordpar-fav-mark[hidden] { display: none; }
+.ordpar-fav-mark .ordpar-heart-icon { width: 0.85rem; height: 0.85rem; fill: currentColor; stroke-width: 1.5; }
+
+/* ------------------------------------- the favourites and history pages (decisions 60) */
+
+.ordpar-personal h1 { font-size: 1.4rem; color: var(--ordpar-accent); margin: 0.5rem 0 0.3rem; }
+.ordpar-personal-nav { margin: 0 0 1rem; font-size: 0.95rem; }
+.ordpar-personal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--ordpar-surface);
+  border: 1px solid var(--ordpar-border);
+  border-radius: var(--ordpar-radius);
+}
+.ordpar-personal-list:empty { display: none; }
+.ordpar-personal-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 0.6rem;
+  align-items: center;
+  padding: 0.55rem 0.8rem;
+}
+.ordpar-personal-row + .ordpar-personal-row { border-top: 1px solid var(--ordpar-border); }
+.ordpar-personal-row .ordpar-row-line { grid-column: 1; }
+.ordpar-personal-row .ordpar-row-snippet { grid-column: 1; }
+.ordpar-personal-row .ordpar-row-word { text-decoration: none; }
+.ordpar-personal-row .ordpar-row-word:hover { text-decoration: underline; }
+.ordpar-personal-row .ordpar-result-btn { grid-column: 2; grid-row: 1 / span 2; }
+/* decisions 89: a favourite is a list-view row (lookup.js listRows) that opens in place, its
+   Remove button beside the row's disclosure, the opened article under both */
+.ordpar-fav-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
+.ordpar-fav-row > .ordpar-row-head { grid-column: 1; }
+.ordpar-fav-row > .ordpar-fav-remove { grid-column: 2; grid-row: 1; margin-right: 0.8rem; }
+.ordpar-fav-row > .ordpar-row-panel { grid-column: 1 / -1; }
+.ordpar-fav-row.is-open,
+.ordpar-fav-row:has(> .ordpar-row-head .ordpar-row-button:hover) { background: var(--ordpar-pill); }
+.ordpar-fav-row.is-open > .ordpar-row-panel { background: var(--ordpar-surface); }
+/* brief 60b item 3: a history row is a search, drawn as a suggestion row — the query, its word
+   class for one article, on the right the gloss, the Norwegian definition or the articles'
+   numbered glosses (decisions 88) — the whole row one link that runs the search again */
+.ordpar-personal-row.ordpar-history-row { display: block; padding: 0; }
+.ordpar-history-link {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.55rem 0.8rem;
+  color: inherit;
+  text-decoration: none;
+}
+.ordpar-history-link:hover { background: var(--ordpar-pill); }
+.ordpar-history-link:hover .ordpar-option-word { text-decoration: underline; }
+.ordpar-history-link:focus-visible { outline: 2px solid var(--ordpar-accent); outline-offset: -2px; }
+/* decisions 88's second amendment (Robin, 2026-10-22): the query in the accent only where a
+   translated article is behind the row, else the text colour — as a suggestion row (86's D2) */
+.ordpar-history-link.is-translated .ordpar-option-word { color: var(--ordpar-accent); }
+.ordpar-personal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.9rem;
+  align-items: center;
+  margin: 1rem 0 0;
+}
+.ordpar-personal-status { min-height: 1.2em; color: var(--ordpar-muted); font-size: 0.9rem; }
+.ordpar-transfer { margin-top: 2rem; padding-top: 0.5rem; border-top: 1px solid var(--ordpar-border); }
+.ordpar-transfer .ordpar-note { margin: 0.3rem 0 0.6rem; }
+.ordpar-confirm { margin: 0.6rem 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+@media (max-width: 32rem) {
+  .ordpar-result, .ordpar-card { padding: 0.8rem 0.75rem 0.9rem; }
+  .ordpar-row-panel { padding: 0.8rem 0.75rem 0.9rem; }
+}
+
+/* the similar headwords under a hit: a bare list of words, as pills */
+.ordpar-similar-list:not(.ordpar-similar-rows) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.ordpar-similar-list:not(.ordpar-similar-rows) a {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  background: var(--ordpar-pill);
+  border-radius: 999px;
+  text-decoration: none;
+}
+/* site decisions 144 (Robin, 2026-10-27): after a search that finds nothing, each similar
+   headword is a suggestion row (`.ordpar-option`, lookup.js similarRow) — the word, its word
+   class, then its English after a muted em dash, as the deck's "Also on ordpar.no" (not at the
+   right edge, as the suggestions), and a thin line between the rows; the suggestions' spacing,
+   the results column's width */
+.ordpar-similar-rows a.ordpar-option {
+  justify-content: flex-start;
+  color: inherit;
+  text-decoration: none;
+}
+.ordpar-similar-rows a.ordpar-option:hover .ordpar-option-word { text-decoration: underline; }
+.ordpar-similar-rows a.ordpar-option:focus-visible { outline: 2px solid var(--ordpar-accent); outline-offset: -2px; }
+.ordpar-similar-rows > li + li { border-top: 1px solid var(--ordpar-border); }
+.ordpar-similar-rows .ordpar-option-side { justify-content: flex-start; }
+.ordpar-similar-rows .ordpar-option-side::before {
+  content: "\2014";
+  color: var(--ordpar-muted);
+  flex: 0 0 auto;
+  font-size: var(--ordpar-gloss-size);
+}
+.ordpar-similar-rows .ordpar-option-side:empty::before { content: none; }
+/* a similar word that is only an inflected form: "inflected form of" muted, the headwords plain */
+.ordpar-option-formof { color: var(--ordpar-muted); }
+
+.ordpar-note, .ordpar-empty {
+  color: var(--ordpar-muted);
+  font-size: 0.9rem;
+}
+
+/* site decisions 142 (Robin, 2026-10-27, the lab's "session's draft", placed under Random word):
+   the home page's line to "More ways to use Ordpar", at the top of the main area, in the notes'
+   plain muted look, its link underlined in the accent colour. Shown only while nothing is
+   searched (`ordpar-idle`, lookup.js `render`); `shell.js` `addMoreLine` makes it. Lined up with
+   the header's column (Robin, 2026-10-27): the home page's main takes the cards' wider widths
+   (decisions 102), so the line is held to the header's content width, centred. */
+.ordpar-more-line {
+  display: none;
+  max-width: calc(var(--ordpar-max) - 2rem);
+  margin: 0 auto 1rem;
+  color: var(--ordpar-muted);
+  font-size: 0.9rem;
+}
+.ordpar-main.ordpar-idle > .ordpar-more-line { display: block; }
+
+.ordpar-actions {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+/* ------------------------------------------- the settings page (decisions 63) */
+
+.ordpar-settings-page h1 { font-size: 1.4rem; color: var(--ordpar-accent); margin: 0.3rem 0 0.4rem; }
+.ordpar-back { text-decoration: none; }
+.ordpar-back:hover { text-decoration: underline; }
+.ordpar-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
+  margin: 0.6rem 0 1.2rem;
+  padding: 0;
+  list-style: none;
+}
+.ordpar-jump a {
+  display: inline-block;
+  padding: 0.2rem 0.75rem;
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: 999px;
+  text-decoration: none;
+}
+.ordpar-jump a:hover { background: var(--ordpar-pill); }
+/* the tabs over the about pages (site decisions 176, `chrome.about_tabs`): the same pills, the
+   current page's filled in the accent, as a pressed preset (decisions 136); they wrap onto a second
+   line on a narrow screen, never scrolling sideways */
+.ordpar-jump a[aria-current="page"] {
+  color: var(--ordpar-accent-text);
+  background: var(--ordpar-accent);
+  border-color: var(--ordpar-accent);
+}
+.ordpar-tabs .ordpar-jump { margin: 0.2rem 0 1rem; }
+.ordpar-settings-section {
+  margin: 0 0 1rem;
+  padding: 0.6rem 1.1rem 0.8rem;
+  background: var(--ordpar-surface);
+  border: 1px solid var(--ordpar-border);
+  border-radius: var(--ordpar-radius);
+  scroll-margin-top: 0.75rem;
+}
+.ordpar-settings-section > h2 { font-size: 1.1rem; margin: 0.2rem 0 0.4rem; color: var(--ordpar-accent); }
+/* a subsection of Article (decisions 85): the section heading one level down — the same colour,
+   a step smaller, a rule above it as between two settings */
+.ordpar-settings-sub > h3 {
+  font-size: 1rem;
+  margin: 0.4rem 0 0.3rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--ordpar-border);
+  color: var(--ordpar-accent);
+}
+.ordpar-settings-section > h2 + .ordpar-settings-sub > h3 { border-top: 0; padding-top: 0; }
+/* a subsection's line under its heading (decisions 126): the page's grey note, close under the
+   heading; the first setting after it keeps no rule, as after a heading */
+.ordpar-settings-intro { margin: 0 0 0.5rem; }
+
+.ordpar-field {
+  border: 0;
+  border-top: 1px solid var(--ordpar-border);
+  margin: 0 0 0.6rem;
+  padding: 0.5rem 0 0;
+  min-width: 0;
+}
+.ordpar-settings-section > h2 + .ordpar-field,
+.ordpar-settings-sub > h3 + .ordpar-field { border-top: 0; padding-top: 0; }
+.ordpar-settings-intro + .ordpar-field { border-top: 0; padding-top: 0; }
+.ordpar-field legend {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ordpar-muted);
+  padding: 0;
+}
+/* a choice: its button its own size, the label taking the rest of the line and wrapping inside it,
+   its first line level with the button (decisions 120, Robin 2026-10-24: "the text for an option
+   should wrap so that it starts on the same line as the button"; until then the row wrapped, and a
+   long label dropped whole below its button on a phone). Baseline alignment puts the button by the
+   label's first line, a swatch's line too */
+.ordpar-radio {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.15rem 0;
+}
+.ordpar-radio > input { flex: none; }
+.ordpar-radio > label { flex: 1 1 auto; min-width: 0; }
+/* a setting drawn as a drop-down (decisions 112, the examples limit: `control: 'select'` in the
+   settings' table): on the line where a radio would sit, in the page's own font and colours */
+.ordpar-select { padding: 0.15rem 0; }
+.ordpar-select select {
+  font: inherit;
+  color: inherit;
+  background: var(--ordpar-bg);
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  min-width: 5rem;
+}
+/* a colour's swatch: its day and night accents side by side */
+.ordpar-swatch {
+  display: inline-flex;
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.ordpar-swatch span { display: block; width: 1.1rem; height: 1.1rem; }
+/* a setting's "?" and its box (decisions 99): the explanations behind one button on the title
+   line, in place of the grey lines under the choices (`.ordpar-choice-note`, now a hidden copy
+   kept as the radio's description). The box overlays the choices, placed by settings.js under
+   the title inside the fieldset and never wider than it, so it stays inside the window and
+   opening it moves nothing; its look is the search's dropdown's (`.ordpar-popup`). */
+.ordpar-field { position: relative; }
+.ordpar-presets { position: relative; }   /* the presets' "?" box, placed as a field's (161) */
+.ordpar-hint-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem; height: 1.5rem;
+  margin: -0.25rem 0 -0.25rem 0.15rem;
+  padding: 0;
+  vertical-align: middle;
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ordpar-accent);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+.ordpar-hint-button:hover, .ordpar-hint-button[aria-expanded="true"] { background: var(--ordpar-pill); }
+.ordpar-hint-box {
+  position: absolute;
+  z-index: 15;
+  top: 1.8rem; left: 0;
+  box-sizing: border-box;
+  width: max-content;
+  max-width: min(26rem, 100%);
+  padding: 0.5rem 0.75rem;
+  background: var(--ordpar-surface);
+  color: var(--ordpar-text);
+  border: 1px solid var(--ordpar-border-strong);
+  border-radius: var(--ordpar-radius);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+  white-space: normal;
+}
+.nightMode .ordpar-hint-box { box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5); }
+.ordpar-hint-line { display: block; }
+.ordpar-hint-line + .ordpar-hint-line { margin-top: 0.35rem; }
+.ordpar-hint-line strong { font-weight: 600; }
+
+.ordpar-settings-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+.ordpar-settings-actions .ordpar-button {
+  color: var(--ordpar-accent);
+  background: transparent;
+  border-color: var(--ordpar-border-strong);
+}
+/* "Reset settings"'s line (decisions 136): the page's grey note, under the two buttons */
+.ordpar-reset-note { margin: 0.5rem 0 0; }
+/* site decisions 146: "Copy the address for a pop-up dictionary" after Reset's line, its own
+   row in the same look, its line under it as Reset's; the address shown as a line of code only
+   where the clipboard was refused (selected for the reader to copy), in /more/'s code-line look */
+.ordpar-popup-actions { margin-top: 0.9rem; }
+.ordpar-popup-line { margin: 0.5rem 0 0; max-width: 100%; }
+.ordpar-popup-line code {
+  display: block;
+  padding: 0.35em 0.6em;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: 0.88rem/1.5 ui-monospace, Consolas, "Cascadia Mono", Menlo, monospace;
+  color: var(--ordpar-text);
+  background: var(--ordpar-pill);
+  border: 1px solid var(--ordpar-border);
+  border-radius: var(--ordpar-radius);
+  -webkit-user-select: all;
+  user-select: all;
+}
+/* the presets (decisions 136): the page's quiet buttons in a row; the one the settings match is
+   filled in the accent, as the page's primary button and a chosen radio's filled dot (the heart's
+   `aria-pressed` fill too), in light and dark alike through the scheme's own colours */
+.ordpar-presets-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0 0 0.2rem;
+}
+.ordpar-preset:hover { background: var(--ordpar-pill); }
+.ordpar-preset[aria-pressed="true"] {
+  color: var(--ordpar-accent-text);
+  background: var(--ordpar-accent);
+  border-color: var(--ordpar-accent);
+}
+.ordpar-settings-status {
+  min-height: 1.2em;
+  font-size: 0.85rem;
+  color: var(--ordpar-muted);
+}
+
+/* the offline copy (decisions 61, site/offline.js) */
+.ordpar-offline p { margin: 0.3rem 0; font-size: 0.9rem; }
+.ordpar-offline .ordpar-note { font-size: 0.85rem; }
+.ordpar-offline .ordpar-button { margin: 0.3rem 0 0.2rem; text-align: left; }
+.ordpar-offline-progress progress { width: 100%; height: 0.7rem; accent-color: var(--ordpar-accent); }
+.ordpar-offline-error { color: #a1002f; }
+.nightMode .ordpar-offline-error { color: #ff9ab5; }
+
+/* ------------------------------------------------------------- the footer */
+
+/* one footer on every page (decisions 63): the credit and the site's links, a quiet band of
+   our own — no logos, not ordbokene's full-width maroon */
+.ordpar-footer {
+  margin-top: auto;
+  border-top: 1px solid var(--ordpar-border);
+  background: var(--ordpar-footer-bg);
+  color: var(--ordpar-muted);
+  font-size: 0.85rem;
+}
+/* by day the muted grey #757070 is 4.39:1 on the footer's ground, under WCAG's 4.5:1; a step
+   darker there, 5.32:1 (Robin, 2026-10-20: "ok"). The night grey passes and is untouched. */
+html:not(.nightMode) .ordpar-footer { --ordpar-muted: #686363; }
+.ordpar-footer-inner {
+  max-width: var(--ordpar-max);
+  margin: 0 auto;
+  padding: 1rem 1rem 1.4rem;
+}
+.ordpar-credit { margin: 0 0 0.6rem; line-height: 1.5; }
+.ordpar-footer-nav { display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; }
+.ordpar-footer-nav a { text-decoration: none; }
+.ordpar-footer-nav a:hover, .ordpar-credit a:hover { text-decoration: underline; }
+.ordpar-footer-nav a[aria-current="page"] { color: var(--ordpar-text); font-weight: 600; }
+/* the "under development" note, while the launch switch is on (`chrome.footer`, `head.NOINDEX`):
+   quiet, in the footer's own type, italic; by day a grey a step darker than the footer's muted
+   one, which is 4.39:1 on the footer's ground, so the note reaches 4.5:1 (5.8:1); by night the
+   muted grey itself (8.2:1). The accent schemes do not touch either. */
+.ordpar-devnote { margin: 0.7rem 0 0; font-style: italic; color: #625d5d; }
+html.nightMode .ordpar-devnote { color: var(--ordpar-muted); }
+/* decisions 72: the feedback link after the note, upright and semibold (`shell.js` `addChrome`);
+   since site decisions 173 it links our survey and stays after launch, then in a line of its own
+   where the note was (`.ordpar-feedback-line`, the note's margin) */
+.ordpar-feedback { font-style: normal; font-weight: 600; white-space: nowrap; }
+.ordpar-feedback-line { margin: 0.7rem 0 0; }
+/* site decisions 173: the survey page (`sitegen/survey.py`), its fields the report form's
+   (`.ordpar-report-label`, `-hint`, `-text`, `-reply`, `-status`, `-send`); a question's group of
+   choices a plain fieldset, one choice to a line */
+.ordpar-survey-q { margin: 1.1rem 0 0; }
+.ordpar-survey-q[hidden] { display: none; }
+.ordpar-survey fieldset { margin: 0; padding: 0; border: 0; min-width: 0; }
+.ordpar-survey legend.ordpar-report-label { margin-top: 0; }
+.ordpar-survey .ordpar-report-label { margin-top: 0; font-weight: 600; font-size: 1rem; }
+.ordpar-survey .ordpar-report-hint { margin: 0 0 0.35rem; }
+.ordpar-survey-choice { display: flex; gap: 0.5em; align-items: baseline; margin: 0.3rem 0; }
+.ordpar-survey-choice input { flex: none; margin: 0; accent-color: var(--ordpar-accent); }
+.ordpar-survey-done { font-weight: 600; }
+.ordpar-survey-done:focus { outline: none; }
+
+/* --------------------------------------------------- the install offer */
+
+/* decisions 68 (site/install.js). The once-only offer and the note after it: a band along the
+   bottom of the window, fixed, so the page never moves; install.js gives <html> a bottom
+   padding of the band's height while it shows, so the footer can be scrolled clear of it. */
+.ordpar-install-bar, .ordpar-install-note, .ordpar-update-note {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 60;
+  background: var(--ordpar-surface);
+  color: var(--ordpar-text);
+  border-top: 2px solid var(--ordpar-accent);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+html.nightMode .ordpar-install-bar, html.nightMode .ordpar-install-note,
+html.nightMode .ordpar-update-note {
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+.ordpar-install-inner {
+  max-width: var(--ordpar-max);
+  margin: 0 auto;
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+}
+.ordpar-install-words { flex: 1 1 18rem; min-width: 0; }
+.ordpar-install-title { margin: 0; font-weight: 600; color: var(--ordpar-accent); }
+.ordpar-install-text { margin: 0.15rem 0 0; font-size: 0.9rem; }
+.ordpar-install-actions { display: flex; gap: 0.5rem; flex: 0 0 auto; }
+.ordpar-install-note p {
+  max-width: var(--ordpar-max);
+  margin: 0 auto;
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+}
+.ordpar-install-note:empty, .ordpar-install-note p:empty { padding: 0; }
+@media print { .ordpar-install-bar, .ordpar-install-note, .ordpar-update-note { display: none; } }
+
+/* decisions 94 (site/offline.js `showNote`): "Ordpar has been updated, reload to see it", once
+   after an update's switch, in the offer's band; install.js `room` stacks it above the offer's
+   bar or note when one shows. Hidden while the search suggestions are open, which it would
+   otherwise cover on a phone (the dropdown reaches 60vh) — and since decisions 92 (G, a fault
+   the 94 build found) the install offer's bar and note too, which drew over the list. */
+.ordpar-update-text { flex: 1 1 14rem; min-width: 0; margin: 0; font-weight: 600; color: var(--ordpar-accent); }
+/* site decisions 175: "What's new", the site's change list, between the words and the buttons */
+.ordpar-update-link { flex: 0 0 auto; }
+.ordpar-update-close {
+  font: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+  min-width: 2.25rem;
+  min-height: 2.25rem;
+  padding: 0;
+  border: 0;
+  border-radius: var(--ordpar-radius);
+  background: transparent;
+  color: var(--ordpar-muted);
+  cursor: pointer;
+}
+.ordpar-update-close:hover, .ordpar-update-close:focus-visible { color: var(--ordpar-text); background: var(--ordpar-pill); }
+html:has(.ordpar-popup:not([hidden])) .ordpar-update-note,
+html:has(.ordpar-popup:not([hidden])) .ordpar-install-bar,
+html:has(.ordpar-popup:not([hidden])) .ordpar-install-note { visibility: hidden; }
+
+/* the line at the top of Settings → Offline (install.js `line`) */
+.ordpar-install-line { margin: 0.2rem 0 0.6rem; }
+.ordpar-install-line p { margin: 0.3rem 0; font-size: 0.9rem; }
+.ordpar-install-line .ordpar-button { margin: 0.2rem 0 0.2rem; }
+
+/* The footer's hint, on a phone only: install.js makes it on a touch screen (`pointer: coarse`
+   and `hover: none`, the device's primary pointer — a laptop with a touch screen has a mouse
+   and does not match); this sheet shows it only at a phone's size, either side under 40rem
+   (640 px): a phone upright (360-430 px wide) or turned (under 500 px high), never a tablet
+   (768 px and more both ways), and a phone turned while reading follows. On a line of its own
+   under the links; until shell.js has made it, that line is held, so nothing moves — except in
+   a browser that gets no hint (Firefox on a phone), where the held line closes once. Never in
+   the installed app. */
+.ordpar-install-hint { display: none; }
+@media (pointer: coarse) and (hover: none) and (max-width: 40rem),
+       (pointer: coarse) and (hover: none) and (max-height: 40rem) {
+  .ordpar-footer-nav .ordpar-install-hint { display: block; flex: 0 0 100%; }
+  html.ordpar-js:not(.ordpar-chrome) .ordpar-footer-nav::after {
+    content: "";
+    order: 3;
+    flex: 0 0 100%;
+    height: 1.275rem;
+  }
+}
+@media (display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui) {
+  .ordpar-footer-nav .ordpar-install-hint { display: none; }
+  html.ordpar-js:not(.ordpar-chrome) .ordpar-footer-nav::after { content: none; }
+}
+
+/* --------------------------------------------------------------- 404 page */
+
+.ordpar-notfound h1 {
+  font-size: 1.4rem;
+  color: var(--ordpar-accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

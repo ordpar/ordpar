@@ -1,0 +1,197 @@
+{
+ "article_id": 1828,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i lagidrett: $ som deltar i $",
+      "items": [
+       {
+        "article_id": 56075,
+        "definition_id": 2,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 64546,
+          "lemma": "spiller",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 64382,
+          "lemma": "speller",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 107392,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 86308,
+          "lemma": "angrepsspill",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 86307,
+          "lemma": "angrepsspell",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "til forskjell fra $",
+      "items": [
+       {
+        "article_id": 17025,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19767,
+          "lemma": "forsvarsspiller",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 19766,
+          "lemma": "forsvarsspeller",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "spiller",
+   "hgno": 0,
+   "id": 2326,
+   "inflection_class": "m2",
+   "initial_lexeme": "angrep",
+   "junction": "s",
+   "lemma": "angrepsspiller",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "angrepsspiller"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "angrepsspilleren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "angrepsspillere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "angrepsspillerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "speller",
+   "hgno": 0,
+   "id": 2325,
+   "inflection_class": "m2",
+   "initial_lexeme": "angrep",
+   "junction": "s",
+   "lemma": "angrepsspeller",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "angrepsspeller"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "angrepsspelleren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "angrepsspellere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "angrepsspellerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-18 07:31:06",
+ "suggest": [
+  "angrepsspiller",
+  "angrepsspeller"
+ ]
+}

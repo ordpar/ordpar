@@ -1,0 +1,140 @@
+{
+ "article_id": 9963,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $ entall: $ mellom $ og $",
+      "items": [
+       {
+        "id": "bf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 124771,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1142963,
+          "lemma": "geologisk periode",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 51553,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 59268,
+          "lemma": "silur",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 28713,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 33951,
+          "lemma": "karbon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 111380,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 163320,
+          "lemma": "devontid",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "periode",
+   "hgno": 0,
+   "id": 11689,
+   "inflection_class": "m1",
+   "initial_lexeme": "devon",
+   "lemma": "devonperiode",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "devonperiode"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "devonperioden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "devonperioder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "devonperiodene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-17 06:29:51",
+ "suggest": [
+  "devonperiode"
+ ]
+}

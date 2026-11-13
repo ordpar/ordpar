@@ -1,0 +1,141 @@
+{
+ "article_id": 10501,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "latinsk form for $ i titler, som i $",
+      "items": [
+       {
+        "article_id": 10539,
+        "definition_id": 6,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12331,
+          "lemma": "doktor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "text": "doctor juris",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "forkortet $",
+      "items": [
+       {
+        "text": "dr.",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 10539,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 12331,
+        "lemma": "doktor",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "dokˊtor, i $ form $ dåktoˋres",
+    "items": [
+     {
+      "id": "ub",
+      "type_": "grammar"
+     },
+     {
+      "id": "fl",
+      "type_": "grammar"
+     }
+    ],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "doctor",
+   "hgno": 0,
+   "id": 12274,
+   "inflection_class": "m.",
+   "lemma": "doctor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "doctor"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "doctoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "doctores"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "doctorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 653,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-22 08:06:52",
+ "suggest": [
+  "doctor"
+ ]
+}

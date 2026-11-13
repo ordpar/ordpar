@@ -1,0 +1,174 @@
+{
+ "article_id": 23790,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$: kamp som spilles på $",
+      "items": [
+       {
+        "id": "i_idr",
+        "type_": "domain"
+       },
+       {
+        "article_id": 23775,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28024,
+          "lemma": "hjemmebane",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 26796,
+          "lemma": "heimebane",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "til forskjell fra $",
+      "items": [
+       {
+        "article_id": 7083,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 8302,
+          "lemma": "bortekamp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kamp",
+   "hgno": 0,
+   "id": 28053,
+   "inflection_class": "m1",
+   "initial_lexeme": "hjemme",
+   "lemma": "hjemmekamp",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hjemmekamp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hjemmekampen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hjemmekamper"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hjemmekampene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "kamp",
+   "hgno": 0,
+   "id": 26825,
+   "inflection_class": "m1",
+   "initial_lexeme": "heime",
+   "lemma": "heimekamp",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "heimekamp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "heimekampen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "heimekamper"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "heimekampene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-03-16 08:37:38",
+ "suggest": [
+  "hjemmekamp",
+  "heimekamp"
+ ]
+}

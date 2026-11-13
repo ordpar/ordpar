@@ -1,0 +1,126 @@
+{
+ "article_id": 10633,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som gir en $",
+      "items": [
+       {
+        "article_id": 10632,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12423,
+          "lemma": "donasjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 10647,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12438,
+          "lemma": "donor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "donaˊtor, i $ donaˊtorer",
+    "items": [
+     {
+      "id": "fl",
+      "type_": "grammar"
+     }
+    ],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "donatoˊrer",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "donator",
+   "hgno": 0,
+   "id": 12424,
+   "inflection_class": "m1",
+   "lemma": "donator",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "donator"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "donatoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "donatorer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "donatorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-22 08:06:51",
+ "suggest": [
+  "donator"
+ ]
+}

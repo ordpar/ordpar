@@ -1,0 +1,183 @@
+{
+ "article_id": 18925,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "sykelig steindannelse i $ $ $",
+      "items": [
+       {
+        "article_id": 18917,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 81482,
+          "lemma": "galleblære",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "article_id": 18921,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 22095,
+          "lemma": "gallegang",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "galleganger"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 18915,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 22088,
+        "lemma": "galle",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "stein",
+   "hgno": 0,
+   "id": 22101,
+   "inflection_class": "m1",
+   "initial_lexeme": "galle",
+   "lemma": "gallestein",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gallestein"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gallesteinen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gallesteiner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gallesteinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "sten",
+   "hgno": 0,
+   "id": 159307,
+   "inflection_class": "m1",
+   "initial_lexeme": "galle",
+   "lemma": "gallesten",
+   "paradigm_info": [
+    {
+     "from": "2005-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gallesten"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gallestenen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gallestener"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gallestenene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-10-26 09:51:46",
+ "suggest": [
+  "gallestein",
+  "gallesten"
+ ]
+}

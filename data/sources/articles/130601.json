@@ -1,0 +1,111 @@
+{
+ "article_id": 130601,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som $",
+      "items": [
+       {
+        "article_id": 56653,
+        "definition_id": 4,
+        "definition_order": 5,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 81938,
+          "lemma": "stand",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 18298,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 21415,
+          "lemma": "frøken",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "det å være ugift kvinne",
+      "items": [],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "stand",
+   "hgno": 0,
+   "id": 2187130,
+   "inflection_class": "m1",
+   "initial_lexeme": "frøken",
+   "is_standard": true,
+   "lemma": "frøkenstand",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "frøkenstand"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "frøkenstanden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "frøkenstander"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "frøkenstandene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-12-19 14:30:25"
+}

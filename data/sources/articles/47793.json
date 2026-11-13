@@ -1,0 +1,236 @@
+{
+ "article_id": 47793,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "geografisk område",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 42185,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 49286,
+            "lemma": "område",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 61753,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 70627,
+            "lemma": "trakt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de prøver å få til et samarbeid i Oslo-$",
+         "items": [
+          {
+           "items": [],
+           "text": "regionen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 126056,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "de høyere luftlag eller sfærer",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2859598,
+           "lemma": "de høyere regioner",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 126056,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "de høyere regioner"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 15021,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 17428,
+            "lemma": "fjellregion",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "særlig i $: del av kroppen",
+        "items": [
+         {
+          "id": "sms_er",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ha smerter i regionen rundt navlen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, $ ‘retning’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "id": "oppr",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "region",
+   "hgno": 0,
+   "id": 54886,
+   "inflection_class": "m1",
+   "lemma": "region",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "region"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "regionen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "regioner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "regionene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-10-02 13:49:42",
+ "suggest": [
+  "region"
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "article_id": 4499,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "hval i underordenen $ som mangler tenner og har $ i overkjeven",
+      "items": [
+       {
+        "text": "Mystacoceti",
+        "type_": "usage"
+       },
+       {
+        "article_id": 4498,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 5307,
+          "lemma": "barde",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "barder"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forskj_fra",
+        "type_": "relation"
+       },
+       {
+        "article_id": 59857,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 68515,
+          "lemma": "tannhval",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 68521,
+          "lemma": "tannkval",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hval",
+   "hgno": 0,
+   "id": 5308,
+   "inflection_class": "m1",
+   "initial_lexeme": "barde",
+   "lemma": "bardehval",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bardehval"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bardehvalen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bardehvaler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bardehvalene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "kval",
+   "hgno": 0,
+   "id": 5309,
+   "inflection_class": "m1",
+   "initial_lexeme": "barde",
+   "lemma": "bardekval",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bardekval"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bardekvalen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bardekvaler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bardekvalene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-27 11:27:01",
+ "suggest": [
+  "bardehval",
+  "bardekval"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "article_id": 70167,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ for $",
+      "items": [
+       {
+        "id": "fork",
+        "type_": "entity"
+       },
+       {
+        "text": "Den europeiske union",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 64539,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 73906,
+          "lemma": "union",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "eˋu",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "EU",
+   "hgno": 0,
+   "id": 84478,
+   "lemma": "EU",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "EU"
+      }
+     ],
+     "inflection_group": "ABBR",
+     "paradigm_id": 40,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ABBR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-01-25 10:52:08",
+ "suggest": [
+  "EU"
+ ]
+}

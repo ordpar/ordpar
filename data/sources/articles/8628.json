@@ -1,0 +1,121 @@
+{
+ "article_id": 8628,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ der en bruker $ som transportmiddel",
+      "items": [
+       {
+        "article_id": 62896,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 81997,
+          "lemma": "tur",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 8608,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 10065,
+          "lemma": "båt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "dra på $ på fjorden",
+       "items": [
+        {
+         "text": "båttur",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "tur",
+   "hgno": 0,
+   "id": 10090,
+   "inflection_class": "m1",
+   "initial_lexeme": "båt",
+   "lemma": "båttur",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "båttur"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "båtturen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "båtturer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "båtturene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-07 15:51:34",
+ "suggest": [
+  "båttur"
+ ]
+}

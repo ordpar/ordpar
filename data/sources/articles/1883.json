@@ -1,0 +1,120 @@
+{
+ "article_id": 1883,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "domstol, nemnd $ som en kan $ til",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       },
+       {
+        "article_id": 1880,
+        "definition_id": 10,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 2378,
+          "lemma": "anke",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 26857,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 31958,
+          "lemma": "instans",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "instans",
+   "hgno": 0,
+   "id": 2382,
+   "inflection_class": "m1",
+   "initial_lexeme": "anke",
+   "lemma": "ankeinstans",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ankeinstans"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ankeinstansen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ankeinstanser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ankeinstansene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-18 07:31:06",
+ "suggest": [
+  "ankeinstans"
+ ]
+}

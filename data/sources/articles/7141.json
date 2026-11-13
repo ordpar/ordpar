@@ -1,0 +1,178 @@
+{
+ "article_id": 7141,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som forvalter et konkursbo eller et dødsbo",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$; $ $",
+      "items": [
+       {
+        "article_id": 6746,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 7934,
+          "lemma": "bobestyrer",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 9458,
+          "lemma": "bubestyrer",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 7140,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 8383,
+          "lemma": "bostyre",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 9813,
+          "lemma": "bustyre",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "styrer",
+   "hgno": 0,
+   "id": 8385,
+   "inflection_class": "m2",
+   "initial_lexeme": "bo",
+   "lemma": "bostyrer",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bostyrer"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bostyreren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bostyrere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bostyrerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "styrer",
+   "hgno": 0,
+   "id": 9815,
+   "inflection_class": "m2",
+   "initial_lexeme": "bu",
+   "lemma": "bustyrer",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bustyrer"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bustyreren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bustyrere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bustyrerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-10 14:22:38",
+ "suggest": [
+  "bostyrer",
+  "bustyrer"
+ ]
+}

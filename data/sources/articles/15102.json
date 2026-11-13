@@ -1,0 +1,136 @@
+{
+ "article_id": 15102,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ av en $",
+      "items": [
+       {
+        "article_id": 20844,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 24350,
+          "lemma": "gren",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 2,
+          "id": 24333,
+          "lemma": "grein",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 15101,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 17512,
+          "lemma": "fjord",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 2685,
+        "definition_id": 7,
+        "definition_order": 4,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 3223,
+          "lemma": "arm",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "arm",
+   "hgno": 0,
+   "id": 17513,
+   "inflection_class": "m1",
+   "initial_lexeme": "fjord",
+   "lemma": "fjordarm",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "fjordarm"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "fjordarmen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "fjordarmer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "fjordarmene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-08-06 15:31:23",
+ "suggest": [
+  "fjordarm"
+ ]
+}

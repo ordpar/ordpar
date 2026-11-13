@@ -1,0 +1,193 @@
+{
+ "article_id": 33574,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "søtt, svart $ brunt stoff som utvinnes av $ og brukes blant annet i hostesaft og godteri",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         },
+         {
+          "article_id": 33577,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 39392,
+            "lemma": "lakrisrot",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "seig, svart eller brun søtsak tilsatt $",
+        "items": [
+         {
+          "article_id": 33574,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 39389,
+            "lemma": "lakris",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "salt $",
+         "items": [
+          {
+           "text": "lakris",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "myk $",
+         "items": [
+          {
+           "text": "lakris",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "opprinnelig fra $ $, av $ ‘søt’ og $ ‘rot’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     },
+     {
+      "text": "glykyrrhiza",
+      "type_": "usage"
+     },
+     {
+      "text": "glykys",
+      "type_": "usage"
+     },
+     {
+      "text": "rhiza",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "lakˋris",
+    "items": [],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "lakriˊs",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lakris",
+   "hgno": 0,
+   "id": 39389,
+   "inflection_class": "m1",
+   "lemma": "lakris",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lakris"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lakrisen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lakriser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lakrisene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-12-14 15:02:55",
+ "suggest": [
+  "lakris"
+ ]
+}

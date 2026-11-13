@@ -1,0 +1,242 @@
+{
+ "article_id": 106670,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $: forbigående eller total stans i $",
+      "items": [
+       {
+        "id": "med",
+        "type_": "entity"
+       },
+       {
+        "article_id": 981,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 80517,
+          "lemma": "åndedrett",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "åndedrettet"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 106671,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 159387,
+          "lemma": "søvnapné",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 159388,
+          "lemma": "søvnapne",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘uten åndedrett’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "apnoia",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "apneˊ",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "apné",
+   "hgno": 0,
+   "id": 159385,
+   "inflection_class": "m1",
+   "lemma": "apné",
+   "paradigm_info": [
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "apné"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "apnéen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "apnéer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "apnéene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "apné"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "apneen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "apneer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "apneene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 567,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "apne",
+   "hgno": 0,
+   "id": 159386,
+   "inflection_class": "m1",
+   "lemma": "apne",
+   "paradigm_info": [
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "apne"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "apneen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "apneer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "apneene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-14 13:09:56",
+ "suggest": [
+  "apné",
+  "apne",
+  "apne__apné"
+ ]
+}

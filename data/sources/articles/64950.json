@@ -1,0 +1,167 @@
+{
+ "article_id": 64950,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "som har dårlig atferd",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 64163,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 73492,
+          "lemma": "ulydig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 64667,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 74043,
+          "lemma": "uoppdragen",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 47388,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 54453,
+          "lemma": "rampete",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 54452,
+          "lemma": "rampet",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ unger",
+       "items": [
+        {
+         "text": "uskikkelige",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "skikkelig",
+   "hgno": 0,
+   "id": 74372,
+   "inflection_class": "a2",
+   "initial_lexeme": "u",
+   "is_standard": true,
+   "lemma": "uskikkelig",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "uskikkelig"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "uskikkelige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "uskikkelige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "uskikkelig"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "uskikkeligere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "uskikkeligst"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "uskikkeligste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 442,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-08-01 12:51:25"
+}

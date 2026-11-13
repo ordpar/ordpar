@@ -1,0 +1,89 @@
+{
+ "article_id": 123032,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "det at en person er lagt i $ under medisinsk kontroll, slik at pasienten skal få ro og slippe påkjenninger",
+      "items": [
+       {
+        "article_id": 30907,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 36411,
+          "lemma": "koma",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 30907,
+        "lemmas": [
+         {
+          "lemma": "koma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 32776,
+        "lemmas": [
+         {
+          "lemma": "kunstig"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "kunstig koma",
+   "hgno": 0,
+   "id": 2006774,
+   "is_standard": true,
+   "lemma": "kunstig koma",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2022-05-02",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "kunstig koma"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-11-12 09:43:41"
+}

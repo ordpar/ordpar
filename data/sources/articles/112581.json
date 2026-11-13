@@ -1,0 +1,118 @@
+{
+ "article_id": 112581,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ der syke $ får behandling",
+      "items": [
+       {
+        "article_id": 30122,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 35527,
+          "lemma": "klinikk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 11375,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 13266,
+          "lemma": "dyr",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ta med hunden til dyreklinikken for behandling",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "klinikk",
+   "hgno": 0,
+   "id": 163897,
+   "inflection_class": "m1",
+   "initial_lexeme": "dyr",
+   "junction": "e",
+   "lemma": "dyreklinikk",
+   "paradigm_info": [
+    {
+     "from": "2020-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "dyreklinikk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "dyreklinikken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "dyreklinikker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "dyreklinikkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-04-07 11:24:13",
+ "suggest": [
+  "dyreklinikk"
+ ]
+}

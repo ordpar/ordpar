@@ -1,0 +1,126 @@
+{
+ "article_id": 36766,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "virvelstrøm i havet",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "sterk tidevannsstrøm i en trang fjord- $ elvemunning",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "nederl.",
+      "type_": "language"
+     },
+     {
+      "text": "maalstroom",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ beslektet med $",
+    "items": [
+     {
+      "id": "trol",
+      "type_": "entity"
+     },
+     {
+      "article_id": 36720,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 82103,
+        "lemma": "male",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "strøm",
+   "hgno": 0,
+   "id": 43153,
+   "inflection_class": "m.",
+   "initial_lexeme": "mal",
+   "lemma": "malstrøm",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "malstrøm"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "malstrømmen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "malstrømmer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "malstrømmene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 589,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-14 12:39:14",
+ "suggest": [
+  "malstrøm"
+ ]
+}

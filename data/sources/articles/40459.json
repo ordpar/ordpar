@@ -1,0 +1,175 @@
+{
+ "article_id": 40459,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "felles betegnelse for regn, snø og hagl",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det er målt 15 mm nedbør på Blindern de siste 24 timene",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 123479,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "nedbør med lavere $ enn 5,6",
+            "items": [
+             {
+              "article_id": 44850,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 50798,
+                "lemma": "pH-verdi",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2007496,
+         "lemma": "sur nedbør",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 123479,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "sur nedbør"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $ , opprinnelig ‘noe som bæres ned’",
+    "items": [
+     {
+      "article_id": 40445,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 47328,
+        "lemma": "ned",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 8519,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 10208,
+        "lemma": "bør",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "bør",
+   "hgno": 0,
+   "id": 47349,
+   "inflection_class": "m1",
+   "initial_lexeme": "ned",
+   "lemma": "nedbør",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "nedbør"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "nedbøren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "nedbører"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "nedbørene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-06-13 12:11:57",
+ "suggest": [
+  "nedbør"
+ ]
+}

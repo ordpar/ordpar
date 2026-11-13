@@ -1,0 +1,229 @@
+{
+ "article_id": 98397,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "plastskive brukt til lagring av $ lesbare digitale data, slik som lyd, film eller dataspill",
+        "items": [
+         {
+          "article_id": 43189,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 50044,
+            "lemma": "optisk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 112087,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 163650,
+            "lemma": "dvd-plate",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 163649,
+            "lemma": "DVD-plate",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "filmer på dvd",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sangene er med på dvd-en",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "lagringsteknologi for digitale data på plater",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ for $ $",
+    "items": [
+     {
+      "id": "fork_ing",
+      "type_": "entity"
+     },
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "digital versatile disc",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dvd",
+   "hgno": 0,
+   "id": 156828,
+   "inflection_class": "m.",
+   "lemma": "dvd",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "dvd"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "dvd-en"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "dvd-er"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "dvd-ene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 565,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "DVD",
+   "hgno": 0,
+   "id": 156622,
+   "inflection_class": "m.",
+   "lemma": "DVD",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "DVD"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "DVD-en"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "DVD-er"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "DVD-ene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 565,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-25 15:19:04",
+ "suggest": [
+  "dvd",
+  "DVD"
+ ]
+}

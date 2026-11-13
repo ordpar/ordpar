@@ -1,0 +1,120 @@
+{
+ "article_id": 110765,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "krakk til underlag for trevirke som skal skjæres med håndsag",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 49633,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 56954,
+          "lemma": "sagkrakk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 8027,
+        "definition_id": 8,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 9543,
+          "lemma": "bukk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bukk",
+   "hgno": 0,
+   "id": 162959,
+   "inflection_class": "m1",
+   "initial_lexeme": "sag",
+   "lemma": "sagbukk",
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sagbukk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sagbukken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sagbukker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sagbukkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-03-13 12:46:17",
+ "suggest": [
+  "sagbukk"
+ ]
+}

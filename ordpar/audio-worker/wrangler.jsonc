@@ -1,0 +1,25 @@
+// The audio Worker's Wrangler configuration (audio decisions 12, 15; site 159). README.md has the
+// commands and the deploy steps.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ordpar-audio",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-01",
+  // the free ordpar-audio.<subdomain>.workers.dev address (audio decisions 15: ordpar.no's
+  // nameservers stay at Domeneshop); no per-version preview addresses
+  "workers_dev": true,
+  "preview_urls": false,
+  // Workers Logs OFF, as the receiver (site decisions 104): Cloudflare keeps no per-request log of
+  // this Worker. New Workers have observability on by default, so it is turned off explicitly; no
+  // traces, no Logpush.
+  "observability": {
+    "enabled": false,
+    "logs": { "enabled": false, "invocation_logs": false },
+    "traces": { "enabled": false }
+  },
+  "logpush": false,
+  // the private bucket the clips were uploaded to (r2-setup.md); read only, through this binding
+  "r2_buckets": [
+    { "binding": "AUDIO", "bucket_name": "ordpar-audio" }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+ "article_id": 36600,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "de fleste",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "flertall, storpart",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "relation"
+       },
+       {
+        "article_id": 38553,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 45213,
+          "lemma": "minoritet",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "være i $ i en forsamling",
+       "items": [
+        {
+         "text": "majoritet",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "få $ ved en avstemning",
+       "items": [
+        {
+         "text": "majoritet",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 551,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1344,
+          "lemma": "aksjemajoritet",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, genitiv av $",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "language"
+     },
+     {
+      "text": "maioritatis",
+      "type_": "usage"
+     },
+     {
+      "text": "maioritas",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "majoritet",
+   "hgno": 0,
+   "id": 42973,
+   "inflection_class": "m1",
+   "lemma": "majoritet",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "majoritet"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "majoriteten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "majoriteter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "majoritetene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-14 12:39:16",
+ "suggest": [
+  "majoritet"
+ ]
+}

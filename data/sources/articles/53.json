@@ -1,0 +1,249 @@
+{
+ "article_id": 53,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "fødsel av et foster som ikke er fullt utviklet og levedyktig",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "spontan $",
+         "items": [
+          {
+           "text": "abort",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "kunstig framkalt $",
+        "items": [
+         {
+          "article_id": 58556,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 67029,
+            "lemma": "svangerskapsavbrudd",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 67028,
+            "lemma": "svangerskapsavbrott",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 62,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 856,
+            "lemma": "abortus provocatus",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "illegal $",
+         "items": [
+          {
+           "text": "abort",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "provosert abort",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "selvbestemt abort",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 107192,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "avbryte svangerskap",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1142959,
+           "lemma": "ta abort",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 107192,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "ta abort"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, perfektum partisipp av $ ‘føde for tidlig’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "abortus",
+      "type_": "usage"
+     },
+     {
+      "text": "aboriri",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "aborˊt",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "abort",
+   "hgno": 0,
+   "id": 847,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "abort",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "abort"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aborten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aborter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "abortene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-19 07:43:42"
+}

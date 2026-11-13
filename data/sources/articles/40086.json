@@ -1,0 +1,142 @@
+{
+ "article_id": 40086,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "tre- eller metallbolt brukt $ til å klinke fast noe",
+      "items": [
+       {
+        "id": "bl_a",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 30139,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 35542,
+          "lemma": "klinknagle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 31566,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 36125,
+          "lemma": "kobbernagle",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 37118,
+          "lemma": "koppernagle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, av $ ‘negl’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "nagli",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "nagl",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "nagle",
+   "hgno": 1,
+   "id": 46944,
+   "inflection_class": "m1",
+   "lemma": "nagle",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "nagle"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "naglen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "nagler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "naglene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-18 06:00:03",
+ "suggest": [
+  "nagle"
+ ]
+}

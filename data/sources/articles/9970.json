@@ -1,0 +1,151 @@
+{
+ "article_id": 9970,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "kronisk $ som skyldes for liten $ ingen produksjon av $ i $, $ dårlig virkning av insulin",
+      "items": [
+       {
+        "article_id": 111557,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 143192,
+          "lemma": "stoffskiftesykdom",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 143191,
+          "lemma": "stoffskiftesjukdom",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "article_id": 26892,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 31994,
+          "lemma": "insulin",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 8057,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9577,
+          "lemma": "bukspyttkjertel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "bukspyttkjertelen"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ($) ‘gjennomgang (av sukker)'",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     },
+     {
+      "text": "diabetes",
+      "type_": "usage"
+     },
+     {
+      "text": "mellitus",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "diabetes",
+   "hgno": 0,
+   "id": 11696,
+   "inflection_class": "m1",
+   "lemma": "diabetes",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "diabetes"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "diabetesen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "diabeteser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "diabetesene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-01-19 12:18:31",
+ "suggest": [
+  "diabetes"
+ ]
+}

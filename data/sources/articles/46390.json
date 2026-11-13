@@ -1,0 +1,171 @@
+{
+ "article_id": 46390,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "svært god",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "svært dyktig",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 46373,
+        "definition_id": 5,
+        "definition_order": 4,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 53390,
+          "lemma": "profesjonell",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "opplegget var helt proft",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "musikerne i bandet var virkelig $",
+       "items": [
+        {
+         "text": "proffe",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "kortord for $",
+    "items": [
+     {
+      "article_id": 46373,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 53390,
+        "lemma": "profesjonell",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "proff",
+   "hgno": 2,
+   "id": 53405,
+   "lemma": "proff",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "proff"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "proffe"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "proffe"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "proft"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "proffere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "proffest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "proffeste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 458,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-04-11 13:54:48",
+ "suggest": [
+  "proff"
+ ]
+}

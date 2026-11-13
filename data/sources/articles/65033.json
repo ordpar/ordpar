@@ -1,0 +1,93 @@
+{
+ "article_id": 65033,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "brukt som $ førsteledd til visse adjektiv",
+      "items": [
+       {
+        "id": "forst",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "i ord som $ og $",
+      "items": [
+       {
+        "article_id": 65279,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 74856,
+          "lemma": "utfattig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 65328,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 74909,
+          "lemma": "utgammel",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 74908,
+          "lemma": "utgammal",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "ut-",
+   "hgno": 0,
+   "id": 74482,
+   "inflection_class": "i sms.",
+   "is_standard": true,
+   "lemma": "ut-",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "ut-"
+      }
+     ],
+     "inflection_group": "COMPPFX",
+     "paradigm_id": 42,
+     "standardisation": "STANDARD",
+     "tags": [
+      "COMPPFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-11-12 14:44:00"
+}

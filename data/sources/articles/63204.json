@@ -1,0 +1,155 @@
+{
+ "article_id": 63204,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$: synes",
+      "items": [
+       {
+        "id": "foreld",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "framstå (på en bestemt måte)",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det $ meg så underlig",
+       "items": [
+        {
+         "text": "tykkes",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "jenta tyktes stor for alderen",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "þykkjast",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 63202,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 72298,
+        "lemma": "tykke",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "tykkes",
+   "hgno": 0,
+   "id": 72304,
+   "inflection_class": "verb",
+   "lemma": "tykkes",
+   "paradigm_info": [
+    {
+     "from": "2015-12-10",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "tykkes"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "tykkes"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "tyktes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "tyktes"
+      },
+      {
+       "tags": [
+        "Imp",
+        "<SPass>"
+       ],
+       "word_form": "tykkes"
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 313,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-05-22 13:48:55",
+ "suggest": [
+  "tykkes",
+  "tykkes__tykkes"
+ ]
+}

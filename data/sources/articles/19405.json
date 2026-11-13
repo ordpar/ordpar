@@ -1,0 +1,136 @@
+{
+ "article_id": 19405,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "lagringssted for arvestoff, $ av husdyrtyper $ frukttreslag",
+      "items": [
+       {
+        "id": "f_eks",
+        "type_": "entity"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det er opprettet en nordisk $ for hagebruksvekster",
+       "items": [
+        {
+         "text": "genbank",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 19401,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 22679,
+        "lemma": "gen",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 4386,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 81376,
+        "lemma": "bank",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bank",
+   "hgno": 0,
+   "id": 22681,
+   "inflection_class": "m1",
+   "initial_lexeme": "gen",
+   "lemma": "genbank",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "genbank"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "genbanken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "genbanker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "genbankene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-23 06:51:29",
+ "suggest": [
+  "genbank"
+ ]
+}

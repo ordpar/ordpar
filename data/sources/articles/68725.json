@@ -1,0 +1,137 @@
+{
+ "article_id": 68725,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "førsteledd i betegnelse for person som er stedfortreder for $ nærmest underordnet en annen",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 68726,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79331,
+          "lemma": "viseadmiral",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 68732,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79338,
+          "lemma": "visekonge",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 68738,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79344,
+          "lemma": "visepresident",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, ablativ av $ ‘forandring, ombytte’, $ med $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "vice",
+      "type_": "usage"
+     },
+     {
+      "text": "vicis",
+      "type_": "usage"
+     },
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 68264,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 78806,
+        "lemma": "vikar",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "vise-",
+   "hgno": 0,
+   "id": 2120637,
+   "inflection_class": "i sms.",
+   "lemma": "vise-",
+   "paradigm_info": [
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "vise-"
+      }
+     ],
+     "inflection_group": "COMPPFX",
+     "paradigm_id": 42,
+     "standardisation": "STANDARD",
+     "tags": [
+      "COMPPFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2018-11-26 11:23:59",
+ "suggest": [
+  "vise-"
+ ]
+}

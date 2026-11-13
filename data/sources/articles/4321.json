@@ -1,0 +1,208 @@
+{
+ "article_id": 4321,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 9101,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 10766,
+          "lemma": "dagligdags",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 16897,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19617,
+          "lemma": "forslitt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 43255,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50114,
+          "lemma": "ordinær",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "et $ dikt",
+       "items": [
+        {
+         "text": "banalt",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "budskapet er enkelt på grensen til det banale",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘påbudt til alminnelig bruk’, avledet av $ ‘påbud’",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "language"
+     },
+     {
+      "text": "banal",
+      "type_": "usage"
+     },
+     {
+      "text": "ban",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "relation"
+     },
+     {
+      "article_id": 4438,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 5244,
+        "lemma": "bann",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "banaˊl",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "banal",
+   "hgno": 0,
+   "id": 5112,
+   "inflection_class": "a1",
+   "lemma": "banal",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "banal"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "banale"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "banale"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "banalt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-27 11:27:03",
+ "suggest": [
+  "banal"
+ ]
+}

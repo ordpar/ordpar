@@ -1,0 +1,136 @@
+{
+ "article_id": 3076,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "energi som blir frigjort ved spalting $ fusjon av $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "article_id": 3084,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3651,
+          "lemma": "atomkjerne",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "atomkjerner"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 29597,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 34967,
+          "lemma": "kjerneenergi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 3071,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 3638,
+        "lemma": "atom",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "energi",
+   "hgno": 0,
+   "id": 3643,
+   "inflection_class": "m1",
+   "initial_lexeme": "atom",
+   "lemma": "atomenergi",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "atomenergi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "atomenergien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "atomenergier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "atomenergiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-07-12 10:38:08",
+ "suggest": [
+  "atomenergi"
+ ]
+}

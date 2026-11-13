@@ -1,0 +1,149 @@
+{
+ "article_id": 30645,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ med $ ‘med’ eller ‘sammen’, også brukt i nyere orddanninger",
+      "items": [
+       {
+        "article_id": 45949,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52955,
+          "lemma": "prefiks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "bet",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 30715,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 36185,
+          "lemma": "koherens",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 31545,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 37084,
+          "lemma": "kopilot",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 31572,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 37126,
+          "lemma": "koproduksjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "con",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 31091,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 36610,
+        "lemma": "kon-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "ko-",
+   "hgno": 0,
+   "id": 36095,
+   "lemma": "ko-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "ko-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-12-09 16:14:02",
+ "suggest": [
+  "ko-"
+ ]
+}

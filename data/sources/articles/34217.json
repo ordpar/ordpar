@@ -1,0 +1,267 @@
+{
+ "article_id": 34217,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "metalltråd, rør, kabel $ til å lede væske, elektrisk strøm $ gass",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "legge en $",
+       "items": [
+        {
+         "items": [],
+         "text": "ledning",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 125915,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "være sen i oppfattelsen",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2859430,
+         "lemma": "ha lang ledning",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 125915,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "ha lang ledning"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 31877,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 37462,
+          "lemma": "kraftledning",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 42006,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 49087,
+          "lemma": "oljeledning",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 66505,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76397,
+          "lemma": "vannledning",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 77098,
+          "lemma": "vassledning",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 34196,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 40199,
+        "lemma": "lede",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 40840,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 261,
+        "lemma": "-ning",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ledning",
+   "hgno": 0,
+   "id": 40219,
+   "inflection_class": "m1, f1",
+   "lemma": "ledning",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ledning"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ledningen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ledninger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ledningene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ledning"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ledninga"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ledninger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ledningene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-01-09 07:23:46",
+ "suggest": [
+  "ledning"
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "article_id": 43214,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "(alfabetisk ordnet) samling av ord fra ett $ flere språk, oftest med forklaring av deres betydning på samme språk $ på et annet, dessuten ofte med opplysninger om uttale, bøyning, ordhistorie og bruksmåter",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 43263,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50125,
+          "lemma": "ordliste",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "norsk-engelsk ordbok",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "teknisk ordbok",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "slå opp i ordboka",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "søke i ordbøkene på nett",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 5785,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 6779,
+          "lemma": "bibelordbok",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 16651,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19301,
+          "lemma": "fornorskingsordbok",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 19303,
+          "lemma": "fornorskningsordbok",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 17824,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 20802,
+          "lemma": "fremmedordbok",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 59102,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 67674,
+          "lemma": "synonymordbok",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "bok",
+   "hgno": 0,
+   "id": 83028,
+   "inflection_class": "m., f.",
+   "initial_lexeme": "ord",
+   "lemma": "ordbok",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ordbok"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ordboka"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ordbøker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ordbøkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 784,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ordbok"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ordboken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ordbøker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ordbøkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 628,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2025-01-06 10:32:46",
+ "suggest": [
+  "ordbok"
+ ]
+}

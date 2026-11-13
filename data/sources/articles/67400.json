@@ -1,0 +1,221 @@
+{
+ "article_id": 67400,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "det som er godt, behagelig, sunt eller trygt",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $, $, $",
+      "items": [
+       {
+        "article_id": 18864,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 22034,
+          "lemma": "gagn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 67406,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 77800,
+          "lemma": "velbefinnende",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 67553,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 77977,
+          "lemma": "velvære",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 62337,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 71272,
+          "lemma": "trivsel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "tenke bare på sitt eget $",
+       "items": [
+        {
+         "text": "vel",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "jobbe for barnets vel",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 106225,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "trivsel, velferd",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "tenke på sitt eget ve og vel",
+             "items": []
+            },
+            "type_": "example"
+           },
+           {
+            "attest": [],
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "tenke på andres ve og vel",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1143747,
+         "lemma": "ve og vel",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 106225,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "ve og vel"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 67402,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 77793,
+        "lemma": "vel",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "vel",
+   "hgno": 1,
+   "id": 77796,
+   "inflection_class": "n.",
+   "is_standard": true,
+   "lemma": "vel",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "vel"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 758,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-09-10 13:55:51"
+}

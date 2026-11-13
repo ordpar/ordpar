@@ -1,0 +1,257 @@
+{
+ "article_id": 25057,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som er hensynsfull og dannet",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en $ person",
+       "items": [
+        {
+         "items": [],
+         "text": "høflig",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "et $, men bestemt avslag",
+       "items": [
+        {
+         "items": [],
+         "text": "høflig",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 102974,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "tiltaleform brukt for å vise høflighet",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "$ $",
+            "items": [
+             {
+              "id": "jf",
+              "type_": "entity"
+             },
+             {
+              "article_id": 111307,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 84426,
+                "lemma": "De",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1143882,
+         "lemma": "høflig tiltale",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 102974,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "høflig tiltale"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt som adverb",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hilse høflig",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bli høflig avvist",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": true,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ‘hoff’, opprinnelig ‘som sømmer seg ved hoffet’",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "Hof",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "høflig",
+   "hgno": 0,
+   "id": 29838,
+   "inflection_class": "a2",
+   "lemma": "høflig",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "høflig"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "høflige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "høflige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "høflig"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "høfligere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "høfligst"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "høfligste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 442,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-09-08 12:02:34",
+ "suggest": [
+  "høflig"
+ ]
+}

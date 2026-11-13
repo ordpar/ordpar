@@ -1,0 +1,160 @@
+{
+ "article_id": 31174,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "tittel for $ foran navnet",
+        "items": [
+         {
+          "article_id": 31175,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 36694,
+            "lemma": "konge",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "kong Olav",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "tittel foran betegnelse for noe som er mektig $ størst i sitt slag",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $ og $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 106890,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 1146240,
+            "lemma": "kong alkohol",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 125996,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 2859514,
+            "lemma": "kong vinter",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 31175,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 36694,
+        "lemma": "konge",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kong",
+   "hgno": 2,
+   "id": 155855,
+   "inflection_class": "m.",
+   "lemma": "kong",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "kong"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 665,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-01-12 12:04:56",
+ "suggest": [
+  "kong"
+ ]
+}

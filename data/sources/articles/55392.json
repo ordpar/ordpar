@@ -1,0 +1,108 @@
+{
+ "article_id": 55392,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som holder seg hjemme og ikke stemmer ved offentlig valg $ folkeavstemning",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 22831,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28081,
+          "lemma": "hjemmesitter",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 26854,
+          "lemma": "heimesitter",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "velger",
+   "hgno": 0,
+   "id": 63777,
+   "inflection_class": "m2",
+   "initial_lexeme": "sofa",
+   "is_standard": true,
+   "lemma": "sofavelger",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sofavelger"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sofavelgeren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sofavelgere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sofavelgerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-12-15 13:40:43"
+}

@@ -1,0 +1,162 @@
+{
+ "article_id": 100515,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som produserer $ foredler $",
+      "items": [
+       {
+        "article_id": 26084,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 31064,
+          "lemma": "industri",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "article_id": 1419,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1884,
+          "lemma": "aluminium",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "industri",
+   "hgno": 0,
+   "id": 85983,
+   "inflection_class": "m1",
+   "initial_lexeme": "aluminium",
+   "lemma": "aluminiumindustri",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aluminiumindustri"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aluminiumindustrien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aluminiumindustrier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aluminiumindustriene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "industri",
+   "hgno": 0,
+   "id": 160064,
+   "inflection_class": "m1",
+   "initial_lexeme": "aluminium",
+   "junction": "s",
+   "lemma": "aluminiumsindustri",
+   "paradigm_info": [
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aluminiumsindustri"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aluminiumsindustrien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aluminiumsindustrier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aluminiumsindustriene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-19 10:10:18",
+ "suggest": [
+  "aluminiumindustri",
+  "aluminiumsindustri"
+ ]
+}

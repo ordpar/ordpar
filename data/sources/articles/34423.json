@@ -1,0 +1,261 @@
+{
+ "article_id": 34423,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "plante av slekta $ i liljefamilien",
+        "items": [
+         {
+          "items": [],
+          "text": "Allium",
+          "type_": "usage"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 126343,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "brukt i tiltale for å kritisere eller irettesette",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2859897,
+           "lemma": "din løk!",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 126343,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "din løk!"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 20919,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 24453,
+            "lemma": "gressløk",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 24194,
+            "lemma": "grasløk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 24849,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 29344,
+            "lemma": "hvitløk",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 39077,
+            "lemma": "kvitløk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 29148,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 34427,
+            "lemma": "kepaløk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "knollformet underjordisk planteskudd av $, brukt til mat $ krydder",
+        "items": [
+         {
+          "article_id": 34423,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 42560,
+            "lemma": "løk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sette ut løk om høsten",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "biff med $",
+         "items": [
+          {
+           "items": [],
+           "text": "løk",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "laukr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "løk",
+   "hgno": 1,
+   "id": 42560,
+   "inflection_class": "m1",
+   "lemma": "løk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "løk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "løken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "løker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "løkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-14 06:47:25",
+ "suggest": [
+  "løk"
+ ]
+}

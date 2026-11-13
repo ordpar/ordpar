@@ -1,0 +1,215 @@
+{
+ "article_id": 35409,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "metrisk målenhet for rominnhold",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "symbol $",
+      "items": [
+       {
+        "items": [],
+        "text": "l",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 9845,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 82337,
+          "lemma": "desiliter",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 22943,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 82599,
+          "lemma": "hektoliter",
+          "markdown_lemma": "hektoliter",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "1 $ = 1 dm$",
+       "items": [
+        {
+         "items": [],
+         "text": "liter",
+         "type_": "usage"
+        },
+        {
+         "items": [],
+         "text": "3",
+         "type_": "superscript"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "to $ melk",
+       "items": [
+        {
+         "items": [],
+         "text": "liter",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "et fem $ spann",
+       "items": [
+        {
+         "items": [],
+         "text": "liters",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ og $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     },
+     {
+      "id": "m.lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $ ‘vekt på 12 unser’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "litra",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "liter",
+   "hgno": 0,
+   "id": 41180,
+   "inflection_class": "m.",
+   "lemma": "liter",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "liter"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "literen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "liter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "literne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 577,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-04-12 08:00:31",
+ "suggest": [
+  "liter"
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "article_id": 30907,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "langvarig, dyp bevisstløshet",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "pasienten lå i $",
+       "items": [
+        {
+         "items": [],
+         "text": "koma",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 123032,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "det at en person er lagt i $ under medisinsk kontroll, slik at pasienten skal få ro og slippe påkjenninger",
+            "items": [
+             {
+              "article_id": 30907,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 1,
+                "id": 36411,
+                "lemma": "koma",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2006774,
+         "lemma": "kunstig koma",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 123032,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "kunstig koma"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘dyp søvn’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "koma",
+   "hgno": 1,
+   "id": 36411,
+   "inflection_class": "m1",
+   "lemma": "koma",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "koma"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "komaen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "komaer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "komaene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-04 11:26:33",
+ "suggest": [
+  "koma"
+ ]
+}

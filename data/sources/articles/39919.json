@@ -1,0 +1,115 @@
+{
+ "article_id": 39919,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ der det blir ført referat $ fra møter",
+      "items": [
+       {
+        "article_id": 46636,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 53666,
+          "lemma": "protokoll",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "o_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 39912,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 82979,
+          "lemma": "møtebok",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "protokoll",
+   "hgno": 0,
+   "id": 46901,
+   "inflection_class": "m1",
+   "initial_lexeme": "møte",
+   "lemma": "møteprotokoll",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "møteprotokoll"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "møteprotokollen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "møteprotokoller"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "møteprotokollene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-06 07:06:57",
+ "suggest": [
+  "møteprotokoll"
+ ]
+}

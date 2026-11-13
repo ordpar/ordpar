@@ -1,0 +1,105 @@
+{
+ "article_id": 130162,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "begynne en virksomhet, aktivitet $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "sette i gang (for første gang)",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "etablere",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 70597,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 128247,
+          "lemma": "oppstart",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 56716,
+        "lemmas": [
+         {
+          "lemma": "starte"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "starte opp",
+   "hgno": 0,
+   "id": 2873811,
+   "lemma": "starte opp",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2023-11-22",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "starte opp"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-11-22 12:26:48",
+ "suggest": [
+  "starte opp"
+ ]
+}

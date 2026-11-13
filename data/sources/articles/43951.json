@@ -1,0 +1,235 @@
+{
+ "article_id": 43951,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "treaktig plante med ugrenete stamme og store blader i vifteform i toppen",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "Palmae",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "plante som minner om en $, for eksempel $",
+        "items": [
+         {
+          "article_id": 43951,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 50907,
+            "lemma": "palme",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 115008,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 165203,
+            "lemma": "yuccapalme",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "kvist eller blad av $,",
+        "items": [
+         {
+          "article_id": 43951,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 50907,
+            "lemma": "palme",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 104306,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "være seierherre",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "triumfere, få ære",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1147743,
+           "lemma": "stå med palmer i hendene",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 104306,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "stå med palmer i hendene"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "palmi",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ‘håndflate’, $ bladenes form",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "palma",
+      "type_": "usage"
+     },
+     {
+      "id": "pga",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "palme",
+   "hgno": 1,
+   "id": 50907,
+   "inflection_class": "m1",
+   "lemma": "palme",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "palme"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "palmen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "palmer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "palmene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-30 14:36:17",
+ "suggest": [
+  "palme"
+ ]
+}

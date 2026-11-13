@@ -1,0 +1,230 @@
+{
+ "article_id": 38502,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som har nådd lavmålet for det som er mulig $ tillatt",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 63693,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 72921,
+          "lemma": "ubetydelig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 42810,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 81062,
+          "lemma": "ørliten",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "entity"
+       },
+       {
+        "article_id": 36651,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 43029,
+          "lemma": "maksimal",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "vise $ interesse",
+       "items": [
+        {
+         "items": [],
+         "text": "minimal",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "båten holdt $ fart gjennom sundet",
+       "items": [
+        {
+         "items": [],
+         "text": "minimal",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "sjansene for å vinne er $",
+       "items": [
+        {
+         "items": [],
+         "text": "minimale",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, $ av $ ‘mindre’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "minimus",
+      "type_": "usage"
+     },
+     {
+      "id": "superl",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "minor",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "minimal",
+   "hgno": 0,
+   "id": 45159,
+   "inflection_class": "a1",
+   "is_standard": true,
+   "lemma": "minimal",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "minimal"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "minimale"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "minimale"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "minimalt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-04-04 07:20:49"
+}

@@ -1,0 +1,159 @@
+{
+ "article_id": 26803,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 26332,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 31339,
+          "lemma": "innbygger",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 4803,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 5639,
+          "lemma": "beboer",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "landets $",
+       "items": [
+        {
+         "text": "innvånere",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘bo’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     },
+     {
+      "text": "einwohnen",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 69317,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 79905,
+        "lemma": "våning",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "våner",
+   "hgno": 0,
+   "id": 31910,
+   "inflection_class": "m2",
+   "initial_lexeme": "inn",
+   "lemma": "innvåner",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "innvåner"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "innvåneren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "innvånere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "innvånerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-18 14:52:38",
+ "suggest": [
+  "innvåner"
+ ]
+}

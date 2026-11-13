@@ -1,0 +1,101 @@
+{
+ "article_id": 122454,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "mann som eier og har ansvar for kjæledyr, særlig katt eller hund",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 37391,
+        "definition_id": 3,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 82943,
+          "lemma": "matmor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "far",
+   "hgno": 0,
+   "id": 2005717,
+   "inflection_class": "m.",
+   "initial_lexeme": "mat",
+   "lemma": "matfar",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "matfar"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "matfaren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "matfedre"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "matfedrene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 621,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-03-02 10:03:52",
+ "suggest": [
+  "matfar"
+ ]
+}

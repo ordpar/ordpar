@@ -1,0 +1,1702 @@
+{
+ "concepts": {
+  "adj": {
+   "class": "grammar",
+   "expansion": "adjektiv"
+  },
+  "adjsk": {
+   "class": "grammar",
+   "expansion": "adjektivisk"
+  },
+  "adv": {
+   "class": "grammar",
+   "expansion": "adverb"
+  },
+  "afrikaans": {
+   "class": "language",
+   "expansion": "afrikaans"
+  },
+  "afrikansk språk": {
+   "class": "language",
+   "expansion": "afrikansk språk"
+  },
+  "ags": {
+   "class": "language",
+   "expansion": "angelsaksisk"
+  },
+  "ags.": {
+   "class": "language",
+   "expansion": "angelsaksisk"
+  },
+  "akk": {
+   "class": "grammar",
+   "expansion": "akkusativ"
+  },
+  "aleutisk": {
+   "class": "language",
+   "expansion": "aleutisk"
+  },
+  "algonkin": {
+   "class": "language",
+   "expansion": "algonkin"
+  },
+  "am": {
+   "class": "language",
+   "expansion": "amerikansk"
+  },
+  "am-eng": {
+   "class": "language",
+   "expansion": "amerikansk-engelsk"
+  },
+  "am.-eng.": {
+   "class": "language",
+   "expansion": "amerikansk"
+  },
+  "am.-sp-": {
+   "class": "language",
+   "expansion": "am.-sp-"
+  },
+  "am_e": {
+   "class": "language",
+   "expansion": "amerikanske"
+  },
+  "amp": {
+   "class": "entity",
+   "expansion": "&"
+  },
+  "arab": {
+   "class": "language",
+   "expansion": "arabisk"
+  },
+  "arab.": {
+   "class": "language",
+   "expansion": "arabisk"
+  },
+  "aram.": {
+   "class": "language",
+   "expansion": "arameisk"
+  },
+  "arkais": {
+   "class": "rhetoric",
+   "expansion": "arkaiserende"
+  },
+  "art": {
+   "class": "relation",
+   "expansion": "artikkel"
+  },
+  "art_en": {
+   "class": "relation",
+   "expansion": "artikkelen"
+  },
+  "astron": {
+   "class": "domain",
+   "expansion": "astronomi"
+  },
+  "australsk språk": {
+   "class": "language",
+   "expansion": "australsk språk"
+  },
+  "avl": {
+   "class": "relation",
+   "expansion": "avledning"
+  },
+  "b": {
+   "class": "grammar",
+   "expansion": "bestemt"
+  },
+  "bantuspråk": {
+   "class": "language",
+   "expansion": "bantuspråk"
+  },
+  "bengali": {
+   "class": "language",
+   "expansion": "bengali"
+  },
+  "besl": {
+   "class": "relation",
+   "expansion": "beslektet"
+  },
+  "bet": {
+   "class": "relation",
+   "expansion": "betydning"
+  },
+  "bet_er": {
+   "class": "relation",
+   "expansion": "betydninger"
+  },
+  "bf": {
+   "class": "grammar",
+   "expansion": "bestemt form"
+  },
+  "bibl": {
+   "class": "domain",
+   "expansion": "bibelspråk"
+  },
+  "bil": {
+   "class": "rhetoric",
+   "expansion": "bildelig"
+  },
+  "bio": {
+   "class": "domain",
+   "expansion": "biologi"
+  },
+  "bl_a": {
+   "class": null,
+   "expansion": "blant annet"
+  },
+  "bm": {
+   "class": "language",
+   "expansion": "bokmål"
+  },
+  "bm.": {
+   "class": "language",
+   "expansion": "bokmål"
+  },
+  "bot": {
+   "class": "domain",
+   "expansion": "botanikk"
+  },
+  "bretonsk": {
+   "class": "language",
+   "expansion": "bretonsk"
+  },
+  "d_e": {
+   "class": null,
+   "expansion": "d e"
+  },
+  "d_s": {
+   "class": null,
+   "expansion": "d s"
+  },
+  "da": {
+   "class": "language",
+   "expansion": "dansk"
+  },
+  "da.": {
+   "class": "language",
+   "expansion": "dansk"
+  },
+  "da_e": {
+   "class": "language",
+   "expansion": "danske"
+  },
+  "dat": {
+   "class": "grammar",
+   "expansion": "dativ"
+  },
+  "dial": {
+   "class": "domain",
+   "expansion": "i dialekter"
+  },
+  "dim": {
+   "class": "grammar",
+   "expansion": "diminutiv"
+  },
+  "dim-suff": {
+   "class": "grammar",
+   "expansion": "diminutivssuffiks"
+  },
+  "dollar": {
+   "class": "entity",
+   "expansion": "$"
+  },
+  "dvs": {
+   "class": null,
+   "expansion": "dvs."
+  },
+  "e": {
+   "class": "temporal",
+   "expansion": "eldre"
+  },
+  "eKr": {
+   "class": "temporal",
+   "expansion": "e.Kr."
+  },
+  "e_l": {
+   "class": null,
+   "expansion": "eller lignende"
+  },
+  "eg": {
+   "class": null,
+   "expansion": "egentlig"
+  },
+  "egl": {
+   "class": null,
+   "expansion": "egentlig"
+  },
+  "egyptisk": {
+   "class": "language",
+   "expansion": "egyptisk"
+  },
+  "eigl": {
+   "class": null,
+   "expansion": "eigl"
+  },
+  "eint": {
+   "class": "grammar",
+   "expansion": "eint"
+  },
+  "el": {
+   "class": "relation",
+   "expansion": "eller"
+  },
+  "el_l": {
+   "class": null,
+   "expansion": "eller lignende"
+  },
+  "eldre": {
+   "class": "temporal",
+   "expansion": "eldre"
+  },
+  "eng": {
+   "class": "language",
+   "expansion": "engelsk"
+  },
+  "eng.": {
+   "class": "language",
+   "expansion": "engelsk"
+  },
+  "eng_e": {
+   "class": "language",
+   "expansion": "engelske"
+  },
+  "ent": {
+   "class": "grammar",
+   "expansion": "entall"
+  },
+  "eskimoisk": {
+   "class": "language",
+   "expansion": "eskimoisk-aleutiske språk, inkludert grønlandsk"
+  },
+  "ev": {
+   "class": null,
+   "expansion": "eventuelt"
+  },
+  "f": {
+   "class": "grammar",
+   "expansion": "femininum"
+  },
+  "fKr": {
+   "class": "temporal",
+   "expansion": "f.Kr."
+  },
+  "f_eks": {
+   "class": null,
+   "expansion": "for eksempel"
+  },
+  "faer": {
+   "class": "language",
+   "expansion": "færøysk"
+  },
+  "fag": {
+   "class": "domain",
+   "expansion": "fagspråk"
+  },
+  "fellesgerm": {
+   "class": "language",
+   "expansion": "fellesgermansk"
+  },
+  "filos": {
+   "class": "domain",
+   "expansion": "filosofi"
+  },
+  "finsk": {
+   "class": "language",
+   "expansion": "finsk"
+  },
+  "fl": {
+   "class": "grammar",
+   "expansion": "flertall"
+  },
+  "flat": {
+   "class": null,
+   "expansion": "flat"
+  },
+  "fls": {
+   "class": "grammar",
+   "expansion": "flertalls"
+  },
+  "forb": {
+   "class": "relation",
+   "expansion": "forbindelse"
+  },
+  "forb_r": {
+   "class": "relation",
+   "expansion": "forbindelser"
+  },
+  "foreld": {
+   "class": "temporal",
+   "expansion": "foreldet"
+  },
+  "forh": {
+   "class": null,
+   "expansion": "forhold"
+  },
+  "fork": {
+   "class": null,
+   "expansion": "forkorting"
+  },
+  "fork_a": {
+   "class": null,
+   "expansion": "forkorta"
+  },
+  "fork_ing": {
+   "class": null,
+   "expansion": "forkorting"
+  },
+  "forst": {
+   "class": "grammar",
+   "expansion": "forsterkende"
+  },
+  "fr": {
+   "class": "language",
+   "expansion": "fransk"
+  },
+  "fr-lat": {
+   "class": "language",
+   "expansion": "fransk-latin"
+  },
+  "fr.": {
+   "class": "language",
+   "expansion": "fransk"
+  },
+  "fr_e": {
+   "class": "language",
+   "expansion": "franske"
+  },
+  "fris": {
+   "class": "language",
+   "expansion": "frisisk"
+  },
+  "fris.": {
+   "class": "language",
+   "expansion": "frisisk"
+  },
+  "fys": {
+   "class": "domain",
+   "expansion": "i fysikk"
+  },
+  "fær.": {
+   "class": "language",
+   "expansion": "færøysk"
+  },
+  "g": {
+   "class": null,
+   "expansion": "g"
+  },
+  "g.da.": {
+   "class": "language",
+   "expansion": "gammeldansk"
+  },
+  "g.eng.": {
+   "class": "language",
+   "expansion": "gammelengelsk"
+  },
+  "g.fr.": {
+   "class": "language",
+   "expansion": "gammelfransk"
+  },
+  "g.fris.": {
+   "class": "language",
+   "expansion": "gammelfrisisk"
+  },
+  "g.h.ty.": {
+   "class": "language",
+   "expansion": "gammelhøytysk"
+  },
+  "g.l.ty.": {
+   "class": "language",
+   "expansion": "gammellavtysk"
+  },
+  "g.lat.": {
+   "class": "language",
+   "expansion": "gammellatin"
+  },
+  "g.no.": {
+   "class": "language",
+   "expansion": "gammelnorsk"
+  },
+  "g.russ.": {
+   "class": "language",
+   "expansion": "gammelrussisk"
+  },
+  "g.slav.": {
+   "class": "language",
+   "expansion": "gammelslavisk"
+  },
+  "g.sv.": {
+   "class": "language",
+   "expansion": "gammelsvensk"
+  },
+  "g.ty.": {
+   "class": "language",
+   "expansion": "gammeltysk"
+  },
+  "gda": {
+   "class": "language",
+   "expansion": "gammeldansk"
+  },
+  "gen": {
+   "class": "grammar",
+   "expansion": "genitiv"
+  },
+  "geng": {
+   "class": "language",
+   "expansion": "gammelengelsk"
+  },
+  "germ": {
+   "class": "language",
+   "expansion": "germansk"
+  },
+  "germ.": {
+   "class": "language",
+   "expansion": "germansk"
+  },
+  "gfr": {
+   "class": "language",
+   "expansion": "gammelfransk"
+  },
+  "gfris": {
+   "class": "language",
+   "expansion": "gammelfrisisk"
+  },
+  "ggerm": {
+   "class": "language",
+   "expansion": "gammelgermansk"
+  },
+  "ghty": {
+   "class": "language",
+   "expansion": "gammelhøytysk"
+  },
+  "git": {
+   "class": "language",
+   "expansion": "gammelitaliensk"
+  },
+  "gj": {
+   "class": "relation",
+   "expansion": "gjennom"
+  },
+  "gl": {
+   "class": "temporal",
+   "expansion": "gammel"
+  },
+  "glat": {
+   "class": "language",
+   "expansion": "gammellatin"
+  },
+  "glt": {
+   "class": "temporal",
+   "expansion": "gammelt"
+  },
+  "glty": {
+   "class": "language",
+   "expansion": "gammellavtysk"
+  },
+  "gnederl": {
+   "class": "language",
+   "expansion": "gammelnederlandsk"
+  },
+  "gno": {
+   "class": "language",
+   "expansion": "gammelnorsk"
+  },
+  "got": {
+   "class": "language",
+   "expansion": "gotisk"
+  },
+  "got.": {
+   "class": "language",
+   "expansion": "gotisk"
+  },
+  "gr": {
+   "class": "language",
+   "expansion": "gresk"
+  },
+  "gr-lat": {
+   "class": "language",
+   "expansion": "gresk-latin"
+  },
+  "gr.": {
+   "class": "language",
+   "expansion": "gresk"
+  },
+  "gr_e": {
+   "class": "language",
+   "expansion": "greske"
+  },
+  "gram": {
+   "class": null,
+   "expansion": "g"
+  },
+  "gramm": {
+   "class": "grammar",
+   "expansion": "grammatikk"
+  },
+  "gruss": {
+   "class": "language",
+   "expansion": "gammelrussisk"
+  },
+  "gsaks": {
+   "class": "language",
+   "expansion": "gammelsaksisk"
+  },
+  "gslav": {
+   "class": "language",
+   "expansion": "gammelslavisk"
+  },
+  "gsv": {
+   "class": "language",
+   "expansion": "gammelsvensk"
+  },
+  "gty": {
+   "class": "language",
+   "expansion": "gammeltysk"
+  },
+  "guarani": {
+   "class": "language",
+   "expansion": "guarani"
+  },
+  "gullah": {
+   "class": "language",
+   "expansion": "gullah"
+  },
+  "gælisk": {
+   "class": "language",
+   "expansion": "gælisk"
+  },
+  "h.ty.": {
+   "class": "language",
+   "expansion": "høytysk"
+  },
+  "hawaiisk": {
+   "class": "language",
+   "expansion": "hawaiisk"
+  },
+  "hebr": {
+   "class": "language",
+   "expansion": "hebraisk"
+  },
+  "hebr.": {
+   "class": "language",
+   "expansion": "hebraisk"
+  },
+  "hindi": {
+   "class": "language",
+   "expansion": "hindi"
+  },
+  "hty": {
+   "class": "language",
+   "expansion": "høytysk"
+  },
+  "i.eur.": {
+   "class": "language",
+   "expansion": "indoeuropeisk"
+  },
+  "i_anat": {
+   "class": "domain",
+   "expansion": "i anatomi"
+  },
+  "i_astron": {
+   "class": "domain",
+   "expansion": "i astronomi"
+  },
+  "i_bibl": {
+   "class": "domain",
+   "expansion": "i bibelspråk"
+  },
+  "i_biokjm": {
+   "class": "domain",
+   "expansion": "i biokjemi"
+  },
+  "i_biol": {
+   "class": "domain",
+   "expansion": "i biologi"
+  },
+  "i_bot": {
+   "class": "domain",
+   "expansion": "i botanikk"
+  },
+  "i_dial": {
+   "class": "domain",
+   "expansion": "i dialekt"
+  },
+  "i_fag": {
+   "class": "domain",
+   "expansion": "i fagspråk"
+  },
+  "i_filos": {
+   "class": "domain",
+   "expansion": "i filosofi"
+  },
+  "i_forb": {
+   "class": "relation",
+   "expansion": "i forbindelsen"
+  },
+  "i_forb_m": {
+   "class": "relation",
+   "expansion": "i forbindelse med"
+  },
+  "i_fys": {
+   "class": "domain",
+   "expansion": "i fysikk"
+  },
+  "i_fysiol": {
+   "class": "domain",
+   "expansion": "i fysiologi"
+  },
+  "i_geol": {
+   "class": "domain",
+   "expansion": "i geologi"
+  },
+  "i_gr_myt": {
+   "class": "domain",
+   "expansion": "i gresk mytologi"
+  },
+  "i_gram": {
+   "class": "domain",
+   "expansion": "i grammatikk"
+  },
+  "i_gramm": {
+   "class": "domain",
+   "expansion": "i grammatikk"
+  },
+  "i_idr": {
+   "class": "domain",
+   "expansion": "i idrett"
+  },
+  "i_jus": {
+   "class": "domain",
+   "expansion": "i jus"
+  },
+  "i_kjem": {
+   "class": "domain",
+   "expansion": "i kjemi"
+  },
+  "i_mat": {
+   "class": "domain",
+   "expansion": "i matematikk"
+  },
+  "i_med": {
+   "class": "domain",
+   "expansion": "i medisin"
+  },
+  "i_mil": {
+   "class": "domain",
+   "expansion": "i militærspråk"
+  },
+  "i_mus": {
+   "class": "domain",
+   "expansion": "i musikk"
+  },
+  "i_myt": {
+   "class": "domain",
+   "expansion": "i mytologi"
+  },
+  "i_norr_myt": {
+   "class": "domain",
+   "expansion": "i norrøn mytologi"
+  },
+  "i_oekol": {
+   "class": "domain",
+   "expansion": "i økologi"
+  },
+  "i_pol": {
+   "class": "domain",
+   "expansion": "i politikk"
+  },
+  "i_psyk": {
+   "class": "domain",
+   "expansion": "i psykologi"
+  },
+  "i_rel": {
+   "class": "domain",
+   "expansion": "i religiøst språk"
+  },
+  "i_spraakv": {
+   "class": "domain",
+   "expansion": "i språkvitenskap"
+  },
+  "i_tekn_s": {
+   "class": "domain",
+   "expansion": "i teknisk språk"
+  },
+  "i_teol": {
+   "class": "domain",
+   "expansion": "i teologi"
+  },
+  "i_typ": {
+   "class": "domain",
+   "expansion": "i typografi"
+  },
+  "i_zool": {
+   "class": "domain",
+   "expansion": "i zoologi"
+  },
+  "idr": {
+   "class": "domain",
+   "expansion": "idrett"
+  },
+  "ieur": {
+   "class": "language",
+   "expansion": "indoeuropeisk"
+  },
+  "imp": {
+   "class": "grammar",
+   "expansion": "imperativ"
+  },
+  "indianerspråk": {
+   "class": "language",
+   "expansion": "indianerspråk"
+  },
+  "indisk språk": {
+   "class": "language",
+   "expansion": "indisk språk"
+  },
+  "inf": {
+   "class": "grammar",
+   "expansion": "infinitiv"
+  },
+  "innv": {
+   "class": null,
+   "expansion": "innvirkning"
+  },
+  "interj": {
+   "class": "grammar",
+   "expansion": "interjeksjon"
+  },
+  "intr": {
+   "class": "grammar",
+   "expansion": "intransitivt"
+  },
+  "inv": {
+   "class": null,
+   "expansion": "innvirkning"
+  },
+  "iron": {
+   "class": "rhetoric",
+   "expansion": "ironisk"
+  },
+  "isl": {
+   "class": "language",
+   "expansion": "islandsk"
+  },
+  "isl.": {
+   "class": "language",
+   "expansion": "islandsk"
+  },
+  "it": {
+   "class": "language",
+   "expansion": "italiensk"
+  },
+  "it.": {
+   "class": "language",
+   "expansion": "italiensk"
+  },
+  "it_e": {
+   "class": "language",
+   "expansion": "italienske"
+  },
+  "jakutisk": {
+   "class": "language",
+   "expansion": "jakutisk"
+  },
+  "japansk": {
+   "class": "language",
+   "expansion": "japansk"
+  },
+  "jf": {
+   "class": "relation",
+   "expansion": "jamfør"
+  },
+  "jpn": {
+   "class": "language",
+   "expansion": "japansk"
+  },
+  "jur": {
+   "class": "domain",
+   "expansion": "jus"
+  },
+  "jy": {
+   "class": "language",
+   "expansion": "jysk"
+  },
+  "jy.": {
+   "class": "language",
+   "expansion": "jysk"
+  },
+  "karibisk språk": {
+   "class": "language",
+   "expansion": "karibisk språk"
+  },
+  "kat": {
+   "class": "domain",
+   "expansion": "katolsk"
+  },
+  "kat_e": {
+   "class": "domain",
+   "expansion": "katolske"
+  },
+  "kelt": {
+   "class": "language",
+   "expansion": "keltisk"
+  },
+  "kelt.": {
+   "class": "language",
+   "expansion": "keltisk"
+  },
+  "kg": {
+   "class": null,
+   "expansion": "kilogram"
+  },
+  "khoikhoi": {
+   "class": "language",
+   "expansion": "khoikhoi"
+  },
+  "kinesisk": {
+   "class": "language",
+   "expansion": "(primært han-)kinesisk"
+  },
+  "kjem": {
+   "class": "domain",
+   "expansion": "kjemisk"
+  },
+  "kl": {
+   "class": null,
+   "expansion": "kl."
+  },
+  "kol": {
+   "class": null,
+   "expansion": "kollektivt"
+  },
+  "koll": {
+   "class": null,
+   "expansion": "kollektivt"
+  },
+  "komp": {
+   "class": "grammar",
+   "expansion": "komparativ"
+  },
+  "konj": {
+   "class": "grammar",
+   "expansion": "konjunksjon"
+  },
+  "l.ty.": {
+   "class": "language",
+   "expansion": "lavtysk"
+  },
+  "lat": {
+   "class": "language",
+   "expansion": "latin"
+  },
+  "lat.": {
+   "class": "language",
+   "expansion": "latin"
+  },
+  "latsk": {
+   "class": "language",
+   "expansion": "latsk"
+  },
+  "litt": {
+   "class": "rhetoric",
+   "expansion": "litterært språk"
+  },
+  "lty": {
+   "class": "language",
+   "expansion": "lavtysk"
+  },
+  "lydord": {
+   "class": "language",
+   "expansion": "lydord"
+  },
+  "m": {
+   "class": null,
+   "expansion": "m"
+  },
+  "m.eng.": {
+   "class": "language",
+   "expansion": "middelengelsk"
+  },
+  "m.h.ty.": {
+   "class": "language",
+   "expansion": "middelhøytysk"
+  },
+  "m.lat.": {
+   "class": "language",
+   "expansion": "middelalderlatin"
+  },
+  "m.no.": {
+   "class": "language",
+   "expansion": "mellomnorsk"
+  },
+  "m.sv.": {
+   "class": "language",
+   "expansion": "mellomsvensk"
+  },
+  "m.ty.": {
+   "class": "language",
+   "expansion": "middeltysk"
+  },
+  "m_a": {
+   "class": null,
+   "expansion": "mellom annet"
+  },
+  "m_m": {
+   "class": null,
+   "expansion": "med mer"
+  },
+  "m_oms_t": {
+   "class": "relation",
+   "expansion": "m oms t"
+  },
+  "malayalam": {
+   "class": "language",
+   "expansion": "malayalam"
+  },
+  "malayisk": {
+   "class": "language",
+   "expansion": "malayisk"
+  },
+  "malf": {
+   "class": "language",
+   "expansion": "målføre"
+  },
+  "marathi": {
+   "class": "language",
+   "expansion": "marathi"
+  },
+  "mask": {
+   "class": "grammar",
+   "expansion": "maskulinum"
+  },
+  "mat": {
+   "class": "domain",
+   "expansion": "matematikk"
+  },
+  "mda": {
+   "class": "language",
+   "expansion": "middeldansk"
+  },
+  "med": {
+   "class": "domain",
+   "expansion": "medisin"
+  },
+  "meds": {
+   "class": "domain",
+   "expansion": "medisinsk"
+  },
+  "meng": {
+   "class": "language",
+   "expansion": "middelengelsk"
+  },
+  "mhty": {
+   "class": "language",
+   "expansion": "middelhøytysk"
+  },
+  "mil": {
+   "class": "domain",
+   "expansion": "militærstell"
+  },
+  "mlat": {
+   "class": "language",
+   "expansion": "middelalderlatin"
+  },
+  "mno": {
+   "class": "language",
+   "expansion": "mellomnorsk"
+  },
+  "mots": {
+   "class": "relation",
+   "expansion": "motsatt"
+  },
+  "msv": {
+   "class": "language",
+   "expansion": "middelsvensk"
+  },
+  "mty": {
+   "class": "language",
+   "expansion": "middeltysk"
+  },
+  "mus": {
+   "class": "domain",
+   "expansion": "musikk"
+  },
+  "myt": {
+   "class": "domain",
+   "expansion": "mytologi"
+  },
+  "n": {
+   "class": "grammar",
+   "expansion": "nøytrum"
+  },
+  "navnet": {
+   "class": "language",
+   "expansion": "navnet"
+  },
+  "nda": {
+   "class": "language",
+   "expansion": "nydansk"
+  },
+  "nederl": {
+   "class": "language",
+   "expansion": "nederlandsk"
+  },
+  "nederl.": {
+   "class": "language",
+   "expansion": "nederlandsk"
+  },
+  "neds": {
+   "class": "rhetoric",
+   "expansion": "nedsettende"
+  },
+  "nepali": {
+   "class": "language",
+   "expansion": "nepali"
+  },
+  "ngr": {
+   "class": "language",
+   "expansion": "nygresk"
+  },
+  "nigerkongo": {
+   "class": "language",
+   "expansion": "nigerkongo"
+  },
+  "nisl": {
+   "class": "language",
+   "expansion": "nyislandsk"
+  },
+  "nlat": {
+   "class": "language",
+   "expansion": "nylatin"
+  },
+  "no": {
+   "class": "language",
+   "expansion": "norsk"
+  },
+  "no-da": {
+   "class": "language",
+   "expansion": "norsk-dansk"
+  },
+  "no.": {
+   "class": "language",
+   "expansion": "norsk"
+  },
+  "no.-da.": {
+   "class": "language",
+   "expansion": "norsk-dansk"
+  },
+  "no_e": {
+   "class": "language",
+   "expansion": "norske"
+  },
+  "nom": {
+   "class": "grammar",
+   "expansion": "nominativ"
+  },
+  "nord": {
+   "class": "language",
+   "expansion": "nordisk"
+  },
+  "nord.": {
+   "class": "language",
+   "expansion": "nordisk"
+  },
+  "nordam": {
+   "class": "language",
+   "expansion": "nordamerikansk"
+  },
+  "nordam.": {
+   "class": "language",
+   "expansion": "nordamerikansk"
+  },
+  "norr": {
+   "class": "language",
+   "expansion": "norrønt"
+  },
+  "norr.": {
+   "class": "language",
+   "expansion": "norrønt"
+  },
+  "norr_e": {
+   "class": "language",
+   "expansion": "norrøne"
+  },
+  "norr_n": {
+   "class": "language",
+   "expansion": "norrøn"
+  },
+  "nr": {
+   "class": null,
+   "expansion": "nummer"
+  },
+  "nyd": {
+   "class": null,
+   "expansion": "nydanning"
+  },
+  "nyda.": {
+   "class": "language",
+   "expansion": "nydansk"
+  },
+  "nygr": {
+   "class": "language",
+   "expansion": "nygresk"
+  },
+  "nyl": {
+   "class": null,
+   "expansion": "nylaging"
+  },
+  "nylat.": {
+   "class": "language",
+   "expansion": "nylatin"
+  },
+  "nyno": {
+   "class": "language",
+   "expansion": "nynorsk"
+  },
+  "nyno.": {
+   "class": "language",
+   "expansion": "nynorsk"
+  },
+  "o_a": {
+   "class": null,
+   "expansion": "og annet"
+  },
+  "o_ae": {
+   "class": null,
+   "expansion": "og andre"
+  },
+  "o_l": {
+   "class": null,
+   "expansion": "og lignende"
+  },
+  "o_norr_forh": {
+   "class": "domain",
+   "expansion": "om norrøne forhold"
+  },
+  "obj-": {
+   "class": "grammar",
+   "expansion": "objekts"
+  },
+  "off": {
+   "class": null,
+   "expansion": "offentlig"
+  },
+  "opph": {
+   "class": "relation",
+   "expansion": "opphav"
+  },
+  "opphl": {
+   "class": "relation",
+   "expansion": "opphavlig"
+  },
+  "oppr": {
+   "class": null,
+   "expansion": "opprinnelig"
+  },
+  "osv": {
+   "class": null,
+   "expansion": "osv."
+  },
+  "overf": {
+   "class": "rhetoric",
+   "expansion": "i overført betydning"
+  },
+  "p_g_a": {
+   "class": null,
+   "expansion": "på grunn av"
+  },
+  "pass": {
+   "class": "grammar",
+   "expansion": "passiv"
+  },
+  "pers": {
+   "class": null,
+   "expansion": "person"
+  },
+  "persisk": {
+   "class": "language",
+   "expansion": "persisk"
+  },
+  "pf": {
+   "class": "grammar",
+   "expansion": "perfektum"
+  },
+  "pf_pt": {
+   "class": "grammar",
+   "expansion": "perfektum partisipp"
+  },
+  "pga": {
+   "class": null,
+   "expansion": "på grunn av"
+  },
+  "poet_s": {
+   "class": "rhetoric",
+   "expansion": "poetisk språk"
+  },
+  "pol": {
+   "class": "domain",
+   "expansion": "i politikk"
+  },
+  "polsk": {
+   "class": "language",
+   "expansion": "polsk"
+  },
+  "port": {
+   "class": "language",
+   "expansion": "portugisisk"
+  },
+  "port.": {
+   "class": "language",
+   "expansion": "portugisisk"
+  },
+  "pr": {
+   "class": "grammar",
+   "expansion": "presens"
+  },
+  "pr_pt": {
+   "class": "grammar",
+   "expansion": "presens partisipp"
+  },
+  "pref": {
+   "class": "grammar",
+   "expansion": "prefiks"
+  },
+  "prep": {
+   "class": "grammar",
+   "expansion": "preposisjon"
+  },
+  "pres": {
+   "class": "grammar",
+   "expansion": "presens"
+  },
+  "pret": {
+   "class": "grammar",
+   "expansion": "preteritum"
+  },
+  "pron": {
+   "class": "grammar",
+   "expansion": "pronomen"
+  },
+  "provençalsk": {
+   "class": "language",
+   "expansion": "provençalsk"
+  },
+  "pt": {
+   "class": "grammar",
+   "expansion": "partisipp"
+  },
+  "quechua": {
+   "class": "language",
+   "expansion": "quechua"
+  },
+  "refl": {
+   "class": "grammar",
+   "expansion": "refleksivt"
+  },
+  "rel": {
+   "class": "domain",
+   "expansion": "religiøse"
+  },
+  "rom": {
+   "class": "language",
+   "expansion": "romansk"
+  },
+  "rom.": {
+   "class": "language",
+   "expansion": "romansk"
+  },
+  "romanes": {
+   "class": "language",
+   "expansion": "romanes"
+  },
+  "romani": {
+   "class": "language",
+   "expansion": "romani"
+  },
+  "russ": {
+   "class": "language",
+   "expansion": "russisk"
+  },
+  "russ.": {
+   "class": "language",
+   "expansion": "russisk"
+  },
+  "russ_e": {
+   "class": "language",
+   "expansion": "russiske"
+  },
+  "s_adj": {
+   "class": "grammar",
+   "expansion": "som adjektiv"
+  },
+  "s_adv": {
+   "class": "grammar",
+   "expansion": "som adverb"
+  },
+  "s_d": {
+   "class": null,
+   "expansion": "s d"
+  },
+  "s_subst": {
+   "class": "grammar",
+   "expansion": "som substantiv"
+  },
+  "saerl": {
+   "class": null,
+   "expansion": "særlig"
+  },
+  "saks": {
+   "class": "language",
+   "expansion": "saksisk"
+  },
+  "saks.": {
+   "class": "language",
+   "expansion": "saksisk"
+  },
+  "sam": {
+   "class": "language",
+   "expansion": "samisk"
+  },
+  "sam.": {
+   "class": "language",
+   "expansion": "samisk"
+  },
+  "sanskrit": {
+   "class": "language",
+   "expansion": "sanskrit"
+  },
+  "seinlat": {
+   "class": "language",
+   "expansion": "senlatin"
+  },
+  "semittisk": {
+   "class": "language",
+   "expansion": "semittisk"
+  },
+  "senegalesisk": {
+   "class": "language",
+   "expansion": "senegalesisk"
+  },
+  "sengr": {
+   "class": "language",
+   "expansion": "sengresk"
+  },
+  "senlat": {
+   "class": "language",
+   "expansion": "senlatin"
+  },
+  "senlat.": {
+   "class": "language",
+   "expansion": "senlatin"
+  },
+  "shet": {
+   "class": "language",
+   "expansion": "shetlandsk"
+  },
+  "shet.": {
+   "class": "language",
+   "expansion": "shetlandsk"
+  },
+  "singalesisk": {
+   "class": "language",
+   "expansion": "singalesisk"
+  },
+  "sj": {
+   "class": null,
+   "expansion": "sjelden"
+  },
+  "skjemt": {
+   "class": "rhetoric",
+   "expansion": "skjemtende"
+  },
+  "slav": {
+   "class": "language",
+   "expansion": "slavisk"
+  },
+  "slav.": {
+   "class": "language",
+   "expansion": "slavisk"
+  },
+  "sm": {
+   "class": "relation",
+   "expansion": "samme"
+  },
+  "sm_o": {
+   "class": "relation",
+   "expansion": "samme opphav"
+  },
+  "sm_o_s": {
+   "class": "relation",
+   "expansion": "samme opprinnelse som"
+  },
+  "sm_st": {
+   "class": null,
+   "expansion": "sm st"
+  },
+  "smbl": {
+   "class": "relation",
+   "expansion": "sammenblanding"
+  },
+  "smh": {
+   "class": "relation",
+   "expansion": "sammenheng"
+  },
+  "sms": {
+   "class": "relation",
+   "expansion": "sammensetning"
+  },
+  "sms_er": {
+   "class": "relation",
+   "expansion": "sammensetninger"
+  },
+  "soeram": {
+   "class": "language",
+   "expansion": "søramerikansk"
+  },
+  "soerfr": {
+   "class": "language",
+   "expansion": "sørfransk"
+  },
+  "sp": {
+   "class": "language",
+   "expansion": "spansk"
+  },
+  "sp-am": {
+   "class": "language",
+   "expansion": "spansk-amerikansk"
+  },
+  "sp.": {
+   "class": "language",
+   "expansion": "spansk"
+  },
+  "spoekt": {
+   "class": "rhetoric",
+   "expansion": "spøkefullt"
+  },
+  "spraakv": {
+   "class": "domain",
+   "expansion": "språkvitenskap"
+  },
+  "subj": {
+   "class": "grammar",
+   "expansion": "subjekt"
+  },
+  "subs_isk": {
+   "class": "grammar",
+   "expansion": "subs_isk"
+  },
+  "subst": {
+   "class": "grammar",
+   "expansion": "substantiv"
+  },
+  "subst_isk": {
+   "class": "grammar",
+   "expansion": "substantivisk"
+  },
+  "subst_t": {
+   "class": "grammar",
+   "expansion": "substantivert"
+  },
+  "suff": {
+   "class": "grammar",
+   "expansion": "suffiks"
+  },
+  "superl": {
+   "class": "grammar",
+   "expansion": "superlativ"
+  },
+  "sv": {
+   "class": "language",
+   "expansion": "svensk"
+  },
+  "sv.": {
+   "class": "language",
+   "expansion": "svensk"
+  },
+  "sv_e": {
+   "class": "language",
+   "expansion": "svenske"
+  },
+  "svar._t": {
+   "class": "relation",
+   "expansion": "svar. t"
+  },
+  "sør-am.": {
+   "class": "language",
+   "expansion": "søramerikansk"
+  },
+  "sørkinesisk": {
+   "class": "language",
+   "expansion": "sørkinesisk"
+  },
+  "t_d": {
+   "class": null,
+   "expansion": "t_d"
+  },
+  "t_forsk_f": {
+   "class": "relation",
+   "expansion": "til forskjell fra"
+  },
+  "t_forskj_fra": {
+   "class": "relation",
+   "expansion": "til forskjell fra"
+  },
+  "t_skiln": {
+   "class": "relation",
+   "expansion": "t_skiln"
+  },
+  "tamil": {
+   "class": "language",
+   "expansion": "tamil"
+  },
+  "tidl": {
+   "class": "temporal",
+   "expansion": "tidligere"
+  },
+  "tr": {
+   "class": "grammar",
+   "expansion": "transitivt"
+  },
+  "trol": {
+   "class": null,
+   "expansion": "trolig"
+  },
+  "tsjekk": {
+   "class": "language",
+   "expansion": "tsjekkisk"
+  },
+  "tsjekk.": {
+   "class": "language",
+   "expansion": "tsjekkisk"
+  },
+  "tupi": {
+   "class": "language",
+   "expansion": "tupí-guaraní"
+  },
+  "tupi-språket": {
+   "class": "language",
+   "expansion": "tupi-språket"
+  },
+  "turkotatarisk": {
+   "class": "language",
+   "expansion": "turkotatarisk"
+  },
+  "ty": {
+   "class": "language",
+   "expansion": "tysk"
+  },
+  "ty.": {
+   "class": "language",
+   "expansion": "tysk"
+  },
+  "ty_e": {
+   "class": "language",
+   "expansion": "tyske"
+  },
+  "tyd": {
+   "class": null,
+   "expansion": "tyding"
+  },
+  "tyrk": {
+   "class": "language",
+   "expansion": "tyrkisk"
+  },
+  "tyrkisk": {
+   "class": "language",
+   "expansion": "tyrkisk"
+  },
+  "ub": {
+   "class": "grammar",
+   "expansion": "ubestemt"
+  },
+  "ubf": {
+   "class": "grammar",
+   "expansion": "ubestemt form"
+  },
+  "uboey": {
+   "class": "grammar",
+   "expansion": "ubøyelig"
+  },
+  "ungarsk": {
+   "class": "language",
+   "expansion": "ungarsk"
+  },
+  "upers": {
+   "class": "grammar",
+   "expansion": "upersonlig"
+  },
+  "urdu": {
+   "class": "language",
+   "expansion": "urdu"
+  },
+  "uspes": {
+   "class": null,
+   "expansion": "uspesifisert"
+  },
+  "utanl": {
+   "class": null,
+   "expansion": "utanl"
+  },
+  "utenl": {
+   "class": null,
+   "expansion": "utenlandske"
+  },
+  "utr": {
+   "class": null,
+   "expansion": "uttrykk"
+  },
+  "utt": {
+   "class": null,
+   "expansion": "uttale"
+  },
+  "uttr": {
+   "class": null,
+   "expansion": "uttrykk"
+  },
+  "uttr_et": {
+   "class": null,
+   "expansion": "uttrykket"
+  },
+  "uttr_t": {
+   "class": null,
+   "expansion": "uttrykket"
+  },
+  "v": {
+   "class": "grammar",
+   "expansion": "verb"
+  },
+  "varemerke": {
+   "class": "language",
+   "expansion": "varemerke"
+  },
+  "vbs": {
+   "class": "grammar",
+   "expansion": "verbalsubstantiv"
+  },
+  "verb": {
+   "class": "grammar",
+   "expansion": "verb"
+  },
+  "vha": {
+   "class": null,
+   "expansion": "ved hjelp av"
+  },
+  "vsa": {
+   "class": null,
+   "expansion": "ved siden av"
+  },
+  "wolof": {
+   "class": "language",
+   "expansion": "wolof"
+  },
+  "y_st": {
+   "class": null,
+   "expansion": "y st"
+  },
+  "zool": {
+   "class": "domain",
+   "expansion": "zoologi"
+  }
+ },
+ "id": "bm",
+ "name": "Bokmålsordboka"
+}

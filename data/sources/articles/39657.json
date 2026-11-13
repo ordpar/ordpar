@@ -1,0 +1,132 @@
+{
+ "article_id": 39657,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "ny form av plante $ dyr som er resultat av $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "article_id": 39659,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 46465,
+          "lemma": "mutasjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "platinareven er en $ av sølvrev",
+       "items": [
+        {
+         "items": [],
+         "text": "mutant",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 39658,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 46463,
+        "lemma": "mutant",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mutant",
+   "hgno": 1,
+   "id": 46464,
+   "inflection_class": "m1",
+   "lemma": "mutant",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mutant"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "mutanten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mutanter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "mutantene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-04-21 06:49:28",
+ "suggest": [
+  "mutant"
+ ]
+}

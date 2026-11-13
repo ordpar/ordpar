@@ -1,0 +1,157 @@
+{
+ "article_id": 22079,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "losji og halv $",
+      "items": [
+       {
+        "article_id": 31801,
+        "definition_id": 7,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 3,
+          "id": 81651,
+          "lemma": "kost",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "halv $",
+      "items": [
+       {
+        "article_id": 44594,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 51560,
+          "lemma": "pensjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 23046,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 27154,
+          "lemma": "helpensjon",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 26689,
+          "lemma": "heilpensjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "et opphold i Syden med $",
+       "items": [
+        {
+         "text": "halvpensjon",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "pensjon",
+   "hgno": 0,
+   "id": 25787,
+   "inflection_class": "m1",
+   "initial_lexeme": "halv",
+   "lemma": "halvpensjon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "halvpensjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "halvpensjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "halvpensjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "halvpensjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-17 09:47:29",
+ "suggest": [
+  "halvpensjon"
+ ]
+}

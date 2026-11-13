@@ -1,0 +1,249 @@
+{
+ "article_id": 8525,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "marked der en omsetter verdipapirer, valuta $ varer",
+        "items": [
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ er urolig for tiden",
+         "items": [
+          {
+           "text": "børsen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "spekulere på $",
+         "items": [
+          {
+           "text": "børsen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "offentlig lokale eller bygning for en $",
+        "items": [
+         {
+          "article_id": 8525,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 10212,
+            "lemma": "børs",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "børsen ligger i en rolig gate",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "article": {
+         "article_id": 111147,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "økonomiske og åndelige verdier",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144425,
+           "lemma": "børs og katedral",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 111147,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "børs og katedral"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "relation"
+     },
+     {
+      "id": "nederl.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $ $ ‘pengepung’",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "language"
+     },
+     {
+      "text": "bursa",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ av $ $ ‘lær(sekk)'",
+    "items": [
+     {
+      "id": "opphl",
+      "type_": "relation"
+     },
+     {
+      "id": "gr.",
+      "type_": "language"
+     },
+     {
+      "text": "byrsa",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "børs",
+   "hgno": 0,
+   "id": 10212,
+   "inflection_class": "m1",
+   "lemma": "børs",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "børs"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "børsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "børser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "børsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-07 15:51:35",
+ "suggest": [
+  "børs"
+ ]
+}

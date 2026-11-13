@@ -1,0 +1,156 @@
+{
+ "article_id": 35830,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 48877,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 56118,
+          "lemma": "ros",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 46236,
+        "definition_id": 6,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 53250,
+          "lemma": "pris",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "takk og $",
+       "items": [
+        {
+         "items": [],
+         "text": "lov",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "lof",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "article_id": 35831,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 81705,
+        "lemma": "lov",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lov",
+   "hgno": 3,
+   "id": 81705,
+   "inflection_class": "m., n.",
+   "lemma": "lov",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "lov"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 665,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc",
+      "Uninfl"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "lov"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 758,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-23 07:07:22",
+ "suggest": [
+  "lov"
+ ]
+}

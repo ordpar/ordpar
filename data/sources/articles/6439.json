@@ -1,0 +1,168 @@
+{
+ "article_id": 6439,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "vei som $",
+      "items": [
+       {
+        "article_id": 101042,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1147060,
+          "lemma": "ende blindt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "ender blindt"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 6424,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 7577,
+          "lemma": "blindgate",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vei",
+   "hgno": 0,
+   "id": 7593,
+   "inflection_class": "m1",
+   "initial_lexeme": "blind",
+   "lemma": "blindvei",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "blindvei"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "blindveien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "blindveier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "blindveiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "veg",
+   "hgno": 0,
+   "id": 7592,
+   "inflection_class": "m1",
+   "initial_lexeme": "blind",
+   "lemma": "blindveg",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "blindveg"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "blindvegen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "blindveger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "blindvegene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-01-25 13:53:40",
+ "suggest": [
+  "blindvei",
+  "blindveg"
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "article_id": 127292,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "slappe av",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "hvile",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 121765,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1143813,
+          "lemma": "puste lettet ut",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "etter noen travle dager kan de puste ut",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 46966,
+        "lemmas": [
+         {
+          "lemma": "puste"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "puste ut",
+   "hgno": 0,
+   "id": 2860795,
+   "lemma": "puste ut",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2023-04-05",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "puste ut"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-06-05 05:52:38",
+ "suggest": [
+  "puste ut"
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "article_id": 31998,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person, firma som har penger til gode",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 16076,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 18643,
+          "lemma": "fordringshaver",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "relation"
+       },
+       {
+        "article_id": 9428,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 11133,
+          "lemma": "debitor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "kreˊditor, $ kreˊditorer",
+    "items": [
+     {
+      "content": "i $",
+      "items": [
+       {
+        "id": "fl",
+        "type_": "grammar"
+       }
+      ],
+      "type_": "pronunciation_guide"
+     }
+    ],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "kreditoˊrer",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kreditor",
+   "hgno": 0,
+   "id": 37596,
+   "inflection_class": "m1",
+   "lemma": "kreditor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kreditor"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kreditoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kreditorer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kreditorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-14 13:36:18",
+ "suggest": [
+  "kreditor"
+ ]
+}

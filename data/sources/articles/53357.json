@@ -1,0 +1,137 @@
+{
+ "article_id": 53357,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "legevitenskap som det blir undervist i på universitetene",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 53307,
+        "definition_id": 6,
+        "definition_order": 4,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 61445,
+          "lemma": "skole",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 15814,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 18360,
+          "lemma": "folkemedisin",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 40333,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 47205,
+          "lemma": "naturmedisin",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "medisin",
+   "hgno": 0,
+   "id": 61495,
+   "inflection_class": "m1",
+   "initial_lexeme": "skole",
+   "lemma": "skolemedisin",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "skolemedisin"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "skolemedisinen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "skolemedisiner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "skolemedisinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-09-04 13:25:19",
+ "suggest": [
+  "skolemedisin"
+ ]
+}

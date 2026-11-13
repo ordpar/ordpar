@@ -1,0 +1,210 @@
+{
+ "article_id": 59393,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "som ligger i $",
+        "items": [
+         {
+          "article_id": 59392,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 68068,
+            "lemma": "sørøst",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 2,
+            "id": 67433,
+            "lemma": "sydøst",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 2,
+            "id": 67990,
+            "lemma": "søraust",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "vannet lå $ for hytta",
+         "items": [
+          {
+           "text": "sørøst",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "mot $",
+        "items": [
+         {
+          "article_id": 59392,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 68068,
+            "lemma": "sørøst",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 2,
+            "id": 67433,
+            "lemma": "sydøst",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 2,
+            "id": 67990,
+            "lemma": "søraust",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "kursen var $",
+         "items": [
+          {
+           "text": "sørøst",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "øst",
+   "hgno": 3,
+   "id": 68062,
+   "initial_lexeme": "sør",
+   "is_standard": true,
+   "lemma": "sørøst",
+   "mo_link": 3,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "sørøst"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 3
+  },
+  {
+   "final_lexeme": "øst",
+   "hgno": 3,
+   "id": 67427,
+   "initial_lexeme": "syd",
+   "is_standard": true,
+   "lemma": "sydøst",
+   "mo_link": 3,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "sydøst"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 3
+  },
+  {
+   "final_lexeme": "aust",
+   "hgno": 3,
+   "id": 67986,
+   "initial_lexeme": "sør",
+   "is_standard": true,
+   "lemma": "søraust",
+   "mo_link": 3,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "søraust"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 3
+  }
+ ],
+ "submitted": "2016-12-05 01:59:16"
+}

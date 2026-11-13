@@ -1,0 +1,91 @@
+{
+ "article_id": 39316,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i retning mot sola",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "entity"
+       },
+       {
+        "article_id": 37601,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 44066,
+          "lemma": "medsols",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gå $ rundt huset",
+       "items": [
+        {
+         "items": [],
+         "text": "motsols",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "sols",
+   "hgno": 0,
+   "id": 46072,
+   "initial_lexeme": "mot",
+   "lemma": "motsols",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "motsols"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-03 08:21:02",
+ "suggest": [
+  "motsols"
+ ]
+}

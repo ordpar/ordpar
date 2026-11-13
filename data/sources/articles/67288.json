@@ -1,0 +1,119 @@
+{
+ "article_id": 67288,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ på $ som hodet på $ griper om",
+      "items": [
+       {
+        "article_id": 59910,
+        "definition_id": 6,
+        "definition_order": 4,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 68573,
+          "lemma": "tapp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 67279,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 77637,
+          "lemma": "veiv",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 67287,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 77651,
+          "lemma": "veivstang",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "veivstanga"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "tapp",
+   "hgno": 0,
+   "id": 77652,
+   "inflection_class": "m1",
+   "initial_lexeme": "veiv",
+   "is_standard": true,
+   "lemma": "veivtapp",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "veivtapp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "veivtappen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "veivtapper"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "veivtappene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-24 09:07:22"
+}

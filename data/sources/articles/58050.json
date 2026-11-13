@@ -1,0 +1,202 @@
+{
+ "article_id": 58050,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "økonomisk hjelp",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 64413,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 73773,
+          "lemma": "understøttelse",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 73774,
+          "lemma": "understøtting",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 60923,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 69683,
+          "lemma": "tilskudd",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 69680,
+          "lemma": "tilskott",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "søke om $",
+       "items": [
+        {
+         "text": "stønad",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "få $ fra det offentlige",
+       "items": [
+        {
+         "text": "stønad",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 23737,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 27951,
+          "lemma": "hjelpestønad",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 58039,
+      "lemmas": [
+       {
+        "hgno": 4,
+        "id": 66476,
+        "lemma": "stø",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 66482,
+        "lemma": "støe",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "stønad",
+   "hgno": 0,
+   "id": 66490,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "stønad",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "stønad"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "stønaden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "stønader"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "stønadene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-12-19 13:49:15"
+}

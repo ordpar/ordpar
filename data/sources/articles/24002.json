@@ -1,0 +1,113 @@
+{
+ "article_id": 24002,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "om $ $: $ som var ansatt ved et $ for å underholde",
+      "items": [
+       {
+        "id": "e",
+        "type_": "temporal"
+       },
+       {
+        "id": "forh",
+        "type_": "entity"
+       },
+       {
+        "article_id": 20032,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 23349,
+          "lemma": "gjøgler",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 23994,
+        "definition_id": 4,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28303,
+          "lemma": "hoff",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "narr",
+   "hgno": 0,
+   "id": 28311,
+   "inflection_class": "m1",
+   "initial_lexeme": "hoff",
+   "lemma": "hoffnarr",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hoffnarr"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hoffnarren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hoffnarrer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hoffnarrene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-27 13:44:36",
+ "suggest": [
+  "hoffnarr"
+ ]
+}

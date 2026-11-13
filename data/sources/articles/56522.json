@@ -1,0 +1,238 @@
+{
+ "article_id": 56522,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "tegn (?) som settes etter spørrende hovedsetning,",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "tegn (?) en setter i margen $ der noe er tvilsomt $ utydelig",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 129903,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2873582,
+          "lemma": "spørretegn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 105416,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "stille seg undrende, tvilende eller skeptisk til noe",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "de satte spørsmålstegn ved hele forklaringen hennes",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1143356,
+         "lemma": "sette spørsmålstegn ved",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105416,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "sette spørsmålstegn ved"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 105417,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "se helt uforstående ut",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1145198,
+         "lemma": "se ut som et levende spørsmålstegn",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 105417,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "se ut som et levende spørsmålstegn"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "tegn",
+   "hgno": 0,
+   "id": 65035,
+   "inflection_class": "n1",
+   "initial_lexeme": "spørsmål",
+   "is_standard": true,
+   "junction": "s",
+   "lemma": "spørsmålstegn",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "spørsmålstegn"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "spørsmålstegnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "spørsmålstegn"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "spørsmålstegna"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "spørsmålstegn"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "spørsmålstegnet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "spørsmålstegn"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "spørsmålstegnene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-05-03 07:25:35"
+}

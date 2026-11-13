@@ -1,0 +1,166 @@
+{
+ "article_id": 59595,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "det å skylde noen en takk",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "forpliktelse til å gjengjelde en tjeneste $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "stå i $ til noen",
+       "items": [
+        {
+         "text": "takknemlighetsgjeld",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 59594,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 68218,
+        "lemma": "takknemlighet",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "gjeld",
+   "hgno": 0,
+   "id": 68219,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "takknemlighet",
+   "junction": "s",
+   "lemma": "takknemlighetsgjeld",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "takknemlighetsgjeld"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "takknemlighetsgjelda"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "takknemlighetsgjelder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "takknemlighetsgjeldene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "takknemlighetsgjeld"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "takknemlighetsgjelden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "takknemlighetsgjelder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "takknemlighetsgjeldene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-02-22 14:55:08",
+ "suggest": [
+  "takknemlighetsgjeld"
+ ]
+}

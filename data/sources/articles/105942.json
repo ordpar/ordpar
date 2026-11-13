@@ -1,0 +1,132 @@
+{
+ "article_id": 105942,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "(opprinnelig om den hule trehesten som grekerne gjemte seg i slik at de kunne bli brakt skjult inn i Troja) fiendtlig person, gruppe $ element som fins i hemmelighet og som kan vise seg å være farlig for omgivelsene",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "skadelig $ som er skjult i et legitimt dataprogram",
+        "items": [
+         {
+          "article_id": 117135,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 166345,
+            "lemma": "programkode",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 62351,
+          "definition_id": 3,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 71296,
+            "lemma": "trojaner",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 23430,
+        "lemmas": [
+         {
+          "lemma": "hest"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 62352,
+        "lemmas": [
+         {
+          "lemma": "trojansk"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "trojansk hest",
+   "hgno": 0,
+   "id": 1142802,
+   "is_standard": true,
+   "lemma": "trojansk hest",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "trojansk hest"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-05-02 11:47:47"
+}

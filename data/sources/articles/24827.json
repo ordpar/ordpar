@@ -1,0 +1,239 @@
+{
+ "article_id": 24827,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "innleder en leddsetning som uttrykker vilkår",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 9819,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 11544,
+            "lemma": "dersom",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 42049,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 3,
+            "id": 49128,
+            "lemma": "om",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ de ikke kommer, går jeg",
+         "items": [
+          {
+           "items": [],
+           "text": "hvis",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hva $ det blir regn?",
+         "items": [
+          {
+           "items": [],
+           "text": "hvis",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "innleder en leddsetning som uttrykker et ønske",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 114101,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 164742,
+            "lemma": "bare",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ hun bare hadde hørt på meg!",
+         "items": [
+          {
+           "items": [],
+           "text": "hvis",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "wes",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "article_id": 24826,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 81560,
+        "lemma": "hvis",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hvis",
+   "hgno": 2,
+   "id": 81561,
+   "lemma": "hvis",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "hvis"
+      }
+     ],
+     "inflection_group": "SCONJ",
+     "paradigm_id": 558,
+     "standardisation": "STANDARD",
+     "tags": [
+      "SCONJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "viss",
+   "hgno": 2,
+   "id": 83689,
+   "lemma": "viss",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "viss"
+      }
+     ],
+     "inflection_group": "SCONJ",
+     "paradigm_id": 558,
+     "standardisation": "STANDARD",
+     "tags": [
+      "SCONJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-05-08 13:53:45",
+ "suggest": [
+  "hvis",
+  "viss"
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "article_id": 26133,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "det (å forsøke) å plassere sine soldater, spioner eller talsmenn innenfor en annen stat, organisasjon, bedrift $ for å drive sabotasje, undergraving $ holdningspåvirkning",
+        "items": [
+         {
+          "id": "e_l",
+          "type_": "entity"
+         },
+         {
+          "id": "el",
+          "type_": "relation"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "drive politisk $",
+         "items": [
+          {
+           "text": "infiltrasjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "agentene var mestre i forkledning og infiltrasjon",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 8,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, gjennomtrenging",
+        "items": [
+         {
+          "article_id": 26765,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 31867,
+            "lemma": "inntrenging",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ av avløpsvann i grunnen",
+         "items": [
+          {
+           "text": "infiltrasjon",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: inntrenging av væske, celler $ mellom vevscellene",
+        "items": [
+         {
+          "id": "i_med",
+          "type_": "domain"
+         },
+         {
+          "id": "o_a",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 7,
+      "type_": "definition"
+     }
+    ],
+    "id": 4,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "language"
+     },
+     {
+      "text": "infiltratio",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 26137,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 31118,
+        "lemma": "infiltrere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "infiltrasjon",
+   "hgno": 0,
+   "id": 31114,
+   "inflection_class": "m1",
+   "lemma": "infiltrasjon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "infiltrasjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "infiltrasjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "infiltrasjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "infiltrasjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-17 10:45:20",
+ "suggest": [
+  "infiltrasjon"
+ ]
+}

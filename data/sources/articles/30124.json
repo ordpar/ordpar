@@ -1,0 +1,283 @@
+{
+ "article_id": 30124,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "som hører til, foregår på klinikk",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "som gjelder praktisk legekunst med direkte pasientkontakt",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ behandling",
+       "items": [
+        {
+         "text": "klinisk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ undervisning",
+       "items": [
+        {
+         "text": "klinisk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 120261,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "i medisin: som er stadfestet død gjennom klinisk påvisning av $",
+              "items": [
+               {
+                "article_id": 23830,
+                "lemmas": [
+                 {
+                  "hgno": 1,
+                  "id": 166489,
+                  "lemma": "hjernedød",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "bli erklært klinisk død",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 3,
+            "sub_definition": false,
+            "type_": "definition"
+           },
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "som virker død på grunn av manglende puls og bevissthet, kraftig nedkjøling eller annen livstruende tilstand",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "content": "$",
+              "items": [
+               {
+                "article_id": 52809,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 60903,
+                  "lemma": "skinndød",
+                  "type_": "lemma"
+                 },
+                 {
+                  "hgno": 0,
+                  "id": 60900,
+                  "lemma": "skinndaud",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "idrettsutøveren var klinisk død i fire minutter før hun ble gjenopplivet",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1147084,
+         "lemma": "klinisk død",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 120261,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "klinisk død"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 30122,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 35527,
+        "lemma": "klinikk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "klinisk",
+   "hgno": 0,
+   "id": 35529,
+   "inflection_class": "a2",
+   "is_standard": true,
+   "lemma": "klinisk",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "klinisk"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "kliniske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "kliniske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "klinisk"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-05-05 08:08:20"
+}

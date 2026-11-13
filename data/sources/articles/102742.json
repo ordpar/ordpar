@@ -1,0 +1,80 @@
+{
+ "article_id": 102742,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "presens brukt om handling $ tilstand i fortiden, for eksempel  ‘da vi endelig er framme, oppdager vi at vi har glemt nøkkelen’",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 23676,
+        "lemmas": [
+         {
+          "lemma": "historisk"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 46031,
+        "lemmas": [
+         {
+          "lemma": "presens"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "historisk presens",
+   "hgno": 0,
+   "id": 1147541,
+   "is_standard": true,
+   "lemma": "historisk presens",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "historisk presens"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-11-28 07:07:23"
+}

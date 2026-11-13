@@ -1,0 +1,110 @@
+{
+ "article_id": 26162,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som arbeider med å formidle informasjon mellom bedrift, organisasjon $ og publikum $ forretningsforbindelser",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 118035,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 167040,
+          "lemma": "kommunikasjonsrådgiver",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "konsulent",
+   "hgno": 0,
+   "id": 31143,
+   "inflection_class": "m1",
+   "initial_lexeme": "informasjon",
+   "junction": "s",
+   "lemma": "informasjonskonsulent",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "informasjonskonsulent"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "informasjonskonsulenten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "informasjonskonsulenter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "informasjonskonsulentene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-08-26 07:52:29",
+ "suggest": [
+  "informasjonskonsulent"
+ ]
+}

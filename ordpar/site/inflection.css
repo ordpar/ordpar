@@ -1,0 +1,217 @@
+/* ordpar — inflection tables.
+ *
+ * Loaded by the article page beside the renderer:
+ *   <link rel="stylesheet" href="/site/inflection.css">
+ *
+ * Palette: the deck's (docs/visual-test-runs.md § Night-mode palette
+ * reference). Dark mode is `.nightMode` on an ancestor (<html>). The font is
+ * inherited from the page — nothing here sets a family.
+ */
+
+.ordpar-inflection-tables {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.9em;
+  margin: 0.6em 0 1.2em;
+  max-width: 100%;
+}
+
+/* Two layouts, one model: the renderer emits the wide table and the narrow
+   (transposed) one from the same data and the same spans, and exactly one shows.
+   Which one is MEASURED (decisions 102): inflection.js `fit` puts
+   `.ordpar-fit-wide` or `.ordpar-fit-narrow` on the tables, the wide one
+   wherever it fits its card. The 48rem rule below is only the layout before
+   that first measurement (and with no script there is no table at all). A table
+   that still does not fit scrolls sideways inside its strip rather than being
+   clipped. See ordpar/docs/inflection-table.md § 4a. */
+.ordpar-infl-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.ordpar-infl-wrap--narrow { display: none; }
+
+@media (max-width: 48rem) {
+  .ordpar-infl-wrap--wide { display: none; }
+  .ordpar-infl-wrap--narrow { display: block; }
+}
+
+/* the measured choice (inflection.js `fit`, decisions 102) — beats the media query */
+.ordpar-fit-wide .ordpar-infl-wrap--wide { display: block; }
+.ordpar-fit-wide .ordpar-infl-wrap--narrow { display: none; }
+.ordpar-fit-narrow .ordpar-infl-wrap--wide { display: none; }
+.ordpar-fit-narrow .ordpar-infl-wrap--narrow { display: block; }
+
+/* an explicit override (the test page's layout toggle; a page that wants one
+   layout whatever the width) — higher specificity than the media query, and
+   after the measured choice, so it wins over that too */
+.ordpar-force-wide .ordpar-infl-wrap--wide { display: block; }
+.ordpar-force-wide .ordpar-infl-wrap--narrow { display: none; }
+.ordpar-force-narrow .ordpar-infl-wrap--wide { display: none; }
+.ordpar-force-narrow .ordpar-infl-wrap--narrow { display: block; }
+
+table.ordpar-infl {
+  border-collapse: collapse;
+  font-size: 0.95em;
+  line-height: 1.35;
+  max-width: 100%;
+}
+
+/* the stacked step (decisions 108): a wide table that does not fit unwrapped is drawn at its
+   min-content width, its columns stacked one by one, the one that frees the most width first, until it fits; the cells of
+   the columns not stacked are held whole (`ordpar-col-whole`), so each column is either its
+   unwrapped or its stacked width — never squeezed to the box with spare width spread through
+   its columns (inflection.js `fitTables`) */
+table.ordpar-infl--stacked {
+  width: min-content;
+}
+
+/* where a wide table's cell may break (decisions 108, ordbokene's rendered tables measured): a
+   form with its frames is one unbroken run, except at a space inside the frame after it
+   ("møtt +" over "noun"; a frame before it, "den/det", "å", "har", "en", never parts from it),
+   and the cell breaks after the comma between variants; the headings break at their
+   spaces ("present" over "participle"; "masculine /" over "feminine" by its no-break space).
+   The narrow tables are untouched. */
+.ordpar-infl--wide .ordpar-form {
+  white-space: nowrap;
+}
+
+.ordpar-infl--wide .ordpar-form .ordpar-frame-after {
+  white-space: normal;
+}
+
+/* a column not stacked (decisions 108, column by column): its cells unbroken, frames and all */
+.ordpar-infl--wide .ordpar-col-whole,
+.ordpar-infl--wide .ordpar-col-whole .ordpar-th-label,
+.ordpar-infl--wide .ordpar-col-whole .ordpar-th-qual,
+.ordpar-infl--wide .ordpar-col-whole .ordpar-form .ordpar-frame-after {
+  white-space: nowrap;
+}
+
+table.ordpar-infl th,
+table.ordpar-infl td {
+  border: 1px solid #d6d6d6;
+  padding: 0.35em 0.7em;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* header cells: ordbokene's neutral grey (#f1f1f1) and the page's own text colour — the
+   deck's maroon on the idiom-pill tint drew the eye away from the forms (Robin, 2026-09-24) */
+table.ordpar-infl th {
+  background: #f1f1f1;
+  color: inherit;
+  font-weight: 700;
+}
+
+/* a header cell is a bold label and/or an italic qualifier, stacked
+   (bra: "superlative" over "indefinite form") */
+.ordpar-infl .ordpar-th-label {
+  display: block;
+  font-weight: 700;
+}
+
+.ordpar-infl .ordpar-th-qual {
+  display: block;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* the row-axis corner ("gender") and the group headers */
+.ordpar-infl .ordpar-corner {
+  color: #757070;
+  background: #f1f1f1;
+}
+
+.ordpar-infl .ordpar-th-group {
+  text-align: center;
+}
+
+.ordpar-infl .ordpar-th-row {
+  white-space: nowrap;
+}
+
+/* narrow layout: the section heading rows span the table. The row headers
+   (the tense / number-and-definiteness names) run down the first column and
+   may wrap at a space, as ordbokene's "masculine/ feminine" does — a table
+   column never shrinks below its longest word (Robin, 2026-09-24: the
+   participle table must fit a phone) */
+.ordpar-infl--narrow .ordpar-th-group {
+  text-align: center;
+}
+
+.ordpar-infl--narrow .ordpar-th-row {
+  white-space: normal;
+}
+
+/* form cells */
+table.ordpar-infl td {
+  background: transparent;
+  color: inherit;
+}
+
+/* a frame is grey italic beside the form and never part of it — readable to a
+   screen reader ("å spise"), marked by class only, never aria-hidden */
+.ordpar-infl .ordpar-frame {
+  color: #757070;
+  font-style: italic;
+}
+
+/* the participle frames off (the device setting `pframes = off`, decisions 31) */
+.ordpar-pframes-off .ordpar-infl .ordpar-frame--participle {
+  display: none;
+}
+
+/* a cell tag the renderer does not know: shown under its own tag, marked */
+.ordpar-infl .ordpar-unknown {
+  outline: 2px dotted #b3261e;
+  outline-offset: -2px;
+}
+
+.ordpar-infl th.ordpar-unknown .ordpar-th-label {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.85em;
+}
+
+/* visually hidden (the <caption> of every table) */
+.ordpar-infl .ordpar-vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------------------------------------------------------------- night */
+
+.nightMode table.ordpar-infl th,
+.nightMode table.ordpar-infl td {
+  border-color: #656161;
+}
+
+.nightMode table.ordpar-infl th {
+  background: rgba(255, 255, 255, 0.06);
+  color: inherit;
+}
+
+.nightMode table.ordpar-infl td {
+  color: #d9d6d6;
+}
+
+.nightMode .ordpar-infl .ordpar-corner {
+  color: #b9b6b6;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.nightMode .ordpar-infl .ordpar-frame {
+  color: #b9b6b6;
+}
+
+.nightMode .ordpar-infl .ordpar-unknown {
+  outline-color: var(--ordpar-tint, #e3b7c9);
+}

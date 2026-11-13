@@ -1,0 +1,101 @@
+{
+ "article_id": 115483,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i eller på båt, fly $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 7000,
+        "definition_id": 8,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 8209,
+          "lemma": "bord",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "passasjerene gikk om bord i båten",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de gikk om bord i flyet",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "om bord",
+   "hgno": 0,
+   "id": 49131,
+   "lemma": "om bord",
+   "paradigm_info": [
+    {
+     "from": "2020-11-05",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "om bord"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-19 11:17:03",
+ "suggest": [
+  "om bord"
+ ]
+}

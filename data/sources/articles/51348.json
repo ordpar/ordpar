@@ -1,0 +1,188 @@
+{
+ "article_id": 51348,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "rull av tobakk med papir rundt",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "røyke sigaretter",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 121477,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "$ apparat som ligner på en $ til inhalering av fordampet smakstilsatt væske som inneholder nikotin",
+            "items": [
+             {
+              "article_id": 12352,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 14426,
+                "lemma": "elektronisk",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             },
+             {
+              "article_id": 51348,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 59055,
+                "lemma": "sigarett",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "content": "$ $",
+            "items": [
+             {
+              "id": "jf",
+              "type_": "entity"
+             },
+             {
+              "article_id": 121474,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 167177,
+                "lemma": "e-sigarett",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1146742,
+         "lemma": "elektronisk sigarett",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 121477,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "elektronisk sigarett"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $, opprinnelig ‘liten sigar’",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sigarett",
+   "hgno": 0,
+   "id": 59055,
+   "inflection_class": "m1",
+   "lemma": "sigarett",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sigarett"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sigaretten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sigaretter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sigarettene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-05-05 11:31:16",
+ "suggest": [
+  "sigarett"
+ ]
+}

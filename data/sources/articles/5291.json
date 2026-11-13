@@ -1,0 +1,100 @@
+{
+ "article_id": 5291,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "motor som drives av bensin",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "relation"
+       },
+       {
+        "article_id": 10048,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 11777,
+          "lemma": "dieselmotor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "motor",
+   "hgno": 0,
+   "id": 6236,
+   "inflection_class": "m1",
+   "initial_lexeme": "bensin",
+   "lemma": "bensinmotor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bensinmotor"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bensinmotoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bensinmotorer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bensinmotorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-01-26 14:48:54",
+ "suggest": [
+  "bensinmotor"
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "article_id": 40469,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "lenger nede enn",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hun bor $ stasjonen",
+         "items": [
+          {
+           "items": [],
+           "text": "nedenfor",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt som $: lenger nede på siden, lenger framme i boka, artikkelen eller lignende",
+        "items": [
+         {
+          "id": "adv",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "se $",
+         "items": [
+          {
+           "items": [],
+           "text": "nedenfor",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "loven er omtalt nedenfor",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "for",
+   "hgno": 0,
+   "id": 47368,
+   "initial_lexeme": "neden",
+   "lemma": "nedenfor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "nedenfor"
+      }
+     ],
+     "inflection_group": "ADP",
+     "paradigm_id": 556,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADP"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "for",
+   "hgno": 0,
+   "id": 47334,
+   "initial_lexeme": "neda",
+   "lemma": "nedafor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "nedafor"
+      }
+     ],
+     "inflection_group": "ADP",
+     "paradigm_id": 556,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADP"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-06-08 08:21:03",
+ "suggest": [
+  "nedenfor",
+  "nedafor"
+ ]
+}

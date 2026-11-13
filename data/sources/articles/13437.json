@@ -1,0 +1,160 @@
+{
+ "article_id": 13437,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ brukt jamstilt med $ i noen $",
+      "items": [
+       {
+        "article_id": 45949,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52955,
+          "lemma": "prefiks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 13399,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15568,
+          "lemma": "eu-",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 107533,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 160942,
+          "lemma": "importord",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "i ord som $ og $",
+      "items": [
+       {
+        "article_id": 13400,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15569,
+          "lemma": "eufemisme",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 15648,
+          "lemma": "evfemisme",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 13415,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15674,
+          "lemma": "evnukk",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 15586,
+          "lemma": "eunukk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "relation"
+     },
+     {
+      "article_id": 13399,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 15568,
+        "lemma": "eu-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "ev-",
+   "hgno": 0,
+   "id": 15608,
+   "lemma": "ev-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "ev-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-16 12:42:46",
+ "suggest": [
+  "ev-"
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "article_id": 36422,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som er uten $",
+      "items": [
+       {
+        "article_id": 36421,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 42274,
+          "lemma": "lyte",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "lyter"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "ulastelig, feilfri",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 17947,
+        "definition_id": 44,
+        "definition_order": 15,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 21034,
+          "lemma": "fri",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "lytefrie kropper",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "et bord med lytefri overflate",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt som $",
+        "items": [
+         {
+          "id": "adv",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "pianisten spilte lytefritt",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 1,
+      "sub_definition": true,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "fri",
+   "hgno": 0,
+   "id": 82929,
+   "initial_lexeme": "lyte",
+   "lemma": "lytefri",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "lytefri"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "lytefrie"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "lytefrie"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "lytefritt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 445,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-20 09:40:39",
+ "suggest": [
+  "lytefri"
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "article_id": 55675,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $ entall: $",
+      "items": [
+       {
+        "id": "bf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 55695,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 64107,
+          "lemma": "sosialkontor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gå på $",
+       "items": [
+        {
+         "text": "sosialen",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 55676,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 64086,
+        "lemma": "sosial",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "sosial",
+   "hgno": 1,
+   "id": 64087,
+   "inflection_class": "m1",
+   "lemma": "sosial",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sosial"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sosialen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sosialer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sosialene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 1
+  }
+ ],
+ "submitted": "2024-03-07 13:31:58",
+ "suggest": [
+  "sosial"
+ ]
+}

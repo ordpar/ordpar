@@ -1,0 +1,251 @@
+{
+ "article_id": 702,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "midtre ledd på armen",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han brukte $ til å dra seg framover",
+         "items": [
+          {
+           "text": "albuene",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "$ på ermet",
+         "items": [
+          {
+           "id": "dvs",
+           "type_": "entity"
+          }
+         ]
+        },
+        "quote": {
+         "content": "slite hull på $",
+         "items": [
+          {
+           "text": "albuen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "støte $",
+         "items": [
+          {
+           "text": "albuen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 100619,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "komme seg fram",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "være frekk og pågående",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "gjøre karriere uten å ta hensyn til andre",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146988,
+           "lemma": "ha spisse albuer",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 100619,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "ha spisse albuer"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "albuformet rørstykke",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "relation"
+         },
+         {
+          "article_id": 30455,
+          "definition_id": 11,
+          "definition_order": 5,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 35898,
+            "lemma": "kne",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 6,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $($)$, av $ ‘underarm’ og $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "al",
+      "type_": "usage"
+     },
+     {
+      "text": "n",
+      "type_": "usage"
+     },
+     {
+      "text": "bogi, ǫlnbogi",
+      "type_": "usage"
+     },
+     {
+      "text": "aln, ǫln",
+      "type_": "usage"
+     },
+     {
+      "text": "boge, bue",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "albue",
+   "hgno": 1,
+   "id": 1512,
+   "inflection_class": "m1",
+   "lemma": "albue",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "albue"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "albuen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "albuer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "albuene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2016-12-05 01:40:52",
+ "suggest": [
+  "albue"
+ ]
+}

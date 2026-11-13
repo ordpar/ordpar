@@ -1,0 +1,156 @@
+{
+ "article_id": 7441,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "alkoholholdig drikk med mer enn 22 $ alkohol",
+      "items": [
+       {
+        "article_id": 69020,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79658,
+          "lemma": "volumprosent",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "smugle brennevin og sigaretter",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "sitte i godstolen med brunt brennevin og en sigar",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, opprinnelig ‘brent ($ destillert) vin’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     },
+     {
+      "text": "bernewin",
+      "type_": "usage"
+     },
+     {
+      "id": "dvs",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 7260,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 8541,
+        "lemma": "brandy",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vin",
+   "hgno": 0,
+   "id": 8785,
+   "inflection_class": "n.",
+   "initial_lexeme": "brenne",
+   "lemma": "brennevin",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "brennevin"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "brennevinet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "brenneviner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "brennevinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 680,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-09-05 13:05:57",
+ "suggest": [
+  "brennevin"
+ ]
+}

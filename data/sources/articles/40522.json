@@ -1,0 +1,223 @@
+{
+ "article_id": 40522,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som befinner seg lenger nede i forhold til noe annet",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "motsatt $",
+      "items": [
+       {
+        "article_id": 42925,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 81239,
+          "lemma": "øvre",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de $ samfunnslag",
+       "items": [
+        {
+         "items": [],
+         "text": "nedre",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "sette en $ grense",
+       "items": [
+        {
+         "items": [],
+         "text": "nedre",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ta den nedre veien",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "neðri",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "opprinnelig $ av $ og $",
+    "items": [
+     {
+      "id": "komp",
+      "type_": "entity"
+     },
+     {
+      "article_id": 40445,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 47328,
+        "lemma": "ned",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 40467,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 47364,
+        "lemma": "nede",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 40483,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 47386,
+        "lemma": "nederst",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "nedre",
+   "hgno": 0,
+   "id": 47431,
+   "lemma": "nedre",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "nedre"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "nederst"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "nederste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 522,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-09 10:09:45",
+ "suggest": [
+  "nedre"
+ ]
+}

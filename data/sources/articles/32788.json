@@ -1,0 +1,111 @@
+{
+ "article_id": 32788,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "kunstner som skaper $, $ $",
+      "items": [
+       {
+        "article_id": 36728,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 43113,
+          "lemma": "maleri",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "malerier"
+       },
+       {
+        "article_id": 651,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1450,
+          "lemma": "akvarell",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "akvareller"
+       },
+       {
+        "id": "o_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "maler",
+   "hgno": 0,
+   "id": 38464,
+   "inflection_class": "m2",
+   "initial_lexeme": "kunst",
+   "lemma": "kunstmaler",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kunstmaler"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kunstmaleren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kunstmalere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kunstmalerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-10 13:29:35",
+ "suggest": [
+  "kunstmaler"
+ ]
+}

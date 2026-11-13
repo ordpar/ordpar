@@ -1,0 +1,242 @@
+{
+ "article_id": 44129,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ eller inndeling i lov(samling), traktat eller annet dokument, markert med $",
+      "items": [
+       {
+        "article_id": 3839,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 4577,
+          "lemma": "avsnitt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 44134,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 51097,
+          "lemma": "paragraftegn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "paragraf 100 i Grunnloven omhandler ytringsfriheten",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 125506,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "paragraf som ikke blir håndhevet i praksis",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2010906,
+         "lemma": "sovende paragraf",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 125506,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "sovende paragraf"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 125508,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "følge loven svært strengt",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "være pirkete og formell",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "$ $",
+            "items": [
+             {
+              "id": "jf",
+              "type_": "entity"
+             },
+             {
+              "article_id": 44132,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 51095,
+                "lemma": "paragrafrytter",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2010907,
+         "lemma": "ri paragrafer",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 125508,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "ri paragrafer"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $ og $, opprinnelig ‘tilleggstegn’ som markerer nytt avsnitt",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "para-",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "-graf",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "paragraf",
+   "hgno": 0,
+   "id": 51092,
+   "inflection_class": "m1",
+   "lemma": "paragraf",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "paragraf"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "paragrafen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "paragrafer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "paragrafene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-06 14:32:13",
+ "suggest": [
+  "paragraf"
+ ]
+}

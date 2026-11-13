@@ -1,0 +1,153 @@
+{
+ "article_id": 109489,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "lysmengde som per tids- og flateenhet faller inn mot en flate",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 5206,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 6121,
+          "lemma": "belysningsstyrke",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 36160,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 41974,
+          "lemma": "lux",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "illuminare",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 25836,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 30811,
+        "lemma": "illuminere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "illuminans",
+   "hgno": 0,
+   "id": 162284,
+   "inflection_class": "m1",
+   "lemma": "illuminans",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "illuminans"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "illuminansen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "illuminanser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "illuminansene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-10 14:09:18",
+ "suggest": [
+  "illuminans"
+ ]
+}

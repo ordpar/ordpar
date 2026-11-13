@@ -1,0 +1,224 @@
+{
+ "article_id": 42843,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "på østsiden, i den østlige delen av et område",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "i $",
+      "items": [
+       {
+        "article_id": 42842,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 81102,
+          "lemma": "øst",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 1,
+          "id": 3817,
+          "lemma": "aust",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "mot øst, i østlig retning",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bo $ for fjellet",
+       "items": [
+        {
+         "items": [],
+         "text": "øst",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "dra $ i landet",
+       "items": [
+        {
+         "items": [],
+         "text": "øst",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "langt øst",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "vinden dreier øst",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "da.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "øst",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "austr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 42901,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 81203,
+        "lemma": "østre",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 3892,
+        "lemma": "austre",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "øst",
+   "hgno": 2,
+   "id": 81100,
+   "lemma": "øst",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "øst"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "aust",
+   "hgno": 2,
+   "id": 3815,
+   "lemma": "aust",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "aust"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-05 11:08:18",
+ "suggest": [
+  "øst",
+  "aust"
+ ]
+}

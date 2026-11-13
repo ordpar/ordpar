@@ -1,0 +1,212 @@
+{
+ "article_id": 34763,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "vanlig medlem av et kirkesamfunn",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "til forskjell fra $",
+        "items": [
+         {
+          "article_id": 46098,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 53105,
+            "lemma": "prest",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "prekenen ble holdt av en $",
+         "items": [
+          {
+           "items": [],
+           "text": "lekmann",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "ufaglært person",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 34743,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 40437,
+        "lemma": "lek",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 40235,
+        "lemma": "leg",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mann",
+   "hgno": 0,
+   "id": 40467,
+   "inflection_class": "m.",
+   "initial_lexeme": "lek",
+   "lemma": "lekmann",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lekmann"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "lekmannen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "lekmenn"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "lekmennene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 623,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "mann",
+   "hgno": 0,
+   "id": 40344,
+   "inflection_class": "m.",
+   "initial_lexeme": "leg",
+   "lemma": "legmann",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "legmann"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "legmannen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "legmenn"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "legmennene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 623,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-05-23 11:19:41",
+ "suggest": [
+  "lekmann",
+  "legmann"
+ ]
+}

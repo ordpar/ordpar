@@ -1,0 +1,276 @@
+{
+ "article_id": 20930,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "mann med høyere $",
+      "items": [
+       {
+        "article_id": 166,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 960,
+          "lemma": "adelstittel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "prinser og $",
+       "items": [
+        {
+         "text": "grever",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 102427,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "ha det svært bra",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1142012,
+         "lemma": "leve som en greve",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 102427,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "leve som en greve"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 102428,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "i siste $ rette øyeblikk",
+            "items": [
+             {
+              "id": "el",
+              "type_": "relation"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "komme i grevens tid",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1142013,
+         "lemma": "i grevens tid",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 102428,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "i grevens tid"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "greifi",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "relation"
+     },
+     {
+      "id": "ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "m.lat.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "opprinnelig $ hofftittel $ ‘skriver’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     },
+     {
+      "text": "grapheus",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 20606,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 138,
+        "lemma": "-graf",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "greve",
+   "hgno": 0,
+   "id": 24466,
+   "inflection_class": "m1",
+   "lemma": "greve",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "greve"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "greven"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "grever"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "grevene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-16 07:25:32",
+ "suggest": [
+  "greve"
+ ]
+}

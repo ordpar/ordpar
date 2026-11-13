@@ -1,0 +1,143 @@
+{
+ "article_id": 136625,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ som er under opplæring for å bli $ i ett gitt felt",
+      "items": [
+       {
+        "article_id": 34253,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 40274,
+          "lemma": "lege",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 56007,
+        "definition_id": 4,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 64457,
+          "lemma": "spesialist",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "fork",
+        "type_": "entity"
+       },
+       {
+        "article_id": 136589,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3045697,
+          "lemma": "LIS",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en lege i spesialisering er ferdig utdannet lege, men har ikke fullført spesialiseringen sin",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "han er lege i spesialisering i kirurgi",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 34253,
+        "lemmas": [
+         {
+          "lemma": "lege"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "lege i spesialisering",
+   "hgno": 0,
+   "id": 3076745,
+   "is_standard": true,
+   "lemma": "lege i spesialisering",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2025-09-15",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "lege i spesialisering"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-09-15 12:23:47"
+}

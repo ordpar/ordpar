@@ -1,0 +1,263 @@
+{
+ "article_id": 68710,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "som er uten $",
+      "items": [
+       {
+        "article_id": 68707,
+        "definition_id": 6,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79311,
+          "lemma": "virvel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "virvler"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 106337,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "dyr uten ryggrad eller ryggstreng, for eksempel insekter, krepsdyr, snegler og skjell",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "$",
+            "items": [
+             {
+              "article_id": 27104,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 32206,
+                "lemma": "invertebrat",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref",
+              "word_form": "invertebrater"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "$ $",
+            "items": [
+             {
+              "id": "t_forsk_f",
+              "type_": "entity"
+             },
+             {
+              "article_id": 68709,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 79313,
+                "lemma": "virveldyr",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1143788,
+         "lemma": "virvelløse dyr",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 106337,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "virvelløse dyr"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "løs",
+   "hgno": 0,
+   "id": 79315,
+   "inflection_class": "a1",
+   "initial_lexeme": "virvel",
+   "lemma": "virvelløs",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "virvelløs"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "virvelløse"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "virvelløse"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "virvelløst"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "added_norm": false,
+   "final_lexeme": "laus",
+   "hgno": 0,
+   "id": 79314,
+   "inflection_class": "a1",
+   "initial_lexeme": "virvel",
+   "lemma": "virvellaus",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "virvellaus"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "virvellause"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "virvellause"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "virvellaust"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-15 10:12:28",
+ "suggest": [
+  "virvelløs",
+  "virvellaus"
+ ]
+}

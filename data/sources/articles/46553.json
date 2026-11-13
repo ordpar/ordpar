@@ -1,0 +1,241 @@
+{
+ "article_id": 46553,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "i $: behandling av en sak i retten, særlig om partenes innlegg",
+        "items": [
+         {
+          "id": "jur",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 49668,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 56992,
+            "lemma": "sakførsel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "måte å gå fram på",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 17498,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 20292,
+            "lemma": "framgangsmåte",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 20706,
+            "lemma": "fremgangsmåte",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "innøve $ ved en redningsaksjon",
+         "items": [
+          {
+           "items": [],
+           "text": "prosedyren",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 43258,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 50119,
+            "lemma": "ordkløyveri",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 50117,
+            "lemma": "ordkløveri",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 45032,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 52001,
+            "lemma": "pirk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "formalistisk ordstrid",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "diskusjonen utartet til $",
+         "items": [
+          {
+           "items": [],
+           "text": "prosedyre",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "prosedyre",
+   "hgno": 0,
+   "id": 53579,
+   "inflection_class": "m1",
+   "lemma": "prosedyre",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "prosedyre"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "prosedyren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "prosedyrer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "prosedyrene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-30 08:39:48",
+ "suggest": [
+  "prosedyre"
+ ]
+}

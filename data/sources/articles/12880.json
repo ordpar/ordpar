@@ -1,0 +1,121 @@
+{
+ "article_id": 12880,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person $ firma som tar på seg større bygge- og anleggsarbeider for en $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "article_id": 8338,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9932,
+          "lemma": "byggherre",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘ta på seg, ta fatt på’",
+    "items": [
+     {
+      "id": "fr.",
+      "type_": "language"
+     },
+     {
+      "text": "entreprendre",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "angtreprenøˊr",
+    "items": [],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "entreprenøˊr",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "entreprenør",
+   "hgno": 0,
+   "id": 15002,
+   "inflection_class": "m1",
+   "lemma": "entreprenør",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "entreprenør"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "entreprenøren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "entreprenører"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "entreprenørene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-11 12:55:21",
+ "suggest": [
+  "entreprenør"
+ ]
+}

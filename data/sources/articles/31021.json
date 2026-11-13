@@ -1,0 +1,150 @@
+{
+ "article_id": 31021,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i grammatikk: form av adjektiv og adverb som uttrykker en høyere grad enn $ og lavere enn $",
+      "items": [
+       {
+        "article_id": 45704,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 52711,
+          "lemma": "positiv",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 58392,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 66849,
+          "lemma": "superlativ",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "‘større’ er $ av ‘stor’",
+       "items": [
+        {
+         "text": "komparativ",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 31023,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 36534,
+        "lemma": "komparere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "komparativ",
+   "hgno": 1,
+   "id": 36533,
+   "inflection_class": "m1",
+   "lemma": "komparativ",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "komparativ"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "komparativen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "komparativer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "komparativene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-27 13:49:30",
+ "suggest": [
+  "komparativ"
+ ]
+}

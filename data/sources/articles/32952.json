@@ -1,0 +1,141 @@
+{
+ "article_id": 32952,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "målenhet for areal som tilsvarer flateinnholdet av et $ med sider på en meter",
+      "items": [
+       {
+        "article_id": 32948,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 38641,
+          "lemma": "kvadrat",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "symbol $",
+      "items": [
+       {
+        "items": [
+         {
+          "items": [],
+          "text": "2",
+          "type_": "superscript"
+         }
+        ],
+        "text": "m$",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "stua er på 50 kvadratmeter",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 38135,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 44743,
+        "lemma": "meter",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "meter",
+   "hgno": 0,
+   "id": 82825,
+   "inflection_class": "m.",
+   "initial_lexeme": "kvadrat",
+   "lemma": "kvadratmeter",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kvadratmeter"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kvadratmeteren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kvadratmeter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kvadratmeterne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 577,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-04-08 13:23:33",
+ "suggest": [
+  "kvadratmeter"
+ ]
+}

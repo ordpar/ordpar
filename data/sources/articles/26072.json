@@ -1,0 +1,318 @@
+{
+ "article_id": 26072,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$: det å slutte fra en rekke enkelttilfeller til det allmenne",
+        "items": [
+         {
+          "id": "i_filos",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "mots",
+          "type_": "entity"
+         },
+         {
+          "article_id": 9449,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 11153,
+            "lemma": "deduksjon",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: det å få fram elektrisk strøm i en leder ved å endre magnetfeltet rundt",
+        "items": [
+         {
+          "id": "i_fys",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 103101,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "det at elektrisk ladning blir utviklet på overflaten av en $ når lederen blir plassert i et $ felt",
+              "items": [
+               {
+                "article_id": 34200,
+                "definition_id": 6,
+                "definition_order": 3,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 40204,
+                  "lemma": "leder",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               },
+               {
+                "article_id": 118135,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 95427,
+                  "lemma": "elektrostatisk",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1145764,
+           "lemma": "elektrostatisk induksjon",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103101,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "elektrostatisk induksjon"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 118483,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "produksjon av elektrisitet ved å forandre den magnetiske $ gjennom strømkretsen",
+              "items": [
+               {
+                "article_id": 15515,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 1,
+                  "id": 18013,
+                  "lemma": "fluks",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref",
+                "word_form": "fluksen"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1143407,
+           "lemma": "elektromagnetisk induksjon",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 118483,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "elektromagnetisk induksjon"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i biologi: det at visse celler $ stoffer, $ under fosterutviklingen, utløser en bestemt vekst hos visse andre celler eller gjør at visse andre stoffer dannes",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         },
+         {
+          "id": "saerl",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i medisin: det å framkalle eller stimulere til en ønsket respons",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 6,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $ ‘føre inn’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "inducere",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "jamfør $",
+    "items": [
+     {
+      "article_id": 26083,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 31063,
+        "lemma": "indusere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "induksjon",
+   "hgno": 0,
+   "id": 31053,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "induksjon",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "induksjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "induksjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "induksjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "induksjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-12-19 10:05:01"
+}

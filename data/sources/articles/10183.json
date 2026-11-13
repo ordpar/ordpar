@@ -1,0 +1,169 @@
+{
+ "article_id": 10183,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "elektrisk komponent med to $ (en $ og en $) der strømmen går i én retning, fra anoden til katoden",
+      "items": [
+       {
+        "article_id": 12326,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 14400,
+          "lemma": "elektrode",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "elektroder"
+       },
+       {
+        "article_id": 2018,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2546,
+          "lemma": "anode",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 29015,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 34283,
+          "lemma": "katode",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ og $ ‘vei’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     },
+     {
+      "text": "di-",
+      "type_": "usage"
+     },
+     {
+      "text": "hodos",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 9967,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 11693,
+        "lemma": "di-",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 41793,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 265,
+        "lemma": "-ode",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "diode",
+   "hgno": 0,
+   "id": 11920,
+   "inflection_class": "m1",
+   "lemma": "diode",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "diode"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "dioden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "dioder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "diodene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-05-05 08:57:53",
+ "suggest": [
+  "diode"
+ ]
+}

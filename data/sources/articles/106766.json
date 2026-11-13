@@ -1,0 +1,118 @@
+{
+ "article_id": 106766,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som står på $ som hobby $ sport",
+      "items": [
+       {
+        "article_id": 106765,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 83174,
+          "lemma": "skateboard",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ $ ‘skøyteløper’",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "skater",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "skeiˋter",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "skater",
+   "hgno": 0,
+   "id": 160402,
+   "inflection_class": "m2",
+   "lemma": "skater",
+   "paradigm_info": [
+    {
+     "from": "2017-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "skater"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "skateren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "skatere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "skaterne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-07 13:08:25",
+ "suggest": [
+  "skater"
+ ]
+}

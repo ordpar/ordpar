@@ -1,0 +1,165 @@
+{
+ "article_id": 621,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "offentlig $ i en straffesak",
+      "items": [
+       {
+        "article_id": 1912,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2412,
+          "lemma": "anklager",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "mots",
+        "type_": "relation"
+       },
+       {
+        "article_id": 17009,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19749,
+          "lemma": "forsvarer",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘handlende person’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 355,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 1140,
+        "lemma": "agere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "akˊtor, $ akˊtorer",
+    "items": [
+     {
+      "content": "i flertall",
+      "items": [],
+      "type_": "pronunciation_guide"
+     }
+    ],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "aktoˊrer",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "aktor",
+   "hgno": 0,
+   "id": 1419,
+   "inflection_class": "m1",
+   "lemma": "aktor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aktor"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "aktoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "aktorer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "aktorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-25 16:14:25",
+ "suggest": [
+  "aktor"
+ ]
+}

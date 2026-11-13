@@ -1,0 +1,100 @@
+{
+ "article_id": 123730,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "ha sorg $ kjenne skam",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "være sterkt forkjølet med rennende nese",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "jeg har gått med nesa i en klut hele uka",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 40677,
+        "lemmas": [
+         {
+          "lemma": "nese"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gå med nesa i en klut",
+   "hgno": 0,
+   "id": 2859543,
+   "lemma": "gå med nesa i en klut",
+   "paradigm_info": [
+    {
+     "from": "2023-01-13",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "gå med nesa i en klut"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-01-13 10:03:52",
+ "suggest": [
+  "gå med nesa i en klut"
+ ]
+}

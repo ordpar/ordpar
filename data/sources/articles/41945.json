@@ -1,0 +1,151 @@
+{
+ "article_id": 41945,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som stammer fra $ gjelder svært gammel tid",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "i ord som $ og $",
+      "items": [
+       {
+        "article_id": 41958,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 49040,
+          "lemma": "oldfunn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 41963,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 49045,
+          "lemma": "oldtid",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ av $ $ ‘gammel’",
+    "items": [
+     {
+      "id": "trol",
+      "type_": "entity"
+     },
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     },
+     {
+      "text": "olt",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "old",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $ $ ‘tidsalder’,  $ og $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "ǫld",
+      "type_": "usage"
+     },
+     {
+      "text": "alder",
+      "type_": "usage"
+     },
+     {
+      "text": "ale",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "old-",
+   "hgno": 0,
+   "id": 49032,
+   "lemma": "old-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "old-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-07-21 02:07:29",
+ "suggest": [
+  "old-"
+ ]
+}

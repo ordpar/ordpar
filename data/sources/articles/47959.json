@@ -1,0 +1,199 @@
+{
+ "article_id": 47959,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "konstruksjon av stenger, spiler $ med en $ øverst, særlig på siden av trapp, bro, terrasse $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       },
+       {
+        "article_id": 116046,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 165734,
+          "lemma": "håndlist",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 165735,
+          "lemma": "handlist",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 19381,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 22659,
+          "lemma": "gelender",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 47951,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 55083,
+        "lemma": "rekke",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 67841,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 78330,
+        "lemma": "verk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "verk",
+   "hgno": 0,
+   "id": 55088,
+   "inflection_class": "n1",
+   "initial_lexeme": "rekk",
+   "lemma": "rekkverk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rekkverk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "rekkverket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "rekkverk"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rekkverka"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rekkverk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "rekkverket"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "rekkverk"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rekkverkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-02 08:40:51",
+ "suggest": [
+  "rekkverk"
+ ]
+}

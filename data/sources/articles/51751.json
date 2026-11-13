@@ -1,0 +1,162 @@
+{
+ "article_id": 51751,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "frukt av $",
+      "items": [
+       {
+        "article_id": 51756,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 59489,
+          "lemma": "sitrontre",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "sitrontreet"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 104909,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "få mest mulig ut av noe",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1146936,
+         "lemma": "presse sitronen",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 104909,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "presse sitronen"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "fr.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $ ‘sitrontre’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "citrus",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sitron",
+   "hgno": 0,
+   "id": 59484,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "sitron",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "sitron"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "sitronen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "sitroner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "sitronene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-06-26 12:05:21"
+}

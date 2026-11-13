@@ -1,0 +1,121 @@
+{
+ "article_id": 24561,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "pengeseddel verdt 100 kroner",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 24559,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28966,
+          "lemma": "hundrekroneseddel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 33877,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 39743,
+        "lemma": "lapp",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lapp",
+   "hgno": 0,
+   "id": 28968,
+   "inflection_class": "m1",
+   "initial_lexeme": "hundre",
+   "lemma": "hundrelapp",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hundrelapp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hundrelappen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hundrelapper"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hundrelappene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-09 13:46:48",
+ "suggest": [
+  "hundrelapp"
+ ]
+}

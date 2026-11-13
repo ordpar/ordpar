@@ -1,0 +1,175 @@
+{
+ "article_id": 9918,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "3. $ $ $, trykksterkt",
+      "items": [
+       {
+        "id": "pers",
+        "type_": "entity"
+       },
+       {
+        "id": "ent",
+        "type_": "grammar"
+       },
+       {
+        "id": "n",
+        "type_": "grammar"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $,  $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 9729,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 11450,
+          "lemma": "den",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 9411,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 11112,
+          "lemma": "de",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "havregryn og vann, $ var alt vi hadde",
+       "items": [
+        {
+         "text": "det",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ huset kjøper vi!",
+       "items": [
+        {
+         "text": "det",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "hva er $ for noe?",
+       "items": [
+        {
+         "text": "det",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, $ av $ ‘den’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "þat, þet",
+      "type_": "usage"
+     },
+     {
+      "id": "n",
+      "type_": "grammar"
+     },
+     {
+      "text": "sá",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "det",
+   "hgno": 2,
+   "id": 11645,
+   "lemma": "det",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "det"
+      }
+     ],
+     "inflection_group": "DET_simple",
+     "paradigm_id": 399,
+     "standardisation": "STANDARD",
+     "tags": [
+      "DET",
+      "Dem",
+      "Neuter",
+      "Sing"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2018-06-13 10:46:11",
+ "suggest": [
+  "det"
+ ]
+}

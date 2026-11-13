@@ -1,0 +1,157 @@
+{
+ "article_id": 26842,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som ikke er i stand til å betale gjelden sin",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "ikke $",
+      "items": [
+       {
+        "article_id": 55554,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 63957,
+          "lemma": "solvent",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "firmaet er $",
+       "items": [
+        {
+         "text": "insolvent",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "relation"
+     },
+     {
+      "id": "ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $ $",
+    "items": [
+     {
+      "id": "it.",
+      "type_": "language"
+     },
+     {
+      "text": "insolvente",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "insolvent",
+   "hgno": 0,
+   "id": 82702,
+   "inflection_class": "a2",
+   "lemma": "insolvent",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "insolvent"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "insolvente"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "insolvente"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "insolvent"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-18 14:52:38",
+ "suggest": [
+  "insolvent"
+ ]
+}

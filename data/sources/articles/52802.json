@@ -1,0 +1,127 @@
+{
+ "article_id": 52802,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "førsteledd i ord som betegner noe som bare er tilsynelatende",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 52801,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 81882,
+          "lemma": "skinn",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 52809,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 60903,
+          "lemma": "skinndød",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 60900,
+          "lemma": "skinndaud",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 52821,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 60918,
+          "lemma": "skinnhellig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 52825,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 60922,
+          "lemma": "skinnmanøver",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "skinn-",
+   "hgno": 0,
+   "id": 60893,
+   "inflection_class": "i sms.",
+   "is_standard": true,
+   "lemma": "skinn-",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "skinn-"
+      }
+     ],
+     "inflection_group": "COMPPFX",
+     "paradigm_id": 42,
+     "standardisation": "STANDARD",
+     "tags": [
+      "COMPPFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-08-21 12:17:01"
+}

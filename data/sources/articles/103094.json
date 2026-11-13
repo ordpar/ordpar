@@ -1,0 +1,110 @@
+{
+ "article_id": 103094,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "setningsledd som angir hvem $ hva som har nytte $ skade av verbalhandlingen",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "i setningen ‘jeg gav gutten en bok’ er ‘gutten’ $ objekt",
+       "items": [
+        {
+         "items": [],
+         "text": "indirekte",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "content": "Se: $, $, $",
+      "items": [
+       {
+        "article_id": 26023,
+        "lemmas": [
+         {
+          "lemma": "indirekte"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 41738,
+        "lemmas": [
+         {
+          "lemma": "objekt"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 52591,
+        "lemmas": [
+         {
+          "lemma": "skatt"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "indirekte objekt",
+   "hgno": 0,
+   "id": 1145763,
+   "is_standard": true,
+   "lemma": "indirekte objekt",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "indirekte objekt"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-09-22 11:00:35"
+}

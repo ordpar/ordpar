@@ -1,0 +1,166 @@
+{
+ "article_id": 20609,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ brukt til å lage ord om noe som er skrevet $ opptegnet",
+      "items": [
+       {
+        "article_id": 58242,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 66694,
+          "lemma": "suffiks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "vitenskap eller verk som beskriver for oppskriving eller opptegning",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 6045,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 7122,
+          "lemma": "biografi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 19502,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 22778,
+          "lemma": "geografi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 35416,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 81695,
+          "lemma": "litografi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, av $ ‘skrive’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "-graphia",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "graphein",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "-grafi",
+   "hgno": 1,
+   "id": 139,
+   "inflection_class": "m1",
+   "lemma": "-grafi",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "-grafi"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "-grafien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "-grafier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "-grafiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-03-31 11:23:06",
+ "suggest": [
+  "-grafi"
+ ]
+}

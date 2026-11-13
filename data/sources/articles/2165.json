@@ -1,0 +1,148 @@
+{
+ "article_id": 2165,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 50164,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 57548,
+          "lemma": "sannsynligvis",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ ikke",
+       "items": [
+        {
+         "text": "antakeligvis",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 2164,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 2690,
+        "lemma": "antakelig",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 1,
+        "id": 83548,
+        "lemma": "antagelig",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 106614,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 350,
+        "lemma": "-vis",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vis",
+   "hgno": 0,
+   "id": 2691,
+   "initial_lexeme": "antakelig",
+   "lemma": "antakeligvis",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "antakeligvis"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "vis",
+   "hgno": 0,
+   "id": 82165,
+   "initial_lexeme": "antagelig",
+   "lemma": "antageligvis",
+   "paradigm_info": [
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "antageligvis"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-18 07:31:03",
+ "suggest": [
+  "antakeligvis",
+  "antageligvis"
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "article_id": 110619,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "firkantet $ avrundet stykke av skifer, tegl, betong $ til $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "id": "e_l",
+        "type_": "entity"
+       },
+       {
+        "article_id": 59642,
+        "definition_id": 3,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 68263,
+          "lemma": "taktekking",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "stein",
+   "hgno": 0,
+   "id": 144937,
+   "inflection_class": "m1",
+   "initial_lexeme": "tak",
+   "lemma": "takstein",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "takstein"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "taksteinen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "taksteiner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "taksteinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-02-23 14:56:12",
+ "suggest": [
+  "takstein"
+ ]
+}

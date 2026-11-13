@@ -1,0 +1,185 @@
+{
+ "article_id": 4822,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "underlag for skip som er under bygging $ reparasjon",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 100874,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "$: under arbeid",
+            "items": [
+             {
+              "id": "overf",
+              "type_": "rhetoric"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "content": "i ferd med å bli fullført",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "hun har en ny bok på beddingen",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1147933,
+         "lemma": "på beddingen",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 100874,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "på beddingen"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 4,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "el",
+      "type_": "relation"
+     },
+     {
+      "id": "nederl.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $ $ ‘tverrbjelke’",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "biti",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "bedding",
+   "hgno": 0,
+   "id": 5660,
+   "inflection_class": "m1",
+   "lemma": "bedding",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bedding"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "beddingen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "beddinger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "beddingene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-09-05 11:58:52",
+ "suggest": [
+  "bedding"
+ ]
+}

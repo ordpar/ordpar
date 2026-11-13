@@ -1,0 +1,104 @@
+{
+ "article_id": 20772,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $: langsomt og med høytidelig karakter",
+      "items": [
+       {
+        "id": "mus",
+        "type_": "domain"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "it.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $ $ ‘tung’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "gravis",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "relation"
+     },
+     {
+      "article_id": 20794,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 24288,
+        "lemma": "gravis",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "grave",
+   "hgno": 1,
+   "id": 24262,
+   "lemma": "grave",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "grave"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-02-16 07:25:33",
+ "suggest": [
+  "grave"
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "article_id": 5639,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "sykelig tilstand som er en følge av en lokal vevsreaksjon på skade",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 67840,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 78329,
+          "lemma": "verk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 26145,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 31126,
+          "lemma": "inflammasjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 28984,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 34251,
+          "lemma": "katarr",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det gikk $ i såret",
+       "items": [
+        {
+         "text": "betennelse",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "få betennelse i leddene",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 5852,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 6853,
+          "lemma": "bihulebetennelse",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 6851,
+          "lemma": "biholebetennelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 23835,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28141,
+          "lemma": "hjernehinnebetennelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 50866,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58544,
+          "lemma": "senebetennelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 42760,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 81012,
+          "lemma": "ørebetennelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘framkalle betennelse’, opprinnelig ‘antenne’",
+    "items": [
+     {
+      "id": "foreld",
+      "type_": "temporal"
+     },
+     {
+      "text": "betenne",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_litt"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "betenˊnelse",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "betennelse",
+   "hgno": 0,
+   "id": 6620,
+   "inflection_class": "m1",
+   "lemma": "betennelse",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "betennelse"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "betennelsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "betennelser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "betennelsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-03-08 09:08:15",
+ "suggest": [
+  "betennelse"
+ ]
+}

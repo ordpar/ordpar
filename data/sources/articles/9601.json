@@ -1,0 +1,218 @@
+{
+ "article_id": 9601,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som er med på eller er innblandet i",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 37500,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 43959,
+          "lemma": "medansvarlig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 37600,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 44065,
+          "lemma": "medskyldig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 25934,
+        "definition_id": 6,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 30905,
+          "lemma": "implisere",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "implisert"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "være delaktig i smugling",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "la publikum føle seg delaktig i forestillingen",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 9599,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 11311,
+        "lemma": "del",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 600,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 11,
+        "lemma": "-aktig",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "deˋlakti",
+    "items": [],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "delakˊti",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "aktig",
+   "hgno": 0,
+   "id": 11313,
+   "inflection_class": "a2",
+   "initial_lexeme": "del",
+   "is_standard": true,
+   "lemma": "delaktig",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "delaktig"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "delaktige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "delaktige"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "delaktig"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2020-08-21 13:35:17"
+}

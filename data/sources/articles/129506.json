@@ -1,0 +1,86 @@
+{
+ "article_id": 129506,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "avlive en hel eller deler av en besetning av (hus)dyr $ sykdom $",
+      "items": [
+       {
+        "id": "pga",
+        "type_": "entity"
+       },
+       {
+        "id": "o_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de må slakte ned hele saueflokken på grunn av skrapesyke",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 54217,
+        "lemmas": [
+         {
+          "lemma": "slakte"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "slakte ned",
+   "hgno": 0,
+   "id": 2873217,
+   "is_standard": true,
+   "lemma": "slakte ned",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2023-10-20",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "slakte ned"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-08-18 07:27:55"
+}

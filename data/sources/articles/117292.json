@@ -1,0 +1,143 @@
+{
+ "article_id": 117292,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "ørliten stund",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 134885,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "attest": [],
+            "content": "om en liten stund",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "attest": [],
+            "content": "ganske snart",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 3022901,
+         "lemma": "om [noen få|et par] strakser",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 134885,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "om [noen få|et par] strakser"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 57535,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 65883,
+        "lemma": "straks",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "straks",
+   "hgno": 1,
+   "id": 166400,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "straks",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "2021-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "straks"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "straksen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "strakser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "straksene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 1
+  }
+ ],
+ "submitted": "2024-09-23 13:00:27"
+}

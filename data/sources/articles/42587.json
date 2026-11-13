@@ -1,0 +1,317 @@
+{
+ "article_id": 42587,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "person som kommer med innvendinger",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ (i diskusjon)",
+        "items": [
+         {
+          "article_id": 39321,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 46079,
+            "lemma": "motstander",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "motstander"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "person som ved en $ går kritisk gjennom doktorandens avhandling",
+        "items": [
+         {
+          "article_id": 10542,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12334,
+            "lemma": "doktordisputas",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "første og andre $ i disputasen",
+         "items": [
+          {
+           "items": [],
+           "text": "opponent",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 124677,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "person som er oppnevnt av universitetet til å opptre som kritiker av doktoravhandling ved en $",
+              "items": [
+               {
+                "article_id": 10542,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 12334,
+                  "lemma": "doktordisputas",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "content": "$ $",
+              "items": [
+               {
+                "id": "jf",
+                "type_": "entity"
+               },
+               {
+                "article_id": 42588,
+                "definition_id": 4,
+                "definition_order": 2,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 49775,
+                  "lemma": "opponere",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2009499,
+           "lemma": "opponent ex officio",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 124677,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "opponent ex officio"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 104226,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "person som opponerer fra tilhørerplass",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "$ $",
+              "items": [
+               {
+                "id": "jf",
+                "type_": "entity"
+               },
+               {
+                "article_id": 42588,
+                "definition_id": 4,
+                "definition_order": 2,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 49775,
+                  "lemma": "opponere",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146823,
+           "lemma": "opponent ex auditorio",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 104226,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "opponent ex auditorio"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 42588,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 49775,
+        "lemma": "opponere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "opponent",
+   "hgno": 0,
+   "id": 49774,
+   "inflection_class": "m1",
+   "lemma": "opponent",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "opponent"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "opponenten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "opponenter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "opponentene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-04 09:29:15",
+ "suggest": [
+  "opponent"
+ ]
+}

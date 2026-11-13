@@ -1,0 +1,131 @@
+{
+ "article_id": 41848,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "på feil side",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "ute av spill",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 41847,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 48936,
+          "lemma": "offside",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "være $",
+       "items": [
+        {
+         "items": [],
+         "text": "offside",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bli spilt $",
+       "items": [
+        {
+         "items": [],
+         "text": "offside",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "åfˊfsaid",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "offside",
+   "hgno": 2,
+   "id": 48935,
+   "lemma": "offside",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "offside"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-16 10:41:17",
+ "suggest": [
+  "offside"
+ ]
+}

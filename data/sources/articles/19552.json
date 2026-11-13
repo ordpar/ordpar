@@ -1,0 +1,234 @@
+{
+ "article_id": 19552,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "bevegelse med hånd eller arm brukt til å uttrykke tanke eller følelse eller til å understreke en ytring",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$, $, $",
+        "items": [
+         {
+          "article_id": 19329,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 22600,
+            "lemma": "geberde",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 13627,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 15821,
+            "lemma": "fakte",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 19559,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 22837,
+            "lemma": "gestus",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "symbolsk handling",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en vakker $",
+         "items": [
+          {
+           "text": "gest",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "det var bare en $",
+         "items": [
+          {
+           "text": "gest",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "relation"
+     },
+     {
+      "id": "fr.",
+      "type_": "language"
+     },
+     {
+      "text": "geste",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "relation"
+     },
+     {
+      "article_id": 19559,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 22837,
+        "lemma": "gestus",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "gest",
+    "items": [],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "sjest",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gest",
+   "hgno": 0,
+   "id": 22830,
+   "inflection_class": "m1",
+   "lemma": "gest",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "gest"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "gesten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "gester"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "gestene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-04-19 10:34:01",
+ "suggest": [
+  "gest"
+ ]
+}

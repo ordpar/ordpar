@@ -1,0 +1,116 @@
+{
+ "article_id": 136589,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "betegnelse for $ som er under opplæring for å bli spesialist i et medisinsk fagfelt",
+      "items": [
+       {
+        "article_id": 34253,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 40274,
+          "lemma": "lege",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 136769,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3078447,
+          "lemma": "LIS-lege",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 136625,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 3076745,
+          "lemma": "lege i spesialisering",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "forkorting for $",
+    "items": [
+     {
+      "article_id": 136625,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 3076745,
+        "lemma": "lege i spesialisering",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "LIS",
+   "hgno": 0,
+   "id": 3045697,
+   "is_standard": true,
+   "lemma": "LIS",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "LIS"
+      }
+     ],
+     "inflection_group": "ABBR",
+     "paradigm_id": 40,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ABBR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-01-16 13:11:03"
+}

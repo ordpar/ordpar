@@ -1,0 +1,188 @@
+{
+ "article_id": 8720,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "liten $ som kan brukes til lagring av for eksempel musikk, og som blir avlest ved hjelp av en laserstråle",
+      "items": [
+       {
+        "article_id": 45189,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52167,
+          "lemma": "plate",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 8724,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 157301,
+          "lemma": "cd-plate",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 443,
+          "lemma": "CD-plate",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , $ for $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "id": "fork_ing",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "compact disc",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "cd",
+   "hgno": 1,
+   "id": 156601,
+   "inflection_class": "m.",
+   "lemma": "cd",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "cd"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "cd-en"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "cd-er"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "cd-ene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 565,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "CD",
+   "hgno": 2,
+   "id": 442,
+   "inflection_class": "m.",
+   "lemma": "CD",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "CD"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "CD-en"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "CD-er"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "CD-ene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 565,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-25 14:57:05",
+ "suggest": [
+  "cd",
+  "CD"
+ ]
+}

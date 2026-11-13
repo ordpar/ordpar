@@ -1,0 +1,224 @@
+{
+ "article_id": 56839,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "del av ord som er bygd opp av en kjerne (vokal $ stavelsesbærende konsonant) med eventuelle andre lyder foran eller bak seg",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 106805,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 65366,
+            "lemma": "staving",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ordet ‘kaste’ består av stavelsene ‘kas’ og ‘te’",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 130279,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "stavelse som ender på en konsonant eller en konsonantgruppe",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2873939,
+           "lemma": "lukket stavelse",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 130279,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "lukket stavelse"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 130280,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "stavelse som ender på en vokal",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2873940,
+           "lemma": "åpen stavelse",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 130280,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "åpen stavelse"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "minste tegn til ytring",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han nevnte det ikke med en $",
+         "items": [
+          {
+           "text": "stavelse",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "stavelse",
+   "hgno": 0,
+   "id": 65358,
+   "inflection_class": "m1",
+   "lemma": "stavelse",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "stavelse"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "stavelsen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "stavelser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "stavelsene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-03-10 11:04:12",
+ "suggest": [
+  "stavelse"
+ ]
+}

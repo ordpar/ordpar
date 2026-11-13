@@ -1,0 +1,190 @@
+{
+ "article_id": 23382,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "stor $, ofte med tilhørende $",
+      "items": [
+       {
+        "article_id": 19096,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 25384,
+          "lemma": "gård",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 2,
+          "id": 22325,
+          "lemma": "gard",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 64262,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 73601,
+          "lemma": "underbruk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 24295,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28651,
+          "lemma": "hovedgård",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 28649,
+          "lemma": "hovedgard",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gård",
+   "hgno": 0,
+   "id": 27571,
+   "inflection_class": "m1",
+   "initial_lexeme": "herre",
+   "lemma": "herregård",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "herregård"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "herregården"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "herregårder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "herregårdene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "gard",
+   "hgno": 0,
+   "id": 27568,
+   "inflection_class": "m1",
+   "initial_lexeme": "herre",
+   "lemma": "herregard",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "herregard"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "herregarden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "herregarder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "herregardene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-01 15:01:46",
+ "suggest": [
+  "herregård",
+  "herregard"
+ ]
+}

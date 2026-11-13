@@ -1,0 +1,279 @@
+{
+ "article_id": 44597,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "gi pensjon til",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "la en arbeidstaker gå av med pensjon",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bedriften pensjonerer ansatte over 65 år",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 124837,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "gå av med pensjon",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2009786,
+           "lemma": "pensjonere seg",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 124837,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "pensjonere seg"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "elements": [
+         {
+          "content": "brukt som $:",
+          "items": [
+           {
+            "id": "adj",
+            "type_": "entity"
+           }
+          ],
+          "type_": "explanation"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "en pensjonert lærer",
+           "items": []
+          },
+          "type_": "example"
+         }
+        ],
+        "id": 1,
+        "sub_definition": true,
+        "type_": "definition"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: ta ut av bruk",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "legge ned",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "avvikle",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de måtte pensjonere flyene",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "pensjonere",
+   "hgno": 0,
+   "id": 51563,
+   "inflection_class": "v2",
+   "lemma": "pensjonere",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "pensjonere"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "pensjonerer"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "pensjoneres"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "pensjoneres"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "pensjonerte"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "pensjonert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "pensjonert"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "pensjonert"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "pensjonerte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "pensjonerte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "pensjonerende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "pensjoner"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 16,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-10-17 10:38:46",
+ "suggest": [
+  "pensjonere"
+ ]
+}

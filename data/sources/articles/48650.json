@@ -1,0 +1,217 @@
+{
+ "article_id": 48650,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "kornplante av slekta $ i $",
+        "items": [
+         {
+          "items": [],
+          "text": "Oryza",
+          "type_": "usage"
+         },
+         {
+          "article_id": 20912,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 24436,
+            "lemma": "gressfamilie",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 24175,
+            "lemma": "grasfamilie",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "gressfamilien"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "items": [],
+          "text": "Oryza sativa",
+          "type_": "usage"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "korn av $",
+        "items": [
+         {
+          "article_id": 48650,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 55875,
+            "lemma": "ris",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 104623,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "riskorn kokt under høyt trykk slik at de har svellet ut og blitt sprø og lette",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1146888,
+           "lemma": "puffet ris",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 104623,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "puffet ris"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ n",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "rís",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ av orientalsk $",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "id": "opph",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ris",
+   "hgno": 1,
+   "id": 55875,
+   "inflection_class": "m1",
+   "lemma": "ris",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ris"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "risen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "riser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "risene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-17 11:06:18",
+ "suggest": [
+  "ris"
+ ]
+}

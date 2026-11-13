@@ -1,0 +1,165 @@
+{
+ "article_id": 10890,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "ekstra betaling til servitør, sjåfør eller lignende for god $",
+      "items": [
+       {
+        "article_id": 51095,
+        "definition_id": 5,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58787,
+          "lemma": "service",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 158979,
+          "lemma": "sørvis",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 10882,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12718,
+          "lemma": "drikkepenger",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 61077,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 69880,
+          "lemma": "tips",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "når du reiser til et nytt land, er det lurt å sjekke hva som er vanlig å gi i driks",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $, $ for $",
+    "items": [
+     {
+      "id": "sv.",
+      "type_": "language"
+     },
+     {
+      "text": "dricks",
+      "type_": "usage"
+     },
+     {
+      "id": "fork_ing",
+      "type_": "entity"
+     },
+     {
+      "text": "drickspenningar",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "driks",
+   "hgno": 0,
+   "id": 12729,
+   "inflection_class": "m1",
+   "lemma": "driks",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "driks"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "driksen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "drikser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "driksene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-12-10 11:11:04",
+ "suggest": [
+  "driks"
+ ]
+}

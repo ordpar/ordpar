@@ -1,0 +1,96 @@
+{
+ "article_id": 58712,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "førsteledd i ord som beskriver familieforhold som er oppstått ved ekteskap eller samboerskap",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "for eksempel i $ og $",
+      "items": [
+       {
+        "article_id": 58713,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 67193,
+          "lemma": "svigerdatter",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 58714,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 83347,
+          "lemma": "svigerfar",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "sviger-",
+   "hgno": 0,
+   "id": 67192,
+   "inflection_class": "i sms.",
+   "lemma": "sviger-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "sviger-"
+      }
+     ],
+     "inflection_group": "COMPPFX",
+     "paradigm_id": 42,
+     "standardisation": "STANDARD",
+     "tags": [
+      "COMPPFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-06-25 06:33:49",
+ "suggest": [
+  "sviger-"
+ ]
+}

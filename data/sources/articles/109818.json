@@ -1,0 +1,100 @@
+{
+ "article_id": 109818,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "benk med sitteplasser i kirke",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 119611,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 167967,
+          "lemma": "kirkestol",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "benk",
+   "hgno": 0,
+   "id": 113024,
+   "inflection_class": "m1",
+   "initial_lexeme": "kirke",
+   "lemma": "kirkebenk",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kirkebenk"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kirkebenken"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kirkebenker"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kirkebenkene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-12 07:42:55",
+ "suggest": [
+  "kirkebenk"
+ ]
+}

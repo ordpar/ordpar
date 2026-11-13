@@ -1,0 +1,132 @@
+{
+ "article_id": 133330,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som holder seg i bakgrunnen",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "som ikke gir uttrykk for hva en føler, mener $",
+      "items": [
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 60693,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 69430,
+          "lemma": "tilbakeholden",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 48227,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 55391,
+          "lemma": "reservert",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "holdende",
+   "hgno": 0,
+   "id": 2072801,
+   "inflection_class": "a3",
+   "initial_lexeme": "tilbake",
+   "is_standard": true,
+   "lemma": "tilbakeholdende",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tilbakeholdende"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "tilbakeholdende"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "tilbakeholdende"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "tilbakeholdende"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 447,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-05-22 12:09:49"
+}

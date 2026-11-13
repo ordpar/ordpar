@@ -1,0 +1,172 @@
+{
+ "article_id": 41797,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "gård som noen har $ til",
+      "items": [
+       {
+        "article_id": 41802,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 48892,
+          "lemma": "odelsrett",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 1283,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 80862,
+          "lemma": "ættegård",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 80858,
+          "lemma": "ættegard",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "gård",
+   "hgno": 0,
+   "id": 48888,
+   "inflection_class": "m1",
+   "initial_lexeme": "odel",
+   "junction": "s",
+   "lemma": "odelsgård",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "odelsgård"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "odelsgården"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "odelsgårder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "odelsgårdene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "gard",
+   "hgno": 0,
+   "id": 48885,
+   "inflection_class": "m1",
+   "initial_lexeme": "odel",
+   "junction": "s",
+   "lemma": "odelsgard",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "odelsgard"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "odelsgarden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "odelsgarder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "odelsgardene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-22 12:52:41",
+ "suggest": [
+  "odelsgård",
+  "odelsgard"
+ ]
+}

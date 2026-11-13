@@ -1,0 +1,116 @@
+{
+ "article_id": 45492,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "ballspill som spilles til hest og med lange køller",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 66527,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76439,
+          "lemma": "vannpolo",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 77153,
+          "lemma": "vasspolo",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $ , fra tibetansk",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "polo",
+   "hgno": 0,
+   "id": 52478,
+   "inflection_class": "m1",
+   "lemma": "polo",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "polo"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "poloen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "poloer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "poloene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-03-12 06:19:07",
+ "suggest": [
+  "polo"
+ ]
+}

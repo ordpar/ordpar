@@ -1,0 +1,271 @@
+{
+ "article_id": 4334,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ av $ som spiller og opptrer sammen",
+      "items": [
+       {
+        "article_id": 21216,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 24778,
+          "lemma": "gruppe",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 39595,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 46391,
+          "lemma": "musiker",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "musikere"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "spille i $",
+       "items": [
+        {
+         "text": "band",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bandet legger snart ut på turné",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 70230,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 93323,
+          "lemma": "danseband",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 27569,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 32701,
+          "lemma": "jazzband",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 32677,
+          "lemma": "jassband",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 45591,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52580,
+          "lemma": "popband",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 52598,
+          "lemma": "poppband",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 4340,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 5135,
+        "lemma": "bande",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "bann",
+    "items": [],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "bænn",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "band",
+   "hgno": 2,
+   "id": 5126,
+   "inflection_class": "n1",
+   "lemma": "band",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "band"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bandet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "band"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "banda"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "band"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bandet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "band"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bandene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-27 11:27:03",
+ "suggest": [
+  "band"
+ ]
+}

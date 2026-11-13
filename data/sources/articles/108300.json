@@ -1,0 +1,129 @@
+{
+ "article_id": 108300,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ for korrekt $ ved en bestemt anledning, $ bryllup",
+      "items": [
+       {
+        "article_id": 30684,
+        "definition_id": 6,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 36152,
+          "lemma": "kodeks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 2280,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2811,
+          "lemma": "antrekk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "f_eks",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 108301,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 161426,
+          "lemma": "kleskode",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kodeks",
+   "hgno": 0,
+   "id": 161425,
+   "inflection_class": "m1",
+   "initial_lexeme": "antrekk",
+   "junction": "s",
+   "lemma": "antrekkskodeks",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "antrekkskodeks"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "antrekkskodeksen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "antrekkskodekser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "antrekkskodeksene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-12-02 12:25:32",
+ "suggest": [
+  "antrekkskodeks"
+ ]
+}

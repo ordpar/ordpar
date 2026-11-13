@@ -1,0 +1,137 @@
+{
+ "article_id": 23698,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som ødelegger kroppens $ og er årsak til sykdommen $",
+      "items": [
+       {
+        "article_id": 68701,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79304,
+          "lemma": "virus",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 108635,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 108766,
+          "lemma": "immunforsvar",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 412,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1198,
+          "lemma": "aids",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ for $ $ ‘menneskelig immunsviktvirus’",
+    "items": [
+     {
+      "id": "fork_ing",
+      "type_": "entity"
+     },
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "Human Immune Deficiency Virus",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hiv",
+   "hgno": 1,
+   "id": 27911,
+   "inflection_class": "m1",
+   "lemma": "hiv",
+   "paradigm_info": [
+    {
+     "from": "2018-02-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hiv"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hiven"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hiver"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hivene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-06-10 09:25:32",
+ "suggest": [
+  "hiv"
+ ]
+}

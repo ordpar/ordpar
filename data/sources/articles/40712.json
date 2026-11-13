@@ -1,0 +1,158 @@
+{
+ "article_id": 40712,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som kommer like etter $ i funksjon og rang, og som kan ta formannens plass ved behov",
+      "items": [
+       {
+        "article_id": 16535,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 19172,
+          "lemma": "formann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "formannen"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 66625,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76599,
+          "lemma": "varaformann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 68730,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79336,
+          "lemma": "viseformann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 40714,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 47642,
+          "lemma": "nestleder",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 40703,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 47630,
+        "lemma": "nest",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "formann",
+   "hgno": 0,
+   "id": 47640,
+   "inflection_class": "m.",
+   "initial_lexeme": "nest",
+   "lemma": "nestformann",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "nestformann"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "nestformannen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "nestformenn"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "nestformennene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 623,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-01 11:46:07",
+ "suggest": [
+  "nestformann"
+ ]
+}

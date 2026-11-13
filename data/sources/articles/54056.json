@@ -1,0 +1,150 @@
+{
+ "article_id": 54056,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "førsteledd i $ som betegner en vernende person, ånd eller lignende",
+      "items": [
+       {
+        "id": "sms_er",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 54057,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 62324,
+          "lemma": "skytsengel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 54058,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 62325,
+          "lemma": "skytshelgen",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 54060,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 62327,
+          "lemma": "skytsånd",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ $ ‘beskyttelse, hjelp’",
+    "items": [
+     {
+      "id": "e",
+      "type_": "entity"
+     },
+     {
+      "id": "da.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "skyts, skyt",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $ $ ‘beskyttelse, vern’ og $ som $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "id": "ty.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "Schutz",
+      "type_": "usage"
+     },
+     {
+      "id": "sms",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "Schutzengel, -geist",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "skyts-",
+   "hgno": 0,
+   "id": 62323,
+   "inflection_class": "i sms.",
+   "lemma": "skyts-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "skyts-"
+      }
+     ],
+     "inflection_group": "COMPPFX",
+     "paradigm_id": 42,
+     "standardisation": "STANDARD",
+     "tags": [
+      "COMPPFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-11-21 08:06:30",
+ "suggest": [
+  "skyts-"
+ ]
+}

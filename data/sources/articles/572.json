@@ -1,0 +1,126 @@
+{
+ "article_id": 572,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "(metall)stang som enten selv går rundt og overfører kraft fra motor til mekanisk maskin, $ som ligger rolig og bærer oppe $ binder sammen roterende maskindeler (hjul)",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 506,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 3,
+          "id": 1289,
+          "lemma": "aksel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 506,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 1289,
+        "lemma": "aksel",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "aksling",
+   "hgno": 0,
+   "id": 1369,
+   "inflection_class": "m1",
+   "lemma": "aksling",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "aksling"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "akslingen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "akslinger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "akslingene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-17 15:34:25",
+ "suggest": [
+  "aksling"
+ ]
+}

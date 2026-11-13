@@ -1,0 +1,209 @@
+{
+ "article_id": 67342,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "penger en får igjen etter å ha betalt med en større pengeverdi enn det noe koster",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hun fikk 14 kroner tilbake i vekslepenger",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "slippe opp for $",
+         "items": [
+          {
+           "text": "vekslepenger",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 135734,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "bare små summer",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "content": "$",
+              "items": [
+               {
+                "article_id": 54984,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 63290,
+                  "lemma": "småpenger",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 3045246,
+           "lemma": "bare vekslepenger",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 135734,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "bare vekslepenger"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "(løse) mynter",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 52750,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 60840,
+            "lemma": "skillemynt",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ha lommene fulle av vekslepenger",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "penger",
+   "hgno": 0,
+   "id": 77731,
+   "inflection_class": "m.",
+   "initial_lexeme": "veksle",
+   "is_standard": true,
+   "lemma": "vekslepenger",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vekslepenger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vekslepengene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 655,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-07-14 10:53:20"
+}

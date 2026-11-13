@@ -1,0 +1,158 @@
+{
+ "article_id": 43385,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "relativt stor fugl i $ som har $",
+      "items": [
+       {
+        "article_id": 112122,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 163670,
+          "lemma": "fasanfamilie",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "fasanfamilien"
+       },
+       {
+        "article_id": 124395,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2009043,
+          "lemma": "paringslek",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 2009044,
+          "lemma": "paringsleik",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "items": [],
+        "text": "Lyrurus tetrix",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 43386,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50253,
+          "lemma": "orrhane",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 43387,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 50254,
+          "lemma": "orrhøne",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "fugl",
+   "hgno": 0,
+   "id": 50252,
+   "inflection_class": "m1",
+   "initial_lexeme": "orr",
+   "lemma": "orrfugl",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "orrfugl"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "orrfuglen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "orrfugler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "orrfuglene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-27 14:44:20",
+ "suggest": [
+  "orrfugl"
+ ]
+}

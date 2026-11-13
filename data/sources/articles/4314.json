@@ -1,0 +1,292 @@
+{
+ "article_id": 4314,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "i $: fellesbetegnelse for tropiske planter med grønne blader som vokser tett inntil $",
+        "items": [
+         {
+          "id": "bot",
+          "type_": "domain"
+         },
+         {
+          "article_id": 57814,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 66152,
+            "lemma": "strå",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $ og $",
+        "items": [
+         {
+          "id": "f_eks",
+          "type_": "entity"
+         },
+         {
+          "text": "Fargesia nitida",
+          "type_": "usage"
+         },
+         {
+          "text": "Guadua",
+          "type_": "usage"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en hekk av bambus i hagen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, $ av $ til $",
+        "items": [
+         {
+          "article_id": 62204,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 71136,
+            "lemma": "trevirke",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 37355,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 43781,
+            "lemma": "materiale",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 43778,
+            "lemma": "material",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 57020,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 83926,
+            "lemma": "stengel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "stengelen"
+         },
+         {
+          "article_id": 4314,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 5105,
+            "lemma": "bambus",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "kurv flettet av bambus",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "mykt stoff av $ fra $",
+        "items": [
+         {
+          "article_id": 60119,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 68782,
+            "lemma": "tekstilfiber",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 4314,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 5105,
+            "lemma": "bambus",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "klær laget av bambus, hamp og økologisk bomull",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "relation"
+     },
+     {
+      "id": "nederl.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "fra $ $, trolig lånt fra et annet språk",
+    "items": [
+     {
+      "id": "malayisk",
+      "type_": "language"
+     },
+     {
+      "text": "bambu",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bambus",
+   "hgno": 0,
+   "id": 5105,
+   "inflection_class": "m1",
+   "lemma": "bambus",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bambus"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bambusen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bambuser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bambusene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-27 11:27:03",
+ "suggest": [
+  "bambus"
+ ]
+}

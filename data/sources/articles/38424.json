@@ -1,0 +1,175 @@
+{
+ "article_id": 38424,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ av en $",
+      "items": [
+       {
+        "denominator": "1000",
+        "items": [],
+        "numerator": "1",
+        "type_": "fraction"
+       },
+       {
+        "article_id": 38135,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 44743,
+          "lemma": "meter",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "symbol $",
+      "items": [
+       {
+        "items": [],
+        "text": "mm",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "nedbør måles i $",
+       "items": [
+        {
+         "items": [],
+         "text": "millimeter",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 123294,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "perfekt",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "det stemte på millimeteren",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2007195,
+         "lemma": "på millimeteren",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 123294,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "på millimeteren"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "meter",
+   "hgno": 0,
+   "id": 82956,
+   "inflection_class": "m.",
+   "initial_lexeme": "milli",
+   "lemma": "millimeter",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "millimeter"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "millimeteren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "millimeter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "millimeterne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 577,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-25 10:28:32",
+ "suggest": [
+  "millimeter"
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "article_id": 17011,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som forsvarer en som er $ i en rettssak",
+      "items": [
+       {
+        "article_id": 262,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1050,
+          "lemma": "advokat",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 98085,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 158568,
+          "lemma": "tiltalt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "advokat",
+   "hgno": 0,
+   "id": 19751,
+   "inflection_class": "m1",
+   "initial_lexeme": "forsvar",
+   "junction": "s",
+   "lemma": "forsvarsadvokat",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "forsvarsadvokat"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "forsvarsadvokaten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "forsvarsadvokater"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "forsvarsadvokatene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-05-06 15:57:14",
+ "suggest": [
+  "forsvarsadvokat"
+ ]
+}

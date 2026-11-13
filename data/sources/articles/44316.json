@@ -1,0 +1,126 @@
+{
+ "article_id": 44316,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "enhet for trykk = 1 $/m$",
+      "items": [
+       {
+        "article_id": 40785,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 47735,
+          "lemma": "newton",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "text": "2",
+        "type_": "superscript"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "symbol $",
+      "items": [
+       {
+        "text": "Pa",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "etter $ til den franske matematikeren og filosofen $, 1623–1662",
+    "items": [
+     {
+      "id": "navnet",
+      "type_": "entity"
+     },
+     {
+      "text": "Blaise Pascal",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "paskalˊl",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "pascal",
+   "hgno": 0,
+   "id": 51286,
+   "inflection_class": "m.",
+   "lemma": "pascal",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pascal"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pascalen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pascal"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pascalene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 579,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-01-29 05:56:26",
+ "suggest": [
+  "pascal"
+ ]
+}

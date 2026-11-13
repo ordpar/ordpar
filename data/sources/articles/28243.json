@@ -1,0 +1,133 @@
+{
+ "article_id": 28243,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "kraftig hest med rolig gemytt av europeisk rase",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "til forskjell fra $, $ og $",
+      "items": [
+       {
+        "article_id": 18355,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 21470,
+          "lemma": "fullblodshest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 22025,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 25725,
+          "lemma": "halvblodshest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 66702,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76680,
+          "lemma": "varmblodshest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "fjording og dølehest er typiske kaldblodshester",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hest",
+   "hgno": 0,
+   "id": 33455,
+   "inflection_class": "m1",
+   "initial_lexeme": "kaldblod",
+   "is_standard": true,
+   "junction": "s",
+   "lemma": "kaldblodshest",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kaldblodshest"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kaldblodshesten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kaldblodshester"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kaldblodshestene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-08-25 05:59:14"
+}

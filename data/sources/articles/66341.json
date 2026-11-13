@@ -1,0 +1,151 @@
+{
+ "article_id": 66341,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ som viser at noe mangler eller er dårlig",
+      "items": [
+       {
+        "article_id": 45949,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52955,
+          "lemma": "prefiks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 66431,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76245,
+          "lemma": "vanmakt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 66580,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76548,
+          "lemma": "vanskapt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 66603,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 76571,
+          "lemma": "vantrives",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, av $ ‘som mangler’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "van-",
+      "type_": "usage"
+     },
+     {
+      "text": "vanr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 66601,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 76568,
+        "lemma": "vante",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "van-",
+   "hgno": 0,
+   "id": 76148,
+   "is_standard": true,
+   "lemma": "van-",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "van-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-10-21 12:25:18"
+}

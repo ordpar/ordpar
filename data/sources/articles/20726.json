@@ -1,0 +1,188 @@
+{
+ "article_id": 20726,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $: de brede lag i folket",
+      "items": [
+       {
+        "id": "bf",
+        "type_": "grammar"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "i motsetning til makthavere, ledere $",
+      "items": [
+       {
+        "id": "o_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 20727,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 24201,
+          "lemma": "grasrotbevegelse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ha kontakt med $",
+       "items": [
+        {
+         "text": "grasrota",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "etter $ $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "grass roots",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "rot",
+   "hgno": 2,
+   "id": 24200,
+   "inflection_class": "m., f.",
+   "initial_lexeme": "gras",
+   "lemma": "grasrot",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "grasrot"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "grasroten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "grasrøtter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "grasrøttene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 622,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "grasrot"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "grasrota"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "grasrøtter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "grasrøttene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 786,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-13 08:57:42",
+ "suggest": [
+  "grasrot"
+ ]
+}

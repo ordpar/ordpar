@@ -1,0 +1,143 @@
+{
+ "article_id": 39403,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "smått avfall",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "rusk, $",
+      "items": [
+       {
+        "article_id": 38799,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 45527,
+          "lemma": "mo",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 49637,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 56958,
+          "lemma": "sagmugg",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 38799,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 45527,
+        "lemma": "mo",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mugg",
+   "hgno": 4,
+   "id": 46152,
+   "inflection_class": "m1",
+   "lemma": "mugg",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mugg"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "muggen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mugger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "muggene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-05 10:49:45",
+ "suggest": [
+  "mugg"
+ ]
+}

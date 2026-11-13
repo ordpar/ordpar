@@ -1,0 +1,121 @@
+{
+ "article_id": 110206,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "bøndene som samfunnsklasse",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 110161,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 162646,
+          "lemma": "bondeklasse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 56654,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 3,
+        "id": 82128,
+        "lemma": "stand",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "stand",
+   "hgno": 0,
+   "id": 162666,
+   "inflection_class": "m1",
+   "initial_lexeme": "bonde",
+   "lemma": "bondestand",
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bondestand"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bondestanden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bondestander"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bondestandene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-12-14 10:22:54",
+ "suggest": [
+  "bondestand"
+ ]
+}

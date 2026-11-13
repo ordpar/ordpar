@@ -1,0 +1,244 @@
+{
+ "article_id": 49374,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "eldre måleenhet for eksponering av $ eller $",
+        "items": [
+         {
+          "article_id": 127200,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 2255969,
+            "lemma": "røntgenstråling",
+            "markdown_lemma": "røntgenstråling",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 19000,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 22204,
+            "lemma": "gammastråling",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 20823,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 24318,
+            "lemma": "gray",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 49376,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 56802,
+            "lemma": "røntgenbilde",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ta røntgen av foten",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 127196,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 2120181,
+            "lemma": "røntgenundersøkelse",
+            "markdown_lemma": "røntgenundersøkelse",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 2860722,
+            "lemma": "røntgenundersøking",
+            "markdown_lemma": "røntgenundersøking",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "bli sendt til røntgen",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hun har fått time til røntgen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "etter $ til den tyske fysikeren $, 1845–1923",
+    "items": [
+     {
+      "id": "navnet",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "Wilhelm Röntgen",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "røntgen",
+   "hgno": 0,
+   "id": 56800,
+   "inflection_class": "m.",
+   "lemma": "røntgen",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "røntgen"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "røntgenen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "røntgen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "røntgenene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 579,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-07-26 11:48:55",
+ "suggest": [
+  "røntgen"
+ ]
+}

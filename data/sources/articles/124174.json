@@ -1,0 +1,155 @@
+{
+ "article_id": 124174,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "forelder til bestefar eller bestemor",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 41949,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 83018,
+          "lemma": "oldefar",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 41951,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 83020,
+          "lemma": "oldemor",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "forelder",
+   "hgno": 0,
+   "id": 127098,
+   "inflection_class": "m.",
+   "initial_lexeme": "old",
+   "junction": "e",
+   "lemma": "oldeforelder",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "oldeforelder"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "oldeforelderen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "oldeforeldre"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "oldeforeldra"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 587,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "oldeforelder"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "oldeforelderen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "oldeforeldre"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "oldeforeldrene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 588,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-31 11:31:37",
+ "suggest": [
+  "oldeforelder"
+ ]
+}

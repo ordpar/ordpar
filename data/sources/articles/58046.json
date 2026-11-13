@@ -1,0 +1,241 @@
+{
+ "article_id": 58046,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "beiteområde med hus der en bor og har buskapen om sommeren, særlig på fjellet",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 51138,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 58832,
+            "lemma": "seter",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ligge på $ hele sommeren",
+         "items": [
+          {
+           "text": "stølen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 136983,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "til $",
+              "items": [
+               {
+                "article_id": 58046,
+                "definition_id": 2,
+                "definition_order": 1,
+                "lemmas": [
+                 {
+                  "hgno": 1,
+                  "id": 66487,
+                  "lemma": "støl",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref",
+                "word_form": "stølen"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "dra til $ med buskapen",
+               "items": [
+                {
+                 "text": "støls",
+                 "type_": "usage"
+                }
+               ]
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 3095185,
+           "lemma": "til støls",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 136983,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "til støls"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 122694,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 2006141,
+            "lemma": "melkeplass",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 2006142,
+            "lemma": "mjølkeplass",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ ‘plass der en melker buskapen’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "stǫðull",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "støl",
+   "hgno": 1,
+   "id": 66487,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "støl",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "støl"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "stølen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "støler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "stølene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-06-10 08:11:19"
+}

@@ -1,0 +1,267 @@
+{
+ "article_id": 6106,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "klauvdyr i $ med korte horn, kraftig forkropp og med rødbrunt, krusete hårlag",
+      "items": [
+       {
+        "article_id": 41893,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 48977,
+          "lemma": "oksefamilie",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "oksefamilien"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "items": [],
+        "text": "Bison",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 109561,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "klauvdyr i slekta $ med nesten svart forkropp og sidt skjegg som går fra haken og til forbeina",
+            "items": [
+             {
+              "items": [],
+              "text": "Bison",
+              "type_": "usage"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "content": "$",
+            "items": [
+             {
+              "items": [],
+              "text": "Bison bison",
+              "type_": "usage"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144397,
+         "lemma": "amerikansk bison",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 109561,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "amerikansk bison"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 109562,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "klauvdyr i slekta $ med høyere bakparti og en mindre pukkel enn $",
+            "items": [
+             {
+              "items": [],
+              "text": "Bison",
+              "type_": "usage"
+             },
+             {
+              "article_id": 109561,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 1144397,
+                "lemma": "amerikansk bison",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "content": "$",
+            "items": [
+             {
+              "article_id": 68737,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 79343,
+                "lemma": "visent",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "content": "$",
+            "items": [
+             {
+              "items": [],
+              "text": "Bison bonasus",
+              "type_": "usage"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1140683,
+         "lemma": "europeisk bison",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 109562,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "europeisk bison"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "germ.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "bison",
+   "hgno": 0,
+   "id": 7182,
+   "inflection_class": "m1",
+   "lemma": "bison",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bison"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bisonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bisoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bisonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-22 09:01:33",
+ "suggest": [
+  "bison"
+ ]
+}

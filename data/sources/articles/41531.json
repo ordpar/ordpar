@@ -1,0 +1,255 @@
+{
+ "article_id": 41531,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "mest $",
+        "items": [
+         {
+          "article_id": 41477,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 48558,
+            "lemma": "nær",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "jeg kom nærmest etter deg i køen",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 123674,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "enhver tenker først på seg selv",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2007849,
+           "lemma": "være seg selv nærmest",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 123674,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "være seg selv nærmest"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "elements": [
+         {
+          "content": "brukt som preposisjon:",
+          "items": [],
+          "type_": "explanation"
+         },
+         {
+          "explanation": {
+           "content": "",
+           "items": []
+          },
+          "quote": {
+           "content": "sitte nærmest inngangen",
+           "items": []
+          },
+          "type_": "example"
+         }
+        ],
+        "id": 1,
+        "sub_definition": true,
+        "type_": "definition"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "mest intim, fortrolig",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "du står dine foreldre $",
+         "items": [
+          {
+           "items": [],
+           "text": "nærmest",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "så godt som, nesten",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han er $ fritenker",
+         "items": [
+          {
+           "items": [],
+           "text": "nærmest",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ av $",
+    "items": [
+     {
+      "id": "superl",
+      "type_": "entity"
+     },
+     {
+      "article_id": 41477,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 48558,
+        "lemma": "nær",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "nærmest",
+   "hgno": 0,
+   "id": 48625,
+   "lemma": "nærmest",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "nærmest"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "added_norm": false,
+   "final_lexeme": "nærest",
+   "hgno": 0,
+   "id": 48573,
+   "lemma": "nærest",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "nærest"
+      }
+     ],
+     "inflection_group": "ADV",
+     "paradigm_id": 560,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADV"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-22 10:02:52",
+ "suggest": [
+  "nærmest",
+  "nærest"
+ ]
+}

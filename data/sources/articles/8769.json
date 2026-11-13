@@ -1,0 +1,261 @@
+{
+ "article_id": 8769,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "skillemynt verdt en hundredel av hovedmynten",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "1 amerikansk eller kanadisk dollar = 100 cent",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "1 euro = 100 cent",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 108818,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "ingen penger",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "(absolutt) ingenting",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "han eier ikke en cent",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1142083,
+         "lemma": "ikke en cent",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 108818,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "ikke en cent"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "article": {
+       "article_id": 108819,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "ikke $, skamme seg, vike tilbake for",
+            "items": [
+             {
+              "article_id": 64609,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 73981,
+                "lemma": "unnse",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "content": "$",
+            "items": [
+             {
+              "article_id": 101783,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 1146413,
+                "lemma": "ikke ta fem øre for",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "hun tar ikke fem cent for å fornærme noen",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1146624,
+         "lemma": "ikke ta fem cent for",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 108819,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "ikke ta fem cent for"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ $ ‘hundre’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "centum",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "cent",
+   "hgno": 0,
+   "id": 10425,
+   "inflection_class": "m.",
+   "lemma": "cent",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "cent"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "centen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "cent"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "centene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 579,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-03-11 12:54:51",
+ "suggest": [
+  "cent"
+ ]
+}

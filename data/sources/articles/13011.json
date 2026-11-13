@@ -1,0 +1,185 @@
+{
+ "article_id": 13011,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "som er av høyeste rang",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "i ord som $ og $",
+        "items": [
+         {
+          "article_id": 13012,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 15136,
+            "lemma": "erkebiskop",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 13017,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 15148,
+            "lemma": "erkeengel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "brukt $",
+        "items": [
+         {
+          "id": "forst",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "i ord som $ og $",
+        "items": [
+         {
+          "article_id": 13018,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 15149,
+            "lemma": "erkefiende",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 13023,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 15154,
+            "lemma": "erkesludder",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "erki-",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "gjennom $",
+    "items": [
+     {
+      "id": "g.eng.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "opprinnelig $ $ ‘over-’, av $ ‘herske’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "arkhi-",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "arkhein",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "erke-",
+   "hgno": 0,
+   "id": 15135,
+   "lemma": "erke-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "erke-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-03 10:18:26",
+ "suggest": [
+  "erke-"
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "article_id": 41120,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som gjelder eller skriver seg fra eller er karakteristisk for Norge og nordmenn",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "et $ produkt",
+       "items": [
+        {
+         "items": [],
+         "text": "norsk",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det $ flagget",
+       "items": [
+        {
+         "items": [],
+         "text": "norske",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 22754,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 26681,
+          "lemma": "heilnorsk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 123842,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 135287,
+          "lemma": "sørnorsk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "m.no.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "nornskr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 41113,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 48088,
+        "lemma": "norrøn",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 52352,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 293,
+        "lemma": "-sk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "norsk",
+   "hgno": 2,
+   "id": 48094,
+   "inflection_class": "a2",
+   "is_standard": true,
+   "lemma": "norsk",
+   "mo_link": 2,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "norsk"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "norske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "norske"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "norsk"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "norskere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "norskest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "norskeste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 437,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 2
+  }
+ ],
+ "submitted": "2022-12-19 10:16:35"
+}

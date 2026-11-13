@@ -1,0 +1,147 @@
+{
+ "article_id": 55714,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ brukt i ord som gjelder samfunnet",
+      "items": [
+       {
+        "article_id": 45949,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52955,
+          "lemma": "prefiks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 55716,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 64128,
+          "lemma": "sosiolekt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 55721,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 64133,
+          "lemma": "sosiometri",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 55726,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 64138,
+          "lemma": "sosioøkonomisk",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "socius",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 55676,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 64086,
+        "lemma": "sosial",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "sosio-",
+   "hgno": 0,
+   "id": 64126,
+   "lemma": "sosio-",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "sosio-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-03-08 09:02:04",
+ "suggest": [
+  "sosio-"
+ ]
+}

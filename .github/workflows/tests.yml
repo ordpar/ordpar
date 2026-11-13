@@ -1,0 +1,47 @@
+# Runs on GitHub's own machine at every push to main, and on demand: joins Bokmålsordboka's
+# articles, runs every test as the README's "Running the tests" says (before any build, so the
+# tests that need a built site, bun or Microsoft Edge are skipped), then builds two articles,
+# the search index and the offline copy.
+name: Tests
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ORDBOK_DATA_DIR: data
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.14"
+      - name: Join Bokmålsordboka's articles
+        run: python ordpar/data_parts.py join data/bokmalsordboka
+      - name: Run the tests, before any build
+        run: |
+          failed=""
+          for f in ordpar/tests/test_*.py tests/test_*.py handover/checks/agent-review/test_agent_review.py; do
+            if ! python "$f" > "$RUNNER_TEMP/test.log" 2>&1; then
+              echo "::group::FAILED: $f"
+              tail -n 80 "$RUNNER_TEMP/test.log"
+              echo "::endgroup::"
+              failed="$failed $f"
+            else
+              tail -n 3 "$RUNNER_TEMP/test.log" | head -n 1 | sed "s|^|$f: |"
+            fi
+          done
+          if [ -n "$failed" ]; then
+            echo "Failed test files:"
+            for f in $failed; do echo "  $f"; done
+            exit 1
+          fi
+      - name: Build two articles, the search index and the offline copy
+        run: |
+          python ordpar/build_site.py --mirror data/bokmalsordboka/bm-articles.jsonl --ids 7663 62174
+          python ordpar/build_index.py --mirror data/bokmalsordboka/bm-articles.jsonl --freq data/frequency/nb-2026-books-nob-1990_freq.frk
+          python ordpar/build_offline.py

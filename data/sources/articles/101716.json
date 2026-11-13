@@ -1,0 +1,97 @@
+{
+ "article_id": 101716,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "krupplignende betennelse i strupehodet",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 32365,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 37988,
+          "lemma": "krupp",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 13725,
+        "lemmas": [
+         {
+          "lemma": "falsk"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 32365,
+        "lemmas": [
+         {
+          "lemma": "krupp"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "falsk krupp",
+   "hgno": 0,
+   "id": 1144576,
+   "lemma": "falsk krupp",
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "falsk krupp"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-11 16:25:55",
+ "suggest": [
+  "falsk krupp"
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "article_id": 40163,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "middel med bedøvende, sløvende eller stimulerende effekt som en kan bli sterkt avhengig av",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $, $, $ og $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 10653,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 12444,
+            "lemma": "dopingmiddel",
+            "markdown_lemma": "dopingmiddel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 34264,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 40284,
+            "lemma": "legemiddel",
+            "markdown_lemma": "legemiddel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 49172,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 56459,
+            "lemma": "rusmiddel",
+            "markdown_lemma": "rusmiddel",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 40153,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 47011,
+            "lemma": "narkotika",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "morfin er et $",
+         "items": [
+          {
+           "items": [],
+           "text": "narkotikum",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "legemidler klassifisert som narkotikum må kun brukes som foreskrevet av legen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$: noe som gir et sterkt velbehag, og som en vil ha mer av",
+        "items": [
+         {
+          "id": "overf",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "for meg er maratonløp en form for narkotikum",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "gjennom latin, fra gresk $, av $",
+    "items": [
+     {
+      "items": [],
+      "text": "narkotikos",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "narkosis",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 40152,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 47010,
+        "lemma": "narkose",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "narkotikum",
+   "hgno": 0,
+   "id": 47022,
+   "inflection_class": "n.",
+   "lemma": "narkotikum",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "narkotikum"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "narkotikumet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "narkotika"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "narkotikaene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 720,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-29 07:22:29",
+ "suggest": [
+  "narkotikum"
+ ]
+}

@@ -1,0 +1,175 @@
+{
+ "article_id": 39172,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "(kokt) knust og ofte spedd masse av en matvare, særlig av frukt og grønnsaker",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 56703,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 65210,
+          "lemma": "stappe",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 12950,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 15078,
+          "lemma": "eplemos",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 36064,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 41871,
+          "lemma": "lungemos",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 45825,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52833,
+          "lemma": "potetmos",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "beslektet med $",
+    "items": [
+     {
+      "article_id": 37333,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 43756,
+        "lemma": "mat",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mos",
+   "hgno": 0,
+   "id": 45928,
+   "inflection_class": "m1",
+   "lemma": "mos",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mos"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "mosen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "moser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "mosene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-04-25 12:47:39",
+ "suggest": [
+  "mos"
+ ]
+}

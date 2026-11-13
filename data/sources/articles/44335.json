@@ -1,0 +1,226 @@
+{
+ "article_id": 44335,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i lagspill, for eksempel fotball: det å sende ballen videre til en medspiller",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 51013,
+        "definition_id": 4,
+        "definition_order": 0,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 58702,
+          "lemma": "sentring",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "upresise $",
+       "items": [
+        {
+         "text": "pasninger",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 124681,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "i fotball: $",
+            "items": [
+             {
+              "article_id": 51007,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 58696,
+                "lemma": "sentre",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2009508,
+         "lemma": "slå en pasning",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 124681,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "slå en pasning"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 44358,
+      "lemmas": [
+       {
+        "hgno": 6,
+        "id": 51321,
+        "lemma": "passe",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "pasning",
+   "hgno": 0,
+   "id": 51304,
+   "inflection_class": "m1, f1",
+   "lemma": "pasning",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pasning"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pasningen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pasninger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pasningene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pasning"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pasninga"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pasninger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pasningene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-01-29 05:57:27",
+ "suggest": [
+  "pasning"
+ ]
+}

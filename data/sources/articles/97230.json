@@ -1,0 +1,109 @@
+{
+ "article_id": 97230,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "dato som angir hvor lenge en vare er $",
+      "items": [
+       {
+        "article_id": 24044,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28366,
+          "lemma": "holdbar",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "matvarer skal være merket med $",
+       "items": [
+        {
+         "text": "holdbarhetsdato",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dato",
+   "hgno": 0,
+   "id": 106968,
+   "inflection_class": "m1",
+   "initial_lexeme": "holdbarhet",
+   "junction": "s",
+   "lemma": "holdbarhetsdato",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "holdbarhetsdato"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "holdbarhetsdatoen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "holdbarhetsdatoer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "holdbarhetsdatoene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-07-02 15:37:27",
+ "suggest": [
+  "holdbarhetsdato"
+ ]
+}

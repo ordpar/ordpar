@@ -1,0 +1,235 @@
+{
+ "article_id": 35652,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som en opphøyer et grunntall, oftest 10, i for å få et visst tall",
+      "items": [
+       {
+        "article_id": 12104,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 14139,
+          "lemma": "eksponent",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "forkortet $ $ $",
+      "items": [
+       {
+        "text": "lg",
+        "type_": "usage"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "text": "log",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ til 100 er 2",
+       "items": [
+        {
+         "text": "logaritmen",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 103742,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "logaritme med grunntall $",
+            "items": [
+             {
+              "items": [],
+              "text": "e",
+              "type_": "usage"
+             }
+            ],
+            "type_": "explanation"
+           },
+           {
+            "content": "$ $",
+            "items": [
+             {
+              "id": "jf",
+              "type_": "entity"
+             },
+             {
+              "article_id": 11628,
+              "definition_id": 4,
+              "definition_order": 2,
+              "lemmas": [
+               {
+                "hgno": 2,
+                "id": 13568,
+                "lemma": "e",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1145856,
+         "lemma": "naturlig logaritme",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 103742,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "naturlig logaritme"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "nylat.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "av $ $ ‘forhold’ og $ ‘tall’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     },
+     {
+      "text": "logos",
+      "type_": "usage"
+     },
+     {
+      "text": "arithmos",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "lågaritˋme",
+    "items": [],
+    "type_": "pronunciation"
+   },
+   {
+    "content": "logaritˋme",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "logaritme",
+   "hgno": 0,
+   "id": 41435,
+   "inflection_class": "m1",
+   "lemma": "logaritme",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "logaritme"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "logaritmen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "logaritmer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "logaritmene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-21 11:48:33",
+ "suggest": [
+  "logaritme"
+ ]
+}

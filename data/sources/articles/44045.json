@@ -1,0 +1,135 @@
+{
+ "article_id": 44045,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "person som $ eiendom, løsøre $",
+        "items": [
+         {
+          "article_id": 44056,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 51013,
+            "lemma": "pantsette",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "pantsetter"
+         },
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "person som $ flasker $",
+        "items": [
+         {
+          "article_id": 44034,
+          "definition_id": 1,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 50990,
+            "lemma": "pante",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "panter"
+         },
+         {
+          "id": "o_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "panter",
+   "hgno": 2,
+   "id": 51001,
+   "inflection_class": "m2",
+   "lemma": "panter",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "panter"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "panteren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pantere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "panterne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-08-30 10:36:45",
+ "suggest": [
+  "panter"
+ ]
+}

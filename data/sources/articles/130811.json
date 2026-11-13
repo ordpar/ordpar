@@ -1,0 +1,98 @@
+{
+ "article_id": 130811,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "noe som har dårlig kvalitet $ lite $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       },
+       {
+        "article_id": 58213,
+        "definition_id": 1,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 66665,
+          "lemma": "substans",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "filmen er en tynn suppe",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 58414,
+        "lemmas": [
+         {
+          "lemma": "suppe"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "tynn suppe",
+   "hgno": 0,
+   "id": 2874650,
+   "is_standard": true,
+   "lemma": "tynn suppe",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2024-01-11",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "tynn suppe"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-11-05 14:03:52"
+}

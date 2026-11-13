@@ -1,0 +1,172 @@
+{
+ "article_id": 68713,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "sterk vind som virvler",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 68711,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79316,
+          "lemma": "virvelstorm",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 122676,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "i full fart",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "raskt",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "hun springer rundt som en virvelvind",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2006109,
+         "lemma": "som en virvelvind",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 122676,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "som en virvelvind"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "hvirfilvindr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "vind",
+   "hgno": 0,
+   "id": 79318,
+   "inflection_class": "m1",
+   "initial_lexeme": "virvel",
+   "lemma": "virvelvind",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "virvelvind"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "virvelvinden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "virvelvinder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "virvelvindene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-03-23 08:33:46",
+ "suggest": [
+  "virvelvind"
+ ]
+}

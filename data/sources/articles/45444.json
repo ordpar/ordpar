@@ -1,0 +1,104 @@
+{
+ "article_id": 45444,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ mot $",
+      "items": [
+       {
+        "article_id": 66168,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 75961,
+          "lemma": "vaksine",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 45443,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52429,
+          "lemma": "poliomyelitt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vaksine",
+   "hgno": 0,
+   "id": 52430,
+   "inflection_class": "m1",
+   "initial_lexeme": "polio",
+   "lemma": "poliovaksine",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "poliovaksine"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "poliovaksinen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "poliovaksiner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "poliovaksinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-11-02 11:44:59",
+ "suggest": [
+  "poliovaksine"
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "article_id": 46636,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "bok $ dokument med referat fra forhandlinger $ møter, med regnskaper, karakterer $",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         },
+         {
+          "id": "el",
+          "type_": "entity"
+         },
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 17675,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 20580,
+            "lemma": "fraværsprotokoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 125906,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 103498,
+            "lemma": "gratulasjonsprotokoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 120035,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 168178,
+            "lemma": "kondolanseprotokoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 39919,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 46901,
+            "lemma": "møteprotokoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "dokument som redegjør for resultatet av (diplomatiske) forhandlinger",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 125905,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 2099985,
+            "lemma": "forhandlingsprotokoll",
+            "markdown_lemma": "forhandlingsprotokoll",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 1,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "formaliteter og seremoniell i diplomatisk samkvem, etikette",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "innlednings- og avslutningsformler i diplomatiske dokumenter",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "følge protokollen",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ og $ ‘lim’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "proto-",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "kolla",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "protokoll",
+   "hgno": 0,
+   "id": 53666,
+   "inflection_class": "m1",
+   "lemma": "protokoll",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "protokoll"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "protokollen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "protokoller"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "protokollene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-05-31 12:48:42",
+ "suggest": [
+  "protokoll"
+ ]
+}

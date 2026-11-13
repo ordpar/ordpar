@@ -1,0 +1,261 @@
+{
+ "article_id": 62890,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "ytterste, spisse $ smalnende del av noe",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "høyhælte pumps med spiss tupp",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 133122,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "(oftest i den uoffisielle formen $)",
+              "items": [
+               {
+                "text": "på tuppa",
+                "type_": "usage"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "content": "svært oppmerksom på noe",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "content": "våken, ivrig",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "han var helt på tuppa av forkavelse",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2981067,
+           "lemma": "på tuppene",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 133122,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "på tuppene"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 14730,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 17038,
+            "lemma": "fingertupp",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 52943,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 61042,
+            "lemma": "skitupp",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "$",
+        "items": [
+         {
+          "article_id": 22332,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 26180,
+            "lemma": "hane",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ i $ 2 $ hanekammen",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "article_id": 61504,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 70347,
+        "lemma": "topp",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "id": "bet",
+      "type_": "entity"
+     },
+     {
+      "id": "pga",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "tupp",
+   "hgno": 1,
+   "id": 71965,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "tupp",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "tupp"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "tuppen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "tupper"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "tuppene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 1
+  }
+ ],
+ "submitted": "2024-12-16 14:30:37"
+}

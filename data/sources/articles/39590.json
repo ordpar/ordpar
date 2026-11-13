@@ -1,0 +1,128 @@
+{
+ "article_id": 39590,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "film $ teaterstykke som består av dialoger, sang og dans",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 39606,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 46405,
+          "lemma": "musikkspill",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 46404,
+          "lemma": "musikkspell",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ($) ‘musikalsk (komedie)'",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "musical",
+      "type_": "usage"
+     },
+     {
+      "items": [],
+      "text": "comedy",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "musikal",
+   "hgno": 0,
+   "id": 46386,
+   "inflection_class": "m1",
+   "lemma": "musikal",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "musikal"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "musikalen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "musikaler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "musikalene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-04-27 07:42:05",
+ "suggest": [
+  "musikal"
+ ]
+}

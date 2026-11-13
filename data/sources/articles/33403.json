@@ -1,0 +1,245 @@
+{
+ "article_id": 33403,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "plante av slekta $ i $",
+        "items": [
+         {
+          "text": "Brassica",
+          "type_": "usage"
+         },
+         {
+          "article_id": 31696,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 37265,
+            "lemma": "korsblomstfamilie",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "korsblomstfamilien"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "blad eller hode av $",
+        "items": [
+         {
+          "article_id": 33403,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 39181,
+            "lemma": "kål",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "servere kål til steken",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 103531,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "ødelegge, gjøre ende på",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1143079,
+           "lemma": "gjøre kål på",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103531,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "gjøre kål på"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 103532,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "forsvinne i snakk og talemåter, ikke bli til noe",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1144895,
+           "lemma": "koke bort i kålen",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 103532,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "koke bort i kålen"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "kál",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "opprinnelig fra $ $",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "language"
+     },
+     {
+      "text": "caulis",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "kål",
+   "hgno": 0,
+   "id": 39181,
+   "inflection_class": "m1",
+   "lemma": "kål",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kål"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kålen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kåler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kålene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-16 07:27:36",
+ "suggest": [
+  "kål"
+ ]
+}

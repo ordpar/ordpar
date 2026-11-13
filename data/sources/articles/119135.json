@@ -1,0 +1,196 @@
+{
+ "article_id": 119135,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "makt som kommer fra rikdom",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sko seg ved hjelp av pengemakt",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "i $ $: $, $",
+        "items": [
+         {
+          "id": "bf",
+          "type_": "entity"
+         },
+         {
+          "id": "ent",
+          "type_": "entity"
+         },
+         {
+          "article_id": 119134,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 167586,
+            "lemma": "kapitalistklasse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "kapitalistklassen"
+         },
+         {
+          "article_id": 119131,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 143318,
+            "lemma": "storkapital",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "storkapitalen"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "de konfronterte pengemakten",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "makt",
+   "hgno": 0,
+   "id": 129776,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "penge",
+   "lemma": "pengemakt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pengemakt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pengemakten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pengemakter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pengemaktene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pengemakt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pengemakta"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pengemakter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pengemaktene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-17 12:26:14",
+ "suggest": [
+  "pengemakt"
+ ]
+}

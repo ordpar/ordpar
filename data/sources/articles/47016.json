@@ -1,0 +1,236 @@
+{
+ "article_id": 47016,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "stokk (som er drevet ned i jorda)",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 47092,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 54114,
+          "lemma": "påle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "bygget hvilte på $",
+       "items": [
+        {
+         "items": [],
+         "text": "pæler",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 104503,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "avlive (en påstand)",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "det kan slås en pæl gjennom ryktet",
+             "items": []
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1147781,
+         "lemma": "slå en pæl gjennom",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 104503,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "slå en pæl gjennom"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 47092,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 54114,
+        "lemma": "påle",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "pæl",
+   "hgno": 0,
+   "id": 54185,
+   "inflection_class": "m1",
+   "lemma": "pæl",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pæl"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pælen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pæler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pælene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "added_norm": false,
+   "final_lexeme": "pel",
+   "hgno": 2,
+   "id": 83044,
+   "inflection_class": "m1",
+   "lemma": "pel",
+   "paradigm_info": [
+    {
+     "from": "2005-07-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pelen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "peler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pelene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-12-20 06:53:16",
+ "suggest": [
+  "pæl",
+  "pel"
+ ]
+}

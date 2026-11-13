@@ -1,0 +1,395 @@
+{
+ "article_id": 34253,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "person med medisinsk embetseksamen som har fått offentlig løyve til å behandle sykdommer",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "oppsøke $",
+         "items": [
+          {
+           "text": "lege",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "sende bud etter $",
+         "items": [
+          {
+           "text": "legen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "en allmennpraktiserende $",
+         "items": [
+          {
+           "text": "lege",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 136625,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "attest": [],
+              "content": "$ som er under opplæring for å bli $ i ett gitt felt",
+              "items": [
+               {
+                "article_id": 34253,
+                "definition_id": 3,
+                "definition_order": 1,
+                "lemmas": [
+                 {
+                  "hgno": 1,
+                  "id": 40274,
+                  "lemma": "lege",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               },
+               {
+                "article_id": 56007,
+                "definition_id": 4,
+                "definition_order": 1,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 64457,
+                  "lemma": "spesialist",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "content": "$ $",
+              "items": [
+               {
+                "id": "fork",
+                "type_": "entity"
+               },
+               {
+                "article_id": 136589,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 3045697,
+                  "lemma": "LIS",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "en lege i spesialisering er ferdig utdannet lege, men har ikke fullført spesialiseringen sin",
+               "items": []
+              },
+              "type_": "example"
+             },
+             {
+              "attest": [],
+              "explanation": {
+               "content": "",
+               "items": []
+              },
+              "quote": {
+               "content": "han er lege i spesialisering i kirurgi",
+               "items": []
+              },
+              "type_": "example"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 3076745,
+           "lemma": "lege i spesialisering",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 136625,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "lege i spesialisering"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 106907,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 160548,
+            "lemma": "fastlege",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 43663,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 50576,
+            "lemma": "overlege",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 42958,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 81287,
+            "lemma": "øyelege",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "brukt som etterledd i sammensetninger: person med lignende utdanning og arbeid som en $",
+        "items": [
+         {
+          "article_id": 34253,
+          "definition_id": 3,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 40274,
+            "lemma": "lege",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 11419,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 13320,
+            "lemma": "dyrlege",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 59864,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 68525,
+            "lemma": "tannlege",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "da.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "$ $ $, $, av $ ‘helbrede’",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "læknir",
+      "type_": "usage"
+     },
+     {
+      "text": "læknari",
+      "type_": "usage"
+     },
+     {
+      "text": "lækna",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "lege",
+   "hgno": 1,
+   "id": 40274,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "lege",
+   "mo_link": 1,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "lege"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "legen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "leger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "legene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 1
+  }
+ ],
+ "submitted": "2025-09-15 12:23:45"
+}

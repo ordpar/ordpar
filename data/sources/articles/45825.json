@@ -1,0 +1,120 @@
+{
+ "article_id": 45825,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "moste, kokte poteter, ofte tilsatt melk, krydder $",
+      "items": [
+       {
+        "id": "o_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 45836,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52843,
+          "lemma": "potetstappe",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 45829,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 83055,
+          "lemma": "potetpuré",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 131097,
+          "lemma": "potetpure",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "mos",
+   "hgno": 0,
+   "id": 52833,
+   "inflection_class": "m1",
+   "initial_lexeme": "potet",
+   "is_standard": true,
+   "lemma": "potetmos",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "potetmos"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "potetmosen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "potetmoser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "potetmosene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-03-31 07:40:33"
+}

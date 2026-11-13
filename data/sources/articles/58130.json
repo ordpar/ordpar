@@ -1,0 +1,98 @@
+{
+ "article_id": 58130,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "radiostasjon som blokkerer sendingene til andre radiostasjoner ved å sende støy på radiofrekvensene deres",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 118544,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 110886,
+          "lemma": "jamming",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "sender",
+   "hgno": 0,
+   "id": 66601,
+   "inflection_class": "m2",
+   "initial_lexeme": "støy",
+   "is_standard": true,
+   "lemma": "støysender",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "støysender"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "støysenderen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "støysendere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "støysenderne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-02-15 13:26:04"
+}

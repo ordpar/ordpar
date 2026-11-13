@@ -1,0 +1,130 @@
+{
+ "article_id": 4324,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "avlang frukt med gult skall av $",
+      "items": [
+       {
+        "article_id": 4328,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 5119,
+          "lemma": "bananplante",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "bananplanten"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "skrelle en banan og spise den",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ $ fra et vestafrikansk språk",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "port.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "banana",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "banaˊn",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "banan",
+   "hgno": 0,
+   "id": 5115,
+   "inflection_class": "m1",
+   "lemma": "banan",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "banan"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bananen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bananer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bananene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-01-05 08:55:25",
+ "suggest": [
+  "banan"
+ ]
+}

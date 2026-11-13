@@ -1,0 +1,43 @@
+// The receiver's Wrangler configuration (site decisions 26, 62, 104). ordpar/receiver/README.md
+// has the commands; ordpar/docs/receiver.md what is collected. The two ids below are filled in
+// from what `wrangler d1 create` and `wrangler kv namespace create` print, on Robin's go.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ordpar-receiver",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-01",
+  // the free <name>.<subdomain>.workers.dev address (26); no per-version preview addresses
+  "workers_dev": true,
+  "preview_urls": false,
+  // Workers Logs OFF (104's box, item 3): Cloudflare keeps no per-request log of this Worker.
+  // New Workers have observability on by default, so it is turned off here explicitly; no
+  // traces, no Logpush.
+  "observability": {
+    "enabled": false,
+    "logs": { "enabled": false, "invocation_logs": false },
+    "traces": { "enabled": false }
+  },
+  "logpush": false,
+  // the daily run: rotate the secret, total yesterday, delete what is past its 90 days (UTC)
+  "triggers": { "crons": ["5 0 * * *"] },
+  // "1" lets http://127.0.0.1:<port> send events: only for local tests (`--var ALLOW_LOCAL:1`).
+  // COUNTING (site decisions 166): "0" — /e not served and the daily run makes no totals, so the
+  // Worker can take reports (POST /report) while the counting is off (104, 166); "1"
+  // turns the counting on. Robin's token for GET /reports is a Worker SECRET, REPORTS_TOKEN
+  // (`wrangler secret put REPORTS_TOKEN`), never here.
+  "vars": { "ALLOW_LOCAL": "0", "COUNTING": "0" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ordpar-events",
+      "database_id": "d676455b-9411-4f42-bf53-f78052da9d73",
+      "migrations_dir": "migrations"
+    }
+  ]
+  // The counting's daily secret (104) lives in Workers KV, binding SECRETS. Reports use no KV
+  // (166's follow-up, 2026-11-05: the per-sender limit and its code dropped), so the binding is
+  // left out while the counting is off, and the Worker deploys for reports with D1 alone. Before
+  // COUNTING is set to "1": create the namespace (README § Turning the counting on later) and put
+  // this block back after the comma it needs, its id filled in:
+  //   ,"kv_namespaces": [ { "binding": "SECRETS", "id": "<the printed id>" } ]
+}

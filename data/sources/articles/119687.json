@@ -1,0 +1,106 @@
+{
+ "article_id": 119687,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ med oversikt over avgangstider for buss, tog $",
+      "items": [
+       {
+        "article_id": 59508,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 68134,
+          "lemma": "tabell",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "togene har fått nye rutetabeller",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "tabell",
+   "hgno": 0,
+   "id": 134929,
+   "inflection_class": "m1",
+   "initial_lexeme": "rute",
+   "lemma": "rutetabell",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rutetabell"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "rutetabellen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "rutetabeller"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rutetabellene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-02-22 11:34:32",
+ "suggest": [
+  "rutetabell"
+ ]
+}

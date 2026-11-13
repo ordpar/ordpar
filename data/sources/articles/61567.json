@@ -1,0 +1,105 @@
+{
+ "article_id": 61567,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "lett, raskt $ med $ som viktigste våpen",
+      "items": [
+       {
+        "article_id": 120802,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 122017,
+          "lemma": "marinefartøy",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 61566,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 70418,
+          "lemma": "torpedo",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "båt",
+   "hgno": 0,
+   "id": 70419,
+   "inflection_class": "m1",
+   "initial_lexeme": "torpedo",
+   "is_standard": true,
+   "lemma": "torpedobåt",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "torpedobåt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "torpedobåten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "torpedobåter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "torpedobåtene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-04-15 12:43:39"
+}

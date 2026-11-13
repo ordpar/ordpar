@@ -1,0 +1,114 @@
+{
+ "article_id": 123339,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "økning i verdien på $, penger $",
+      "items": [
+       {
+        "article_id": 67803,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 78270,
+          "lemma": "verdipapir",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "o_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 123298,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 117983,
+          "lemma": "kursøkning",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "oppgang",
+   "hgno": 0,
+   "id": 118022,
+   "inflection_class": "m1",
+   "initial_lexeme": "kurs",
+   "lemma": "kursoppgang",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kursoppgang"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kursoppgangen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kursoppganger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kursoppgangene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-31 07:29:13",
+ "suggest": [
+  "kursoppgang"
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "article_id": 7462,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "avstand mellom en $ eller et $ og $",
+      "items": [
+       {
+        "article_id": 49923,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 57275,
+          "lemma": "samlelinse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 24474,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28871,
+          "lemma": "hulspeil",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 28434,
+          "lemma": "holspeil",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 7457,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 8803,
+          "lemma": "brennpunkt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "brennpunktet"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "et kamera med 12 mm $",
+       "items": [
+        {
+         "text": "brennvidde",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "et kraftig teleskop med brennvidde på to og en halv meter",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 68168,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 78692,
+        "lemma": "vidde",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vidde",
+   "hgno": 0,
+   "id": 8808,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "brenn",
+   "lemma": "brennvidde",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "brennvidde"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "brennvidden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "brennvidder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "brennviddene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "brennvidde"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "brennvidda"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "brennvidder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "brennviddene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 762,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-04-12 13:08:04",
+ "suggest": [
+  "brennvidde"
+ ]
+}

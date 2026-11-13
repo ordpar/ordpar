@@ -1,0 +1,189 @@
+{
+ "article_id": 10783,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "matrett av melk som er $ og kokt, særlig av ostemassen som samler seg i klumper",
+        "items": [
+         {
+          "article_id": 7472,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 8819,
+            "lemma": "breste",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "brestet"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "fellesbetegnelse på forskjellige osteslag av innkokt melk, $ $ $",
+        "items": [
+         {
+          "article_id": 50257,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 57655,
+            "lemma": "saup",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "el",
+          "type_": "relation"
+         },
+         {
+          "article_id": 39757,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 46571,
+            "lemma": "myse",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "content": "$",
+        "items": [
+         {
+          "article_id": 21600,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 2,
+            "id": 23982,
+            "lemma": "gomme",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "drafli",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "beslektet med $ $ ‘fersk ost’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "language"
+     },
+     {
+      "text": "trophalis",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "dravle",
+   "hgno": 0,
+   "id": 12607,
+   "inflection_class": "m1",
+   "lemma": "dravle",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "dravle"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "dravlen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "dravler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "dravlene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-01-25 15:15:12",
+ "suggest": [
+  "dravle"
+ ]
+}

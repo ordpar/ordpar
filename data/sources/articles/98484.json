@@ -1,0 +1,164 @@
+{
+ "article_id": 98484,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i golf: ett slag under $",
+      "items": [
+       {
+        "article_id": 98472,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 51059,
+          "lemma": "par",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 98492,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 157248,
+          "lemma": "bogey",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 98490,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 157396,
+          "lemma": "eagle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "hun åpnet med en $",
+       "items": [
+        {
+         "text": "birdie",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $ ‘liten fugl’",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "language"
+     },
+     {
+      "text": "birdie",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "bøˊrdi",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "birdie",
+   "hgno": 0,
+   "id": 157239,
+   "inflection_class": "m1",
+   "lemma": "birdie",
+   "paradigm_info": [
+    {
+     "from": "2005-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "birdie"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "birdien"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "birdier"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "birdiene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-17 10:26:17",
+ "suggest": [
+  "birdie"
+ ]
+}

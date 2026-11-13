@@ -1,0 +1,161 @@
+{
+ "article_id": 23041,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som noe lager med $",
+      "items": [
+       {
+        "article_id": 68531,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79128,
+          "lemma": "vinkel",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 24200,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 28550,
+          "lemma": "horisontalplan",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "horisontalplanet"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vinkel",
+   "hgno": 0,
+   "id": 27145,
+   "inflection_class": "m.",
+   "initial_lexeme": "helning",
+   "junction": "s",
+   "lemma": "helningsvinkel",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "helningsvinkel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "helningsvinkelen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "helningsvinkler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "helningsvinklene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 584,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "vinkel",
+   "hgno": 0,
+   "id": 27141,
+   "inflection_class": "m.",
+   "initial_lexeme": "helling",
+   "junction": "s",
+   "lemma": "hellingsvinkel",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "hellingsvinkel"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "hellingsvinkelen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "hellingsvinkler"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "hellingsvinklene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 584,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-08-23 15:53:08",
+ "suggest": [
+  "helningsvinkel",
+  "hellingsvinkel"
+ ]
+}

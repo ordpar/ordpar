@@ -1,0 +1,194 @@
+{
+ "article_id": 28052,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "gruppe av $ som tar selvstendige avgjørelser i domssaker (tidligere brukt i straffesaker i den norske lagmannsretten)",
+        "items": [
+         {
+          "article_id": 118854,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 120035,
+            "lemma": "lekfolk",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 119873,
+            "lemma": "legfolk",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$ i konkurranse $",
+        "items": [
+         {
+          "article_id": 4867,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 82215,
+            "lemma": "bedømmelseskomité",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 89080,
+            "lemma": "bedømmelseskomite",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "id": "e_l",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ plukket ut 40 av 130 arbeider til utstillingen",
+         "items": [
+          {
+           "items": [],
+           "text": "juryen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "gj",
+      "type_": "entity"
+     },
+     {
+      "id": "eng.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "fra $ $ ‘ed, rettsundersøkelse’",
+    "items": [
+     {
+      "id": "g.fr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "jurée",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "juˊri",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "jury",
+   "hgno": 0,
+   "id": 33243,
+   "inflection_class": "m1",
+   "lemma": "jury",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "jury"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "juryen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "juryer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "juryene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-04-04 13:46:04",
+ "suggest": [
+  "jury"
+ ]
+}

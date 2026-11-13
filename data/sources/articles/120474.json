@@ -1,0 +1,108 @@
+{
+ "article_id": 120474,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "legg merke til",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 40427,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 607,
+          "lemma": "NB",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "obs! Møtet begynner klokka 18",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "forkorting for imperativ av $",
+    "items": [
+     {
+      "article_id": 41770,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 48857,
+        "lemma": "observere",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "obs",
+   "hgno": 3,
+   "id": 168353,
+   "lemma": "obs",
+   "mo_link": 3,
+   "paradigm_info": [
+    {
+     "from": "2021-09-22",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "obs"
+      }
+     ],
+     "inflection_group": "INTJ",
+     "paradigm_id": 559,
+     "standardisation": "STANDARD",
+     "tags": [
+      "INTJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 3
+  }
+ ],
+ "submitted": "2025-03-04 13:40:31",
+ "suggest": [
+  "obs"
+ ]
+}

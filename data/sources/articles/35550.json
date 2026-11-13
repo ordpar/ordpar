@@ -1,0 +1,192 @@
+{
+ "article_id": 35550,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 35037,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 40778,
+          "lemma": "levetid",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 103734,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "fengselsstraff som varer livet ut",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "$",
+            "items": [
+             {
+              "article_id": 103735,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 1147654,
+                "lemma": "livsvarig fengsel",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1144920,
+         "lemma": "fengsel på livstid",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 103734,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "fengsel på livstid"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "tid",
+   "hgno": 0,
+   "id": 41326,
+   "inflection_class": "m1, f1",
+   "initial_lexeme": "liv",
+   "junction": "s",
+   "lemma": "livstid",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "livstid"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "livstida"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "livstider"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "livstidene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 760,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "livstid"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "livstiden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "livstider"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "livstidene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-05-05 07:45:32",
+ "suggest": [
+  "livstid"
+ ]
+}

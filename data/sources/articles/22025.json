@@ -1,0 +1,102 @@
+{
+ "article_id": 22025,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "hest som er avlet fram etter krysning av $ og $",
+      "items": [
+       {
+        "article_id": 18355,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 21470,
+          "lemma": "fullblodshest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 28243,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 33455,
+          "lemma": "kaldblodshest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "hest",
+   "hgno": 0,
+   "id": 25725,
+   "inflection_class": "m1",
+   "initial_lexeme": "halvblods",
+   "is_standard": true,
+   "lemma": "halvblodshest",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "halvblodshest"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "halvblodshesten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "halvblodshester"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "halvblodshestene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-08-25 05:51:39"
+}

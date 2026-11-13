@@ -1,0 +1,153 @@
+{
+ "article_id": 42266,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "person som viser om i museum $",
+      "items": [
+       {
+        "id": "o_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 21494,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 25121,
+          "lemma": "guide",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 157605,
+          "lemma": "gaid",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "jobbe som omviser på museet",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 42048,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 49127,
+        "lemma": "om",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 68724,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 79328,
+        "lemma": "vise",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "viser",
+   "hgno": 0,
+   "id": 49379,
+   "inflection_class": "m2",
+   "initial_lexeme": "om",
+   "lemma": "omviser",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "omviser"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "omviseren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "omvisere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "omviserne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-08-24 11:39:02",
+ "suggest": [
+  "omviser"
+ ]
+}

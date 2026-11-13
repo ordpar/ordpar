@@ -1,0 +1,147 @@
+{
+ "article_id": 34838,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ om tid: bli lengre",
+      "items": [
+       {
+        "id": "saerl",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "dagene $ om våren",
+       "items": [
+        {
+         "text": "lenges",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $, av $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "lengjast",
+      "type_": "usage"
+     },
+     {
+      "text": "lang",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "relation"
+     },
+     {
+      "article_id": 34837,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 40546,
+        "lemma": "lenges",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "lenges",
+   "hgno": 2,
+   "id": 40546,
+   "inflection_class": "verb",
+   "lemma": "lenges",
+   "paradigm_info": [
+    {
+     "from": "2015-12-10",
+     "inflection": [
+      {
+       "tags": [
+        "Inf",
+        "<SPass>"
+       ],
+       "word_form": "lenges"
+      },
+      {
+       "tags": [
+        "Pres",
+        "<SPass>"
+       ],
+       "word_form": "lenges"
+      },
+      {
+       "tags": [
+        "Past",
+        "<SPass>"
+       ],
+       "word_form": "lengtes"
+      },
+      {
+       "tags": [
+        "<PerfPart>",
+        "<SPass>"
+       ],
+       "word_form": "lengtes"
+      },
+      {
+       "tags": [
+        "Imp",
+        "<SPass>"
+       ],
+       "word_form": "lenges"
+      }
+     ],
+     "inflection_group": "VERB_sPass",
+     "paradigm_id": 333,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-17 11:11:25",
+ "suggest": [
+  "lenges",
+  "lenges__lenges"
+ ]
+}

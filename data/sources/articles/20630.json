@@ -1,0 +1,165 @@
+{
+ "article_id": 20630,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "apparat til å spille $ på",
+      "items": [
+       {
+        "article_id": 20632,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 24088,
+          "lemma": "grammofonplate",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "grammofonplater"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 45197,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52175,
+          "lemma": "platespiller",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 52174,
+          "lemma": "platespeller",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘bokstav’",
+    "items": [
+     {
+      "id": "gr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "gramma",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ og $",
+    "items": [
+     {
+      "article_id": 20623,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 24081,
+        "lemma": "gram",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 15878,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 113,
+        "lemma": "-fon",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "grammofon",
+   "hgno": 0,
+   "id": 24086,
+   "inflection_class": "m1",
+   "lemma": "grammofon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "grammofon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "grammofonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "grammofoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "grammofonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-03-25 14:10:22",
+ "suggest": [
+  "grammofon"
+ ]
+}

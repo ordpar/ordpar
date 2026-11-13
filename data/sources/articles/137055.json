@@ -1,0 +1,119 @@
+{
+ "article_id": 137055,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "måle hvor mye tid som blir brukt $ et løp eller en oppgave",
+      "items": [
+       {
+        "id": "f_eks",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "utføre $",
+      "items": [
+       {
+        "article_id": 133398,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 146204,
+          "lemma": "tidtaking",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 2036892,
+          "lemma": "tidtaing",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "han tok tiden med stoppeklokke under løpet",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "husk å ta tiden når du koker eggene",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 60578,
+        "lemmas": [
+         {
+          "lemma": "tid"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "ta tiden",
+   "hgno": 0,
+   "id": 3096036,
+   "is_standard": true,
+   "lemma": "ta tiden",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2026-08-25",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "ta tiden"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-08-25 11:48:36"
+}

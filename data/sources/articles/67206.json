@@ -1,0 +1,199 @@
+{
+ "article_id": 67206,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "fellesbetegnelse på kjørebane, fortau og $",
+      "items": [
+       {
+        "article_id": 98029,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 153181,
+          "lemma": "veiskulder",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 153097,
+          "lemma": "vegskulder",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "$",
+      "items": [
+       {
+        "article_id": 67208,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 77506,
+          "lemma": "veibredde",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 77342,
+          "lemma": "vegbredde",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "jf",
+      "type_": "entity"
+     },
+     {
+      "article_id": 4359,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 81374,
+        "lemma": "bane",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bane",
+   "hgno": 0,
+   "id": 77503,
+   "inflection_class": "m1",
+   "initial_lexeme": "vei",
+   "is_standard": true,
+   "lemma": "veibane",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "veibane"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "veibanen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "veibaner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "veibanene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "bane",
+   "hgno": 0,
+   "id": 77340,
+   "inflection_class": "m1",
+   "initial_lexeme": "veg",
+   "is_standard": true,
+   "lemma": "vegbane",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vegbane"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "vegbanen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vegbaner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vegbanene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-07-13 12:57:48"
+}

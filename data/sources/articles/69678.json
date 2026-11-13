@@ -1,0 +1,134 @@
+{
+ "article_id": 69678,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "førsteledd i ord som hører til eller befinner seg i det ytre av noe",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "til forskjell fra $",
+      "items": [
+       {
+        "article_id": 26383,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 31409,
+          "lemma": "inner-",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "i ord som $, $ og $",
+      "items": [
+       {
+        "article_id": 70540,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 155093,
+          "lemma": "yttergrense",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 69690,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 80380,
+          "lemma": "ytterlomme",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 69696,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 83527,
+          "lemma": "yttertøy",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 69669,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 80358,
+        "lemma": "ytre",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "ytter-",
+   "hgno": 0,
+   "id": 80368,
+   "inflection_class": "i sms.",
+   "is_standard": true,
+   "lemma": "ytter-",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2015-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "ytter-"
+      }
+     ],
+     "inflection_group": "COMPPFX",
+     "paradigm_id": 42,
+     "standardisation": "STANDARD",
+     "tags": [
+      "COMPPFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2018-11-26 13:09:25"
+}

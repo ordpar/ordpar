@@ -1,0 +1,116 @@
+{
+ "article_id": 5203,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "traktor som går på $",
+      "items": [
+       {
+        "article_id": 5196,
+        "definition_id": 14,
+        "definition_order": 7,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 6110,
+          "lemma": "belte",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": " belter"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 109451,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 162259,
+          "lemma": "beltekjøretøy",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "traktor",
+   "hgno": 0,
+   "id": 6118,
+   "inflection_class": "m1",
+   "initial_lexeme": "belte",
+   "lemma": "beltetraktor",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "beltetraktor"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "beltetraktoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "beltetraktorer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "beltetraktorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-01-26 14:48:55",
+ "suggest": [
+  "beltetraktor"
+ ]
+}

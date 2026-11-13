@@ -1,0 +1,276 @@
+{
+ "article_id": 57544,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "landstrekning nærmest langs sjø, fjord $ vann",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gå ned til $ for å bade",
+       "items": [
+        {
+         "text": "stranda",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 121647,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "indre og ytre strøk",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "mange steder",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "hele landet",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "dra $ og strand rundt",
+             "items": [
+              {
+               "text": "land",
+               "type_": "usage"
+              }
+             ]
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1142091,
+         "lemma": "land og strand",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 121647,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "land og strand"
+      ],
+      "type_": "sub_article"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 4032,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 4803,
+          "lemma": "badestrand",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 116741,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 166147,
+          "lemma": "havstrand",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 124078,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 2008528,
+          "lemma": "naturiststrand",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 127304,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 136241,
+          "lemma": "sandstrand",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "strǫnd",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "strand",
+   "hgno": 0,
+   "id": 65893,
+   "inflection_class": "m., f.",
+   "is_standard": true,
+   "lemma": "strand",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "strand"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "stranda"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "strender"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "strendene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 783,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Fem"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "strand"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "stranden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "strender"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "strendene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 625,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2024-02-08 13:39:14"
+}

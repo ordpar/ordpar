@@ -1,0 +1,147 @@
+{
+ "article_id": 37684,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "fagutdannet person som konstruerer, passer eller reparerer maskiner, instrumenter $ (på et mekanisk verksted)",
+      "items": [
+       {
+        "id": "o_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 5990,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 7064,
+          "lemma": "bilmekaniker",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 14758,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 17070,
+          "lemma": "finmekaniker",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 15592,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 18102,
+          "lemma": "flymekaniker",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 37685,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 44186,
+        "lemma": "mekanikk",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mekaniker",
+   "hgno": 0,
+   "id": 44185,
+   "inflection_class": "m2",
+   "lemma": "mekaniker",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "mekaniker"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "mekanikeren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "mekanikere"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "mekanikerne"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 576,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-03-17 10:29:20",
+ "suggest": [
+  "mekaniker"
+ ]
+}

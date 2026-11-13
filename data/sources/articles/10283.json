@@ -1,0 +1,198 @@
+{
+ "article_id": 10283,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "tydelig adskilt",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 10349,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 12091,
+          "lemma": "distinkt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 111276,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "data som blir representert med tegn",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1141717,
+         "lemma": "diskrete data",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 111276,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "diskrete data"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 4,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $",
+    "items": [
+     {
+      "id": "eng.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "discrete",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 10277,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 12020,
+        "lemma": "diskré",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 0,
+        "id": 159346,
+        "lemma": "diskre",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 1,
+        "id": 2007590,
+        "lemma": "diskret",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "diskret",
+   "hgno": 2,
+   "id": 12027,
+   "inflection_class": "a2",
+   "lemma": "diskret",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "diskret"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "diskrete"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "diskrete"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "diskret"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 452,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-06-29 11:13:05",
+ "suggest": [
+  "diskret"
+ ]
+}

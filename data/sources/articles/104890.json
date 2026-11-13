@@ -1,0 +1,111 @@
+{
+ "article_id": 104890,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "flertall av stemmer uavhengig av det samlede antallet stemmer",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "t_forsk_f",
+        "type_": "entity"
+       },
+       {
+        "article_id": 100586,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1146054,
+          "lemma": "absolutt flertall",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 103511,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1145829,
+          "lemma": "kvalifisert flertall",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 15359,
+        "lemmas": [
+         {
+          "lemma": "flertall"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 51571,
+        "lemmas": [
+         {
+          "lemma": "simpel"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "simpelt flertall",
+   "hgno": 0,
+   "id": 1144151,
+   "is_standard": true,
+   "lemma": "simpelt flertall",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "simpelt flertall"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-06-23 07:58:48"
+}

@@ -1,0 +1,266 @@
+{
+ "article_id": 68833,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "metodisk innsamling, ordning og etterprøving av kunnskaper og hypoteser etter faglig godkjente regler og krav",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "undervisningen skal være basert på vitenskap og fakta",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "ofre seg for $",
+         "items": [
+          {
+           "text": "vitenskapen",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "article": {
+         "article_id": 106353,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "vitenskap som bygger på observasjoner",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 2,
+            "type_": "definition"
+           }
+          ],
+          "pronunciation": []
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 1147483,
+           "lemma": "empirisk vitenskap",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 106353,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "empirisk vitenskap"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "fagområde som er emne for $",
+        "items": [
+         {
+          "article_id": 68833,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 79441,
+            "lemma": "vitenskap",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "lage en hel $ av et lite spørsmål",
+         "items": [
+          {
+           "text": "vitenskap",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 98261,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 120544,
+            "lemma": "litteraturvitenskap",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 40359,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 47231,
+            "lemma": "naturvitenskap",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 49895,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 57244,
+            "lemma": "samfunnsvitenskap",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 56807,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 65324,
+            "lemma": "statsvitenskap",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "entity"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "vitenskap",
+   "hgno": 0,
+   "id": 79441,
+   "inflection_class": "m1",
+   "lemma": "vitenskap",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vitenskap"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "vitenskapen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vitenskaper"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vitenskapene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-12-10 06:25:47",
+ "suggest": [
+  "vitenskap"
+ ]
+}

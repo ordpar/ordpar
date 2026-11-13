@@ -1,0 +1,115 @@
+{
+ "article_id": 112717,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "måned der en $",
+      "items": [
+       {
+        "article_id": 13996,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 16223,
+          "lemma": "faste",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "faster"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 47362,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 54425,
+          "lemma": "ramadan",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "måned",
+   "hgno": 0,
+   "id": 96992,
+   "inflection_class": "m1",
+   "initial_lexeme": "faste",
+   "lemma": "fastemåned",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "fastemåned"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "fastemåneden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "fastemåneder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "fastemånedene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-04-12 10:18:15",
+ "suggest": [
+  "fastemåned"
+ ]
+}

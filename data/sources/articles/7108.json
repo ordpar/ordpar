@@ -1,0 +1,139 @@
+{
+ "article_id": 7108,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 33818,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 39669,
+          "lemma": "langs",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 13250,
+        "definition_id": 15,
+        "definition_order": 5,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 15395,
+          "lemma": "etter",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "content": "i samme retning",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "attest": [],
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "gå $ veien",
+       "items": [
+        {
+         "text": "bortover",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "attest": [],
+        "content": "brukt som $:",
+        "items": [
+         {
+          "id": "adv",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "attest": [],
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "fortsett videre $ til du kommer til et kryss",
+         "items": [
+          {
+           "text": "bortover",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": true,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "over",
+   "hgno": 0,
+   "id": 8331,
+   "initial_lexeme": "bort",
+   "lemma": "bortover",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "bortover"
+      }
+     ],
+     "inflection_group": "ADP",
+     "paradigm_id": 556,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADP"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2025-02-04 14:04:17",
+ "suggest": [
+  "bortover"
+ ]
+}

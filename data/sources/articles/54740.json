@@ -1,0 +1,278 @@
+{
+ "article_id": 54740,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "håndverker som utfører metallarbeid",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 123219,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "forme sin egen skjebne",
+              "items": [],
+              "type_": "explanation"
+             },
+             {
+              "content": "$ $",
+              "items": [
+               {
+                "id": "jf",
+                "type_": "entity"
+               },
+               {
+                "article_id": 128390,
+                "definition_id": null,
+                "lemmas": [
+                 {
+                  "hgno": 0,
+                  "id": 2872069,
+                  "lemma": "være sin egen lykkesmed",
+                  "type_": "lemma"
+                 }
+                ],
+                "type_": "article_ref"
+               }
+              ],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2007071,
+           "lemma": "være sin egen lykkes smed",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 123219,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "være sin egen lykkes smed"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "article": {
+         "article_id": 128983,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "passe svært nøye på",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2872689,
+           "lemma": "passe på som en smed",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 128983,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "passe på som en smed"
+        ],
+        "type_": "sub_article"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 21080,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 24629,
+            "lemma": "grovsmed",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 21561,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 25191,
+            "lemma": "gullsmed",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "person som lager eller er opphav for noe",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "elements": [
+         {
+          "article_id": 48598,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 55819,
+            "lemma": "rimsmed",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 49268,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 56557,
+            "lemma": "ryktesmed",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "intro": {
+         "content": "som etterledd i ord som",
+         "items": []
+        },
+        "type_": "compound_list"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ ‘håndverker’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "smiðr",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "smed",
+   "hgno": 0,
+   "id": 63077,
+   "inflection_class": "m1",
+   "lemma": "smed",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "smed"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "smeden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "smeder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "smedene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-09-25 06:05:35",
+ "suggest": [
+  "smed"
+ ]
+}

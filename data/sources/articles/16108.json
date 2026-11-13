@@ -1,0 +1,132 @@
+{
+ "article_id": 16108,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ i enkelte $ $ lavtyske lånord",
+      "items": [
+       {
+        "article_id": 45949,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52955,
+          "lemma": "prefiks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "id": "ty_e",
+        "type_": "language"
+       },
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "i ord som $ og $",
+      "items": [
+       {
+        "article_id": 16125,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 18698,
+          "lemma": "foregi",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 16128,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 18701,
+          "lemma": "foregå",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "samme opprinnelse som $",
+    "items": [
+     {
+      "article_id": 16105,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 1,
+        "id": 18679,
+        "lemma": "fore",
+        "type_": "lemma"
+       },
+       {
+        "hgno": 3,
+        "id": 21889,
+        "lemma": "føre",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "fore-",
+   "hgno": 0,
+   "id": 18681,
+   "lemma": "fore-",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "fore-"
+      }
+     ],
+     "inflection_group": "PFX",
+     "paradigm_id": 41,
+     "standardisation": "STANDARD",
+     "tags": [
+      "PFX"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-10-12 10:58:01",
+ "suggest": [
+  "fore-"
+ ]
+}

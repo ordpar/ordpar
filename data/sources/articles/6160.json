@@ -1,0 +1,120 @@
+{
+ "article_id": 6160,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ som blir utskilt fra kjertler hos $ og som blir brukt til byggemateriale i $",
+      "items": [
+       {
+        "article_id": 68942,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79578,
+          "lemma": "voks",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 5822,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 6822,
+          "lemma": "bie",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "bier"
+       },
+       {
+        "article_id": 68966,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 79604,
+          "lemma": "vokstavle",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "vokstavler"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "voks",
+   "hgno": 0,
+   "id": 7237,
+   "inflection_class": "m1",
+   "initial_lexeme": "bie",
+   "lemma": "bivoks",
+   "neg_junction": "e",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bivoks"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bivoksen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bivokser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bivoksene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-19 07:24:42",
+ "suggest": [
+  "bivoks"
+ ]
+}

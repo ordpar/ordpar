@@ -1,0 +1,125 @@
+{
+ "article_id": 123226,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "leve på renter eller avkastning uten å gjøre noe produktivt arbeid",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "$ $",
+        "items": [
+         {
+          "id": "jf",
+          "type_": "entity"
+         },
+         {
+          "article_id": 32822,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 38501,
+            "lemma": "kupongklipper",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "særlig om utenlandske forhold: samle $ brukt for å få rabatt på varer",
+        "items": [
+         {
+          "article_id": 32821,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 38500,
+            "lemma": "kupong",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "kuponger 1"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 3,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "content": "Se: $",
+      "items": [
+       {
+        "article_id": 32821,
+        "lemmas": [
+         {
+          "lemma": "kupong"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "klippe kuponger",
+   "hgno": 0,
+   "id": 2007084,
+   "lemma": "klippe kuponger",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2022-05-18",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "klippe kuponger"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2022-05-18 13:34:51",
+ "suggest": [
+  "klippe kuponger"
+ ]
+}

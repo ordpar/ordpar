@@ -1,0 +1,132 @@
+{
+ "article_id": 12528,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "det å $",
+      "items": [
+       {
+        "article_id": 12529,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 14615,
+          "lemma": "emigrere",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 65940,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 75686,
+          "lemma": "utvandring",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 25891,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 30861,
+          "lemma": "immigrasjon",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "emigrasjon",
+   "hgno": 0,
+   "id": 14614,
+   "inflection_class": "m1",
+   "lemma": "emigrasjon",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "emigrasjon"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "emigrasjonen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "emigrasjoner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "emigrasjonene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-11-05 11:32:38",
+ "suggest": [
+  "emigrasjon"
+ ]
+}

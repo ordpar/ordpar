@@ -1,0 +1,142 @@
+{
+ "article_id": 59386,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$ mellom $ og $",
+      "items": [
+       {
+        "article_id": 106822,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 106280,
+          "lemma": "himmelretning",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 59335,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 67980,
+          "lemma": "sør",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 1,
+          "id": 67375,
+          "lemma": "syd",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 68015,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 78531,
+          "lemma": "vest",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "det blåser fra sørvest",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 1,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "vest",
+   "hgno": 2,
+   "id": 68054,
+   "initial_lexeme": "sør",
+   "is_standard": true,
+   "lemma": "sørvest",
+   "mo_link": 2,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "sørvest"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 801,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 2
+  },
+  {
+   "added_norm": true,
+   "final_lexeme": "vest",
+   "hgno": 3,
+   "id": 67421,
+   "initial_lexeme": "syd",
+   "is_standard": true,
+   "lemma": "sydvest",
+   "mo_link": 3,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "sydvest"
+      }
+     ],
+     "inflection_group": "NOUN_uninfl",
+     "paradigm_id": 801,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Uninfl"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 3
+  }
+ ],
+ "submitted": "2024-02-12 13:52:45"
+}

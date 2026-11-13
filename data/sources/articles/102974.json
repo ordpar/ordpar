@@ -1,0 +1,98 @@
+{
+ "article_id": 102974,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "tiltaleform brukt for å vise høflighet",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 111307,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 84426,
+          "lemma": "De",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 25057,
+        "lemmas": [
+         {
+          "lemma": "høflig"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 60982,
+        "lemmas": [
+         {
+          "lemma": "tiltale"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "høflig tiltale",
+   "hgno": 0,
+   "id": 1143882,
+   "is_standard": true,
+   "lemma": "høflig tiltale",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "høflig tiltale"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-09-08 12:02:22"
+}

@@ -1,0 +1,188 @@
+{
+ "article_id": 66168,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "attest": [],
+      "content": "$ som gis til mennesker eller dyr for beskyttelse mot smittsomme sykdommer",
+      "items": [
+       {
+        "article_id": 46015,
+        "definition_id": 2,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 53024,
+          "lemma": "preparat",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 117570,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 166572,
+          "lemma": "HPV-vaksine",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 120638,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 168447,
+          "lemma": "koppevaksine",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 120811,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 168549,
+          "lemma": "koronavaksine",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 45444,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52430,
+          "lemma": "poliovaksine",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ $ ‘ku(kopper)’",
+    "items": [
+     {
+      "id": "lat.",
+      "type_": "entity"
+     },
+     {
+      "text": "(variolae) vaccinae",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ ‘byll’ og $ ‘som gjelder en ku’",
+    "items": [
+     {
+      "text": "varus",
+      "type_": "usage"
+     },
+     {
+      "text": "vaccinus",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "av $ ‘ku’",
+    "items": [
+     {
+      "text": "vacca",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "vaksine",
+   "hgno": 0,
+   "id": 75961,
+   "inflection_class": "m1",
+   "is_standard": true,
+   "lemma": "vaksine",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "vaksine"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "vaksinen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "vaksiner"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "vaksinene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2026-08-27 12:31:08"
+}

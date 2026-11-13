@@ -1,0 +1,269 @@
+{
+ "article_id": 15706,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "vid og flat",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "flåe vidder",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$, $",
+        "items": [
+         {
+          "article_id": 34546,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 42714,
+            "lemma": "løsmunnet",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 39946,
+            "lemma": "lausmunna",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 39948,
+            "lemma": "lausmunnet",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 42712,
+            "lemma": "løsmunna",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 15712,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 18168,
+            "lemma": "flåkjeftet",
+            "type_": "lemma"
+           },
+           {
+            "hgno": 0,
+            "id": 18167,
+            "lemma": "flåkjefta",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 15263,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 17709,
+        "lemma": "flat",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": true,
+   "final_lexeme": "flå",
+   "hgno": 4,
+   "id": 18159,
+   "is_standard": true,
+   "lemma": "flå",
+   "mo_link": 4,
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "flå"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "flåe"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "flåe"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "flått"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "flåere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "flåest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "flåeste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 435,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    },
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "flå"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "flå"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "flå"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "flått"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "flåere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "flåest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "flåeste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 439,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 4
+  }
+ ],
+ "submitted": "2021-09-01 10:53:18"
+}

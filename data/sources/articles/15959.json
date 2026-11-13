@@ -1,0 +1,227 @@
+{
+ "article_id": 15959,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $, $",
+      "items": [
+       {
+        "article_id": 38265,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 44891,
+          "lemma": "midlertidig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 31763,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 37348,
+          "lemma": "kortvarig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 645,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 3,
+          "id": 1442,
+          "lemma": "akutt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en $ misstemning",
+       "items": [
+        {
+         "text": "forbigående",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 101962,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "i forbifarten",
+            "items": [],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1143712,
+         "lemma": "i forbigående",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 101962,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "i forbigående"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 3,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ av $ og $",
+    "items": [
+     {
+      "id": "pr_pt",
+      "type_": "grammar"
+     },
+     {
+      "article_id": 21740,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 25369,
+        "lemma": "gå",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     },
+     {
+      "article_id": 15955,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 18513,
+        "lemma": "forbi",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "gående",
+   "hgno": 0,
+   "id": 18517,
+   "inflection_class": "a3",
+   "initial_lexeme": "forbi",
+   "lemma": "forbigående",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "forbigående"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "forbigående"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "forbigående"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "forbigående"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 447,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-10-12 10:58:02",
+ "suggest": [
+  "forbigående"
+ ]
+}

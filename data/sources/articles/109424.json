@@ -1,0 +1,295 @@
+{
+ "article_id": 109424,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$ av et $ for overføring av $ eller $ signaler, målt i $",
+        "items": [
+         {
+          "article_id": 7354,
+          "definition_id": 6,
+          "definition_order": 3,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 8640,
+            "lemma": "bredde",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 109425,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 162249,
+            "lemma": "frekvensområde",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 1606,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 2075,
+            "lemma": "analog",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "analoge"
+         },
+         {
+          "article_id": 10089,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 11821,
+            "lemma": "digital",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "digitale"
+         },
+         {
+          "article_id": 23411,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 27600,
+            "lemma": "hertz",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "standard båndbredde på en telefonkanal er 3100 Hz",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 3,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$ på $ til å overføre $ data målt i $ per sekund",
+        "items": [
+         {
+          "article_id": 39943,
+          "definition_id": 2,
+          "definition_order": 1,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 46615,
+            "lemma": "mål",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 28593,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 33828,
+            "lemma": "kapasitet",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "kapasiteten"
+         },
+         {
+          "article_id": 10089,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 11821,
+            "lemma": "digital",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref",
+          "word_form": "digitale"
+         },
+         {
+          "article_id": 6133,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 1,
+            "id": 7210,
+            "lemma": "bit",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "internettleverandøren lover deg rikelig med båndbredde",
+         "items": []
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "type_": "definition"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "bredde",
+   "hgno": 0,
+   "id": 90565,
+   "inflection_class": "m1",
+   "initial_lexeme": "bånd",
+   "lemma": "båndbredde",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "båndbredde"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "båndbredden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "båndbredder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "båndbreddene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "bredde",
+   "hgno": 0,
+   "id": 88504,
+   "inflection_class": "m1",
+   "initial_lexeme": "band",
+   "lemma": "bandbredde",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "bandbredde"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "bandbredden"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "bandbredder"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "bandbreddene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 566,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-11-27 11:27:00",
+ "suggest": [
+  "båndbredde",
+  "bandbredde"
+ ]
+}

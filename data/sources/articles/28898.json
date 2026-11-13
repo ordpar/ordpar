@@ -1,0 +1,163 @@
+{
+ "article_id": 28898,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, avslag i pris som blir gitt når en betaler i kassa",
+      "items": [
+       {
+        "article_id": 47193,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 54244,
+          "lemma": "rabatt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 31383,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 36912,
+          "lemma": "kontantrabatt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "rabatt",
+   "hgno": 0,
+   "id": 34146,
+   "inflection_class": "m1",
+   "initial_lexeme": "kassa",
+   "lemma": "kassarabatt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kassarabatt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kassarabatten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kassarabatter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kassarabattene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "final_lexeme": "rabatt",
+   "hgno": 0,
+   "id": 34169,
+   "inflection_class": "m1",
+   "initial_lexeme": "kasse",
+   "lemma": "kasserabatt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kasserabatt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kasserabatten"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kasserabatter"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kasserabattene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-02-22 12:31:38",
+ "suggest": [
+  "kassarabatt",
+  "kasserabatt"
+ ]
+}

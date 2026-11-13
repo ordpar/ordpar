@@ -1,0 +1,194 @@
+{
+ "article_id": 70278,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "kontaktflate mellom bruker og operativsystem og programmene i en datamaskin",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 70277,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 103604,
+          "lemma": "grensesnitt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "article": {
+       "article_id": 115584,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "$ mellom bruker og dataprogrammer hvor bruker styrer datamaskinen gjennom å klikke på ikoner og lignende (i motsetning til å bruke kommandoer)",
+            "items": [
+             {
+              "article_id": 70277,
+              "definition_id": null,
+              "lemmas": [
+               {
+                "hgno": 0,
+                "id": 103604,
+                "lemma": "grensesnitt",
+                "type_": "lemma"
+               }
+              ],
+              "type_": "article_ref"
+             }
+            ],
+            "type_": "explanation"
+           }
+          ],
+          "id": 2,
+          "type_": "definition"
+         }
+        ],
+        "pronunciation": []
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 1145294,
+         "lemma": "grafisk brukergrensesnitt",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 115584,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "grafisk brukergrensesnitt"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "grensesnitt",
+   "hgno": 0,
+   "id": 92086,
+   "inflection_class": "n1",
+   "initial_lexeme": "bruker",
+   "lemma": "brukergrensesnitt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "brukergrensesnitt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "brukergrensesnittet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "brukergrensesnitt"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "brukergrensesnitta"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 669,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    },
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "brukergrensesnitt"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "brukergrensesnittet"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "brukergrensesnitt"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "brukergrensesnittene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 679,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Neuter"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-10-08 14:48:35",
+ "suggest": [
+  "brukergrensesnitt"
+ ]
+}

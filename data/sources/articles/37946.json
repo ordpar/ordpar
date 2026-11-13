@@ -1,0 +1,181 @@
+{
+ "article_id": 37946,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "innleder en leddsetning som uttrykker at noe skjer samtidig",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "på den tid, samtidig som",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "content": "så lenge som",
+        "items": [],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "$ du har ligget på sofaen, har jeg vasket opp",
+         "items": [
+          {
+           "text": "mens",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "innleder en leddsetning som uttrykker en (mer $ mindre skarp) motsetning",
+        "items": [
+         {
+          "id": "el",
+          "type_": "entity"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "den ene mannen kjente han, mens han ikke hadde truffet de to andre",
+         "items": []
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "han er lys, $ hun er mørk",
+         "items": [
+          {
+           "text": "mens",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       },
+       {
+        "explanation": {
+         "content": "",
+         "items": []
+        },
+        "quote": {
+         "content": "hun liker å sy, $ søsteren foretrekker å lese",
+         "items": [
+          {
+           "text": "mens",
+           "type_": "usage"
+          }
+         ]
+        },
+        "type_": "example"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ $ ‘med det at’",
+    "items": [
+     {
+      "id": "sm_o_s",
+      "type_": "entity"
+     },
+     {
+      "id": "norr.",
+      "type_": "entity"
+     },
+     {
+      "text": "meðan",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   },
+   {
+    "content": "opprinnelig $",
+    "items": [
+     {
+      "article_id": 37492,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 43948,
+        "lemma": "med",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "mens",
+   "hgno": 2,
+   "id": 44541,
+   "lemma": "mens",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "mens"
+      }
+     ],
+     "inflection_group": "SCONJ",
+     "paradigm_id": 558,
+     "standardisation": "STANDARD",
+     "tags": [
+      "SCONJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2024-02-14 14:16:20",
+ "suggest": [
+  "mens"
+ ]
+}

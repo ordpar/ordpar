@@ -1,0 +1,147 @@
+{
+ "article_id": 23366,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "brukt etter pronomen eller determinativ for å framheve noen eller noe som allerede er kjent",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $ og $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 23288,
+        "definition_id": 7,
+        "definition_order": 3,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 27471,
+          "lemma": "her",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 100423,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 93795,
+          "lemma": "derre",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "hun herre dama",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "hva er dette $ for noe tull?",
+       "items": [
+        {
+         "text": "herre",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "de herre plutselige regnbygene",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 23288,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 0,
+        "id": 27471,
+        "lemma": "her",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "herre",
+   "hgno": 2,
+   "id": 27551,
+   "lemma": "herre",
+   "paradigm_info": [
+    {
+     "from": "2021-07-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "herre"
+      }
+     ],
+     "inflection_group": "DET_simple",
+     "paradigm_id": 418,
+     "standardisation": "STANDARD",
+     "tags": [
+      "DET",
+      "Def"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-09-01 15:01:46",
+ "suggest": [
+  "herre"
+ ]
+}

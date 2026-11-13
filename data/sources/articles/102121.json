@@ -1,0 +1,99 @@
+{
+ "article_id": 102121,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "potetskiver $ potetstrimler som er stekt gulbrune og sprø i frityr",
+      "items": [
+       {
+        "id": "el",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$",
+      "items": [
+       {
+        "article_id": 45560,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 52546,
+          "lemma": "pommes frites",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 17631,
+        "lemmas": [
+         {
+          "lemma": "fransk"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 45812,
+        "lemmas": [
+         {
+          "lemma": "potet"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "franske poteter",
+   "hgno": 0,
+   "id": 1147449,
+   "is_standard": true,
+   "lemma": "franske poteter",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "franske poteter"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-06-27 13:18:41"
+}

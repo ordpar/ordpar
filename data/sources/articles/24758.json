@@ -1,0 +1,78 @@
+{
+ "article_id": 24758,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "forkorting for $",
+      "items": [
+       {
+        "text": "Heimevernet",
+        "type_": "usage"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "relation"
+       },
+       {
+        "article_id": 22840,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 26878,
+          "lemma": "heimevern",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "HV",
+   "hgno": 0,
+   "id": 549,
+   "lemma": "HV",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "HV"
+      }
+     ],
+     "inflection_group": "ABBR",
+     "paradigm_id": 40,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ABBR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-05-26 12:19:56",
+ "suggest": [
+  "HV"
+ ]
+}

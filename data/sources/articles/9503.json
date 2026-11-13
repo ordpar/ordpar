@@ -1,0 +1,166 @@
+{
+ "article_id": 9503,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "jevn masse av smådelte ingredienser, væske og andre tilsetningsstoffer",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "rørt $ knadd masse til baking, steking $",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       },
+       {
+        "id": "e_l",
+        "type_": "entity"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "sette en deig",
+       "items": []
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "kjevle ut en $",
+       "items": [
+        {
+         "text": "deig",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 7889,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 9409,
+          "lemma": "brøddeig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 29830,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 35221,
+          "lemma": "kjøttdeig",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "$ $ opprinnelig ‘noe eltet, formet’",
+    "items": [
+     {
+      "id": "norr.",
+      "type_": "language"
+     },
+     {
+      "text": "deig",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "deig",
+   "hgno": 0,
+   "id": 11211,
+   "inflection_class": "m1",
+   "lemma": "deig",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "deig"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "deigen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "deiger"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "deigene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-21 13:35:18",
+ "suggest": [
+  "deig"
+ ]
+}

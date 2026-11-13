@@ -1,0 +1,128 @@
+{
+ "article_id": 49320,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "avgangselev med studiespesialisering i allmennfag",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ med rød lue eller $",
+      "items": [
+       {
+        "article_id": 49174,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 56461,
+          "lemma": "russ",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 107526,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 160930,
+          "lemma": "russedress",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "til forskjell fra $",
+      "items": [
+       {
+        "article_id": 6713,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 7850,
+          "lemma": "blåruss",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "russ",
+   "hgno": 0,
+   "id": 56738,
+   "inflection_class": "m.",
+   "initial_lexeme": "rød",
+   "lemma": "rødruss",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "rødruss"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "rødrussen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "rødruss"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "rødrussene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 579,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-05-03 10:55:41",
+ "suggest": [
+  "rødruss"
+ ]
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ordpar — Norwegian–English dictionary</title>
+<meta name="description" content="Ordpar: a Norwegian–English dictionary built on Bokmålsordboka. Every article, in English where the translation is authored and in Norwegian where it is not.">
+<meta name="robots" content="index,follow">
+<!--ORDPAR_HEAD-->
+<!-- the head script: sitegen/head.py THEME_JS, one copy (decisions 63), the file
+     /site/theme.js since 2026-10-20 -->
+<!--ORDPAR_HEADJS-->
+<!-- the results show whole articles (site decisions 59): the article page's own sheets,
+     then the shell's, which wins where the two meet — one file since 2026-10-20
+     (/site/shell-pages.css: article.css, inflection.css, shell.css) -->
+<link rel="stylesheet" href="/site/shell-pages.css">
+<!--ORDPAR_STRINGS-->
+</head>
+<body class="ordpar">
+<!-- the header: sitegen/chrome.py, one source for every page (decisions 63) -->
+<!--ORDPAR_HEADER-->
+
+<main id="ordpar-main" class="ordpar-main ordpar-main--cards" tabindex="-1">
+  <div class="ordpar-visually-hidden" data-ordpar-live data-nosnippet role="status" aria-live="polite"></div>
+  <div data-ordpar-results></div>
+</main>
+
+<!-- the footer: sitegen/chrome.py (decisions 63) -->
+<!--ORDPAR_FOOTER-->
+
+<script src="/site/inflection.js" defer></script>
+<script src="/site/article.js" defer></script>
+<script src="/site/mini.js" defer></script>
+<!-- personal.js, lookup.js, ahead.js, offline.js, install.js, shell.js and personal-page.js, in
+     that order, one file since 2026-10-20 (ahead.js and personal-page.js since decisions 92) -->
+<script src="/site/shell-pages.js"></script>
+<script>
+/* The search page: #q=<word> answered from the index, in place — no reload, so focus can
+   return to the search box (accessibility baseline, plan § 1.1). The search is in the address's
+   FRAGMENT, which the browser never sends to a server (decisions 104, R2); an old ?q=<word>
+   address is still read, and rewritten to #q= at once (lookup.js `fragmentAddress`). */
+(function () {
+  'use strict';
+  var main = document.getElementById('ordpar-main');
+  ordparSearch.fragmentAddress();
+
+  // the title while the search runs; a search answered at its own word or form page then takes
+  // that page's built title (lookup.js `render` -> `pageTitle`, site decisions 131)
+  function title(q) {
+    document.title = q ? q + ' — ' + ordparShell.t('site.name')
+                       : ordparShell.t('site.name') + ' — ' + ordparShell.t('site.tagline');
+  }
+
+  // `record`: a search the reader made — it goes into the history when it finds something
+  // (brief 60b); back and forward re-answer without recording. `drawn`: a Random word draw,
+  // answered but not recorded nor sent (decisions 115), its entry marked so a reload of it
+  // stays a draw (`ordparSearch.takeDrawn`). Site decisions 117: the address a search pushes is
+  // its page where it has one (`/bm-en/så/`, lookup.js `address`), else `/bm-en/#q=<q>`
+  //
+  // Site decisions 138: a later search always wins. Each search takes the next number (`seq`); one
+  // that waits for its index file (`address`) drops its answer — no address pushed, nothing drawn —
+  // when a newer search, or Back / Forward (`push` false), has started since, as `render` does
+  // with its own answers. While it waits, the title, the box and the "Searching…" line
+  // (`ordparSearch.searching`) are the new search's at once, the previous answer cleared.
+  //
+  // Site decisions 148: `en`, an English search — its address `/bm-en/#en=<q>` (no word page),
+  // its entry's state `{q, search: true, en: true}`, the switch on while it shows. Site decisions
+  // 155: a Random word draw with the switch on is English too, its entry `{q, random: true, en: true}`
+  var seq = 0;
+  function run(q, push, record, drawn, en) {
+    var mine = ++seq;
+    en = !!en;
+    // the switch shows the direction of the search on the page
+    if (q && ordparShell.setDirection) { ordparShell.setDirection(en ? 'en' : 'nb', { quiet: true }); }
+    var show = function () {
+      title(q);
+      var box = document.getElementById('ordpar-q');
+      if (box && box.value !== q) { box.value = q; }   // back/forward keeps the box in step
+      ordparSearch.render(main, q, { record: !!record, en: en });
+    };
+    if (!push) { show(); return; }
+    var state = drawn ? (en ? { q: q, random: true, en: true } : { q: q, random: true })
+      : en ? { q: q, search: true, en: true } : { q: q, search: true };
+    if (!q) { history.pushState(state, '', location.pathname); show(); return; }
+    title(q);
+    var box = document.getElementById('ordpar-q');
+    if (box && box.value !== q) { box.value = q; }
+    ordparSearch.searching(main, q);
+    (en ? Promise.resolve(ordparLookup.englishUrl(q)) : ordparLookup.address(q)).then(function (url) {
+      if (mine !== seq) { return; }                    // a newer search (or Back / Forward) since
+      history.pushState(state, '', url);
+      show();
+    });
+  }
+
+  window.addEventListener('popstate', function () {
+    var q = ordparSearch.addressQuery();       // the entry's search: its state, #q= or a word page's word
+    run(q, false, false, false, ordparSearch.addressEnglish());   // site decisions 148: an English entry
+  });
+
+  // a link to a search on this page (a "Similar headwords" link: `/bm-en/#q=<word>`, or the
+  // word's page with the search after `#`; a "Similar English words" link, `#en=`) would load
+  // nothing or another page: it is answered here as the search the reader made (recorded), as a
+  // new page's first load would be
+  ordparSearch.wireFragmentLinks(function (q, how) { window.scrollTo(0, 0); run(q, true, true, false, !!(how && how.en)); });
+
+  function start() {
+    ordparShell.setSearchHandler(function (q, how) {
+      var drawn = !!(how && how.random);
+      run(q, true, !drawn, drawn, !!(how && how.en));
+    });
+    // site decisions 148 item 3: opened from `#en=<word>`, the switch is on and the English
+    // search runs (recorded, as a first load from `#q=` is); a `#q=` address stays Norwegian
+    var english = ordparSearch.englishFromLocation && ordparSearch.englishFromLocation();
+    if (english) {
+      // site decisions 155: an English Random word draw from another page (`#en=<word>&random`),
+      // or the reload of one, is not a search either: answered, not recorded
+      var drawnEn = ordparSearch.takeDrawn();
+      run(english, false, !drawnEn && !ordparSearch.cameByHistory(), drawnEn, true);
+      return;
+    }
+    // the first load from #q= is a search: a "Recent" or /history/ entry, an old link, the
+    // header's search sent before its script had started — but not a Random word draw from
+    // another page, nor the reload of a drawn search (decisions 115). Site decisions 117: a
+    // search that has a page of its own goes there, its search after `#` (a draw marked), so
+    // no word with a page is left a `#q=` search; one reached by Back or Forward is answered
+    // here, as before
+    var drawn = ordparSearch.takeDrawn();
+    var q = ordparSearch.queryFromLocation();
+    var back = ordparSearch.cameByHistory();
+    if (!q || back) { run(q, false, !drawn && !back); return; }
+    var before = seq;
+    ordparLookup.pageFor(q).then(function (url) {
+      if (seq !== before) { return; }                  // the reader searched meanwhile (138)
+      if (url) {
+        location.replace(url + '#q=' + encodeURIComponent(q.trim()) + (drawn ? ordparSearch.DRAWN_MARK : ''));
+        return;
+      }
+      run(q, false, !drawn);
+    });
+  }
+
+  function whenReady() {
+    (window.ordparShell.ready || Promise.resolve()).then(start);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', whenReady);
+  } else {
+    whenReady();
+  }
+}());
+</script>
+</body>
+</html>

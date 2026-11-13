@@ -1,0 +1,110 @@
+{
+ "article_id": 13345,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "innleder en leddsetning som uttrykker årsak",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "på grunn av at",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "fordi, $",
+      "items": [
+       {
+        "article_id": 115044,
+        "definition_id": 4,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 1,
+          "id": 156267,
+          "lemma": "siden",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 156846,
+          "lemma": "sia",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "du får gjøre det $ du maser slik",
+       "items": [
+        {
+         "items": [],
+         "text": "ettersom",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "ettersom du ikke har tid, får det vente",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "som",
+   "hgno": 0,
+   "id": 15508,
+   "initial_lexeme": "etter",
+   "lemma": "ettersom",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "ettersom"
+      }
+     ],
+     "inflection_group": "SCONJ",
+     "paradigm_id": 558,
+     "standardisation": "STANDARD",
+     "tags": [
+      "SCONJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-10-04 13:10:17",
+ "suggest": [
+  "ettersom"
+ ]
+}

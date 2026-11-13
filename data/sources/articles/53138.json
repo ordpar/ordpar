@@ -1,0 +1,257 @@
+{
+ "article_id": 53138,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "som ikke bryr seg om noen ting",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 35157,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 40915,
+          "lemma": "likeglad",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 54602,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 62929,
+          "lemma": "slurvete",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 62928,
+          "lemma": "slurvet",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "være $ med det en eier",
+       "items": [
+        {
+         "items": [],
+         "text": "skjødesløs",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ $ ‘omhu’, av $ $ ‘ta vare på’, opprinnelig ‘ta på skjødet’",
+    "items": [
+     {
+      "id": "foreld",
+      "type_": "entity"
+     },
+     {
+      "id": "da",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "skøde",
+      "type_": "usage"
+     },
+     {
+      "id": "foreld",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "skøde",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "løs",
+   "hgno": 0,
+   "id": 61262,
+   "inflection_class": "a1",
+   "initial_lexeme": "skjødes",
+   "lemma": "skjødesløs",
+   "paradigm_info": [
+    {
+     "from": "2014-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "skjødesløs"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "skjødesløse"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "skjødesløse"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "skjødesløst"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  },
+  {
+   "annotated_lemma": null,
+   "final_lexeme": "laus",
+   "hgno": 0,
+   "id": 2216898,
+   "inflection_class": "a1",
+   "initial_lexeme": "skjøde",
+   "junction": "s",
+   "lemma": "skjødeslaus",
+   "markdown_lemma": "skjødeslaus",
+   "paradigm_info": [
+    {
+     "from": "2005-01-06",
+     "inflection": [
+      {
+       "markdown_word_form": "skjødeslaus",
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "skjødeslaus"
+      },
+      {
+       "markdown_word_form": "skjødeslause",
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "skjødeslause"
+      },
+      {
+       "markdown_word_form": "skjødeslause",
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "skjødeslause"
+      },
+      {
+       "markdown_word_form": "skjødeslaust",
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "skjødeslaust"
+      },
+      {
+       "markdown_word_form": null,
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "markdown_word_form": null,
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "markdown_word_form": null,
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 441,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-11 06:56:10",
+ "suggest": [
+  "skjødesløs",
+  "skjødeslaus"
+ ]
+}

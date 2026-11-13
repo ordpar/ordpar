@@ -1,0 +1,182 @@
+{
+ "article_id": 53667,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "redskap til å skrubbe med",
+        "items": [],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$ for $",
+        "items": [
+         {
+          "article_id": 40918,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 47875,
+            "lemma": "noaord",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 64146,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 73472,
+            "lemma": "ulv",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       },
+       {
+        "article": {
+         "article_id": 128620,
+         "body": {
+          "definitions": [
+           {
+            "elements": [
+             {
+              "content": "svært sulten",
+              "items": [],
+              "type_": "explanation"
+             }
+            ],
+            "id": 1,
+            "sub_definition": false,
+            "type_": "definition"
+           }
+          ]
+         },
+         "lemmas": [
+          {
+           "hgno": 0,
+           "id": 2872315,
+           "lemma": "sulten som en skrubb",
+           "type_": "lemma"
+          }
+         ]
+        },
+        "article_id": 128620,
+        "intro": {
+         "content": "",
+         "items": []
+        },
+        "lemmas": [
+         "sulten som en skrubb"
+        ],
+        "type_": "sub_article"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $",
+    "items": [
+     {
+      "article_id": 53671,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 61849,
+        "lemma": "skrubbe",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "skrubb",
+   "hgno": 1,
+   "id": 61845,
+   "inflection_class": "m1",
+   "lemma": "skrubb",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "skrubb"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "skrubben"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "skrubber"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "skrubbene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-18 11:10:30",
+ "suggest": [
+  "skrubb"
+ ]
+}

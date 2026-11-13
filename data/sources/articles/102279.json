@@ -1,0 +1,113 @@
+{
+ "article_id": 102279,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "tallrekke der $ mellom hvert ledd og det foregående er konstant, for eksempel 3, 6, 12, 24",
+      "items": [
+       {
+        "article_id": 33325,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 39123,
+          "lemma": "kvotient",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "kvotienten"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "t_forskj_fra",
+        "type_": "entity"
+       },
+       {
+        "article_id": 100723,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 1143324,
+          "lemma": "aritmetisk rekke",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "Se: $, $",
+      "items": [
+       {
+        "article_id": 19510,
+        "lemmas": [
+         {
+          "lemma": "geometrisk"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 47950,
+        "lemmas": [
+         {
+          "lemma": "rekke"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "geometrisk rekke",
+   "hgno": 0,
+   "id": 1146514,
+   "is_standard": true,
+   "lemma": "geometrisk rekke",
+   "mo_link": 0,
+   "paradigm_info": [
+    {
+     "from": "2019-01-01",
+     "inflection": [
+      {
+       "tags": [],
+       "word_form": "geometrisk rekke"
+      }
+     ],
+     "inflection_group": "EXPR",
+     "paradigm_id": 2470,
+     "standardisation": "REGISTERED",
+     "tags": [
+      "EXPR"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false,
+   "stress_vowel": 0
+  }
+ ],
+ "submitted": "2023-02-01 09:45:26"
+}

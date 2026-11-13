@@ -1,0 +1,142 @@
+{
+ "article_id": 29381,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "mineralforbindelse av svovel $ arsen og metall",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "elements": [
+       {
+        "article_id": 31564,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 36120,
+          "lemma": "kobberkis",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 37113,
+          "lemma": "kopperkis",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 58827,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 67315,
+          "lemma": "svovelkis",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "intro": {
+       "content": "som etterledd i ord som",
+       "items": []
+      },
+      "type_": "compound_list"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "av $ $ ‘grus’",
+    "items": [
+     {
+      "id": "ty.",
+      "type_": "language"
+     },
+     {
+      "text": "Kies",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_language"
+   }
+  ],
+  "pronunciation": [
+   {
+    "content": "kjis",
+    "items": [],
+    "type_": "pronunciation"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "kis",
+   "hgno": 1,
+   "id": 81623,
+   "inflection_class": "m1",
+   "lemma": "kis",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "kis"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "kisen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "kiser"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "kisene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-01-12 07:42:55",
+ "suggest": [
+  "kis"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "article_id": 118382,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "offentlig tjenesteperson som har polititjeneste og visse administrative oppgaver i et $",
+      "items": [
+       {
+        "article_id": 118386,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 167206,
+          "lemma": "politistasjonsdistrikt",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 34862,
+        "definition_id": 5,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 40571,
+          "lemma": "lensmann",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "sjef",
+   "hgno": 0,
+   "id": 167205,
+   "inflection_class": "m1",
+   "initial_lexeme": "politistasjon",
+   "junction": "s",
+   "lemma": "politistasjonssjef",
+   "paradigm_info": [
+    {
+     "from": "2021-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "politistasjonssjef"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "politistasjonssjefen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "politistasjonssjefer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "politistasjonssjefene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2021-05-04 13:17:12",
+ "suggest": [
+  "politistasjonssjef"
+ ]
+}

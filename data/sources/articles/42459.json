@@ -1,0 +1,281 @@
+{
+ "article_id": 42459,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "$, $",
+      "items": [
+       {
+        "article_id": 56694,
+        "definition_id": 6,
+        "definition_order": 2,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 65198,
+          "lemma": "stanse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 22700,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 26598,
+          "lemma": "hefte",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "jeg skal ikke $ deg lenge",
+       "items": [
+        {
+         "items": [],
+         "text": "oppholde",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "$ noen med snakk",
+       "items": [
+        {
+         "items": [],
+         "text": "oppholde",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "article": {
+       "article_id": 124233,
+       "body": {
+        "definitions": [
+         {
+          "elements": [
+           {
+            "content": "være (på et sted)",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "befinne seg",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "content": "ha tilhold",
+            "items": [],
+            "type_": "explanation"
+           },
+           {
+            "explanation": {
+             "content": "",
+             "items": []
+            },
+            "quote": {
+             "content": "hun $ seg i utlandet for tiden",
+             "items": [
+              {
+               "items": [],
+               "text": "oppholder",
+               "type_": "usage"
+              }
+             ]
+            },
+            "type_": "example"
+           }
+          ],
+          "id": 1,
+          "sub_definition": false,
+          "type_": "definition"
+         }
+        ]
+       },
+       "lemmas": [
+        {
+         "hgno": 0,
+         "id": 2008771,
+         "lemma": "oppholde seg",
+         "type_": "lemma"
+        }
+       ]
+      },
+      "article_id": 124233,
+      "intro": {
+       "content": "",
+       "items": []
+      },
+      "lemmas": [
+       "oppholde seg"
+      ],
+      "type_": "sub_article"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "added_norm": false,
+   "final_lexeme": "holde",
+   "hgno": 0,
+   "id": 49612,
+   "inflection_class": "verb",
+   "initial_lexeme": "opp",
+   "lemma": "oppholde",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Inf"
+       ],
+       "word_form": "oppholde"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Pres"
+       ],
+       "word_form": "oppholder"
+      },
+      {
+       "tags": [
+        "Inf",
+        "Pass"
+       ],
+       "word_form": "oppholdes"
+      },
+      {
+       "tags": [
+        "Pres",
+        "Pass"
+       ],
+       "word_form": "oppholdes"
+      },
+      {
+       "tags": [
+        "Past"
+       ],
+       "word_form": "oppholdt"
+      },
+      {
+       "tags": [
+        "<PerfPart>"
+       ],
+       "word_form": "oppholdt"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "oppholdt"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "oppholdt"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "oppholdte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PerfPart>",
+        "Plur"
+       ],
+       "word_form": "oppholdte"
+      },
+      {
+       "tags": [
+        "Adj",
+        "<PresPart>"
+       ],
+       "word_form": "oppholdende"
+      },
+      {
+       "tags": [
+        "Imp"
+       ],
+       "word_form": "opphold"
+      },
+      {
+       "tags": [],
+       "word_form": null
+      },
+      {
+       "tags": [],
+       "word_form": null
+      }
+     ],
+     "inflection_group": "VERB_regular",
+     "paradigm_id": 194,
+     "standardisation": "STANDARD",
+     "tags": [
+      "VERB"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-09-05 12:30:35",
+ "suggest": [
+  "oppholde"
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "article_id": 49173,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "i $ $: $, det russiske folket",
+      "items": [
+       {
+        "id": "bf",
+        "type_": "entity"
+       },
+       {
+        "id": "ent",
+        "type_": "entity"
+       },
+       {
+        "article_id": 49178,
+        "definition_id": 3,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 56465,
+          "lemma": "russer",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref",
+        "word_form": "russere"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "pomorhandelen med russen",
+       "items": []
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "russ",
+   "hgno": 2,
+   "id": 56460,
+   "inflection_class": "m1",
+   "lemma": "russ",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "russ"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "russen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "russer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "russene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-06-21 13:16:50",
+ "suggest": [
+  "russ"
+ ]
+}

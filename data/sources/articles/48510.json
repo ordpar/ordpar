@@ -1,0 +1,180 @@
+{
+ "article_id": 48510,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "elements": [
+       {
+        "content": "$ av riddere som opprinnelig skulle kjempe for kristentroen",
+        "items": [
+         {
+          "article_id": 43220,
+          "definition_id": 7,
+          "definition_order": 5,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 50076,
+            "lemma": "orden",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 2,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$ som deler ut en $",
+        "items": [
+         {
+          "article_id": 26862,
+          "definition_id": 4,
+          "definition_order": 2,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 31963,
+            "lemma": "institusjon",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 43220,
+          "definition_id": 8,
+          "definition_order": 6,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 50076,
+            "lemma": "orden",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 4,
+      "sub_definition": false,
+      "type_": "definition"
+     },
+     {
+      "elements": [
+       {
+        "content": "$ av graden $",
+        "items": [
+         {
+          "article_id": 106794,
+          "definition_id": null,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 128380,
+            "lemma": "ordenstegn",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         },
+         {
+          "article_id": 48506,
+          "definition_id": 1,
+          "definition_order": 6,
+          "lemmas": [
+           {
+            "hgno": 0,
+            "id": 55717,
+            "lemma": "ridder",
+            "type_": "lemma"
+           }
+          ],
+          "type_": "article_ref"
+         }
+        ],
+        "type_": "explanation"
+       }
+      ],
+      "id": 5,
+      "sub_definition": false,
+      "type_": "definition"
+     }
+    ],
+    "id": 3,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "orden",
+   "hgno": 0,
+   "id": 55722,
+   "inflection_class": "m1",
+   "initial_lexeme": "ridder",
+   "lemma": "ridderorden",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "ridderorden"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "ridderordenen"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "ridderordener"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "ridderordenene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2023-08-08 08:31:28",
+ "suggest": [
+  "ridderorden"
+ ]
+}

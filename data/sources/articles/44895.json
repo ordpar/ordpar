@@ -1,0 +1,131 @@
+{
+ "article_id": 44895,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "ridende tyrefekter som tirrer oksen med $",
+      "items": [
+       {
+        "article_id": 33862,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 39727,
+          "lemma": "lanse",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "$ $",
+      "items": [
+       {
+        "id": "jf",
+        "type_": "entity"
+       },
+       {
+        "article_id": 37334,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 0,
+          "id": 43757,
+          "lemma": "matador",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     }
+    ],
+    "id": 2,
+    "sub_definition": false,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ , av $ ‘stikke’",
+    "items": [
+     {
+      "id": "sp.",
+      "type_": "entity"
+     },
+     {
+      "items": [],
+      "text": "picar",
+      "type_": "usage"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ]
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "pikador",
+   "hgno": 0,
+   "id": 51860,
+   "inflection_class": "m1",
+   "lemma": "pikador",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Sing",
+        "Ind"
+       ],
+       "word_form": "pikador"
+      },
+      {
+       "tags": [
+        "Sing",
+        "Def"
+       ],
+       "word_form": "pikadoren"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Ind"
+       ],
+       "word_form": "pikadorer"
+      },
+      {
+       "tags": [
+        "Plur",
+        "Def"
+       ],
+       "word_form": "pikadorene"
+      }
+     ],
+     "inflection_group": "NOUN_regular",
+     "paradigm_id": 564,
+     "standardisation": "STANDARD",
+     "tags": [
+      "NOUN",
+      "Masc"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2022-11-16 14:11:42",
+ "suggest": [
+  "pikador"
+ ]
+}

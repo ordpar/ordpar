@@ -1,0 +1,216 @@
+{
+ "article_id": 8254,
+ "body": {
+  "definitions": [
+   {
+    "elements": [
+     {
+      "content": "uten skarp odd $ egg",
+      "items": [
+       {
+        "id": "el",
+        "type_": "relation"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "content": "avrundet",
+      "items": [],
+      "type_": "explanation"
+     },
+     {
+      "content": "til forskjell fra $ og $",
+      "items": [
+       {
+        "article_id": 33063,
+        "definition_id": 2,
+        "definition_order": 1,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 38774,
+          "lemma": "kvass",
+          "type_": "lemma"
+         },
+         {
+          "hgno": 0,
+          "id": 29216,
+          "lemma": "hvass",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       },
+       {
+        "article_id": 56164,
+        "definition_id": null,
+        "lemmas": [
+         {
+          "hgno": 2,
+          "id": 64645,
+          "lemma": "spiss",
+          "type_": "lemma"
+         }
+        ],
+        "type_": "article_ref"
+       }
+      ],
+      "type_": "explanation"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "en $ kniv",
+       "items": [
+        {
+         "text": "butt",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     },
+     {
+      "explanation": {
+       "content": "",
+       "items": []
+      },
+      "quote": {
+       "content": "han hadde $ nese",
+       "items": [
+        {
+         "text": "butt",
+         "type_": "usage"
+        }
+       ]
+      },
+      "type_": "example"
+     }
+    ],
+    "id": 2,
+    "type_": "definition"
+   }
+  ],
+  "etymology": [
+   {
+    "content": "fra $ ‘klumpet’",
+    "items": [
+     {
+      "id": "l.ty.",
+      "type_": "language"
+     }
+    ],
+    "type_": "etymology_language"
+   },
+   {
+    "content": "$ med $",
+    "items": [
+     {
+      "id": "besl",
+      "type_": "relation"
+     },
+     {
+      "article_id": 8253,
+      "definition_id": null,
+      "lemmas": [
+       {
+        "hgno": 2,
+        "id": 9835,
+        "lemma": "butt",
+        "type_": "lemma"
+       }
+      ],
+      "type_": "article_ref"
+     }
+    ],
+    "type_": "etymology_reference"
+   }
+  ],
+  "pronunciation": []
+ },
+ "lemmas": [
+  {
+   "final_lexeme": "butt",
+   "hgno": 3,
+   "id": 9834,
+   "inflection_class": "a2",
+   "lemma": "butt",
+   "paradigm_info": [
+    {
+     "from": "1996-01-01",
+     "inflection": [
+      {
+       "tags": [
+        "Pos",
+        "Masc/Fem",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "butt"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Plur"
+       ],
+       "word_form": "butte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Def",
+        "Sing"
+       ],
+       "word_form": "butte"
+      },
+      {
+       "tags": [
+        "Pos",
+        "Neuter",
+        "Ind",
+        "Sing"
+       ],
+       "word_form": "butt"
+      },
+      {
+       "tags": [
+        "Cmp"
+       ],
+       "word_form": "buttere"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Ind"
+       ],
+       "word_form": "buttest"
+      },
+      {
+       "tags": [
+        "Sup",
+        "Def"
+       ],
+       "word_form": "butteste"
+      }
+     ],
+     "inflection_group": "ADJ_regular",
+     "paradigm_id": 437,
+     "standardisation": "STANDARD",
+     "tags": [
+      "ADJ"
+     ],
+     "to": null
+    }
+   ],
+   "split_inf": false
+  }
+ ],
+ "submitted": "2020-08-18 09:40:27",
+ "suggest": [
+  "butt"
+ ]
+}
