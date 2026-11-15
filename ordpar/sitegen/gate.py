@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """The example gate, one code path for the private build and the public one (decisions 184).
 
-An added example sentence reaches a reader only once a native speaker has written or ratified it
-(the render gate, entry 38). The rule lives in the private pipeline, `scripts/triage.py`
+An added example sentence reaches a reader only once a native speaker has written or ratified it.
+The rule lives in the private pipeline, `scripts/triage.py`
 (`publishable`), which reads the triage log; neither is published. So:
 
 * **where `triage` can be imported** (the private repository), the build applies

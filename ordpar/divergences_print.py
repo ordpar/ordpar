@@ -21,9 +21,15 @@ above that heading names no decision. Both editions:
 references are not useful for the ordbøkene editors") also cuts the Decision column, the sixth of
 six, and the key's row that describes it.
 
-**The public edition** (`--public`, the repository's `docs/divergences.md`; decisions 184,
-question 7) keeps the Decision column, each number a link to the public decision log's entry,
-`decisions.md#dN` beside it in the repository's `docs/`; the key's row names that log.
+**The public edition** (`--public`, the repository's `docs/divergences.md`; decisions 184)
+keeps the Decision column, each number a link to the public decision log's entry,
+`decisions.md#dN` beside it in the repository's `docs/`; the key's row names that log. A
+reference to an entry the public log does not have (`<a id="dN"></a>` in ordpar/public/docs/
+decisions.md, or docs/decisions.md in the public repository: an entry cut from it on purpose)
+would be a dead link there, so it is left out of its cell, with the words before it and its
+parenthesis of dates (`known_refs`), and named on stderr (`left out of the public edition: 122
+(row "Addresses")`); a cell that would be left with no reference stops the script, naming the
+row. The print edition does not read the log.
 
 **The "How it works" column** (decisions 184, Robin 2026-11-13: "linking to the relevant sections
 in the tecnical docs"): a seventh column after Decision, each cell a link (at most two, joined by
@@ -182,6 +188,13 @@ def tables(text, public=False, base=None):
     rewrites its links. Every "How it works" link is checked first (`check_how`)."""
     lines = text.split("\n")
     out, i = [], 0
+    ids = None
+    if public:
+        log = public_log(base)
+        if log is None:
+            sys.exit("divergences.md: the public log (ordpar/public/docs/%s, or docs/%s in the public "
+                     "repository) was not found" % (PUBLIC_LOG, PUBLIC_LOG))
+        ids = public_ids(log)
     while i < len(lines):
         line = lines[i]
         if line.startswith("|") and len(cells(line)) in (6, 7) and i + 1 < len(lines) \
@@ -204,6 +217,8 @@ def tables(text, public=False, base=None):
                     faults += ["%s: %s" % (r[0].strip(), f) for f in check_how(r[6], base)]
                     if public:
                         r[6] = public_how(r[6], base)
+                if public:
+                    r[5] = known_refs(r[5], ids, r[0].strip())
                 rows.append([r[k] for k in order])
                 j += 1
             if faults:
@@ -227,6 +242,74 @@ def tables(text, public=False, base=None):
             out.append(line)
             i += 1
     return "\n".join(out)
+
+
+LOG_ANCHOR = re.compile(r'<a id="d(\d+[a-z]?)"></a>')
+
+
+def public_log(base=None):
+    """The public log's file in this checkout, found as the "How it works" files are, from the
+    record's folder (``base``, by default ordpar/docs/): ordpar/public/docs/decisions.md in the
+    private repository, else at its exported path, docs/decisions.md, as in the public one; None
+    where neither is."""
+    root = os.path.normpath(os.path.join(base or RECORD_DIR, os.pardir, os.pardir))
+    for path in (os.path.join(root, PUBLIC_TEXTS, PUBLIC_DIR, PUBLIC_LOG),
+                 os.path.join(root, PUBLIC_DIR, PUBLIC_LOG)):
+        if os.path.isfile(path):
+            return path
+    return None
+
+
+def public_ids(path):
+    """The entry numbers of the public log, each as its ``<a id="dN"></a>`` writes it."""
+    with io.open(path, encoding="utf-8") as fh:
+        return set(LOG_ANCHOR.findall(fh.read()))
+
+
+def _split_top(s, sep):
+    """``s`` split at each ``sep`` outside parentheses."""
+    parts, depth, cur, i = [], 0, [], 0
+    while i < len(s):
+        ch = s[i]
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth = max(depth - 1, 0)
+        if depth == 0 and s.startswith(sep, i):
+            parts.append("".join(cur))
+            cur, i = [], i + len(sep)
+            continue
+        cur.append(ch)
+        i += 1
+    parts.append("".join(cur))
+    return parts
+
+
+def known_refs(cell, ids, row):
+    """A Decision cell with each reference to an entry not in ``ids`` left out, each one so left
+    out printed to stderr. A cell lists its references joined by "; ", each with words before it
+    ("the stacked step [108][d108]") and its parenthesis of dates after it, or several joined by
+    ", " sharing one parenthesis ("[88][d88], [89][d89] (2026-10-22)"). A reference left out takes
+    its words and its parenthesis with it; one of several sharing a parenthesis leaves the
+    parenthesis to the others. Stops, naming the row, when no reference would be left."""
+    lead = cell[:len(cell) - len(cell.lstrip())]
+    trail = cell[len(cell.rstrip()):]
+    kept = []
+    for part in _split_top(cell.strip(), "; "):
+        refs = REF_LINK.findall(part)
+        gone = [n for _t, n in refs if n not in ids]
+        for n in gone:
+            sys.stderr.write('left out of the public edition: %s (row "%s")\n' % (n, row))
+        if not gone:
+            kept.append(part)
+        elif len(gone) < len(refs):
+            for n in gone:
+                part = re.sub(r"\[\d+[a-z]?\]\[d%s\], |, \[\d+[a-z]?\]\[d%s\](?= \(|$)" % (n, n), "", part, count=1)
+            kept.append(part)
+    if not any(REF_LINK.search(p) for p in kept):
+        sys.exit('divergences.md: row "%s" would be left with no decision the public log has '
+                 '(%s)' % (row, cell.strip()))
+    return lead + "; ".join(kept) + trail
 
 
 def public_links(s):

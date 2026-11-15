@@ -2287,8 +2287,7 @@ it. The About page and the privacy page were reworded to cover ideas as well as 
 <a id="d184"></a>
 ### 184. Ordbokene's reply: the divergences record, the licences and the public repository (2026-11-11)
 
-**Status:** ruled; the public repository in preparation, not yet published on
-12 November 2026.
+**Status:** ruled; the repository public since 15 November 2026.
 
 **The licences.** Our own code is under MIT-0: its readers are developers,
 not the learners Ordpar is for, and no attribution should be needed, by ordbokene or anyone. For Ordpar the only point of asking for attribution is to reach more learners; in code it would live in comments and documentation that learners never see, so it would not help, and leaving it out makes the code easier for anyone to use, ordbokene included. The documentation is
@@ -2304,10 +2303,14 @@ exactly as its API serves it (editors' names included), so a build reproduces or
 our fixes applied, remade with each update. The list of recordings stays out; the deck's work, when published, gets
 a folder of its own. The documentation stays in English.
 
+**How the repository runs on another machine.** The code holds no path of our own machine. The few places a build needs outside the repository, such as our own copy of Bokmålsordboka's data, the word-frequency file and the folder the site is published from, are read from one git-ignored file, `ordpar/local-paths.json`, and the data folder can be named with `ORDBOK_DATA_DIR`. Nine modules of our translation pipeline that the site's code imports are published with it. An added example sentence is shown only once a native speaker has written or approved it; that rule lives in the pipeline, which is not published, so the export applies it and writes the library already gated, with a marker beside it naming the gate and the library's checksum, and the build refuses a library whose marker is missing or does not match. Each technical doc's history and decision trail stay in a private file beside it.
+
+**The outsider test.** Before publication an AI session given only a clone of the repository built the site and ran the tests from the README alone, and reported 20 findings, which the code's comments cite as "the outsider test, finding N". Those that were faults in the repository were fixed, among them a test that fetched a table from ordbokene's API (finding 2), control bytes in a script (8) and a reader's own files failing a test (19). Two are left for a later release, and the README says so: a description of the article format, and a guide to the tests for a version in another language. GitHub runs the tests and a small build at every push.
+
 <a id="d185"></a>
 
 ### 185. The linked word's first Norwegian definition as a hover choice everywhere (2026-11-12)
 
-**Status:** built (12 November 2026).
+**Status:** built, live since 13 November 2026.
 
 The setting for what shows when the pointer rests on a linked word has three choices: its translation (the default), its first Norwegian definition, or nothing. The Norwegian definition was a choice only inside *Norwegian only* ([152](#d152)); it now works wherever a hover peek shows on a computer, and a link to a word not yet translated, which has no English peek, gets one. Inside *Norwegian only* with the English equivalents hidden, that view's own hover setting decides instead. The hover follows the Loading setting: under "When its link is clicked" a Norwegian definition shows only from a part of the index the page already has, so nothing is fetched before a press. The index keeps each Norwegian first definition whole, not cut to the length of a list row: 99 % are 123 characters or fewer and the longest is 273. No preset chooses the Norwegian definition.

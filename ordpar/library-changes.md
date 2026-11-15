@@ -15,6 +15,13 @@ page. Rewritten in this form 2026-11-07 from the entries as first written (git h
 
 What has changed in the dictionary's content, newest first: newly translated articles, our corrections of Bokmålsordboka's text, and each newer copy of Bokmålsordboka's data, the work of Språkrådet and the University of Bergen. With a newer copy, the articles not yet translated follow it at once, with our corrections kept wherever the text they correct is unchanged; the translated ones keep the Norwegian their English was written for until we revise them. Today's totals are on the [About page](https://ordpar.no/about/#how-far-it-has-come).
 
+## 2026-11-13
+
+- **Bokmålsordboka's data of 13 November 2026** (Språkrådet and the University of Bergen). Some of the mistakes
+  we had corrected are now corrected in Bokmålsordboka itself, so fewer corrections of ours remain.
+- **Totals:** our corrections of typos, punctuation and formatting 566 in 555 articles (was 624 in 611);
+  cross-references 72 in 72 articles (was 86 in 84); other corrections 62 in 62 articles (was 64 in 64).
+
 ## 2026-11-10
 
 - **Bokmålsordboka's data of 10 November 2026** (Språkrådet and the University of Bergen).

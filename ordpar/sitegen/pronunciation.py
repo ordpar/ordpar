@@ -39,17 +39,20 @@ Robin: the "?" "taking unecessary space and attention" once the sound icons were
 plain text, as ordbokene's.
 """
 import html
+import os
 import re
 
-from . import deck
+from . import deck, library
 
 #: The section's label, ordbokene's English one (its Norwegian interface: "Uttale"); inside the
 #: fragment, so hard-coded as the other section labels (`article.SENSES_LABEL`)
 LABEL = "Pronunciation"
 
 #: The concepts table the build uses (`library.mirror_concepts`, set by `build_site.Builder`);
-#: None: the deck's own (`derive.concepts_map()`)
+#: None (a page rendered outside the build): the table `library.mirror_concepts` finds for the
+#: data folder's copy of the mirror, read once (`_concepts`)
 CONCEPTS = None
+_LOCAL_CONCEPTS = None
 
 #: What the build counts (`build_site` writes it to `build.json` `pronunciation`)
 STATS = {"pages": 0, "translated_pages": 0, "entries": 0, "runs_translated": 0,
@@ -83,7 +86,19 @@ _TRAIL = re.compile(r"^(.*?)([,;:]+)$")
 
 
 def _concepts():
-    return CONCEPTS if CONCEPTS is not None else deck.derive.concepts_map()
+    """The table `CONCEPTS` names; with none set, the one the rest of the site falls back on,
+    `library.mirror_concepts` for the mirror's files in the data folder
+    (`<ORDBOK_DATA_DIR>/bokmalsordboka/`, the public repository's layout): the
+    `bm-concepts.json` there where there is one, else the deck's `sources/concepts.json` through
+    `derive.concepts_map()`, which fetches the table from ord.uib.no only when neither file is
+    found (decisions 184)."""
+    global _LOCAL_CONCEPTS
+    if CONCEPTS is not None:
+        return CONCEPTS
+    if _LOCAL_CONCEPTS is None:
+        mirror = os.path.join(library.fetch.DATA_ROOT, library.PUBLIC_MIRROR_DIR, "bm-articles.jsonl")
+        _LOCAL_CONCEPTS = library.mirror_concepts(mirror)[0]
+    return _LOCAL_CONCEPTS
 
 
 def _fill_text(content, items):

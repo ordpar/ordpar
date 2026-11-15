@@ -1,5 +1,5 @@
 """Pins the corrected copy of Bokmålsordboka the public export ships (decisions 184, Robin
-2026-11-12: "Yes, corrected copy"; `ordpar/corrected_copy.py`).
+2026-11-12; `ordpar/corrected_copy.py`).
 
 1. **The normalization log made into patches** (`derive_patches`): a capture's text fix that its
    log row explains becomes a patch whose `before` is the raw value and whose `after` is that value

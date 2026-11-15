@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Bokmålsordboka with our fixes in it: the corrected copy the public export ships beside the raw
-one (decisions 184, Robin 2026-11-12: "Yes, corrected copy").
+one (decisions 184, Robin 2026-11-12).
 
 Two sets of fixes reach Bokmålsordboka's text on its way to ordpar.no, and the copy carries both,
 through **one code path, the overlay's** (`sitegen/overlay.py`: a row changes a value only where

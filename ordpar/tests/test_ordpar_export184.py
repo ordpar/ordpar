@@ -329,7 +329,7 @@ SAMPLE = """# Where Ordpar differs
 |---|---|---|---|---|---|
 | A | a | a | a | **No.** ours | [5][d5] (2026-09-01) |
 | B | b | b | b | **Yes.** theirs | [12][d12] (2026-09-05); [59][d59] |
-| C | c | c | c | **Maybe.** perhaps | [7][d7] |
+| C | c | c | c | **Maybe.** perhaps | [9][d9] |
 
 ## For the project's own record
 
@@ -421,7 +421,7 @@ SAMPLE_HOW = """# Where Ordpar differs
 |---|---|---|---|---|---|---|
 | A | a | a | a | **No.** ours | [5][d5] (2026-09-01) | [The search index, § (2) Suggestions](lookup-index.md#2-suggestions) |
 | B | b | b | b | **Yes.** theirs | [12][d12] (2026-09-05) | [The receiver's README, § Files](../receiver/README.md#files); [The audio Worker's README, § Files](../audio-worker/README.md#files) |
-| C | c | c | c | **Maybe.** perhaps | [7][d7] | |
+| C | c | c | c | **Maybe.** perhaps | [9][d9] | |
 
 ## For the project's own record
 
@@ -581,6 +581,70 @@ class DivergencesDocLinks(unittest.TestCase):
             with io.open(full, encoding="utf-8") as fh:
                 self.assertIn(anchor, D.heading_anchors(fh.read()), (what, target))
 
+    # A reference to an entry the public log does not have (an entry cut from it on purpose) would
+    # be a dead link on GitHub: the public edition leaves it out of the cell, with its prefix and
+    # its parenthesis of dates, says so on stderr, and stops when nothing would be left of the
+    # cell. 999 stands for such an entry.
+    B_ROW = "| [12][d12] (2026-09-05) |"
+
+    def public_b_row(self, cell):
+        """The public edition of SAMPLE_HOW with row B's Decision cell ``cell``: its B row's
+        Decision cell and what went to stderr."""
+        err = io.StringIO()
+        with mock.patch.object(sys, "stderr", err):
+            pub = D.edition(SAMPLE_HOW.replace(self.B_ROW, "| %s |" % cell), public=True)
+        row = [l for l in pub.split("\n") if l.startswith("| B |")][0]
+        return D.cells(row)[6].strip(), err.getvalue()
+
+    def test_the_public_log_is_found(self):
+        path = D.public_log()
+        self.assertTrue(path and os.path.isfile(path), path)
+        ids = D.public_ids(path)
+        self.assertIn("184", ids)
+        self.assertNotIn("999", ids)
+
+    def test_a_reference_the_log_lacks_is_left_out(self):
+        for cell, want in (
+                # after a "; ", with a prefix of words and its parenthesis (the real cell's shape)
+                ("[12][d12] (2026-09-05); the Norwegian interface [999][d999] (2026-10-24)",
+                 "[12](decisions.md#d12) (2026-09-05)"),
+                # first, its parenthesis holding a "; " of its own
+                ('[999][d999] (2026-10-24; the "?" removed 2026-11-02); [12][d12] (2026-09-05)',
+                 "[12](decisions.md#d12) (2026-09-05)"),
+                # in the middle, with no parenthesis
+                ("[12][d12] (2026-09-05); [999][d999]; [59][d59] (2026-10-19)",
+                 "[12](decisions.md#d12) (2026-09-05); [59](decisions.md#d59) (2026-10-19)"),
+                # one of two sharing a parenthesis: the parenthesis stays with the other
+                ("[12][d12], [999][d999] (2026-10-22)", "[12](decisions.md#d12) (2026-10-22)"),
+                ("[999][d999], [12][d12] (2026-10-22)", "[12](decisions.md#d12) (2026-10-22)")):
+            got, err = self.public_b_row(cell)
+            self.assertEqual(got, want, cell)
+            self.assertEqual(err, 'left out of the public edition: 999 (row "B")\n', cell)
+
+    def test_a_cell_left_with_no_reference_stops(self):
+        for cell in ("[999][d999] (2026-10-24)", "the heading [999][d999]; [998][d998] (2026-10-25)"):
+            with self.assertRaises(SystemExit) as cm:
+                self.public_b_row(cell)
+            self.assertIn('"B"', str(cm.exception), cell)
+
+    def test_the_print_edition_is_unchanged(self):
+        # the print edition cuts the column whole: a reference the log lacks changes nothing there
+        text = SAMPLE_HOW.replace(self.B_ROW, "| [12][d12] (2026-09-05); [999][d999] (2026-10-24) |")
+        err = io.StringIO()
+        with mock.patch.object(sys, "stderr", err):
+            self.assertEqual(D.edition(text), D.edition(SAMPLE_HOW))
+        self.assertEqual(err.getvalue(), "")
+
+    @unittest.skipUnless(os.path.exists(RECORD), "the divergences record is private")
+    def test_every_decision_link_of_the_record_lands_in_the_public_log(self):
+        ids = D.public_ids(D.public_log())
+        err = io.StringIO()
+        with io.open(RECORD, encoding="utf-8") as fh, mock.patch.object(sys, "stderr", err):
+            pub = D.edition(fh.read(), public=True)
+        cited = re.findall(r"\]\(decisions\.md#d(\d+[a-z]?)\)", pub)
+        self.assertGreater(len(cited), 50)
+        self.assertEqual(sorted({n for n in cited if n not in ids}), [])
+
 
 class Fetch(unittest.TestCase):
 
@@ -699,8 +763,7 @@ class Projections(unittest.TestCase):
 
 class RewrittenDocs(unittest.TestCase):
     """The technical docs rewritten in place, their history in a private `-rationale.md` beside
-    each (decisions 184, question 4), and their links into the private log pointed at the public
-    one."""
+    each (decisions 184), and their links into the private log pointed at the public one."""
 
     def test_a_rationale_file_never_leaves(self):
         self.assertTrue(X.is_rationale("ordpar/docs/build-site-rationale.md"))
@@ -728,6 +791,60 @@ class RewrittenDocs(unittest.TestCase):
         files = export_set()
         for name in ("README.md", "check7-reader.md", "agent_review.py", "test_agent_review.py"):
             self.assertIn("handover/checks/agent-review/" + name, files)
+
+
+class ReadmeTestCount(unittest.TestCase):
+    """The README's sentence on the tests' result ("… 96 test files ran 1,571 tests, of which 156
+    were skipped and none failed.") is checked against the export's own run: a release refuses
+    when the three numbers differ, or when the sentence is missing; a draft only warns
+    (`export_public.readme_counts`, `readme_count_fault`)."""
+
+    TEXT = ("As a guide: in a fresh copy of this repository on Windows, before any build and without the\n"
+            "browser tests, 96 test files ran 1,571 tests, of which 156 were skipped and none failed.\n")
+
+    def test_the_sentence_is_read(self):
+        self.assertEqual(X.readme_counts(self.TEXT), (96, 1571, 156))
+        self.assertEqual(X.readme_counts("1 test file ran 1 test, of which 0 were skipped"), (1, 1, 0))
+        self.assertIsNone(X.readme_counts("The tests ran and none failed."))
+
+    def test_agreeing_numbers_pass(self):
+        self.assertIsNone(X.readme_count_fault(self.TEXT, (96, 1571, 156), "ordpar/public/README.md"))
+
+    def test_differing_numbers_are_named_with_the_file(self):
+        for run in ((97, 1571, 156), (96, 1580, 156), (96, 1571, 150)):
+            fault = X.readme_count_fault(self.TEXT, run, "ordpar/public/README.md")
+            self.assertIn("ordpar/public/README.md", fault)
+            self.assertIn("96 file(s), 1571 test(s), 156 skipped", fault)
+            self.assertIn("%d file(s), %d test(s), %d skipped" % run, fault)
+
+    def test_a_missing_sentence_is_a_fault(self):
+        fault = X.readme_count_fault("No such sentence here.\n", (96, 1571, 156), "ordpar/public/README.md")
+        self.assertIn("ordpar/public/README.md", fault)
+        self.assertIn("test files ran", fault)
+
+    def test_the_public_readme_has_the_sentence(self):
+        readme = os.path.join(ROOT, "README.md") if IN_EXPORT else os.path.join(ORDPAR, "public", "README.md")
+        with io.open(readme, encoding="utf-8") as fh:
+            self.assertIsNotNone(X.readme_counts(fh.read()))
+
+    def test_a_release_refuses_and_a_draft_warns(self):
+        bad = (97, 1571, 156)
+        with self.assertRaises(X.Refused) as cm:
+            X.check_readme_counts(self.TEXT, bad, release=True)
+        self.assertIn("refused", str(cm.exception))
+        out = io.StringIO()
+        with mock.patch.object(sys, "stdout", out):
+            X.check_readme_counts(self.TEXT, bad, release=False)
+            X.check_readme_counts(self.TEXT, (96, 1571, 156), release=True)
+        self.assertEqual(out.getvalue().count("warning: "), 1, out.getvalue())
+        with self.assertRaises(X.Refused):
+            X.check_readme_counts("No such sentence.\n", (96, 1571, 156), release=True)
+
+    def test_the_export_checks_after_its_test_run(self):
+        # in main(), after the tests have run; and the help says so
+        src = inspect.getsource(X.main)
+        self.assertLess(src.index("run_tests(stage"), src.index("check_readme_counts("))
+        self.assertIn("README", X.__doc__[X.__doc__.index("Then the tests run"):])
 
 
 class PrivateImports(unittest.TestCase):

@@ -1,4 +1,4 @@
-// Decisions 104 (R2, 2026-10-23): the search lives in the address's fragment (`/bm-en/#q=…`), which
+// Decisions 104 (2026-10-23): the search lives in the address's fragment (`/bm-en/#q=…`), which
 // a browser never sends, so no request the page makes carries the reader's search in its query
 // string (nor in a Referer).
 //

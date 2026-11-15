@@ -30,7 +30,7 @@ What goes in (the MANIFEST below, nothing else):
   in `data/bokmalsordboka/`, its articles file in parts under 50 MB cut by article id, which
   `python ordpar/data_parts.py join` puts back together, and beside it, in
   `data/bokmalsordboka/corrected/`, **the corrected copy**: the same articles in the same parts
-  with every fix of ours applied (decisions 184, "Yes, corrected copy"; `ordpar/corrected_copy.py`:
+  with every fix of ours applied (decisions 184; `ordpar/corrected_copy.py`:
   the handover's mirror corrections and the normalization log made into patches, both through
   `sitegen/overlay.py`), its `normalization-patches.jsonl` and `fixes.jsonl`, every row of both
   files with its verdict per article, the ones not applied included; the National Library's word counts
@@ -63,7 +63,10 @@ touched what was exported, so a week with no change gives the same file.
 Then the tests run inside a copy of it, with `ORDBOK_DATA_DIR` set to its data/, all but the
 browser tests: a test file that imports a module the export leaves out runs too, its tests that
 need the module skipped with a reason naming it, and is listed with its counts. The counts run,
-skipped and excluded are printed, by reason (`--no-tests` skips them).
+skipped and excluded are printed, by reason (`--no-tests` skips them). The exported README's
+sentence on that result ("… 96 test files ran 1,571 tests, of which 156 were skipped …") is then
+checked against the run: a release refuses when its three numbers differ or the sentence is
+missing, naming ordpar/public/README.md to edit; a draft warns. The folder is written by then.
 
 Paths: the target, the mirror and the 1-gram file come from the flags, else from
 ordpar/local-paths.json (`ordpar/local_paths.py`). Standard library only.
@@ -345,7 +348,7 @@ def git(*args, cwd=ROOT, binary=False):
 
 
 def is_rationale(rel):
-    """A doc's private history (decisions 184, question 4: the rewritten technical docs replace the
+    """A doc's private history (decisions 184: the rewritten technical docs replace the
     working ones, and their history and decision trail move to a `<doc>-rationale.md` beside each,
     which never leaves the private repository)."""
     return rel.endswith("-rationale.md")
@@ -867,6 +870,42 @@ def run_tests(folder, tests_private, jobs=8):
     return results, excluded
 
 
+#: the README's sentence on the tests' result: "… 96 test files ran 1,571 tests, of which 156 were
+#: skipped and none failed."
+README_COUNTS = re.compile(r"([\d,]+)\s+test\s+files?\s+ran\s+([\d,]+)\s+tests?,\s+of\s+which\s+"
+                           r"([\d,]+)\s+(?:were|was)\s+skipped")
+README_SRC = "ordpar/public/README.md"
+
+
+def readme_counts(text):
+    """The three numbers of the README's sentence on the tests (files, tests run, skipped), or
+    None where it has no such sentence."""
+    m = README_COUNTS.search(text)
+    return tuple(int(g.replace(",", "")) for g in m.groups()) if m else None
+
+
+def readme_count_fault(text, run, path=README_SRC):
+    """None where the README's sentence gives the counts of ``run`` (files, tests run, skipped);
+    else what is wrong, naming ``path``, the file to edit."""
+    got = readme_counts(text)
+    if got is None:
+        return ("%s has no sentence on the tests' result (looked for \"<N> test files ran <N> tests, "
+                "of which <N> were skipped\")" % path)
+    if tuple(got) != tuple(run):
+        return ("%s says %d file(s), %d test(s), %d skipped; the tests in the export: %d file(s), "
+                "%d test(s), %d skipped: edit its sentence" % ((path,) + tuple(got) + tuple(run)))
+    return None
+
+
+def check_readme_counts(text, run, release):
+    """`readme_count_fault`, refused in a release and printed as a warning in a draft."""
+    fault = readme_count_fault(text, run)
+    if fault and release:
+        raise Refused("refused: " + fault)
+    if fault:
+        print("warning: " + fault)
+
+
 # ------------------------------------------------------------------------------------ the main
 
 #: the findings that refuse in any mode come first in a listing
@@ -895,7 +934,7 @@ def main(argv=None):
     ap.add_argument("--draft", action="store_true",
                     help="warn, rather than refuse, on what only a release must have: the public "
                          "texts, their sources unchanged, the decision log's entries, resolving links, "
-                         "a committed export set")
+                         "a committed export set, the README's test counts matching the run")
     ap.add_argument("--mirror", help="the mirror's bm-articles.jsonl (default: mirror in "
                                      "ordpar/local-paths.json)")
     ap.add_argument("--freq", help="the National Library's 1-gram file (default: freq in "
@@ -1030,6 +1069,11 @@ def main(argv=None):
             out["their_mail"] = g.their_mail
             with io.open(a.report, "w", encoding="utf-8", newline="\n") as fh:
                 fh.write(json.dumps(out, indent=1, ensure_ascii=False, sort_keys=True, default=list) + "\n")
+        if not a.no_tests:
+            # the README's sentence on the tests' result, against this run
+            t = report["tests"]
+            with io.open(os.path.join(stage, "README.md"), encoding="utf-8") as fh:
+                check_readme_counts(fh.read(), (t["files"], t["run"], t["skipped"]), release)
         return 1 if report.get("tests", {}).get("failed") else 0
     finally:
         shutil.rmtree(stage, ignore_errors=True)

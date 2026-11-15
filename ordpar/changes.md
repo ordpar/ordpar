@@ -9,6 +9,17 @@ content has its own list, library-changes.md (/dictionary-changes/). -->
 
 What has changed on ordpar.no, newest first. The entries are dated; version numbers start with the first full version, 1.0. Changes to the dictionary's content have their own list: [Changes to the dictionary](https://ordpar.no/dictionary-changes/).
 
+## 2026-11-13
+
+- **A linked word's Norwegian definition when you point at it.** In Settings, "When the pointer rests on a linked
+  word" now has three choices: its translation, as before; its first Norwegian definition; or nothing. Until now
+  the Norwegian definition could be chosen only with Norwegian only turned on.
+- **Fixed:** with "When its link is clicked" chosen in Settings, the site still fetched a linked word's Norwegian
+  definition as soon as the pointer reached the link. It now fetches nothing before a click.
+- **The Privacy page** says when the site fetches that definition.
+- **The About page** words the licence of our English more exactly: whatever rights exist in it are given under
+  CC BY 4.0, the same licence as before.
+
 ## 2026-11-11
 
 - **Readers' ideas on the Thanks page.** Thanks to our readers now also lists the ideas from readers for making
@@ -81,8 +92,8 @@ What has changed on ordpar.no, newest first. The entries are dated; version numb
 
 - **"Article page" is gone from under articles,** on a computer too. Copy link and Share give the article's own
   address.
-- **The privacy page says more about the audio.** It now says that Cloudflare, which runs our audio server, keeps a
-  record of each request for a recording, with the IP address, the time and the recording asked for, and that we
+- **The privacy page says more about the audio.** It now says that Cloudflare, which runs our audio server, keeps
+  records of requests for a recording, each with the IP address, the time and the recording asked for, and that we
   can see these records for 32 days. It says the same of the requests that send a report.
 
 ## 2026-11-06

@@ -10,8 +10,10 @@ suffix in:", "forledd" -> "Used as a prefix in:", anything else -> "Also found i
 (*klinikk* 30122's misspelt "som etterldd i ord som", every "i ord som", even a list with no
 intro). Pinned here:
 
-1. **every intro maps to its label** — over every compound list in `sources/articles/*.json`
-   always, and in the mirror's `bm-articles.jsonl` when its folder (`ORDPAR_MIRROR_DIR`, else the folder
+1. **every intro maps to its label** — over every compound list in the deck's captures,
+   `sources/articles/*.json` in the data folder (`fetch.ARTICLES_DIR`: under `ORDBOK_DATA_DIR`
+   when it is set, so `data/sources/articles/` in the public repository, else under the
+   repository root), skipped with the reason where that folder does not exist; and in the mirror's `bm-articles.jsonl` when its folder (`ORDPAR_MIRROR_DIR`, else the folder
    of `mirror` in `ordpar/local-paths.json`) exists, skipped with the reason when it does not. An intro the table
    does not know fails with its article and text, so a new intro from ordbokene stops a deploy's
    gate until it has a label (151's call 3). A misspelling is corrected in the capture
@@ -40,7 +42,9 @@ import glob
 import json
 import os
 import sys
+import tempfile
 import unittest
+from unittest import mock
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
@@ -48,6 +52,7 @@ sys.path.insert(0, ROOT)
 
 import ordbok_gen  # noqa: E402  -- first: mini imports it back for STYLE
 import derive      # noqa: E402
+import fetch       # noqa: E402  -- ARTICLES_DIR: where the captures are
 try:
     import assess  # noqa: E402
 except ModuleNotFoundError as e:
@@ -103,12 +108,13 @@ def _intro(node, concepts):
 
 
 def capture_intros():
-    """`(article id, intro)` for every compound list in the library's captures. The abbreviation
+    """`(article id, intro)` for every compound list in the library's captures, read from the data
+    folder (`fetch.ARTICLES_DIR`), as the site's build reads them. The abbreviation
     table comes through `library.mirror_concepts`, never `derive.concepts_map()` directly, which in
     the public repository fetched it from ord.uib.no and wrote it under the data folder (decisions
     184, the outsider test's finding 2; `test_ordpar_concepts184.py`)."""
     concepts = library.mirror_concepts(os.path.join(MIRROR_DIR, "bm-articles.jsonl"))[0]
-    for p in sorted(glob.glob(os.path.join(ROOT, "sources", "articles", "*.json"))):
+    for p in sorted(glob.glob(os.path.join(fetch.ARTICLES_DIR, "*.json"))):
         with open(p, encoding="utf-8") as f:
             text = f.read()
         if '"compound_list"' not in text:
@@ -140,11 +146,25 @@ def mirror_intros():
 
 class EveryIntro(unittest.TestCase):
     def test_every_capture_intro_has_its_label(self):
-        unknown = ["%s %r" % (aid, intro) for aid, intro in capture_intros()
-                   if not derive.comp_label(intro)[1]]
+        if not os.path.isdir(fetch.ARTICLES_DIR):
+            self.skipTest("no captures at %s (in the public repository, set ORDBOK_DATA_DIR to its "
+                          "data/)" % fetch.ARTICLES_DIR)
+        got = list(capture_intros())
+        self.assertTrue(got, "no compound list in the captures at %s" % fetch.ARTICLES_DIR)
+        unknown = ["%s %r" % (aid, intro) for aid, intro in got if not derive.comp_label(intro)[1]]
         self.assertEqual(unknown, [], "compound-list intros in sources/articles/ that "
                          "derive.COMP_INTRO_LABELS does not know (give each a label, or correct "
                          "a misspelling in its capture): %s" % "; ".join(unknown))
+
+    def test_the_captures_are_read_from_the_data_folder(self):
+        # a capture planted in another data folder is read, and nothing from the repository root
+        with tempfile.TemporaryDirectory() as tmp:
+            with open(os.path.join(tmp, "999999.json"), "w", encoding="utf-8") as fh:
+                json.dump({"article_id": 999999, "body": {"definitions": [
+                    {"type_": "compound_list", "intro": {"content": "som etterldd i ord som", "items": []},
+                     "elements": []}]}}, fh)
+            with mock.patch.object(fetch, "ARTICLES_DIR", tmp):
+                self.assertEqual(list(capture_intros()), [(999999, "som etterldd i ord som")])
 
     def test_every_mirror_intro_has_its_label(self):
         got = mirror_intros()

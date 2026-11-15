@@ -240,7 +240,10 @@ class Marks(Fixture, unittest.TestCase):
     def test_nothing_voiced(self):
         page = PAGE.replace("hus", "xyz").replace("bygning", "abc").replace("bo i et", "q").replace(
             "fullt", "w").replace("mange folk", "e").replace("ha al etter et dyr", "r")
-        page = re.sub(r'(id="ordpar-paradigm">).*?(</script>)', r'[["q",["s1","q"]]]', page)
+        page = re.sub(r'(id="ordpar-paradigm">).*?(</script>)', r'\1[["q",["s1","q"]]]\2', page)
+        # the island is still there, holding only an unvoiced form: so nothing is voiced because
+        # of the forms, not because the island went missing
+        self.assertIn('id="ordpar-paradigm">[["q",["s1","q"]]]</script>', page)
         got, entry, _c = audio.mark(page, 24627, self.names)
         self.assertEqual(got, page)
         self.assertEqual(entry, {})

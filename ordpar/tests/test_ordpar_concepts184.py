@@ -21,8 +21,13 @@ Pinned here, in a child process set up as a clone is (the data folder `ORDBOK_DA
 
 1. `library.mirror_concepts` over a mirror with no table returns the data folder's table, and
    nothing is fetched or written;
-2. the three tests above run and pass, and nothing is fetched or written;
-3. no test file calls `derive.concepts_map()` or `fetch.ensure_concepts` itself (a static check:
+2. the three tests above run and pass, and nothing is fetched or written (the compound-label test
+   reads its captures from the data folder, so a capture is planted there for it);
+3. the pronunciation field's table (`sitegen/pronunciation.py` `_concepts`), when no build has
+   set `pronunciation.CONCEPTS` (an article page rendered outside `build_site.Builder`), comes
+   by the same route, `library.mirror_concepts`, and nothing is fetched or written. It took
+   `derive.concepts_map()` before (2026-11-15);
+4. no test file calls `derive.concepts_map()` or `fetch.ensure_concepts` itself (a static check:
    the table comes through `library.mirror_concepts`).
 
 Stdlib unittest; the child process takes a few seconds.
@@ -62,6 +67,11 @@ if what == "library":
     from ordpar.sitegen import library
     table, source = library.mirror_concepts(sys.argv[5])
     print(json.dumps({"table": table, "source": source}))
+elif what == "pronunciation":
+    from ordpar.sitegen import pronunciation
+    assert pronunciation.CONCEPTS is None
+    print(json.dumps({"text": pronunciation._fill_text("$ $", [{"type_": "entity", "id": "f_eks"},
+                                                              {"type_": "entity", "id": "norr."}])}))
 else:
     import unittest
     prog = unittest.main(module=None, argv=["x"] + sys.argv[5:], exit=False, verbosity=0)
@@ -70,6 +80,12 @@ else:
 '''
 
 TABLE = {"concepts": {"f_eks": {"expansion": "for eksempel"}, "norr.": {"expansion": "norrønt"}}}
+#: a capture with a compound list whose intro is filled from the table, for the compound-label test
+CAPTURE = {"article_id": 999999, "lemmas": [{"lemma": "testord", "hgno": 0}], "body": {"definitions": [
+    {"type_": "compound_list", "intro": {"content": "$ i ord som", "items": [{"type_": "entity", "id": "f_eks"}]},
+     "elements": []}]}}
+#: what this test puts in the data folder, relative to it
+PLANTED = ("bokmalsordboka/bm-concepts.json", "sources/articles/999999.json")
 
 
 class NoFetchNoWrite(unittest.TestCase):
@@ -82,6 +98,10 @@ class NoFetchNoWrite(unittest.TestCase):
         with open(os.path.join(self.data, "bokmalsordboka", "bm-concepts.json"), "w",
                   encoding="utf-8", newline="\n") as fh:
             json.dump(TABLE, fh, ensure_ascii=False)
+        os.makedirs(os.path.join(self.data, "sources", "articles"))
+        with open(os.path.join(self.data, "sources", "articles", "999999.json"), "w",
+                  encoding="utf-8", newline="\n") as fh:
+            json.dump(CAPTURE, fh, ensure_ascii=False)
         self.log = os.path.join(self.tmp, "fetched.txt")
         self.child = os.path.join(self.tmp, "child.py")
         with open(self.child, "w", encoding="utf-8", newline="\n") as fh:
@@ -100,12 +120,12 @@ class NoFetchNoWrite(unittest.TestCase):
             return fh.read().split()
 
     def written(self):
-        """Every file under the data folder but the table this test put there."""
+        """Every file under the data folder but the two this test put there."""
         out = []
         for dp, _dn, fn in os.walk(self.data):
             for f in fn:
                 rel = os.path.relpath(os.path.join(dp, f), self.data).replace("\\", "/")
-                if rel != "bokmalsordboka/bm-concepts.json":
+                if rel not in PLANTED:
                     out.append(rel)
         return sorted(out)
 
@@ -119,6 +139,13 @@ class NoFetchNoWrite(unittest.TestCase):
         self.assertEqual(got["table"], {"f_eks": "for eksempel", "norr.": "norrønt"})
         self.assertEqual(os.path.normcase(os.path.abspath(got["source"])),
                          os.path.normcase(os.path.join(self.data, "bokmalsordboka", "bm-concepts.json")))
+
+    def test_the_pronunciation_table_takes_the_same_route(self):
+        r = self.run_child("pronunciation")
+        self.assertEqual(self.fetched(), [], "fetched over the network: %s" % r.stderr[-1500:])
+        self.assertEqual(self.written(), [], "written under the data folder")
+        self.assertEqual(r.returncode, 0, r.stderr[-1500:])
+        self.assertEqual(json.loads(r.stdout.strip().splitlines()[-1])["text"], "for eksempel norrønt")
 
     def test_the_tests_that_reached_it(self):
         r = self.run_child("tests", *REACHED)
