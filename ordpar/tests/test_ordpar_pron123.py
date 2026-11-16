@@ -14,7 +14,7 @@ Until this build no page showed `body.pronunciation`. Now (`sitegen/pronunciatio
 3. **the note on the marks** is the Help page's § Pronunciation (`/help/#pronunciation`, from
    `ordpar/help.md`), linked from every page's footer ("Help", before "About and licence"), in the
    offline copy as About is. No note text in any page, and since 2026-11-02 no "?" beside the
-   label either (decisions 123's amendment, Robin: "taking unecessary space and attention" once
+   label either (decisions 123's amendment: it took space and attention for nothing once
    the sound icons were in; on the site and the deck alike): no `ordpar-pron-key` class, no `pronq`
    in the page script, no `pron_note` / `pron_button` strings — also on *abstrakt*, whose field
    uses a mark.

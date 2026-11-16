@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """The About page and the published repository's README, from ONE source text, `ordpar/about.md`
-(site decisions 63, Robin 2026-10-22: "making the README and the about page identical (since they
-basically serve the same purpose)"; agreed: one source, so the two cannot drift). The approved text
+(site decisions 63: the README and the about page identical, since they serve the
+same purpose; one source, so the two cannot drift). The approved text
 is `docs/sessions/2026-09-19-ordpar-site-review/walk-through/about-page-final-2026-10-22.md`.
 
 The source is Markdown, so the README is the source itself with its few build marks resolved, and
@@ -22,15 +22,15 @@ the page is a small renderer over the same lines. The subset:
   text by running words, a whole percent), `added_sentences`, `added_articles`;
 * `[if name]…[/if]` — kept only while the number `name` is not zero (the "…: N complete, … their
   summary still to come" clause, which goes by itself once every translated article has its
-  summary; Robin 2026-10-22: "It would just dissapear the day we get the library upto date");
+  summary; decisions 63: it goes the day the library is up to date);
   two are switches, not counts: `privacy` (`chrome.PRIVACY`, decisions 104) and `reports` (the
   reports' switch, `chrome.REPORT_RECEIVER`, site decisions 166: the paragraph thanking the
   readers who report mistakes, true only while they can);
 * `[readme]…[/readme]` — lines the README carries and the page does not (the note on the
   repository's own files, in the approved README's words).
 * a block whose every line starts `- ` is a bulleted list (`<ul>` on the page), each line an item
-  (decisions 106, Robin 2026-10-23: "What Ordpar has changed" as "a concise bulleted list of every
-  type of change + the count"); since site decisions 175 (2026-11-07) an item may wrap onto lines
+  (decisions 106: "What Ordpar has changed" as a concise bulleted list of every
+  type of change with its count); since site decisions 175 (2026-11-07) an item may wrap onto lines
   indented by spaces, its own words joined into it (the change lists' entries are written so).
 
 The changes' counts (decisions 106) are the change notice's own: `corrections.Checker` counts every
@@ -61,8 +61,8 @@ HELP_SOURCE = os.path.join(os.path.dirname(SOURCE), "help.md")
 COMING_SOURCE = os.path.join(os.path.dirname(SOURCE), "coming.md")
 #: The page "More ways to use Ordpar" (site decisions 142, Robin 2026-10-26/27): `/more/`
 MORE_SOURCE = os.path.join(os.path.dirname(SOURCE), "more.md")
-#: The three change lists as public pages (site decisions 175, Robin 2026-11-07: "I want it
-#: public", "Yes, both public"; 177: the decks' list, "Yes, both"): the site's (`/changes/`), the
+#: The three change lists as public pages (site decisions 175, both made
+#: public; 177: the decks' list): the site's (`/changes/`), the
 #: dictionary's (`/dictionary-changes/`), the Anki decks' (`/deck-changes/`). Their words are written
 #: elsewhere (the deploy's change-list step; the deck session for the decks') and never edited by
 #: the build: what they hold, the renderer learns.
@@ -273,8 +273,8 @@ def privacy_page(source=None, draft=False, contents=None, counting=None, reports
     what is true of the build (site decisions 166). Raises ValueError while a `[[…]]` placeholder
     is left, unless `draft` (a preview for Robin).
 
-    The page opens with an index of its sections (decisions 104, Robin 2026-10-23: "an index on
-    the top, where you can click on each header to bring you that section"): every `## ` heading
+    The page opens with an index of its sections (decisions 104: an index at
+    the top, each heading a link to its section): every `## ` heading
     gets an id from its words (`slug`), and a list of links to them goes under the title and the
     page's lead, before the first section, labelled `contents` (the interface's
     `privacy.contents`, "On this page", when not given). Only this page: the About page, which is also the README, has none."""

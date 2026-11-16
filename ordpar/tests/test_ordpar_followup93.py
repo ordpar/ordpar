@@ -276,8 +276,8 @@ out(res.heads[0].articles.map(a => [a.id, a.word]));""")
 
 # --- 3. the About sentence -----------------------------------------------------------------
 
-#: Since decisions 106 (Robin 2026-10-23: "a concise bulleted list of every type of change + the
-#: count") 93 (3)'s sentence is a line of the About page's list, with the count the build makes
+#: Since decisions 106 (a concise bulleted list of every type of change with its
+#: count) 93 (3)'s sentence is a line of the About page's list, with the count the build makes
 LINE = ("The more common spelling of the headword put first, where Bokmålsordboka lists it "
         "second: 4 articles")
 

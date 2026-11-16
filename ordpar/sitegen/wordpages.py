@@ -214,7 +214,7 @@ class FormLabels:
         """The same labels in NORWEGIAN (site decisions 152: the inflection tables' words, under
         Norwegian only or the labels setting): the tables' Norwegian words (`NB_STRINGS`, with the
         English for a key it lacks), "passiv", "og"; a number's definiteness in the Norwegian order,
-        definiteness, "form", then number (152's follow-up, Robin 2026-11-01: "ubestemt form
+        definiteness, "form", then number (152's follow-up: "ubestemt form
         flertall", as Bokmålsordboka's own definitions write "i bestemt form entall"; `label`).
         Ordbokene's rows show no composed label: the composition is ours."""
         if self._nb is None:
@@ -284,7 +284,7 @@ class FormLabels:
         """The numbers among `items` (`(number, [definiteness])`; the rest already words) in
         the Norwegian order: "bestemt form entall"; the singular and the plural side by side as
         one where the plural has the same definiteness or none ("bestemt form entall og
-        flertall", Robin's ruling of 2026-11-01 for "singular definite, plural"), else each on
+        flertall", 152's follow-up, for "singular definite, plural"), else each on
         its own ("bestemt form entall, ubestemt og bestemt form flertall"); a bare number as it
         is ("flertall")."""
         def one(g, qs):

@@ -48,7 +48,7 @@ SHELL_JS = _read(SITE, "shell.js")
 STRINGS = json.loads(_read(SITE, "strings", "en.json"))
 
 #: Robin's rulings, 2026-10-26 (site decisions 136); decisions 139's `nestminis` named in Concise and
-#: For learners, since decisions 147 (2026-10-29) at its new default, `second` (Robin: "agree on recommendation");
+#: For learners, since decisions 147 (2026-10-29) at its new default, `second` (as recommended);
 #: named even at the default, so a later change of the default leaves them
 RULED = [
     ("default", {}),
@@ -59,7 +59,9 @@ RULED = [
                  "minispacing": "article", "nestminis": "second",   # 147: the new default; nestlimit went
                  "emph": "en", "formulas": "en"}),                  # 174
     ("learners", {"exeye": "on", "emph": "no", "examples": "both", "subsenses": "defs",
-                  "formulas": "both", "nestminis": "second"}),   # 147
+                  "formulas": "both", "nestminis": "second",   # 147
+                  "levels": "on",                                # site decisions 187
+                  "phraseorder": "level"}),                      # site decisions 188
 ]
 WORDS = {
     "settings.presets.title": "Presets",
@@ -120,7 +122,7 @@ class Presets(unittest.TestCase):
     def test_c_each_covers_every_article_setting_and_no_other(self):
         rows = settings_table()
         article = [k for k, _v, _d, sec in rows if sec == "article"]
-        self.assertEqual(len(article), 21)               # today's Article section (139: +2; 147: -1; 159: +1)
+        self.assertEqual(len(article), 24)               # today's Article section (139: +2; 147: -1; 159: +1; 186: +1; 187: +1; 188: +1)
         for p in presets_table():
             self.assertEqual(sorted(full(p["values"])), sorted(article), p["id"])
         others = [k for k, _v, _d, sec in rows if sec != "article"]
@@ -154,14 +156,15 @@ class Presets(unittest.TestCase):
         self.assertIn("addEventListener('storage'", s)
 
     def test_h_what_each_does_behind_a_hint(self):
-        # site decisions 161 (Robin, 2026-11-02, "Yes, as drafted"): one "?" after the heading,
+        # site decisions 161, as drafted: one "?" after the heading,
         # a line per preset in the ruled words, then a link to Help's Settings section
         ruled = {
             # site decisions 174 (Robin, 2026-11-07): Default's note for the new defaults; English emphasized's
             "default": "Ordpar as it starts: each definition in Norwegian and English, the Norwegian in full colour and the English faded; short formula lines in both languages; every example with its English; small articles in full.",
             "english": "for when you read mostly for the English: in each definition the English in full colour and the Norwegian faded; short formula lines in English only.",
             "concise": "for when you only need the meaning: each definition in English only; the first two examples under each sense and set phrase, with a line to show the rest; small articles a little shorter. An article not yet translated still shows its Norwegian.",
-            "learners": "for reading the Norwegian first: an eye beside the headword hides the examples' English; in each definition the Norwegian in full colour and the English faded; short formula lines in both languages.",
+            # site decisions 187: the level box's clause; 188: the set phrases' order, a draft for Robin
+            "learners": "for reading the Norwegian first: an eye beside the headword hides the examples' English; in each definition the Norwegian in full colour and the English faded; short formula lines in both languages; each word's CEFR level in a small box after the headword, with the set phrases ordered by level, A1 first.",
         }
         for p in presets_table():
             self.assertEqual(STRINGS.get("settings.presets." + p["id"] + ".note"), ruled[p["id"]], p["id"])

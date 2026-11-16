@@ -1,7 +1,7 @@
 // The Ordpar event receiver: a Cloudflare Worker on its workers.dev address (site decisions 26),
 // taking page views with the daily scrambled code (104), offline-app installs (104) and the
 // search events (62). One endpoint, POST /e, one small JSON event per request. A request that
-// carries `Sec-GPC: 1` is answered and nothing kept (104, R12).
+// carries `Sec-GPC: 1` is answered and nothing kept (decisions 104).
 //
 // THE COUNTING'S SWITCH (site decisions 166, 2026-11-05): the Worker variable COUNTING
 // (wrangler.jsonc `vars`). Not "1", as configured: `/e` is not served (400, as any unknown path,
@@ -10,7 +10,7 @@
 //
 // "Report a mistake" (site decisions 166): POST /report, from the page's report.js, stored in D1
 // (`reports`), with a hidden trap field and a cap on the reports accepted per hour in total
-// (nothing about the sender read: Robin, 2026-11-05, "Yes, drop it"); GET /reports and
+// (nothing about the sender read: decisions 166); GET /reports and
 // POST /reports/<id>/done, for Robin, behind the Worker secret REPORTS_TOKEN. Rules: reports.js.
 // Reports use D1 only: no KV, so the Worker can go live for them without the counting's secret.
 //
@@ -66,12 +66,12 @@ export function fromBot(request) {
 }
 
 /** The reader asked not to be counted (Global Privacy Control, `Sec-GPC: 1`): the page's
- *  events.js sends nothing then already; this is the receiver's own check (104, R12). */
+ *  events.js sends nothing then already; this is the receiver's own check (decisions 104). */
 export function optedOut(request) {
   return request.headers.get('Sec-GPC') === '1';
 }
 
-/** 32 random hex digits: a search line's key, so `searches` keeps no order of arrival (104, R4). */
+/** 32 random hex digits: a search line's key, so `searches` keeps no order of arrival (decisions 104). */
 export function randomKey() {
   const b = crypto.getRandomValues(new Uint8Array(16));
   let s = '';

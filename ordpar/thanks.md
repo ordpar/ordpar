@@ -1,6 +1,6 @@
-<!-- The thanks page (/thanks/, site decisions 166, Robin 2026-11-05: "a reader who wants it is
-credited by name on a page of its own"; "thanks to X number of reports that lead to Y number of
-fixes"). Rendered by ordpar/sitegen/thanks.py from this text and the list of fixes,
+<!-- The thanks page (/thanks/, site decisions 166: a reader who wants it is
+credited by name on a page of its own, with the number of reports and the number of fixes
+they led to). Rendered by ordpar/sitegen/thanks.py from this text and the list of fixes,
 ordpar/reader-fixes.jsonl, which only Robin's /reports page writes (scripts/reports_page.py). The
 About page's Markdown subset; {reports} and {fixes} are counted by the build ("3 reports", "1 fix");
 [if fixes]...[/if] is kept while there is a fix, [if no_fixes]...[/if] while there is none; {list},

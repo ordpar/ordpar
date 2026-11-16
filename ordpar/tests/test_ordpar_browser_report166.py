@@ -1,6 +1,6 @@
 """Site decisions 166 (Robin, 2026-11-05): "Report a mistake" at an article's foot, in a browser
 (headless Edge, `browser/report166.js`), sending to the receiver's own code run locally. Since the
-follow-up of the same day: Robin's pick in the lab ("Suggest a correction", the drop-down, the
+follow-up of the same day: the lab's pick ("Suggest a correction", the drop-down, the
 confirmation under the row), the name to credit, the receiver's total cap per hour, and the phone
 row.
 

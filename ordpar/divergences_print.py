@@ -14,11 +14,11 @@ above that heading names no decision. Both editions:
   lacks" included (a list after the tables, added 2026-11-12; of use to the editors, so in the
   print edition too; it names no decision, and a reference in it stops either edition);
 - sort each table's rows by the verdict cell, "**Yes.**", then "**Maybe.**", then "**No…"
-  (Robin, 2026-11-11: "put the "Of use to ordbokene?" → "yes", at the top of each table"; the
+  (decisions 184: the rows whose "Of use to ordbokene?" is yes at the top of each table; the
   record keeps its order), the record's order kept inside each group.
 
-**The print edition** (the PDF for ordbokene's editors; Robin, 2026-11-11: "the "decision"
-references are not useful for the ordbøkene editors") also cuts the Decision column, the sixth of
+**The print edition** (the PDF for ordbokene's editors, to whom the decision
+references are of no use) also cuts the Decision column, the sixth of
 six, and the key's row that describes it.
 
 **The public edition** (`--public`, the repository's `docs/divergences.md`; decisions 184)
@@ -31,8 +31,8 @@ parenthesis of dates (`known_refs`), and named on stderr (`left out of the publi
 (row "Addresses")`); a cell that would be left with no reference stops the script, naming the
 row. The print edition does not read the log.
 
-**The "How it works" column** (decisions 184, Robin 2026-11-13: "linking to the relevant sections
-in the tecnical docs"): a seventh column after Decision, each cell a link (at most two, joined by
+**The "How it works" column** (decisions 184: links to the relevant sections
+of the technical docs): a seventh column after Decision, each cell a link (at most two, joined by
 "; ") to the section of the site's technical docs, or of a README, that describes the feature as
 built; empty where no doc does yet. Its links are relative to the record's own folder,
 ordpar/docs/, whatever path the record is read from. The print edition cuts the column and the

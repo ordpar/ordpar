@@ -28,11 +28,11 @@
  * "Delete stored data" and "Reset settings" remove it, which is On again. The message holds
  * only the fields below, it goes without cookies (`credentials: 'omit'`) and without the page's
  * address (`referrerPolicy: 'no-referrer'`). A view's path is one of the site's own or `/other`
- * (`cleanPath`, the receiver's rule): a mistyped address is never sent as typed (104, R12). The
+ * (`cleanPath`, the receiver's rule): a mistyped address is never sent as typed (decisions 104). The
  * receiver: ordpar/receiver/; what it keeps: ordpar/docs/receiver.md; the words for readers:
  * ordpar/privacy.md.
  *
- * THE SEARCH'S LANGUAGE (site decisions 148's follow-up, Robin 2026-10-29: "Yes, count them"):
+ * THE SEARCH'S LANGUAGE (site decisions 148's follow-up: English searches counted too):
  * every search and suggestion message carries `lang`, 'en' for the English search (the switch on,
  * `en` true) and 'nb' for the Norwegian one, so an English search is counted as its Norwegian
  * counterpart is, by the same rules, and told apart from it.
@@ -48,7 +48,7 @@
   var VISIBLE_MS = 2000;   // 104, layer 4: "visible about 2 seconds"
   // The page paths a view may name, as the receiver's rule (rules.js `PATH`, the same pattern;
   // test_ordpar_events104.py holds the two together): any other path — a mistyped address, which
-  // can hold a word the reader typed — is SENT as OTHER_PATH, not only stored so (104, R12).
+  // can hold a word the reader typed — is SENT as OTHER_PATH, not only stored so (decisions 104).
   var PATH = /^\/(?:bm-en\/(?:\d{1,7}\/)?|about\/|privacy\/|settings\/|favourites\/|history\/)?$/;
   var OTHER_PATH = '/other';
   // any script's digits, as the receiver's /\p{N}/u; built at run time, so an older browser's

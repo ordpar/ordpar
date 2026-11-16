@@ -70,13 +70,13 @@ SITE_CSS = r'''
 /* the POS line as ordbokene's (decisions 76): the class in the deck's small capitals, the
    gender or subclass (`article.pos_html`'s <i>) in italic lower case, no brackets */
 .ordbok-pos i{font-style:italic;font-variant:normal;text-transform:lowercase;letter-spacing:normal}
-/* its size (decisions 76, Robin 2026-10-21, the style lab's variant 3, "word-class size: 1.0"):
+/* its size (decisions 76, the style lab's variant 3, the word class at 1.0):
    the body text's own size, the class and its italic part alike, in the deck's muted grey kept
    (the deck's .8em, 12.8 px, overridden site-side; ordbokene's 20 / 16 px are in the text colour) */
 .ordbok-pos{font-size:1em}
 /* the summary gloss under the headword groups (decisions 42): the authored salience order;
    each item's sense mark (a superscript link to #def<N>) comes with the sense tags. Semibold
-   and 1.1x the body, in the article's text colour (Robin, 2026-10-19: "a bit more prominent");
+   and 1.1x the body, in the article's text colour, to stand out a little more (decisions 59);
    the full search results inherit it, the list view's one-line snippet does not */
 .ordpar-gloss{margin:.4em 0 0;font-size:1.1em;font-weight:600;line-height:1.35}
 .ordpar-gloss sup{font-weight:400}
@@ -111,8 +111,8 @@ html.ordpar-defs-en .ordpar-untr,html.ordpar-defs-en .ordpar-untr-only{display:n
    script, which renames each `ordpar-pair` it keeps to `mini-pair`, so these rules — not the
    article's `defs` ones — decide what a mini shows, as before */
 /* the mini header's gloss (" — place of residence" after the headword, `mini.js` `header`) in
-   the text colour, not the deck's faded #8b7f84 / #a99ba1 (decisions 97, Robin 2026-10-23:
-   "glosses in the header have normal text-colour (not faded)"), light and dark. Since decisions
+   the text colour, not the deck's faded #8b7f84 / #a99ba1 (decisions 97: the
+   header's glosses in the normal text colour, not faded), light and dark. Since decisions
    114 the deck's own rule takes the text colour too (and the gloss is 1rem, semibold there);
    this rule stays, so the site's look does not hang on the deck's sheet */
 .mini-head .mini-gloss,html.nightMode .mini-head .mini-gloss{color:inherit}
@@ -205,14 +205,14 @@ html.ordpar-formulas-no .ordpar-cl-nb{display:inline}
    plural", "or" — English, or under `formulas = no` the field's own Norwegian ("i flertall",
    "eller"); `both` keeps the English, as the compound labels. On a Norwegian-only page the words
    are Norwegian alone, no pair. The section takes the etymology line's look (`ordbok-inline`); the
-   note on the marks is Help's alone since decisions 123's amendment (Robin 2026-11-02: the "?"
-   beside the label taking "unecessary space and attention"), on the site and the deck alike */
+   note on the marks is Help's alone since decisions 123's amendment (the "?"
+   beside the label took space and attention for nothing), on the site and the deck alike */
 .ordpar-pg-nb{display:none}
 html.ordpar-formulas-no .ordpar-pg-en{display:none}
 html.ordpar-formulas-no .ordpar-pg-nb{display:inline}
 /* the label upright, in both languages and every Formula lines setting, as ordbokene's (decisions
-   81, Robin 2026-10-21, from the style lab: "upright (for both languages, both Norwegian and
-   English)"): the label is the first <em> of the list's line, the deck's italic overridden; an
+   81, from the style lab: upright for both languages, Norwegian and
+   English): the label is the first <em> of the list's line, the deck's italic overridden; an
    untranslated page's one label alike. The compounds after it keep their own look */
 .ordbok .ordpar-comp>.ordbok-def>em:first-child{font-style:normal}
 /* a set phrase's "Se:" line on its own page (decisions 153, `article.see_html`): a line of its own
@@ -307,8 +307,8 @@ html.ordpar-defs-no .ordpar-open>span[lang=en]{cursor:pointer}
 html.ordpar-examples-no .ordbok-ex-list>li:not(.ordpar-open)>.ordpar-en{display:none}
 html.ordpar-examples-no .ordbok-ex-list>li:not(.ordpar-open)>.ordpar-excue{display:block;width:fit-content}
 html.ordpar-examples-no .ordbok-ex-list>li.ordpar-open>.ordpar-en{cursor:pointer}
-/* the eye (decisions 131, Robin 2026-10-25: the deck's eye "as an optional setting you can turn on
-   if you want (off by default)"): `exeye` = off (default) | on -> `ordpar-exeye-on`. With it on,
+/* the eye (decisions 131: the deck's eye as an optional setting a reader can turn on,
+   off by default): `exeye` = off (default) | on -> `ordpar-exeye-on`. With it on,
    the page script puts a button beside the headword of every article shown whole that has an
    example with English (`eyes`: an article page, a word page, a search's full result, an article
    opened in a list row; never a mini). Its look is the deck's (style lab toggle.html, preset E: the
@@ -338,6 +338,22 @@ html:not(.ordpar-exeye-on) .ordpar-exeye{display:none}
 .ordpar-exhide .ordbok-ex-list:not(.ordbok-xmini *)>li:not(.ordpar-open)>.ordpar-en{display:none}
 .ordpar-exhide .ordbok-ex-list:not(.ordbok-xmini *)>li:not(.ordpar-open)>.ordpar-excue{display:block;width:fit-content}
 .ordpar-exhide .ordbok-ex-list:not(.ordbok-xmini *)>li.ordpar-open>.ordpar-en{cursor:pointer}
+/* what the eye hides (decisions 186): `exeyewhat` = examples (default) | all -> `ordpar-exeye-all`.
+   Under all a press blanks its article (`ordpar-blanked`, the page script's `blank`): every English
+   line but the etymology's hidden (`.ordpar-eyehid`), each behind the site's "Show English" cue as
+   the examples' cue stands (its look, size and margin, nothing added; inline on a set phrase's
+   "Eng. phrase" row), in the line's place; under a cue the make-up of the hidden line's height
+   (`.ordpar-eyefill`). A line shown by its cue (`.ordpar-eyeshown`) hides again at a press. No hover
+   peek in a blanked article (a small article's own kept), and in a list row its glosses go too. The
+   cue is styled through its attribute, never a class of its own: the deck shares this sheet and the
+   page script, and `deck/assets.py` refuses a styled button class outside its BUTTON_CLASSES */
+.ordpar-eyehid{display:none!important}
+.ordbok-cue[data-ordpar-eyecue]{display:block;width:fit-content;font-family:inherit;background:none;cursor:pointer}
+.ordbok-idiom .ordbok-cue[data-ordpar-eyecue]{display:inline-block}
+.ordpar-eyefill{display:block}
+.ordpar-eyeshown{cursor:pointer}
+.ordpar-blanked .ordbok-xpeek:not(.ordbok-xmini *){display:none!important}
+.ordpar-row-blanked .ordpar-row-snippet{display:none}
 /* the examples limit per sense (decisions 112, Robin 2026-10-23): `exlimit` = all (default) |
    1 … 10 -> `ordpar-exlimit-<n>` on <html>, set by the head script before the first paint. Every
    example list — a sense's or a subsense's, in an article, a search result, a list or favourites
@@ -394,8 +410,8 @@ html:not(.ordpar-nbo-hovnb) .ordbok-xpeek.ordpar-nbpk{display:none!important}
    both languages, `.ordpar-l-en` and `.ordpar-l-nb` (`data-nosnippet` on the Norwegian copy, the
    one the default hides, 154); `ordpar-labels-no` shows the Norwegian. The word class and the
    inflection tables' words (`.ordpar-w-en`, `.ordpar-w-nb`) follow the labels or the layer — and
-   since 152's follow-up (Robin, 2026-10-31: "They should also become Norwegian with the Norwegian
-   only setting turned on") so do the labels: `ordpar-nbo` shows every Norwegian copy whatever
+   since 152's follow-up (the labels too become Norwegian with the Norwegian
+   only setting turned on) so do the labels: `ordpar-nbo` shows every Norwegian copy whatever
    `labels` says, the stored value never written; the layer off, the reader's own choice again */
 .ordpar-l-nb,.ordpar-w-nb{display:none}
 html.ordpar-labels-no .ordpar-l-en,html.ordpar-labels-no .ordpar-w-en,html.ordpar-nbo .ordpar-l-en,html.ordpar-nbo .ordpar-w-en{display:none}
@@ -429,8 +445,8 @@ html.ordpar-labels-no .ordpar-l-nb,html.ordpar-labels-no .ordpar-w-nb,html.ordpa
 .ordpar-infl-toggle>summary:hover{background:rgba(var(--ordpar-maroon-rgb,@DAY_RGB@),.06)}
 .nightMode .ordpar-infl-toggle>summary{border-color:var(--ordpar-tint,#e3b7c9)}
 .nightMode .ordpar-infl-toggle>summary:hover{background:rgba(var(--ordpar-tint-rgb,227,183,201),.1)}
-/* the table keeps to its card's content box, everywhere (decisions 102, Robin 2026-10-23:
-   "go ahead"; replacing 43's growth past the text column towards the window): the mount fills
+/* the table keeps to its card's content box, everywhere (decisions 102;
+   replacing 43's growth past the text column towards the window): the mount fills
    the box and never passes it, and inflection.js `fit` shows the wide table wherever its
    unwrapped width fits the box and the narrow one where it does not, at load and again when
    the box changes width; a narrow table still too wide scrolls inside its own strip */
@@ -450,8 +466,8 @@ html.ordpar-labels-no .ordpar-l-nb,html.ordpar-labels-no .ordpar-w-nb,html.ordpa
 .nightMode .ordbok-xword{color:inherit;
   text-decoration-color:var(--ordpar-night-line,var(--ordpar-tint,#e3b7c9))}
 .ordbok .ordbok-xword em{font-style:normal}
-/* the mini's headword reads as the link it is (decisions 78, Robin 2026-10-21: the style lab's
-   variant 5, "the most clear indicator that this is still a clickable link"): upright, in the text's
+/* the mini's headword reads as the link it is (decisions 78: the style lab's
+   variant 5, the clearest sign that it is still a link): upright, in the text's
    colour, with the article body's link underline. The Style setting `minihw` = article
    (`ordpar-minihw-article` on <html>) gives it the article headword's look instead: semibold,
    coloured, upright, no underline (the deck's colour and hover underline, kept) */
@@ -462,8 +478,8 @@ html:not(.ordpar-minihw-article) .mini-hw a{text-decoration:underline;
   text-underline-offset:3px}
 html.nightMode:not(.ordpar-minihw-article) .mini-hw a{
   text-decoration-color:var(--ordpar-night-line,var(--ordpar-tint,#e3b7c9))}
-/* the headword at semibold (decisions 63, Robin 2026-10-19: the deck's 700 "slightly too
-   thick"; same size, font and colour) — the article page and the results' cards alike */
+/* the headword at semibold (decisions 63: the deck's 700 slightly too
+   thick; same size, font and colour) — the article page and the results' cards alike */
 .ordbok-lemma{font-weight:600}
 /* the mini's body formatted as the article's (decisions 70, Robin 2026-10-20). A link inside a
    mini is an <a class="ordbok-xword">, so the deck's `.ordbok a` colour outranked the rule above
@@ -555,7 +571,7 @@ html.ordpar-minitext-smaller .ordpar-mbody{font-size:.92rem}
   html:not(.ordpar-miniscroll-off) .ordpar-fmini{max-height:min(70vh,30rem);overflow-y:auto;
     overscroll-behavior:contain}
 }
-/* the mini's width on a computer (decisions 80, Robin 2026-10-22: the style lab's row 7,
+/* the mini's width on a computer (decisions 80: the style lab's row 7,
    "Fit-to-height <=36rem"; row 6's 32rem until the same day): the box shrinks to its content
    between a floor of 12rem (a one-word mini is no sliver) and a ceiling of 36rem, half the
    window but never below today's 19rem, and never past the window (69); `mini.js` `fit` then narrows it to the narrowest width with the same
@@ -563,19 +579,19 @@ html.ordpar-minitext-smaller .ordpar-mbody{font-size:.92rem}
 @media (hover:hover) and (pointer:fine){
   .ordpar-fmini{width:max-content;min-width:12rem;max-width:min(36rem,max(19rem,50vw),calc(100vw - 1rem))}
 }
-/* the hover peek inside the window too (decisions 69, extended by Robin 2026-10-21: "fix it the same way"): the page
+/* the hover peek inside the window too (decisions 69, extended to the peek): the page
    script moves a peek left where it would pass the right edge, and its arrow back by as much, so it still points at the
    word (the arrow kept: Robin, 2026-10-21). The peek and its arrow never take the pointer, so a click
-   where the arrow overlaps the word still opens the mini (Robin, 2026-10-21: "the whole link stays clickable") */
+   where the arrow overlaps the word still opens the mini (decisions 77: the whole link stays clickable) */
 .ordbok-xpeek{max-width:calc(100vw - 1rem);pointer-events:none}
 .ordbok-xpeek::after{left:min(calc(1em + var(--ordpar-peek-dx,0px)),calc(100% - 1.5em))}
 /* a Norwegian-only unit's link to one sense of a translated article: the peek is that sense's whole
-   English definition line (decisions 119, Robin 2026-10-24, the style lab's "Robin's pick, breaking
-   as the article"), broken where the article breaks it (its `;<br>`), in regular weight (116: the
+   English definition line (decisions 119, the style lab's pick, breaking
+   as the article), broken where the article breaks it (its `;<br>`), in regular weight (116: the
    definitions are normal text everywhere), a single long clause wrapping at 22rem */
 .ordbok-xpeek.ordpar-nbdef{font-weight:400;white-space:normal;width:max-content;max-width:min(22rem,calc(100vw - 1rem))}
-/* a peek inside a small article (decisions 141, Robin 2026-10-26: "the mini stays the same size, but the
-   hover is still displayed in full while extending beyond its edge"): the mini's box scrolls, so a peek
+/* a peek inside a small article (decisions 141: the mini stays the same size, and the
+   hover is still shown whole, past its edge): the mini's box scrolls, so a peek
    placed in it from its word was cut off at the box's edge; on hover `mini.js` `peekFix` draws it against
    the window (`ordpar-pfix`, its left and top set there), above its word as here, or below it where above
    would leave the window (`ordpar-pbelow`, the arrow turned to point up). Only its place: whether it shows
@@ -633,8 +649,8 @@ html.ordpar-minitext-smaller .ordpar-mbody{font-size:.92rem}
 .ordbok-sub:not(.ordpar-comp)::marker{color:var(--ordpar-maroon,@DAY@)}
 .nightMode .ordbok-sub:not(.ordpar-comp)::marker{color:#b9b6b6}
 .ordbok-sub.ordpar-comp{border-left:0;padding-left:0;margin-left:0}
-/* THE LAYOUT CLOSER TO ORDBOKENE.NO (decisions 87, Robin 2026-10-22: "an optional style that is
-   closer to the ordbokene original"): the setting `layout` = ordbokene (`ordpar-layout-ordbokene`;
+/* THE LAYOUT CLOSER TO ORDBOKENE.NO (decisions 87: an optional style
+   closer to ordbokene.no): the setting `layout` = ordbokene (`ordpar-layout-ordbokene`;
    the default `ordpar` is the look above). An "Example" heading before a sense's OWN examples —
    above its subsenses; none on a subsense, none on a set phrase, singular whatever the count, as
    ordbokene's (the examples lab report § Ordbokene's header) — in the accent, semibold, the body's
@@ -701,6 +717,49 @@ html.ordpar-subsen-en:not(.ordpar-mini-en):not(.ordpar-defs-no) .ordbok-sub:not(
 .ordpar-play.ordpar-playing{color:var(--ordpar-accent)}
 /* a clip that could not play (offline, a failed names file, an error): faded for 1.5 s */
 .ordpar-play-failed{opacity:.35}
+/* THE CEFR LEVEL BOX (site decisions 187, the style lab's "Quiet box"):
+   `<span class="ordpar-level">` (`levels.box_html`), the last thing in the headword's `h1` (after the
+   last spelling's sound icon) and in each embedded set phrase's term (after its icon). A thin
+   outline in the muted grey of the homograph numeral and the word-class line, the level as text,
+   0.75 rem, weight 600; the lab's values. Shown only while the setting `levels` is on
+   (`ordpar-levels-on` on <html>, from the head script before the first paint); with it off the box
+   is not drawn and not read. Not selectable: a copied headword never carries it */
+.ordpar-level{display:none;white-space:nowrap;line-height:1;font-style:normal;font-weight:600;
+  font-variant:normal;font-size:.75rem;letter-spacing:.03em;padding:.2em .38em;
+  border:1px solid currentColor;border-radius:3px;margin-left:.55em;vertical-align:.32em;
+  color:var(--ordpar-muted,#757070);-webkit-user-select:none;user-select:none}
+.nightMode .ordpar-level{color:var(--ordpar-muted,#b9b6b6)}
+html.ordpar-levels-on .ordpar-level{display:inline-block}
+/* on a set phrase's line, of body size, it sits lower than beside the headword */
+.ordbok-expr-term .ordpar-level{vertical-align:.08em}
+/* THE SET PHRASES BY CEFR LEVEL (site decisions 188): while the boxes are on and `phraseorder` is
+   level (`ordpar-levels-on` and `ordpar-phraseorder-level` on <html>, both from the head script
+   before the first paint), the set-phrase section (`ordpar-exprs`, written where any block has a
+   level) and its untranslated group are flex columns, and each block (`data-level`, `article.py`
+   `_expr_html`) takes its place by `order`: A1 to C 1 to 5, a block with no level 6, the
+   untranslated group 7, so a level keeps the page's alphabetical order and the translated phrases
+   stay first. Only a section's own blocks and its group's (child combinators): a small article
+   opened inside a block keeps its own spacing and order. The order is drawn from the first paint,
+   so nothing moves on screen; the page script (`ordparDefs` → `phord`) then puts the page's own
+   blocks in the same order, so screen readers and the Tab key follow what is drawn. `:where`
+   keeps these rules weaker than the sheet's hiding rules (`ordpar-defs-en` hides the untranslated
+   group). In a flex column margins no longer collapse, so the gaps are rebuilt as the block layout draws them: .6em between blocks
+   (`row-gap`), none from the heading's or a block's own margins; each block's last trailing margin
+   (at most .4em) cancelled by an empty last box whose .6em and -.6em collapse with it to 0; .81em
+   before the untranslated heading, as its own .9em margin at .9em type gives (.6 + .21), none where
+   Norwegian only hides that heading */
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) .ordbok-sec.ordpar-exprs,:where(html.ordpar-levels-on.ordpar-phraseorder-level) .ordpar-exprs>.ordpar-untr{display:flex;flex-direction:column;row-gap:.6em}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) .ordpar-exprs.ordbok-sec>h3{margin-bottom:0}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) :is(.ordpar-exprs,.ordpar-exprs>.ordpar-untr)>.ordbok-expr{margin:0;order:6}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) :is(.ordpar-exprs,.ordpar-exprs>.ordpar-untr)>.ordbok-expr::after{content:"";display:block;margin:.6em 0 -.6em}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) :is(.ordpar-exprs,.ordpar-exprs>.ordpar-untr)>.ordbok-expr[data-level="A1"]{order:1}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) :is(.ordpar-exprs,.ordpar-exprs>.ordpar-untr)>.ordbok-expr[data-level="A2"]{order:2}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) :is(.ordpar-exprs,.ordpar-exprs>.ordpar-untr)>.ordbok-expr[data-level="B1"]{order:3}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) :is(.ordpar-exprs,.ordpar-exprs>.ordpar-untr)>.ordbok-expr[data-level="B2"]{order:4}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) :is(.ordpar-exprs,.ordpar-exprs>.ordpar-untr)>.ordbok-expr[data-level="C"]{order:5}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) .ordpar-exprs>.ordpar-untr{margin-top:.21em;order:7}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level) .ordpar-exprs>.ordpar-untr>.ordpar-untr-head{margin:0}
+:where(html.ordpar-levels-on.ordpar-phraseorder-level.ordpar-nbo) .ordpar-exprs>.ordpar-untr{margin-top:0}
 '''
 
 #: The article page's own rules (decisions 63: the header, the footer and the card are the
@@ -743,7 +802,7 @@ PAGE_CSS = r'''
    stored words stay "Suggested by …" */
 .ordpar-thanks-credit{display:block;font-style:italic}
 .ordpar-thanks-credit::before{content:"\2013\00a0"}
-/* half a line between the ideas (Robin, 2026-11-11: "Yes, add the space"); the fixes' one-line
+/* half a line between the ideas (decisions 183); the fixes' one-line
    rows keep their spacing */
 .ordpar-thanks-ideas>li+li{margin-top:.5em}
 '''
@@ -926,9 +985,9 @@ SITE_CSS = (SITE_CSS.replace("@DAY@", _D["day"]).replace("@DAY_RGB@", _D_RGB)
 
 
 #: The deck's rules drawn in its muted grey that the site draws in `--ordpar-muted` instead (light
-#: and night alike; `shell.css` sets the variable): the homograph numeral (decisions 105, Robin
-#: 2026-10-23: "our faded text colour") and the "Show translation" / "Show English" cue
-#: (decisions 111: "faded grey, to make it less prominent"). Each is an exact text of
+#: and night alike; `shell.css` sets the variable): the homograph numeral (decisions 105:
+#: our faded text colour) and the "Show translation" / "Show English" cue
+#: (decisions 111: faded grey, to make it less prominent). Each is an exact text of
 #: `ordbok_gen._CARD_CSS`; a rule changed there and not here fails the build (`deck_css_site`)
 #: rather than leaving the site a written-out grey. Only these rules: the deck's other uses of
 #: #757070 stay as written.
@@ -1013,12 +1072,32 @@ def article_css():
 #:   no` it opens every example (`.ordpar-open`, the article marked `ordpar-exshown`); either way
 #:   any example opened one at a time closes first. A change of `examples`, or the eye turned
 #:   off, puts every article back to the Examples setting; with it off nothing is inserted.
+#: * `exeyewhat = all` (decisions 186, `ordpar-exeye-all`; `examples` the default, the eye above): the
+#:   eye goes on every such article with an English line (`enOf`), none while definitions are in
+#:   English only (`ordpar-defs-en`: a hidden definition would leave no Norwegian line above its
+#:   cue); named `strings.exeye_all_hide`, pressed `strings.exeye_all_show`. A press (`blank`)
+#:   blanks ITS article: the reader's hidden pairs and examples are marked open first (`defs = no`,
+#:   `examples = no` set aside, their cues hidden by the sheet; never the etymology's), then every
+#:   English line — the headword's gloss, each line of each definition (split at its `<br>`s into
+#:   `span.ordpar-eyel`, its nodes moved), each example's, each set phrase's; never the etymology's,
+#:   nor one in a peek, a mini or a row's button; one the reader's settings do not draw at all left
+#:   alone — is hidden behind its own "Show English" cue (`.ordbok-cue[data-ordpar-eyecue]`), in its
+#:   place; a line that is not an example is made up to its own height under the cue (`fitcue`: one
+#:   row for a line of several), so a reveal moves nothing below a one-row line. A cue pressed shows
+#:   its line (`ereveal`); a press on the shown line hides it again (`erehide`), taken before the
+#:   pair's own close. The second press (`unblank`) gives the article back exactly, the reader's
+#:   own openings and hidings included. Examples cut by the limit are blanked too, so "Show N more"
+#:   opens them blanked. A change of a setting the article depends on (`eyesig`) gives every blanked
+#:   article back first, so none is left half-blanked.
 #:
 #: It runs on load and again from `window.ordparDefs()`, which the shell calls when a
 #: setting changes in place, and which the search page calls after it inserts an article
 #: (site decisions 59) — so `ordparDefs` also applies `infl = open` to every Inflection toggle
 #: it has not seen yet (once each: a toggle the reader closed stays closed), and tells the mini
-#: script to look at the new links (`ordparMinis.scan`, for `minifetch = page`). With JavaScript
+#: script to look at the new links (`ordparMinis.scan`, for `minifetch = page`). It also puts each
+#: set-phrase section's blocks in the page in the order the sheet draws them (`phord`, site
+#: decisions 188): by level while the boxes and the level order are on, else as built, so screen
+#: readers and the Tab key follow the drawn order and nothing moves on screen. With JavaScript
 #: off the page is in the default and needs none of it: a cross-reference is a plain link, and
 #: the buttons are not there.
 #:
@@ -1034,7 +1113,7 @@ def article_css():
 #: press would and takes the key off the address. The article page only: a word page or the search
 #: may show several articles, and draws them later from a search (build-site.md § Report a mistake).
 _PAGE_JS = """(function(){
-var d=document,E=d.documentElement,C=E.classList,SHOW_EN=@SHOW_EN@,EXH=@EXH@,FOOT=@FOOT@,MORE=@MORE@,EYE=@EYE@,NB=@NB@;
+var d=document,E=d.documentElement,C=E.classList,SHOW_EN=@SHOW_EN@,EXH=@EXH@,FOOT=@FOOT@,MORE=@MORE@,EYE=@EYE@,EYEA=@EYEA@,NB=@NB@;
 function kid(n,c){for(var k=n.firstChild;k;k=k.nextSibling)
  if(k.classList&&k.classList.contains(c))return k;return null;}
 /* site decisions 152: a label the page script draws, in both languages — `ordpar-l-en` and the
@@ -1082,6 +1161,88 @@ function exitems(a){var r=[],es=a.querySelectorAll('.ordbok-ex-list>li>.ordpar-e
  for(var i=0;i<es.length;i++)if(!es[i].closest('.ordbok-xmini'))r.push(es[i].parentNode);return r;}
 function exhidden(a){var c=a.classList;
  return c.contains('ordpar-exhide')||C.contains('ordpar-examples-no')&&!c.contains('ordpar-exshown');}
+/* decisions 186: under `exeyewhat` = all (`ordpar-exeye-all`) the eye blanks every English line of
+   ITS article but the etymology, each behind its own "Show English" cue; a second press gives the
+   article back as it was. Never in a peek, a mini or a row's button */
+var EN_SEL='.ordbok-head>.ordpar-gloss,.ordpar-pair>span.ordbok-def[lang="en"],.ordbok-ex-list>li>.ordpar-en,.ordbok-idiom-eng',
+ EN_OFF='.ordbok-xpeek,.ordbok-xmini,template,.ordpar-row-button',EA0=null,SIG0=null;
+function eyeall(){return C.contains('ordpar-exeye-all');}
+function enOf(a){var r=[],xs=a.querySelectorAll(EN_SEL);
+ for(var i=0;i<xs.length;i++)if(/\\S/.test(xs[i].textContent)&&!xs[i].closest(EN_OFF))r.push(xs[i]);return r;}
+/* every English line its own element: a definition of several lines split at its <br>s (its nodes
+   moved, never copied; the <br>s stay); a line the settings do not draw at all is left alone */
+function enLines(a){var out=[],xs=enOf(a);
+ for(var i=0;i<xs.length;i++){var x=xs[i];
+  if(getComputedStyle(x).display==='none')continue;
+  if(!x.classList.contains('ordbok-def')||!x.querySelector('br')){out.push(x);continue;}
+  var ks=[].slice.call(x.childNodes),s=null;
+  for(var k=0;k<ks.length;k++){if(ks[k].nodeName==='BR'){s=null;continue;}
+   if(!s){s=d.createElement('span');s.className='ordpar-eyel';x.insertBefore(s,ks[k]);out.push(s);}
+   s.appendChild(ks[k]);}
+  x.setAttribute('data-ordpar-eyel','');}
+ return out.filter(function(l){return /\\S/.test(l.textContent);});}
+function ecue(l){var b=d.createElement('button');b.type='button';b.className='ordbok-cue';b.setAttribute('data-ordpar-eyecue','');
+ lab(b,SHOW_EN,NB.showEn);b._l=l;return b;}
+function ehide(l,a){var b=ecue(l);l.classList.add('ordpar-eyehid');l.parentNode.insertBefore(b,l);
+ if(!l.closest('.ordbok-ex-list>li'))fitcue(b,l,a);return b;}
+/* the cue made to take the hidden line's height: the article measured with the line and with the
+   cue, the difference made up under the cue by an empty block, or by a negative margin where the
+   cue is the taller; a line of several rows made up to one row; a line not laid out left as it is */
+function fitcue(b,l,a){
+ if(!a.getClientRects().length||!b.getClientRects().length)return;
+ l.classList.remove('ordpar-eyehid');b.style.display='none';
+ var cs=getComputedStyle(l),lh=parseFloat(cs.lineHeight)||parseFloat(cs.fontSize)*1.2;
+ var rs=l.getClientRects(),tops=[],q,z;
+ for(q=0;q<rs.length;q++){if(!rs[q].height)continue;
+  for(z=0;z<tops.length&&Math.abs(tops[z]-rs[q].top)>=lh/2;z++){}
+  if(z===tops.length)tops.push(rs[q].top);}
+ var rows=Math.max(1,rs.length>1?tops.length:Math.round(l.getBoundingClientRect().height/lh)||1);
+ var want=a.getBoundingClientRect().height-(rows-1)*lh;
+ l.classList.add('ordpar-eyehid');b.style.display='';
+ var f=null,h=0,m=0;
+ for(var k=0;k<2;k++){var dh=want-a.getBoundingClientRect().height;
+  if(Math.abs(dh)<=0.05)break;
+  if(dh>0||h>0){
+   if(!f){f=d.createElement('span');f.className='ordpar-eyefill';f.setAttribute('aria-hidden','true');
+    b.parentNode.insertBefore(f,b.nextSibling);b._f=f;}
+   var nh=Math.max(0,h+dh);if(nh===0&&dh<0)m+=dh+h;h=nh;f.style.height=h+'px';}
+  else m+=dh;
+  b.style.marginBottom=m?m+'px':'';}}
+function ereveal(b){var l=b._l;if(!l||!b.parentNode)return;
+ if(b._f&&b._f.parentNode)b._f.parentNode.removeChild(b._f);
+ b.parentNode.removeChild(b);l.classList.remove('ordpar-eyehid');l.classList.add('ordpar-eyeshown');}
+function erehide(l){var a=l.closest('.ordpar-blanked');if(!a)return;
+ l.classList.remove('ordpar-eyeshown');var b=ehide(l,a);try{b.focus({preventScroll:true});}catch(e){}}
+function off2(el,x,y){el.classList.remove(x,y);if(!el.classList.length)el.removeAttribute('class');}
+function blank(a){a.classList.add('ordpar-blanked');
+ var ps=a.querySelectorAll('.ordpar-pair,.ordbok-ex-list>li'),i;
+ for(i=0;i<ps.length;i++)if(!ps[i].classList.contains('ordpar-open')&&!ps[i].closest('.ordbok-xmini,.ordbok-inline'))
+  ps[i].classList.add('ordpar-open','ordpar-eyeopened');
+ var ls=enLines(a);for(i=0;i<ls.length;i++)ehide(ls[i],a);
+ var r=a.closest('.ordpar-row');if(r)r.classList.add('ordpar-row-blanked');}
+function unblank(a){
+ var x=a.querySelectorAll('[data-ordpar-eyecue],.ordpar-eyefill'),i;
+ for(i=0;i<x.length;i++)x[i].parentNode.removeChild(x[i]);
+ x=a.querySelectorAll('.ordpar-eyehid,.ordpar-eyeshown');
+ for(i=0;i<x.length;i++)off2(x[i],'ordpar-eyehid','ordpar-eyeshown');
+ x=a.querySelectorAll('[data-ordpar-eyel]');
+ for(i=0;i<x.length;i++){var ss=x[i].querySelectorAll('.ordpar-eyel');
+  for(var j=0;j<ss.length;j++){while(ss[j].firstChild)x[i].insertBefore(ss[j].firstChild,ss[j]);x[i].removeChild(ss[j]);}
+  x[i].removeAttribute('data-ordpar-eyel');}
+ x=a.querySelectorAll('.ordpar-eyeopened');
+ for(i=0;i<x.length;i++)off2(x[i],'ordpar-open','ordpar-eyeopened');
+ a.classList.remove('ordpar-blanked');
+ var r=a.closest('.ordpar-row');if(r)r.classList.remove('ordpar-row-blanked');}
+/* the settings a blanked article depends on: a change of any gives every blanked article back */
+function eyesig(){var r=[];for(var i=0;i<C.length;i++)
+ if(/^ordpar-(exeye|defs-|examples|nbo|formulas|ety|subsen|layout|exlimit|exmore|emph|labels)/.test(C[i]))r.push(C[i]);
+ return r.sort().join(' ');}
+function eyereset(){var s=eyesig();
+ if(SIG0!==null&&s!==SIG0){var bs=d.querySelectorAll('.ordpar-blanked');for(var i=0;i<bs.length;i++)unblank(bs[i]);}
+ SIG0=s;}
+function elabel(b,a){var all=eyeall(),p=all?a.classList.contains('ordpar-blanked'):exhidden(a),
+ w=all?(p?EYEA.show:EYEA.hide):EYE;
+ b.setAttribute('aria-label',w);b.title=w;b.setAttribute('aria-pressed',p?'true':'false');}
 /* site decisions 152 (Robin's pick (a)): NORWEGIAN ONLY'S ICON BESIDE THE HEADWORD, for a page whose
    header is hidden (the Definer pop-up, `/more/` step 7): on every article shown whole, never a small
    article or a row's button, hidden by the sheet (`.ordpar-nbhw`) unless the page's own CSS shows it
@@ -1103,23 +1264,24 @@ function nbhw(){
    w.appendChild(b);var e=kid(h,'ordpar-exeye');h.insertBefore(w,e?e.nextSibling:h.firstChild);}}
  if(S&&S.syncIcons)S.syncIcons();}
 function eyes(){
- var on=C.contains('ordpar-exeye-on'),no=C.contains('ordpar-examples-no'),i;
- if(!on||EX0!==null&&EX0!==no){var xs=d.querySelectorAll('.ordpar-exhide,.ordpar-exshown');
+ var on=C.contains('ordpar-exeye-on'),no=C.contains('ordpar-examples-no'),all=eyeall(),i;
+ if(!on||EX0!==null&&EX0!==no||EA0!==null&&EA0!==all){var xs=d.querySelectorAll('.ordpar-exhide,.ordpar-exshown');
   for(i=0;i<xs.length;i++){var o=exitems(xs[i]);for(var j=0;j<o.length;j++)o[j].classList.remove('ordpar-open');
    xs[i].classList.remove('ordpar-exhide','ordpar-exshown');}}
- EX0=no;
+ EX0=no;EA0=all;
  if(!on){var ws=d.querySelectorAll('.ordpar-exeye');for(i=0;i<ws.length;i++)ws[i].parentNode.removeChild(ws[i]);return;}
  var as=d.querySelectorAll('.ordpar-article');
  for(i=0;i<as.length;i++){var a=as[i],h=kid(a,'ordbok-head');
   if(!h||a.closest('.ordbok-xmini,.ordpar-row-button'))continue;
   var w=kid(h,'ordpar-exeye');
-  if(!exitems(a).length){if(w)h.removeChild(w);continue;}
+  if(all?C.contains('ordpar-defs-en')||!enOf(a).length:!exitems(a).length){if(w)h.removeChild(w);continue;}
   if(!w){w=d.createElement('span');w.className='ordpar-exeye';var b=d.createElement('button');
    b.type='button';b.className='ordpar-exeye-btn';b.setAttribute('aria-label',EYE);b.title=EYE;
    b.innerHTML='<span aria-hidden="true">'+EYEI+'</span>';w.appendChild(b);h.insertBefore(w,h.firstChild);}
-  w.firstChild.setAttribute('aria-pressed',exhidden(a)?'true':'false');}}
+  elabel(w.firstChild,a);}}
 function eye(b){
  var a=b.closest('.ordpar-article');if(!a)return;
+ if(eyeall()){if(a.classList.contains('ordpar-blanked'))unblank(a);else blank(a);elabel(b,a);return;}
  var hid=exhidden(a),no=C.contains('ordpar-examples-no'),li=exitems(a),i;
  for(i=0;i<li.length;i++)li[i].classList.remove('ordpar-open');
  a.classList.remove('ordpar-exhide','ordpar-exshown');
@@ -1154,9 +1316,35 @@ function infl(){
  var o;try{o=(window.ordparRead?window.ordparRead('infl'):localStorage.getItem('infl'))==='open';}catch(e){}
  var ts=d.querySelectorAll('details.ordpar-infl-toggle');
  for(var i=0;i<ts.length;i++){if(ts[i]._i)continue;ts[i]._i=1;if(o)ts[i].open=true;}}
+/* site decisions 188: THE SET PHRASES' PAGE ORDER FOLLOWS THE DRAWN ORDER. While <html> has both
+   `ordpar-levels-on` and `ordpar-phraseorder-level` the sheet draws a set-phrase section's blocks
+   by level (`order`, `SITE_CSS`); this puts the page's own blocks in that order too (A1, A2, B1,
+   B2, C, no level last, a level in the order the page was built in), so screen readers and the Tab
+   key follow what is drawn, and puts them back in the built order when either class goes. The
+   sheet draws the same order before and after, so nothing moves on screen. Each block's place as
+   built is recorded once (`_po`), so the way back never re-sorts text; a section's own blocks and
+   its untranslated group's, each group apart (the translated phrases stay first); only the blocks
+   out of place are moved, each with what it holds (an open small article, the eye's state, the
+   examples shown), and the focus, if it was inside one, is given back without scrolling */
+var LVO={A1:1,A2:2,B1:3,B2:4,C:5};
+function phgrp(g,lv){var bs=[],c,i;
+ for(c=g.firstElementChild;c;c=c.nextElementSibling)if(c.classList.contains('ordbok-expr'))bs.push(c);
+ if(bs.length<2)return;
+ if(bs[0]._po==null)for(i=0;i<bs.length;i++)bs[i]._po=i;
+ var t=bs.slice().sort(function(a,b){
+  return lv&&((LVO[a.getAttribute('data-level')]||6)-(LVO[b.getAttribute('data-level')]||6))||a._po-b._po;});
+ var r=bs[0],f=d.activeElement,m=0;
+ for(i=0;i<t.length;i++){
+  if(t[i]===r){for(r=r.nextElementSibling;r&&!r.classList.contains('ordbok-expr');r=r.nextElementSibling){}continue;}
+  if(f&&t[i].contains(f))m=1;g.insertBefore(t[i],r);}
+ if(m&&f.isConnected&&d.activeElement!==f)try{f.focus({preventScroll:true});}catch(e){}}
+function phord(){
+ var lv=C.contains('ordpar-levels-on')&&C.contains('ordpar-phraseorder-level'),ss=d.querySelectorAll('.ordpar-exprs');
+ for(var i=0;i<ss.length;i++){var s=ss[i];if(s.closest('.ordbok-xmini'))continue;
+  phgrp(s,lv);var u=kid(s,'ordpar-untr');if(u)phgrp(u,lv);}}
 window.ordparDefs=function(){
- var M=window.ordparMinis;if(M&&M.scan)M.scan();var A=window.ordparAudio;if(A&&A.scan)A.scan();
- cues();excues();exheads();exmore();infl();eyes();nbhw();};
+ eyereset();var M=window.ordparMinis;if(M&&M.scan)M.scan();var A=window.ordparAudio;if(A&&A.scan)A.scan();
+ cues();excues();exheads();exmore();infl();eyes();nbhw();phord();};
 try{window.ordparDefs();}catch(e){}
 d.addEventListener('click',function(e){
  var t=e.target;if(!t||!t.closest)return;
@@ -1166,8 +1354,10 @@ d.addEventListener('click',function(e){
  var x=t.closest('.ordpar-exbtn');if(x){var li=x.parentNode,u=li.parentNode,f=d.activeElement===x;
   u.classList.add('ordpar-exopen');u.removeChild(li);var o=u.children[exlim()];
   if(f&&o){o.tabIndex=-1;o.focus({preventScroll:true});}return;}
+ var q=t.closest('[data-ordpar-eyecue]');if(q){ereveal(q);return;}
  var c=t.closest('.ordpar-encue');if(c){c.parentNode.classList.add('ordpar-open');return;}
  if(t.closest('a,label,button'))return;
+ var l=t.closest('.ordpar-eyeshown');if(l){erehide(l);return;}
  var o=t.closest('.ordpar-open>span[lang=en],.ordbok-ex-list>li.ordpar-open>.ordpar-en');
  if(o)o.parentNode.classList.remove('ordpar-open');});
 var G=8;
@@ -1224,6 +1414,8 @@ def page_js(strings):
     fav = {"label": strings["fav_label"], "saved": strings["fav_saved"]}
     foot = {"copy": strings["copy_link"], "done": strings["copy_done"], "share": strings["share"]}
     more = {"one": strings["examples_more_one"], "many": strings["examples_more"]}
+    # decisions 186: the eye's words while it hides all of its article's English
+    eye_all = {"hide": strings["exeye_all_hide"], "show": strings["exeye_all_show"]}
     # site decisions 152: the labels' Norwegian (`strings.NB`), drawn beside the English
     from .strings import NB
     # the card foot's words stay English (Robin, 2026-11-03: the interface language, at 1.0.0)
@@ -1239,6 +1431,7 @@ def page_js(strings):
             .replace("@FAV@", json.dumps(fav, ensure_ascii=False).replace("<", "\\u003c"))
             .replace("@EYE@", json.dumps(strings["exeye_button"], ensure_ascii=False)
                      .replace("<", "\\u003c"))
+            .replace("@EYEA@", json.dumps(eye_all, ensure_ascii=False).replace("<", "\\u003c"))
             .replace("@NB@", json.dumps(nb, ensure_ascii=False).replace("<", "\\u003c"))
             .replace("@OFFLINE@", json.dumps(_offline_href())))
 
@@ -1401,7 +1594,7 @@ def coming_page(stamp, strings):
 
 
 def changes_page(stamp, strings):
-    """`/changes/` (site decisions 175, Robin 2026-11-07: "I want it public"): "Changes to the
+    """`/changes/` (site decisions 175, made public): "Changes to the
     Ordpar site", one dated entry per deploy, from `ordpar/changes.md` (`about.changes_page`), in
     the About page's frame with the about pages' tabs (Changes pressed); indexed, as Coming;
     reached by the Changes tab and the update note's "What's new" (`offline.js`)."""

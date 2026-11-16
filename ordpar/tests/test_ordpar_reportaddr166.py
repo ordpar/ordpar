@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Site decisions 166 (Robin, 2026-11-05, "Yes, as proposed"): the address that opens an article's
+"""Site decisions 166, as proposed: the address that opens an article's
 "Suggest a correction" form on arrival, `/bm-en/<id>/#report`, for the deck's link on every card —
 the parts a browser is not needed for. Brief:
 `docs/sessions/2026-09-19-ordpar-site-review/evidence/brief-report-address-166-2026-11-05.md`. The

@@ -1,8 +1,8 @@
 """Site-review decisions 116 (Robin, 2026-10-24): only the summary glosses semibold, the "·" faded.
 
-Robin's pick from the row-gloss lab: "semibold for *English equivalents* only, and the `·` being
-faded"; "English definition lines also stays regular text (when there are no summary glosses for
-the article)"; the separator "(but still semibold)". The parts that need no browser (the browser
+The pick from the row-gloss lab: semibold for English equivalents only, and the `·`
+faded; English definition lines stay regular text, also where the article has no summary
+glosses; the separator semibold still. The parts that need no browser (the browser
 side: `test_ordpar_browser_rowgloss116.py`):
 
 * **The data**: `article.snippet_is_gloss` is true only where the snippet is the summary gloss

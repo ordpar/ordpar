@@ -389,9 +389,11 @@ class Script(unittest.TestCase):
         self.assertIn('<span class="ordpar-l-nb" lang="nb">', js)
         self.assertIn("var WORDS = { play: ['Play', 'Spill av'], stop: ['Stop', 'Stopp'] };", js)
         self.assertIn('aria-hidden="true" focusable="false"', js)
-        # a set phrase's icon inside its block-level term, at its end
+        # a set phrase's icon inside its block-level term, at its end — before the term's CEFR
+        # level box where it has one (site decisions 187; `insertBefore(…, null)` appends)
         i = js.index("cls.contains('ordbok-expr-term')")
-        self.assertIn("el.appendChild(button(", js[i:i + 300])
+        self.assertIn("n.classList.contains('ordpar-level')", js[i:i + 600])
+        self.assertIn("el.insertBefore(button([textOf([el])], id), box);", js[i:i + 600])
 
     def test_loading_and_playing(self):
         js = self.js
@@ -423,7 +425,7 @@ def table_mark(page):
 
 
 class TableMarks(Fixture, unittest.TestCase):
-    """Site decisions 170's second part (Robin, 2026-11-06, "Yes, marks now")."""
+    """Site decisions 170's second part (the marks now)."""
 
     def test_the_synthetic_page(self):
         page, entry, counts = audio.mark(PAGE, 24627, self.names)

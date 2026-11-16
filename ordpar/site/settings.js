@@ -1,7 +1,7 @@
 /*! Ordpar — the settings page, `/settings/` (site-review decisions 63, Robin 2026-10-19).
  *
  * A static page in place of the header's old settings dialog, in sections with a row of jump
- * links at the top (Robin: "sections"): **Style** (theme, colour, interface language, the article
+ * links at the top (decisions 63): **Style** (theme, colour, interface language, the article
  * layout — decisions 87), **Article**
  * in four subsections since decisions 85 (Robin, 2026-10-21) — *Language* (definitions, the
  * emphasized line and subsenses in English — decisions 87, 90 — formula lines, etymology), *Inflection* (the tables, participle context), *Cross-references* (what a
@@ -77,17 +77,19 @@
   // silently change a preset; Default names none (it is the defaults, whatever they become).
   // Kept as strict JSON between the brackets: `tests/test_ordpar_presets136.py` reads it.
   // Decisions 139's setting `nestminis` is named in Concise and For learners: since decisions 147
-  // (Robin, 2026-10-29: "agree on recommendation") at its new default, a second box then that box,
+  // at its new default, a second box then that box,
   // so a preset changes only what it is about; the limit's setting went with the limit.
-  // Site decisions 174 (Robin, 2026-11-07: "we can add a new preset called "English emphasized" which
-  // used the old defaults"): "English emphasized", second, names `emph` en and `formulas` en, the
+  // Site decisions 174 (a new preset with the old defaults): "English emphasized", second, names `emph` en and `formulas` en, the
   // defaults until 174 (now no and both); Concise names the same two, so the change of default
   // leaves it as it was; For learners already named no and both.
+  // Site decisions 187: For learners turns the CEFR level box on (`levels`); the others leave it at
+  // its default, off. Site decisions 188: For learners orders the set phrases by level
+  // (`phraseorder`); the others give the default, alphabetical.
   var PRESETS = [
     { "id": "default", "values": {} },
     { "id": "english", "values": { "emph": "en", "formulas": "en" } },
     { "id": "concise", "values": { "defs": "en", "exlimit": "2", "exmore": "on", "minicontent": "slim", "minispacing": "article", "nestminis": "second", "emph": "en", "formulas": "en" } },
-    { "id": "learners", "values": { "exeye": "on", "emph": "no", "examples": "both", "subsenses": "defs", "formulas": "both", "nestminis": "second" } }
+    { "id": "learners", "values": { "exeye": "on", "emph": "no", "examples": "both", "subsenses": "defs", "formulas": "both", "nestminis": "second", "levels": "on", "phraseorder": "level" } }
   ];
 
   function articleSettings() {
@@ -146,8 +148,8 @@
     title.id = 'presets-title';
     sec.setAttribute('aria-labelledby', title.id);
     sec.appendChild(h2);
-    // what each preset does, behind one "?" after the heading (site decisions 161, Robin
-    // 2026-11-02: "Yes, as drafted"): a line per preset, then Help's Settings section
+    // what each preset does, behind one "?" after the heading (site decisions 161):
+    // a line per preset, then Help's Settings section
     var data = { hint: '', lines: PRESETS.map(function (pr) {
       return { label: t('settings.presets.' + pr.id), text: t('settings.presets.' + pr.id + '.note') };
     }), link: { href: '/help/#settings', text: t('settings.presets.helpLink') } };
@@ -204,6 +206,10 @@
   function shown(sp) {
     var sh = shell();
     if (sp.key === 'exmore') { return sh.getSetting('exlimit') !== 'all'; }
+    // decisions 186: what the eye hides, only while the eye is on
+    if (sp.key === 'exeyewhat') { return sh.getSetting('exeye') === 'on'; }
+    // site decisions 188: the set phrases' order, only while the level boxes are on
+    if (sp.key === 'phraseorder') { return sh.getSetting('levels') === 'on'; }
     // site decisions 152: "English equivalents" acts only while Norwegian only is on, and what the
     // rows and the hovers show with them hidden only while they are hidden (hidden, not greyed)
     if (sp.key === 'nbequiv') { return sh.getSetting('nbonly') === 'on'; }
@@ -232,9 +238,14 @@
     return t(nkey) !== nkey ? t(nkey) : '';
   }
 
+  /** A setting's way on to Help from its "?" box (site decisions 187: the CEFR levels' section),
+   *  its words `settings.<key>.helpLink`. */
+  var HELP_LINKS = { levels: '/help/#cefr-levels' };
+
   /** What a setting's "?" box holds (decisions 99, Robin 2026-10-23): the setting's own hint
    *  (`settings.<key>.hint`), then one line per choice that has a note, led by the choice's
-   *  label. null when there is nothing to say — then the setting gets no "?". */
+   *  label, then its link to Help where `HELP_LINKS` has one. null when there is nothing to say —
+   *  then the setting gets no "?". */
   function hintOf(sp, list) {
     var hkey = 'settings.' + sp.key + '.hint';
     var hint = t(hkey) !== hkey ? t(hkey) : '';
@@ -243,12 +254,15 @@
       var n = noteOf(sp, ch);
       if (n) { lines.push({ label: ch.label, text: n }); }
     });
-    return hint || lines.length ? { hint: hint, lines: lines } : null;
+    if (!hint && !lines.length) { return null; }
+    var out = { hint: hint, lines: lines };
+    if (HELP_LINKS[sp.key]) { out.link = { href: HELP_LINKS[sp.key], text: t('settings.' + sp.key + '.helpLink') }; }
+    return out;
   }
 
   /* ---------------------------------------------- the "?" per setting (decisions 99) */
   // The hints sit behind one "?" per setting, on its title line, so the page shows only titles
-  // and choices (Robin: the page is "already quite long"). The box is an OVERLAY placed under
+  // and choices (decisions 99: the page is already long). The box is an OVERLAY placed under
   // the title inside the setting's fieldset: opening it never moves the page (a hover that
   // reflowed the choices under the pointer would make them jump), and the fieldset's width
   // keeps it inside the window. As the cross-reference's peek and mini: on a computer it shows
@@ -385,7 +399,7 @@
     group.hidden = !shown(sp);
     var current = shell().getSetting(sp.key);
     if (sp.control === 'select') {
-      // a drop-down (decisions 112, Robin 2026-10-23: "a number box (or a scroll down menu)"):
+      // a drop-down (decisions 112: a number box or a drop-down menu):
       // on a phone the phone's own picker, nothing to type; the same fieldset, title and "?"
       // as every other setting, the choices as its options, the default first (107)
       var box = el('div', 'ordpar-select');

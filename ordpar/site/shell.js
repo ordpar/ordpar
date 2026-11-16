@@ -72,13 +72,23 @@
     { key: 'examples', values: ['both', 'no'], def: 'both', section: 'article', sub: 'language' },   // decisions 111: the examples' English behind a reveal
     // decisions 131 (Robin, 2026-10-25): the deck's eye beside the headword, off by default (first)
     { key: 'exeye', values: ['off', 'on'], def: 'off', section: 'article', sub: 'language' },
+    // decisions 186: what the eye hides — the examples' English (the default, first, the eye of 131)
+    // or every English line of its article but the etymology; shown only while the eye is on
+    { key: 'exeyewhat', values: ['examples', 'all'], def: 'examples', section: 'article', sub: 'language' },
+    // site decisions 187: the CEFR level box after the headword and on each embedded set phrase,
+    // off by default; beside the eye's settings, the other aid for learners at the headword ("For
+    // learners" turns both on). The pages carry the box always; the class shows it
+    { key: 'levels', values: ['off', 'on'], def: 'off', section: 'article', sub: 'language' },
+    // site decisions 188: the order of an article's set phrases, alphabetical as in Bokmålsordboka
+    // (the default) or by CEFR level, A1 first; right below the level box's setting and shown only
+    // while it is on (`settings.js` `shown`); the sheet orders by level only while the boxes are on
+    { key: 'phraseorder', values: ['alpha', 'level'], def: 'alpha', section: 'article', sub: 'language' },
     // decisions 112: how many examples show under each sense and subsense (a drop-down, `control`),
     // and whether a "Show N more examples" line opens the rest (drawn only while a number is set)
     { key: 'exlimit', values: ['all', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'], def: 'all', section: 'article', sub: 'language', control: 'select' },
     { key: 'exmore', values: ['on', 'off'], def: 'on', section: 'article', sub: 'language' },
-    // site decisions 174 (Robin, 2026-11-07: "make the default be to use "Norwegian emphasized" option
-    // in the settings. For "Short formula lines, such as "used as an adverb:" the default option should
-    // be "In Norwegian and English""): `emph` no and `formulas` both, each listed first (107); `en` and
+    // site decisions 174 (the default is the "Norwegian emphasized" option, and Short formula
+    // lines such as "used as an adverb:" default to "In Norwegian and English"): `emph` no and `formulas` both, each listed first (107); `en` and
     // `en` until then, kept as the preset "English emphasized" (`settings.js` `PRESETS`)
     { key: 'emph', values: ['no', 'en'], def: 'no', section: 'article', sub: 'language' },   // decisions 87: the emphasized line
     { key: 'subsenses', values: ['defs', 'en'], def: 'defs', section: 'article', sub: 'language' },   // decisions 90: subsenses in English only
@@ -88,8 +98,8 @@
     // and buttons, the word class and the inflection tables' words — in English (first) or
     // Norwegian; apart from the interface language. The Norwegian-only layer turns them all
     // Norwegian whatever this says (152's follow-up: the sheet's `ordpar-nbo` rules), never writing
-    // it. Last under Article's Language (Robin, 2026-11-02: "it belongs under "article", not
-    // style"; under Style until then); `layer: true` keeps it out of the presets (136), as the
+    // it. Last under Article's Language (152's follow-up: it belongs under Article, not
+    // Style; under Style until then); `layer: true` keeps it out of the presets (136), as the
     // Norwegian-only settings
     { key: 'labels', values: ['en', 'no'], def: 'en', section: 'article', sub: 'language', layer: true },
     { key: 'infl', values: ['button', 'open'], def: 'button', section: 'article', sub: 'inflection' },
@@ -137,7 +147,8 @@
   var ARTICLE_KEYS = ['defs', 'mini', 'peek'];   // decisions 54: applied as classes on <html>
   /* the settings that are a class on <html> alone (`applyClassKeys`) */
   var CLASS_KEYS = ['pframes', 'minihw', 'minicontent', 'minispacing', 'minitext', 'miniscroll', 'minifetch',
-    'formulas', 'ety', 'suggestrows', 'emph', 'subsenses', 'layout', 'examples', 'exeye', 'exlimit', 'exmore'];
+    'formulas', 'ety', 'suggestrows', 'emph', 'subsenses', 'layout', 'examples', 'exeye', 'exeyewhat', 'exlimit', 'exmore', 'levels',
+    'phraseorder'];
   var COLOUR_ID = /^[a-z][a-z0-9-]*$/;
   var strings = {};                          // lang -> {key: string}
   var listeners = [];
@@ -438,7 +449,9 @@
    *  (`ordpar-emph-no`, decisions 87), subsenses in English only (`ordpar-subsen-en`, decisions
    *  90), the layout closer to ordbokene.no (`ordpar-layout-ordbokene`, decisions 87) and the
    *  examples' English behind a reveal (`ordpar-examples-no`, decisions 111), the eye beside the
-   *  headword (`ordpar-exeye-on`, decisions 131), the examples
+   *  headword (`ordpar-exeye-on`, decisions 131) and what it hides (`ordpar-exeye-all`,
+   *  decisions 186), the CEFR level box (`ordpar-levels-on`, decisions 187) and the set phrases
+   *  by level (`ordpar-phraseorder-level`, decisions 188), the examples
    *  limit per sense (`ordpar-exlimit-<n>`, `ordpar-exmore-off`, decisions 112) — then asks an
    *  article on screen to catch up (`ordparDefs`: that layout's "Example" headings, and the
    *  examples' "Show English" cues and the "Show N more examples" lines, are inserted by the
@@ -476,6 +489,12 @@
     syncIcons();
     // decisions 131: the eye beside the headword (`ordparDefs` below inserts or removes it)
     cl.toggle('ordpar-exeye-on', getSetting('exeye') === 'on');
+    // decisions 186: the eye hides all of its article's English instead of the examples'
+    cl.toggle('ordpar-exeye-all', getSetting('exeyewhat') === 'all');
+    // decisions 187: the CEFR level box after the headword and on each embedded set phrase
+    cl.toggle('ordpar-levels-on', getSetting('levels') === 'on');
+    // decisions 188: the set phrases by level (the sheet orders them only beside the class above)
+    cl.toggle('ordpar-phraseorder-level', getSetting('phraseorder') === 'level');
     // decisions 112: `ordpar-exlimit-<n>` (n 1 to 10; none for All) and `ordpar-exmore-off`
     var lim = getSetting('exlimit');
     SPEC.exlimit.values.forEach(function (v) { if (v !== 'all') { cl.toggle('ordpar-exlimit-' + v, v === lim); } });
@@ -767,15 +786,15 @@
   /* ------------------------------------- the direction switch (site decisions 148) */
 
   /*
-   * Robin, 2026-10-29: "a kind of "switch" underneath the search, where switching it on makes you
-   * search for the English equivalents instead of the Norwegian headword". A switch with a label,
+   * Site decisions 148: a switch under the search box which, turned on, searches the English
+   * equivalents instead of the Norwegian headwords. A switch with a label,
    * "Search English words", under the search box wherever the box is — drawn here, not written
    * into the pages (the box is in every page's HTML: a change there would rebuild every page and
    * make every offline copy download again). On a computer a row of its own under the box; on a
    * phone it shares Random word's row where it fits (shell.css `.ordpar-direction`). Switched on:
    * the box's placeholder and label "Search an English word", the box `lang="en"`, the
    * suggestions and the search English (`wireSearch`, lookup.js `renderEnglish`). It stays on
-   * after an English search and is REMEMBERED (Robin, 2026-10-29: "the switch is remembered"):
+   * after an English search and is REMEMBERED (decisions 148):
    * saved on the device as the reader's own choices are (`ordparPersonal.direction`, beside the
    * settings, not a row on the Settings page), so a new visit opens in the direction last used;
    * Norwegian until the reader first switches; where storage is blocked, for the page only.
@@ -863,8 +882,8 @@
   }
 
   /*
-   * Site decisions 152 (Robin, 2026-10-30: "similar to how some webpages has a night/light switch
-   * in the header, which is also remembered"): NORWEGIAN ONLY'S ICON in the header. It switches
+   * Site decisions 152 (like the night/light switch some sites have in the header, and
+   * remembered as that is): NORWEGIAN ONLY'S ICON in the header. It switches
    * the layer for the whole site and is remembered on the device (it is the setting `nbonly`
    * itself: the icon and Settings are one state), filled (`aria-pressed`) while on. Two copies,
    * one per place — beside Favourites and Settings on a computer, on the switch's row on a phone
@@ -961,7 +980,7 @@
    * A history entry drawn as a suggestion row (brief 60b item 3) — the dropdown's "Recent" and
    * the /history/ page share it: the query (Norwegian), and for a search that found one article
    * its word class faded italic (none for a set phrase, as the suggestions). On the right (site
-   * decisions 88, Robin 2026-10-22, amending 60b's "Norwegian only" and "N articles"): for one
+   * decisions 88, amending 60b's "Norwegian only" and "N articles"): for one
    * translated article its gloss (`text`, stored with the entry, by the dropdown's rule); for
    * one untranslated article its Norwegian definition; for several, their homograph-numbered
    * glosses as in the suggestions, an untranslated article listed too, with its Norwegian
@@ -1030,8 +1049,8 @@
   function firstOf(a) { return a.first || String(a.word || '').split(' / ')[0]; }
 
   /** The first spellings an English row would draw twice or more: only those take a numeral
-   *  (Robin, 2026-10-29: "It should be there if the row/page shows multiple words of the same form.
-   *  E.g. "light" being an equivalent of both lys I and lys II"), as the "N articles" rows number
+   *  (decisions 148: shown where the row or page shows several words of the same form, as
+   *  "light" is an equivalent of both lys I and lys II), as the "N articles" rows number
    *  the homographs of one form; a word alone in its row has none (decisions 93's follow-up). */
   function sharedForms(arts) {
     var n = Object.create(null), out = Object.create(null);
@@ -1074,7 +1093,7 @@
       side.appendChild(list);
       side.appendChild(el('span', 'ordpar-option-count ordpar-option-more'));
       g = { list: list, side: side, n: arts.length };
-      // Robin, 2026-10-29 ("including the POS for svømme and bad as well, if there is space"):
+      // Decisions 148 (the word class for svømme and bad as well, where there is room):
       // each headword with its word class while every one fits; cut, they go first
       g.fill = function (withPos) {
         list.textContent = '';
@@ -1134,7 +1153,7 @@
    * articles, and no id for one, so the search is run again (`ordparLookup.lookup`, its shard
    * and `translated.json`) and the headword hits' `snip/` file read, as the list view reads it
    * (the query's key; the inflected-form rows are not drawn, 88 as amended). That also
-   * draws the entries stored before decisions 82's A13 point 3 (a translated article with an
+   * draws the entries stored before decisions 82's change to the empty override (a translated article with an
    * empty `text`), and a row follows the dictionary as it is now (an article translated since).
    * Nothing is fetched for one translated article with its text stored. The installed copy
    * answers the same files offline; where nothing answers, the row is drawn from the entry as
@@ -1195,8 +1214,8 @@
   /**
    * The articles a history entry's search finds now as headwords, in the results' order
    * (lookup.js `render`): the headword hits, translated first across their groups, each article
-   * once. The inflected-form rows are not listed (site decisions 88 as amended, Robin
-   * 2026-10-22: "I would drop the inflected forms results from the history page"; an article
+   * once. The inflected-form rows are not listed (site decisions 88 as amended: the
+   * inflected-form results dropped from the history page; an article
    * opened from one is an entry of its own, lookup.js `recordOpened`). -> a promise of null (no
    * answer, no headword hit) or {n, list: [{id, hg, translated, head, text, lang}]}: `head` the
    * article's headword as the index has it, `text` the gloss by the dropdown's rule
@@ -1278,8 +1297,8 @@
    *   but counted in "+ N more" (82: "It goes under '+ N more'"), as is a translated one with
    *   no text; English and Norwegian never in one row (144: "I do not want one row to mix
    *   English and Norwegian");
-   * - none translated (site decisions 144, Robin 2026-10-27: "a headword with multiple
-   *   homographs that are Norwegian only, their definition lines are shown"): each homograph's
+   * - none translated (site decisions 144: for a headword whose homographs are all
+   *   Norwegian only, their definition lines are shown): each homograph's
    *   number and its first Norwegian definition line, `lang` 'nb', in place of "N articles";
    * - empty where there is none to list (the row then reads "N articles").
    */
@@ -1340,7 +1359,7 @@
 
   /**
    * Fill a history row's held side (`searchRowSide`) from the dictionary — drawn as the
-   * suggestion row for the same word is (site decisions 88 as amended again, Robin 2026-10-22:
+   * suggestion row for the same word is (site decisions 88 as amended again:
    * the suggestions' "+ N more" convention, not English and Norwegian mixed; 82, 86's D2),
    * without the section label. Several articles: the translated ones by their numbered glosses
    * (`listedGlosses`'s rule, `paintGlossList`), in the results' order, as many as fit, then
@@ -1399,7 +1418,7 @@
   /* A translated set phrase with no summary gloss: its set-phrase box (build_index.py
    * `snippet_files` "_d"); every other article, and such a set phrase with no box ("_d" ''),
    * the snippet's first unit, its English line (brief 60 item 7(b) as amended, Robin
-   * 2026-10-19; its "else nothing" amended by site decisions 82, A13 point 3, Robin
+   * 2026-10-19; its "else nothing" amended by site decisions 82, Robin
    * 2026-10-21). '' only where the article has no snippet either (the span then goes). */
   function glossText(snips, id) {
     var drop = snips._d && Object.prototype.hasOwnProperty.call(snips._d, id) ? snips._d[id] : null;
@@ -1725,8 +1744,8 @@
       });
       popup.hidden = false;
       popup.scrollTop = 0;
-      // above a phone's keyboard, as the suggestions (site decisions 86, Robin 2026-10-22: "ok
-      // (but with a scrolling option here as well)"): the same cap, scrolling inside
+      // above a phone's keyboard, as the suggestions (site decisions 86, with
+      // scrolling here as well): the same cap, scrolling inside
       fitHeight(popup);
       input.setAttribute('aria-expanded', 'true');
       // the row fit's steps 3-4 (the word class, then the ellipsis): a recent row has no line
@@ -1827,8 +1846,8 @@
      * The "N articles" row's glosses (site decisions 82, Robin 2026-10-21): the articles under the
      * form in the results' order, each its homograph numeral and its gloss by the dropdown's rule —
      * "I it · II that · III the" — as many as fit the row, then "+ N more". An untranslated
-     * article is not listed, only counted in the "+ N more" (Robin: "It goes under "+ N
-     * more""), as is a translated one with no gloss text; a form with none to list keeps the
+     * article is not listed, only counted in the "+ N more" (decisions 82), as is a
+     * translated one with no gloss text; a form with none to list keeps the
      * plain "N articles". The snippets of every article under a form sit in that form's file.
      * The history rows list the same way since 88's second amendment (`fillSearchRow`), each
      * article numbered by the row's own spelling (decisions 93, lookup.js `article`).
@@ -1848,18 +1867,17 @@
       line.forEach(function (part, i) {
         if (i) { node.appendChild(doc.createTextNode(part.w === '\u2026' ? ' ' : ', ')); }
         node.appendChild(el('span', part.match ? 'ordpar-option-match' : 'ordpar-option-alt', part.w));
-        // no numeral after a suggestion's headword (Robin, 2026-10-23: "The autocomplete headwords
-        // should stay without the homograph (their only inside the gloss list itself)"); 150 shows
+        // no numeral after a suggestion's headword (decisions 105: the numerals belong inside the
+        // gloss list only); 150 shows
         // the spelling typed, nothing more
       });
     }
 
     /*
-     * The row fit (site decisions 82, A13 point 1, Robin 2026-10-21): a row whose right-hand side
+     * The row fit (site decisions 82, Robin 2026-10-21): a row whose right-hand side
      * cannot show what it must — "Norwegian only" or a count whole, a gloss at least the smaller
      * of its own width and 8rem (FIT_FLOOR) — gives up, in this order and only as far as it must
-     * (Robin: "drop non-matching forms, then only the best form, then the word class, then an
-     * ellipsis with the tag kept whole"): (1) the forms not continuing what was typed, and the
+     * (decisions 82; the tag is always kept whole): (1) the forms not continuing what was typed, and the
      * "…"; (2) every form but the best-matching (`item.word`); (3) the word class; (4) the word,
      * cut with an ellipsis to what the side leaves. A row with no line (an "N articles" or a
      * recent row) takes only the steps it has. Measured in the browser, always from the full
@@ -1945,8 +1963,7 @@
 
     /* A suggestion chosen while typing (site decisions 62 (2)): the text typed so far, the word
      * chosen, its position from 1 — one event per choice, never per keystroke (events.js). An
-     * English suggestion the same, marked English (148's follow-up, Robin 2026-10-29: "Yes, count
-     * them"). A Recent row is not a suggestion: it sends nothing here, its search counts as any
+     * English suggestion the same, marked English (and counted, 148's follow-up). A Recent row is not a suggestion: it sends nothing here, its search counts as any
      * other. */
     function picked(i) {
       var item = options[i];
@@ -2082,7 +2099,7 @@
   }
 
   /* ------------------------------------ an open "?" box swallows the outside click (decisions 124) */
-  // Robin, 2026-10-24: while a "?" box is open, a click or tap anywhere outside it closes the box
+  // While a "?" box is open, a click or tap anywhere outside it closes the box
   // and does NOTHING ELSE — no setting picked, no drop-down opened, no link followed, no mini
   // opened; the next click acts as usual. ONE mechanism for every "?" box the site draws (the
   // settings' hints, `settings.js`, decisions 99; the pronunciation "?" of the articles, the page

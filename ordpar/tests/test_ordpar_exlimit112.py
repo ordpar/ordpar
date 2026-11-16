@@ -12,7 +12,7 @@ What it pins:
   (`ordpar-exlimit-<n>`, `ordpar-exmore-off`), set by the head script before the first paint,
   carried by an export, reset with every setting.
 * **The words.** Each label, choice and hint one string in `site/strings/en.json` (99's "?" box);
-  the line's own words, Robin's "Show N more examples", singular for one, in `strings.py` beside
+  the line's own words, "Show N more examples", singular for one, in `strings.py` beside
   the page script's other words ("Show English", "Example").
 * **The sheet.** One rule per limit, cutting a list past its first n items outside a mini (the minis
   keep `mini.js` EX_BUDGET), never the line itself, never an opened list; the line hidden by
@@ -55,8 +55,11 @@ class TheSettings(unittest.TestCase):
         order = re.findall(r"\{ key: '(\w+)'", self.js)
         i = order.index("examples")
         # since site decisions 131 (2026-10-26) the eye's setting, `exeye`, sits right under
-        # Examples, before the limit
-        self.assertEqual(order[i:i + 4], ["examples", "exeye", "exlimit", "exmore"])
+        # Examples, before the limit; what it hides (`exeyewhat`) right after it since site decisions 186;
+        # the CEFR level box (`levels`) after the eye's two since site decisions 187, the set phrases'
+        # order (`phraseorder`) right below it since site decisions 188
+        self.assertEqual(order[i:i + 7], ["examples", "exeye", "exeyewhat", "levels", "phraseorder", "exlimit",
+                                          "exmore"])
 
     def test_classes_on_html(self):
         keys = self.js.split("var CLASS_KEYS = [")[1].split("];")[0]

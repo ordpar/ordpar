@@ -597,14 +597,13 @@ def _etymology(article, concepts):
             "en": None}
 
 
-#: A compound list's English label, by its Norwegian intro (site decisions 151, Robin
-#: 2026-10-29: "the wordings that stays closer to ordbokene's own"; the table his "looks good"
-#: to the session's draft). The key is the intro as `comp_intro_key` sees it: its plain text
+#: A compound list's English label, by its Norwegian intro (site decisions 151: the
+#: wordings that stay closer to ordbokene's own; the table as drafted). The key is the intro as `comp_intro_key` sees it: its plain text
 #: (`fill`ed, so an `f_eks` entity reads "for eksempel" and `sms_er` "sammensetninger"),
 #: whitespace collapsed, lower case, any final colon dropped. Matched WHOLE, never by
 #: substring: a misspelt intro is corrected in the capture (`pipeline.md` § Source
 #: normalization), not matched around. Stored lowercase-initial, as the Norwegian intro is
-#: (Robin, 2026-10-30: "the English should not be capitalized, since the Norwegian is not").
+#: (decisions 151: the English not capitalized, since the Norwegian is not).
 #: An intro this table does not know gets `COMP_UNKNOWN_LABEL` and an advisory (`comp-intro-unknown`); no intro at all, no label.
 COMP_INTRO_LABELS = {
     "som etterledd i ord som": "as a suffix in words such as:",
@@ -903,7 +902,7 @@ def derive_row(aid, concepts, advisories, art=None):
            "lemmas": _header(art),
            "pos_en": pos,
            # the head's lines, one per paradigm group, genders in the data's order (site
-           # ruling 49, Robin 2026-10-17: "I'd say we make the library carry the order");
+           # ruling 49: the library carries the order);
            # mechanical Norwegian like `lemmas`, regenerated on every derive
            "headwords": headwords.groups(art, pos, _norm_lemma),
            "etymology": _etymology(art, concepts),

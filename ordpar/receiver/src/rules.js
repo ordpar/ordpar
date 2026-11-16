@@ -31,13 +31,13 @@ const LOCAL_ORIGIN = /^http:\/\/127\.0\.0\.1(:\d{1,5})?$/;
 
 /** The page paths a view may name; anything else is stored as OTHER_PATH, so a mistyped address
  *  (which can hold a word the reader typed) is never stored. The page's events.js sends by the
- *  same pattern (104, R12; test_ordpar_events104.py holds the two together). */
+ *  same pattern (decisions 104; test_ordpar_events104.py holds the two together). */
 const PATH = /^\/(?:bm-en\/(?:\d{1,7}\/)?|about\/|privacy\/|settings\/|favourites\/|history\/)?$/;
 export const OTHER_PATH = '/other';
 
 const DIGIT = /\p{N}/u;
 const TYPES = { view: 1, install: 1, hit: 1, miss: 1, pick: 1 };
-/** A search's language (site decisions 148's follow-up, Robin 2026-10-29: "Yes, count them"):
+/** A search's language (site decisions 148's follow-up: English searches counted too):
  *  'en' the English search, 'nb' the Norwegian one; a message without it is Norwegian (a page from
  *  before the English search). */
 const LANGS = { en: 1, nb: 1 };
@@ -65,7 +65,7 @@ export function daysBefore(day, n) {
   return dayOf(d);
 }
 
-/** A query as stored: NFC, spaces collapsed and trimmed, lower-cased (104, R11: "Hus" and "hus"
+/** A query as stored: NFC, spaces collapsed and trimmed, lower-cased (decisions 104: "Hus" and "hus"
  *  one string, for the counts and 62's three-times rule). -> the string, '' when empty, or null
  *  when it must be dropped (a digit, or longer than MAX_QUERY characters as sent). */
 export function cleanQuery(q) {

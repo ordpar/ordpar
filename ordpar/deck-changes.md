@@ -1,5 +1,5 @@
-<!-- The Anki deck's change list (Robin, 2026-11-07: "I think adding a page for the Anki deck is a natural
-extension of that"; "we need to make a change doc in the same style as the current change docs"), beside the
+<!-- The Anki deck's change list (decisions 177: a page for the Anki deck, the natural
+extension of the change lists, and a change doc in the same style as theirs), beside the
 site's (changes.md) and the dictionary's (library-changes.md); its public page is the site's to build
 (asked of the site session 2026-11-07). One dated entry per release of the deck, newest first, in plain words
 for readers, written by the deck session when the release is shared on AnkiWeb, from the build's own counts

@@ -228,8 +228,8 @@ class SiteFace(object):
     def target_english(self, href):
         """The peek a Norwegian-only unit's untitled link to `href` (`/nob/bm/<id>[#def<N>]`)
         takes from its target's library row, read at build time — nothing stored twice (site
-        decisions 119, Robin 2026-10-24: his pick of the style lab's "Robin's pick, breaking as
-        the article"):
+        decisions 119, the style lab's pick, breaking as
+        the article):
 
         * a **bare** reference to a translated target with summary glosses: the glosses joined by
           `markup.HEADLINE_SEP`, exactly as a translated page's Norwegian-line peek has them

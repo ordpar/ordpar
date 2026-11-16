@@ -37,7 +37,7 @@ EN = {
     # for example by a link to a resource that includes it. `{source}` and `{licence}` become
     # links: ordbokene.no (in general — no per-article source link, Robin 2026-10-19) and the
     # licence (`chrome.credit`). The About page's link, `about_link`, is the last of the
-    # footer's links since 2026-10-22 (Robin: "on the same line as the other page-links";
+    # footer's links since 2026-10-22 (decisions 63: on the same line as the other page links;
     # `chrome.footer`), no longer the credit's last words.
     # Its words "About" since site decisions 176 (Robin, 2026-11-07), the about pages' first tab.
     "credit": "Based on {source} (UiB and Språkrådet) · {licence} · "
@@ -45,12 +45,12 @@ EN = {
     "credit_source": "Bokmålsordboka",
     "credit_licence": "CC BY 4.0",
     "about_link": "About",
-    # The "under development" note (decisions 63 item, Robin 2026-10-20: "makes sense"): in the
+    # The "under development" note (decisions 63): in the
     # footer band of every page, shown exactly while `head.NOINDEX` (the launch switch) is on —
     # one switch turns both off at launch (`chrome.footer`). The session's wording; Robin may
-    # change it. Reworded 2026-10-25 (decisions 132, Robin: "sounds good"): the site is public
+    # change it. Reworded 2026-10-25 (decisions 132): the site is public
     # since the deck's release, so no longer "not yet published"; the note stays for the
-    # feedback link `shell.js` appends to it (Robin: "I would like to keep the form for now").
+    # feedback link `shell.js` appends to it (decisions 132: the form kept for now).
     "dev_note": "Under development: Ordpar is still being built, and its pages may change.",
 
     # --- the About page (/about/) -------------------------------------------------
@@ -69,7 +69,7 @@ EN = {
     # singular whatever the count (the examples lab report § Ordbokene's header).
     "example_heading": "Example",
     # The line the page script puts under an example list cut by the examples limit (decisions
-    # 112, the setting `exlimit`): Robin's words, "Show N more examples"; singular for one. It
+    # 112, the setting `exlimit`): "Show N more examples"; singular for one. It
     # opens the rest of the list in place.
     "examples_more": "Show {n} more examples",
     "examples_more_one": "Show 1 more example",
@@ -79,6 +79,10 @@ EN = {
     # the deck's own words for hiding (`deck/templates/back.html` `data-hide`); one name in both
     # states, `aria-pressed` carrying the state, as the heart's (brief 60b item 6)
     "exeye_button": "Hide the examples' English",
+    # decisions 186 (the setting `exeyewhat` = all): the eye's name while it hides all of its
+    # article's English, and while that English is hidden (the deck's words for the same eye)
+    "exeye_all_hide": "Hide the English",
+    "exeye_all_show": "Show the English",
 
     # --- footer controls (21e: copy-link and share only; no cite, no RIS) ------
     "copy_link": "Copy link",
@@ -95,6 +99,15 @@ EN = {
     # 33 (1): the Roman numeral is visible but hidden from assistive technology, and this
     # reads in its place — the word makes the digit mean something ("bru, homograph 2").
     "homograph": "homograph {n}",
+    # decisions 187: the CEFR level box after the headword and on each embedded set phrase's line
+    # (`levels.box_html`): what a screen reader hears after the headword (", level B1"), and the
+    # tooltip on the visible letters, one a level the site draws (C holds C1 and C2).
+    "level": "level {level}",
+    "level_tip_a1": "A1 · beginner",
+    "level_tip_a2": "A2 · elementary",
+    "level_tip_b1": "B1 · intermediate",
+    "level_tip_b2": "B2 · upper intermediate",
+    "level_tip_c": "C · advanced (C1 and C2)",
 
     # --- page metadata --------------------------------------------------------
     # the prose pages' titles ("About Ordpar — Ordpar"); the article pages' since decisions 128
@@ -111,7 +124,7 @@ EN = {
     "home_description": ("Ordpar: a Norwegian–English dictionary built on Bokmålsordboka. "
                          "{translated} of its articles are translated into English so far; "
                          "the rest are shown in Norwegian."),
-    # site decisions 117 (Robin, 2026-10-25, "3 entries in the Norwegian–English dictionary: I
+    # site decisions 117 (for example "3 entries in the Norwegian–English dictionary: I
     # then · II when · III Norwegian only"): a word page with several entries opens its
     # description with this, then each entry (`wordpages.several_description`)
     "word_page_entries": "{n} entries in the {dictionary}: ",

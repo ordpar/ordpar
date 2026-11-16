@@ -1,6 +1,6 @@
 """How much of Bokmålsordboka Ordpar has translated: the numbers for the About page's statistics
-line (Robin, 2026-10-22: "the total number of articles, and how many have been translated so
-far … the *proportion* of the lines in Bokmålsordboka that has been translated"). Read-only;
+line (decisions 63: the total number of articles, how many have been translated so
+far, and the *proportion* of Bokmålsordboka's lines that has been translated). Read-only;
 stdlib only.
 
     python ordpar/site_stats.py --mirror "…/bm-articles.jsonl"
@@ -20,9 +20,9 @@ codes mean is not documented; the rule rests on those samples.)
 * **translated** — those whose id has a row in the library (`articles.jsonl`): the row is the
   English (the library's rows are authored whole); split into **complete** (the row has a
   summary gloss, `summary.gloss`) and **without a summary** — the backlog the new authoring
-  workflow brings to zero (Robin, 2026-10-22: "every translated article is made complete").
-  The About page may name the split while the backlog lasts (Robin, 2026-10-22: "It would
-  just dissapear the day we get the library upto date");
+  workflow brings to zero (decisions 63: every translated article is made complete).
+  The About page may name the split while the backlog lasts (decisions 63: it goes the day
+  the library is up to date);
 * **lines** — the dictionary's own text in the units it is written in, the same units as
   `scripts/coverage.py` (its "slots"): one etymology segment, one explanation of a sense or a
   subsense, one example (its quote and its explanation together), one item of a compound list.

@@ -1,10 +1,10 @@
 <!-- The dictionary's change list (site decisions 95, Robin 2026-10-22), public as the page
-/dictionary-changes/ since site decisions 175 (Robin, 2026-11-07: "I want it public", "Yes, both public",
-the opening and the form "Yes, as drafted"). One dated entry per deploy that changed the dictionary's content,
+/dictionary-changes/ since site decisions 175 (made public,
+the opening and the form as drafted). One dated entry per deploy that changed the dictionary's content,
 newest first, written by the session at deploy time (the ordpar-deploy skill § 3), every number from the
 build's own report (build.json site_stats, change_notice), never typed from memory.
-THE FORM (175, Robin's lean, agreed: "If the totals are unchanged, a short line like "totals unchanged" is
-probably enough"): an entry says only what changed. A newer copy of Bokmålsordboka's data is one credited line,
+THE FORM (175: if the totals are unchanged, a short line such as "totals unchanged" is
+enough): an entry says only what changed. A newer copy of Bokmålsordboka's data is one credited line,
 "**Bokmålsordboka's data of <date>** (Språkrådet and the University of Bergen)", with what it brought if anything
 (a new article); what a newer copy means for the articles is said once, in the opening. The totals: "Totals
 unchanged." when nothing moved; otherwise "**Totals:**" with only what moved and its change ("94,197 articles
@@ -15,11 +15,20 @@ page. Rewritten in this form 2026-11-07 from the entries as first written (git h
 
 What has changed in the dictionary's content, newest first: newly translated articles, our corrections of Bokmålsordboka's text, and each newer copy of Bokmålsordboka's data, the work of Språkrådet and the University of Bergen. With a newer copy, the articles not yet translated follow it at once, with our corrections kept wherever the text they correct is unchanged; the translated ones keep the Norwegian their English was written for until we revise them. Today's totals are on the [About page](https://ordpar.no/about/#how-far-it-has-come).
 
+## 2026-11-15
+
+- **Bokmålsordboka's data of 14 November 2026** (Språkrådet and the University of Bergen). More of the
+  mistakes we had corrected are now corrected in Bokmålsordboka itself, so fewer corrections of ours remain.
+- **Totals:** our corrections of typos, punctuation and formatting 563 in 552 articles (was 566 in 555);
+  cross-references 22 in 22 articles (was 72 in 72); other corrections 11 in 11 articles (was 62 in 62).
+
 ## 2026-11-13
 
-- **Bokmålsordboka's data of 13 November 2026** (Språkrådet and the University of Bergen). Some of the mistakes
-  we had corrected are now corrected in Bokmålsordboka itself, so fewer corrections of ours remain.
-- **Totals:** our corrections of typos, punctuation and formatting 566 in 555 articles (was 624 in 611);
+- **Bokmålsordboka's data of 13 November 2026** (Språkrådet and the University of Bergen), with three new
+  articles, *en bred vifte av noe*, *skremme vettet av noen* and *videregående opplæring*, shown in Norwegian
+  until they are translated. Some of the mistakes we had corrected are now corrected in Bokmålsordboka itself,
+  so fewer corrections of ours remain.
+- **Totals:** 94,200 articles (+3); our corrections of typos, punctuation and formatting 566 in 555 articles (was 624 in 611);
   cross-references 72 in 72 articles (was 86 in 84); other corrections 62 in 62 articles (was 64 in 64).
 
 ## 2026-11-10

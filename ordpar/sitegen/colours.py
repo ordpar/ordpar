@@ -22,8 +22,8 @@ The variables every sheet uses (the deck's sheets are rewritten site-side, `page
 
 `shell.css` maps them to `--ordpar-accent` / `--ordpar-focus` (day, and night under .nightMode).
 
-**The default's night is today's** (Robin, 2026-10-20: "at least for the 'default' one,
-whichever that becomes"): whichever scheme is `DEFAULT`, its night accent is `TINT_REF`
+**The default's night is today's** (decisions 63: for the default scheme,
+whichever that becomes): whichever scheme is `DEFAULT`, its night accent is `TINT_REF`
 (`#e3b7c9`) with no night line — `effective()` applies the rule, so the CSS and the settings
 page's swatch both show it. A scheme chosen while it is NOT the default keeps its own `night`
 (Wine's and Burnt orange's computed tints, ordbokene's black and white).
@@ -57,14 +57,14 @@ def tint(day):
 #: `night_line` (optional) a link's underline in night mode; `note` (optional) a line under the
 #: choice on the settings page.
 #:
-#: * `wine` (B) and `burnt-orange` — Ordpar's own; colour in night mode too (Robin: "for our own
-#:   colour scheme I prefer to have colour for the dark theme as well"). Wine is THE DEFAULT
-#:   (Robin, 2026-10-20: "I want to use 'wine' as the default colour for now"), so its night is
+#: * `wine` (B) and `burnt-orange` — Ordpar's own; colour in night mode too (decisions 63: our own
+#:   colour schemes keep their colour in the dark theme). Wine is THE DEFAULT
+#:   (decisions 63, for now), so its night is
 #:   today's tint `#e3b7c9` (the default's rule, `effective`); chosen while not the default, its
-#:   own computed tint. Burnt orange (site decisions 167, Robin 2026-11-05: "Let's add burnt
-#:   orange with ligtness changed to 37%") is the accent lab's preset `#c2410c` at HSL 17° 88%
+#:   own computed tint. Burnt orange (site decisions 167, its
+#:   lightness changed to 37%) is the accent lab's preset `#c2410c` at HSL 17° 88%
 #:   37%: 6.0:1 as text on the page, 5.1:1 on the idiom pill, white on it 6.0:1. It replaced
-#:   Oxblood `#6e1a2a` (Robin, 2026-11-05: "I'd like to remove this option"), whose stored
+#:   Oxblood `#6e1a2a` (removed, decisions 167), whose stored
 #:   value now paints as the default, as any unknown one.
 #: * `ordbokene` — ordbokene.no's own maroon, exactly (sampled from its header and footer,
 #:   decisions 63). An optional scheme that shows where it comes from, never Ordpar's own (Robin,
@@ -81,7 +81,7 @@ COLOURS = [
      "note": "The colour ordbokene.no uses. Ordpar is independent of ordbokene.no."},
 ]
 
-#: THE DEFAULT — one value (Robin, 2026-10-20: Wine "for now").
+#: THE DEFAULT — one value (decisions 63: Wine, for now).
 DEFAULT = "wine"
 
 

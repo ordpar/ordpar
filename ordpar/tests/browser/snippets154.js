@@ -16,7 +16,7 @@
 //      line break between them, or the second starts on another line or more than 2 px to the
 //      right of the first — that is a fault: a text extraction would join their words.
 //  (c) the description: `<meta name="description">` begins with the page's headword (`word`)
-//      followed by ":" or " " (Robin approved "kanskje: perhaps · maybe …"), and
+//      followed by ":" or " " (as in "kanskje: perhaps · maybe …", approved), and
 //      `og:description` is the same text. Skipped for a page with no `word`.
 //
 // Result: { base, pages: [{ path, url, hidden: [...], hiddenRaw: [...], badHolders: [...],

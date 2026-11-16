@@ -4,10 +4,9 @@ this site loads ahead under `minifetch`, as links have since decisions 92, with 
 exceptions. Stdlib unittest; `ahead.js` (and for Random word `lookup.js`) run under bun or node
 against a stub DOM, skipped when neither is on PATH. No mirror, library or built file is read.
 
-Robin: "I suggest we make the "random word" button also pre-fetch when the mouse pointer is
-hovering for 150 ms", then "Same with the "Similar headwords". Same with everything actually
-(unless there are some expections where it makes sense to not pre-fetch)", then, to the
-exceptions, "Yes, build it".
+The ruling: the Random word button fetches ahead once the pointer has rested on it for 150 ms,
+and so do Similar headwords and everything else, with the exceptions where fetching ahead
+makes no sense.
 
 What it pins (`ahead.js` `aim`, `warm`, `select`; `lookup.js` `drawAhead`, `wireRandom`):
 

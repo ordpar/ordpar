@@ -142,7 +142,7 @@ class Draft(unittest.TestCase):
         self.assertIn("deleted %s minutes after its day ends" % WORDS[_js_const(SECRET, "GRACE") // 60], t)
 
     def test_only_robins_placeholders_left(self):
-        # Robin's name and contact filled in (2026-10-23: "Robin Fauskanger", post@ordpar.no); the
+        # the controller's name and contact filled in (2026-10-23: his name, post@ordpar.no); the
         # receiver's address comes with its deploy
         body = re.sub(r"<!--.*?-->", "", self.raw, count=1, flags=re.S)
         names = re.findall(r"\[\[([A-Z]+):", body)
@@ -157,19 +157,19 @@ class Draft(unittest.TestCase):
         rules = _read(ORDPAR, "receiver", "src", "rules.js")
         worker = _read(ORDPAR, "receiver", "src", "worker.js")
         sql = _read(ORDPAR, "receiver", "migrations", "0001_init.sql")
-        # the search in the fragment (R2): the page no longer says it "never" reaches a server, since the
-        # word's own page and the shown articles do (site decisions 170, Robin 2026-11-06, "Approve all")
+        # the search in the fragment: the page no longer says it "never" reaches a server, since the
+        # word's own page and the shown articles do (site decisions 170)
         self.assertIn("GitHub can tell which words and articles you look up", t)
         self.assertIn("function searchUrl(q) { return config.base + 'bm-en/#q=' + encodeURIComponent(q); }", lookup)
-        # a mistyped address sent as /other (R12)
+        # a mistyped address sent as /other
         self.assertIn("an address the site does not have is sent as /other", t)
         self.assertIn("return { type: 'view', path: cleanPath(f.path) };", _read(EVENTS))
-        # in small letters (R11), in a random order (R4)
+        # in small letters, in a random order
         self.assertIn("its words in small letters", t)
         self.assertEqual(rules.count("return s.toLowerCase();"), 2)
         self.assertIn("no time of day and in a random order", t)
         self.assertIn(") WITHOUT ROWID;", sql)
-        # Global Privacy Control refused on the receiver too (R12)
+        # Global Privacy Control refused on the receiver too
         self.assertIn("the receiver keeps nothing from a browser that sends Global Privacy Control", t)
         self.assertIn("&& !optedOut(request)", worker)
         self.assertIn("request.headers.get('Sec-GPC') === '1'", worker)
@@ -188,7 +188,7 @@ class Draft(unittest.TestCase):
 
     def test_the_sites_own_lines_about_sending(self):
         strings = json.loads(_read(ORDPAR, "site", "strings", "en.json"))
-        # R5: true once the receiver is live — the stored items are never sent; page views and
+        # true once the receiver is live — the stored items are never sent; page views and
         # searches are, so "nothing sent anywhere" would not be
         for key, says in (("settings.stored", "none of it is sent anywhere"),
                           ("personal.device", "are not sent anywhere")):
@@ -243,8 +243,8 @@ class Draft(unittest.TestCase):
 
 
 class Index(unittest.TestCase):
-    """The page's index of its sections (decisions 104, Robin 2026-10-23: "an index on the top,
-    where you can click on each header to bring you that section")."""
+    """The page's index of its sections (decisions 104: an index at the top, each heading a link
+    to its section)."""
 
     def setUp(self):
         self.text = about.privacy_text(**ALL_ON)                 # the [if]s resolved (166)

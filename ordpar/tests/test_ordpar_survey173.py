@@ -93,8 +93,8 @@ class SurveyOn(object):
 # --- the approved words (site decisions 173, Robin's form pasted 2026-11-07; the brief's text) ------
 
 TITLE = "Ordpar — your first impressions"
-# Robin, 2026-11-07, at his look at the build: "Include a note on the top of the survey that each
-# field is optional" — the privacy page's own words for it ("The survey": "Every question is optional.")
+# decisions 173, at the look at the build: a note at the top of the survey that each
+# field is optional — the privacy page's own words for it ("The survey": "Every question is optional.")
 NOTE = "Every question is optional."
 INTRO = [
     "Ordpar is a Norwegian–English dictionary in development, built on Bokmålsordboka. Thank you for "
@@ -151,7 +151,7 @@ SECTION = [
     "address of the page you were on. As for a report, the receiver does not use or store your IP address "
     "or your browser's name, though Cloudflare keeps records of requests to it (see \"Audio\" above), and "
     "the limit of 30 an hour counts reports and answers together. The answers are kept in Cloudflare's "
-    "database service, in the EU, as reports are (see \"Where it is kept\" above).",   # Robin, 2026-11-07
+    "database service, in the EU, as reports are (see \"Where it is kept\" above).",   # decisions 173, 2026-11-07
     "Robin reads the answers, to improve Ordpar, and may go through them with the help of an AI assistant, "
     "as for reports (see \"Reporting a mistake\"); your email address or name is never shared with it. We "
     "use them only to ask you a follow-up question, and delete them once we have, or once we have decided "
@@ -433,7 +433,7 @@ class Privacy(unittest.TestCase):
                       "and our audio server.", self.text(True, False, False))
 
     def test_what_your_browser_sends(self):
-        """Robin's approval of 2026-11-07 ("Approve all three"): the survey named in "What your browser sends
+        """Approved 2026-11-07 (decisions 173): the survey named in "What your browser sends
         us" whenever it is on, the sentences unchanged while it is off."""
         on = self.text(False, True, True)
         self.assertIn('Apart from a request for a recording when you play one (see "Audio" below), a report of a '

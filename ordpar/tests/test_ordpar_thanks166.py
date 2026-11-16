@@ -346,8 +346,8 @@ class ThisComputerOnly(unittest.TestCase):
 
 @unittest.skipUnless(reports_page, NO_READER)
 class RemoveAFix(unittest.TestCase):
-    """Site decisions 169 (b), Robin 2026-11-06 ("I tried the fixed one, but I can't remove it
-    again"): a fix written by mistake is taken off the list from the page — ``remove_fix`` through
+    """Site decisions 169 (b) (a fix marked by mistake could not be removed
+    again): a fix written by mistake is taken off the list from the page — ``remove_fix`` through
     ``POST /reports/remove`` and a "Remove" beside each fix. The other fixes stay as they were; the
     reports behind it stay closed on the receiver (nothing is sent to it)."""
 

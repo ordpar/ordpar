@@ -7,7 +7,7 @@ headless Edge on a computer (`browser/soundrest170.js`), on *hus* (24627):
   before);
 * `point` (the default) and `page`: the rest asks for that one clip, as since 159.
 
-The second part (Robin, 2026-11-06, "Yes, marks now"; brief
+The second part (the marks now; brief
 `evidence/brief-table-marks-170-2026-11-06.md`): the sound list `/audio/<k>.json` is fetched only
 when a recording is wanted —
 

@@ -360,7 +360,7 @@ class Divergences(unittest.TestCase):
         with self.assertRaises(SystemExit):
             D.edition(SAMPLE.replace("| a | a | a |", "| a (decisions 44) | a | a |"), public=True)
 
-    # 2026-11-12 (decisions 184, Robin: "That counts as a divergence"): a section of what
+    # 2026-11-12 (decisions 184: that counts as a divergence): a section of what
     # ordbokene.no has and Ordpar lacks, a list after the tables and before the project's record
     ABSENCES = ("\n## What ordbokene.no has that Ordpar lacks\n\n"
                 "Features of ordbokene.no that Ordpar does not have.\n\n"
@@ -457,8 +457,8 @@ def private_path(exported):
 
 class DivergencesDocLinks(unittest.TestCase):
     """Each row of the divergences record links the section of the technical docs that describes
-    the feature as built, in a last column "How it works" (decisions 184, Robin 2026-11-13: "linking
-    to the relevant sections in the tecnical docs"): every such link lands on a real file and a real
+    the feature as built, in a last column "How it works" (decisions 184: links
+    to the relevant sections of the technical docs): every such link lands on a real file and a real
     heading's anchor, made by GitHub's rule (`divergences_print.anchor`); the print edition cuts the
     column; the public one keeps it before the Decision column, its links resolving from `docs/`;
     a planted bad anchor stops either edition."""

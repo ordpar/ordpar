@@ -34,7 +34,7 @@ S = 768
 F = "C:/Windows/Fonts/seguisb.ttf"
 P1 = [(2, .10, .3), (3, .07, 1.9), (5, .04, .7)]
 P2 = [(2, .09, 2.2), (3, .08, .4), (4, .05, 2.8)]
-#: Robin's pick (decisions 61: "Icon: G bigger (0.95).")
+#: the pick (decisions 61: variant G, bigger, at 0.95)
 SCALE = 0.95
 SIZES = (192, 512)
 

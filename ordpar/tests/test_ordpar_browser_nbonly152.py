@@ -22,8 +22,8 @@ Through `browser/nbonly152.js`, on a computer (clicked) and a phone (tapped), st
   shown and pressed; pressed again, the layer off for that pop-up, nothing saved, the visit "off".
 * **The labels setting**: Norwegian with the layer off — the headings (Opphav, Betydning og bruk,
   Faste uttrykk) and the word class, the English definitions still shown.
-* **The layer turns every label** (152's follow-up, Robin 2026-10-31: "They should also become
-  Norwegian with the Norwegian only setting turned on"): `labels` stored "en" and the layer on, the
+* **The layer turns every label** (152's follow-up: the labels too become
+  Norwegian with the Norwegian only setting turned on): `labels` stored "en" and the layer on, the
   headings ("Opphav", "Betydning og bruk"), "Vis bøyning" and every other label copy shown in
   Norwegian, no English copy shown, on *hus*, *gå* 21740, the word page *hus* and in a small article
   (in ordbokene's layout, its "Eksempel" heading);

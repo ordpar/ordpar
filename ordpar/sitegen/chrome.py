@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""The site's one header and one footer (site-review decisions 63, Robin 2026-10-19: "ordbokene.no
-uses the same header for both article pages and search result pages"; the credit "on the bottom of
-every page").
+"""The site's one header and one footer (site-review decisions 63: as on ordbokene.no,
+the same header on the article pages and the search result pages; the credit at the bottom of
+every page).
 
 ONE SOURCE for both: `header()` and `footer()` are called by the article build (`page.py`: every
 article page, the About page) and by the index build (`build_index.copy_shell`, through the
@@ -57,9 +57,8 @@ PRIVACY_HREF = "/privacy/"
 CHANGES_HREF = "/changes/"
 DICTIONARY_CHANGES_HREF = "/dictionary-changes/"
 DECK_CHANGES_HREF = "/deck-changes/"
-#: THE TABS OVER THE ABOUT PAGES (site decisions 176, Robin 2026-11-07: "for the about page, we can
-#: include some types of "tabs" in the header, with each of the different about pages … These other
-#: pages get the same header"; the order "sounds good"; Help and More ways "Leave them out"): each
+#: THE TABS OVER THE ABOUT PAGES (site decisions 176: tabs in the about pages' header, one for
+#: each about page, and those pages get the same header; Help and More ways left out): each
 #: tab's address and its words' key (`site/strings/en.json`), in order
 ABOUT_TABS = ((ABOUT_HREF, "about.tab.about"), (COMING_HREF, "about.tab.coming"),
               (CHANGES_HREF, "about.tab.changes"), (PRIVACY_HREF, "about.tab.privacy"),
@@ -87,7 +86,7 @@ PRIVACY_REPORTS_HREF = PRIVACY_HREF + "#reporting-a-mistake"
 #: on, the build refuses a `privacy.md` that still holds a `[[…]]` placeholder. Reports need it:
 #: the build refuses `REPORT_RECEIVER` set while it is off (the report form links the page;
 #: `build_site.py`), except a look build, which gets the page for that build alone.
-#: ON since 2026-11-05 (site decisions 166: Robin approved the page's words, "Approve all four").
+#: ON since 2026-11-05 (site decisions 166: the page's words approved).
 PRIVACY = True
 #: `events.js`, whose `var RECEIVER = '…';` decides whether anything is counted (`counting`)
 EVENTS_JS = os.path.join(SITE_SRC, "events.js")
@@ -124,15 +123,15 @@ def counting(path=None):
 #:   * the privacy page's "Reporting a mistake" and every sentence on reports (`privacy.md`
 #:     `[if reports]`), and the form's line linking it (`PRIVACY_REPORTS_HREF`).
 #: Apart from the counting's switch (`events.js` `RECEIVER`, `counting()`): reports can go live
-#: while the counting stays off (Robin, 2026-11-05: "Our own receiver"). NOT apart from `PRIVACY`:
+#: while the counting stays off (decisions 166, our own receiver). NOT apart from `PRIVACY`:
 #: the build refuses reports on while the privacy page is off.
 #: For ONE build, `build_site.py` takes the address from the environment instead
 #: (`ORDPAR_REPORT_RECEIVER`, `build_site.report_receiver_override`): Robin's look at the form on
 #: :8098 against the receiver's local stand-in, with no committed file changed. `deploy.py prepare`
 #: refuses a build whose address is not `https://` on a public name (`deploy.report_address_problem`),
 #: so such a look build cannot be published.
-#: ON since 2026-11-05 (site decisions 166): the receiver deployed that day on Robin's go, the privacy
-#: page approved ("Approve all four").
+#: ON since 2026-11-05 (site decisions 166): the receiver deployed that day, the privacy
+#: page approved.
 REPORT_RECEIVER = "https://ordpar-receiver.ordpar.workers.dev/report"
 
 #: The readers' survey, "Ordpar — your first impressions" (site decisions 173, Robin 2026-11-07: our
@@ -296,10 +295,9 @@ def credit(s):
 def footer(s, noindex=None, privacy=None):
     """The footer band: the credit, then the site's links — Home and About here,
     and with script Settings, Favourites, History between them (`shell.js` `addChrome` inserts
-    them before About): Home · Settings · Favourites · History · About (Robin,
-    2026-10-22: "on the same line as the other page-links"; until then About was the credit's
-    last link). Once in the footer (Robin, 2026-10-20: "should only be shown once in the
-    footer"). While the launch switch is on
+    them before About): Home · Settings · Favourites · History · About (decisions
+    63: on the same line as the other page links; until then About was the credit's
+    last link). Once in the footer (decisions 63). While the launch switch is on
     (``head.NOINDEX``; ``noindex`` overrides it) the "under development" note closes the band —
     one switch turns both off. No logos (decisions 63: the credit says Ordpar is independent of
     both institutions). While the privacy switch is on (``PRIVACY``; ``privacy`` overrides it),
@@ -310,8 +308,8 @@ def footer(s, noindex=None, privacy=None):
     lab's default): Home · Settings · Favourites · History · Help · More ways to use Ordpar ·
     About. A newline between the links (site decisions 154): separate on the page (a
     flex row), and with nothing between them a text extraction ran them together. The About
-    link's words are "About" since site decisions 176 (Robin, 2026-11-07: "change the foother label
-    to just say "About""): the licence stays in the credit's line,
+    link's words are "About" since site decisions 176 (the footer's label
+    just "About"): the licence stays in the credit's line,
     "CC BY 4.0" linked, and "About" matches the about pages' first tab and ordbokene's English
     footer."""
     on = head.NOINDEX if noindex is None else noindex

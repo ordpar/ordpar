@@ -1,5 +1,5 @@
 <!-- The site's change list (site decisions 95, Robin 2026-10-22), public as the page /changes/ since
-site decisions 175 (Robin, 2026-11-07: "I want it public"; the opening "Yes, as drafted"). One dated entry per
+site decisions 175 (made public, its opening as drafted). One dated entry per
 deploy, newest first, in plain words for readers, written by the session at deploy time (the ordpar-deploy
 skill § 3): what changed on the site (features, look, fixes), nothing internal, no decision numbers. Versions
 start with 1.0.0 at launch, the first numbered entry; before it the entries are dated only. The dictionary's
@@ -8,6 +8,22 @@ content has its own list, library-changes.md (/dictionary-changes/). -->
 # Changes to the Ordpar site
 
 What has changed on ordpar.no, newest first. The entries are dated; version numbers start with the first full version, 1.0. Changes to the dictionary's content have their own list: [Changes to the dictionary](https://ordpar.no/dictionary-changes/).
+
+## 2026-11-16
+
+- **Set phrases in order of their level.** With the CEFR boxes on, a new setting just below them, "Order of the
+  set phrases", can show an article's set phrases by level, A1 first, instead of alphabetically; within a level
+  they stay alphabetical. The preset "For learners" chooses it. The keyboard and screen readers follow the same
+  order as the page shows.
+
+## 2026-11-15
+
+- **The eye can hide all of an article's English.** With the eye beside the headword turned on, a new
+  setting, "What the eye at the headword hides", chooses between the examples' English, as before, and all
+  of the article's English except the etymology, each line behind its own "Show English".
+- **CEFR levels.** A new setting, "CEFR level after the headword", shows each word's level, from A1 to C, in a
+  small box after the headword, and each set phrase's level after the phrase. It is off unless you turn it on
+  or choose the preset "For learners". The Help page says what each level means and how the levels were made.
 
 ## 2026-11-13
 

@@ -74,11 +74,13 @@
   // the settings an export carries — shell.js KEYS
   var SETTING_KEYS = ['lang', 'theme', 'colour', 'xref', 'defs', 'mini', 'peek', 'infl', 'pframes', 'minihw', 'listview',
     'minicontent', 'nestminis', 'minispacing', 'minitext', 'miniscroll', 'minifetch', 'formulas', 'ety', 'suggestrows',
-    'emph', 'subsenses', 'layout', 'examples', 'exeye', 'exlimit', 'exmore', 'stats',
+    'emph', 'subsenses', 'layout', 'examples', 'exeye', 'exeyewhat', 'exlimit', 'exmore', 'stats',
     // site decisions 152: the labels setting, and Norwegian only with its settings
     'labels', 'nbonly', 'nbequiv', 'nbrows', 'nbhover', 'nbicon',
     // site decisions 159: the sound icons' speed
-    'audiospeed'];
+    'audiospeed',
+    // site decisions 187: the CEFR level box; 188: the set phrases' order
+    'levels', 'phraseorder'];
 
   /* ------------------------------------------------------------ the entries */
 
@@ -483,7 +485,7 @@
 
   /** The dropdown's right-hand text for a translated entry, as the suggestions show it: the
    *  set-phrase box where there is one, else (an override of '' too: a set phrase with no box,
-   *  site decisions 82, A13 point 3, Robin 2026-10-21) the first gloss unit. */
+   *  site decisions 82, Robin 2026-10-21) the first gloss unit. */
   function dropText(e) { return e.drop ? e.drop : unit(e); }
 
   var HEART = 'M12 20.5s-7.2-4.4-9.4-8.6C1 8.8 2.6 5.2 6.1 5c2.3-.1 4.2 1.3 5.9 3.4C13.7 6.3 15.6 4.9 17.9 5c3.5.2 5.1 3.8 3.5 6.9-2.2 4.2-9.4 8.6-9.4 8.6z';
@@ -605,7 +607,7 @@
   } catch (e) { /* no window */ }
 
   /*
-   * The search's direction (site decisions 148, Robin 2026-10-29: "the switch is remembered"):
+   * The search's direction (site decisions 148: the switch is remembered):
    * 'en' while the English switch is on, saved on the device under DIRECTION_KEY beside the
    * settings (not a row on the Settings page, not in an export), so a new visit opens in the
    * direction last used; Norwegian ('nb') until the reader first switches. "Delete stored data"

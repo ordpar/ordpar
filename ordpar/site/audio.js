@@ -129,7 +129,8 @@
   }
   function after(node, b) { node.parentNode.insertBefore(b, node.nextSibling); }
 
-  var HIDE = '.ordbok-xpeek, .sr-only, .ordpar-visually-hidden, .ordpar-play';
+  // site decisions 187: the CEFR level box too, which a set phrase's term holds after its words
+  var HIDE = '.ordbok-xpeek, .sr-only, .ordpar-visually-hidden, .ordpar-play, .ordpar-level';
   /** The words a reader sees in `nodes` (peeks, hidden readings and our buttons out), as the build reads them. */
   function textOf(nodes, drop) {
     var box = doc.createElement('div');
@@ -161,8 +162,13 @@
       return 1;
     }
     if (cls.contains('ordbok-expr-term')) {
-      // inside the term, a block (`ordbok_gen.py`): beside it the icon fell to the next line
-      el.appendChild(button([textOf([el])], id));
+      // inside the term, a block (`ordbok_gen.py`): beside it the icon fell to the next line;
+      // before the term's CEFR level box, which ends the line (site decisions 187)
+      var box = null;
+      for (n = el.firstChild; n; n = n.nextSibling) {
+        if (n.nodeType === 1 && n.classList.contains('ordpar-level')) { box = n; break; }
+      }
+      el.insertBefore(button([textOf([el])], id), box);
       return 1;
     }
     if (cls.contains('ordbok-def')) {

@@ -35,7 +35,7 @@ them from the built page (`preview_harvest.py`): each top-level sense's definiti
 page's language (English on a translated page, Norwegian on an untranslated one), the hover
 peeks left out, the line's `<br>` a space.
 
-**The headword first** (site decisions 154, Robin 2026-10-31, approving "kanskje: perhaps · maybe
+**The headword first** (site decisions 154, approved on "kanskje: perhaps · maybe
 …"): given the page's `word` (the headword's first spelling, with its numeral where the title
 keeps it: `headword` over the first lemma, `build_site.Builder.page`; the whole list of spellings
 left a nine-spelling page no room for its definition), the description opens with it —

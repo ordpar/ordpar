@@ -404,7 +404,7 @@ def _expr_order(expr_ids, lib):
 # ordbokene registers words it has not yet defined: `alarmklokke`, `steinhelle` and a handful
 # more give a headword and an inflection table, and where the article would be, this note.
 # Our own wording, written blind (code provenance decisions 2 and 7, 2026-11-02: a fresh agent
-# given only the note's purpose offered three lines; Robin's pick adds "currently" to the third).
+# given only the note's purpose offered three lines; the third was picked, with "currently" added).
 # Shared by the card, the mini and the A8 cited block, so all three say one thing.
 NO_DEFINITION_NOTE = "This word is currently listed without a definition."
 

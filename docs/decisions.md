@@ -2314,3 +2314,27 @@ a folder of its own. The documentation stays in English.
 **Status:** built, live since 13 November 2026.
 
 The setting for what shows when the pointer rests on a linked word has three choices: its translation (the default), its first Norwegian definition, or nothing. The Norwegian definition was a choice only inside *Norwegian only* ([152](#d152)); it now works wherever a hover peek shows on a computer, and a link to a word not yet translated, which has no English peek, gets one. Inside *Norwegian only* with the English equivalents hidden, that view's own hover setting decides instead. The hover follows the Loading setting: under "When its link is clicked" a Norwegian definition shows only from a part of the index the page already has, so nothing is fetched before a press. The index keeps each Norwegian first definition whole, not cut to the length of a list row: 99 % are 123 characters or fewer and the longest is 273. No preset chooses the Norwegian definition.
+
+<a id="d186"></a>
+
+### 186. What the eye at the headword hides (2026-11-14)
+
+**Status:** built, live since 15 November 2026.
+
+The eye beside the headword ([131](#d131)) gains a second setting, shown only while the eye is on. It hides the examples' English (the default, the eye as before) or every English line of its article except the etymology: the gloss under the headword, each line of each definition, each example's English and each set phrase's English, each line behind its own "Show English", which shows that line. A second press of the eye gives the article back as it was, the reader's own openings and hidings included. While the eye is pressed on this choice, the setting that hides the definitions' English gives way for that article, the examples shown stay within the reader's limit (those opened later by "Show more" come hidden), and no hover peek shows in it. On this choice there is no eye while definitions are shown in English only, since a hidden definition would leave no Norwegian line above its cue, nor on an article with no English line. A change of any setting the article depends on gives it back first. No preset chooses it; the Anki deck has the same choice.
+
+<a id="d187"></a>
+
+### 187. A CEFR level after the headword (2026-11-15)
+
+**Status:** built, live since 15 November 2026.
+
+A setting in the Article section shows each article's CEFR level in a small outlined box at the end of the headword line, and each embedded set phrase's own level at the end of its line. It is off by default; the "For learners" preset ([136](#d136)) turns it on, and no other preset does. The box shows A1, A2, B1, B2 or C, where C covers both C1 and C2. It shows on every article shown whole, translated or Norwegian only, and not on search or list rows, in hover peeks or in small articles. The visible letters carry a tooltip naming the level and are hidden from screen readers, which hear ", level B1" instead. The pages always carry the box, and a class the head script sets before the first paint shows it, so nothing moves on load. The levels are Ordpar's own, judged article by article with AI against the CEFR's descriptions of the levels; the build reads them from `ordpar/levels.tsv`, written by `ordpar/levels_import.py`. An article with no level gets no box, and each build reports how many have none. The Help page describes each level and how the levels were made.
+
+<a id="d188"></a>
+
+### 188. The set phrases ordered by CEFR level (2026-11-16)
+
+**Status:** built, live since 16 November 2026.
+
+A setting right below the CEFR level box's ([187](#d187)), shown only while the boxes are on, orders an article's embedded set phrases alphabetically, as Bokmålsordboka does (the default), or by CEFR level, A1 first and C last, keeping the alphabetical order within a level. In a translated article the untranslated set phrases still come after the translated ones, each group in this order. The level order applies only while the boxes are on. The "For learners" preset ([136](#d136)) chooses it; every other preset keeps the alphabetical order. The stylesheet draws the order from a class the head script sets before the first paint, so nothing moves on load, and the page script then puts the page's own order in step with it, so screen readers and the keyboard follow the order shown.

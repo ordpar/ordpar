@@ -8,8 +8,8 @@ into one, in the place of its best-ranked form; a form several articles share ke
 own); a one-article row carries the article's headword line with the forms continuing what was
 typed marked; an "N articles" row carries its articles in the results' order. And, from
 `shell.js`, what can be pinned outside a browser: the gloss list's strings and its rule that an
-untranslated article is not listed but counted in "+ N more" (Robin: "It goes under "+ N
-more""). And the row fit (A13 point 1, Robin 2026-10-21): shell.js's own `fitRow` run against a
+untranslated article is not listed but counted in "+ N more" (decisions 82). And
+the row fit (decisions 82, Robin 2026-10-21): shell.js's own `fitRow` run against a
 stand-in DOM with fixed widths — the four steps in their order, each taken only as far as the
 row needs, a gloss's 8rem floor, the refit giving back what a pending gloss took, an "N articles"
 row going straight to the ellipsis — and its wiring (the line fitted before the gloss list,
@@ -171,7 +171,7 @@ L.setLoader(name => { const p = path.join(%s, name);
         css = _read(SITE, "shell.css")
         self.assertIn(".ordpar-option-word .ordpar-option-alt { font-weight: 400; }", css)
 
-    # ---------------------------------------------------------------- the row fit (A13 point 1)
+    # ---------------------------------------------------------------- the row fit (decisions 82)
 
     def fit(self, body):
         """Run `body` against shell.js's own `drawLine`, `fitRow` and `sideNeed`, cut out of the

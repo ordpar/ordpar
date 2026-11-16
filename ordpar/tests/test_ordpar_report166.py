@@ -18,7 +18,7 @@ report.test.js` (`test_ordpar_receiver104.py` runs them); the button and form in
   sixth field; `creditOk` refuses a link or more than 60 characters, as the receiver does); the
   trap field only when filled; never cookies or a referrer; not held back by the stats setting,
   GPC, DNT or `navigator.webdriver` (the counting's rules, not a report's: the reader pressed Send).
-* **The words**: English (152), the same in `report.js`'s fallback and `strings/en.json`; Robin's
+* **The words**: English (152), the same in `report.js`'s fallback and `strings/en.json`; the
   pick, "Suggest a correction" and "Thank you, your report has been sent."; the 429's message the
   total cap's, never "you have sent several".
 * **The privacy section** against the code: the total cap's number, no scrambled code, the name to
@@ -197,7 +197,7 @@ class Words(unittest.TestCase):
 
     def test_robins_pick_and_the_caps_message(self):
         en = json.loads(_read(SITE, "strings", "en.json"))
-        # Robin, 2026-11-05: "Suggest a correction" + the lab's defaults (the confirmation c1)
+        # decisions 166: "Suggest a correction" + the lab's defaults (the confirmation c1)
         self.assertEqual(en["report.button"], "Suggest a correction")
         self.assertEqual(en["report.sent"], "Thank you, your report has been sent.")
         # the cap is everyone's: the 429's words do not blame the reader

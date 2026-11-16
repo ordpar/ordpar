@@ -108,7 +108,7 @@ def _draft_box():
     return m.group(1)
 
 
-#: Site decisions 178 (Robin, 2026-11-08: the draft "looks ok", A36): the opening's list reordered,
+#: Site decisions 178 (the draft as written, A36): the opening's list reordered,
 #: and the Anki section first, rewritten for the one-deck edition — its words pinned here, exactly
 OPENING_178 = ("as a pop-up on any web page, as flashcards in Anki, and on your own device",
                "as flashcards in Anki, as a pop-up on any web page, and on your own device")

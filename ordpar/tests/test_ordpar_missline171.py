@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """Site decisions 171 (Robin, 2026-11-06): the line under "Could not find …" when a search finds nothing.
 
-Robin: "This line needs to be revised, since "it may be ... an article whose translation we have not reached yet" is
-not true. All the articles are on Ordpar, translated or not" — then, as ordbokene's own page for a missing word
-(ordbokene.no/nob/about/missing-word), the line points onward to NAOB and Norsk Ordbok; his words "A", 2026-11-06.
+The old line's "it may be ... an article whose translation we have not reached yet" was not true: every
+article is on Ordpar, translated or not. So, as ordbokene's own page for a missing word
+(ordbokene.no/nob/about/missing-word), the line points onward to NAOB and Norsk Ordbok, in wording A (2026-11-06).
 
 * **The words** (`site/strings/en.json` `results.noneWhy`): exactly as approved, with `{naob}` and `{norskOrdbok}`
   where the two names go, the names themselves `results.naob` and `results.norskOrdbok`; the untrue reason gone.

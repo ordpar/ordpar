@@ -541,10 +541,9 @@ def form_word(w: list) -> str:
 
 def form_order(ids, words: dict, translated, freq: dict | None = None, first=()) -> list:
     """The order of the articles under one INFLECTED form, as the index stores them in
-    ``forms`` (site decisions 143, Robin 2026-10-26: "purely sort it based on frequency"; the
-    measure E2, his choice of 2026-10-27; and, the same day, "if multiple headwords with the
-    same lemma are showing, I think they should follow the same ordering as the normal list
-    view"): the articles are grouped by their word (``form_word``); **the words** go most common
+    ``forms`` (site decisions 143: sorted by frequency alone, by the
+    measure E2; and the headwords of one word in the same order as the
+    list view): the articles are grouped by their word (``form_word``); **the words** go most common
     first, a word's figure the sum of its articles' ``freq`` (the ``form_share`` figure: each
     spelling's count in NB's 2026 books shared out among every article that has it, by their
     example sentences + 1) — not ``article_freq``'s, never the band — a tie by the word's
@@ -552,8 +551,8 @@ def form_order(ids, words: dict, translated, freq: dict | None = None, first=())
     ``result_order`` (translated first, then ``homograph_order``: verbs in number order, then the
     rest in number order). ``first``: the ids the exceptions file names for this form
     (``read_form_overrides``), in its order: each lifts its whole word ahead of the rest, the
-    word keeping its own order inside (Robin, 2026-10-27: "within one word the list view's order
-    wins"); an id not among ``ids`` is ignored. Without ``freq`` (or with no figure at all) the
+    word keeping its own order inside (decisions 143: within one word the list view's order
+    wins); an id not among ``ids`` is ignored. Without ``freq`` (or with no figure at all) the
     order is ``result_order``'s alone, as before 143, the exceptions still applied as above.
     Translated first therefore no longer leads across words; a query's own headword rows
     (``heads``) keep ``result_order``. Every reader keeps the stored order (``Index.lookup``,
@@ -599,7 +598,7 @@ def snippet_text(text: str, limit: int = SNIPPET_MAX) -> str:
 def read_snippets(path: str) -> dict:
     """The article build's snippets, ``{id: (text, lang)}`` — or ``(text, lang, drop)`` where
     the autocomplete's text is not the snippet's first unit (a translated set phrase with no
-    summary gloss: its set-phrase box, or "" for nothing; site decisions 60, brief item 7(b) as
+    summary gloss: its set-phrase box, or "" for nothing; site decisions 60 as
     amended); empty when the file is absent (the list view then shows its rows without a
     snippet)."""
     if not path or not os.path.exists(path):
@@ -633,8 +632,8 @@ def snippet_files(heads: dict, snippets: dict, translated, limit=SNIPPET_MAX, wo
     phrase with no summary gloss) also lands in the file's ``"_d"`` map, ``{"<id>": drop}`` —
     its set-phrase box, which the dropdown reads in place of the snippet's first unit (shell.js
     ``glossText``), or ``""`` where it has none, which every reader takes as "no box" and so
-    shows the snippet's first unit after all (site decisions 60, brief item 7(b) as amended,
-    Robin 2026-10-19; its "else nothing" amended by site decisions 82, A13 point 3, Robin
+    shows the snippet's first unit after all (site decisions 60 as amended,
+    Robin 2026-10-19; its "else nothing" amended by site decisions 82, Robin
     2026-10-21 — fixed in the readers, shell.js ``glossText``, lookup.js ``dropRule``,
     personal.js ``dropText``, so stored favourites and cached files follow too); the list view
     never looks at it.
@@ -678,8 +677,8 @@ def snippet_files(heads: dict, snippets: dict, translated, limit=SNIPPET_MAX, wo
                     mismatched += bool(text) and (lang == "en") != (i in tr)
                 if text:
                     # site decisions 185: a Norwegian line is kept whole (the hover shows it
-                    # whole; Robin: no definition is "so long that it makes sense to cut them
-                    # off"); an English one is cut, since only the one-line rows read it
+                    # whole; no definition is so long that cutting it would help);
+                    # an English one is cut, since only the one-line rows read it
                     out[k][str(i)] = text if lang == "nb" else snippet_text(text, limit)
                     # site decisions 152: the translated articles' first Norwegian definitions
                     nmap = out[k].setdefault("_n", {})
@@ -1293,8 +1292,8 @@ def entry(aid, data: dict, pos: str = ""):
 
 #: The index's separator between an article's spellings in ``words[id][0]``. A DATA separator,
 #: never shown: every reader draws the spellings with ", " between them, each with its own
-#: numeral, as the article's headword line (site decisions 93, Robin 2026-10-22: "the lemmas
-#: are seperated by `,` not `/`"; lookup.js ``headParts``). " / " stays in the data because 48
+#: numeral, as the article's headword line (site decisions 93: the spellings
+#: separated by a comma, not a slash; lookup.js ``headParts``). " / " stays in the data because 48
 #: headwords contain ", " (*snipp, snapp, snute*) and none contains " / ", and because history
 #: and favourites stored in readers' browsers carry it (personal.js ``wordQuery``).
 SEP = " / "
@@ -1464,8 +1463,8 @@ def first_shown(res: dict):
 
 
 def random_headwords(idx: "Index", heads: dict, pool) -> list[str]:
-    """The Random word's pool since decisions 115 (Robin, 2026-10-24: "it opens to a random
-    headword search … Just the first one is enough"): the headwords whose search shows first
+    """The Random word's pool since decisions 115 (it opens a random
+    headword's search, and the first article is enough): the headwords whose search shows first
     an article of ``pool`` (``random_pool``, decisions 67's bar). Each candidate — a headword
     form of an article in ``pool`` — is searched through ``idx`` (``Index``, the read-side twin
     of lookup.js, over the index just written: the same shards, ``translated.json``, the same
@@ -2075,8 +2074,8 @@ def write_index(out: str, heads, forms, words, translated, stats, freq=None, fre
 # the English search (site decisions 148)
 # --------------------------------------------------------------------------- #
 #
-# Robin, 2026-10-29: "a kind of "switch" underneath the search, where switching it on makes you
-# search for the English equivalents instead of the Norwegian headword". The index is the summary
+# Site decisions 148: a switch under the search box which, turned on, searches the English
+# equivalents instead of the Norwegian headwords. The index is the summary
 # glosses (decisions 17, amended 2026-10-19), ported from the style lab's `english_index.py`
 # (`docs/sessions/2026-09-19-ordpar-site-review/evidence/style-lab/`), its rules unchanged but
 # for the explanation units, which the lab indexed behind a toggle and the site does not index.
@@ -2456,13 +2455,13 @@ def en_tail_key(key: str) -> str:
 
 def english_tails(idx: dict) -> dict:
     """``{tail key: file}`` — the English one-word keys again, filed by their second and third
-    characters (site decisions 148's follow-up, Robin 2026-10-29: "the English similar words
-    reach other first letters as the Norwegian ones do"), what the similar words read, after
+    characters (site decisions 148's follow-up: the English similar words
+    reach other first letters as the Norwegian ones do), what the similar words read, after
     the results are painted, to reach a wrong or a missing first letter. Each file carries what a
     similar row needs and nothing more, so no letter file is fetched for a row: ``e`` {key:
     [[id, unit, place], …]} (the order (c) of the row's headwords, the ids for 149's rule),
     ``a`` {id: [first spelling, its numeral, pos, band, rank]} (the row draws the first spelling
-    alone, Robin 2026-10-29: "enough to show the Norwegian main-lemma"), ``d`` the keys'
+    alone, decisions 148), ``d`` the keys'
     display. No spans, no gloss units: a row draws neither."""
     keys = idx["k"]
     by = defaultdict(list)
@@ -2487,9 +2486,9 @@ def english_tails(idx: dict) -> dict:
 
 
 def english_pool(idx: dict) -> dict:
-    """Random word's English pool (site decisions 155, Robin 2026-10-31: with "Search English
-    words" on, "it chooses a random English word"; the pool his pick, "every English word the
-    English suggestions can offer, each equally likely"): ``{letter: [key, …]}`` — every key of
+    """Random word's English pool (site decisions 155: with "Search English
+    words" on, a random English word, drawn from every English word the
+    English suggestions can offer, each equally likely): ``{letter: [key, …]}`` — every key of
     the English index under its own file's letter (``en_letter``; a phrase a file also carries for
     another letter's sake counts in its own letter's only, so each word once), less the keys the
     suggestions can never offer: those whose display, typed, does not reach the key itself
@@ -2590,7 +2589,7 @@ class EnglishIndex:
 
     @staticmethod
     def order(shard: dict):
-        """Order (c), Robin 2026-10-29 ("C seems like a good compromise"): units 1 and 2 as one
+        """Order (c) (decisions 148, the compromise of the three orders): units 1 and 2 as one
         tier, then unit 3 on; inside a tier the band, highest first; then the unit, the place in
         the unit, the article's rank. lookup.js ``enOrder``."""
         def key(m):
@@ -2699,8 +2698,8 @@ class EnglishIndex:
                 w = 1
             top = max(shard["a"][str(i)][3] for i in ids)
             out.append((w, d, -top, len(k), k, shard))
-        # site decisions 148's follow-up (Robin, 2026-10-29: "the English similar words reach
-        # other first letters as the Norwegian ones do"): a wrong first letter through the tails
+        # site decisions 148's follow-up (the English similar words reach
+        # other first letters as the Norwegian ones do): a wrong first letter through the tails
         # file of the query without its first character (hoose -> loose), a missing one through
         # the query's own (hoose -> choose), an extra one through the second letter's file, its
         # keys starting with that letter (xhouse -> house); one-word keys, spelled alike only
@@ -3215,8 +3214,8 @@ class Index:
         or more, by WORDS (at least two words in common in order, with a typo per word
         tolerated, and no more than ``words_limit(m)`` words differing).
 
-        ``wide`` (decisions 55; on a hit and a miss alike since decisions 56, Robin 2026-10-19:
-        "The search suggestions on a hit should be the same as for a non-hit"; ``wide=False``
+        ``wide`` (decisions 55; on a hit and a miss alike since decisions 56: the
+        suggestions on a hit the same as on a miss; ``wide=False``
         is kept only to measure against) widens the candidates: (2) the headwords whose
         remainder after the first letter starts like the query's (``tails/``: a wrong first
         letter, *vus* -> *hus*) or like the whole query (a missing one, *us* -> *hus*), and

@@ -504,9 +504,11 @@ BROWSER_SKIP = harness.skip_reason() or BUILT_SKIP
 CASES = {"computer": dict(w=1280, h=900, mobile=False, dark=False),
          "phone": dict(w=390, h=844, mobile=True, dark=False),
          "dark": dict(w=1280, h=900, mobile=False, dark=True)}
-#: the articles the browser reads: one with two kinds, its query finds it alone; a list row (*tørre*
-#: under "tore"); one without corrections
-ARGS = dict(article=17238, several=48919, plain=7663, single="forvaltningsorgan", single_id=17238,
+#: the articles the browser reads: one with two kinds (*rot I*: since Bokmålsordboka's data of 14
+#: November 2026 the only article with two, the cross-reference of *forvaltningsorgan* now corrected
+#: upstream); a query finding one article (*forvaltningsorgan*); a list row (*tørre* under "tore");
+#: one without corrections
+ARGS = dict(article=48919, several=48919, plain=7663, single="forvaltningsorgan", single_id=17238,
             list="tore", list_id=61543)
 SHOTS = os.environ.get("ORDPAR_CHANGENOTICE_SHOTS")    # a folder: the review's screenshots
 SITE_ = None
@@ -542,9 +544,9 @@ class Browser(unittest.TestCase):
                 self.assertEqual(a["order"], ["ordpar-result-controls", "ordpar-change"])
                 self.assertTrue(a["heart"], "the heart is missing from the controls")
                 self.assertTrue(a["afterControls"])
-                self.assertEqual(a["text"], C.sentence([("xref", 1), ("typo", 1)], STRINGS) + " "
+                self.assertEqual(a["text"], C.sentence([("typo", 1), ("punct", 1)], STRINGS) + " "
                                  + STRINGS["change.link"] + " ↗")
-                self.assertEqual(a["href"], "https://ordbokene.no/nob/bm/17238")
+                self.assertEqual(a["href"], "https://ordbokene.no/nob/bm/48919")
                 self.assertEqual(a["colour"], a["muted"])
                 self.assertEqual(a["linkColour"], a["muted"])
                 self.assertTrue(a["inside"])

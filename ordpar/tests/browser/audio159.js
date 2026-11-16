@@ -244,7 +244,10 @@ run(async () => {
     if (!b) return { inside: false };
     const r = b.getBoundingClientRect(), tr = t.getBoundingClientRect();
     const range = document.createRange(); range.selectNodeContents(t.firstChild); const wr = range.getBoundingClientRect();
-    return { inside: true, last: t.lastChild === b, sameLine: r.top < wr.bottom && r.bottom > wr.top,
+    // last in the term, or followed only by the term's CEFR level box (site decisions 187)
+    const lv = b.nextSibling;
+    const last = t.lastChild === b || (!!lv && lv.nodeType === 1 && lv.classList.contains('ordpar-level') && t.lastChild === lv);
+    return { inside: true, last, sameLine: r.top < wr.bottom && r.bottom > wr.top,
       afterWords: r.left >= wr.right - 1, termLines: Math.round(tr.height / parseFloat(getComputedStyle(t).lineHeight || 20)) };
   })()`);
 

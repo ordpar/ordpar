@@ -16,8 +16,8 @@ Pins, in `build_index.py` (`en_split_unit`, `en_key_of`, `en_norm`, `en_spelling
 * **the shards** — one file per first letter; a phrase also in the file of each of its words'
   letters ("go swimming" in `s`); an irregular pair across letters in both (*went* / *go*); every
   article a file names once, with what the rows need; the miss line's numbers;
-* **the tails files** (148's follow-up, Robin 2026-10-29: "the English similar words reach other
-  first letters as the Norwegian ones do") — the one-word keys again, filed by their second and
+* **the tails files** (148's follow-up: the English similar words reach other
+  first letters as the Norwegian ones do) — the one-word keys again, filed by their second and
   third characters, each with only what a similar row needs (no spans, no gloss);
 * **over the build** (skipped without `ordpar/out/index/en/`): the sizes in the manifest; order
   (c) — *go*: *gå* first; *house*: *hus*, *house*, *bosette*; *candle* one article; the similar
@@ -285,7 +285,7 @@ class OverTheBuild(unittest.TestCase):
             self.assertTrue(os.path.exists(os.path.join(INDEX, "en", "tails", f["k"] + ".json")), f["k"])
 
     def test_past_the_first_letter(self):
-        # Robin, 2026-10-29 ("Yes, before deploy"): hoose -> choose (a missing first letter) and
+        # 148's follow-up, before deploy: hoose -> choose (a missing first letter) and
         # loose (a wrong one), as the lab listed them, beside its own letter's house, horse, hose
         self.assertEqual([i["word"] for i in self.E.similar("hoose")],
                          ["house", "choose", "horse", "loose", "hose"])

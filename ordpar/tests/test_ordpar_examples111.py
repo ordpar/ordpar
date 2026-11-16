@@ -10,7 +10,7 @@
    besides) inserted before each example's English by the page script (`excues`, run from
    `ordparDefs`, exported as `ordparExCues` for the mini script); the sheet hides the English of
    an unopened example and shows its cue; a click on an opened example's English closes it.
-3. **The cue in the muted grey** (Robin, 2026-10-23: "faded grey, to make it less prominent"):
+3. **The cue in the muted grey** (decisions 111: faded grey, to make it less prominent):
    the deck's `.ordbok-cue` text #757070 (night #b9b6b6), the site's through `--ordpar-muted`;
    the border as before.
 

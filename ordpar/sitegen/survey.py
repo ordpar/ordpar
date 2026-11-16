@@ -156,8 +156,8 @@ def body(data=None):
     then the form."""
     data = read() if data is None else check(data)
     w = data["words"]
-    # the note (optional in the data file): first under the title, in bold (Robin, 2026-11-07:
-    # "Include a note on the top of the survey that each field is optional")
+    # the note (optional in the data file): first under the title, in bold (decisions 173:
+    # a note at the top that each field is optional)
     note = data.get("note")
     intro = ('<p class="ordpar-survey-note"><strong>%s</strong></p>\n' % inline(note)) if note else ""
     intro += "".join("<p>%s</p>\n" % inline(p) for p in data["intro"])

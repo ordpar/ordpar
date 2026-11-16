@@ -53,6 +53,7 @@ import re
 
 from . import deck
 from . import face as face_mod
+from . import levels as levels_mod
 from . import pronunciation
 from . import slim
 
@@ -155,7 +156,7 @@ def site_pos(tags, genders):
     * The subordinating conjunction is ordbokene's "subjunction" (`site_pos_label`).
     * A COMPOUND PREFIX (`COMPPFX`, *kjempe-*) is "compound prefix" / "i sammensetning", as the
       rows draw it (`pos.COMPPFX`) and ordbokene shows it; `pos_en` folds it into "prefix"
-      (152's follow-up, Robin 2026-11-01: "yes, it should be one word").
+      (152's follow-up: one word).
 
     Every other label is `pos_en`'s. Raises `postags.UnknownPOS` as `pos_en` does."""
     pos = deck.postags.pos_en(tags)
@@ -190,7 +191,7 @@ _POS_BRACKET = re.compile(r"^(.+?) \((.+)\)$")
 #: them. The deck's cards (`deck/render.py`) call `fragment` without it and are unchanged.
 _SITE = [False]
 
-#: The labels inside the article frame and their Norwegian (site decisions 152, Robin 2026-10-31:
+#: The labels inside the article frame and their Norwegian (site decisions 152:
 #: the "labels" setting; English the default): ordbokene's own word where its rendered Bokmål
 #: pages show one (the lookup of 2026-10-30, `ordbokene-interface-words-2026-10-30-lookup-web.md`:
 #: Uttale, Opphav, Betydning og bruk, Faste uttrykk, Vis bøyning), else a DRAFT for Robin.
@@ -293,12 +294,17 @@ def pos_html(pos):
             'data-nosnippet>%s</span>' % (en, nb))
 
 
-def head_html(row, strings, data=None, gloss=None):
+def head_html(row, strings, data=None, gloss=None, level=None):
     """The headword block: one line per paradigm group (`lemma_groups`), each over its own
     POS line, then the summary gloss under them (decisions 42: the authored salience order;
     the per-item sense marks wait for the sense tags). `gloss` is the list of expanded HTML
     strings, or nothing on an untranslated page. Each line is the deck's own `_head_lemmas` markup, built from a synthetic row
     with no `id` — so no form links anywhere: on its own page the headword is not a link.
+
+    `level` (site decisions 187): the article's CEFR level as the site draws it, its box
+    (`levels.box_html`) the last thing in the `h1`, after the last spelling (and, in a browser, its
+    sound icon); on the first line only, where an article has several. None: no box, the markup
+    as before (the deck passes none).
 
     Each spelling's Roman homograph numeral (decisions 93) is hidden from assistive technology
     and given a visually hidden reading beside it (decisions 33 (1)): "lysing, homograph 1,
@@ -315,6 +321,8 @@ def head_html(row, strings, data=None, gloss=None):
         synthetic = {"lemmas": [{"form": f, "homograph": hg} for f, hg in forms]}
         line = _HOMOGRAPH_RE.sub(a11y, g._head_lemmas(synthetic))
         tag = "h1" if i == 0 else "p"     # one heading per article; the rest are its siblings
+        if i == 0 and level:
+            line += levels_mod.box_html(level, strings)      # site decisions 187
         out.append('    <%s class="ordpar-hw" lang="nb">%s</%s>' % (tag, line, tag))
         if pos == "fixed expression":
             continue      # site decisions 22 as amended: ordbokene prints no word class for one
@@ -655,13 +663,21 @@ def expr_anchor_prefix(eid):
     return "x%s-" % eid
 
 
-def _expr_html(e_no, e_en, mk, strict, strings):
+def _expr_html(e_no, e_en, mk, strict, strings, level=None):
     """One expression sub-article inlined in full, both faces (`ordbok_gen._expr_html`'s
     shape: the bold term, then its senses; the `Se: …` line dropped, as the embedded view
-    always does). Its sense anchors are prefixed (`expr_anchor_prefix`)."""
+    always does). Its sense anchors are prefixed (`expr_anchor_prefix`).
+
+    `level` (site decisions 187): the set phrase's own CEFR level, its box the last thing in the
+    term's line, after its sound icon (`audio.js` puts the icon before the box); and (site decisions
+    188) on the block itself, `data-level`, by which the sheet orders the blocks by level while the
+    setting `phraseorder` asks for it. None: the block as before."""
     prefix = expr_anchor_prefix(e_no.get("id"))
     term = html.escape((e_no.get("lemmas") or [{}])[0].get("form", ""), quote=False)
-    out = ['    <div class="ordbok-expr">',
+    if level:
+        term += levels_mod.box_html(level, strings)
+    out = ['    <div class="ordbok-expr"%s>' % (' data-level="%s"' % html.escape(level, quote=True)
+                                             if level else ""),
            '      <span class="ordbok-expr-term" lang="nb">%s</span>' % term]
     senses = e_no.get("senses") or []
     en_senses = (e_en or {}).get("senses") or []
@@ -695,7 +711,7 @@ def norwegian_only(mk):
 
 
 def fragment(row_no, row_en, lib, mk, strings, data=None, paradigm=True, strict=True,
-             untranslated_exprs=(), see_lines=False, site=False):
+             untranslated_exprs=(), see_lines=False, site=False, levels=None):
     """`_fragment`, an untranslated page (`row_en` None) rendered inside `norwegian_only`: every
     link on it a Norwegian-only unit's (decisions 119); a translated page's untranslated set
     phrases are scoped in `_fragment` itself.
@@ -708,22 +724,33 @@ def fragment(row_no, row_en, lib, mk, strings, data=None, paradigm=True, strict=
 
     `site` (site decisions 152): a page of the site — the labels inside it (`site_label`), the
     word class (`pos_html`) and the inflection toggle in both languages, and `data-nosnippet` on
-    the compound lists' Norwegian label copy (`_SITE`). The deck leaves it off."""
+    the compound lists' Norwegian label copy (`_SITE`). The deck leaves it off.
+
+    `levels` (site decisions 187): `{article id: level}`, the CEFR levels the site draws — a box
+    after the headword (`head_html`) and on each embedded set phrase's line (`_expr_html`), each
+    looked up by its own id. The site's page build passes them (`build_site.py --levels`); with
+    none, the default, the markup is as before, so the deck's cards stay as they are.
+
+    Site decisions 188: each levelled set phrase's block carries its level (`data-level`), and the
+    set-phrase section, where any block does, the class `ordpar-exprs`; the sheet orders those
+    blocks by level, A1 first, while `<html>` carries `ordpar-levels-on` and
+    `ordpar-phraseorder-level` (`page.SITE_CSS`), so the page itself keeps the alphabetical order
+    and nothing moves after the first paint."""
     was = _SITE[0]
     _SITE[0] = bool(site)
     try:
         if row_en is None:
             with norwegian_only(mk):
                 return _fragment(row_no, row_en, lib, mk, strings, data, paradigm, strict,
-                                 untranslated_exprs, see_lines)
+                                 untranslated_exprs, see_lines, levels)
         return _fragment(row_no, row_en, lib, mk, strings, data, paradigm, strict,
-                         untranslated_exprs, see_lines)
+                         untranslated_exprs, see_lines, levels)
     finally:
         _SITE[0] = was
 
 
 def _fragment(row_no, row_en, lib, mk, strings, data=None, paradigm=True, strict=True,
-              untranslated_exprs=(), see_lines=False):
+              untranslated_exprs=(), see_lines=False, levels=None):
     """The whole article, `<div class="ordbok">` and all.
 
     `row_en` is the same row with its reference pairs completed for English (`None` on an
@@ -747,7 +774,8 @@ def _fragment(row_no, row_en, lib, mk, strings, data=None, paradigm=True, strict
     # language puts its own code on <html>
     p = ['<div class="ordbok ordpar-article" lang="%s">' % ("en" if bilingual else "nb"),
          head_html(row_no, strings, data,
-                   gloss=[mk.expand(x, norwegian=False, strict=strict) for x in gloss])]
+                   gloss=[mk.expand(x, norwegian=False, strict=strict) for x in gloss],
+                   level=(levels or {}).get(row_no.get("id")))]
     if paradigm and data is not None:
         block = paradigm_block(data, strings)
         if block:
@@ -806,20 +834,22 @@ def _fragment(row_no, row_en, lib, mk, strings, data=None, paradigm=True, strict
               % g.NO_DEFINITION_NOTE, '  </section>']
 
     if row_no.get("exprs"):
-        blocks, untr = [], []
+        blocks, untr, levelled = [], [], False
         for eid in g._expr_order(row_no["exprs"], lib):
             erow = lib.get(eid)
             if erow is None:
                 continue          # counted by the build; never a flag on a shipped page
+            levelled = levelled or bool((levels or {}).get(eid))
             if bilingual and eid in untranslated_exprs:
                 # decisions 58 as amended: whole in Norwegian, after the translated ones; a
                 # Norwegian-only unit, so its links take their targets' English (decisions 119)
                 with norwegian_only(mk):
-                    untr.append(_expr_html(mk.pair_view(erow, "no"), None, mk, strict, strings))
+                    untr.append(_expr_html(mk.pair_view(erow, "no"), None, mk, strict, strings,
+                                           level=(levels or {}).get(eid)))
                 continue
             blocks.append(_expr_html(mk.pair_view(erow, "no"),
                                      mk.pair_view(erow, "en") if bilingual else None,
-                                     mk, strict, strings))
+                                     mk, strict, strings, level=(levels or {}).get(eid)))
         if untr:
             label = ('    <p class="ordpar-untr-head" lang="en">%s</p>'
                      % site_label(UNTRANSLATED_HEAD if blocks else UNTRANSLATED_NOTE))
@@ -828,6 +858,8 @@ def _fragment(row_no, row_en, lib, mk, strings, data=None, paradigm=True, strict
         if blocks:                # no heading over an empty block
             # all untranslated: "English only" hides the whole section, heading and all
             cls = "ordbok-sec ordpar-untr-only" if untr and len(blocks) == 1 else "ordbok-sec"
+            if levelled:
+                cls += " ordpar-exprs"     # site decisions 188: the sheet's hook for the level order
             p += ['', '  <section class="%s">' % cls,
                   '    <h3 lang="en">%s</h3>' % site_label(EXPRS_LABEL)] + blocks + ['  </section>']
 
@@ -927,9 +959,9 @@ _REF_NUMBER_RE = re.compile(r"\[([^\]]+?) \((?:[IVXL]+(?:, \d+)?|\d+)\)\]\(")
 def drop_ref_numbers(text):
     """`text` (a stored Norwegian line, with its link markers) with each link label's trailing
     homograph numeral and sense number dropped — *huske (III)* → *huske* — for a one-line
-    Norwegian definition in a row (site decisions 144, Robin 2026-10-27: "I would drop any
-    Homographs or sense numbering inside the paranthesis, since these are more relevant for
-    pointing the links themselves, but provide little inside the running texts"). The article
+    Norwegian definition in a row (site decisions 144: no homograph or sense
+    numbers inside the brackets; they serve the links themselves and add
+    little to the running text). The article
     keeps them; only `snippet` calls this."""
     return _REF_NUMBER_RE.sub(r"[\1](", text or "")
 

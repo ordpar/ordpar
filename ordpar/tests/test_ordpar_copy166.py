@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Site decisions 166, Copy (Robin, 2026-11-05: "a 'copy' button for each row, so that I can paste
-it in a session chat to discuss it with Claude (it should include the article ID + article body +
-the report)"). Brief: `docs/sessions/2026-09-19-ordpar-site-review/evidence/
+"""Site decisions 166, Copy: a 'copy' button on each row, to paste it into a session chat to
+discuss it with Claude, holding the article ID, the article body and the report. Brief: `docs/sessions/2026-09-19-ordpar-site-review/evidence/
 brief-report-copy-166-2026-11-05.md`. Stdlib unittest, no bun, no browser, no network.
 
 * **The four parts, in order** (`reports_page.copy_text`): the heading line (the report's number,

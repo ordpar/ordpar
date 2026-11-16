@@ -25,13 +25,13 @@ outside a browser:
   `<html>` attributes a favourites row is drawn from, the article page loading `personal.js`
   before its script, and the script drawing the heart with the strings' words — one name,
   "Favourite", in both states (60b item 6).
-* **The dropdown's set-phrase text** (brief item 7(b) as amended, Robin 2026-10-19):
+* **The dropdown's set-phrase text** (site decisions 60 as amended, Robin 2026-10-19):
   `article.dropdown_text` — a translated set phrase with no summary gloss shows its first
   set-phrase box (`idiom`), else `""`; `build_index.snippet_files` files it under `"_d"`,
   which only the dropdown and the history and favourites rows read; the list view's snippet is
   unchanged. Every reader (`shell.js` `glossText`, `lookup.js` `dropRule`, `personal.js`
   `dropText`) takes a `""` as no box and shows the snippet's first unit — its English line
-  (site decisions 82, A13 point 3, Robin 2026-10-21; until then `""` meant nothing).
+  (site decisions 82, Robin 2026-10-21; until then `""` meant nothing).
 * **The table fit** (brief item 7(a) as ruled): `inflection.js` exports `fit`, the search view
   calls it; since decisions 102 (2026-10-23) `mountAll` fits every mount itself, the article
   page's included, and the mount is capped at the card everywhere (`article.css`), so
@@ -394,12 +394,12 @@ process.stdout.write(JSON.stringify([
   P.dropText({snip: 'used to express', drop: 'bloody hell'}), P.dropText({snip: 'x', drop: ''}),
   P.dropText({snip: 'a · b'})]));
 """)
-        # an override of '' is a set phrase with no box: its English line (decisions 82, A13 point 3)
+        # an override of '' is a set phrase with no box: its English line (decisions 82)
         self.assertEqual(out, ["to catch", "", "bloody hell", "x", "a"])
 
 
 class DropdownText(unittest.TestCase):
-    """`article.dropdown_text` and its path through the index (item 7(b) as amended)."""
+    """`article.dropdown_text` and its path through the index (site decisions 60 as amended)."""
 
     @classmethod
     def setUpClass(cls):
@@ -470,7 +470,7 @@ class DropdownText(unittest.TestCase):
         self.assertLess(js.index("snips._d[id]"), js.index("snips[id].split("))
 
     def test_readers_take_an_empty_override_as_no_box(self):
-        # site decisions 82, A13 point 3 (Robin 2026-10-21): the dropdown (`glossText`) and the
+        # site decisions 82 (Robin 2026-10-21): the dropdown (`glossText`) and the
         # history rows' stored text (`dropRule`) agree with `personal.js` `dropText` (Display)
         runner = _runner()
         if not runner:

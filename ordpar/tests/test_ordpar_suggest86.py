@@ -164,8 +164,8 @@ class Shell86(unittest.TestCase):
         self.assertIn("side.appendChild(el('span', 'ordpar-tag', t('tag.norwegianOnly')));", side)
         # the definition is the list view's snippet, whole; a gloss its first unit
         self.assertIn("var text = g.nb ? (snips[g.id] || '') : glossText(snips, g.id);", self.js)
-        # the Recent rows: no section; since 88's second amendment (Robin, 2026-10-22: "the
-        # history page still colours the headword of untranslated articles") the colour class
+        # the Recent rows: no section; since 88's second amendment (the
+        # history page had still coloured the headword of untranslated articles) the colour class
         # as a suggestion row's, set where a translated article is behind the row
         recent = self.js[self.js.index("    function openRecent("):self.js.index("    function emptyBox(")]
         self.assertNotIn("suggestSections", recent)
@@ -182,8 +182,8 @@ class Shell86(unittest.TestCase):
 
 
 class Label86(unittest.TestCase):
-    """The label's text at the gloss's size, tied to it (Robin: "if we later change the gloss
-    size, the label follows")."""
+    """The label's text at the gloss's size, tied to it (decisions 86: if the gloss
+    size changes later, the label follows)."""
 
     def test_one_value(self):
         css = _read(SITE, "shell.css")

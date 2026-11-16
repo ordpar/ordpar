@@ -184,8 +184,10 @@ class ExamplesLimit(unittest.TestCase):
                 self.assertEqual(s["value"], "all")
                 self.assertEqual(s["title"], "Examples under each sense and set phrase")   # 126
                 self.assertEqual(s["label"], "article-language-title ordpar-exlimit-legend")
-                # the eye's setting right under Examples since site decisions 131 (2026-10-26)
-                self.assertEqual(s["after"], ["examples", "exeye", "exlimit"])
+                # the eye's setting right under Examples since site decisions 131 (2026-10-26), what it
+                # hides after it since site decisions 186 (drawn, hidden while the eye is off), the
+                # CEFR level box's after them since site decisions 187 (the check reads four keys)
+                self.assertEqual(s["after"], ["examples", "exeye", "exeyewhat", "levels"])
                 self.assertEqual(s["hints"], [True, True])
                 self.assertFalse(s["moreShown"], "the line's setting shows with All")
                 self.assertEqual(s["moreTitle"], "A line to show the examples left out")   # 126

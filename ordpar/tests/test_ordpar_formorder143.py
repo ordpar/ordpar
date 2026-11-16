@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Pins site decisions 143 (Robin, 2026-10-26: "purely sort it based on frequency"; 2026-10-27:
-"E2 sounds good", with a short list of ruled exceptions; and "within one word the list view's
-order wins"): the rows under "is an inflected form of" group each form's articles by their word
+"""Pins site decisions 143 (by frequency alone, the measure E2, with a short list of ruled
+exceptions; and within one word the list view's
+order wins): the rows under "is an inflected form of" group each form's articles by their word
 (`form_word`: the headword line's first spelling) and list the words most common first by **E2**
 — each spelling's count in NB's 2026
 books shared out among every article that has it (headword or inflected form), in proportion to
@@ -66,7 +66,7 @@ KNOWN = {"helt": (22945, 22968),      # hel, heil II, not hele VI
          "bomber": (6920, 6921),      # the noun bombe I: one word, the list view's order (translated first)
          "varen": (66635, 66620)}     # vare I, not var I (the exceptions file)
 #: *varer*: the fault was *var* I first; the word *vare* now leads in the list view's order,
-#: III, IV, I, then *var* I (Robin, 2026-10-27: "That would put the order like this")
+#: III, IV, I, then *var* I (the order as ruled, decisions 143)
 VARER_NOT_FIRST, VARER_VARE = 66620, {66635, 66637, 66638}
 VARER = [66637, 66638, 66635, 66620]
 #: *været*: the exception names *vær* III; its word is lifted whole, *vær* II first

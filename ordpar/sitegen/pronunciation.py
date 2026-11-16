@@ -32,10 +32,10 @@ shown in Norwegian everywhere, whole (`STATS["unmatched"]`) — *schæferhund*'s
 ("av tysk ‘Schäferhund’ … av *Schaf* ‘sau’") is one, rendered as the data has it.
 
 The note on what the marks mean is the Help page's § Pronunciation (`/help/#pronunciation`,
-`ordpar/help.md`; Robin, 2026-10-24: "The notes belongs elsewhere, since it only needs to be read
-once"). From 2026-10-24 an article whose field used a mark the note explains also had a "?" beside
-the label opening it; removed 2026-11-02, on the site and the deck alike (decisions 123's amendment,
-Robin: the "?" "taking unecessary space and attention" once the sound icons were in). The label stays
+`ordpar/help.md`; decisions 123: the note belongs elsewhere, since it needs reading only
+once). From 2026-10-24 an article whose field used a mark the note explains also had a "?" beside
+the label opening it; removed 2026-11-02, on the site and the deck alike (decisions 123's amendment:
+the "?" took space and attention for nothing once the sound icons were in). The label stays
 plain text, as ordbokene's.
 """
 import html

@@ -2,10 +2,9 @@
 """Site decisions 158 (Robin, 2026-11-01): the list view also when a search finds inflected forms,
 the new default.
 
-Robin: "I'd like to add one more setting option under search/list view: that if there are any
-inflected forms hits, the search page uses list view. Meaning, only if there are just 1 search
-match, and no inflected forms hits, does the search open straight to the article. [...] I'd also
-like to make this the default setting."
+The ruling: one more option for the search's list view: when there are any inflected-form hits,
+the search page uses the list view, so a search opens straight to the article only when it has one
+match and no inflected-form hits; and this is the default setting.
 
 What can be pinned outside a browser:
 

@@ -1,7 +1,7 @@
 """Site decisions 155 (Robin, 2026-10-31): Random word in English when the switch is on (headless Edge).
 
-Robin: "when "Search English words" is switched on, it chooses a random English word (instead of a
-Norwegian one)"; the pool his pick: every English word the English suggestions can offer, each
+The ruling: with "Search English words" on, Random word chooses a random English word instead of a
+Norwegian one, from every English word the English suggestions can offer, each
 equally likely, opened exactly as if typed and picked. Through `browser/random155.js`, on a
 computer (clicked) and a phone (tapped), storage cleared first:
 

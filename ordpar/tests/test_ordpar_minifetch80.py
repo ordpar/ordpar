@@ -232,7 +232,7 @@ process.stdout.write(JSON.stringify(out));
 
 
 class MiniWidth(unittest.TestCase):
-    """Decisions 80, row 7 (Robin, 2026-10-22, "Fit-to-height <=36rem"): the sheet's floor and
+    """Decisions 80, the style lab's row 7 ("Fit-to-height <=36rem"): the sheet's floor and
     ceiling on a computer, and `mini.js` `narrowest` — the narrowest width with the ceiling's
     height. The layout itself (`fit`) needs a browser: the build's CDP run measures it."""
 

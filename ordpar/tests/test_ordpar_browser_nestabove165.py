@@ -1,4 +1,4 @@
-"""Site decisions 165 (Robin, 2026-11-04: "Yes, open it above"): a nested small article stays inside the window (headless Edge).
+"""Site decisions 165: a nested small article stays inside the window (headless Edge).
 
 A nested box (`nestminis` `second`, the default, and `stacked`) is `position: fixed`, so the page
 cannot be scrolled to it. Until 165 `mini.js` `placeNested` always set it below its word, at least
@@ -90,8 +90,8 @@ class NestAbove165(unittest.TestCase):
             self.assertTrue(c["later"]["above"], where)
 
     def test_d_its_side_kept_while_the_page_scrolls(self):
-        # Robin, 2026-11-04: "the minis should not change position when you scroll the main window
-        # (i.e., if they opened above to begin with, they stay above)": the page scrolled until
+        # decisions 165: the minis do not change position when the main window scrolls (a box
+        # opened above stays above): the page scrolled until
         # the word has more room below than above, and the box is still above it, inside the window
         for run, case in (("computer", "low"), ("computer", "low-stacked"), ("phone", "low")):
             c, where = self._case(run, case)

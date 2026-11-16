@@ -22,7 +22,7 @@ nothing about them that is not yet true (standing.md, "state only true things").
 * **On**: all of them there.
 * **The privacy page** obeys `[if reports]` (`about.privacy_page`), so its section "Reporting a
   mistake" follows this switch; the page itself is `chrome.PRIVACY` (decisions 104), on since
-  2026-11-05 (Robin approved its words, "Approve all four"; it pinned the page off until then).
+  2026-11-05 (its words approved; it pinned the page off until then).
   Amended by the privacy build of 2026-11-05: until then this pinned the page as having
   no `[if]` mechanism, so that the change would be a deliberate one; the page's cases are
   `test_ordpar_privacy166.py`'s.
@@ -261,7 +261,7 @@ class PrivacyPage(unittest.TestCase):
             self.assertNotIn("[if", body)
             self.assertEqual("<p>A.</p>" in body, on)
         self.assertIn("[if reports]## Reporting a mistake", _read(ORDPAR, "privacy.md"))
-        # the page on since 2026-11-05 (Robin: "Approve all four"; it pinned PRIVACY off until
+        # the page on since 2026-11-05 (approved; it pinned PRIVACY off until
         # then), with its section on reports, as the committed switches make it
         self.assertIs(chrome.PRIVACY, True)
         self.assertIn('id="reporting-a-mistake"', about.privacy_page()[1])

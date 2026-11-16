@@ -4,8 +4,8 @@ setting.
 Pins:
 
 * **The words** — the setting-level hints (`settings.<key>.hint`: Loading's trade-off and what
-  "Context for participle forms" shows, under 25 words), the choice notes as Robin passed them
-  ("They seem fine"), the button's name, and the old notes that keep their words.
+  "Context for participle forms" shows, under 25 words), the choice notes as passed
+  (decisions 99), the button's name, and the old notes that keep their words.
 * **One "?" per setting with something to say** — `settings.js` `hintOf`, run under `bun` (or
   node) over the real settings table (`shell.js` SETTINGS), the strings and the colour schemes:
   exactly the twelve settings that have a hint or a choice note, and none for the rest.
@@ -20,7 +20,7 @@ Pins:
 The behaviour in a browser (hover, click, tap, Esc, keyboard, the 360 px window) was checked in
 headless Edge: `docs/sessions/2026-09-19-ordpar-site-review/evidence/settings-hints-99-2026-10-23/`.
 
-`settings.minifetch.click.note` since site decisions 170 (Robin, 2026-11-06, "Approve all four"):
+`settings.minifetch.click.note` since site decisions 170:
 "…nothing is loaded before you click, a recording included. …" (the sound icon follows the setting).
 """
 import json
@@ -47,12 +47,12 @@ def _read(*parts):
 
 STRINGS = json.loads(_read(SITE, "strings", "en.json"))
 
-#: The words Robin passed (decisions 99, "They seem fine"), exactly; reworded by decisions 126 (2026-10-25,
+#: The words passed (decisions 99), exactly; reworded by decisions 126 (2026-10-25,
 #: `test_ordpar_settingswords126.py` pins every 126 text), so the values here are 126's
 HINTS = {
     "settings.minifetch.hint": "Loading an article, page or search before you open it makes it open faster, but uses data for the ones you never open. With the offline copy downloaded (Offline, below), articles come from the copy, so no data is used either way.",
     "settings.minifetch.point.note": "Articles, pages and searches open almost at once on a computer, Random word and the suggestions under the search box included. Uses a little extra data for the ones you rest on but don't click. On a touch screen, loading starts when you touch one.",
-    "settings.minifetch.click.note": "Uses the least data: nothing is loaded before you click, a recording included. An article can take a moment to open the first time.",  # site decisions 170, Robin 2026-11-06 ("Approve all four")
+    "settings.minifetch.click.note": "Uses the least data: nothing is loaded before you click, a recording included. An article can take a moment to open the first time.",  # site decisions 170
     "settings.minifetch.page.note": "The fastest on a phone, which has no pointer to rest on. Uses the most data: the articles behind the page's links that open a small article, and the articles in a list view, are loaded with the page, whether you open them or not. Everything else loads as under \"When the pointer rests on its link\". With the browser's data saver on, only when the link is clicked.",
     "settings.defs.en.note": "Shows only the English of each definition: the shortest articles, for when you only need the meaning. Set phrases not yet translated are left out. An article not yet translated still shows its Norwegian.",
     "settings.defs.no.note": "For when you mostly follow the Norwegian: each definition's English stays hidden until you click \"Show English\" under it; click the English again to hide it. The English glosses under the headword still show, and formula lines and the etymology follow their own settings.",
@@ -70,10 +70,12 @@ KEPT = {
     "settings.minihw.article.note": "It is still a link: click it to open the whole article.",
 }
 #: The settings with something to say (the colour's from ordbokene's maroon, `colours.py`)
-WITH_HINT = ["colour", "layout", "defs", "examples", "exeye", "exlimit", "exmore", "emph", "subsenses", "formulas", "infl", "pframes", "peek",
+WITH_HINT = ["colour", "layout", "defs", "examples", "exeye", "exeyewhat", "exlimit", "exmore", "emph", "subsenses", "formulas", "infl", "pframes", "peek",
              "mini", "minicontent", "nestminis", "minitext", "minihw", "listview", "minifetch", "stats",
              "labels", "nbonly", "nbequiv", "nbrows", "nbicon",   # site decisions 152
-             "audiospeed"]   # site decisions 159   # minitext: decisions 114; mini, listview: 126; exeye: 131; nestminis: 139 (nestlimit, 139, went in 147)
+             "audiospeed",   # site decisions 159
+             "levels",   # site decisions 187
+             "phraseorder"]   # site decisions 188   # minitext: decisions 114; mini, listview: 126; exeye: 131; nestminis: 139 (nestlimit, 139, went in 147); exeyewhat: 186
 
 
 def _runner():
@@ -180,18 +182,23 @@ class TheWords(unittest.TestCase):
         # a setting-level hint for Loading and the participle context; since 2026-10-24 the examples
         # limit and its line (decisions 112) and the opt-out (decisions 104); since 2026-10-25 the
         # accent colour, emphasis, formula lines, list view and the small article's content (126);
-        # since 2026-10-26 the eye's line (decisions 131)
+        # since 2026-10-26 the eye's line (decisions 131); since 2026-11-15 what the eye hides (186); since 2026-11-16 the set
+        # phrases' order (188)
         self.assertEqual(sorted(k for k in STRINGS if re.match(r"settings\.\w+\.hint$", k)),
                          ["settings.audiospeed.hint",   # site decisions 159
                           "settings.colour.hint", "settings.emph.hint", "settings.exeye.hint",
+                          "settings.exeyewhat.hint",     # site decisions 186
                           "settings.exlimit.hint",
                           "settings.exmore.hint", "settings.formulas.hint",
                           "settings.labels.hint",        # site decisions 152
+                          "settings.levels.hint",        # site decisions 187
                           "settings.listview.hint",
                           "settings.minicontent.hint", "settings.minifetch.hint",
                           "settings.nbicon.hint", "settings.nbonly.hint",   # site decisions 152
                           "settings.nestminis.hint",     # decisions 139, 147 (nestlimit's hint went)
-                          "settings.pframes.hint", "settings.stats.hint"])
+                          "settings.pframes.hint",
+                          "settings.phraseorder.hint",   # site decisions 188
+                          "settings.stats.hint"])
 
 
 @unittest.skipUnless(_runner(), "neither bun nor node on PATH")

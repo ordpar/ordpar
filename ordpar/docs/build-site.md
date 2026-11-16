@@ -44,6 +44,9 @@ The build joins two sources and writes one static HTML page per Bokmål article:
 - a **mirror snapshot** of every Bokmål article, as the University of Bergen's dictionary API
   serves it (`bm-articles.jsonl`, one article per line, about 205 MB).
 
+Beside them it reads the CEFR levels the pages draw, `ordpar/levels.tsv` (`--levels`; § The headword
+line).
+
 It is **read-only**: it never writes the library, the captures, the review files or the mirror.
 Everything it writes goes under `--out` (by default the git-ignored folder ordpar/out/), plus
 one snippets file outside it (§ The output).
@@ -105,6 +108,7 @@ prints one. The flags always win.
 | `--snippets PATH` | where the list view's snippets go for `build_index.py` (default ordpar/.build/build-snippets.json, outside the output, never published); pass the same path to both builds |
 | `--articles PATH` | the library (default `articles.jsonl` at the repository root, or in `ORDBOK_DATA_DIR` when that is set) |
 | `--audio-names PATH` | the clip names file (§ The audio); read-only. Without it no page has a play button, and a whole build removes the output's `audio/` folder |
+| `--levels PATH` | the CEFR levels file (§ The headword line, *The CEFR level box*); default `ordpar/levels.tsv`, read-only; `--levels ""` for none. An article the file lacks gets no box |
 | `--mirror-corrections PATH` | the corrections to articles with no library row (§ Corrections to the Norwegian); default `mirror-corrections.jsonl` in the data folder's `review/` (in the public repository `data/review/mirror-corrections.jsonl`); a missing file changes nothing |
 | `--measure` | also record each page's size with the paradigm island left out, in `build.json` |
 
@@ -436,6 +440,57 @@ class where ordbokene.no prints `tags.false`. In the mirror the build reads (the
 *ikke [det|et] plukk* 125183, *[tett|tjukk] i pappen* 125246 and *legge [på|i] prokrustesseng*
 125458.
 
+**The CEFR level box** ([187](../../docs/decisions.md#d187)). With the setting `levels` on
+(Article › Language, off by default; the preset *For learners* turns it on), a small box at the end
+of the first headword line, after the last spelling's sound icon, shows the article's level in the
+Common European Framework of Reference (CEFR): A1, A2, B1, B2, or C, which holds C1 and C2 together.
+Each set phrase embedded in the article has the same box, with its own level, at the end of its
+term's line, after its sound icon. The look is a thin outline in the muted grey of the homograph
+numeral and the word-class line (`--ordpar-muted`), the level as text at 0.75 rem, weight 600,
+padding .2em .38em, radius 3 px, .55em after what precedes it (`page.py` `SITE_CSS`, `.ordpar-level`).
+The markup (`ordpar/sitegen/levels.py` `box_html`) is always in the page; the sheet draws it only while
+`<html>` carries `ordpar-levels-on`, which the head script puts there before the first paint, so
+nothing moves on load, and with the setting off the box is neither drawn nor read. The letters are
+`aria-hidden` and carry the tooltip ("B1 · intermediate", `strings.py` `level_tip_*`; hover only); a
+visually hidden ", level B1" beside them is what a screen reader hears, as part of the heading's
+name. The box is `lang="en"` and `data-nosnippet`, and not selectable. The levels come from
+`ordpar/levels.tsv` (`article<TAB>shown`, one line per article id, a set phrase by its own id),
+which `ordpar/levels_import.py` writes from Ordpar's own judged levels; the build reads it with
+`--levels` and records in `build.json` `levels` how many articles and embedded set phrases got a box; it also prints how many have no level, so newer Bokmålsordboka data shows the new articles that lack one.
+A caller of `article.fragment` that passes no levels (the Anki deck) gets the markup without boxes.
+Not on the search's list rows, in a hover peek or in a small article (`mini.js` removes any it
+copies). Tests: `test_ordpar_levels187.py`, `test_ordpar_browser_levels187.py`.
+
+**The set phrases by level** ([188](../../docs/decisions.md#d188)). The setting `phraseorder`
+(Article › Language, right below `levels`, shown only while it is on) orders an article's embedded
+set phrases alphabetically, as the page has them and as Bokmålsordboka does (`alpha`, the default),
+or by level (`level`): A1, A2, B1, B2, C, then any phrase with no level, each level in the
+alphabetical order. In a translated article the order applies within each group: the translated
+phrases first, then the untranslated ones under their own heading. The preset *For learners*
+chooses `level`. The level order applies only while the boxes are on, so it never shows without
+them. The pages are built in the alphabetical order; the sheet draws the other. Each levelled block carries
+its level (`<div class="ordbok-expr" data-level="B1">`, `article.py` `_expr_html`) and the section,
+where any block does, the class `ordpar-exprs`; while `<html>` carries both `ordpar-levels-on` and
+`ordpar-phraseorder-level` (the head script's, before the first paint), the section and its
+untranslated group are flex columns and each block takes its place by `order` (`page.py`
+`SITE_CSS`), so the order is in place at the first paint and nothing moves on screen. In the
+flex column the gaps are rebuilt to match the block layout to the pixel (the rule's comment says
+how). So that a screen reader and the Tab key follow the drawn order too, the page script
+(`page.py` `PAGE_JS` `phord`, run from `ordparDefs`: at load, whenever the search page puts an
+article on screen, and at a change of a setting in place) puts each section's own blocks, and its
+untranslated group's apart, in the same order in the page itself, and back in the built order when
+either class goes. Each block's place as built is recorded once, so the way back never re-sorts
+text; only the blocks out of place are moved, each with what it holds (an open small article, the
+eye's hidden lines, the examples shown), and the focus, if it was inside one, is given back without
+scrolling. The sheet draws the same order before and after, so the script moves nothing on screen;
+at a change of a setting the shell sets the class and runs the script in one go, before anything is
+drawn. Anchors and links to a set phrase (`x<id>-`), the sound icons, the eye, "Show N more
+examples", Norwegian only and print need nothing of their own; the report reader's copy reads the
+built page, so it keeps the alphabetical order. The rules reach only a section's own
+blocks and its untranslated group's, so a small article, whose box copies the blocks it shows,
+keeps the alphabetical order and the block layout's spacing even when it opens inside a block. A caller that passes no levels gets the markup
+as before. Tests: `test_ordpar_phraseorder188.py`, `test_ordpar_browser_phraseorder188.py`.
+
 **The summary gloss** sits under the headword groups in its authored order
 ([42](../../docs/decisions.md#d42)), semibold at 1.1 times the body size in the text colour;
 its sense marks stay regular.
@@ -585,6 +640,34 @@ examples' English hidden as under `examples` = `no`, each revealed by its cue); 
 change of `examples`, or the eye turned off, puts every article back. The look: floated right on
 the headword's line, a round outline in the cue's grey (#c4bcbd, at night #656161), the eye icon,
 filled with the accent and struck through while pressed, an unseen 44 × 44 px tap area.
+
+**What the eye hides** (`exeyewhat` = `examples` (default) | `all`;
+[186](../../docs/decisions.md#d186)), on the settings page right after the eye and only while it
+is on; no preset names it, so every preset puts it at `examples`. Under `examples` the eye is as
+above. Under `all` (`ordpar-exeye-all`, from the head script and `shell.js`) the eye goes on every
+article shown whole that has an English line (`enOf`), in the same places, and on none while
+definitions are in English only (`ordpar-defs-en`: a hidden definition would leave no Norwegian line
+above its cue) or under Norwegian only (the sheet hides it, as above). Its name follows its state:
+"Hide the English", pressed "Show the English" (`strings.exeye_all_hide`, `exeye_all_show`). A press
+(`blank`) blanks that article only (`ordpar-blanked`): the reader's closed pairs and examples are
+marked open first (`ordpar-eyeopened`; their own cues hidden by the sheet), the etymology's excepted;
+then every English line — the headword's gloss, each line of each definition (a formula's too; a
+definition of several lines split at its `<br>`s into `span.ordpar-eyel`), each example's English,
+each set phrase's — is hidden (`.ordpar-eyehid`) behind its own "Show English" cue, a `.ordbok-cue`
+button marked `data-ordpar-eyecue`, in the line's place. Never the etymology, which stays as the
+reader's setting draws it; never a line in a peek, a small article or a row's button; a line the
+settings do not draw at all is left alone, while an example cut by the limit is blanked, so "Show N
+more" opens it blanked and the examples shown never change at a press. An example's cue is the
+examples' cue as it stands; under any other line an empty block (`.ordpar-eyefill`) or a negative
+margin makes the cue take the hidden line's height (`fitcue`; a line of several rows as one row), so
+a reveal moves nothing below a one-row line. A cue pressed shows its line (`.ordpar-eyeshown`); a
+press on that line hides it again, its cue back and focused — taken before the click handler's own
+close of an opened pair, so the pair stays open. While blanked, no hover peek shows in the article (a
+small article's own excepted), and a list row's glosses are hidden (`ordpar-row-blanked`). The second
+press (`unblank`) gives the article back exactly, the reader's own openings and hidings included. A
+change of any setting the article depends on (`eyesig`: the eye's two, the definitions, examples,
+formula, etymology, subsense, layout, limit, emphasis and label settings, Norwegian only) gives every
+blanked article back first, at the start of `ordparDefs`, so none is left half-blanked.
 
 **The examples limit** ([112](../../docs/decisions.md#d112)): `exlimit` = `all` | `1` … `10`
 (default `all`), the one setting drawn as a drop-down (`control: 'select'` in `shell.js`
@@ -882,6 +965,9 @@ accessible name leads with its subsection heading (`aria-labelledby` = the `h3` 
 | Article › Language | `defs` | `both` \| `en` \| `no` | § Definition lines |
 | Article › Language | `examples` | `both` \| `no` | the examples' English behind a cue |
 | Article › Language | `exeye` | `off` \| `on` | the eye |
+| Article › Language | `exeyewhat` | `examples` \| `all` | what the eye hides; drawn only while `exeye` is on |
+| Article › Language | `levels` | `off` \| `on` | the CEFR level box after the headword and on each set phrase (`ordpar-levels-on`; § The headword line) |
+| Article › Language | `phraseorder` | `alpha` \| `level` | the set phrases alphabetically or by CEFR level (`ordpar-phraseorder-level`, applied only beside `ordpar-levels-on`); drawn only while `levels` is on (§ The headword line) |
 | Article › Language | `exlimit`, `exmore` | `all` \| `1`…`10`; `on` \| `off` | the examples limit |
 | Article › Language | `emph` | `no` \| `en` | the emphasized line |
 | Article › Language | `subsenses` | `defs` \| `en` | subsenses in English only |
@@ -909,7 +995,8 @@ Above the settings page's sections, after its jump links, a box "Presets" (`sett
 learners*. The one table is `settings.js` `PRESETS`: English emphasized is `emph` en, `formulas` en;
 Concise is `defs` en, `exlimit` 2, `exmore` on, `minicontent` slim, `minispacing` article, `emph` en,
 `formulas` en; For learners is `exeye` on, `emph` no, `examples` both, `subsenses` defs, `formulas`
-both; Default names none. Pressing one writes **every** Article setting (`section: 'article'`) through
+both, `levels` on ([187](../../docs/decisions.md#d187)), `phraseorder` level
+([188](../../docs/decisions.md#d188)); Default names none. Pressing one writes **every** Article setting (`section: 'article'`) through
 `setSetting`, the ones it does not name at their default; nothing outside Article changes, and the
 layer settings (`layer: true`) are never set or matched. The button whose full set the stored settings
 match is `aria-pressed="true"`, filled in the accent; it follows every change, including from another

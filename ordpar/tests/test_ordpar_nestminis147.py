@@ -7,16 +7,15 @@ Pins:
   order, default `second`, right after `minicontent` under Article -> Small articles; **`nestlimit`
   gone** from the table, from the export list (`personal.js` `SETTING_KEYS`), from the presets, from
   the strings, from `settings.js` (`shown`) and from `mini.js`.
-* **The words** (`site/strings/en.json`), exactly as Robin approved them (decisions 147, "Approve,
-  write brief").
+* **The words** (`site/strings/en.json`), exactly as approved (decisions 147).
 * **The presets** (decisions 136): Concise and For learners name `nestminis` at the new default
-  (Robin: "agree on recommendation"); Default names nothing.
+  (as recommended); Default names nothing.
 * **The script** (`site/mini.js`): it reads the four values with the default `second`, a saved
   `stacked` kept; `inPlaceAt` (from which depth a link is a step in the box it is in: in place 1,
   second 2, stacked never); one `step`/`stepBack` for every box, its steps the box's own
   (`c.steps`); `target` refuses only under `off` (no limit).
-* **Rule 3** at source level (Robin, 2026-10-29: "interacting inside the small article boxes should
-  never scroll the main window"): no `scrollTo`, `scrollBy` or `scrollIntoView` in `mini.js`; every
+* **Rule 3** at source level (nothing done inside the small article boxes ever scrolls the main
+  window): no `scrollTo`, `scrollBy` or `scrollIntoView` in `mini.js`; every
   `focus(` is `preventScroll` (the old fallback to a plain `focus()` gone); the boxes out of scroll
   anchoring; `hold` before each change that can shorten the page.
 * **The address** (decisions 146, the head script `sitegen/head.py` `THEME_JS`, run under bun or

@@ -1,4 +1,4 @@
-// The readers' survey (site decisions 173, Robin 2026-11-07: "Ordpar — your first impressions", our
+// The readers' survey (site decisions 173, "Ordpar — your first impressions", our
 // own page in place of the Google form, kept after launch): the rules for a set of answers, pure
 // functions with no Cloudflare in them. The endpoints are worker.js's (`handleSurvey`,
 // `handleSurveys`); what is kept and for how long: ordpar/docs/receiver.md § The survey.

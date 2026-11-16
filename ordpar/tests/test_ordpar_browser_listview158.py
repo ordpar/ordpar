@@ -1,10 +1,9 @@
 """Site decisions 158 (Robin, 2026-11-01): the list view also when a search finds an inflected form,
 the new default (headless Edge, computer and phone).
 
-Robin: "only if there are just 1 search match, and no inflected forms hits, does the search open
-straight to the article. Reason: this makes it easier to find the inflected hits, instead of having
-to scroll down to the bottom of the page to find them. I'd also like to make this the default
-setting." Through `browser/listview158.js`, each step in a fresh context:
+The ruling: a search opens straight to the article only when it has one match and no
+inflected-form hits, so that the inflected hits are easy to find without scrolling to the bottom
+of the page; and this is the default setting. Through `browser/listview158.js`, each step in a fresh context:
 
 * **The default** (nothing stored): *hus* — one article, and an inflected form of *huse* — shows
   the list (one row, no article in full), its "is an inflected form of" section starting within

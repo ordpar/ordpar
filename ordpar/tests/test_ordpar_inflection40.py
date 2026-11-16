@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Pins the inflection table's decisions-40 rules (`ordpar/site/inflection.js`, Robin 2026-10-18:
-"as recommended" — ordbokene's own behaviour, checked on its live tables that day):
+"""Pins the inflection table's decisions-40 rules (`ordpar/site/inflection.js`, as recommended:
+ordbokene's own behaviour, checked on its live tables on 2026-10-18):
 
 * (g) Two paradigms of one lemma share a row or stay apart as ordbokene's live tables show,
   compared over the lemma's whole paradigm (hidden passives
@@ -18,7 +18,7 @@
   finnes's two paradigms apart.
 * (b) The comparable adverb (*ofte*) has positive / comparative / superlative with no "degrees of
   comparison" header, wide and narrow; the adjective's comparison table keeps its header.
-* Question 9 (Robin, 2026-10-18: "follow ordbokene"): every variant of a joined cell carries its
+* Question 9 (as ordbokene does it): every variant of a joined cell carries its
   own frame — *avvæpne* "avvæpn!, avvæpne!" wide and narrow, *angripe* "angrepen + noun, angrepet
   + noun" — while the narrow participle cells stay bare.
 * The narrow layout's shorter headers (2026-10-19, "follow ordbokene"): "indefinite" /
@@ -473,7 +473,7 @@ class RowOrder(unittest.TestCase):
 
 
 class EmptyComparisonRow(unittest.TestCase):
-    """Site decisions 162 (1) (Robin, 2026-11-04: "Yes, as recommended"): a comparison row with no
+    """Site decisions 162 (1), as recommended: a comparison row with no
     form in any of its cells is not drawn, wide or narrow, as ordbokene's rendered tables have it
     (headless Edge, 2026-11-04, `/eng/bm/3768` and `/eng/bm/119179` at 1,400 and 500 px): wide, the
     row is left out; narrow, the empty cells are left out of each comparison row and the others

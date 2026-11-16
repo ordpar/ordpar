@@ -26,8 +26,8 @@
   --ordpar-footer-bg: #f6f2f3;
   --ordpar-radius: 6px;
   --ordpar-max: 46rem;
-  /* the dropdown's gloss size (decisions 86, Robin 2026-10-22: "if we later change the gloss
-     size, the label follows") — the right-hand side's text and the "Norwegian only" label */
+  /* the dropdown's gloss size (decisions 86: if the gloss
+     size changes later, the label follows) — the right-hand side's text and the "Norwegian only" label */
   --ordpar-gloss-size: 0.85rem;
 }
 
@@ -451,8 +451,8 @@ html.ordpar-suggestrows-roomy .ordpar-option { padding-top: 0.625rem; padding-bo
 /* decisions 86: a translated suggestion's word in the accent, as the history's rows; a Norwegian-only
    one's (an "N articles" row whose articles are all untranslated too) in the text colour */
 .ordpar-option.is-translated .ordpar-option-word { color: var(--ordpar-accent); }
-/* SITE DECISIONS 148 (Robin, 2026-10-29: "the Norwegian headword should still be red, while the
-   English is semibold"): an English row (shell.js `englishRow`) — the suggestions, Recent,
+/* SITE DECISIONS 148 (the Norwegian headword still red, the
+   English semibold): an English row (shell.js `englishRow`) — the suggestions, Recent,
    History, the similar English words — its English word semibold in the text colour, its
    Norwegian headwords on the right semibold in the accent, each first spelling with its numeral
    and, while they fit, its word class (faded italic, `.ordpar-pos`) */
@@ -504,7 +504,7 @@ html.ordpar-suggestrows-roomy .ordpar-option { padding-top: 0.625rem; padding-bo
 .ordpar-option-word .ordpar-option-alt { font-weight: 400; }
 .ordpar-option-glosses.is-pending { visibility: hidden; }
 .ordpar-option-more { flex: 0 0 auto; }
-/* A13 point 1 (Robin 2026-10-21): a row that still overflows once its other forms and its word
+/* Site decisions 82 (Robin 2026-10-21): a row that still overflows once its other forms and its word
    class are gone cuts the word with an ellipsis, to the width shell.js fitRow leaves it */
 .ordpar-option-main.is-cut { min-width: 0; }
 .ordpar-option-main.is-cut .ordpar-option-word {
@@ -695,8 +695,8 @@ html.ordpar-suggestrows-roomy .ordpar-option { padding-top: 0.625rem; padding-bo
 .ordpar-en-hit { font-weight: 700; }
 /* a snippet line held empty until its file arrives (lookup.js `fillSnippets`) */
 .ordpar-row-snippet.is-pending, .ordpar-hit-snippet.is-pending { visibility: hidden; }
-/* SITE DECISIONS 116 (Robin, 2026-10-24: "semibold for *English equivalents* only, and the `·`
-   being faded"; "English definition lines also stays regular text"): a SUMMARY GLOSS (42) in a
+/* SITE DECISIONS 116 (semibold for English equivalents only, the `·`
+   faded, English definition lines in regular text): a SUMMARY GLOSS (42) in a
    row — the suggestions and their gloss lists, Recent, History, the list view, favourites, the
    inflected-form rows — semibold at its own size and colour, marked by the script that writes it
    (`ordpar-sgloss`, lookup.js `writeGloss`; never a whole-row selector, so a definition line,
@@ -811,8 +811,8 @@ html.ordpar-suggestrows-roomy .ordpar-option { padding-top: 0.625rem; padding-bo
 .ordpar-report-status--failed { color: var(--ordpar-accent); }
 .ordpar-report-done { font-size: 0.95rem; }
 
-/* The phone row (site decisions 166, Robin 2026-11-05: "they drop the 'copy link' button on narrow
-   screens", as ordbokene.no does): at the phone breakpoint Copy link is not shown WHERE SHARE IS —
+/* The phone row (site decisions 166: no 'copy link' button on narrow
+   screens, as on ordbokene.no): at the phone breakpoint Copy link is not shown WHERE SHARE IS —
    the phone's share sheet has its own copy — so Share, "Suggest a correction" and the heart keep
    one line. Where the browser has no Share, Copy link stays. Both places the foot row is made: the
    article page (`page.PAGE_JS` `foot`: `#ordpar-copy`, `#ordpar-share`, hidden until the browser
@@ -989,7 +989,7 @@ html.ordpar-suggestrows-roomy .ordpar-option { padding-top: 0.625rem; padding-bo
   font-size: 0.9rem;
 }
 
-/* site decisions 142 (Robin, 2026-10-27, the lab's "session's draft", placed under Random word):
+/* site decisions 142 (the lab's "session's draft", placed under Random word):
    the home page's line to "More ways to use Ordpar", at the top of the main area, in the notes'
    plain muted look, its link underlined in the accent colour. Shown only while nothing is
    searched (`ordpar-idle`, lookup.js `render`); `shell.js` `addMoreLine` makes it. Lined up with
@@ -1081,8 +1081,8 @@ html.ordpar-suggestrows-roomy .ordpar-option { padding-top: 0.625rem; padding-bo
   padding: 0;
 }
 /* a choice: its button its own size, the label taking the rest of the line and wrapping inside it,
-   its first line level with the button (decisions 120, Robin 2026-10-24: "the text for an option
-   should wrap so that it starts on the same line as the button"; until then the row wrapped, and a
+   its first line level with the button (decisions 120: an option's text
+   wraps so that it starts on the same line as the button; until then the row wrapped, and a
    long label dropped whole below its button on a phone). Baseline alignment puts the button by the
    label's first line, a swatch's line too */
 .ordpar-radio {
@@ -1235,7 +1235,7 @@ html.ordpar-suggestrows-roomy .ordpar-option { padding-top: 0.625rem; padding-bo
   font-size: 0.85rem;
 }
 /* by day the muted grey #757070 is 4.39:1 on the footer's ground, under WCAG's 4.5:1; a step
-   darker there, 5.32:1 (Robin, 2026-10-20: "ok"). The night grey passes and is untouched. */
+   darker there, 5.32:1 (Robin, 2026-10-20). The night grey passes and is untouched. */
 html:not(.nightMode) .ordpar-footer { --ordpar-muted: #686363; }
 .ordpar-footer-inner {
   max-width: var(--ordpar-max);

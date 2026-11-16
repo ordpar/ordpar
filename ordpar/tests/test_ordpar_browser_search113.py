@@ -1,8 +1,7 @@
 """Site-review decisions 113 (Robin, 2026-10-24): the search on a phone (headless Edge).
 
-Robin: "On the phone, when you search for a word, if you use the "enter" key to do the search, the
-keyboard doesn't go away … Same if you click any of the autocomplete suggestions; the keyboard stays
-up." And: "it starts writing with a capatilized letter." Checked through `browser/search113.js`:
+The finding: on a phone, a search made with the Enter key, or by tapping a suggestion, left the
+keyboard up, and the box started writing with a capital letter. Checked through `browser/search113.js`:
 
 * **The focus.** On a phone (touch emulation: `(pointer: coarse)`), after a search by Enter, by a
   tapped suggestion and by Enter on a highlighted suggestion, on the search page (answered in place)

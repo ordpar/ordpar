@@ -4,8 +4,7 @@
 built 2026-10-20). Pure string work, no I/O:
 
 * `strip_js` / `strip_css` — the published scripts and stylesheets ship without comments
-  (decisions 61, Robin 2026-10-20: "the published scripts and stylesheets ship without
-  comments", by a small build step of our own, no third-party minifier). Comments only: names,
+  (decisions 61, by a small build step of our own, no third-party minifier). Comments only: names,
   line breaks and code stay as written; a `/*!` header goes too. Strings, template literals and
   regular-expression literals are read as such, so a `//` or `/*` inside one is kept.
 * `strip_indent` — the indentation at the start of every line (`\\n[ \\t]+` -> `\\n`), the

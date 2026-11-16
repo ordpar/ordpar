@@ -49,7 +49,7 @@
  * first Norwegian definition (`nbPeek`) follows it too: under `click` it fetches no `snip/` file
  * (site decisions 185).
  *
- * The width on a computer (`(hover:hover) and (pointer:fine)`; decisions 80, Robin 2026-10-22: the
+ * The width on a computer (`(hover:hover) and (pointer:fine)`; decisions 80: the
  * style lab's row 7, "Fit-to-height <=36rem"; row 6's 32rem until the same day): the sheet lets
  * the box shrink to its content between a floor of 12rem and a ceiling of
  * min(36rem, max(19rem, 50vw), 100vw - 1rem) (`page.SITE_CSS`), which holds without script; `fit` then takes the NARROWEST width with the same content height as
@@ -60,9 +60,9 @@
  * live in one place. On a phone the box keeps the deck's 19rem and `fit` sets nothing.
  *
  * A small article inside a small article (site decisions 139, Robin 2026-10-26, built from the
- * nested-mini lab; four choices since site decisions 147, Robin 2026-10-29: "A top link inside a
- * small article should open its small article in a second box. But a link inside the second box
- * should open in-place. This will be the new default"): a link inside an open mini is upgraded
+ * nested-mini lab; four choices since site decisions 147 (by default, a top link inside a
+ * small article opens its small article in a second box, and a link inside the second box
+ * opens in place): a link inside an open mini is upgraded
  * too, as the setting `nestminis` says (`target`, `depthOf`). Two ways a link can open, and the
  * choice says from which box on a link changes the box it is in (`inPlaceAt`):
  *   a box    a new box (`.ordpar-mnest`) below its word inside the box it is in. It hangs in that
@@ -93,8 +93,8 @@
  * `<template id="ordpar-t-<id>">`, so a link whose target the note does not carry keeps today's
  * behaviour.
  *
- * Nothing done inside a box scrolls the page (decisions 147, Robin 2026-10-29: "interacting inside
- * the small article boxes should never scroll the main window"): opening, a step, a step back, the
+ * Nothing done inside a box scrolls the page (decisions 147: nothing done inside
+ * the small article boxes ever scrolls the main window): opening, a step, a step back, the
  * back line, Escape, a click that closes, a box's content arriving. A step back puts back only the
  * box's own `scrollTop` (on a phone and with `miniscroll` off the box has no scroll of its own, so
  * the page stays where the reader left it). Every focus is `preventScroll`; the boxes are kept out
@@ -103,8 +103,8 @@
  * tall as the bottom of what the window shows, so the browser never pulls it up — lowered again as
  * the reader scrolls up, so it never adds room below what was on screen.
  *
- * A peek inside a mini (site decisions 141, Robin 2026-10-26: "the mini stays the same size, but
- * the hover is still displayed in full while extending beyond its edge"): the mini's box scrolls,
+ * A peek inside a mini (site decisions 141: the mini stays the same size, and
+ * the hover is still shown whole, past its edge): the mini's box scrolls,
  * so a peek placed in it by the sheet (`position:absolute` from its word) was cut off at the box's
  * edge. On hover (`peekFix`) it is drawn against the window instead (`.ordpar-pfix`:
  * `position:fixed`, so no scrolling box clips it), above its word as the sheet draws it, moved
@@ -317,7 +317,7 @@
   /** Line pairs become the mini's (`mini-pair`: the setting `mini` decides, `page.SITE_CSS`), any
    *  reveal cue goes, any opened example closes (its cue comes back, `ordparExCues`, decisions 111),
    *  and every id goes (they are the target page's, and would clash here). A set phrase's "Se:"
-   *  line goes unless `SEE_IN_MINI` (decisions 153). */
+   *  line goes unless `SEE_IN_MINI` (decisions 153), and every CEFR level box goes (decisions 187). */
   function finish(root) {
     if (!SEE_IN_MINI) {   // decisions 153: the "Se:" line stays on the page (`SEE_IN_MINI`)
       Array.prototype.forEach.call(root.querySelectorAll('.ordpar-see'), function (n) { n.parentNode.removeChild(n); });
@@ -329,6 +329,9 @@
       if (has(n, 'ordpar-open')) { n.classList.remove('ordpar-open'); }
     });
     Array.prototype.forEach.call(root.querySelectorAll('.ordpar-encue'), function (b) { b.parentNode.removeChild(b); });
+    // site decisions 187: no CEFR level box in a small article (a senseless page's set phrases
+    // come with their terms)
+    Array.prototype.forEach.call(root.querySelectorAll('.ordpar-level'), function (b) { b.parentNode.removeChild(b); });
     return root;
   }
 
@@ -435,8 +438,8 @@
   function header(a, href) {
     var peek = kid(a.parentNode, 'ordbok-xpeek');
     // a Norwegian-only page's link to one sense: its peek is the sense's English definition line,
-    // which the mini's body shows, so the header is the headword alone (decisions 119, Robin
-    // 2026-10-24: "the mini header has no English glosses")
+    // which the mini's body shows, so the header is the headword alone (decisions 119:
+    // the mini's header has no English glosses)
     if (peek && peek.classList.contains('ordpar-nbdef')) { peek = null; }
     var word = a.textContent.replace(/\s+/g, ' ').trim();
     var gloss = peek ? peek.textContent.replace(/\s+/g, ' ').trim() : '';
@@ -588,8 +591,8 @@
    *  sheet's `.ordbok-xmini{top:1.7em}` from the word's `.ordbok-xref`), kept inside the window as
    *  decisions 69 keeps the first (8 px from either edge); hidden while its word is scrolled out
    *  of the box it sits in. A fixed box adds nothing to the page's height, so the page cannot be
-   *  scrolled to it: it is kept inside the window, top and bottom (site decisions 165, Robin
-   *  2026-11-04: "Yes, open it above"). Below its word when it fits there (its content's height,
+   *  scrolled to it: it is kept inside the window, top and bottom (site decisions 165,
+   *  opened above where needed). Below its word when it fits there (its content's height,
    *  under a computer's `min(70vh, 30rem)`); else, where there is more room above, ABOVE its word,
    *  its bottom the same gap above the word as its top is below it; else below. Its height is
    *  capped at the room on the side it takes (8 px from the window's edge), where it scrolls inside
@@ -626,8 +629,8 @@
     var gap = Math.max(0, top - r.bottom);
     var below = H - G - top, above = Math.floor(r.top - gap) - G;
     // the side is chosen when the box is placed on opening, on its content's arrival, on a step or
-    // a resize, and KEPT while the page or a box scrolls (`keep`; Robin, 2026-11-04: "if they
-    // opened above to begin with, they stay above"), the height capped at that side's room
+    // a resize, and KEPT while the page or a box scrolls (`keep`; decisions 165: a box
+    // opened above stays above), the height capped at that side's room
     var up = keep && typeof c.up === 'boolean' ? c.up : need > below && above > below;
     c.up = up;
     var room = Math.max(0, Math.floor((up ? above : below) - frame));
@@ -867,8 +870,8 @@
 
   /*
    * Norwegian only with the English equivalents hidden and the hovers on "Norwegian definition"
-   * (`ordpar-nbo-hovnb` on <html>; Robin 2026-10-30, "the hovers showing the Norwegian definition
-   * vs nothing"): EVERY link whose target has a first Norwegian definition shows it, translated or
+   * (`ordpar-nbo-hovnb` on <html>; the hovers show the Norwegian definition
+   * rather than nothing): EVERY link whose target has a first Norwegian definition shows it, translated or
    * not (one style). Read at hover time from the target's `snip/` file (the list rows' own file,
    * lookup-index.md § 3: an untranslated article's line is its Norwegian definition, a translated
    * one's is in `"_n"`), whose key the page carries on the link (`data-s`, `face._link`), so a page

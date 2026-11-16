@@ -5,7 +5,7 @@ import { KEEP_MIN, PACE_MAX, PACE_MINUTES } from './rules.js';
 
 export const INSERT_VIEW = 'INSERT INTO views (day, minute, path, code) VALUES (?1, ?2, ?3, ?4)';
 /** ?1 a random key (worker.js `randomKey`): `searches` is ordered by it, so its rows keep no
- *  order of arrival (104, R4; migrations/0001_init.sql). */
+ *  order of arrival (decisions 104; migrations/0001_init.sql). */
 export const INSERT_SEARCH =
   'INSERT INTO searches (id, day, kind, lang, q, word, pos) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7)';
 export const INSERT_INSTALL =

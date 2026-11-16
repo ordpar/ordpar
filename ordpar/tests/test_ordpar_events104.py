@@ -13,7 +13,7 @@ What it pins:
   nothing), or with Global Privacy Control or Do Not Track (104's box, item 2).
 * **The page view** (26; layer 4): the path only — never the search page's `#q=` — sent once, after
   the page has been visible VISIBLE_MS, or at the first scroll, tap or key; nothing while hidden.
-  **The path cleaned before sending** (104, R12, 2026-10-23): one of the site's own, else `/other`
+  **The path cleaned before sending** (decisions 104, 2026-10-23): one of the site's own, else `/other`
   (a mistyped address can hold a word), by the receiver's own pattern (`rules.js` `PATH`, the same
   text in both files).
 * **The message**: exactly its fields, sent by `fetch` with `keepalive`, `credentials: 'omit'` and
@@ -30,8 +30,8 @@ What it pins:
   (typed text, word, position from 1); a Recent row sends none; a search the reader made sends one
   `hit` or one `miss`, a re-render (not the reader's) none; a similar word chosen after a miss sends
   the miss with it.
-* **The search's language** (site decisions 148's follow-up, Robin 2026-10-29: "Yes, count
-  them"): every search and suggestion message carries `lang`, 'nb' for the Norwegian search and
+* **The search's language** (site decisions 148's follow-up, English searches counted
+  too): every search and suggestion message carries `lang`, 'nb' for the Norwegian search and
   'en' for the English one — an English hit, an English miss held until a similar English word is
   chosen (its place from 1) or the page is left, an English suggestion chosen, under the same rules
   (no digit, at most 40 characters, one per choice); through the real shell and lookup.js too.
@@ -188,7 +188,7 @@ c.E.missChoose('hoose', 'choose', 2, true); c.E.missChoose('hoose', 'choose', 2,
 c.E.missStart('hoose', true); c.fire('pagehide');                          // left: sent with none
 c.E.missStart('hoose', true); c.E.hit('hus');                              // a new search ends it
 out.english = msgs(c);
-// 104 (R12): a view's path as SENT — one of the site's own, else /other (a mistyped address)
+// decisions 104: a view's path as SENT — one of the site's own, else /other (a mistyped address)
 for (const [name, path] of [['typo', '/bm-en/hus'], ['typo2', '/bm-en/hus/'], ['article', '/bm-en/12345/'],
                             ['tooLong', '/bm-en/12345678/'], ['privacy', '/privacy/'], ['front', '/'],
                             ['other', '/finnes/ikke'], ['huge', '/' + 'a'.repeat(300)]]) {
@@ -485,7 +485,7 @@ class EventsAlone(unittest.TestCase):
             self.assertEqual(self.out["view_" + t], [{"type": "view", "path": "/bm-en/"}], t)
 
     def test_the_path_cleaned_before_sending(self):
-        # 104 (R12): a mistyped address can hold a word the reader typed; it is sent as /other
+        # decisions 104: a mistyped address can hold a word the reader typed; it is sent as /other
         want = {"typo": "/other", "typo2": "/other", "article": "/bm-en/12345/", "tooLong": "/other",
                 "privacy": "/privacy/", "front": "/", "other": "/other", "huge": "/other"}
         for name, path in want.items():
@@ -524,7 +524,7 @@ class EventsAlone(unittest.TestCase):
         ])
 
     def test_the_english_searches(self):
-        # 148's follow-up (Robin, 2026-10-29: "Yes, count them"): as the Norwegian ones, marked 'en'
+        # 148's follow-up (English searches counted too): as the Norwegian ones, marked 'en'
         self.assertEqual(self.out["english"], [
             {"type": "view", "path": "/bm-en/"},
             {"type": "hit", "query": "house", "lang": "en"},

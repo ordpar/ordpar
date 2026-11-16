@@ -84,8 +84,8 @@ class TheSettings(unittest.TestCase):
                           else "section: 'article', sub: 'language'", row)
         keys = list(rows)
         # the layer's subsection at the head of the Article settings, straight after the Style ones;
-        # labels last under Article's Language (Robin, 2026-11-02: "it belongs under "article", not
-        # style"; under Style, after the layout, until then)
+        # labels last under Article's Language (152's follow-up: it belongs under Article, not
+        # Style; under Style, after the layout, until then)
         self.assertEqual(keys[keys.index("layout") + 1:keys.index("defs")], LAYER)
         self.assertEqual(keys[keys.index("ety") + 1], "labels")
         self.assertEqual(keys[keys.index("labels") + 1], "infl")
@@ -318,8 +318,8 @@ class TheSnipFormat(unittest.TestCase):
         self.assertEqual(out2["h-u-s"]["_n"], {})                            # none translated
 
     def test_b_norwegian_definitions_kept_whole(self):
-        # site decisions 185 (Robin, 2026-11-12: "I can't imagine that there are any definitions
-        # that are so long that it makes sense to cut them off"): the hover shows a Norwegian
+        # site decisions 185 (no definition is so long that cutting it would help): the hover
+        # shows a Norwegian
         # definition whole, so the snip/ files keep every Norwegian line uncut (a translated
         # article's "_n", an untranslated article's own line); an English row line is still cut,
         # since only the one-line rows read it

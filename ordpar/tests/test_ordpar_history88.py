@@ -5,8 +5,8 @@ a history row — the dropdown's "Recent" rows and the /history/ page — draws 
 as the suggestions since decisions 82 do, not as "Norwegian only" or "N articles":
 
 * **Several articles:** their homograph-numbered glosses in the results' order (the headword
-  hits, translated first) — since 88's second amendment (Robin, 2026-10-22: "it mixes together
-  English and Norwegian sometimes (instead of the "... + N more" convention)") the TRANSLATED
+  hits, translated first) — since 88's second amendment (it had mixed
+  English and Norwegian, instead of the "... + N more" convention) the TRANSLATED
   ones only, as the suggestions list them; an untranslated article, and one with no text at
   all, counted in "+ N more"; none translated: since site decisions 144 each homograph's
   Norwegian definition (until then "N articles"); none to list: "N articles". (Until then an untranslated article
@@ -18,7 +18,7 @@ as the suggestions since decisions 82 do, not as "Norwegian only" or "N articles
 * **One untranslated article:** its Norwegian definition in place of the "Norwegian only" tag;
   with no snippet, the tag.
 * **One translated article:** its stored gloss, no fetch; an entry stored with an empty text
-  (before decisions 82's A13 point 3) is filled from the snippet.
+  (before decisions 82 made an empty one mean the snippet's first unit) is filled from the snippet.
 * **Painted at once, filled after** (`is-pending`, as the suggestions); where the search finds
   nothing now or nothing answers, the row as stored ("N articles", "Norwegian only").
 * **The wiring:** `searchRowSide` / `fillSearchRow` exported by the shell, the Recent rows filled

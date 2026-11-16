@@ -60,6 +60,11 @@ Our corrections to articles with no library row (site decisions 182): the build 
 to the mirror article in memory before anything derives or reads it (`sitegen/overlay.py`); the
 mirror file is never written. With no file, or an empty one, the build is as before.
 
+The CEFR levels (site decisions 187): the build reads `ordpar/levels.tsv` (`--levels PATH` names
+another file, `--levels ""` none), written from Ordpar's own judged levels by
+`ordpar/levels_import.py`, and draws each article's level in a box after its headword and each
+embedded set phrase's on its line (`sitegen/levels.py`); an article the file lacks gets no box.
+
 The build writes only under `--out` (default `ordpar/out/`, gitignored).
 """
 import argparse
@@ -86,6 +91,7 @@ from ordpar.sitegen import overlay as overlay_mod
 from ordpar.sitegen import describe
 from ordpar.sitegen import head as head_mod
 from ordpar.sitegen import audio as audio_mod
+from ordpar.sitegen import levels as levels_mod
 from ordpar.sitegen import thanks as thanks_mod
 from ordpar.sitegen.strings import EN
 from ordpar import build_index as index_mod
@@ -191,6 +197,11 @@ class Builder(object):
         self.audio = None
         self.audio_entries = {}
         self.audio_counts = {}
+        # site decisions 187: the CEFR levels (`levels_mod.read`, `--levels`; None: no boxes), and
+        # how many of the articles and embedded set phrases built got a box
+        self.levels = None
+        self.level_counts = {"articles": 0, "articles_without": 0, "phrases": 0, "phrases_without": 0}
+        self.level_phrase_ids = {}          # embedded set phrase id -> has a box
 
     def snip_key(self, aid):
         """The `snip/` file the article `aid` is read from by its first spelling (site decisions
@@ -265,7 +276,8 @@ class Builder(object):
         frag = article.fragment(row_no, row_en, lib, self.mk, self.strings, data=data,
                                 paradigm=not omit_paradigm, untranslated_exprs=untranslated,
                                 see_lines=True,   # decisions 153: a set phrase's own page
-                                site=True)        # site decisions 152: the labels' two copies
+                                site=True,        # site decisions 152: the labels' two copies
+                                levels=self.levels)   # site decisions 187: the level boxes
         # decisions 93 (2): the page's <title>, `data-lemma` and the "N more entries for …" link
         # follow the headword line (the mirror's spellings and numbers, in our order), not the
         # library row, so the title and the line never disagree
@@ -296,6 +308,14 @@ class Builder(object):
             change=self.changes.get(aid), pos_class=cls, numerals=numerals)
         if numerals:
             self.shared_class_titles.append((aid, describe.page_title(head, cls, True, self.strings)))
+        if self.levels is not None:
+            # site decisions 187: what got a box — the article, and each set phrase it embeds
+            # (those the fragment draws: a row in `lib`)
+            self.level_counts["articles" if aid in self.levels else "articles_without"] += 1
+            for e in root.get("exprs") or []:
+                if e in lib:
+                    self.level_counts["phrases" if e in self.levels else "phrases_without"] += 1
+                    self.level_phrase_ids[e] = e in self.levels
         if self.audio is not None:
             # site decisions 159: a `data-a` mark on each voiced element with a clip, and the
             # article's entry for its names file (`sitegen/audio.py`); after the description and
@@ -537,6 +557,30 @@ def audio_report(builder, names, files):
             "marks": tot, "files": files}
 
 
+def levels_report(builder, path):
+    """`build.json`'s `levels` (site decisions 187): the file read, and how many of the articles
+    and embedded set phrases built have a box."""
+    if builder.levels is None:
+        return {"levels_file": None, "note": "built with --levels \"\": no level boxes"}
+    c = builder.level_counts
+    ids = builder.level_phrase_ids
+    return {"levels_file": _shown(path), "levels_lines": len(builder.levels),
+            "articles_with_box": c["articles"], "articles_without_box": c["articles_without"],
+            "embedded_phrases_with_box": c["phrases"], "embedded_phrases_without_box": c["phrases_without"],
+            "distinct_embedded_phrases_with_box": sum(1 for v in ids.values() if v),
+            "distinct_embedded_phrases_without_box": sum(1 for v in ids.values() if not v)}
+
+
+def levels_line(builder):
+    """The build's line on the CEFR levels (site decisions 187): how many articles and distinct
+    embedded set phrases built have no level, and so no box."""
+    c, ids = builder.level_counts, builder.level_phrase_ids
+    return ("levels: %d articles with a box, %d without; %d distinct embedded set phrases with a "
+            "box, %d without" % (c["articles"], c["articles_without"],
+                                 sum(1 for v in ids.values() if v),
+                                 sum(1 for v in ids.values() if not v)))
+
+
 def personal_fields(aid, data, root, snip_text, drop):
     """The fields `page.personal_attrs` writes (site decisions 60): the homograph number (and
     since decisions 93 the per-spelling numbers where they differ), the word-class code and the headword as the search index computes them (`build_index.entry`,
@@ -583,6 +627,11 @@ def main():
                          "not in the public repository (Ordpar's own is written by a script of its "
                          "private repository). Without it the pages carry no play buttons, and a "
                          "whole build removes out/audio/")
+    ap.add_argument("--levels", metavar="PATH", default=levels_mod.PATH,
+                    help="the CEFR levels the pages draw in a box after the headword and on each "
+                         "embedded set phrase (site decisions 187), read only; default "
+                         "ordpar/levels.tsv (written by ordpar/levels_import.py); \"\" for none. "
+                         "An article the file lacks gets no box")
     ap.add_argument("--mirror-corrections", metavar="PATH", default=overlay_mod.PATH,
                     help="our corrections to articles with no library row (site decisions 182), "
                          "applied to the mirror article in memory; default "
@@ -752,6 +801,15 @@ def main():
               % (len(names), _shown(a.audio_names), time.perf_counter() - t0))
     else:
         print("note: no --audio-names: the pages get no play buttons (site decisions 159)")
+    # site decisions 187: the CEFR levels, read once (an article with no line gets no box)
+    if a.levels:
+        try:
+            b.levels = levels_mod.read(a.levels)
+        except (OSError, levels_mod.Refused) as e:
+            ap.error("--levels: %s" % e)
+        print("levels: %d articles read from %s" % (len(b.levels), _shown(a.levels)))
+    else:
+        print("note: --levels \"\": the pages get no level boxes (site decisions 187)")
     pages, failures, sizes, refused = [], [], {}, []
     headless, headless_removed = [], []
     concepts_seen, t_render = set(), time.perf_counter()
@@ -896,6 +954,10 @@ def main():
     elif a.all and not a.limit and os.path.isdir(os.path.join(a.out, audio_mod.FOLDER)):
         shutil.rmtree(os.path.join(a.out, audio_mod.FOLDER))
         print("removed out/%s/ (built without --audio-names)" % audio_mod.FOLDER)
+    # site decisions 187: what has no level, said at every build, so newer Bokmålsordboka data
+    # shows how many new articles and set phrases lack a box (also in `build.json` `levels`)
+    if b.levels is not None:
+        print(levels_line(b))
     # decisions 128: the sitemap of the indexed pages — written only by a whole build, which
     # knows every translated page (a `--ids` or `--limit` run leaves the last one alone)
     sitemap = None
@@ -1017,6 +1079,8 @@ def main():
         "snippets": snippets_written,
         # site decisions 159: the clip names, the marks and the names files
         "audio": audio_report(b, names, audio_files),
+        # site decisions 187: the CEFR levels and how many pages and set phrases have a box
+        "levels": levels_report(b, a.levels),
     }
     if sizes:
         report["sizes"] = sizes
@@ -1073,7 +1137,7 @@ def write_snippets(path, pages, replace):
             snippets = {}
     for aid, got, _n in pages:
         text, lang = got["snippet"]
-        # site decisions 60, item 7(b) as amended: a third element where the autocomplete's
+        # site decisions 60 as amended: a third element where the autocomplete's
         # text is not the snippet's first unit (a translated set phrase with no gloss)
         snippets[str(aid)] = [text, lang] if got.get("drop") is None else [text, lang, got["drop"]]
         # site decisions 116: a fourth element, 1, where the snippet is the summary gloss (a
@@ -1096,8 +1160,7 @@ def write_snippets(path, pages, replace):
 
 def write_assets(out):
     """Every script and stylesheet under `out/site/` as the site serves it (`page.shipped`):
-    the copied `ordpar/site/` files stripped of their comments in place (decisions 61, Robin
-    2026-10-20: "the published scripts and stylesheets ship without comments"), the generated
+    the copied `ordpar/site/` files stripped of their comments in place (decisions 61), the generated
     ones (`page.GENERATED`: `article.css`, `page.css`, `article.js`, `theme.js` and the combined
     `ordpar.css` / `ordpar.js` / `shell-pages.css` / `shell-pages.js`) written, and the service
     worker at the root stripped too. The pages' `?v=` hashes are of exactly these bytes."""

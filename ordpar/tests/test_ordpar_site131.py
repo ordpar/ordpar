@@ -76,7 +76,7 @@ COMING_INTRO = ("What we have decided to build, and what each is waiting for. Th
 COMING_ITEMS = [
     # "English to Norwegian search." went with its build (site decisions 148, 2026-10-29)
     # "Norwegian you can listen to." went with the audio (site decisions 159, live 2026-11-02),
-    # moved on Robin's word, 2026-11-07
+    # moved to Built 2026-11-07
     ("Ordpar in Norwegian.", "The menus, the settings and the articles' labels in Norwegian, as a "
      "choice.", "the site's first full version (1.0), when its building stage ends."),
     ("More languages.", "Bokmålsordboka's articles in other languages than English.",
@@ -242,7 +242,7 @@ class TheEyeSetting(unittest.TestCase):
         js = page.PAGE_JS
         self.assertIn("EYE=" + json.dumps(strings_mod.EN["exeye_button"]), js)
         self.assertEqual(strings_mod.EN["exeye_button"], "Hide the examples' English")
-        self.assertIn("eyes();nbhw();};", js)                # run by every ordparDefs (152: nbhw)
+        self.assertIn("eyes();nbhw();phord();};", js)        # run by every ordparDefs (152: nbhw; 188: phord)
         self.assertIn("var y=t.closest('.ordpar-exeye-btn');if(y){eye(y);return;}", js)
         self.assertIn("b.type='button';b.className='ordpar-exeye-btn';b.setAttribute('aria-label',EYE)", js)
         self.assertIn("setAttribute('aria-pressed'", js)

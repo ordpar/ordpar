@@ -1,13 +1,13 @@
-// "Report a mistake" (site decisions 166, Robin 2026-11-05: "Our own receiver"; "Yes, optional
-// field"): the rules for a report, pure functions with no Cloudflare in them, and the token check
+// "Report a mistake" (site decisions 166: our own receiver; the name field
+// optional): the rules for a report, pure functions with no Cloudflare in them, and the token check
 // for Robin's two read endpoints. The endpoints themselves are worker.js's (`handleReport`,
 // `handleReports`); what is kept and for how long: ordpar/docs/receiver.md § Reports.
 //
 // A report is the one message the reader writes and sends; the counting's rules (the stats
 // setting, Global Privacy Control, Do Not Track, the bot layers) concern the counting and are not
 // applied here. Nothing about the sender is read for a report: not the address (IP), not the
-// browser name, not a code made from them (Robin, 2026-11-05: "Yes, drop it", to the per-sender
-// limit). Junk is kept out by the hidden trap field and a cap on the reports the receiver accepts
+// browser name, not a code made from them (decisions 166: the per-sender
+// limit dropped). Junk is kept out by the hidden trap field and a cap on the reports the receiver accepts
 // per UTC hour IN TOTAL, from everyone together (REPORTS_PER_HOUR): one count per hour, nothing
 // else, deleted when the hour is over.
 //

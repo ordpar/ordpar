@@ -11,7 +11,7 @@ Through `browser/pron123.js`, at 1280×900, under each `formulas` choice (the de
 * *lektor* (34785, Norwegian-only): Norwegian under every choice, "lekˊtor, i flertall lekˊtorer
   eller lektoˊrer";
 * no "?" beside the label on any of them, also where the field uses a mark the note explains
-  (decisions 123's amendment, Robin 2026-11-02: the "?" "taking unecessary space and attention"
+  (decisions 123's amendment: the "?" took space and attention for nothing
   once the sound icons were in; it had been there since 2026-10-24); the note is Help's alone;
 * `/help/`'s § Pronunciation (`#pronunciation`) holds the same note, and every page's footer links
   "Help" just before "About" ("About and licence" until site decisions 176) — on an article page and on the home page.

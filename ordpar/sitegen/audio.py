@@ -176,7 +176,9 @@ def drop_spans(s, cls_pat):
 
 
 _ANY_TAG = re.compile(r"<[^>]+>")
-_HIDDEN = r"ordbok-xpeek|sr-only|ordpar-visually-hidden"
+#: peeks, hidden readings and (site decisions 187) the CEFR level box, which a set phrase's term
+#: holds after its words: none of them is part of a text read aloud
+_HIDDEN = r"ordbok-xpeek|sr-only|ordpar-visually-hidden|ordpar-level"
 
 
 def visible(fragment):
@@ -198,7 +200,7 @@ _DEF = re.compile(r'<span class="ordbok-def"(?: lang="nb")?>')
 _COMP = re.compile(r'<div class="ordbok-sub ordpar-comp">')
 _UNTR = re.compile(r'<div class="ordpar-untr"')
 _LI = re.compile(r'<li><span(?: lang="nb")?>')
-_EXPR = re.compile(r'<div class="ordbok-expr">')
+_EXPR = re.compile(r'<div class="ordbok-expr"(?: data-level="\w+")?>')   # its level: site decisions 188
 _EXPR_ID = re.compile(r'\bid="x(\d+)-')
 _TERM = re.compile(r'<span class="ordbok-expr-term"(?: lang="nb")?>')
 _ISLAND = re.compile(r'<script type="application/json" id="ordpar-paradigm">(.*?)</script>', re.S)

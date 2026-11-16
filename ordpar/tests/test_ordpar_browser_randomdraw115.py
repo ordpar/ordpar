@@ -1,6 +1,6 @@
 """Site-review decisions 115, last paragraph (Robin, 2026-10-24): a random word is not a search (headless Edge).
 
-Robin: "I disagree. A random word is not a search, and it does not go into history". Random word
+The ruling: a random word is not a search, and it does not go into the history. Random word
 opens the drawn headword's search page (`test_ordpar_browser_random115.py` pins where it lands),
 but the draw is not recorded in History and sends no search event. Through
 `browser/randomdraw115.js`, on a computer (clicked) and a phone (tapped), with a stand-in receiver

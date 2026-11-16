@@ -1,8 +1,8 @@
 """Site-review decisions 115 (Robin, 2026-10-24): Random word opens a random headword's search (headless Edge).
 
-Robin: "ordbokenes "random word" doesn't actually open to a random article, it opens to a random
-headword search. I suggest we do it the same way (but still limited to searches were we can
-actually offer complete articles …)"; of the limit: "Just the first one is enough". Through
+The ruling: as on ordbokene.no, Random word opens a random headword's search, not a random
+article, limited to searches where we can offer complete articles; and of the limit, the first
+article is enough. Through
 `browser/random115.js`, on a computer (clicked) and a phone (tapped), four presses on the search
 page (answered in place) and two from an article page (*fly* V, 15544):
 

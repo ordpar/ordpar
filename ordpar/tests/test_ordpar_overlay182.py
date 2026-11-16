@@ -1,4 +1,4 @@
-"""Site decisions 182 (Robin, 2026-11-10: "Build the overlay"): the handover's corrections to
+"""Site decisions 182: the handover's corrections to
 articles with no library row, `review/mirror-corrections.jsonl`, applied by the site build to the
 mirror article in memory before anything derives it (`sitegen/overlay.py`; the row format is
 `docs/sessions/2026-09-19-ordpar-site-review/evidence/mirror-corrections-format-182-2026-11-10.md`).

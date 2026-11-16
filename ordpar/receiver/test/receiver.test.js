@@ -138,7 +138,7 @@ describe('parseEvent: what an event may carry', () => {
     expect(R.parseEvent(JSON.stringify({ type: 'hit', query: '  gå   hjem ' })).event.query).toBe('gå hjem');
   });
 
-  test('104 (R11): the query and the word chosen stored lower-cased, so "Hus" and "hus" are one string', () => {
+  test('decisions 104: the query and the word chosen stored lower-cased, so "Hus" and "hus" are one string', () => {
     expect(R.parseEvent(JSON.stringify({ type: 'hit', query: 'Hus' })).event.query).toBe('hus');
     expect(R.parseEvent(JSON.stringify({ type: 'hit', query: 'ÆRE Å' })).event.query).toBe('ære å');
     expect(R.parseEvent(JSON.stringify({ type: 'miss', query: 'Vus', word: 'Hus', position: 1 })).event)
@@ -329,7 +329,7 @@ describe('the endpoint: POST /e', () => {
     expect(rows('SELECT count(*) AS n FROM views')[0].n + rows('SELECT count(*) AS n FROM searches')[0].n).toBe(0);
   });
 
-  test('104 (R12): Sec-GPC: 1 — answered 204, nothing stored, no secret made', async () => {
+  test('decisions 104: Sec-GPC: 1 — answered 204, nothing stored, no secret made', async () => {
     const gpc = { headers: { 'Sec-GPC': '1' } };
     expect((await send({ type: 'view', path: '/' }, gpc)).status).toBe(204);
     expect((await send({ type: 'hit', query: 'hus' }, gpc)).status).toBe(204);
@@ -343,13 +343,13 @@ describe('the endpoint: POST /e', () => {
     expect(rows('SELECT count(*) AS n FROM searches')[0].n).toBe(1);
   });
 
-  test('104 (R11): a search is stored lower-cased', async () => {
+  test('decisions 104: a search is stored lower-cased', async () => {
     await send({ type: 'hit', query: 'Hus' });
     await send({ type: 'miss', query: 'VUS', word: 'Hus', position: 1 });
     expect(rows('SELECT q, word FROM searches ORDER BY q')).toEqual([{ q: 'hus', word: null }, { q: 'vus', word: 'hus' }]);
   });
 
-  test('104 (R4): search lines keep no order of arrival — no rowid, a random key, stored in its order', async () => {
+  test('decisions 104: search lines keep no order of arrival — no rowid, a random key, stored in its order', async () => {
     const letters = 'abcdefghijklmnopqrstuvwxyz';
     const sent = [];
     for (let i = 0; i < 40; i++) {

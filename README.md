@@ -154,7 +154,7 @@ GitHub runs the same loop on its own machine at every push, before any build, an
 articles, the search index and the offline copy: `.github/workflows/tests.yml`.
 
 As a guide: in a fresh copy of this repository on Windows, before any build and without the
-browser tests, 96 test files ran 1,585 tests, of which 157 were skipped and none failed.
+browser tests, 100 test files ran 1,660 tests, of which 167 were skipped and none failed.
 
 A skipped test prints its reason. What each file checks: [`ordpar/docs/tests.md`](ordpar/docs/tests.md).
 

@@ -20,7 +20,7 @@ What Cloudflare itself keeps (site decisions 169 (a), Robin's approval 2026-11-0
 moved to "Audio", which every build shows, the receiver's section pointing to it; the 32 days are the
 account's `httpRequestsAdaptive` lookback (`notOlderThan` 2,764,800 s, read 2026-11-06), whose records carry
 the client IP, the time and the path (the recording) for both Workers.
-The readers' survey (site decisions 173, Robin's approval 2026-11-07, "Approve all"): Google and its form gone
+The readers' survey (site decisions 173, approved 2026-11-07): Google and its form gone
 from the opening and from "Questions"; the opening names Anthropic for "a report or survey answers"; and "The
 survey", after "Reporting a mistake", inside [if survey] (chrome.SURVEY, on only with reports on). Its claims
 are held to the code by ordpar/tests/test_ordpar_survey173.py (the page ordpar/site/survey.js, the receiver

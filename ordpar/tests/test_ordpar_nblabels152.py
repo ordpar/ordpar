@@ -208,7 +208,7 @@ class TheThreeWords(unittest.TestCase):
         self.assertIn('"som forledd i ord som"', _read(ORDPAR, "sitegen", "article.py"))
 
     def test_d_a_compound_prefix_one_word_everywhere(self):
-        # Robin, 2026-11-01: "yes, it should be one word" — *kjempe-* (COMPPFX) was "prefix" /
+        # 152's follow-up: one word — *kjempe-* (COMPPFX) was "prefix" /
         # "prefiks" on its article page and "compound prefix" / "i sammensetning" in the rows
         pos = article.site_pos(frozenset({"COMPPFX"}), ())
         self.assertEqual(pos, STRINGS["pos.COMPPFX"])

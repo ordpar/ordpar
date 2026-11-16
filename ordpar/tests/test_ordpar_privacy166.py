@@ -10,7 +10,7 @@ What it pins:
   line that decides whether anything is sent), and it alone draws "Send usage statistics": the
   settings page built with the page ON and the counting OFF carries no `window.ORDPAR_COUNTING`
   (nor the old `ORDPAR_PRIVACY`), so the setting is not drawn. As committed since 2026-11-05 (166's
-  go-live, Robin: "Approve all four"): the page on, reports on (the live receiver), the counting off;
+  go-live, approved): the page on, reports on (the live receiver), the counting off;
   until then all three were off.
 * **The page's text follows the switches** (`privacy.md` `[if counting]`, `[if reports]`,
   `[if receiver]` and their `no_`, `about.privacy_text`), in all four cases: it renders without
@@ -209,7 +209,7 @@ class PageCases(unittest.TestCase):
                 self.assertEqual('as described under "Audio" below.' in t, c or r)
 
     def test_lookups_kept_on_device_in_every_build(self):
-        # site decisions 170, Robin's approval 2026-11-06 ("Approve all four"): the way to look words
+        # site decisions 170, approved 2026-11-06: the way to look words
         # up unseen, near the top (after the opening, before "What stays on your device"); the
         # offline copy and fetching ahead in "What GitHub sees", after "…roughly what was looked
         # up." and before the JavaScript and version-check sentences; "Audio"'s first sentence
@@ -254,7 +254,7 @@ class PageCases(unittest.TestCase):
                     self.assertEqual(paras[at + 1], "## What stays on your device")
                 gh = t[t.index("## What GitHub sees"):]
                 gh = gh[:gh.index("##", 3)]
-                # site decisions 170, Robin "Approve all" 2026-11-06: the "#" sentence gone, what GitHub can tell said plainly
+                # site decisions 170, approved 2026-11-06: the "#" sentence gone, what GitHub can tell said plainly
                 self.assertNotIn("after \"#\", which your browser never sends", t)
                 self.assertIn("So unless you keep the offline copy, GitHub can tell which words and articles you look up. " + github
                               + " With JavaScript turned off", gh)

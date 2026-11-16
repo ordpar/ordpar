@@ -2,7 +2,7 @@
 # as spelled, the article id(s) whose word goes first (comma-separated, in that order) and why. Read by
 # ordpar/build_index.py after E2, the frequency order (each spelling's count in NB's 2026 books shared
 # among the articles that have it, by their example sentences + 1); a word named here goes first whole, in
-# the list view's order (Robin, 2026-10-27: "within one word the list view's order wins"), the rest keep
+# the list view's order (decisions 143: within one word the list view's order wins), the rest keep
 # E2's order. The file, its entry count and any line that names no form or article in the index are in
 # the index manifest's form_order, and a full build refuses such a line. Robin rules on every entry; an entry is added only
 # where a reader would want another article first. Ordpar's own work, CC BY 4.0, like the English.

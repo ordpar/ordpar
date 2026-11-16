@@ -1,8 +1,8 @@
 """Site-review decisions 104 (Robin, 2026-10-23/24): the opt-out "Send usage statistics" on the
 settings page (headless Edge).
 
-Robin, 2026-10-24: "the privacy page and the opt out does not need to be deployed before we actually
-start the receiver". The setting `stats` (On, the default and first / Off) is drawn only while the
+Decisions 104: the privacy page and the opt-out need not be deployed before the receiver
+starts. The setting `stats` (On, the default and first / Off) is drawn only while the
 COUNTING is live (`chrome.counting()`: `events.js` `RECEIVER` set), which the build writes into the
 settings page as `window.ORDPAR_COUNTING` (`build_index.copy_shell`; the Python side:
 `test_ordpar_privacy104.py`, `test_ordpar_privacy166.py`). Until 2026-11-05 the privacy page's

@@ -11,7 +11,7 @@ What they pin (the file's own `describe` blocks):
   fields, any other dropped; 62's rule — a query with a digit (any script's) or over 40
   characters drops the event (204, nothing stored); anything not an event is a 400; a view's path
   one of the site's own, anything else stored as `/other`; the query and the word chosen stored
-  lower-cased (104 R11, 2026-10-23); the origins (ordpar.no; 127.0.0.1 only with `ALLOW_LOCAL`);
+  lower-cased (decisions 104, 2026-10-23); the origins (ordpar.no; 127.0.0.1 only with `ALLOW_LOCAL`);
   the UTC day and minute;
 * **the bot lists** (layers 2 and 5): ordinary browsers pass, crawlers, headless browsers and an
   empty browser name do not; the big clouds are data centres, Norwegian home and mobile networks
@@ -23,8 +23,8 @@ What they pin (the file's own `describe` blocks):
 * **the endpoint**: 204 with no body and CORS for ordpar.no; a view stored as day, minute, path and
   code, the address and browser name nowhere in the database; search events and installs with no
   code (and no secret read); search lines in no order of arrival — no rowid, a random 32-hex key,
-  the table in the key's order (104 R4); a request with `Sec-GPC: 1` answered 204 and nothing
-  stored (104 R12); bots and dropped events stored nowhere; anything else a 400 with no body; a
+  the table in the key's order (decisions 104); a request with `Sec-GPC: 1` answered 204 and nothing
+  stored (decisions 104); bots and dropped events stored nowhere; anything else a 400 with no body; a
   body over 512 bytes refused in bytes, chunked included;
 * **the daily run** (in SQL, as on D1): totals for every finished day not yet totalled and never
   doubled; layer 6 — a code with 100 views inside 10 minutes (a sliding window) left out of the

@@ -1,4 +1,4 @@
-// Site decisions 165 (Robin, 2026-11-04: "Yes, open it above"): a nested small article is kept inside
+// Site decisions 165: a nested small article is kept inside
 // the window. A nested box is `position: fixed`, so the page cannot be scrolled to it; until 165 it
 // always opened below its word, at least 160 px tall, and ran past the window's bottom when its word
 // sat near it. Now it opens above its word when the room below is short and there is more above.
@@ -117,7 +117,7 @@ async function one(c) {
   }
   await sleep(600);
   out.later = await E(`H.read(${LINK})`);
-  // Robin, 2026-11-04: "if they opened above to begin with, they stay above" — the page scrolled
+  // decisions 165: a box opened above stays above — the page scrolled
   // until the word has more room below than above (where a fresh placing would turn it below)
   if (out.later.above) {
     await E(`(() => { const a = ${LINK}; const r = a.getClientRects()[0];

@@ -428,9 +428,9 @@
 
   /**
    * Whether the snippet of `id` in a `snip/` file is the article's SUMMARY GLOSS (decisions 42),
-   * not its first English sense (site decisions 116, Robin 2026-10-24: "semibold for *English
-   * equivalents* only"; "English definition lines also stays regular text (when there are no
-   * summary glosses for the article)"): the file's `"_g"` list (build_index.py
+   * not its first English sense (site decisions 116: semibold for English
+   * equivalents only; English definition lines stay regular text, also when the article has
+   * no summary gloss): the file's `"_g"` list (build_index.py
    * `snippet_files`). A file without one (built before 116) marks none, so its rows stay as
    * they were.
    */
@@ -578,8 +578,8 @@
    * An article's headword line as the article page prints it (site decisions 93, Robin
    * 2026-10-22, read off ordbokene's rendered pages): each spelling with its OWN homograph
    * number — *lysing* I, *lysning* II; *avrustning*, *avrusting* II; *tore* II, *tørre* II —
-   * and the spellings separated by ", ", never the index's " / " (Robin: "the lemmas are
-   * seperated by `,` not `/`"). `word` is the index's text (`words[id][0]`) or one stored with a
+   * and the spellings separated by ", ", never the index's " / " (decisions 93: the
+   * spellings separated by a comma, not a slash). `word` is the index's text (`words[id][0]`) or one stored with a
    * favourite or a history entry, old or new (the same " / "); `hgs` the per-spelling numbers
    * where they differ, else `hg` is every spelling's. -> {parts: [{w, hg}], cut} — `cut` where
    * the text ends " …" (more than three spellings).
@@ -896,8 +896,8 @@
   }
 
   /**
-   * A one-article suggestion's line since site decisions 150 (Robin, 2026-10-29: "writing "selv"
-   * the suggestions only show the "selv..." forms of the compunds, not the "sjøl...""): the ONE
+   * A one-article suggestion's line since site decisions 150 (typing "selv", the suggestions
+   * show the compounds' "selv..." forms only, not their "sjøl..." forms): the ONE
    * spelling of the article that continues what was typed — "selv" -> *selvsagt*, "sjøl" ->
    * *sjølsagt*, as ordbokene's suggestions show each spelling apart — the first in our lemma
    * order where several do (`headLine`'s order: the article's own). The part carries that spelling's
@@ -1186,9 +1186,8 @@
   }
 
   /**
-   * An English word for Random word with "Search English words" on (site decisions 155, Robin
-   * 2026-10-31: "it chooses a random English word (instead of a Norwegian one)"; the pool his
-   * pick, "Yes, every word"): every English word the English suggestions can offer, each equally
+   * An English word for Random word with "Search English words" on (site decisions 155:
+   * a random English word instead of a Norwegian one, drawn from every word): every English word the English suggestions can offer, each equally
    * likely, as it is displayed (what a picked suggestion searches, shell.js `submit`). No list of
    * its own: `random-en.json` holds only how many words each English file holds
    * (build_index.py `english_random`, `{n: {letter: count}}`), so ONE draw over the total picks
@@ -1243,7 +1242,7 @@
   function articleUrl(id) { return config.base + 'bm-en/' + id + '/'; }
   /** A search's address: the query in the FRAGMENT (`/bm-en/#q=hus`), which a browser never
    *  sends to a server, so the search does not reach the host in a request line or a Referer
-   *  (site decisions 104, R2; until 2026-10-23 it was `/bm-en/?q=hus`, still read). */
+   *  (site decisions 104; until 2026-10-23 it was `/bm-en/?q=hus`, still read). */
   function searchUrl(q) { return config.base + 'bm-en/#q=' + encodeURIComponent(q); }
 
   /* ------------------------------------------- word pages (site decisions 117) */
@@ -1379,8 +1378,8 @@
   /* ---------------------------------------- the English search (site decisions 148) */
 
   /*
-   * Robin, 2026-10-29: "a kind of "switch" underneath the search, where switching it on makes you
-   * search for the English equivalents instead of the Norwegian headword". The index is the summary
+   * Site decisions 148: a switch under the search box which, turned on, searches the English
+   * equivalents instead of the Norwegian headwords. The index is the summary
    * glosses (build_index.py `english_index`, `english_files`; lookup-index.md § 3b): one file per
    * first letter of the key, `en/<letter>.json`, so a search, its suggestions and its similar words
    * read ONE file — `e` {key: [[id, unit, place, start, end], …]}, `a` {id: [headword text, hg, pos,
@@ -1449,8 +1448,8 @@
 
   /** One article of an English shard as the rows draw it: `word` the headword text (" / "
    *  between spellings, as `article`), `hg` / `hgs` as `article`, `first` its first spelling and
-   *  `firstHg` that spelling's numeral (Robin, 2026-10-29: "enough to show the Norwegian
-   *  main-lemma"), `band`, `rank`, `units` its summary gloss as the site draws it. */
+   *  `firstHg` that spelling's numeral (decisions 148: the Norwegian
+   *  headword alone is enough), `band`, `rank`, `units` its summary gloss as the site draws it. */
   function enArticle(shard, id) {
     var x = shard.a[String(id)] || ['', 0, '', 0, 0, []];
     var a = { id: Number(id), word: x[0], pos: x[2] || '', translated: true,
@@ -1464,7 +1463,7 @@
     return a;
   }
 
-  /** Order (c) (Robin, 2026-10-29: "C seems like a good compromise"): the equivalents in the
+  /** Order (c) (decisions 148, the compromise of the three orders): the equivalents in the
    *  gloss's units 1 and 2 as one tier, then those in unit 3 on; inside a tier the Norwegian
    *  word's band, highest first; then the earlier unit, the place in the unit, the article's rank
    *  (the suggestions' own tie-break). build_index.py `EnglishIndex.order`. */
@@ -1577,15 +1576,15 @@
   function enTokens(k) { return k.split(/[\s\-]+/).filter(Boolean); }
 
   /**
-   * The similar English words (site decisions 148 item 7, Robin 2026-10-29: "same way as the
-   * Norwegian-English search does it"): five, first the word matches — a longer equivalent
+   * The similar English words (site decisions 148 item 7, the same way as the
+   * Norwegian search does it): five, first the word matches — a longer equivalent
    * holding the searched word as a whole word ("go swimming" for *swimming*) and a word sharing
    * its stem (*swim*) — then the one-word keys of the query's letter spelled alike, within
    * `letterLimit` edits (`distance`); ranked word match first, the distance, the top band of
    * their Norwegian words, the length, the key. Site decisions 149's rule: a word whose articles
    * are all among `shown` (ids on the page) is left out, the next taking its place.
-   * Past the first letter (site decisions 148's follow-up, Robin 2026-10-29: "the English similar
-   * words reach other first letters as the Norwegian ones do"), as `similar` reaches them: a
+   * Past the first letter (site decisions 148's follow-up: the English similar
+   * words reach other first letters as the Norwegian ones do), as `similar` reaches them: a
    * wrong first letter through the tails file of the query without its first character (*hoose*
    * -> *loose*, `en/tails/o-o`), a missing one through the query's own (*hoose* -> *choose*,
    * `en/tails/h-o`), an extra one through the second letter's English file, its one-word keys
@@ -1735,7 +1734,7 @@
   }
 
   /** A screen readers' label (`ordpar-visually-hidden`), made with `data-nosnippet` (site
-   *  decisions 154, Robin 2026-10-31: Google's snippet read "være III homograph 3"): Google reads
+   *  decisions 154: Google's snippet had read "være III homograph 3"): Google reads
    *  the attribute only on an element that carries it when it is first put into the page, never
    *  one a script adds to it later, so it is set here, at the making. */
   function srOnly(text) {
@@ -2054,7 +2053,7 @@
    * row, History and Favourites (site decisions 59 (2)): Copy link, Share, "Suggest a
    * correction" (166) and the heart (60), in that order — no Cite (site decisions 21e), and no
    * "Article page" link, which ordbokene's results carry (site decisions 168, re-ruled
-   * 2026-11-06 (everywhere): Robin, "it doesn't really serve any purpose"). Copy link copies
+   * 2026-11-06 (everywhere), since it served no purpose). Copy link copies
    * the article's own page URL (`<origin>/bm-en/<id>/`), not the search's; Share shares it
    * with the headword (and its homograph numeral) as the title. As on the article page, a
    * button is shown only where the browser supports it. No ids: nothing refers to them, so a
@@ -2263,7 +2262,7 @@
   /** The right-hand text of a one-article history row, by the dropdown's rule (`shell.js`
    *  `glossText`): the set-phrase box where the article has one (`"_d"`, or a page's
    *  `data-drop`), else (an override of '' too: a set phrase with no box, site decisions 82,
-   *  A13 point 3, Robin 2026-10-21) the first unit of its snippet line. */
+   *  Robin 2026-10-21) the first unit of its snippet line. */
   function dropRule(drop, snip) {
     return drop ? drop : (snip ? String(snip).split(' · ')[0] : '');
   }
@@ -2273,8 +2272,8 @@
    * typed, trimmed (`g.query`), the number of distinct articles whose OWN headword it matched
    * (the headword hits, an accent-folded group's included) and, when that is one, its display
    * fields. The inflected-form rows are not counted, and a search that found only those records
-   * nothing (site decisions 88 as amended, Robin 2026-10-22: "a search with only inflected-form
-   * results records nothing until one is opened" — opening one records its headword,
+   * nothing (site decisions 88 as amended: a search with only inflected-form
+   * results records nothing until one is opened; opening one records its headword,
    * `recordOpened`). Several articles: written at once. One untranslated article: at once too.
    * One translated article: written at once without its right-hand text, so a page left before
    * the article arrives still has its entry (site decisions 129, 2026-10-25: a reader on a slow
@@ -2326,8 +2325,8 @@
 
   /**
    * An article a search reached through an inflected form, opened (site decisions 88 as
-   * amended, Robin 2026-10-22: "if you actually click on an inflected form to open it, then it
-   * gets added to the history"): its headword (`lemmaOf`) goes into the history as its own
+   * amended: an inflected form opened by a click
+   * goes into the history): its headword (`lemmaOf`) goes into the history as its own
    * entry, as a search for it would — the headword is looked up and recorded by
    * `recordSearch`, so *danne* opened from *dann* stores what a search for *danne* stores. A
    * stand-in is written at once, the one article as an entry for its headword, so a page left
@@ -2497,7 +2496,7 @@
     var mine = last;
     results.textContent = '';
     var g = guard(query);
-    // site decisions 142 (Robin, 2026-10-27: "It can be dropped everywhere"): an empty query
+    // site decisions 142 (the line dropped everywhere): an empty query
     // draws nothing — the line "Type a Norwegian word to search the dictionary." is gone — and
     // marks the page idle, for the home page's line
     idle(root, !g.ok && g.reason === 'empty');
@@ -2614,8 +2613,8 @@
       // no inflected form) each is a row, as the suggestions draw theirs (`similarRow`); a hit
       // keeps the bare list of words ("for pages that actually has a search hit, it becomes a
       // bit information overload")
-      // site decisions 149 (Robin, 2026-10-29: "a "similar headword" suggestion is only shown if
-      // it would actually lead you to articles that are not currently on the search page"): on a
+      // site decisions 149 (a similar headword is shown only if it would lead to articles
+      // not already on the search page): on a
       // page that shows articles, a similar headword whose own search would show only those is
       // left out (`dropRepeats`) and the next takes its place — so the pass is asked for more
       var showing = res.count || res.forms.some(function (grp) { return grp.articles.length; });
@@ -2722,7 +2721,7 @@
    * (`englishSimilar`): the suggestion rows after a miss (`ordparShell.englishRow`), the bare
    * list after a hit, each a link to its English search (`#en=`). A hit the reader made goes into
    * History, marked English (`recordEnglish`); a miss never. The search's event (decisions 62, as
-   * the Norwegian search sends it; 148's follow-up, Robin 2026-10-29: "Yes, count them"): a
+   * the Norwegian search sends it; and counted, 148's follow-up): a
    * search the reader made sends a hit, or a miss held until a similar English word is chosen (its
    * place from 1) or the page is left, each marked English (`events.js`, `lang` 'en'); a re-render
    * sends none. -> the lookup's answer.
@@ -2760,8 +2759,8 @@
         var hits = el('section', 'ordpar-hits ordpar-hits-en');
         hits.appendChild(resultsHeading(res.count));
         if (res.count === 1) {
-          // Robin, 2026-10-29: "if there is only one matching Norwegian headword to the English
-          // equivalent, it can probably go straight to the article" — with the page's own title
+          // Site decisions 148: one Norwegian headword matching the English equivalent goes
+          // straight to the article, with the page's own title
           var full = hits.appendChild(fullArticles(arts, Object.create(null)));
           full.shown.then(function () {
             var art = hits.querySelector('.ordpar-result');
@@ -2865,9 +2864,9 @@
   }
 
   /**
-   * One similar headword after a miss as a row (site decisions 144, Robin 2026-10-27: "set up
-   * the 'Similar headwords' section similar to how the deck shows the 'Also on ordpar.no:' list
-   * … I would style it similar to the search suggestions list"): an `<a>` drawn by the shell's
+   * One similar headword after a miss as a row (site decisions 144: the
+   * 'Similar headwords' section set up like the deck's 'Also on ordpar.no:' list, styled
+   * like the search suggestions): an `<a>` drawn by the shell's
    * own row code, the code of the suggestions and History — the word (`lang="nb"`), in the
    * accent where an article it heads is translated, its word class where it heads one article
    * (`searchRowMain`); then its side (`searchRowSide`, `fillSearchRow`): one article's summary
@@ -2989,8 +2988,8 @@
             return;
           }
           if (typeof w === 'number') { global.location.href = articleUrl(w); return; }
-          // a draw is not a search (decisions 115, Robin 2026-10-24: "A random word is not a
-          // search, and it does not go into history"): answered as one, but marked as drawn —
+          // a draw is not a search (decisions 115: a random word is not a
+          // search, and does not go into the history): answered as one, but marked as drawn —
           // in place by the history entry's state, from another page by DRAWN_MARK in the
           // fragment, which the search page takes into the state at once (`takeDrawn`)
           if (S && S.search && S.search(w, { random: true })) {
@@ -3013,8 +3012,8 @@
     return !!(S && S.direction && S.direction() === 'en') && !(S.equivHidden && S.equivHidden());
   }
 
-  /** Random word's draw made ahead (site decisions 180, Robin 2026-11-09: "make the "random word"
-   *  button also pre-fetch when the mouse pointer is hovering for 150 ms"): on ahead.js's rest or
+  /** Random word's draw made ahead (site decisions 180: the Random word
+   *  button fetches ahead too once the pointer rests on it for 150 ms): on ahead.js's rest or
    *  touch, the word drawn then, in the direction of that moment, and kept on the button
    *  (`btn.ordparDraw = {en, word: promise}`) for its click (`wireRandom`), which takes it; a
    *  second rest before the click keeps the same draw, a rest after the direction changed draws

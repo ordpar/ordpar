@@ -104,7 +104,7 @@ class PosLine(unittest.TestCase):
 
 
 class PosWording(unittest.TestCase):
-    """76's wording match (Robin, 2026-10-21: "let's match theirs"): `article.site_pos` against
+    """76's wording match (ours matching theirs): `article.site_pos` against
     ordbokene's rendered labels for the same tag sets
     (`…/evidence/pos-wording-76-2026-10-21/`)."""
 

@@ -2,8 +2,8 @@
 
 The setting `nestminis` gets four choices — in place, **second** (the new default: a link in the
 first box opens a second box, a link inside the second box changes that box, with the "← word" line
-back), stacked, off — and no limit. And Robin's rule: "interacting inside the small article boxes
-should never scroll the main window". Through `browser/nestminis147.js`, with real mouse clicks and
+back), stacked, off — and no limit. And the rule that nothing done inside the small article boxes
+ever scrolls the main window. Through `browser/nestminis147.js`, with real mouse clicks and
 real keys, on *båt* (8608) -> *skip (II)* (52833) -> *slagskip* (54202) -> *krigsskip* (32118) ->
 *orlogsskip* (43359), all translated:
 
@@ -185,7 +185,7 @@ class Nest147(unittest.TestCase):
             self.assertEqual(g["esc"], [3, 2, 1, 0], where)
 
     def test_d_rule_three_the_page_never_moves(self):
-        # Robin, 2026-10-29: "interacting inside the small article boxes should never scroll the main window"
+        # decisions 147: nothing done inside the small article boxes ever scrolls the main window
         moved, broken = [], []         # every move in every run and mode, listed at once
         for run, a in RUNS.items():
             if "rule3" not in a["groups"]:

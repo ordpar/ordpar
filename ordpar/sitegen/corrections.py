@@ -95,8 +95,8 @@ KIND_GROUP = {
 #: (the session's call, decisions 106).
 GROUPS = ["xref", "headorder", "typo", "form", "punct", "compounds", "fragment", "misplaced",
           "setphrase", "wordclass", "anchor", "damage"]
-#: The About page's buckets (Robin 2026-10-23: "a concise bulleted list of every type of change
-#: + the count"): cross-references; typos, punctuation and formatting; the headword's order;
+#: The About page's buckets (decisions 106: a concise bulleted list of every type of change
+#: with its count): cross-references; typos, punctuation and formatting; the headword's order;
 #: the rest, which the page names by these groups' own phrases (`about_other`).
 ABOUT_BUCKET = {"xref": "xref", "headorder": "headorder", "typo": "spelling", "punct": "spelling"}
 ABOUT_BUCKETS = ["xref", "spelling", "headorder", "other"]

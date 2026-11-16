@@ -1,8 +1,8 @@
 """Site-review decisions 116 (Robin, 2026-10-24): only the summary glosses semibold, the "·" faded (headless Edge).
 
-Robin's pick: "semibold for *English equivalents* only, and the `·` being faded" — the summary
-glosses (42) at weight 600, at their sizes and colour, wherever a row shows them; "English
-definition lines also stays regular text (when there are no summary glosses for the article)",
+The ruling: semibold for English equivalents only, and the `·` faded — the summary
+glosses (42) at weight 600, at their sizes and colour, wherever a row shows them; English
+definition lines stay regular text, also where the article has no summary glosses,
 and every Norwegian line too; the " · " between glosses in the muted grey (`--ordpar-muted`,
 #757070, night #b9b6b6) "(but still semibold)" — in the weight of the gloss it opens. Read piece
 by piece in each place (`browser/rowgloss116.js`), light and dark:

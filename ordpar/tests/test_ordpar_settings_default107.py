@@ -1,7 +1,7 @@
 """Site-review decisions 107 (Robin, 2026-10-23): every setting lists its default first.
 
-Robin: "please change the default setting to be the one listed first. Currently the compact vs as
-the article mini spacing has the default option (as the article) as second". The settings page
+The ruling: each setting's default is the choice listed first (the mini spacing's default, "as
+the article", had been listed second). The settings page
 draws each setting's choices in the order of its `values` in `ordparShell.SETTINGS`
 (`ordpar/site/shell.js`), so the rule is that each entry's `def` is its first value. The colour
 choices come from the colour table (`sitegen/colours.py`), whose first scheme must be `DEFAULT`.

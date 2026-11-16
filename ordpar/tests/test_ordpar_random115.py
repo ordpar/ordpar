@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Pins Random word's pool as headwords (site-review decisions 115, Robin 2026-10-24: "ordbokenes
-"random word" doesn't actually open to a random article, it opens to a random headword search …
-Just the first one is enough. The stricter rule would e.g. disqualify "fly""):
+"""Pins Random word's pool as headwords (site-review decisions 115: as on ordbokene.no,
+Random word opens a random headword's search, not a random article, and the first article is
+enough; a stricter rule would leave out words such as "fly"):
 
 * `random.json` holds HEADWORDS (`build_index.random_headwords`), and a headword is in it when the
   FIRST article its search shows meets decisions 67's bar (`random_pool`: translated, not a set

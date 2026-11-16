@@ -1,4 +1,4 @@
-// Site decisions 166 (Robin, 2026-11-05, "Yes, as proposed"): the address that opens an article's
+// Site decisions 166: the address that opens an article's
 // "Suggest a correction" form on arrival, for the deck's link on every card — `/bm-en/<id>/#report`
 // (`report.js` `ADDRESS_KEY`, `fromAddress`, called by the article page's script once its foot row
 // is in the page).

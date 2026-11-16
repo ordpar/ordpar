@@ -38,6 +38,8 @@ PAGES = os.path.join(ROOT, "ordpar", "out", "bm-en")
 TITLE = re.compile(r"<title>(.*?)</title>", re.S)
 HW = re.compile(r'<(h1|p) class="ordpar-hw"[^>]*>(.*?)</\1>', re.S)
 SR = re.compile(r'<span class="sr-only"[^>]*>.*?</span>', re.S)   # [^>]*: data-nosnippet (site decisions 154)
+#: the CEFR level box (site decisions 187), last in the `h1` and off by default: not part of the headword
+LEVEL = re.compile(r'<span class="ordpar-level".*?</span></span>', re.S)
 NUM = re.compile(r'<span class="ordbok-homograph"[^>]*>.*?</span>', re.S)
 POS = re.compile(r'<span class="ordbok-pos"[^>]*>(.*?)</span>', re.S)
 TAG = re.compile(r"<[^>]+>")
@@ -64,8 +66,8 @@ def title_and_lines(page):
     found = list(HW.finditer(page, head, end))
     if not found:
         return title, None
-    line = ", ".join(text(SR.sub("", x.group(2))) for x in found)
-    bare = ", ".join(re.sub(r" ,", ",", text(NUM.sub("", SR.sub("", x.group(2))))) for x in found)
+    line = ", ".join(text(SR.sub("", LEVEL.sub("", x.group(2)))) for x in found)
+    bare = ", ".join(re.sub(r" ,", ",", text(NUM.sub("", SR.sub("", LEVEL.sub("", x.group(2)))))) for x in found)
     pos = POS.search(page, head, end)
     cls = text(re.sub(r"<i>.*?</i>", "", pos.group(1))) if pos else ""
     tail = (" (%s)" % cls if cls else "") + DICT

@@ -1,8 +1,7 @@
 """Site decisions 180 (Robin, 2026-11-09): everything that opens something of the site loads ahead (headless Edge).
 
-Robin: "I suggest we make the "random word" button also pre-fetch when the mouse pointer is
-hovering for 150 ms", then "Same with everything actually (unless there are some expections
-where it makes sense to not pre-fetch)", then "Yes, build it". Through `browser/ahead180.js`, on a
+The ruling: the Random word button fetches ahead once the pointer has rested on it for 150 ms,
+and so does everything else, with the exceptions where fetching ahead makes no sense. Through `browser/ahead180.js`, on a
 computer, each case in a fresh context, every request the page makes recorded (CDP; the harness's
 server sends `no-store`, so a request repeated is a fetch made again):
 

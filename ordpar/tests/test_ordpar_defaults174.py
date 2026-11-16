@@ -1,10 +1,10 @@
 """Site decisions 174 (Robin, 2026-11-07): Norwegian emphasized and formula lines in both languages
 as the defaults; a fourth preset, "English emphasized", with the old ones.
 
-Robin: "make the default be to use "Norwegian emphasized" option in the settings. For "Short formula
-lines, such as "used as an adverb:" the default option should be "In Norwegian and English".
-Together with this, we can add a new preset called "English emphasized" which used the old
-defaults"; then "Yes, as drafted" to the defaults, the preset, Concise kept, the words and Help.
+The ruling: the "Norwegian emphasized" option the default, and Short formula lines such as "used
+as an adverb:" defaulting to "In Norwegian and English"; with it, a new preset, "English
+emphasized", holding the old defaults; the defaults, the preset, Concise kept, the words and Help
+as drafted.
 
 Pins:
 
@@ -65,7 +65,9 @@ CONCISE_NOTE = ("for when you only need the meaning: each definition in English 
                 "articles a little shorter. An article not yet translated still shows its Norwegian.")
 LEARNERS_NOTE = ("for reading the Norwegian first: an eye beside the headword hides the examples' "
                  "English; in each definition the Norwegian in full colour and the English faded; "
-                 "short formula lines in both languages.")
+                 "short formula lines in both languages; each word's CEFR level in a small box "
+                 "after the headword, with the set phrases ordered by level, A1 first.")
+# site decisions 187: the level box's clause; 188: the set phrases' order, a draft for Robin
 HELP_PRESETS = ("four buttons set all the article settings at once: *Default*, *English emphasized*, "
                 "*Concise* and *For learners*.")
 HELP_ENGLISH = ("**The English first: English emphasized.** For when you read mostly for the English. "
@@ -79,7 +81,9 @@ RULED = [
     ("concise", {"defs": "en", "exlimit": "2", "exmore": "on", "minicontent": "slim",
                  "minispacing": "article", "nestminis": "second", "emph": "en", "formulas": "en"}),
     ("learners", {"exeye": "on", "emph": "no", "examples": "both", "subsenses": "defs",
-                  "formulas": "both", "nestminis": "second"}),
+                  "formulas": "both", "nestminis": "second",
+                  "levels": "on",   # site decisions 187
+                  "phraseorder": "level"}),   # site decisions 188
 ]
 
 

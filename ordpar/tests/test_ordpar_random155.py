@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Site decisions 155 (Robin, 2026-10-31): Random word in English when "Search English words" is on.
 
-Robin: "when "Search English words" is switched on, it chooses a random English word (instead of a
-Norwegian one)"; the pool his pick, "Yes, every word" — every English word the English suggestions
+The ruling: with "Search English words" on, Random word chooses a random English word instead of a
+Norwegian one, from every English word the English suggestions
 can offer, each equally likely, opened exactly as if typed and picked. Pinned here (the click in a
 browser: `test_ordpar_browser_random155.py`):
 

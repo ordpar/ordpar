@@ -20,7 +20,7 @@ prototypes and `build.json`) that points inside the site — a path from `/`, a 
 * a fragment `#q=…` is a search (decisions 104), not an anchor: the page must exist (the search
   page `/bm-en/`, or since 117 a word page `/bm-en/<word>/#q=<word>`, a similar headword's link);
 * a `#anchor` must be an `id` (or `<a name>`) on its target page — the same page for a bare one;
-  16 known exceptions, ordbokene's own dangling definition ids, are listed in `KNOWN_DANGLING`.
+  14 known exceptions, ordbokene's own dangling definition ids, are listed in `KNOWN_DANGLING`.
   The settings page is drawn by its script, so its sections' ids are not in its HTML: an anchor
   on `/settings/` must be one `settings.js` draws (`SCRIPT_ANCHORS`: its `SECTIONS` and the presets'
   box, read from the script; site decisions 136, the Help page's link to `/settings/#article`).
@@ -51,13 +51,13 @@ NOT_HTTP = ("mailto:", "tel:", "data:", "javascript:", "blob:")
 # and so does one that no longer occurs (remove it here).
 KNOWN_DANGLING = {
     ("bm-en/107519/index.html", "/bm-en/879/#def3"), ("bm-en/118360/index.html", "/bm-en/27521/#def4"),
-    ("bm-en/124735/index.html", "/bm-en/41276/#def2"), ("bm-en/177/index.html", "/bm-en/67061/#def4"),
+    ("bm-en/124735/index.html", "/bm-en/41276/#def2"),
     ("bm-en/27277/index.html", "/bm-en/27240/#def4"), ("bm-en/28737/index.html", "/bm-en/28738/#def4"),
     ("bm-en/42507/index.html", "/bm-en/42532/#def4"), ("bm-en/43849/index.html", "/bm-en/43877/#def4"),
     ("bm-en/46064/index.html", "/bm-en/46063/#def4"), ("bm-en/46451/index.html", "/bm-en/46456/#def4"),
     ("bm-en/47303/index.html", "/bm-en/14216/#def9"), ("bm-en/47305/index.html", "/bm-en/14216/#def9"),
     ("bm-en/62225/index.html", "/bm-en/62046/#def4"), ("bm-en/62452/index.html", "/bm-en/62451/#def3"),
-    ("bm-en/65809/index.html", "/bm-en/65804/#def4"), ("bm-en/8044/index.html", "/bm-en/8043/#def4"),
+    ("bm-en/65809/index.html", "/bm-en/65804/#def4"),
 }
 ID_SLUG = re.compile(r"^(bm-en/\d+)/.+$")
 

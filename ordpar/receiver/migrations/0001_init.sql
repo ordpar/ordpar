@@ -17,7 +17,7 @@ CREATE INDEX IF NOT EXISTS views_by_day ON views (day, code, minute);
 -- chosen and its position, or none) or 'pick' (the text typed so far, the suggestion chosen,
 -- its position); lang 'en' for the English search, 'nb' for the Norwegian one (site decisions
 -- 148's follow-up, 2026-10-29); query and word lower-cased. No code, no time of day, and no order
--- of arrival (104, R4): keyed by 32 random hex digits (worker.js `randomKey`), WITHOUT ROWID, so
+-- of arrival (decisions 104): keyed by 32 random hex digits (worker.js `randomKey`), WITHOUT ROWID, so
 -- the rows sit in the key's order and there is no insertion-order rowid to match against the view
 -- lines' minutes. Kept 90 days, then folded into search_kept (without lang). (Edited in place on
 -- 2026-10-23, and again on 2026-10-29 for lang, before any database was created on Cloudflare,

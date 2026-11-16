@@ -17,13 +17,13 @@
  * paragraph on reports. The build writes it into the line below (`page.report_js`) and refuses a
  * report.js whose line is not the empty one. Empty, as committed: no button anywhere, and nothing
  * is ever sent. It is the report's own switch, apart from the counting's (`events.js` `RECEIVER`,
- * `chrome.PRIVACY`): reports can go live while the counting stays off (Robin, 2026-11-05: "Our own
- * receiver").
+ * `chrome.PRIVACY`): reports can go live while the counting stays off (decisions 166, our own
+ * receiver).
  *
  * The button ("Suggest a correction", Robin's pick in the style lab, 2026-11-05) opens a small form
  * under the foot row, in the page: the text (required, at most MAX_TEXT characters), where the
  * mistake is (optional, a drop-down: translation, audio, Norwegian text, other), a reply address
- * (optional; Robin, 2026-11-05: "Yes, optional field"), a name to credit (optional, at most
+ * (optional, decisions 166), a name to credit (optional, at most
  * MAX_CREDIT characters, no links; 166: "a reader who wants it is credited by name on a page of
  * its own", `/thanks/`), a line linking the privacy page's section on reports (PRIVACY_HREF; site
  * decisions 166, 2026-11-05: the reader is told what happens to the report before sending it, GDPR
@@ -41,7 +41,7 @@
  * connection and keeps the text; a failed send keeps it too.
  *
  * THE ADDRESS THAT OPENS THE FORM (site decisions 166, 2026-11-05: the deck's link on every card,
- * Robin "Yes, as proposed"): `/bm-en/<id>/#report` — ADDRESS_KEY, a bare word among the fragment's
+ * as proposed): `/bm-en/<id>/#report` — ADDRESS_KEY, a bare word among the fragment's
  * `&`-separated parts, beside a search (`#q=…`) or the settings of decisions 146 (`#theme=dark&report`),
  * in any order. The head script takes only the settings table's keys off the address and keeps every
  * other part, so `report` reaches this script; it is not a setting and is never stored. On an

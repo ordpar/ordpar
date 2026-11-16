@@ -296,7 +296,7 @@ class CreditLook(unittest.TestCase):
         self.assertIn('.ordpar-thanks-credit::before{content:"\\2013\\00a0"}', page.PAGE_CSS)
 
     def test_space_between_ideas(self):
-        """Robin, 2026-11-11, "Yes, add the space": half a line between ideas; the fixes' one-line
+        """Decisions 183: half a line between ideas; the fixes' one-line
         rows unchanged."""
         from ordpar.sitegen import page
         self.assertIn(".ordpar-thanks-ideas>li+li{margin-top:.5em}", page.PAGE_CSS)

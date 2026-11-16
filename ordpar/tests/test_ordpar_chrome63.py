@@ -146,8 +146,8 @@ class Chrome(unittest.TestCase):
         self.assertNotIn("<img", self.footer)                 # no logos
 
     def test_about_and_licence_once_in_the_footer(self):
-        # Robin, 2026-10-20: "should only be shown once in the footer"; 2026-10-22: "on the same
-        # line as the other page-links" — the links row's last, no longer the credit's
+        # decisions 63: shown once in the footer, on the same
+        # line as the other page links — the links row's last, no longer the credit's
         pages = {"article": _article(), "about": page.about_page("ordpar build: t", page.EN, page.about_mod.SAMPLE)}
         pages.update(self.shells)
         for name, html in pages.items():
@@ -439,6 +439,9 @@ class SettingsPage(unittest.TestCase):
                           ("defs", "article", "language"),
                           ("examples", "article", "language"),            # decisions 111
                           ("exeye", "article", "language"),               # decisions 131
+                          ("exeyewhat", "article", "language"),           # decisions 186
+                          ("levels", "article", "language"),              # decisions 187
+                          ("phraseorder", "article", "language"),         # decisions 188
                           ("exlimit", "article", "language"), ("exmore", "article", "language"),  # 112
                           ("emph", "article", "language"), ("subsenses", "article", "language"),  # 87, 90
                           ("formulas", "article", "language"),

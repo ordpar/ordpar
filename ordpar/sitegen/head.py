@@ -160,7 +160,13 @@ THEME_JS_HREF = "/site/theme.js"
 #:   `ordpar-subsen-en`; `layout` = ordpar | ordbokene (decisions 87: the layout closer to
 #:   ordbokene.no) -> `ordpar-layout-ordbokene`; `examples` = both | no (decisions 111: the
 #:   examples' English behind a reveal, default both) -> `ordpar-examples-no`; `exeye` = off | on
-#:   (decisions 131: the eye beside the headword, default off) -> `ordpar-exeye-on`; `exlimit` = all |
+#:   (decisions 131: the eye beside the headword, default off) -> `ordpar-exeye-on`; `exeyewhat` =
+#:   examples | all (decisions 186: what the eye hides, default examples) -> `ordpar-exeye-all`; `levels` =
+#:   off | on (decisions 187: the CEFR level box after the headword and on each embedded set phrase,
+#:   default off) -> `ordpar-levels-on`, so the box shows from the first paint; `phraseorder` =
+#:   alpha | level (decisions 188: the set phrases' order, default alpha) ->
+#:   `ordpar-phraseorder-level`, which orders them by level only beside `ordpar-levels-on` (the
+#:   sheet), so the order is in place at the first paint; `exlimit` = all |
 #:   1 … 10 (decisions 112: the examples shown under each sense, default all) ->
 #:   `ordpar-exlimit-<n>`, so the sheet cuts the lists before the first paint; `exmore` = on | off
 #:   (the "Show N more examples" line, default on) -> `ordpar-exmore-off`. Each default is the
@@ -296,6 +302,12 @@ THEME_JS = ("(function(){var E=document.documentElement,c=E.classList;c.add('ord
             "s.getItem('layout')==='ordbokene'&&c.add('ordpar-layout-ordbokene');"
             "(L||s.getItem('examples')==='no')&&c.add('ordpar-examples-no');"
             "s.getItem('exeye')==='on'&&c.add('ordpar-exeye-on');"
+            # decisions 186: what the eye hides, all of its article's English
+            "s.getItem('exeyewhat')==='all'&&c.add('ordpar-exeye-all');"
+            # decisions 187: the CEFR level box, shown while the setting is on
+            "s.getItem('levels')==='on'&&c.add('ordpar-levels-on');"
+            # decisions 188: the set phrases by level (the sheet orders them only with the boxes on)
+            "s.getItem('phraseorder')==='level'&&c.add('ordpar-phraseorder-level');"
             "f=s.getItem('exlimit');/^(?:[1-9]|10)$/.test(f)&&c.add('ordpar-exlimit-'+f);"
             "s.getItem('exmore')==='off'&&c.add('ordpar-exmore-off')"
             "}catch(x){}"

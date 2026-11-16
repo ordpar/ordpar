@@ -1,6 +1,6 @@
 """Site-review decisions 119 (Robin, 2026-10-24): a Norwegian-only article's links carry their target's English, as the browser shows it (headless Edge).
 
-Robin's pick of the style lab ("Robin's pick, breaking as the article"): on a Norwegian-only
+The style lab's pick (breaking as the article): on a Norwegian-only
 article, a bare link to a translated target with summary glosses shows the glosses in its hover
 peek and in the mini's header; a link to one sense of a translated target shows that sense's whole
 English definition line in the peek, broken where the article breaks it (after each ";"), in

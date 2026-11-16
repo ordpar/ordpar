@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Pins site decisions 163 (Robin, 2026-11-04: "Yes, as recommended"): an article whose data gives
+"""Pins site decisions 163, as recommended: an article whose data gives
 no headword (`lemmas: []` — 134445, 136424 and 136509 in the mirror of 2026-11-03) gets no page,
 as ordbokene has none (its own pages for them answer "500: Error").
 

@@ -655,7 +655,7 @@ L.suggest('fly').then(r => process.stdout.write(JSON.stringify(
         self.assertIn("lookup.loadSnippets(k)", js)
         # the first unit of the snippet, unless the file's "_d" map overrides it (a translated
         # set phrase with no gloss: its set-phrase box — brief 60 item 7(b); with no box, the
-        # first unit after all, site decisions 82, A13 point 3)
+        # first unit after all, site decisions 82)
         self.assertIn("snips[id].split(' \\u00b7 ')[0]", js)
         self.assertIn("snips._d[id]", js)
         # the word class on the left, after the word, for one article only
@@ -889,7 +889,7 @@ class Wiring(unittest.TestCase):
         self.assertIn("\n.ordpar-viewline{", page.PAGE_CSS)
         for frag in ("\n.sr-only{", "\n.ordpar-caption{", "\n.ordpar-pair{", "\n.ordpar-infl-toggle{"):
             self.assertTrue(frag in css, frag)
-        self.assertIn("infl();eyes();nbhw();};", page.PAGE_JS)   # 152: the headword's icon   # decisions 131: the eye last   # decisions 123: no pronunciation "?" since 2026-11-02
+        self.assertIn("infl();eyes();nbhw();phord();};", page.PAGE_JS)   # 188: the set phrases' page order   # 152: the headword's icon   # decisions 131: the eye last   # decisions 123: no pronunciation "?" since 2026-11-02
         self.assertNotIn("localStorage.getItem('infl')==='open'){", page.PAGE_JS)
         self.assertTrue(page.asset(page.PAGE_CSS_HREF).startswith("/site/page.css?v="))
 

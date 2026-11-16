@@ -4,11 +4,10 @@ the words as proposed in docs/sessions/2026-09-19-ordpar-site-review/walk-throug
 proposal-131-site-items-2026-10-25.md. Only work that is decided, each with what it waits for, and
 no dates. Linked from the end of the About page's "How far it has come". Rendered by
 ordpar/sitegen/about.py (coming_page): the About page's Markdown subset, no build numbers.
-"Built" (site decisions 148, Robin 2026-10-29: "a "built" section where we move things as they
-land"): an item leaves the list when it is deployed and goes here, newest first, with the date of
+"Built" (site decisions 148: a section the items move to as they
+land): an item leaves the list when it is deployed and goes here, newest first, with the date of
 its deploy; only items that were on the list. "Norwegian you can listen to" moved to Built on
-Robin's word (2026-11-07: "The "coming to Ordpar" page also needs updating, since audio has now been
-added"), dated by the audio's deploy (site decisions 159, snapshot c1dbc9af53e7); its words the
+2026-11-07, when the audio had been added, dated by the audio's deploy (site decisions 159, snapshot c1dbc9af53e7); its words the
 session's, from the About page's "Hear the words", for his look. -->
 
 # Coming to Ordpar

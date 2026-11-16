@@ -79,10 +79,12 @@ class Settings(unittest.TestCase):
             self.assertIn(entry, self.js)
         order = re.findall(r"\{ key: '(\w+)'", self.js)
         # beside the definitions (after the examples' settings, decisions 111 and 112), before the
-        # formula lines and the etymology; the eye's setting under Examples since decisions 131
-        self.assertEqual(order[order.index("defs"):order.index("defs") + 9],
-                         ["defs", "examples", "exeye", "exlimit", "exmore", "emph", "subsenses", "formulas",
-                          "ety"])
+        # formula lines and the etymology; the eye's setting under Examples since decisions 131, what
+        # it hides right after it since decisions 186, the CEFR level box after them since decisions 187,
+        # the set phrases' order right below it since decisions 188
+        self.assertEqual(order[order.index("defs"):order.index("defs") + 12],
+                         ["defs", "examples", "exeye", "exeyewhat", "levels", "phraseorder", "exlimit", "exmore", "emph",
+                          "subsenses", "formulas", "ety"])
         self.assertEqual(order[order.index("lang") + 1], "layout")       # last in Style
 
     def test_the_words(self):

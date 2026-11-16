@@ -175,7 +175,7 @@ run(async () => {
       value: s ? s.value : null, label: s ? s.getAttribute('aria-labelledby') : null,
       title: f('exlimit') ? f('exlimit').querySelector('.ordpar-field-title').textContent : null,
       moreShown: vis(f('exmore')), moreTitle: f('exmore') ? f('exmore').querySelector('.ordpar-field-title').textContent : null,
-      after: order.slice(order.indexOf('examples'), order.indexOf('examples') + 3),
+      after: order.slice(order.indexOf('examples'), order.indexOf('examples') + 4),
       hints: ['exlimit', 'exmore'].map(k => !!(f(k) && f(k).querySelector('.ordpar-hint-button'))),
       stats: !!f('stats'), statsText: document.body.textContent.includes('Send usage statistics'),
       stored: localStorage.getItem('exlimit'), cls: [...document.documentElement.classList].filter(c => c.startsWith('ordpar-ex')) };

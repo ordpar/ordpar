@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """The handover's corrections to articles with no library row, applied by the site build to the
-mirror article in memory (site decisions 182, Robin 2026-11-10: "Build the overlay").
+mirror article in memory (site decisions 182).
 
 The file is `review/mirror-corrections.jsonl`; its row format and the four verdicts are the
 format file, `docs/sessions/2026-09-19-ordpar-site-review/evidence/mirror-corrections-format-182-

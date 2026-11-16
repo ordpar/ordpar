@@ -13,8 +13,8 @@ and on a phone in landscape:
 - his shot 5 made exact: the article at 1,244 px with the mount narrowed to 0.8 px less than the
   participle table's unwrapped width — where his screen's fonts put his 995 px window, and
   headless Edge's never do at his widths (its unwrapped table is 1.8 px wider than the box there);
-- column by column (Robin, 2026-10-23: "Stack column by column, widest first, until the table
-  fits"): the article at 600 px (four of the five columns stacked), at 574 px (only the fully
+- column by column (stacked one column at a time until the table
+  fits): the article at 600 px (four of the five columns stacked), at 574 px (only the fully
   stacked table fits: all five) and at 540 px (not even that: narrow);
 - the order by space saved (decisions 108, the session's call at Robin's delegation, 2026-10-23:
   at each step the column whose stacking frees the most width; ties the wider, then the

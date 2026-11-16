@@ -827,8 +827,8 @@
        — alphabetical by the row's forms, cell by cell. That last key is
        ordbokene's, not the data's paradigm order: trøtte's paradigms come as
        trøttet/trøttete, trøttet/trøttede, trøtta, and ordbokene shows trøtta,
-       then trøttede, then trøttete (live DOM, 2026-09-24; Robin: "Ours should
-       follow the same ordering as theirs"). The cells are read in the order
+       then trøttede, then trøttete (live DOM, 2026-09-24; ours follows
+       the same ordering as theirs). The cells are read in the order
        the paradigm lists them, the hidden passives included, not the
        columns' order: rådgi's rådgav / rådgivende row (passive rådgies) comes
        before its rådga, rådgav / rådgiende row (rådgis) on ordbokene, though
@@ -1100,7 +1100,7 @@
   }
 
   /* ------------------------------------------------------------------ *
-   * 9. The fit, everywhere (decisions 102, Robin 2026-10-23: "go ahead", generalising 59's
+   * 9. The fit, everywhere (decisions 102, generalising 59's
    *    measured switch in a result card, Robin 2026-10-19; the stacked step, decisions 108):
    *    the wide table is shown wherever it fits the box it sits in (the card's content box,
    *    the mount being capped there: article.css `.ordpar-inflection`), unwrapped where that
@@ -1122,10 +1122,9 @@
   /* The stacked step (decisions 108, Robin 2026-10-23): between the unwrapped wide table and
      the narrow one, the wide table with some of its columns STACKED — their cells broken only
      where ordbokene's rendered tables break (`fillCell`'s `keep`: "møtt +" over "noun", headings
-     at their spaces, never inside a form). Column by column (Robin, on the all-or-nothing first
-     build: "Stack column by column, widest first, until the table fits"; the order then
-     changed to space saved, decisions 108, the session's call at his delegation: "I didn't know
-     the ramifications when I 'ruled' widest first. You can overrule it"): where the unwrapped
+     at their spaces, never inside a form). Column by column (ruled on the all-or-nothing first
+     build: column by column, widest first, until the table fits; the order then
+     changed to space saved, decisions 108): where the unwrapped
      table (max-content) does not fit the box, its columns are stacked one at a time, until it
      fits — at each step the column whose stacking frees the most width, each column still whole
      stacked on trial in the table as it stands and the table re-measured (ties: the wider

@@ -1,5 +1,5 @@
-"""Pins the About page and the published README as ONE source text (site decisions 63, Robin
-2026-10-22: "making the README and the about page identical"), `ordpar/about.md`, rendered by
+"""Pins the About page and the published README as ONE source text (site decisions 63: the README
+and the about page identical), `ordpar/about.md`, rendered by
 `ordpar/sitegen/about.py`:
 
 * the source's Markdown subset on the page: the `# ` title, `## ` headings, paragraphs, links
@@ -120,8 +120,8 @@ class Source(unittest.TestCase):
         """The page with today's numbers is the approved box word for word, but for "Our changes to
         the Norwegian" ("What Ordpar has changed" until 2026-10-24; decisions 121 put it
         after "The English") — the headings bold there, `##` here. That section was the box's prose until
-        2026-10-23, then decisions 93 (3)'s added sentence, and since decisions 106 (Robin
-        2026-10-23: "a concise bulleted list of every type of change + the count") the list
+        2026-10-23, then decisions 93 (3)'s added sentence, and since decisions 106 (a
+        concise bulleted list of every type of change with its count) the list
         pinned in `test_ordpar_changenotice106.py`; it is cut from both sides here. Also cut, two
         paragraphs not in the approved box, both shown since 2026-11-05 because the switches are on
         (166's go-live: `chrome.REPORT_RECEIVER` set, `chrome.PRIVACY` on):
@@ -130,10 +130,10 @@ class Source(unittest.TestCase):
           166's follow-up, 2026-11-05), not yet copied into the box; `test_ordpar_thanks166.py`
           and `test_ordpar_reportswitch166.py` pin it;
         * the section "Privacy" ("What the site sends, what it keeps and for how long, and what
-          stays on your device: Privacy.", `[if privacy]`): APPROVED by Robin, 2026-11-05 ("Keep
-          it", site decisions 166), not yet copied into the box.
+          stays on your device: Privacy.", `[if privacy]`): APPROVED 2026-11-05 (kept,
+          site decisions 166), not yet copied into the box.
         Each is cut only where the page has it, so with a switch off the comparison is as before.
-        Also cut, the data sentence under "Contact" (decisions 172, Robin 2026-11-07, "yes"),
+        Also cut, the data sentence under "Contact" (decisions 172),
         pinned by `AudioLicenceAndData172` below; the recordings' licence sentence sits inside the
         span already cut (under "Hear the words")."""
         if not os.path.exists(APPROVED):
@@ -160,8 +160,8 @@ class Source(unittest.TestCase):
             # test_the_englishs_licence_in_the_codes_wording below
             text = text.replace("Whatever rights exist in it are given on the same terms",
                                 "You may reuse it on the same terms")
-            # the deck sentence under "Thanks", reworded by site decisions 178 (Robin, 2026-11-08,
-            # "Yes, as drafted": both decks, the blended order); pinned by test_ordpar_site131.py
+            # the deck sentence under "Thanks", reworded by site decisions 178 (both
+            # decks, the blended order); pinned by test_ordpar_site131.py
             s = text.find(" The same list")
             if s >= 0:
                 end = "the dictionary itself stays under CC BY 4.0."

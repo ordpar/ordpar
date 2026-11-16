@@ -4,7 +4,7 @@
 -- What each holds and how long: ordpar/docs/receiver.md § Reports.
 -- Amended in place by 166's follow-up (2026-11-05), before any deploy: the column `credit`, and
 -- the per-sender table `report_rate` replaced by `report_hours` (the per-sender limit dropped,
--- Robin: "Yes, drop it"). The file has never been applied to a remote database.
+-- decisions 166). The file has never been applied to a remote database.
 
 -- One row per report: the UTC day it arrived, the article's id, the site's build (or none), the
 -- category (or none), the text, the reply address (or none) and the name to credit (or none). No
